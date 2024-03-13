@@ -11,13 +11,13 @@ Let's Move 是Move中文发起的一项学Move获得SUI的激励计划
 
 ## 奖励明细
 
-| 任务     |         名称 | 奖励人民币 | 说明                     |
-|:-------|-----------|:-----:|:-----------------------|
-| task 1 | hello move |  ￥30  | 完成第一个合约部署上链            |
-| task 2 |  move coin |  ￥20  | 完成Coin协议学习，并发布两个Coin上链 |
-| task 3 |   move nft |  ￥20  | 完成NFT的学习，并发布NFT上链      |
-| task 4 |  move game |  ￥30  | 完成链上游戏学习，并上链交互         |
-| task 5 |  move swap |  ￥50  | 完成Swap学习，并上链交互         |
+| 任务     |         名称 | 人民币等值SUI | 说明                     |
+|:-------|-----------|:--------:|:-----------------------|
+| task 1 | hello move |   ￥30    | 完成第一个合约部署上链            |
+| task 2 |  move coin |   ￥20    | 完成Coin协议学习，并发布两个Coin上链 |
+| task 3 |   move nft |   ￥20    | 完成NFT的学习，并发布NFT上链      |
+| task 4 |  move game |   ￥30    | 完成链上游戏学习，并上链交互         |
+| task 5 |  move swap |   ￥50    | 完成Swap学习，并上链交互         |
 
 
 ## 学习资料
