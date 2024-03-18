@@ -1,33 +1,33 @@
-## 基本信息
-- Sui钱包地址: `0x1000000000000x`
-> 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `自己的githubid`
+## Basic Information
+- Sui Wallet Address: `0x1000000000000x`
+> To participate for the first time, you need to complete the first task and register your wallet address to be merged. Subsequent learning rewards will be sent to this address.
+- Github: `YourGithubID`
 
-## 个人简介
-- 工作经验: 5年
-- 技术栈: `Rust` `C++`
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `xxx` 
+## Personal Introduction
+- Work Experience: 5 years
+- Technical Stack: `Rust` `C++`
+- Years of web2 development experience, especially interested in Move and want to enter the blockchain through Move.
+- Contact Information: Telegram: `xxx` 
 
-## 任务
+## Tasks
 
-##   01 hello move  
-- [] package id: 
+##   01 Hello Move  
+- [] Package ID: 
 
-##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+##   02 Move Coin
+- [] My Coin Package ID :
+- [] Faucet Package ID :
+- [] Transfer `My Coin` Hash:
 
-##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+##   03 Move NFT
+- [] NFT Package ID :
+- [] NFT Object ID :
+- [] Transfer NFT Hash:
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [] Game Package ID :
+- [] Call Game Hash:
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [] Swap Package ID :
+- [] Call Swap Hash:
