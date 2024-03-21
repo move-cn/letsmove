@@ -25,7 +25,8 @@ sui client new-address ed25519
 sui client new-env --alias testnet --rpc https://fullnode.testnet.sui.io:443
 ```
 
-领取测试币：`curl https://getsui.com/<YOUR_WALLET_ADDRESS>`
+领取测试币：`curl http://getsui.com/<YOUR_WALLET_ADDRESS>`
+也可以在浏览器钱包中，切换到测试网领取
 
 > 命令`sui client envs` 查看当前是否处于测试网络
 
