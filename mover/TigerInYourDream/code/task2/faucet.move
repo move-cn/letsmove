@@ -1,4 +1,4 @@
-module ::faucet_coin {
+module task2::faucet_coin {
     
     use std::option;
     use sui::coin::{Self,Coin,TreasuryCap};
