@@ -360,110 +360,110 @@ sui client call --package $PACKAGE_ID --module hello --function say_hello --gas-
 
 ```
 Transaction Digest: 3Ys1pYtBSgUiXUYMsK37KPWftcXX5icbbPLgT1f1frPp
-╭─────────────────────────────────────────────────────────────────────────────────────────────╮
-│ Transaction Data                                                                            │
-├─────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Sender: 0xb31fc********c57f48                                                               │
-│ Gas Owner: 0xb31fc********c57f48                                                            │
-│ Gas Budget: 300000000 MIST                                                                  │
-│ Gas Price: 1000 MIST                                                                        │
-│ Gas Payment:                                                                                │
-│  ┌──                                                                                        │
-│  │ ID: 0x91cbd3fe3422844d015fa2a7da45721d42226cd2cd6c54f2a5097a8679fc678b                   │
-│  │ Version: 920429                                                                          │
-│  │ Digest: BgNZWUPLdG1WNxupJjP8R1RbQdqHYmLYP8GXYHEX2bg                                      │
-│  └──                                                                                        │
-│                                                                                             │
-│ Transaction Kind: Programmable                                                              │
-│   No input objects for this transaction                                                     │
-│ ╭──────────────────────────────────────────────────────────────────────────────────╮        │
-│ │ Commands                                                                         │        │
-│ ├──────────────────────────────────────────────────────────────────────────────────┤        │
-│ │ 0  MoveCall:                                                                     │        │
-│ │  ┌                                                                               │        │
-│ │  │ Function:  say_hello                                                          │        │
-│ │  │ Module:    hello                                                              │        │
-│ │  │ Package:   0x96ad76ea3a055760f257b839668c8c8d113502bcc04b688a35350b83a76abd15 │        │
-│ │  └                                                                               │        │
-│ ╰──────────────────────────────────────────────────────────────────────────────────╯        │
-│                                                                                             │
-│ Signatures:                                                                                 │
-│    FlBbaPmrMt9DNKt9EMugzYJPEzbu0YqVwOWGnn13hM+lbxVi0x8aTG+MuOidUyhR8KcJes7dzem52d2CDkFcBA== │
-│                                                                                             │
-╰─────────────────────────────────────────────────────────────────────────────────────────────╯
-╭───────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ Transaction Effects                                                                               │
-├───────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Digest: 3Ys1pYtBSgUiXUYMsK37KPWftcXX5icbbPLgT1f1frPp                                              │
-│ Status: Success                                                                                   │
-│ Executed Epoch: 318                                                                               │
-│                                                                                                   │
-│ Created Objects:                                                                                  │
-│  ┌──                                                                                              │
-│  │ ID: 0xc3eb50f39ec09e4e2eed994fdf60f855f4841b3591c94ca85e54047ed105280d                         │
-│  │ Owner: Account Address ( 0xb31fc********c57f48                                              )  │
-│  │ Version: 920430                                                                                │
-│  │ Digest: ZmguJw2kjwwrFYUYuZ8xG4EZcHc6n2CjMibhc9CjYNr                                            │
-│  └──                                                                                              │
-│ Mutated Objects:                                                                                  │
-│  ┌──                                                                                              │
-│  │ ID: 0x91cbd3fe3422844d015fa2a7da45721d42226cd2cd6c54f2a5097a8679fc678b                         │
-│  │ Owner: Account Address ( 0xb31fc********c57f48                                              )  │
-│  │ Version: 920430                                                                                │
-│  │ Digest: 74GDCP91puviUXMmMFv7EEYSkuP7uMTt4MaPxGJi3JRj                                           │
-│  └──                                                                                              │
-│ Gas Object:                                                                                       │
-│  ┌──                                                                                              │
-│  │ ID: 0x91cbd3fe3422844d015fa2a7da45721d42226cd2cd6c54f2a5097a8679fc678b                         │
-│  │ Owner: Account Address ( 0xb31fc********c57f48                                              )  │
-│  │ Version: 920430                                                                                │
-│  │ Digest: 74GDCP91puviUXMmMFv7EEYSkuP7uMTt4MaPxGJi3JRj                                           │
-│  └──                                                                                              │
-│ Gas Cost Summary:                                                                                 │
-│    Storage Cost: 2340800 MIST                                                                     │
-│    Computation Cost: 1000000 MIST                                                                 │
-│    Storage Rebate: 978120 MIST                                                                    │
-│    Non-refundable Storage Fee: 9880 MIST                                                          │
-│                                                                                                   │
-│ Transaction Dependencies:                                                                         │
-│    65HTDLBC9h1cTbdPcuDPRpL3ZJUGvgWZHaQSpVcnos2R                                                   │
-│    FAGtpXnChnj2ZPxoZvt3kAuWY7esvPHGmpHbwAAUcdPX                                                   │
-╰───────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────────────────────────────────────────╮
+│ Transaction Data                                         │
+├──────────────────────────────────────────────────────────┤
+│ Sender: 0xb31fc********c57f48                            │
+│ Gas Owner: 0xb31fc********c57f48                         │
+│ Gas Budget: 300000000 MIST                               │
+│ Gas Price: 1000 MIST                                     │
+│ Gas Payment:                                             │
+│  ┌──                                                     │
+│  │ ID: 0x91cbd3fe34228********cd26c54f2a5097a8679fc678b  │
+│  │ Version: 920429                                       │
+│  │ Digest: BgNZWUPLdG1WNxupJjP8R1RbQdqHYmLYP8GXYHEX2bg   │
+│  └──                                                     │
+│                                                          │
+│ Transaction Kind: Programmable                           │
+│   No input objects for this transaction                  │
+│ ╭────────────────────────────────────────────────────╮   │
+│ │ Commands                                           │   │
+│ ├────────────────────────────────────────────────────┤   │
+│ │ 0  MoveCall:                                       │   │
+│ │  ┌                                                 │   │
+│ │  │ Function:  say_hello                            │   │
+│ │  │ Module:    hello                                │   │
+│ │  │ Package:   0x96ad76ea3a055****a35350b83a76abd15 │   │
+│ │  └                                                 │   │
+│ ╰────────────────────────────────────────────────────╯   │
+│                                                          │
+│ Signatures:                                              │
+│    FlBbaPmrMt9DNKt9EMug********R8KcJes7dzem52d2CDkFcBA== │
+│                                                          │
+╰──────────────────────────────────────────────────────────╯
+╭──────────────────────────────────────────────────────────╮
+│ Transaction Effects                                      │
+├──────────────────────────────────────────────────────────┤
+│ Digest: 3Ys1pYtBSgUiXUYMsK37KPWftcXX5icbbPLgT1f1frPp     │
+│ Status: Success                                          │
+│ Executed Epoch: 318                                      │
+│                                                          │
+│ Created Objects:                                         │
+│  ┌──                                                     │
+│  │ ID: 0xc3eb50f39ec09e4e2e****91c94ca85e54047ed105280d  │
+│  │ Owner: Account Address ( 0xb31fc********c57f48      ) │
+│  │ Version: 920430                                       │
+│  │ Digest: ZmguJw2kjwwrFYUYuZ8xG4EZcHc6n2CjMibhc9CjYNr   │
+│  └──                                                     │
+│ Mutated Objects:                                         │
+│  ┌──                                                     │
+│  │ ID: 0x91cbd3fe3422844d********c54f2a5097a8679fc678b   │
+│  │ Owner: Account Address ( 0xb31fc********c57f48      ) │
+│  │ Version: 920430                                       │
+│  │ Digest: 74GDCP91puviUXMmMFv7EEYSkuP7uMTt4MaPxGJi3JRj  │
+│  └──                                                     │
+│ Gas Object:                                              │
+│  ┌──                                                     │
+│  │ ID: 0x91cbd3fe3422844d******2cd6c54f2a5097a8679fc678b │
+│  │ Owner: Account Address ( 0xb31fc********c57f48      ) │
+│  │ Version: 920430                                       │
+│  │ Digest: 74GDCP91puviUXMmMFv7EEYSkuP7uMTt4MaPxGJi3JRj  │
+│  └──                                                     │
+│ Gas Cost Summary:                                        │
+│    Storage Cost: 2340800 MIST                            │
+│    Computation Cost: 1000000 MIST                        │
+│    Storage Rebate: 978120 MIST                           │
+│    Non-refundable Storage Fee: 9880 MIST                 │
+│                                                          │
+│ Transaction Dependencies:                                │
+│    65HTDLBC9h1cTbdPcuDPRpL3ZJUGvgWZHaQSpVcnos2R          │
+│    FAGtpXnChnj2ZPxoZvt3kAuWY7esvPHGmpHbwAAUcdPX          │
+╰──────────────────────────────────────────────────────────╯
 ╭─────────────────────────────╮
 │ No transaction block events │
 ╰─────────────────────────────╯
 
-╭──────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ Object Changes                                                                                   │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Created Objects:                                                                                 │
-│  ┌──                                                                                             │
-│  │ ObjectID: 0xc3eb50f39ec09e4e2eed994fdf60f855f4841b3591c94ca85e54047ed105280d                  │
-│  │ Sender: 0xb31fc********c57f48                                                                 │
-│  │ Owner: Account Address ( 0xb31fc********c57f48                                              ) │
-│  │ ObjectType: 0x96ad76ea3a055760f257b839668c8c8d113502bcc04b688a35350b83a76abd15::hello::Hello  │
-│  │ Version: 920430                                                                               │
-│  │ Digest: ZmguJw2kjwwrFYUYuZ8xG4EZcHc6n2CjMibhc9CjYNr                                           │
-│  └──                                                                                             │
-│ Mutated Objects:                                                                                 │
-│  ┌──                                                                                             │
-│  │ ObjectID: 0x91cbd3fe3422844d015fa2a7da45721d42226cd2cd6c54f2a5097a8679fc678b                  │
-│  │ Sender: 0xb31fc********c57f48                                                                 │
-│  │ Owner: Account Address ( 0xb31fc********c57f48                                              ) │
-│  │ ObjectType: 0x2::coin::Coin<0x2::sui::SUI>                                                    │
-│  │ Version: 920430                                                                               │
-│  │ Digest: 74GDCP91puviUXMmMFv7EEYSkuP7uMTt4MaPxGJi3JRj                                          │
-│  └──                                                                                             │
-╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
-╭───────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ Balance Changes                                                                                   │
-├───────────────────────────────────────────────────────────────────────────────────────────────────┤
-│  ┌──                                                                                              │
-│  │ Owner: Account Address ( 0xb31fc********c57f48                                              )  │
-│  │ CoinType: 0x2::sui::SUI                                                                        │
-│  │ Amount: -2362680                                                                               │
-│  └──                                                                                              │
-╰───────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────────────────────────────────────────╮
+│ Object Changes                                           │
+├──────────────────────────────────────────────────────────┤
+│ Created Objects:                                         │
+│  ┌──                                                     │
+│  │ ObjectID: 0xc3eb50****47ed105280d                     │
+│  │ Sender: 0xb31fc********c57f48                         │
+│  │ Owner: Account Address ( 0xb31fc********c57f48      ) │
+│  │ ObjectType: 0x96ad76****0b83a76abd15::hello::Hello    │
+│  │ Version: 920430                                       │
+│  │ Digest: ZmguJw2kjwwrFYUYuZ8xG4EZcHc6n2CjMibhc9CjYNr   │
+│  └──                                                     │
+│ Mutated Objects:                                         │
+│  ┌──                                                     │
+│  │ ObjectID: 0x91cbd3fe342284****a5097a8679fc678b        │
+│  │ Sender: 0xb31fc********c57f48                         │
+│  │ Owner: Account Address ( 0xb31fc********c57f48      ) │
+│  │ ObjectType: 0x2::coin::Coin<0x2::sui::SUI>            │
+│  │ Version: 920430                                       │
+│  │ Digest: 74GDCP91puviUXMmMFv7EEYSkuP7uMTt4MaPxGJi3JRj  │
+│  └──                                                     │
+╰──────────────────────────────────────────────────────────╯
+╭──────────────────────────────────────────────────────────╮
+│ Balance Changes                                          │
+├──────────────────────────────────────────────────────────┤
+│  ┌──                                                     │
+│  │ Owner: Account Address ( 0xb31fc********c57f48     )  │
+│  │ CoinType: 0x2::sui::SUI                               │
+│  │ Amount: -2362680                                      │
+│  └──                                                     │
+╰──────────────────────────────────────────────────────────╯
 ```
 
 ### Sui 浏览器钱包
