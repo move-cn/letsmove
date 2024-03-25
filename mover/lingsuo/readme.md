@@ -8,7 +8,7 @@
 
 - 工作经验: 2 年
 - 技术栈: `Golang` `Rust`
-- 多年 web2 开发经验，对 Move 特别感兴趣，想通过 Move 入门区块链
+- 对 Move 有兴趣
 - 联系方式: tw@C_LingSuo
 
 ## 任务
@@ -19,9 +19,9 @@
 
 ## 02 move coin
 
-- [] My Coin package id :
-- [] Faucet package id :
-- [] 转账 `My Coin` hash:
+- [] My Coin package id :  0xdd5250d8f9dad016fcd4b192e777426702f24eee423615aedb7d8ea59b44783b
+- [] Faucet package id : 0xaaaa0c9bac80224d80b76aed597a597384600c489642c342507ef278d96b05e2
+- [] 转账 `My Coin` hash: [tx](https://suiscan.xyz/testnet/tx/ADhdBVPam6nhCS26a185dUNfE3ZFJn5au53h1VfB5ayu)
 
 ## 03 move NFT
 
