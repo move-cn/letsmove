@@ -39,7 +39,7 @@ sui move new helloworld
 cd helloworld
 ```
 
-在`source`目录下创建`hello.move`文件，别填写以下内容
+在`sources`目录下创建`hello.move`文件，别填写以下内容
 
 ```rust
 module helloworld::hello {
