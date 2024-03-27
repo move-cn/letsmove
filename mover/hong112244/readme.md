@@ -20,9 +20,9 @@
 - [x] 转账 `My Coin` hash:2fyxKisErW41UThuDSX46oC6Vhs4ta3ibxgHTtAaQMAG [tx](https://suiscan.xyz/testnet/tx/2fyxKisErW41UThuDSX46oC6Vhs4ta3ibxgHTtAaQMAG)
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [x] nft package id : 0x99f5ca55304382c18102ee89f9cc626f4c3160ac72e63211dc3d5e2eb279c450
+- [x] nft object id : 0xa58ecbce9f780ec3b4a4b1eed38dde8ec3dac7781c5f0e9d92a20c562230c1b3
+- [x] 转账 nft  hash: [tx](https://suiscan.xyz/testnet/tx/E7xq821faCardYSaFeg94Vzx5JJPenD5Q5pEt94f45gN)
 
 ##   04 Move Game
 - [] game package id :
