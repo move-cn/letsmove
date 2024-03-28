@@ -1,7 +1,7 @@
 ## 基本信息
-- Sui钱包地址: `0x1000000000000x`
+- Sui钱包地址: `0xbd3c8bf2a82bb3db8420196bd4872fd93345b2fe3cb2f75302edcdc43df14723`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `自己的githubid`
+- github: `brook-bang`
 
 ## 个人简介
 - 工作经验: 5年
@@ -12,7 +12,7 @@
 ## 任务
 
 ##   01 hello move  
-- [] package id: 
+- [x] package id: 0x04365c465ccbf1ef81e2b2f7a1247a2232d5e1412dcee2bba3c47b78f7d78aea
 
 ##   02 move coin
 - [] My Coin package id : 
@@ -31,6 +31,3 @@
 ##   05 Move Swap
 - [] swap package id :
 - [] call swap hash:
-
-##   06 SDK PTB
-- [] save hash :
