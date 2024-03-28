@@ -25,14 +25,14 @@
 
 ## 03 move NFT
 
-- [] nft package id :
-- [] nft object id :
-- [] 转账 nft hash:
+- [] nft package id : 0x9464a90901ebd9d2fa05f67ece39fb209e8935f1231a29bf1bf9fb05fd5f23bb
+- [] nft object id : 0xf3a08d0cf6b78710513eb9d354f492866b2efe2541958d66bc86f1bfe48b2f6b
+- [] 转账 nft hash: 9eWbKJUo27zLyM9uwmMbJFnvcr9gk631gwdw1ybHusHV
 
 ## 04 Move Game
 
-- [] game package id :
-- [] call game hash:
+- [] game package id : 0x84b523fe51f139da4de3e94601917af6b80f6fefdccf3a73c6c3a3a5630e7b4c
+- [] call game hash: 21NcUT46CLDbjdLtuHUnbCwmvuUj1iqpLgJHqqqSUnsM
 
 ## 05 Move Swap
 
