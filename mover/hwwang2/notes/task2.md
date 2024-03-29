@@ -1,4 +1,4 @@
-# Task 1 - hello move
+# Task 2 - sui coin
 
 ## 创建并项目
 ### 新建项目
