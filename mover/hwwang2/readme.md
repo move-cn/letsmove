@@ -25,9 +25,9 @@
 - [x] 转账 nft  hash: [tx](https://suiscan.xyz/testnet/tx/5LekGFsHMfSGJpRurpF5Jp2BWViNsNCyThfjMLvj4VBe)
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [x] game package id : 0xe62d21f41e1beed5bd90c9c87888689f30a72b077f5b72c3fcce4d8022873033
+- [] call game hash: [tx](https://suiscan.xyz/testnet/tx/EjCghn36aQ1zCfpmLcLCLbYRJdgLAnoNXSsvE7zKKtMa)
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id : 0xc2a78d59125c1127a51f1911531134720337a3387a4b7719f458fe2403d9c01b
+- [x] call swap hash: [swap tx](https://suiscan.xyz/testnet/tx/E7VcwyCTwBdQY6ZyFuwg4DQsubx7qQCH2EsyBFFt57A1)
