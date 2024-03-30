@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0xcf892a1b03d9ee39f9bb419d0d377baa9ba0b2182288eb315da8bcf91c5be7ad`
+- Sui钱包地址: ` 0xd37d33817777ceda214785dfd8e0bf7b9e5ff78a527713d90f3cd5d30862f8b3`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `lekclc`
 
