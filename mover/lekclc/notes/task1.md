@@ -259,4 +259,4 @@ Transaction Digest: HZh4EyVpgGpeTgYBUBJJozxBkaijsKCVL8cbZZunATh
 │  └──                                                                                              │
 ╰───────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
-此时有一个新的object被创建,ID为`0xd9ffc51e54e6b5a4af4167bf1178408dd415ae99554b6deb03ec0041d6922275`
+此时有一个新的object被创建,ID为`0x0d3569d5a9066c26298d1a8521ce463006ec2c0fdbb1320a4a058e37e1b460a7 `
