@@ -29,5 +29,5 @@
 - [x] call game hash: 8pj8poXswzkQ7NJrUeZXLzG9txD1SU39uYxqrXDUE4nB
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id : 0x1d8242d619fd74cf60ad63b0bab612c8f9bd5c818dcce4ccd65135d4c2f38063
+- [x] call swap hash: CL9fLcUH3Fi3eRvVEE2BwX69ZYQ3YvvoHiaxKCSgFEZd
