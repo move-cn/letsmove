@@ -4,8 +4,7 @@
 >
 > 学习日志 ([alva-lin](https://github.com/alva-lin/letsmove))
 
-# Task 2 - 完成一个游戏的上链部署(mainnet)
-
+# Task 4 - 完成一个游戏的上链部署(mainnet)
 
 > 任务
 >
