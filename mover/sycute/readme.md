@@ -37,4 +37,4 @@
 ## 05 Move Swap
 
 - [x] swap package id : 0x0d333262d5979bfa0bcdd10ed13a76f5ad5d732bf68f4ef819954ee026deada5
-- [] call swap hash:
+- [x] call swap hash: coZfatvk97FimLkGmCZe1aybPjiZ62Lgbb9d9L2wuJg
