@@ -20,7 +20,8 @@ Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move�
 | [task 3](task/03.move_nft.md)     | move nft   |   ￥20    | 完成NFT的学习，并发布NFT上链      |
 | [task 4](task/04.move_game.md)    | move game  |   ￥30    | 完成链上游戏学习，并上链交互         |
 | [task 5](task/05.move_swap.md)    | move swap  |   ￥50    | 完成Swap学习，并上链交互         |
-| [task 6](task/06.SDK_PTB_NAVI.md) | sdk ptb    |   ￥50    | 完成SDK学习，并用SDK完成链上交互    |
+
+[//]: # (| [task 6]&#40;task/06.SDK_PTB_NAVI.md&#41; | sdk ptb    |   ￥50    | 完成SDK学习，并用SDK完成链上交互    |)
 
 ## 社区 & 问答
 - [move中文 TG](https://t.me/move_cn)
@@ -35,7 +36,7 @@ Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move�
 | Move 导论             | [中文](https://intro-zh.sui-book.com/) | [Sui Move Intro Course](https://intro.sui-book.com/) |     [bilibili](https://www.bilibili.com/video/BV1RY411v7YU)  [Youtube](https://www.youtube.com/watch?v=lZHjmo2ngu0)                          |
 | Sui Book            | [中文](https://sui-book.com)           |                                                      |  |
 | Sui Move by Example | [中文](https://examples.sui-book.com/) |   [Sui Move by Example](https://examples.sui.io/)    |                                                       |
-| Move Book           | [英文](https://move-book.com/)         |           [中文](https://move-book.com/cn/)            |                                                   |
+| Move Book           |    [中文](https://move-book.com/cn/)      |           [英文](https://move-book.com/)            |                                                   |
 | Let's Move Sui      |                            |                    [let's move](https://letsmovesui.com/)                    |                                                     |
 
 ### 文档
