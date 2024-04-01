@@ -7,3 +7,8 @@
 
 ##   01 hello move  
 - [x] package id: 0x778df0f23f6ed144059a42f5206f42f74eff5d7af2f93ad4e878e306f3abd3ec
+
+##   02 move coin
+- [x] My Coin package id : 0xfa602a9fbff6870186512408c68b7265a24ce08ce3c426383440c8f74b1aa357
+- [x] Faucet package id : 0x0a14960ed31efba08b1bc30733bc9326252eece9107a15be6fe5dde5a7a1c7bb
+- [x] 转账 `My Coin` hash: g5Bs2WBUW6LxHv3GTo6FGXg1AScFTCUjZFaeh8rivve
