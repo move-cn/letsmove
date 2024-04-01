@@ -1,4 +1,4 @@
-module hello_world::hello_world {
+module task1::hello_world {
 
     use std::string;
     use sui::object::{Self, UID};
