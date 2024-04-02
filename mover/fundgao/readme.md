@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: 0xfb475459e707aedac09d2fa15cff75b87a5dd7aa13e3684a87e7390629748663
+- Sui钱包地址: 0x6a98bc139a6cf31ad31b82c34b00f5acca47ab8b9a41c7aeb7618cc86ffbd9a9
 
 ## 个人简介
 - 工作经验: 7年前端开发
