@@ -6,7 +6,7 @@
 ## 个人简介
 - 工作经验: 学生
 - 技术栈: `python` `C++`
-- 对Move特别感兴趣，想通过Move入门区块链
+- 对Web3很感兴趣，想通过Move入门区块链
 - 联系方式: tg: `LCDC_OFFICALL` 
 
 ## 任务
@@ -16,9 +16,10 @@
 [0x4d089c8ae199d2102b999735d3c1e196701b72d7b31d1ad42e89a9677c6ebabb](https://suiscan.xyz/testnet/object/0x4d089c8ae199d2102b999735d3c1e196701b72d7b31d1ad42e89a9677c6ebabb)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [x] My Coin package id : [0x76482d9e5198737771dbe3758bd44336276dc9d07d8ce1d031c223fa138574d3]
+- [x] Faucet package id : [0x76482d9e5198737771dbe3758bd44336276dc9d07d8ce1d031c223fa138574d3]
+- [x] 转账 `My Coin` hash:
+[FemBPjTBNzTDqqF7KjVYzQ4XRAd1DoSpT1yaBfhD1yaa]
 
 ##   03 move NFT
 - [] nft package id :
