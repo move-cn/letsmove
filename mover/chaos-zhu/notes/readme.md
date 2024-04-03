@@ -94,3 +94,19 @@ sui client publish --gas-budget 100000000 .
 
 在可视化web界面调用mint.
 
+## task3
+
+准备一些nft图片：
+
+![175721_5](https://img.zhulijun.club/app/thumb.php?img=/i/2024/04/03/175721_5.png)
+
+![175721_4](https://img.zhulijun.club/app/thumb.php?img=/i/2024/04/03/175721_4.png)
+
+![175721_3](https://img.zhulijun.club/app/thumb.php?img=/i/2024/04/03/175721_3.png)
+
+![175721_2](https://img.zhulijun.club/app/thumb.php?img=/i/2024/04/03/175721_2.png)
+
+![175721_1](https://img.zhulijun.club/app/thumb.php?img=/i/2024/04/03/175721_1.png)
+
+![175721](https://img.zhulijun.club/app/thumb.php?img=/i/2024/04/03/175721.png)
+
