@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0xccc5c2f15557a3ee61e32cb6daee0314626a72c36d4b80db5c7a533a4326d0a4`
+- Sui钱包地址: `0xc6f2c5cf500e0ca6d44ce7028b0b4f7f8d49e249ca9daf9531dab1c9aad5daf6`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `dlongx`
 
