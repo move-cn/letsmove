@@ -17,7 +17,7 @@
 
 ## 01 hello move
 
-- [] 测试网package id:0x31f76d9b3de3d39670ad7fe20251d0188eab6f953ea0be751c0bc97b602f00f3
+- [x] 测试网package id:0x31f76d9b3de3d39670ad7fe20251d0188eab6f953ea0be751c0bc97b602f00f3
 
 ## 02 move coin
 
