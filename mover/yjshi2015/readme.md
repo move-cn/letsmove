@@ -12,7 +12,7 @@
 ## 任务
 
 ##   01 hello move  
-- [] package id: 0x7ffa5b174381082bd3695bd0e3fa2507b6d7e8d02a99d234ed0dfeb35cbe49f1 （devnet)
+- [x] package id: 0x7ffa5b174381082bd3695bd0e3fa2507b6d7e8d02a99d234ed0dfeb35cbe49f1 （devnet)
 
 ##   02 move coin
 - [] My Coin package id : 
