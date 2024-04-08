@@ -12,4 +12,4 @@
 ## 任务
 
 ##   01 hello move  
-- [] package id: [0x7e8449d8d3d5c5848956cfceb9a2dfe4e944f446de918c4855d313d3a6c16501](https://suiscan.xyz/testnet/object/0x7e8449d8d3d5c5848956cfceb9a2dfe4e944f446de918c4855d313d3a6c16501)
+- [x] package id: [0x7e8449d8d3d5c5848956cfceb9a2dfe4e944f446de918c4855d313d3a6c16501](https://suiscan.xyz/testnet/object/0x7e8449d8d3d5c5848956cfceb9a2dfe4e944f446de918c4855d313d3a6c16501)
