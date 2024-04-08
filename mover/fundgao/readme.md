@@ -18,9 +18,9 @@
 - [x] 转账 `APT` hash: 5Tp7Wjz8M8vcPdsaF4aNLFGqr1SrBBWdJfeBiWjizwAV
 
 ##   03 move NFT
-- [x] nft package id : 
-- [x] nft object id : 
-- [x] 转账 nft  hash: 
+- [] nft package id : 
+- [] nft object id : 
+- [] 转账 nft  hash: 
 
 ##   04 Move Game
 - [] game package id :
