@@ -23,8 +23,8 @@
 - [x] call game hash: `H33QAHeVTGbyjus9vHY5SDcVt3jg5Z95ktS4DeR7ygdi`[https://suiscan.xyz/testnet/tx/H33QAHeVTGbyjus9vHY5SDcVt3jg5Z95ktS4DeR7ygdi]
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id :
+- [x] call swap hash: `J6JTybk7HuzUFBg2iuBrja71LSWawWq4sDzF7eyy88xm`[https://suiscan.xyz/testnet/tx/J6JTybk7HuzUFBg2iuBrja71LSWawWq4sDzF7eyy88xm]
 
 ##   06 SDK PTB
 - [] save hash :
