@@ -5,7 +5,7 @@
 
 ## 个人简介
 - 工作经验: 9 年
-- 技术栈: `Pyhton`
+- 技术栈: `Python`
 - 多年 Web2 軟體測試工作經驗，目前 CS 碩班在讀；認同 **Sui** 項目理念而學習 **Sui Move**。
 - 联系方式: do0x0ob@protonmail.com
 
