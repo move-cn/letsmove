@@ -16,7 +16,7 @@
 
 ##   02 move coin
 - [x] My Coin package id : [0x6d75773fde97336e256df7fafec74bc40de0f3aaf08f967cee28c6d33c76ffa9](https://suivision.xyz/package/0x6d75773fde97336e256df7fafec74bc40de0f3aaf08f967cee28c6d33c76ffa9?tab=Code)
-- [x] Faucet package id : [0x501e97da8f615664ab9054e297455bf4d497d39a730e6e29b2bceb86aafb7da5](https://suivision.xyz/package/0x501e97da8f615664ab9054e297455bf4d497d39a730e6e29b2bceb86aafb7da5?tab=Code)
+- [x] Faucet package id : [0x05beaf9e078c2c35f04d6271ece5bcb6cb54e4eae7fde3616a5d2f0f7beec30d](https://suivision.xyz/package/0x05beaf9e078c2c35f04d6271ece5bcb6cb54e4eae7fde3616a5d2f0f7beec30d?tab=Code)
 - [x] 转账 `My Coin` hash: [2zMaTmrAWQLuYea44fuqfk4UX2pw1f6AwGT9rXKJCkxc](https://suivision.xyz/txblock/2zMaTmrAWQLuYea44fuqfk4UX2pw1f6AwGT9rXKJCkxc)
 
 ##   03 move NFT
