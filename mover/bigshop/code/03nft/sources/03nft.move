@@ -1,12 +1,9 @@
-module 03nft::mynft {
+module nft::mynft {
     use sui::url::{Self, Url};
     use std::string;
-    use sui::object::{Self, ID, UID};
     use sui::event;
-    use sui::transfer;
-    use sui::tx_context::{Self, TxContext};
-
-    struct DevNetNFT has key, store {
+    
+    public struct DevNetNFT has key, store {
         id: UID,
         /// Name for the token
         name: string::String,
@@ -17,7 +14,7 @@ module 03nft::mynft {
         // TODO: allow custom attributes
     }
 
-    struct NFTMinted has copy, drop {
+    public struct NFTMinted has copy, drop {
         // The Object ID of the NFT
         object_id: ID,
         // The creator of the NFT

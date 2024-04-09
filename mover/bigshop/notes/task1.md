@@ -11,4 +11,4 @@ sui move new 01hello
 sui move build
 sui client publish --gas-budget=20000000 
 ```
-得到packageid:
+得到packageid: 0x3711c70cbf85f1549b6966a76c597850b8ff78a73bc2544a124b4bbbc9002364

@@ -12,17 +12,17 @@
 ## 任务
 
 ##   01 hello move  
-- [] package id: 
+- [x] package id: 0x3711c70cbf85f1549b6966a76c597850b8ff78a73bc2544a124b4bbbc9002364
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [x] My Coin package id :  0x189be9e86a73d110e64d5fea827ab09599ab840ee04d417116f176fefc04f717
+- [x] Faucet package id :  0x189be9e86a73d110e64d5fea827ab09599ab840ee04d417116f176fefc04f717
+- [x] 转账 `My Coin` hash: [tx](https://testnet.suivision.xyz/txblock/8nWDpKLr7fMsGtDYqTsFoSUAzGNLj3FbRskcdooGQPd6)
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [x] nft package id : 0x0dfa78f2ee59cc3eb1b53718022a03786a7d6eba1a4bff51969db63ae72393b9
+- [x] nft object id : 0x1afdefe0a7f9df77fdb075fb29dd5589e26ec151b50c6ac5b640f2bfa9bbbed1
+- [x] 转账 nft  hash: [tx](https://testnet.suivision.xyz/txblock/Bi8g1nordgsrzcSf3gDJdxYd54bNLPxcJ7Emji4CHn43)
 
 ##   04 Move Game
 - [] game package id :

@@ -1,18 +1,14 @@
 /// Module: 02coin
-module 02coin::mycoin {
-    use std::option;
+module coin2::mycoin {
     use sui::coin::{Self,TreasuryCap};
-    use sui::transfer;
-    use sui::tx_context::{Self,TxContext};
-    use sui::url::{Url,Self};
 
-    struct MYCOIN has drop {}
+    public struct MYCOIN has drop {}
 
     fun init(waitness: MYCOIN, ctx: &mut sui::tx_context::TxContext) {
         let (treasury_cap, meta) = coin::create_currency(waitness,6,b"MY", b"MY", b"", option::none(), ctx);
 
         transfer::public_freeze_object(meta);
-        transfer::public_transfer(treasury_cap, tx_context::sender(ctx));
+        transfer::public_transfer(treasury_cap, tx_context::sender(ctx))
     }
 
     public entry fun mint(

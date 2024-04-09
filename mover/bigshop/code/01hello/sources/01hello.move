@@ -1,12 +1,9 @@
 
 /// Module: 01hello
-module 01hello::01hello {
+module hello::hello {
     use std::string;
-    use sui::object::{Self, UID};
-    use sui::transfer;
-    use sui::tx_context::{Self, TxContext};
 
-    struct Hello has key, store {
+    public struct Hello has key, store {
         id: UID,
         text: string::String
     }
