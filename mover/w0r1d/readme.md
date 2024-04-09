@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x31e359b57a2dfe83697495f5316039ad34699c5a4a880b8f5b8c2d38b923ba4d
+- Sui钱包地址: `0x8b4ed8d2e32213e7f18292d5fbe8a46e0cd27afe4244823c4e8d41f928886ab3
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: [github](https://github.com/cs-w0r1d/letsmove)
 
@@ -12,7 +12,7 @@
 ## 任务
 
 ##   01 hello move  
-- [] package id: 
+- [x] package id: 0xe2572a8ab65141a58ffd7358308bb9eed462f08606e7cd4935f9fe821c4e14d2
 
 ##   02 move coin
 - [] My Coin package id : 
