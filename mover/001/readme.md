@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x1000000000000x`
+- Sui钱包地址: `0xceeb7ccfb3ecd74d44cf615af0ad346896ba56b2374c59c48365781fb2fe326f`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `自己的githubid`
 
@@ -12,7 +12,7 @@
 ## 任务
 
 ##   01 hello move  
-- [] package id: 
+- [] package id: 0x76c788c894243d9b40ec07e409e5419ec16c71dd6ec430da50ca737e659d01b7
 
 ##   02 move coin
 - [] My Coin package id : 
