@@ -1,0 +1,5 @@
+--- E:schoolwork2\package1\sources\package1.move
++++ E:schoolwork2\package1\sources\package1.move
+@@ -8 +8 @@
+-    struct Hello has key {
++    public struct Hello has key {
