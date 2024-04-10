@@ -8,7 +8,7 @@
 3.  发布合约：`sui client publish --gas-budget=20000000`
    ![img/1_2.png](img/1_2.png)
 
-# Task2
+# Task 2
 1. 发布合约 `sui client publish --gas-budget=40000000`
    * 拿到 faucet_coin 的 object id ![img/2_0.png](img/2_0.png)
    * 拿到 my_coin 的 object id ![img/2_1.png](img/2_1.png)
@@ -16,9 +16,10 @@
 2. 转账 `sui client call --function mint --module my_coin --package $PACKAGE_ID --args $MY_COIN 100000000000 $ADDRESS --gas-budget 20000000`
    * 拿到 hash ![img/2_3.png](img/2_3.png)
 
-# Task3
+# Task 3
 1. 发布合约 `sui client publish --gas-budget=20000000`
-   ![img/3_0.png](img/3_0.png)
+   * 拿到 package id
+    ![img/3_0.png](img/3_0.png)
 2. 创建 nft `sui client call --function mint_to_sender --module my_nft --package $PACKAGE_ID --args "DiHuangXia" "github DiHuangXia profile" "https://github.com/DiHuangXia" --gas-budget 20000000`
    * 拿到 nft 的 object id
      ![img/3_1.png](img/3_1.png)
@@ -29,5 +30,13 @@
      ![img/3_3.png](img/3_3.png)
    * 查看 nft 拥有者 `sui client object $NFT_ID`，与上述接收者一致
      ![img/3_4.png](img/3_4.png)
-     
+
+# Task 4
+1. 发布合约 `sui client publish --gas-budget=20000000`
+   * 拿到 package id
+   ![img/4_0.png](img/4_0.png)
+2. 玩一局游戏 `sui client call --function play --module guessing_game --package $PACKAGE_ID --args 0 0x6 --gas-budget 20000000`
+   * 拿到 hash
+   ![img/4_1.png](img/4_1.png)
+
    
