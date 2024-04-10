@@ -3,7 +3,7 @@
 - github: `upupnoah`
 
 ##   01 hello move  
-- [] package id: 0x635ea5aaa109c31ef4d24a7f3608e55738b63864a230f1cb33f70fe2bd95277d
+- [x] package id: 0x635ea5aaa109c31ef4d24a7f3608e55738b63864a230f1cb33f70fe2bd95277d
   
 ##   02 move coin
 - [] My Coin package id : 
