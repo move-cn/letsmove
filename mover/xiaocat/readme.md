@@ -15,19 +15,19 @@
 - [x] package id:  `0x1934e1fedbe475571b9866d27388e3db40d06e809926bede8f8b6db73723e73a`
 
 ##   02 move coin
-- [x] My Coin package id : ``
-- [x] Faucet package id : ``
-- [x] 转账 `My Coin` hash: ``
+- [] My Coin package id : ``
+- [] Faucet package id : ``
+- [] 转账 `My Coin` hash: ``
 
 ##   03 move NFT
-- [x] nft package id : ``
-- [x] nft object id : ``
-- [x] 转账 nft  hash: ``
+- [] nft package id : ``
+- [] nft object id : ``
+- [] 转账 nft  hash: ``
 
 ##   04 Move Game
-- [x] game package id : ``
-- [x] call game hash: ``
+- [] game package id : ``
+- [] call game hash: ``
 
 ##   05 Move Swap
-- [x] swap package id : ``
-- [x] call swap hash: ``
+- [] swap package id : ``
+- [] call swap hash: ``
