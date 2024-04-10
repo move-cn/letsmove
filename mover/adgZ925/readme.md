@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x9cdc6ef4b27062c925d1030de5cfad6d51edcc7846c5080f6b28be8885dc56ff`
+- Sui钱包地址: `0x644f7071dbf69b51130ea131e43760753ec11eb92078d24d087505639e70b534`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `adgZ925`
 
@@ -12,7 +12,7 @@
 ## 任务
 
 ## 01 hello move
-- [] package id:
+- [x] package id: 0x33549038af13f05bcee2704116bc314f73e99d9d3c3378e301192a150640f222
 
 ## 02 move coin
 - [] My Coin package id :
