@@ -39,4 +39,22 @@
    * 拿到 hash
    ![img/4_1.png](img/4_1.png)
 
-   
+# Task 5
+1. 发布合约 `sui client publish --gas-budget=20000000`
+   * 拿到 package id
+   ![img/5_0.png](img/5_0.png)
+3. 根据 Task 3 的合约，生成两个 nft
+    * 拿到 object id 和 type
+   ![img/5_1.png](img/5_1.png)
+   ![img/5_2.png](img/5_2.png)
+3. 创建 nft 1 换取 nft 2 的一个交换 `sui client call --function create --module swap --package $SWAP_PACKAGE_ID --type-args $NFT_1_TYPE $NFT_2_TYPE --args $RECIPIENT_ADDRESS $NFT_1_ID $NFT_2_ID --gas-budget 20000000`
+   * 拿到创建交换的 hash ![img/5_4.png](img/5_4.png)
+   * 拿到抵押物的 id
+   ![img/5_3.png](img/5_3.png)
+   * 查看 nft 2，`sui client object $NFT_2_ID` nft 2 已被抵押
+   ![img/5_5.png](img/5_5.png)
+4. 开始交换，用 nft 1 换取 nft 2 `sui client call --function exchange --package $SWAP_PACKAGE_ID --module swap --type-args $NFT_1_TYPE $NFT_2_TYPE --args $NFT_1_ID $ESCROWED_OBJ --gas-budget 20000000`
+   * 拿到完成交换的 hash 
+   ![img/5_6.png](img/5_6.png)
+   * 再次查看 nft 2，`sui client object $NFT_2_ID`，nft 2 已交换
+   ![img/5_7.png](img/5_7.png)
