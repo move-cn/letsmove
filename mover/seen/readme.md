@@ -1,7 +1,7 @@
 ## 基本信息
 - Sui钱包地址: `0x51383cc4302ebc44f3a425905c691aab9f1afb10a9c9e75d4c3ed4dcf42084ba`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `自己的githubid`
+- github: `guinjgida`
 
 ## 个人简介
 - 工作经验: 1年
