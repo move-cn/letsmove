@@ -20,9 +20,9 @@
 - [x] 转账 `My Coin` hash: CgRBWZt6qkS15X2pFUJx2NKxA1kmUh5pMgKrfvg68kBK
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [x] nft package id : 0x206cb6c66d5fe372225652976324d337cb6811336f8ecb0cfed40bf64ae7d1cb
+- [x] nft object id : 0x44411c2bc6c13c5c13604843642b0284ed6d77899af027c4366ad74f4c537cde 
+- [x] 转账 nft hash: GCUTNu2zy5i8QEaGyk4QjqchbutKtt9qS2SYnFBm5cxk
 
 ##   04 Move Game
 - [] game package id :
