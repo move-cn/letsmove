@@ -21,9 +21,8 @@
 
 ## 02 move coin
 
-- [] My Coin package id:
-- [] Faucet package id:
-- [] 转账 `My Coin` hash:
+- [x] My Coin package id: [0x186adaa4716ca5249c3b06b3ef68db6641f309f6c6aa4aa7b96e1486634d4daa](https://suiscan.xyz/mainnet/account/0x186adaa4716ca5249c3b06b3ef68db6641f309f6c6aa4aa7b96e1486634d4daa)
+- [x] 转账 `My Coin` hash: [GGMsZ6idveHR1bRsWp9P5A8dhzexE9rHbdtyrJwdYMZM](https://suiscan.xyz/mainnet/tx/GGMsZ6idveHR1bRsWp9P5A8dhzexE9rHbdtyrJwdYMZM)
 
 ## 03 move NFT
 
