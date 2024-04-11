@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: ``
+- Sui钱包地址: `0xf67ade3c3da11d555f7d06dcad634f6657a59b3ce73e46671beb533eac2f31c4`
 - github: `CY-missinged`
 
 ## 个人简介
@@ -11,7 +11,7 @@
 ## 任务
 
 ##   01 hello move  
-- [x] package id: 
+- [x] package id: 0xc32879b1eb82d9cd47e23112d9ee7807d4d1b4e0e2bfca6699e60c02231739cc
 
 ##   02 move coin
 - [] My Coin package id : 
