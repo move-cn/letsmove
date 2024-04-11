@@ -27,7 +27,7 @@
 
 - [x] nft object id: 
 
-- [ ] 0x7589f5ad43a54067be86cee5aca7bae8b5df270f8f2cbd8dfefbc977797228a5 
+  0x7589f5ad43a54067be86cee5aca7bae8b5df270f8f2cbd8dfefbc977797228a5 
 
 - [x] 转账nfthash:AVCEnQzUvZuF29dGSgPpDra6oRB47JXameG9wLDtqmEw
 ##   04 Move Game
