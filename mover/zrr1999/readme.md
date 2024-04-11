@@ -32,8 +32,8 @@
 
 ## 04 Move Game
 
-- [] game package id :
-- [] call game hash:
+- [] game package id: [0x73d88a00ddca6efe69816d616a34b885afda2975635ddc0a67cf3b20f248e9df](https://suiscan.xyz/mainnet/object/0x73d88a00ddca6efe69816d616a34b885afda2975635ddc0a67cf3b20f248e9df)
+- [] call game hash: [EdyoG56K1rBxFmUMAygSL88nFcGzFMFBRzXJtZTgL5dT](https://suiscan.xyz/mainnet/tx/EdyoG56K1rBxFmUMAygSL88nFcGzFMFBRzXJtZTgL5dT)
 
 ## 05 Move Swap
 
