@@ -21,7 +21,7 @@
 
 ## 02 move coin
 
-- [x] My Coin package id: [0x186adaa4716ca5249c3b06b3ef68db6641f309f6c6aa4aa7b96e1486634d4daa](https://suiscan.xyz/mainnet/object/0x186adaa4716ca5249c3b06b3ef68db6641f309f6c6aa4aa7b96e1486634d4daa)
+- [x] My Coin package id: [0x76c576513e7947225dc2e353d4d3d619a3f310c60ffcf43ecc9e2a03373e4c05](https://suiscan.xyz/mainnet/coin/0x76c576513e7947225dc2e353d4d3d619a3f310c60ffcf43ecc9e2a03373e4c05::my_coin::MY_COIN/txs)
 - [x] 转账 `My Coin` hash: [GGMsZ6idveHR1bRsWp9P5A8dhzexE9rHbdtyrJwdYMZM](https://suiscan.xyz/mainnet/tx/GGMsZ6idveHR1bRsWp9P5A8dhzexE9rHbdtyrJwdYMZM)
 
 ## 03 move NFT
@@ -32,14 +32,14 @@
 
 ## 04 Move Game
 
-- [] game package id: [0x73d88a00ddca6efe69816d616a34b885afda2975635ddc0a67cf3b20f248e9df](https://suiscan.xyz/mainnet/object/0x73d88a00ddca6efe69816d616a34b885afda2975635ddc0a67cf3b20f248e9df)
-- [] call game hash: [EdyoG56K1rBxFmUMAygSL88nFcGzFMFBRzXJtZTgL5dT](https://suiscan.xyz/mainnet/tx/EdyoG56K1rBxFmUMAygSL88nFcGzFMFBRzXJtZTgL5dT)
+- [x] game package id: [0x73d88a00ddca6efe69816d616a34b885afda2975635ddc0a67cf3b20f248e9df](https://suiscan.xyz/mainnet/object/0x73d88a00ddca6efe69816d616a34b885afda2975635ddc0a67cf3b20f248e9df)
+- [x] call game hash: [EdyoG56K1rBxFmUMAygSL88nFcGzFMFBRzXJtZTgL5dT](https://suiscan.xyz/mainnet/tx/EdyoG56K1rBxFmUMAygSL88nFcGzFMFBRzXJtZTgL5dT)
 
 ## 05 Move Swap
 
-- [] swap package id :
+- [] swap package id: 
 - [] call swap hash:
 
 ## 06 SDK PTB
 
-- [] save hash :
+- [] save hash: 

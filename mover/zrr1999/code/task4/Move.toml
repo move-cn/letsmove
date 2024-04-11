@@ -1,5 +1,5 @@
 [package]
-name = "my_nft"
+name = "my_game"
 edition = "2024.beta"
 license = "MIT"
 authors = ["Zhan Rongrui (zrr1999@qq.com)"]

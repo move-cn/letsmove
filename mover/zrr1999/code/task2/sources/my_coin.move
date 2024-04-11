@@ -4,9 +4,7 @@ module my_coin::my_coin {
     use sui::balance::{Self};
     use sui::coin::{Self, Coin, TreasuryCap};
 
-    public struct MY_COIN has drop {
-
-    }
+    public struct MY_COIN has drop {}
 
     //can search can't transfer
     public struct MyCoinSupply has key {
@@ -24,10 +22,10 @@ module my_coin::my_coin {
     }
 
     public entry fun mint(treasury_cap: &mut TreasuryCap<MY_COIN>, amount: u64, recipient: address, ctx: &mut TxContext){
-        coin::mint_and_transfer(treasury_cap, amount, recipient, ctx)
+        coin::mint_and_transfer(treasury_cap, amount, recipient, ctx);
     }
 
-    public entry fun burn(managedCap: &mut TreasuryCap<MY_COIN>, c : Coin<MY_COIN>){
+    public entry fun burn(managedCap: &mut TreasuryCap<MY_COIN>, c: Coin<MY_COIN>){
         coin::burn(managedCap, c);
     }
 
