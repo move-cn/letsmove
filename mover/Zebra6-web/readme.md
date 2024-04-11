@@ -7,12 +7,12 @@
 - 工作经验: 0年
 - 技术栈: `Java` `C++/C`
 - 区块链工程大二，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `` 
+- 联系方式: tg: `clear brown` 
 
 ## 任务
 
 ##   01 hello move  
-- [] package id: 
+- [x] package id: 0x2420e72cba6fc9a00fb6d8947ac7af642646aae66bcea88b048167e07245765c
 
 ##   02 move coin
 - [] My Coin package id : 
