@@ -10,7 +10,7 @@
 ## 任务
 
 ##   01 hello move  
-- [] package id: 0x27a47c250301f9f8f460a041ad443cfabe5e346be5a9e845590b537dcd6986c8
+- [x] package id: 0x27a47c250301f9f8f460a041ad443cfabe5e346be5a9e845590b537dcd6986c8
 
 ##   02 move coin
 - [] My Coin package id : 
