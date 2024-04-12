@@ -1,0 +1,36 @@
+## 基本信息
+- Sui钱包地址: `0x8764377e9c3ad369cf1a6400cd1b6f24a46354009223f8f31490efe2417b44ce`
+> 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
+- github: `0xbillw`
+
+## 个人简介
+- 工作经验: 11年
+- 技术栈: `Rust` `Go` `Solidity` `C++` `Java`
+- 多年Web2开发经验，前年转入Web3，熟悉Substrate和ethereum技术栈；发现Move使用了Rust语言的一些概念和特性，很有兴趣学习
+- 联系方式: tg: [@BillWinner168](https://t.me/BillWinner168)
+
+## 任务
+
+##   01 hello move  
+- [x] package id: 0x188a4ba2224eab2f3da5100bbb68d0c7fd6e4c71e468f20c00f75890dacd0595
+
+##   02 move coin
+- [] My Coin package id : 
+- [] Faucet package id : 
+- [] 转账 `My Coin` hash:
+
+##   03 move NFT
+- [] nft package id :
+- [] nft object id : 
+- [] 转账 nft  hash:
+
+##   04 Move Game
+- [] game package id :
+- [] call game hash:
+
+##   05 Move Swap
+- [] swap package id :
+- [] call swap hash:
+
+##   06 SDK PTB
+- [] save hash :
