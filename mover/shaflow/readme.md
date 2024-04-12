@@ -1,7 +1,7 @@
 ## 基本信息
 - Sui钱包地址: `0x2fcdfe7c92fe670d267474fbd7aa89baef55c5f93b1953a9e82614c9abb7abc6`
-> 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `自己的githubid`
+
+- github: `shaflow01`
 
 ## 个人简介
 - 工作经验: 
