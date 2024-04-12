@@ -10,13 +10,15 @@
 - 联系方式: email:shaflow01@gmail.com  
 
 ## 任务
-
+环境：测试网
 ##   01 hello move  
 - [x] package id: 0x8bc0d18c27b3f54baeadf741a2ec20b4139c70a568b4e3767c5c17486590a2c2  
+环境：主网
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [x] My Coin package id : 0xbe31730986306e1279ca36ca988497ef42a83b546658ae4faf792ee42270c041
+- [x] Faucet package id : 0x2549ed70c51c37cdc184866e14474d454d55aa8e22cadeceaf3448bc0cf3f811
+- [x] 转账 `My Coin` hash:  
+hash:F2UxxwNjv3rMGaXRZpx37Eky3myk4PL5b1FG2uHNNv5R
 
 ##   03 move NFT
 - [] nft package id :
