@@ -95,15 +95,9 @@ sui client call --gas-budget 7500000 --package $PACKAGE_ID --module coin_b --fun
 ```bash
 # 1 coin A
 export COIN_A_ID_1=0xd9a4c080626c8071a5501d4fb9343048944e46a9af3bb27bbee79537706d8f21
-export COIN_A_ID_2=
-export COIN_A_ID_3=
-export COIN_A_ID_4=
 
 # 10 coin B
 export COIN_B_ID_1=0x6089a066e069c4c73460f64e570cacfc4e2a8d340e2e48c55edc6cc6c4fa9ffc
-export COIN_B_ID_2=
-export COIN_B_ID_3=
-export COIN_B_ID_4=
 ```
 
 ## 构建流动性池
@@ -119,135 +113,6 @@ sui client call --gas-budget 7500000 --package $PACKAGE_ID --module my_swap \
 在输出的内容中，找到 `Pool ID` 和发放给我们的 `LSP ID`
 
 ```bash
-export POOL_ID=0x50cdc0af15ceb8b660d15e843579587699c27c86868dc49e3945e2f73b546118
-export LSP_ID_1=0x597a50ce6afacc3d26236ab52aab4342dc258554fe1520412e20675ffd7df9b6
+export POOL_ID=0x6b9cc814bea554f8ba37fd3ed9ec491d850e9393cc5aa37719de9948e4178b06
+export LSP_ID_1=0x5ed06b89f99c567d74f74627ac0977ceeacd9fcf10649bacb3076fcc596b5578
 ```
-
-我们可以根据 `Pool ID`，在 SuiScan 浏览器中查看流动性池的相关信息
-
-```text
-url: https://suiscan.xyz/mainnet/object/0x50cdc0af15ceb8b660d15e843579587699c27c86868dc49e3945e2f73b546118
-```
-
-### 添加流动性
-
-将前面铸造的 coin a 2 和 coin b 2 拿来添加流动性
-
-```bash
-sui client call --gas-budget 7500000 --package $PACKAGE_ID --module simple_swap \
-    --function add_liquidity --type-args $COIN_A $COIN_B \
-    --args $POOL_ID $COIN_A_ID_2 $COIN_B_ID_2
-```
-
-拿到发放的第二个 LSP 代币
-
-```bash
-export LSP_ID_2=0x076230c8207d445f3eb1cf43cd3415304de9721f8ab9940f6127f90a6650ea31
-```
-
-同时查看前后两个 LSP 代币的值，都是一样的（3100）
-
-此时我们再次添加等额的流动性
-
-```bash
-sui client call --gas-budget 7500000 --package $PACKAGE_ID --module simple_swap \
-    --function add_liquidity --type-args $COIN_A $COIN_B \
-    --args $POOL_ID $COIN_A_ID_3 $COIN_B_ID_3
-```
-
-拿到第三枚 LSP 代币
-
-```bash
-export LSP_ID_3=0xe44da8865c2b3cd79a5a28fe98706f91c35b7e719f80b71d39624291320d23e2
-```
-
-### 减少流动性
-
-拿出第三枚 LSP 代币，减少流动性，查看运行结果
-
-```bash
-sui client call --gas-budget 7500000 --package $PACKAGE_ID --module simple_swap \
-    --function remove_liquidity --type-args $COIN_A $COIN_B \
-    --args $POOL_ID $LSP_ID_3
-```
-
-拿到了等值的 COIN A 代币和 COIN B 代币，将其记录
-
-```bash
-# 1 coin A
-export COIN_A_ID_5=0x0c0fd563d78f58b8ffa6fa21d4a9b75bb11c53cee468201e4c86632271a7008c
-
-# 10 coin B
-export COIN_B_ID_5=0xe1565ef7e7bd4569a589242b4393235ba877f488f1ca00231688c8119050d62a
-```
-
-## Swap
-
-此时流动性池子内的代币数量如下
-
-- Coin A: 2
-
-- Coin B: 20
-
-Coin A : Coin B = 1:10
-
-### 使用 Coin A 交易 Coin B
-
-拿出第四枚代币 Coin A，向流动性池子发起交易
-
-```bash
-sui client call --gas-budget 7500000 --package $PACKAGE_ID --module simple_swap \
-    --function swap_a_to_b --type-args $COIN_A $COIN_B \
-    --args $POOL_ID $COIN_A_ID_4
-```
-
-可以看到交易结果，我们使用 1 个 Coin A，购买到了 10.015 个 Coin B。将其记录
-
-```bash
-# 10.015 coin B
-export COIN_B_ID_6=0xdccf55457cf82b6b8a14f6627002fc83a4c4456ccfa1ca16bf8164ea7b3e9db7
-```
-
-而回到流动性池的信息中，还剩下 3 个 Coin A，和 9.985 个 Coin B。
-
-### 使用 Coin B 交易 Coin A
-
-拿出第四枚代币 Coin B，向流动性池子发起交易
-
-```bash
-sui client call --gas-budget 7500000 --package $PACKAGE_ID --module simple_swap \
-    --function swap_b_to_a --type-args $COIN_A $COIN_B \
-    --args $POOL_ID $COIN_B_ID_4
-```
-
-可以看到交易结果，我们使用 10 个 Coin B，购买到了 1.503 个 Coin A。将其记录
-
-```bash
-# 1.503 coin A
-export COIN_A_ID_6=0x33ab32733faaa4a8985ccba27692fbf466d54ee854ef919d1d5ae52b444a23dc
-```
-
-而回到流动性池的信息中，还剩下 1.497 个 Coin A，和 19.985 个 Coin B。
-
----
-
-## 统计结果
-
-最开始，钱包和池内的代币资金都是 2 Coin A, 20 Coin B。
-
-经过两次交易，钱包和流动性池内的资金变化如下
-
-| 代币数量 | Coin A | Coin B |
-|:---------|:-------|:-------|
-| Wallet   | 2.503  | 20.015 |
-| Pool     | 1.497  | 19.985 |
-
-两个代币的比例从 1:10 变为 1:13.35，Coin A 相对升值，Coin B 相对贬值。
-
-代币价值上，钱包的代币价值是 4 CoinA（或是 40 Coin B）
-
-| 代币价值 | Coin A 视角 | Coin B 视角 |
-|:---------|:------------|:------------|
-| Wallet   | 3.993       | 53.43       |
-
-代币价值变化也符合代币涨跌。
