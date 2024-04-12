@@ -12,4 +12,4 @@
 ## 任务
 
 ##   01 hello move  
-- [] package id: `0x25f35f9484971e3de2072917d769878effeadfc3091586f67f5a1684f1f11b14`
+- [x] package id: `0x25f35f9484971e3de2072917d769878effeadfc3091586f67f5a1684f1f11b14`
