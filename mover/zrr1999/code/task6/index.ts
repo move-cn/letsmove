@@ -28,7 +28,5 @@ depositCoin(txb, SUI_pool, txb.object(source_sui_id), amount);
 //Withdraw 1 Sui from NAVI Protocol
 withdrawCoin(txb, SUI_pool, amount);
 
-
 txb.setGasBudget(800000000);
 const result = SignAndSubmitTXB(txb, account.client, account.keypair);
-
