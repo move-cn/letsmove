@@ -22,18 +22,16 @@
 
 ##   03 move NFT
 - [x] nft package ：
-
   0x7a93c82d70625cafc84c7e9f2f7c1a0895803dac1607f3f246ea499657b75288
 
 - [x] nft object id: 
-
   0x7589f5ad43a54067be86cee5aca7bae8b5df270f8f2cbd8dfefbc977797228a5 
 
 - [x] 转账nfthash:AVCEnQzUvZuF29dGSgPpDra6oRB47JXameG9wLDtqmEw
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [x] game package id :0x50a6d8b17eb275d18c831fff9fe04dd738f521383c229416977159763bdc386b
+- [x] call game hash:  7yN6mETT4fxL4xBpyj9BmmC5fmomTHrXqQ1Z4Tyo8uGy
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x]  swap package id :0x5c0c16ced664feddba24cea0846cc63d12dde59f73fe1fbcf1d512a62bc6faae
+- [x]  call swap hash:48VNWpkvqmZkSjy49STv8vFC6APZSdfAG6KBoaoJ9X1e
