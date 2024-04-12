@@ -1,3 +1,4 @@
+#[allow(duplicate_alias)]
 /// Module: hello_move
 module hello_move::hello_move {
   use std::ascii::{String, string};

@@ -4,7 +4,7 @@
 - github: `shenghuo2`
 
 ## 个人简介
-- 工作经验: 5年
+- 工作经验: 2年
 - 技术栈: `Python` `Go` `solidity` 
 - CTF选手，在校学生
 - 联系方式: E-mail: `study@shenghuo2.cn` 
@@ -12,7 +12,7 @@
 ## 任务
 
 ##   01 hello move  
-- [x] package id: `0xf29bd65f11c1fd6dbeae73ba8e14794def49db713437ceb120b07c8b6252e1ea`
+- [x] package id: `0x8d856a7470b84bfa8b2a882ad4bac8a10bfb5bb6379b95d4dfca8b03b4e88db8`
 
 ##   02 move coin
 - [] My Coin package id : 
