@@ -127,3 +127,33 @@ sui client publish --gas-budget=50000000
 ```bash
 sui client call --gas-budget 7500000 --package 0x9bd43cf0419dcfbf0acc1ea83445efb0e1bae7a10a56f845c9bdca13e34d63b5 --module my_game --function play --args 0 0x6
 ```
+
+
+## task5
+### 创建项目
+```sui move new my_swap```
+
+### 构建、发布
+```bash
+sui move build
+sui client publish --gas-budget=50000000 
+```
+
+输出：
+```
+    package id： 0x8a3f4c8e381ea0590659504d44f6891b296caa5e611dcff560c88370df30da2e
+    admin-cap： 0xc40acc422b5d2de3d88677e08d91019cf27db5b4ec3d64fe94c2293410b20707
+```
+
+### 初始化，要放点钱进去
+```bash
+# FAUCETCoin 0xfe1458e359b848cc712e6ebac282ef4d1a7b28e0875d870c4f290b1c617a285b::faucet_coin::FAUCET_COIN
+# MYCoin 0xfe1458e359b848cc712e6ebac282ef4d1a7b28e0875d870c4f290b1c617a285b::mycoin::MYCOIN
+```
+```bash
+sui client call --function initialize --module my_swap --package 0x8a3f4c8e381ea0590659504d44f6891b296caa5e611dcff560c88370df30da2e --args 0xc40acc422b5d2de3d88677e08d91019cf27db5b4ec3d64fe94c2293410b20707 0x2fa04343c3fe53c1920a386982750f0e8736265622ad9c863a9a95aad6c7bde0 0xd0fa5c8727f3aa593d20e047c1e824a95ad6ef14479c89dd1b0b0c5082072d3a 100 --type-args 0xfe1458e359b848cc712e6ebac282ef4d1a7b28e0875d870c4f290b1c617a285b::faucet_coin::FAUCET_COIN 0xfe1458e359b848cc712e6ebac282ef4d1a7b28e0875d870c4f290b1c617a285b::mycoin::MYCOIN --gas-budget 50000000
+```
+
+```bash
+homeData: 0x9e77c7bbd9ce7549362e45a5b037a193b17f8b0ee25948dc43d5bb6d68926c70
+```

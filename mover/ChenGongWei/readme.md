@@ -28,8 +28,8 @@
 - [x] call game hash: [WSNUS4sN4ivYCQ99umU6BdEKr7mzqHzvVDkASBq8VE2](https://suiscan.xyz/testnet/tx/WSNUS4sN4ivYCQ99umU6BdEKr7mzqHzvVDkASBq8VE2)
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id : 0x8a3f4c8e381ea0590659504d44f6891b296caa5e611dcff560c88370df30da2e
+- [] call swap hash: [B999mFqexHbexY4FawhQkhh4hSe1GpeJaLtHgaLRdQN6](https://suiscan.xyz/testnet/tx/B999mFqexHbexY4FawhQkhh4hSe1GpeJaLtHgaLRdQN6)
 
 ##   06 SDK PTB
 - [] save hash :
