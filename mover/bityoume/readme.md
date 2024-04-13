@@ -15,13 +15,13 @@
 - [x] package id: 0x1f21ec5ed235422f300a6e47033fccfada4c2809b6f66c9de402b24f4da71eff
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [x] My Coin package id :  0x4baaeb6b4f64c7b989f22781309cd9b31fc1b1b3e44395c8b435027d79ef1b14::rzx_token
+- [x] Faucet package id :  0x4baaeb6b4f64c7b989f22781309cd9b31fc1b1b3e44395c8b435027d79ef1b14::rzx_faucet_coin
+- [x] 转账 `My Coin` hash: [7kcTWkQAnDcz6bDqezXAjn79XPqjLgpPYhZ6YMLuVpru](https://suivision.xyz/txblock/7kcTWkQAnDcz6bDqezXAjn79XPqjLgpPYhZ6YMLuVpru?tab=Changes)
 
 ##   03 move NFT
 - [] nft package id :
-- [] nft object id : 
+- [] nft object id :
 - [] 转账 nft  hash:
 
 ##   04 Move Game
