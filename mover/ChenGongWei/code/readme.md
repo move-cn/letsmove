@@ -75,3 +75,34 @@ sui client call --function mint --module faucet_coin --package 0xfe1458e359b848c
 ```bash
 sui client call --function mint --module mycoin --package 0xfe1458e359b848cc712e6ebac282ef4d1a7b28e0875d870c4f290b1c617a285b --args 0xf34d136051585e67567e046478b219efa3f809cc46303b1768419e30785a59ba 100000000000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --gas-budget 50000000
 ```
+
+
+## task3
+### 创建项目
+```sui move new nfg_example```
+
+### 构建、发布
+```bash
+sui move build
+sui client publish --gas-budget=50000000 
+```
+
+输出：
+```
+    package id: 0xb01abee6307b48e001f17f06dcd42db9341aae627a74145859142a03e486ffd0
+```
+
+## mint&转账
+### mint
+```bash
+sui client call  --gas-budget 50000000 --function mint_nft --module my_nft --package 0xb01abee6307b48e001f17f06dcd42db9341aae627a74145859142a03e486ffd0 --args "joker" "twitter joker" "https://png.pngtree.com/png-clipart/20190904/original/pngtree-clown-cartoon-png-material-png-image_4477011.jpg"
+```
+
+```
+    object id: 0xbf7f5bd4609c1f3cd079e2368e843bb83459f1a494a3342def5860ccc4b7bff1
+```
+
+### 转账
+```bash
+sui client call --gas-budget 50000000 --function transfer_nft --module my_nft --package 0xb01abee6307b48e001f17f06dcd42db9341aae627a74145859142a03e486ffd0 --args 0xbf7f5bd4609c1f3cd079e2368e843bb83459f1a494a3342def5860ccc4b7bff1 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
+```
