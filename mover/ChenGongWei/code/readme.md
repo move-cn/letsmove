@@ -106,3 +106,24 @@ sui client call  --gas-budget 50000000 --function mint_nft --module my_nft --pac
 ```bash
 sui client call --gas-budget 50000000 --function transfer_nft --module my_nft --package 0xb01abee6307b48e001f17f06dcd42db9341aae627a74145859142a03e486ffd0 --args 0xbf7f5bd4609c1f3cd079e2368e843bb83459f1a494a3342def5860ccc4b7bff1 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
 ```
+
+
+## task4
+### 创建项目
+```sui move new my_game```
+
+### 构建、发布
+```bash
+sui move build
+sui client publish --gas-budget=50000000 
+```
+
+输出：
+```
+    package id: 0x9bd43cf0419dcfbf0acc1ea83445efb0e1bae7a10a56f845c9bdca13e34d63b5
+```
+
+### play
+```bash
+sui client call --gas-budget 7500000 --package 0x9bd43cf0419dcfbf0acc1ea83445efb0e1bae7a10a56f845c9bdca13e34d63b5 --module my_game --function play --args 0 0x6
+```
