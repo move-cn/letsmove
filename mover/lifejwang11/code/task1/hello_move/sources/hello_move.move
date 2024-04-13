@@ -1,5 +1,10 @@
 module hello_move::hello_move {
     use std::string;
+    use sui::object;
+    use sui::object::UID;
+    use sui::transfer;
+    use sui::tx_context;
+    use sui::tx_context::TxContext;
 
     public struct HelloMoveObject has key, store {
         id: UID,
