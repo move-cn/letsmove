@@ -33,4 +33,4 @@
 - [x] call swap hash: https://suivision.xyz/txblock/3iMrsLYNBtYu1u7xY8Fz6EEs9CYfE9jFcgUZKoTHrbEc
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : https://suivision.xyz/txblock/G5cgq2a51pHd4CTv4zhnpDPJu35EZjc3BYH6DQTTvMMX
