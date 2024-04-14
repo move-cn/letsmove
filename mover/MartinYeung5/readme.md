@@ -6,7 +6,7 @@
 ## 个人简介
 - 工作经验: 10年
 - 技术栈: `Java` `javascript` `solidity` `sql` `php` `html` `python` `daml`
-- 有多年開發經驗，接觸多過Web3 project，對MOVE有興趣，想利用Move開發新的產品/技術
+- 有多年開發經驗，接觸多過Web3 project，對MOVE有興趣，想利用Move開發新的產品或技術
 - 联系方式: wechat: `martin3388hahaha` 
 
 ## 任务
