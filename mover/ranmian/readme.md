@@ -3,6 +3,7 @@
 - Sui 钱包地址: `0x4b6a39a608af5829550b2e6719ae94db5e60c8f3cbb1a5b9f7cc410e0afb3458`
   > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `ranmian`
+- From: TinTinLand Move 共学社
 
 ## 个人简介
 
@@ -19,9 +20,10 @@
 
 ## 02 move coin
 
-- [] My Coin package id :
-- [] Faucet package id :
-- [] 转账 `My Coin` hash:
+- [x] My Coin package id : 0x165a8a636ad781363c998df06bc2c887193a7a2c428c1e97b944e81148772068
+- [x] Faucet package id : 0x165a8a636ad781363c998df06bc2c887193a7a2c428c1e97b944e81148772068
+- [x] 转账 `My Coin` hash: F9xzgkVG3GxPLwatXu2nAxTakeCikyo7xRjmpzprB8Mn
+- [x] 转账 `Faucet Coin` hash: 9TKpUWPSXsSsgMki3yUbj7d6fyE4bKkJGrmLGA8kGGvd
 
 ## 03 move NFT
 
