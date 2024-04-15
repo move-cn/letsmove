@@ -1,10 +1,10 @@
-  /*
-/// Module: hello_2H-K
-module hello_2H-K::hello_2H-K {
+/*
+/// Module: hello_move
+module hello_move::hello_move {
 
 }
 */
-module hello_2H-K::hello {
+module hello_move::hello {
     use std::ascii::{String, string};
     use sui::object::{Self,UID};
     use sui::transfer::transfer;
@@ -16,10 +16,10 @@ module hello_2H-K::hello {
     }
 
     fun init(ctx: &mut TxContext) {
-        let hello_2H-K = Hello {
+        let hello_move = Hello {
             id:object::new(ctx),
-            say: string(b"hello 2H-K"),
+            say: string(b"move"),
         };
-        transfer(hello_2H-K, sender(ctx));
+        transfer(hello_move, sender(ctx));
     }
 }
