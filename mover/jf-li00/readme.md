@@ -9,22 +9,22 @@
 - [x] package id: `0x10eb309f06fbd8d177b2cf4f53e3179f6db673ec0066e6634700ac529ec863b9` 
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [x] My Coin package id : `0x3ba933a489d00db521914d7d3265b3aa901b37f86c2d241d4f7ea8feb0835fc5`
+- [x] Faucet package id : `0x3ba933a489d00db521914d7d3265b3aa901b37f86c2d241d4f7ea8feb0835fc5`
+- [x] 转账 `My Coin` hash: `HD3aBrnZPZsP6oHAQsfKY38Q7dRevf9XQc7HHocG9TUX`[https://suiscan.xyz/testnet/tx/HD3aBrnZPZsP6oHAQsfKY38Q7dRevf9XQc7HHocG9TUX]
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [x] nft package id : `0x197cb1d2243270835be026913e949ffaac6c12f9985ea5299a94ec538d014e0f`
+- [x] nft object id : `0x91e953bbc131860089fca08fdd51c62b7f816131b7572039bb0486ae0748855f`
+- [x] 转账 nft  hash: `8KGfeuWsgMqwWowQYZxf5gPnJU8ap2fAuGkyZn6PNdQ` [https://suiscan.xyz/testnet/tx/8KGfeuWsgMqwWowQYZxf5gPnJU8ap2fAuGkyZn6PNdQ]
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [x] game package id : `0xd06435923fcaa2093b897427d13eb8ccf11d108af48123cd421ce8096ce9c85b`
+- [x] call game hash: `H33QAHeVTGbyjus9vHY5SDcVt3jg5Z95ktS4DeR7ygdi`[https://suiscan.xyz/testnet/tx/H33QAHeVTGbyjus9vHY5SDcVt3jg5Z95ktS4DeR7ygdi]
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id : `0xd3f10b76ce2e19f9f1b920fb65a507203dab707ef54cebb4a8713a82d51c9a7c`
+- [x] call swap hash: `J6JTybk7HuzUFBg2iuBrja71LSWawWq4sDzF7eyy88xm`[https://suiscan.xyz/testnet/tx/J6JTybk7HuzUFBg2iuBrja71LSWawWq4sDzF7eyy88xm]
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : `5gBAgdmc21YWiPnTeALQk3WLfZEVJpxookffjCM3CYT9`[https://suiscan.xyz/mainnet/tx/5gBAgdmc21YWiPnTeALQk3WLfZEVJpxookffjCM3CYT9]
