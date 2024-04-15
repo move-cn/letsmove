@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0xdbad026364017de34b93ab1d5bbf0ec9aab017c400bb37231fcd8fc452b7bf6f`
+- Sui钱包地址: `0x1d64dd7636bc11b4265f4720215841166c39d40056e1fdc3fef57d2c214e87ac`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `itsjoeyrighthere`
 
