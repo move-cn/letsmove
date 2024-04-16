@@ -1,19 +1,18 @@
 ## 基本信息
-- Sui钱包地址: `0x49ac87502a3b3c47ae452d7ea4f50cb5b117b55b82ea31603e7741b44923a583`
+- Sui钱包地址: `0x28edf359401db66409457efe7250e6f2081790c148601830425a41a03c9010f8`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `Serlight`
+- github: `phantomk`
 
 ## 个人简介
 - 工作经验: 10年
-- 技术栈: `JavaScript`, `Swift`
-- 多年web2开发经验，多年的iOS 端开发经验，
-- 联系方式: tg: `@serlight2024` 
+- 技术栈: `Rust` `JS` `Go`
+- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
+- 联系方式: tg: `` 
 
 ## 任务
 
 ##   01 hello move  
-- [] package id: 0x52c66f80760ce2844a03a64bf3460010ec5d983f738453f47f2f2e22e52ab4f6
-
+- [x] package id: `0xdb0345fae794f2d812fc334d8a843ed795b0eb091bb59c6ab1fdd1e16870b4ac`
 
 ##   02 move coin
 - [] My Coin package id : 
@@ -32,3 +31,6 @@
 ##   05 Move Swap
 - [] swap package id :
 - [] call swap hash:
+
+##   06 SDK PTB
+- [] save hash :
