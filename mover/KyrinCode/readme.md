@@ -15,9 +15,9 @@
 - [x] package id: `0xbd4eff6010d010fb41f840c2179151d936e8f96771a2bf564ea18f7a944c1751`
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [x] KyrinCode Coin package id : 0x66adaa020fab967c1617d226a3d868f062aa37bb13ac44deb18f1366f6ec7980
+- [x] KyrinCode Faucet Coin package id : 0xde2d0d163530740d7587d71d4e9503338c2a7596c221688311a912d33f40bc97
+- [x] 转账 `KyrinCode Coin` hash: DkkCZpgT1LhSqnyLYT1hoCRCA4FaCE7EVr7KPzRnWYNA
 
 ##   03 move NFT
 - [] nft package id :
