@@ -11,17 +11,17 @@
 ## 任务
 
 ##   01 hello move  
-- [] package id: 0xc592fc42b2190d829badb0619ff0cc1bc987e348bce95036248d5e7fc5a5b7c6
+- [x] package id: 0xc592fc42b2190d829badb0619ff0cc1bc987e348bce95036248d5e7fc5a5b7c6
 
 ##   02 move coin
-- [] My Coin package id : 0x209bbaa28efe450b8f02c1ea8b95ebb25e49dd8cf7b0ad77de38fbd800b3f44a
-- [] Faucet package id : 0x4749ce9aae10aad29e194531795ec1e930015d8b8a511371f1e05e64fac33581
-- [] 转账 `My Coin` hash: B9v6CESwfqYcuP1UGiqgWypNDnYNmZf8a8SijN3qkkxF
+- [x] My Coin package id : 0x209bbaa28efe450b8f02c1ea8b95ebb25e49dd8cf7b0ad77de38fbd800b3f44a
+- [x] Faucet package id : 0x4749ce9aae10aad29e194531795ec1e930015d8b8a511371f1e05e64fac33581
+- [x] 转账 `My Coin` hash: B9v6CESwfqYcuP1UGiqgWypNDnYNmZf8a8SijN3qkkxF
 
 ##   03 move NFT
-- [] nft package id : 0x538ae6cbedb139659087a8f56d9a36f7ee6226fca6618a592089860899986683
-- [] nft object id : 0xe1d129b065397906a65f993f24e1bb4555db202998c9ca9d9ed7a4ea619b20a2
-- [] 转账 nft  hash: HGX6SxoHUbmriTGWHZ1VU9zKRtyGkybtTWBsvfJm7xqR
+- [x] nft package id : 0x538ae6cbedb139659087a8f56d9a36f7ee6226fca6618a592089860899986683
+- [x] nft object id : 0xe1d129b065397906a65f993f24e1bb4555db202998c9ca9d9ed7a4ea619b20a2
+- [x] 转账 nft  hash: HGX6SxoHUbmriTGWHZ1VU9zKRtyGkybtTWBsvfJm7xqR
 
 ##   04 Move Game
 - [] game package id :
