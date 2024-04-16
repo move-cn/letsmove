@@ -15,20 +15,18 @@
 - [x] package id: 0xadfce8fb8edf77ecf1a206c950adacac9513b737775fe13582562c18227cdb9f
 
 ##   02 move coin
-- [] My Coin package id : 0xb6cc08bf63cca28b57ecbc2877c623cba827ef4cf16f9e9446dbc99345687e2a
-- [] My Coin object id: 0x88069e0cf3d093f528b597b3431d8fe37308759cbe9877648949dc13a6c0bec5
-- [] Faucet package id : 0xb6cc08bf63cca28b57ecbc2877c623cba827ef4cf16f9e9446dbc99345687e2a
-- [] Faucet object id: 0x9e540c451ad16679f83588b5538cebe409124dded6dd0e89cbc1c5bf1bd5eb86
-- [] 转账 `My Coin` hash: 7JD5zpJFRdrztvktVDLSKFGcSvvidYGT1mFfBw3pZtsY
+- [x] My Coin package id : 0xbea2b5fdc52a58271004d9488ae303db146f82c8b9f0cd45fbdb9e3460d531bc
+- [x] Faucet package id : 0x2152eb58395b4d7d5eba797f47942c4bfad2868cb3d45bc9219415ec6f5b1cfc
+- [x] 转账 `twiagleCoin` hash: AZtoEnj9LaR4cuhG5r1pemV3wNGWmY9MW7kUyBfJpxfV
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [x] nft package id : 0x35f60449ff05ec249e8d3b49e71d4ccd96ffa6147e3c356bf91f6803bce36db1
+- [x] nft object id : 0xd7697c50ec9857b3b7a6c899758f3450948cd87a65a21e8f116db6eb8899e41c
+- [x] 转账 nft  hash: 8Af3oXzZMYUKdKXPS2MEEHn4PGne4XJoEv9Jvar8BTRN
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [x] game package id : 0xd68186e5060dec5aa3ca5bdc1419a427dbf43f17a4d609ded7b1054fa64df94d
+- [x] call game hash: [买彩票7toRXLFoJMyQEHwbkvUiMggdnEog5TMBrSoDbFX9y7aH 开奖BL5dfQ3DqjruGfUtN8pTsx4XpW9JD1aeRDj95uQMA2ZL 兑奖21PcZzkrdze1X7wSzLkAT3oL7uztwB8XJeYYKyQmis2K]
 
 ##   05 Move Swap
 - [] swap package id :

@@ -1,17 +1,20 @@
-module tiwagle::swap {
+module twiagle::swap {
     use sui::object::{Self,UID, ID};
     use sui::tx_context::{Self, TxContext, sender};
     use sui::math;
     use sui::balance::{Self, Balance, Supply};
     use sui::coin::{Self, Coin};
 
+    use task2::twiaglecoin::TWIAGLECOIN;
+    use faucet::twiaglefaucet::TWIAGLEFAUCET;
+
     const EInsufficientLiquidity: u64 = 1;
     const ESlippageLimitExceeded: u64 = 2;
     const EInvalidSwapParameters: u64 = 3;
 
-    struct LPCoin<phantom CoinA, phantom CoinB> has drop {}
+    public struct LPCoin<phantom CoinA, phantom CoinB> has drop {}
 
-    struct LiquidityPool<phantom CoinA, phantom CoinB> has key {
+    public struct LiquidityPool<phantom CoinA, phantom CoinB> has key {
         id: UID, // The unique ID of the liquidity pool
         coin_a_balance: Balance<CoinA>, // The reserve of the first coin
         coin_b_balance: Balance<CoinB>, // The reserve of the second coin
@@ -20,11 +23,11 @@ module tiwagle::swap {
         initial_lp_coin_reserve: Balance<LPCoin<CoinA, CoinB>>, // The initial LP coin reserve
     }
 
-    public fun create_liquidity_pool<CoinA, CoinB>(
+    public entry fun create_liquidity_pool<CoinA, CoinB>(
         coin_a: Coin<CoinA>,
         coin_b: Coin<CoinB>,
         ctx: &mut TxContext
-    ): Coin<LPCoin<CoinA, CoinB>> {
+    ){
         let amount_coin_a = coin::value(&coin_a);
         let amount_coin_b = coin::value(&coin_b);
 
@@ -35,8 +38,8 @@ module tiwagle::swap {
         let coin_a_balance = coin::into_balance(coin_a);
         let coin_b_balance = coin::into_balance(coin_b);
 
-        let lp_value = amount_a_b_sqrt - 1000; // lock liquidity
-        let lp_coin_supply = balance::create_supply(LPCoin<CoinA, CoinB> {});
+        let lp_value = amount_a_b_sqrt - 1000;
+        let mut lp_coin_supply = balance::create_supply(LPCoin<CoinA, CoinB> {});
 
         let lp_balance = balance::increase_supply(
             &mut lp_coin_supply, lp_value);
@@ -53,16 +56,15 @@ module tiwagle::swap {
         };
 
         transfer::share_object(liquidityPool);
-
-        coin::from_balance(lp_balance, ctx)
+        transfer::public_transfer(coin::from_balance(lp_balance, ctx), sender(ctx));
     }
 
-    public fun supply_liquidity<CoinA, CoinB>(
+    public entry fun supply_liquidity<CoinA, CoinB>(
         coin_a: Coin<CoinA>,
         coin_b: Coin<CoinB>,
         pool: &mut LiquidityPool<CoinA, CoinB>,
         ctx: &mut TxContext
-    ): Coin<LPCoin<CoinA, CoinB>> {
+    ){
         let amount_coin_a = coin::value(&coin_a);
         let amount_coin_b = coin::value(&coin_b);
 
@@ -84,14 +86,14 @@ module tiwagle::swap {
 
         let lp_balance = balance::increase_supply(
             &mut pool.lp_coin_supply, amount_lp_value);
-
-        coin::from_balance(lp_balance, ctx)
+        transfer::public_transfer(coin::from_balance(lp_balance, ctx), sender(ctx));
     }
-    public fun remove_liquidity<CoinA, CoinB>(
+
+    public entry fun remove_liquidity<CoinA, CoinB>(
         lp_coins_to_redeem: Coin<LPCoin<CoinA, CoinB>>,
         pool: &mut LiquidityPool<CoinA, CoinB>,
         ctx: &mut TxContext
-    ): (Coin<CoinA>, Coin<CoinB>) {
+    ){
 
         let amount_lp_coins = coin::value(&lp_coins_to_redeem);
         assert!(amount_lp_coins > 0, EInsufficientLiquidity);
@@ -112,15 +114,16 @@ module tiwagle::swap {
         let lp_coins_to_redeem_balance = coin::into_balance(lp_coins_to_redeem);
 
         balance::decrease_supply(&mut pool.lp_coin_supply, lp_coins_to_redeem_balance);
-
-        (coin_a, coin_b)
+        transfer::public_transfer(coin_a, sender(ctx));
+        transfer::public_transfer(coin_b, sender(ctx));
     }
+
     public fun swap_exact_a_for_b<CoinA, CoinB>(
         coin_a_in: Coin<CoinA>,
         pool: &mut LiquidityPool<CoinA, CoinB>,
         min_amount_coin_b_out: u64, // avoid too much price slip
         ctx: &mut TxContext
-    ): Coin<CoinB> {
+    ) {
 
         let prev_coin_a_reserve = balance::value(&pool.coin_a_balance);
         let prev_coin_b_reserve = balance::value(&pool.coin_b_balance);
@@ -137,16 +140,15 @@ module tiwagle::swap {
 
         let coin_b_balance = balance::split(&mut pool.coin_b_balance,
             prev_coin_b_reserve - new_coin_b_reserve);
-
-        coin::from_balance(coin_b_balance, ctx)
+        transfer::public_transfer(coin::from_balance(coin_b_balance, ctx), sender(ctx));
     }
 
-    public fun swap_exact_b_for_a<CoinA, CoinB>(
+    public entry fun swap_exact_b_for_a<CoinA, CoinB>(
         coin_b_in: Coin<CoinB>,
         pool: &mut LiquidityPool<CoinA, CoinB>,
         min_amount_coin_a_out: u64,
         ctx: &mut TxContext
-    ): Coin<CoinA> {
+    ) {
         let prev_coin_a_reserve = balance::value(&pool.coin_a_balance);
         let prev_coin_b_reserve = balance::value(&pool.coin_b_balance);
 
@@ -162,72 +164,6 @@ module tiwagle::swap {
 
         let coin_a_balance = balance::split(&mut pool.coin_a_balance,
             prev_coin_a_reserve - new_coin_a_reserve);
-
-        coin::from_balance(coin_a_balance, ctx)
-    }
-
-    public fun swap_a_for_exact_b<CoinA, CoinB>(
-        max_coin_a_in: &mut Coin<CoinA>,
-        amount_coin_b_out: u64,
-        pool: &mut LiquidityPool<CoinA, CoinB>,
-        ctx: &mut TxContext
-    ): Coin<CoinB> {
-        let prev_coin_a_reserve = balance::value(&pool.coin_a_balance);
-        let prev_coin_b_reserve = balance::value(&pool.coin_b_balance);
-
-        let max_coin_a_in_value = coin::value(max_coin_a_in);
-
-        assert!(max_coin_a_in_value > 0, EInvalidSwapParameters);
-        assert!(amount_coin_b_out > 0, EInvalidSwapParameters);
-        assert!(prev_coin_b_reserve >= amount_coin_b_out, EInvalidSwapParameters);
-
-        let new_coin_b_reserve = (prev_coin_b_reserve - amount_coin_b_out);
-
-        let new_coin_a_reserve = prev_coin_b_reserve * prev_coin_a_reserve / new_coin_b_reserve;
-
-
-        let coin_a_in_value  = (new_coin_a_reserve - prev_coin_a_reserve);
-        assert!(max_coin_a_in_value >= coin_a_in_value, ESlippageLimitExceeded);
-
-        let coin_a_in = coin::split(max_coin_a_in, coin_a_in_value, ctx);
-
-        balance::join(&mut pool.coin_a_balance, coin::into_balance(coin_a_in));
-
-        let coin_b_balance = balance::split(&mut pool.coin_b_balance,
-            amount_coin_b_out);
-
-        coin::from_balance(coin_b_balance, ctx)
-    }
-    public fun swap_b_for_exact_a<CoinA, CoinB>(
-        max_coin_b_in: &mut Coin<CoinB>,
-        amount_coin_a_out: u64,
-        pool: &mut LiquidityPool<CoinA, CoinB>,
-        ctx: &mut TxContext
-    ): Coin<CoinA> {
-        let prev_coin_a_reserve = balance::value(&pool.coin_a_balance);
-        let prev_coin_b_reserve = balance::value(&pool.coin_b_balance);
-
-        let max_coin_b_in_value = coin::value(max_coin_b_in);
-
-        assert!(max_coin_b_in_value > 0, EInvalidSwapParameters);
-        assert!(amount_coin_a_out > 0, EInvalidSwapParameters);
-        assert!(prev_coin_a_reserve >= amount_coin_a_out, EInvalidSwapParameters);
-
-        let new_coin_a_reserve = (prev_coin_a_reserve - amount_coin_a_out);
-
-        let new_coin_b_reserve = prev_coin_a_reserve * prev_coin_b_reserve / new_coin_a_reserve;
-
-
-        let coin_b_in_value  = (new_coin_b_reserve - prev_coin_b_reserve);
-        assert!(max_coin_b_in_value >= coin_b_in_value, ESlippageLimitExceeded);
-
-        let coin_b_in = coin::split(max_coin_b_in, coin_b_in_value, ctx);
-
-        balance::join(&mut pool.coin_b_balance, coin::into_balance(coin_b_in));
-
-        let coin_a_balance = balance::split(&mut pool.coin_a_balance,
-            amount_coin_a_out);
-
-        coin::from_balance(coin_a_balance, ctx)
+        transfer::public_transfer(coin::from_balance(coin_a_balance, ctx), sender(ctx));
     }
 }
