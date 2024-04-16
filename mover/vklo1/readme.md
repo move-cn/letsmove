@@ -9,10 +9,32 @@
 ## 任务
 
 ##   01 hello move  
-- [] package id: 0xa87078aee61c62cfd29ebce8c72e3392251f9dfadca950035a7177d57669c1f2
+- [] package id: 0xb476489aafe02c0af66b86b7beb007e314c029be956b6a2abd377d1e76b79e17
+
+- 源码
+  ```
+  module hello_move::hello {
+    use sui::tx_context::{TxContext, sender};
+    use sui::transfer;
+    use std::string;
+    use std::string::String;
+    use sui::object;
+    use sui::object::UID;
+    public struct HelloMove has key,store{
+        id: UID,
+        hello:String
+    }
+    
+    fun init(ctx:&mut TxContext){
+        let hello  = string::utf8(b"Hello vklo1");
+        transfer::public_transfer(HelloMove{id:object::new(ctx),hello:hello},sender(ctx));
+    }
+
+}
+  ```
 
 ##   02 move coin
-- [] My Coin package id : 0x6933a19cea6793b3b8fdc7e574922d3fa6d068af5bdbb2f4b9c8882fee6e1619
+- [] My Coin package id : 0xfd3db8fda2153f0278df1190c99d2f4149d1769ccbfdce0bf22b866bd58579dd
 - [] Faucet package id : 0xc26cfb83c268b0ddc956ac5dbcc6471fba7b6ae1463b6f31e670b8ad1c3b79ea
 - [] 转账 `My Coin` hash:8Dkd9uc5zd2aj3cnT4i39gqfGnk3x7KPvCZ24TJQRq2T
 
