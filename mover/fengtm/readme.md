@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x696781414702a39701c68a08941046f35d770ef1648bdb7d7ec470182440057a`
+- Sui钱包地址: `0xadd84c3941bda7c3780e3dce546ea6dba41afedc6ad3514d8c665050c439685d`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `fengtm`
 
@@ -12,7 +12,7 @@
 ## 任务
 
 ##   01 hello move  
-- [] package id: 
+- [] package id: 0x1dccb833483a6d6008a5b6d0392311add1deffc98eeacdfb16c5502392a2f45a
 
 ##   02 move coin
 - [] My Coin package id : 
