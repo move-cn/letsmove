@@ -29,8 +29,8 @@
 - [x] call game hash: [买彩票7toRXLFoJMyQEHwbkvUiMggdnEog5TMBrSoDbFX9y7aH 开奖BL5dfQ3DqjruGfUtN8pTsx4XpW9JD1aeRDj95uQMA2ZL 兑奖21PcZzkrdze1X7wSzLkAT3oL7uztwB8XJeYYKyQmis2K]
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id : 0x0f5d2937653a9dcd24e45ede258efbe24b69ed8774d0923d7d828c9f3d0d5fcc
+- [x] call swap hash: Etj5iLACaDp8ZGGNa6r5NQLJSF9ZUAt1uoPCakCZFn4B
 
 ##   06 SDK PTB
 - [] save hash :

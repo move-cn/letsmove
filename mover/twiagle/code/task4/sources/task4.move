@@ -22,7 +22,6 @@ module task4::drand_based_scratch_card {
     const ETooSoonToRedeem: u64 = 5;
     const EInvalidGame: u64 = 6;
 
-    /// Game represents a set of parameters of a single game.
     public struct Game has key {
         id: UID,
         game_name: String,
@@ -33,31 +32,22 @@ module task4::drand_based_scratch_card {
         base_drand_round: u64,
     }
 
-    /// Reward that is attached to a specific game. Can be withdrawn once.
     public struct Reward has key {
         id: UID,
         game_id: ID,
         balance: Balance<SUI>,
     }
 
-    /// Ticket represents a participant in a single game.
-    /// Can be deconstructed only by the owner.
     public struct Ticket has key, store {
         id: UID,
         game_id: ID,
     }
 
-    /// Winner represents a participant that won in a specific game.
-    /// Can be consumed by the take_reward.
     public struct Winner has key, store {
         id: UID,
         game_id: ID,
     }
 
-    /// Create a new game with a given reward.
-    ///
-    /// The reward must be a positive balance, dividable by reward_factor. reward/reward_factor will be the ticket
-    /// price. base_drand_round is the current drand round.
     public entry fun create(
         reward: Coin<SUI>,
         reward_factor: u64,
@@ -85,9 +75,6 @@ module task4::drand_based_scratch_card {
         transfer::share_object(reward);
     }
 
-    /// Buy a ticket for a specific game, costing reward/reward_factor SUI. Can be called only during the epoch in which
-    /// the game was created.
-    /// Note that the reward might have been withdrawn already. It's the user's responsibility to verify that.
     public entry fun buy_ticket(coin: Coin<SUI>, game: &Game, ctx: &mut TxContext) {
         assert!(coin::value(&coin) * game.reward_factor == game.reward_amount, EInvalidDeposit);
         assert!(tx_context::epoch(ctx) == game.base_epoch, EInvalidEpoch);
@@ -137,17 +124,6 @@ module task4::drand_based_scratch_card {
         object::delete(id);
     }
 
-    /// Can be called in case the reward was not withdrawn, to return the coins to the creator.
-    public entry fun redeem(reward: &mut Reward, game: &Game, ctx: &mut TxContext) {
-        assert!(balance::value(&reward.balance) > 0, EInvalidReward);
-        assert!(object::id(game) == reward.game_id, EInvalidGame);
-        // Since we define the game to take 24h+25h, a game that is created in epoch x may be completed in epochs
-        // x+2 or x+3.
-        assert!(game.base_epoch + 3 < tx_context::epoch(ctx), ETooSoonToRedeem);
-        let full_balance = balance::value(&reward.balance);
-        transfer::public_transfer(coin::take(&mut reward.balance, full_balance, ctx), game.creator);
-    }
-
     public entry fun delete_ticket(ticket: Ticket) {
         let Ticket { id, game_id:  _} = ticket;
         object::delete(id);
@@ -162,10 +138,6 @@ module task4::drand_based_scratch_card {
     }
 
     public fun end_of_game_round(round: u64): u64 {
-        // Since users do not know when an epoch has began, they can only check if the game depends on a round that is
-        // at least 24 hours from now. Since the creator does not know as well if its game is created in the beginning
-        // or the end of the epoch, we define the end of the game to be 24h + 24h from when it started, +1h to be on
-        // the safe side since epoch duration is not deterministic.
         round + 20 * 10
     }
 }

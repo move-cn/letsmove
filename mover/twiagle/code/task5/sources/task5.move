@@ -5,8 +5,8 @@ module twiagle::swap {
     use sui::balance::{Self, Balance, Supply};
     use sui::coin::{Self, Coin};
 
-    use task2::twiaglecoin::TWIAGLECOIN;
-    use faucet::twiaglefaucet::TWIAGLEFAUCET;
+    // use task2::twiaglecoin::TWIAGLECOIN;
+    // use faucet::twiaglefaucet::TWIAGLEFAUCET;
 
     const EInsufficientLiquidity: u64 = 1;
     const ESlippageLimitExceeded: u64 = 2;
