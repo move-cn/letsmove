@@ -1,3 +1,4 @@
+#[allow(lint(share_owned))]
 module lidashu_faucet_coin::lidashu_faucet_coin {
     use sui::coin;
     
@@ -39,10 +40,19 @@ module lidashu_faucet_coin::lidashu_faucet_coin {
     }
 
     /// Manager can mint new coins
-    public entry fun faucet(
+    public fun create_faucet(
         treasury_cap: &mut coin::TreasuryCap<LIDASHU_FAUCET_COIN>, ctx: &mut TxContext
     ) {
-        coin::mint_and_transfer(treasury_cap, 1000000, tx_context::sender(ctx), ctx);
+        let faucet_coin = coin::mint(treasury_cap, 1000000000, ctx);
+        transfer::public_share_object(faucet_coin);
+    }
+
+    /// Manager can mint new coins
+    public entry fun faucet(
+        faucet_coin: &mut coin::Coin<LIDASHU_FAUCET_COIN>, ctx: &mut TxContext
+    ) {
+        let new_coin = coin::split(faucet_coin, 1000000, ctx);
+        transfer::public_transfer(new_coin, tx_context::sender(ctx));
     }
 
 
