@@ -24,15 +24,14 @@ module task2::jeasonnow_coin {
     }
 
      /// Manager can mint new coins
-    public fun mint(
+    public entry fun mint(
         treasury_cap: &mut TreasuryCap<JEASONNOW_COIN>, amount: u64, recipient: address, ctx: &mut TxContext
     ) {
         coin::mint_and_transfer(treasury_cap, amount, recipient, ctx);
     }
 
     /// Manager can burn coins
-    public fun burn(treasury_cap: &mut TreasuryCap<JEASONNOW_COIN>, coin: Coin<JEASONNOW_COIN>) {
+    public entry fun burn(treasury_cap: &mut TreasuryCap<JEASONNOW_COIN>, coin: Coin<JEASONNOW_COIN>) {
         coin::burn(treasury_cap, coin);
     }
-
 }

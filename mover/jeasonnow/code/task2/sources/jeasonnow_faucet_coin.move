@@ -1,21 +1,20 @@
 module task2::jeasonnow_faucet_coin {
     use sui::tx_context::{sender};
-    use sui::coin::{Self, TreasuryCap, Coin};
-    use sui::event::emit;
+    use sui::coin::{Self, TreasuryCap};
+    use sui::balance::{Self, Balance};
 
     // witness
     public struct JEASONNOW_FAUCET_COIN has drop {} 
 
-    // mint event
-    public struct MINT_EVENT has copy, drop {
-        amount: u64,
-        recipient: address
+    public struct Wallet has key {
+        id: UID,
+        coin: Balance<JEASONNOW_FAUCET_COIN>
     }
 
     fun init(otw:JEASONNOW_FAUCET_COIN, ctx: &mut TxContext) {
-        let (treasury_cap, metadata) = coin::create_currency(
+        let (treasury, metadata) = coin::create_currency(
             otw,
-            8,
+            6,
             b"JFC",
             b"JeasonnowFaucetCoin",
             b"Jeasonnow Faucet Coin",
@@ -27,20 +26,26 @@ module task2::jeasonnow_faucet_coin {
         //freeze the metadata to share immutabale objects
         transfer::public_freeze_object(metadata);
         // public transfer, everyone can transfer the coin
-        transfer::public_transfer(treasury_cap, sender(ctx))
+        transfer::public_transfer(treasury, sender(ctx));
+
+        let wallet = Wallet {
+            id: object::new(ctx),
+            coin: balance::zero()
+        };
+
+        transfer::share_object(wallet)
+
     }
 
-     /// all people can mint new coins
     public entry fun mint(
-        treasury_cap: &mut TreasuryCap<JEASONNOW_FAUCET_COIN>, amount: u64, recipient: address, ctx: &mut TxContext
+        treasury_cap: &mut TreasuryCap<JEASONNOW_FAUCET_COIN>, wallet: &mut Wallet, amount: u64, ctx: &mut TxContext
     ) {
         let coin = coin::mint(treasury_cap, amount, ctx);
-        transfer::public_transfer(coin, recipient);
-        emit(MINT_EVENT { amount: amount, recipient: recipient });
+        balance::join(&mut wallet.coin, coin::into_balance(coin));
     }
 
-    /// Manager can burn coins
-    public entry fun burn(treasury_cap: &mut TreasuryCap<JEASONNOW_FAUCET_COIN>, coin: Coin<JEASONNOW_FAUCET_COIN>) {
-        coin::burn(treasury_cap, coin);
+    public entry fun faucet(wallet: &mut Wallet, amount: u64, ctx: &mut TxContext) {
+        let coin = coin::take(&mut wallet.coin, amount, ctx);
+        transfer::public_transfer(coin, sender(ctx));
     }
 }
