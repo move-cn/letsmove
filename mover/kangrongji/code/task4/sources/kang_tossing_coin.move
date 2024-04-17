@@ -8,7 +8,7 @@ module task4::kang_tossing_coin {
     const Head: u64 = 0;
     const Tail: u64 = 1;
 
-    const EInvalidGuess: u64 = 1;
+    const ErrInvalidGuess: u64 = 1;
 
     public struct EGameOutcome has drop, copy {
         guess: u64,
@@ -17,7 +17,7 @@ module task4::kang_tossing_coin {
     }
 
     public fun play(guess: u64, clock: &Clock){
-        assert!(guess == Head || guess == Tail, EInvalidGuess);
+        assert!(guess == Head || guess == Tail, ErrInvalidGuess);
         let result = random(clock);
         let outcome = if (guess == result) {
             string::utf8(b"WIN!!!")
@@ -28,9 +28,7 @@ module task4::kang_tossing_coin {
     }
 
     fun random(clock: &Clock): u64{
-        let random_value = clock::timestamp_ms(clock) % 2;
-        debug::print(&random_value);
-        random_value
+        clock::timestamp_ms(clock) % 2
     }
 
 }

@@ -59,7 +59,7 @@ module task3::kang_nft {
 
     // Entrypoints
 
-    public fun mint(
+    public entry fun mint(
         name: vector<u8>,
         ctx: &mut TxContext
     ) {
