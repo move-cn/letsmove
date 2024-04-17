@@ -31,3 +31,6 @@
 ##   05 Move Swap
 - [x] swap package id : 0x1d8242d619fd74cf60ad63b0bab612c8f9bd5c818dcce4ccd65135d4c2f38063
 - [x] call swap hash: CL9fLcUH3Fi3eRvVEE2BwX69ZYQ3YvvoHiaxKCSgFEZd
+
+##   06 SDK PTB
+- [x] save hash : 3kgBEs53scCtNNBQB5bYYnVXrjenBrff1uaqHu8UGpkt

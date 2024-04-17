@@ -4,7 +4,7 @@
 - github: `move-expert`
 
 ## 个人简介
-- 工作经验：很多年
+- 工作经验：15年
 - 技术栈：`dart`, `move`, `c++`
 - 目前从事移动端flutter开发，区块链行业背景，有多个区块链项目经验
 - 联系方式: tg: `guo110` 
@@ -26,12 +26,13 @@
 - [x] 转账 nft hash : [ZZvw4dHhELcF5uucGHsF7EzP7x82XDydTUVYCQ7EMDM](https://testnet.suivision.xyz/txblock/ZZvw4dHhELcF5uucGHsF7EzP7x82XDydTUVYCQ7EMDM)
 
 ##   04 Move Game
-- [] game package id : 
-- [] call game hash : 
+- [x] game package id : [2DcxBJDsBFynfcDFLSHLwxD37xP2J7faBKMiCFGe8Dmc](https://testnet.suivision.xyz/txblock/2DcxBJDsBFynfcDFLSHLwxD37xP2J7faBKMiCFGe8Dmc)
+- [x] call game hash : [2DcxBJDsBFynfcDFLSHLwxD37xP2J7faBKMiCFGe8Dmc](https://testnet.suivision.xyz/txblock/2DcxBJDsBFynfcDFLSHLwxD37xP2J7faBKMiCFGe8Dmc?tab=Events)
 
 ##   05 Move Swap
 - [] swap package id : 
-- [] call swap hash: 
+- [] call swap hash:
 
 ##   06 SDK PTB
-- [] save hash :
+- [] save hash : 7qt3VdHaVwLvSnzMH4BRPRuQoe37t2VUNzrVLMsJAK38
+（https://suivision.xyz/txblock/7qt3VdHaVwLvSnzMH4BRPRuQoe37t2VUNzrVLMsJAK38）
