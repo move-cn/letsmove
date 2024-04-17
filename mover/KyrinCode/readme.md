@@ -15,14 +15,14 @@
 - [x] package id: `0xbd4eff6010d010fb41f840c2179151d936e8f96771a2bf564ea18f7a944c1751`
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [x] KyrinCode Coin package id : 0x66adaa020fab967c1617d226a3d868f062aa37bb13ac44deb18f1366f6ec7980
+- [x] KyrinCode Faucet Coin package id : 0xde2d0d163530740d7587d71d4e9503338c2a7596c221688311a912d33f40bc97
+- [x] 转账 `KyrinCode Coin` hash: DkkCZpgT1LhSqnyLYT1hoCRCA4FaCE7EVr7KPzRnWYNA
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [x] KyrinCode NFT package id : 0x3bf4b99ed82b9a2b5c84ed4b4bd8b8d308fd0f54937d6612f5f2a5a556c0adce
+- [x] KyrinCode NFT object id : 0xaa9d9337f2e5662b16de7b2a1321bdf8014b99798e426dca9bbf9b420222709e
+- [x] 转账 KyrinCode NFT  hash: 7mzLR4jBoVTYKi7b3Gnh7mB1oHVVNcqtLAnhzG5QqHyt
 
 ##   04 Move Game
 - [] game package id :

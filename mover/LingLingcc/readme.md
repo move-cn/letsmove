@@ -12,14 +12,14 @@
 - [x] package id: [0x95debcbfc1124fd3edfbbeddc63516565f8df233fe587d736d50017e1c34cb4f](https://testnet.suivision.xyz/package/0x95debcbfc1124fd3edfbbeddc63516565f8df233fe587d736d50017e1c34cb4f)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [x] My Coin package id: [0x5b4ed860c1ecf8fbeac07fba4f1daf28f6f588dd6b75e80ee7d259bf44fdd5f0](https://suivision.xyz/package/0x5b4ed860c1ecf8fbeac07fba4f1daf28f6f588dd6b75e80ee7d259bf44fdd5f0)
+- [x] Faucet package id: [0x8ff21d50fe7ec3524659f319945be183a92c2dbe9d119bed1f1ead21869f290c](https://suivision.xyz/package/0x8ff21d50fe7ec3524659f319945be183a92c2dbe9d119bed1f1ead21869f290c)
+- [x] 转账 `My Coin` hash: [3zwVUsFkgMgWx26jEbJztUVgbYNjtFUdwxJMqrRfGQu3](https://suivision.xyz/txblock/3zwVUsFkgMgWx26jEbJztUVgbYNjtFUdwxJMqrRfGQu3)
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [x] nft package id: [0x0ee8646d12ccef90872b14aa727ddab7a9f65d4045c2769807dc47d1da99a950](https://suivision.xyz/package/0x0ee8646d12ccef90872b14aa727ddab7a9f65d4045c2769807dc47d1da99a950)
+- [x] nft object id: [0x31586814763b93e3b10f63115029d4696c30a28fe4b0c8ae5dd5cb0711a9c49f](https://suivision.xyz/object/0x31586814763b93e3b10f63115029d4696c30a28fe4b0c8ae5dd5cb0711a9c49f)
+- [x] 转账 nft hash: [AMC7yXDUtu3J9j1pcYye9MHNDCM7qCmAMuJHq7uAGEeT](https://suivision.xyz/txblock/AMC7yXDUtu3J9j1pcYye9MHNDCM7qCmAMuJHq7uAGEeT)
 
 ##   04 Move Game
 - [] game package id :
