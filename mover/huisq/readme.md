@@ -23,3 +23,6 @@
 - [x] nft package id : [0x6bed79d0059749da3990de6fce20b4df2e4d30734ea1b6002848a0d8b220b242](https://suiscan.xyz/mainnet/object/0x6bed79d0059749da3990de6fce20b4df2e4d30734ea1b6002848a0d8b220b242/contracts)
 - [x] 转给自己的NFT : [0x933c5b8e384e25bfa993112ab03ba2ca7d0b3c2537f054273112c2eeab2c13da](https://suiscan.xyz/mainnet/object/0x933c5b8e384e25bfa993112ab03ba2ca7d0b3c2537f054273112c2eeab2c13da)
 - [x] 转给指定账户的NFT: [0xd98994032717cf590d4d7e1bcb87261a34b9bdcdbf3f799df229d5dc6c0ec311](https://suiscan.xyz/mainnet/object/0xd98994032717cf590d4d7e1bcb87261a34b9bdcdbf3f799df229d5dc6c0ec311)
+
+##   06 SDK PTB
+- [x] save hash : [BnWJzpGGM98xRRGppRshcN4jqmFe2rWcgiCYFv3BAUjt](https://suiscan.xyz/mainnet/tx/BnWJzpGGM98xRRGppRshcN4jqmFe2rWcgiCYFv3BAUjt)
