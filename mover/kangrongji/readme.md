@@ -26,8 +26,8 @@
 - [x] call game hash: `FH5RsYhv46EnGHmjeVGqDTzftULXFcupC6N8xMJvW38b`
 
 ##   05 Move Swap
-- [] swap package id: ``
-- [] call swap hash:
+- [x] swap package id: `0xecda600a21c7fba57087d823f19363e446bebae574de58313bbd873b2668b53e`
+- [x] call swap hash: `CD3h9kmsiwipJHkE5jBXyFxSwvQgVMYTQqXG2AMGWfSR`
 
 ##   06 SDK PTB
 - [] save hash:
