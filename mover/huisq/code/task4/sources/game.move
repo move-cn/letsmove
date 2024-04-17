@@ -1,12 +1,11 @@
 module admin::game {
-    use sui::url::{Self, Url};
     use std::string::{Self, String};
     use sui::object::{Self, ID, UID};
-    use sui::bcs;
     use sui::event;
     use sui::transfer;
     use sui::tx_context::{Self, TxContext};
     use std::vector;
+    use std::option::{Self, Option};
     //use std::debug;
 
     #[test_only]
@@ -17,143 +16,149 @@ module admin::game {
     //==============================================================================================
     // Constants
     //==============================================================================================
-    const NFT_IMAGE: vector<u8> = b"ipfs://bafybeieshsowcu2h45bija22nblvbmnpu76y3s3vjjwm4sfttm2zekh4fi/1.jpg"; 
+    const GithubName: vector<u8> = b"huisq"; 
+
+    //==============================================================================================
+    // Error codes - DO NOT MODIFY
+    //==============================================================================================
+    const EGameEnded: u64 = 1;
 
     //==============================================================================================
     // Structs 
     //==============================================================================================
-    struct Counter has key {
+    struct Logs has key {
         id: UID,
-        //no of minted nft from this contract collection
-        minted: u64
+        //no of games started
+        count: u64,
+        //games: vector<Game>
     }
 
-    struct HuiSqNFT has key, store {
+    struct Game has key, store {
         id: UID,
-        /// Name for the token
-        name: String,
-        /// Description of the token
-        description: String,
-        /// URL for the token
-        url: Url,
-        // TODO: allow custom attributes
+        ended: bool,
+        participants: u64,
+        winner: Option<address>
     }
 
     //==============================================================================================
     // Event Structs 
     //==============================================================================================
-    struct NFTMinted has copy, drop {
-        // The Object ID of the NFT
-        object_id: ID,
-        // The creator of the NFT
-        creator: address,
-        // The name of the NFT
-        name: String,
-        description: String
+    struct GameJoined has copy, drop {
+        // ticket info (scrambled version of GithubName)
+        string: String,
+        // The owner of the ticket
+        player: address,
+        // The Object ID of the game
+        game: ID
     }
+
+    struct GameWon has copy, drop {
+        // The owner of the ticket
+        player: address,
+        // The Object ID of the game
+        game: ID
+    }
+
 
     //==============================================================================================
     // Init
     //==============================================================================================
 
     fun init(ctx: &mut TxContext) {
-        transfer::share_object(Counter{id: object::new(ctx), minted: 0});
+        let logs = Logs{
+            id: object::new(ctx), 
+            count: 0, 
+            //games: vector::empty()
+        };
+        transfer::share_object(logs);
     }
 
     //==============================================================================================
     // Entry Functions 
     //==============================================================================================
 
-    /// Create a new nft
-    public entry fun mint_to_sender(
-        name: String,
-        description: String,
-        counter: &mut Counter,
+    /// Create a new game
+    public entry fun create_game(
+        logs: &mut Logs,
+        ctx: &mut TxContext
+    ) {
+        let game = Game {
+            id: object::new(ctx),
+            ended: false,
+            participants: 0,
+            winner: option::none()
+        };
+        //vector::push_back(&mut logs.games, game);
+        logs.count = logs.count + 1;
+        transfer::share_object(game);
+    }
+
+
+    /// Participate in the lottery
+    public entry fun join_game(
+        game: &mut Game,
+        ctx: &mut TxContext
+    ) {
+        assert!(!game.ended, EGameEnded);
+        let sender = tx_context::sender(ctx);
+        let drawn = generate_name(ctx);
+        event::emit(GameJoined {
+            string: drawn,
+            player: sender,
+            game: object::uid_to_inner(&game.id)
+        });
+        game.participants = game.participants + 1;
+        if(drawn == string::utf8(GithubName)){
+            game_won(game,ctx);
+        };
+    }
+
+    /// Game won by a player
+    public fun game_won(
+        game: &mut Game,
         ctx: &mut TxContext
     ) {
         let sender = tx_context::sender(ctx);
-        let desc = string::utf8(b", #");
-        let num = num_to_string(counter.minted + 1);        
-        string::append(&mut desc, num);
-        string::append_utf8(&mut desc, b" of the HuiSqNFT collection");
-        string::append(&mut description, desc);
-        let nft = HuiSqNFT {
-            id: object::new(ctx),
-            name,
-            description,
-            url: url::new_unsafe_from_bytes(NFT_IMAGE)
-        };
-
-        event::emit(NFTMinted {
-            object_id: object::id(&nft),
-            creator: sender,
-            name: nft.name,
-            description: nft.description
+        event::emit(GameWon {
+            player: sender,
+            game: object::uid_to_inner(&game.id)
         });
-        counter.minted = counter.minted + 1;
-        transfer::public_transfer(nft, sender);
+        game.ended = true;
     }
 
-    /// Transfer `nft` to `recipient`
-    public entry fun transfer(
-        nft: HuiSqNFT, recipient: address, _: &mut TxContext
-    ) {
-        transfer::public_transfer(nft, recipient)
-    }
-
-    /// Update the `description` of `nft` to `new_description`
-    public entry fun update_description(
-        nft: &mut HuiSqNFT,
-        new_description: vector<u8>,
-        _: &mut TxContext
-    ) {
-        nft.description = string::utf8(new_description)
-    }
-
-    /// Permanently delete `nft`
-    public entry fun burn(nft: HuiSqNFT, _: &mut TxContext) {
-        let HuiSqNFT { id, name: _, description: _, url: _ } = nft;
-        object::delete(id)
-    }
 
     //==============================================================================================
     // Public View Functions 
     //==============================================================================================
 
-    /// Get the NFT's `name`
-    public fun name(nft: &HuiSqNFT): &String {
-        &nft.name
+    /// Get Game's status
+    public fun is_game_ended(game: &Game): &bool {
+        &game.ended
     }
 
-    /// Get the NFT's `description`
-    public fun description(nft: &HuiSqNFT): &String {
-        &nft.description
+    /// Get Game's no of participants
+    public fun participants(game: &Game): &u64 {
+        &game.participants
     }
 
-    /// Get the NFT's `url`
-    public fun url(nft: &HuiSqNFT): &Url {
-        &nft.url
+    /// Get Game Winner
+    public fun winner(game: &Game): &address {
+        option::borrow(&game.winner)
     }
 
     //==============================================================================================
     // Helper Functions 
     //==============================================================================================
 
-    fun num_to_string(num: u64): String {
-        use std::string;
-        let num_vec = vector::empty<u8>();
-        if (num == 0) {
-            vector::push_back(&mut num_vec, 48);
-        } else {
-            while (num != 0) {
-                let mod = num % 10 + 48;
-                vector::push_back(&mut num_vec, (mod as u8));
-                num = num / 10;
-            };
+    fun generate_name(ctx: &mut TxContext): String{
+        let start_num = vector[0,1,2,3,4];
+        let output = string::utf8(b"");
+        while(vector::length(&start_num) != 0){
+            let size = vector::length(&start_num);
+            let index = vector::remove(&mut start_num, admin::random::generate_number(size, ctx));
+            string::append(&mut output, string::sub_string(&string::utf8(GithubName), index, index+1));
         };
-
-        vector::reverse(&mut num_vec);
-        string::utf8(num_vec)
+        output
     }
 
     //==============================================================================================
@@ -180,11 +185,21 @@ module admin::game {
             vector::length(&test_scenario::created(&tx)),
             expected_created_objects
         );
+        {
+            let logs = test_scenario::take_shared<Logs>(scenario);
+
+            assert_eq(
+                logs.count, 
+                0
+            );
+
+            test_scenario::return_shared(logs);
+        };
         test_scenario::end(scenario_val);
     }
 
-    #[test]
-    fun test_mint_nft_success() {
+     #[test]
+    fun test_generate_new_name_success() {
         let module_owner = @0xa;
         
         let scenario_val = test_scenario::begin(module_owner);
@@ -193,66 +208,173 @@ module admin::game {
         {
             init(test_scenario::ctx(scenario));
         };
-        let tx = test_scenario::next_tx(scenario, module_owner);
-        let expected_events_emitted = 0;
-        let expected_created_objects = 1;
-        assert_eq(
-            test_scenario::num_user_events(&tx), 
-            expected_events_emitted
-        );
-        assert_eq(
-            vector::length(&test_scenario::created(&tx)),
-            expected_created_objects
-        );
-
-        let nft_name = string::utf8(b"test_nft_name");
-        let nft_description = string::utf8(b"test_nft_description");
-        {
-
-            let counter = test_scenario::take_shared<Counter>(scenario);
-            
-            mint_to_sender(
-                nft_name, 
-                nft_description, 
-                &mut counter,
-                test_scenario::ctx(scenario)
-            );
-
-            test_scenario::return_shared(counter);
-        };
         
-        let tx = test_scenario::next_tx(scenario, module_owner);
-        let expected_events_emitted = 1;
-        let expected_created_objects = 1;
-        assert_eq(
-            test_scenario::num_user_events(&tx), 
-            expected_events_emitted
-        );
-        assert_eq(
-            vector::length(&test_scenario::created(&tx)),
-            expected_created_objects
-        );
 
+        test_scenario::next_tx(scenario, module_owner);
         {
-            let nft = test_scenario::take_from_sender<HuiSqNFT>(scenario);
-
-            assert_eq(
-                nft.name, 
-                nft_name
-            );
-            // assert_eq(
-            //     nft.description, 
-            //     string::utf8(nft_description)
-            // );
-            assert_eq(
-                nft.url, 
-                url::new_unsafe_from_bytes(NFT_IMAGE)
-            );
-
-            test_scenario::return_to_sender(scenario, nft);
+            &generate_name(test_scenario::ctx(scenario));
         };
         
         test_scenario::end(scenario_val);
     }
 
+    #[test]
+    fun test_create_game_success() {
+        let module_owner = @0xa;
+        
+        let scenario_val = test_scenario::begin(module_owner);
+        let scenario = &mut scenario_val;
+
+        {
+            init(test_scenario::ctx(scenario));
+        };
+        test_scenario::next_tx(scenario, module_owner);
+        {
+            let logs = test_scenario::take_shared<Logs>(scenario);
+            
+            create_game(&mut logs, test_scenario::ctx(scenario));
+
+            test_scenario::return_shared(logs);
+        };
+        
+        let tx = test_scenario::next_tx(scenario, module_owner);
+        let expected_created_objects = 1;
+        assert_eq(
+            vector::length(&test_scenario::created(&tx)),
+            expected_created_objects
+        );
+                
+        test_scenario::end(scenario_val);
+    }
+
+    #[test]
+    fun test_join_game_success() {
+        let module_owner = @0xa;
+        
+        let scenario_val = test_scenario::begin(module_owner);
+        let scenario = &mut scenario_val;
+
+        {
+            init(test_scenario::ctx(scenario));
+        };
+        test_scenario::next_tx(scenario, module_owner);
+        {
+            let logs = test_scenario::take_shared<Logs>(scenario);
+            
+            create_game(&mut logs, test_scenario::ctx(scenario));
+
+            test_scenario::return_shared(logs);
+        };
+        test_scenario::next_tx(scenario, module_owner);
+        {
+            let game = test_scenario::take_shared<Game>(scenario);
+            
+            join_game(&mut game, test_scenario::ctx(scenario));
+
+            test_scenario::return_shared(game);
+        };
+        
+        let tx = test_scenario::next_tx(scenario, module_owner);
+        assert!(
+            test_scenario::num_user_events(&tx) > 0, 0
+        );
+                
+        test_scenario::end(scenario_val);
+    }
+
+        #[test]
+    fun test_game_won_success() {
+        let module_owner = @0xa;
+        
+        let scenario_val = test_scenario::begin(module_owner);
+        let scenario = &mut scenario_val;
+
+        {
+            init(test_scenario::ctx(scenario));
+        };
+        test_scenario::next_tx(scenario, module_owner);
+        {
+            let logs = test_scenario::take_shared<Logs>(scenario);
+            
+            create_game(&mut logs, test_scenario::ctx(scenario));
+
+            test_scenario::return_shared(logs);
+        };
+        test_scenario::next_tx(scenario, module_owner);
+        
+        {
+            let game = test_scenario::take_shared<Game>(scenario);
+            join_game(&mut game, test_scenario::ctx(scenario));
+            test_scenario::return_shared(game);
+        };
+        let tx = test_scenario::next_tx(scenario, module_owner);
+        {
+            let game = test_scenario::take_shared<Game>(scenario);
+            join_game(&mut game, test_scenario::ctx(scenario));
+            test_scenario::return_shared(game);
+        };
+        tx = test_scenario::next_tx(scenario, module_owner);
+        {
+            let game = test_scenario::take_shared<Game>(scenario);
+            join_game(&mut game, test_scenario::ctx(scenario));
+            test_scenario::return_shared(game);
+        };
+        tx = test_scenario::next_tx(scenario, module_owner);
+        {
+            let game = test_scenario::take_shared<Game>(scenario);
+            join_game(&mut game, test_scenario::ctx(scenario));
+            test_scenario::return_shared(game);
+        };
+        tx = test_scenario::next_tx(scenario, module_owner);
+        {
+            let game = test_scenario::take_shared<Game>(scenario);
+            join_game(&mut game, test_scenario::ctx(scenario));
+            test_scenario::return_shared(game);
+        };
+        tx = test_scenario::next_tx(scenario, module_owner);
+        {
+            let game = test_scenario::take_shared<Game>(scenario);
+            join_game(&mut game, test_scenario::ctx(scenario));
+            test_scenario::return_shared(game);
+        };
+        tx = test_scenario::next_tx(scenario, module_owner);
+        {
+            let game = test_scenario::take_shared<Game>(scenario);
+            join_game(&mut game, test_scenario::ctx(scenario));
+            test_scenario::return_shared(game);
+        };
+        tx = test_scenario::next_tx(scenario, module_owner);
+        {
+            let game = test_scenario::take_shared<Game>(scenario);
+            join_game(&mut game, test_scenario::ctx(scenario));
+            test_scenario::return_shared(game);
+        };
+        tx = test_scenario::next_tx(scenario, module_owner);
+        {
+            let game = test_scenario::take_shared<Game>(scenario);
+            join_game(&mut game, test_scenario::ctx(scenario));
+            test_scenario::return_shared(game);
+        };
+        tx = test_scenario::next_tx(scenario, module_owner);
+        assert_eq(
+            test_scenario::num_user_events(&tx),
+            2
+        );
+                
+        test_scenario::end(scenario_val);
+    }
+
+}
+
+module admin::random {
+    use sui::tx_context::{Self, TxContext};
+    use admin::vector_utils::from_be_bytes;
+
+    public fun generate_pseudorandom(ctx: &mut TxContext): vector<u8> {
+        std::bcs::to_bytes(&tx_context::fresh_object_address(ctx))
+    }
+
+    public fun generate_number(range: u64, ctx: &mut TxContext) : u64 {
+        from_be_bytes(generate_pseudorandom(ctx)) % range
+    }
 }
