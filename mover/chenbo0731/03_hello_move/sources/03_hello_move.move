@@ -1,19 +1,19 @@
-/*
-#[test_only]
-module 03_hello_move::03_hello_move_tests {
-    // uncomment this line to import the module
-    // use 03_hello_move::03_hello_move;
+module hello_move::hello {
+    use sui::object::{Self, UID};
+    use sui::tx_context::{Self, TxContext};
+    use std::string::{Self, String};
+    use sui::transfer;
 
-    const ENotImplemented: u64 = 0;
-
-    #[test]
-    fun test_03_hello_move() {
-        // pass
+    struct Hello has key {
+        id: UID,
+        str: String,
     }
 
-    #[test, expected_failure(abort_code = 03_hello_move::03_hello_move_tests::ENotImplemented)]
-    fun test_03_hello_move_fail() {
-        abort ENotImplemented
+    public fun say_hello(ctx: &mut TxContext) {
+        let word = Hello {
+            id: object::new(ctx),
+            str: string::utf8(b"Hello Move"),
+        };
+        transfer::transfer(word, tx_context::sender(ctx));
     }
 }
-*/
