@@ -27,9 +27,65 @@
 
 ## 02 move coin
 
-- [] My Coin package id :
-- [] Faucet package id :
-- [] 转账 `My Coin` hash:
+### 2.1 文件
+
+[源代码](./task2/)
+
+### 2.2 编译
+
+```bash
+sui move build
+sui move test
+```
+
+### 2.3 测试网
+
+```bash
+sui client switch --env testnet 
+sui client publish --gas-budget 100000000
+
+ADDRESS="0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2"
+PACKAGE_ID="0xf6743ed0cba33d6119bb5472cdb328f8afcfffcd61323e73d6e950e62ee26da6"
+COIN_TREASURY="0x372d345064295e3389d861ab2606fedba5052ffa1052f7f89d7170a93174806a"
+FAUCET_TREASURY="0xbda736c2929a2630c6b01bb2291b1994477e22f132242aaa4ef6623afbb6f42f"
+
+# Transaction Digest: 6AEduZbZdCBw2gzirLJd5LfBEhiMW4w6QxtqMQ8vWFrj
+sui client call --package ${PACKAGE_ID} --module gzliudan_coin --function mint --args ${COIN_TREASURY} 100 ${ADDRESS} --gas-budget 100000000
+
+# Transaction Digest: 3v3j9Wpv2HozZ44nsxTMjMtKn62QHdPiJMnfhAirCxd2
+sui client call --package ${PACKAGE_ID} --module gzliudan_faucet --function mint --args ${FAUCET_TREASURY} 100 ${ADDRESS} --gas-budget 100000000
+```
+
+### 2.4 主网
+
+```bash
+sui client switch --env mainnet
+sui client publish --gas-budget 100000000
+
+ADDRESS="0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2"
+PACKAGE_ID="0x0fe40e15fb138fce7c11fd341b173a8ddc3184c389147f3f7044aa4f1e2677ea"
+COIN_TREASURY="0x47f21bde78897543b6f3864b8f46c2c8414e74e6a5961e7fa8414091e1e75b02"
+FAUCET_TREASURY="0x20651eff485bf329ea2aa8c1fb2a73e6cac00feddfc322d000e30d5ca71fd648"
+
+# Transaction Digest: GXu4gp5TkK8PfwvS51qRFY7CiBszdHDS4hcjew5jKfLe
+sui client call --package ${PACKAGE_ID} --module gzliudan_coin --function mint --args ${COIN_TREASURY} 100 ${ADDRESS} --gas-budget 100000000
+
+# Transaction Digest: 2cicQW8ZA5DmBgAwhvdpG3guehp1zJzb1BbHTDymGzyh
+sui client call --package ${PACKAGE_ID} --module gzliudan_faucet --function mint --args ${FAUCET_TREASURY} 100 ${ADDRESS} --gas-budget 100000000
+```
+
+### 2.5 结果
+
+- 主网
+  - package id: 0x0fe40e15fb138fce7c11fd341b173a8ddc3184c389147f3f7044aa4f1e2677ea
+  - gzliudan_coin object id : 0x47f21bde78897543b6f3864b8f46c2c8414e74e6a5961e7fa8414091e1e75b02
+  - gzliudan_faucet object id : 0x20651eff485bf329ea2aa8c1fb2a73e6cac00feddfc322d000e30d5ca71fd648
+  - mint gzliudan_coin hash: [GXu4gp5TkK8PfwvS51qRFY7CiBszdHDS4hcjew5jKfLe](https://suiexplorer.com/txblock/GXu4gp5TkK8PfwvS51qRFY7CiBszdHDS4hcjew5jKfLe)
+- 测试网
+  - package id: 0xf6743ed0cba33d6119bb5472cdb328f8afcfffcd61323e73d6e950e62ee26da6
+  - gzliudan_coin object id : 0x372d345064295e3389d861ab2606fedba5052ffa1052f7f89d7170a93174806a
+  - gzliudan_faucet object id : 0xbda736c2929a2630c6b01bb2291b1994477e22f132242aaa4ef6623afbb6f42f
+  - mint gzliudan_coin hash: [6AEduZbZdCBw2gzirLJd5LfBEhiMW4w6QxtqMQ8vWFrj](https://suiexplorer.com/txblock/6AEduZbZdCBw2gzirLJd5LfBEhiMW4w6QxtqMQ8vWFrj?network=testnet)
 
 ## 03 move NFT
 
