@@ -17,6 +17,7 @@ module task2::mulander_coin {
             b"Mulander sui coin",       // name
             b"Treasury in sui move", // description
             option::none(),   // icon url
+            // option::some<Url>(url::new_unsafe_from_bytes(b"https://****.jpg")),
             ctx
         );
 
