@@ -11,7 +11,7 @@ module task1::task1 {
     public entry fun mint(ctx: &mut TxContext) {
         let object = Hello {
             id: object::new(ctx),
-            text: string::utf8(b"Hello World!")
+            text: string::utf8(b"Hello cheng!")
         };
         transfer::transfer(object, tx_context::sender(ctx));
     }
