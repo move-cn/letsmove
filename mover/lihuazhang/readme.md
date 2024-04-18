@@ -17,5 +17,5 @@
 ## 02 move coin
 
 - [] lihuazhang_coin package id: [0xc919ec34c71d1a6e1e64759b9ffcb6cccca1d71df9943ae629479dcf5cf052d1](https://suiscan.xyz/mainnet/object/0xc919ec34c71d1a6e1e64759b9ffcb6cccca1d71df9943ae629479dcf5cf052d1/txs)
-- [] Lihuazhang faucet coin package id: [](https://suiscan.xyz/mainnet/object/)
+- [] Lihuazhang faucet coin package id: [0x0820453d29a70f37b4555f7e8340c278119a84b8de48d701eaf34e61489246cf](https://suiscan.xyz/mainnet/object/0x0820453d29a70f37b4555f7e8340c278119a84b8de48d701eaf34e61489246cf)
 - [] 发送 lihuazhang_coin 给地址 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 [0x4dfeebd872582ec9b7759ca81fafb6ab84c9639ac6e4f221bd25ed8a3c99e25a](https://suiscan.xyz/mainnet/object/0x4dfeebd872582ec9b7759ca81fafb6ab84c9639ac6e4f221bd25ed8a3c99e25a)
