@@ -14,11 +14,11 @@ module task2::kang_faucet_coin {
             option::none(),
             ctx
         );
-        transfer::public_freeze_object(metadata);
         transfer::public_share_object(treasury_cap);
+        transfer::public_freeze_object(metadata);
     }
 
-    public fun mint(
+    public fun mint_and_transfer(
         treasury_cap: &mut TreasuryCap<KANG_FAUCET_COIN>,
         amount: u64,
         recipient: address,
@@ -27,7 +27,9 @@ module task2::kang_faucet_coin {
         coin::mint_and_transfer(treasury_cap, amount, recipient, ctx);
     }
 
-    public fun burn(treasury_cap: &mut TreasuryCap<KANG_FAUCET_COIN>, coin: Coin<KANG_FAUCET_COIN>) {
+    public fun burn(
+        treasury_cap: &mut TreasuryCap<KANG_FAUCET_COIN>,
+        coin: Coin<KANG_FAUCET_COIN>) {
         coin::burn(treasury_cap, coin);
     }
 
