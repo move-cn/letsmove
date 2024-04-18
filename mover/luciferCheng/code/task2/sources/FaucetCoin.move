@@ -9,6 +9,7 @@ module task2::faucet_coin {
         recipient: address
     }
 
+    #[allow(lint(share_owned))]
     fun init(witness: FAUCET_COIN, ctx: &mut TxContext) {
         let (treasury, metadata) = coin::create_currency(
             witness, 
@@ -20,7 +21,7 @@ module task2::faucet_coin {
             ctx
         );
         transfer::public_freeze_object(metadata);
-        transfer::public_transfer(treasury, tx_context::sender(ctx))
+        transfer::public_share_object(treasury);
     }
 
     public entry fun mint(
