@@ -89,9 +89,49 @@ sui client call --package ${PACKAGE_ID} --module gzliudan_faucet --function mint
 
 ## 03 move NFT
 
-- [] nft package id :
-- [] nft object id :
-- [] 转账 nft  hash:
+[源代码](./task3/)
+
+### 3.1 测试网
+
+- [X] nft package id: 0x82726bc631c741d5a990d4ac8ac86ee6d6803efa271f9cf8b73e7d543f431e3b
+- [X] nft object id: [0x8a25c6c81e44a8b4bd665ae72cc20e2b958af1668bd2bc6e414058f7ae6d38f3](https://suiscan.xyz/testnet/object/0x8a25c6c81e44a8b4bd665ae72cc20e2b958af1668bd2bc6e414058f7ae6d38f3)
+- [X] 转账 nft  hash: [ARexvaYinzHi6AHBPdjk1Pd58aq1G86h68Em6ssZLmJt](https://suiscan.xyz/testnet/tx/ARexvaYinzHi6AHBPdjk1Pd58aq1G86h68Em6ssZLmJt)
+
+命令：
+
+```bash
+PACKAGE_ID="0x82726bc631c741d5a990d4ac8ac86ee6d6803efa271f9cf8b73e7d543f431e3b"
+name="gzliudan"
+email="139250065@qq.com"
+description="Daniel Liu"
+url="https://avatars.githubusercontent.com/u/7695325?v=4"
+sui client call --gas-budget 100000000 --package ${PACKAGE_ID} --module github_medal --function mint --args ${name} ${email} "${description}" ${url}
+
+nft_id="0x8a25c6c81e44a8b4bd665ae72cc20e2b958af1668bd2bc6e414058f7ae6d38f3"
+address="0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2"
+sui client call --gas-budget 100000000 --package ${PACKAGE_ID} --module github_medal --function transfer --args ${nft_id} ${address}
+```
+
+### 3.2 主网
+
+- [X] nft package id: 0x44844ea0a1ca0c4e334b1014371978c236b13bcd257a531e93d77940e50e2ff1
+- [X] nft object id: [0x68969f7a64bac1ed12139272df871ef2c854e865694486427a3db81fff3781f9](https://suiscan.xyz/mainnet/object/0x68969f7a64bac1ed12139272df871ef2c854e865694486427a3db81fff3781f9)
+- [X] 转账 nft  hash: [5hAYTfQLke1X9zkjBHxZ5Va3pMRZTFPpMQ3rFBssrmKY](https://suiscan.xyz/mainnet/tx/5hAYTfQLke1X9zkjBHxZ5Va3pMRZTFPpMQ3rFBssrmKY)
+
+命令：
+
+```bash
+PACKAGE_ID="0x44844ea0a1ca0c4e334b1014371978c236b13bcd257a531e93d77940e50e2ff1"
+name="gzliudan"
+email="139250065@qq.com"
+description="Daniel Liu"
+url="https://avatars.githubusercontent.com/u/7695325?v=4"
+sui client call --gas-budget 100000000 --package ${PACKAGE_ID} --module github_medal --function mint --args ${name} ${email} "${description}" ${url}
+
+nft_id="0x68969f7a64bac1ed12139272df871ef2c854e865694486427a3db81fff3781f9"
+address="0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2"
+sui client call --gas-budget 100000000 --package ${PACKAGE_ID} --module github_medal --function transfer --args ${nft_id} ${address}
+```
 
 ## 04 Move Game
 
