@@ -39,4 +39,4 @@
 
 ## 06 SDK PTB
 
-- [ ] save hash: 
+- [x] save hash:  2Lx6tkF1oi9pSgDC65jCNUvcwrnBD3Bhqid39KRVLPSC
