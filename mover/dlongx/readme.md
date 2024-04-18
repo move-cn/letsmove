@@ -15,14 +15,14 @@
 - [x] package id: 0x8e18379951fb1df4772ddbcf19de28e003292cf9691d041b98c6413cb688b4d5
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [x] My Coin package id : 0x30b43544b55bee0fa949771d6eee63004518a4178a8f807e64642f59d6e69829
+- [x] Faucet package id : 0x0843d5a4141fe5464971752c729ccfea07c822db6422e083ba00ec0f0ef5020c
+- [x] 转账 `My Coin` hash:7tMTJT2aYncmhuqnPc4y67SzaTqgHBuzafBuGGSv4wDd
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [x] nft package id :0x2deab8a3a8a10c6e0f6052a1dfc5c6557a41e1936089463eb6f98ebf5b0a8349
+- [x] nft object id : 0xc8d66fbd953acc540e1bafe4fae3273f760a8797fd35d4c31602cc1cae536183
+- [x] 转账 nft  hash:GtJcCaNfMguv6ax4ysJWL2k9wDMGcntGg8zzTimbtiTJ
 
 ##   04 Move Game
 - [] game package id :
