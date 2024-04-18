@@ -4,9 +4,9 @@
 - github: `dlongx`
 
 ## 个人简介
-- 工作经验: 5年
-- 技术栈: `Rust` `C++`
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
+- 工作经验: 无
+- 技术栈: `Rust` 
+- 对区块链web3特别感兴趣，想通过Move入门区块链
 - 联系方式: tg: `xxx` 
 
 ## 任务
@@ -25,8 +25,8 @@
 - [x] 转账 nft  hash:GtJcCaNfMguv6ax4ysJWL2k9wDMGcntGg8zzTimbtiTJ
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [x] game package id :0x7df2eb4d0e57fd731a8eca34bb98c16c6f6f91a4912c3d074600fb9400704ca1
+- [x] call game hash:3JQEocNsn61ymbjSfvCJa6dNYf6BVFKx5gAMyMMMWuKK
 
 ##   05 Move Swap
 - [] swap package id :
