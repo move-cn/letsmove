@@ -144,6 +144,78 @@ module examples::mycoin {
 }
 ```
 
+### Event
+
+Move event structure
+An event object in Sui consists of the following attributes:
+
+- id: JSON object containing the transaction digest ID and event sequence.
+- packageId: The object ID of the package that emits the event.
+- transactionModule: The module that performs the transaction.
+- sender: The Sui network address that triggered the event.
+- type: The type of event being emitted.
+- parsedJson: JSON object describing the event.
+- bcs: Binary canonical serialization value.
+- timestampMs: Unix epoch timestamp in milliseconds.
+
+使用`event::emit`在想要监视的操作触发时触发事件
+
+subscribe事件（以typescript sdk为例）
+```typescript
+import { JsonRpcProvider, testnetConnection } from '@mysten/sui.js';
+
+// Package is on Testnet.
+const provider = new JsonRpcProvider(testnetConnection);
+const Package = '<PACKAGE_ID>';
+
+const MoveEventType = '<PACKAGE_ID>::<MODULE_NAME>::<METHOD_NAME>';
+
+console.log(
+	await provider.getObject({
+		id: Package,
+		options: { showPreviousTransaction: true },
+	}),
+);
+
+let unsubscribe = await provider.subscribeEvent({
+	filter: { Package },
+	onMessage: (event) => {
+		console.log('subscribeEvent', JSON.stringify(event, null, 2));
+	},
+});
+
+process.on('SIGINT', async () => {
+	console.log('Interrupted...');
+	if (unsubscribe) {
+		await unsubscribe();
+		unsubscribe = undefined;
+	}
+});
+```
+
+响应返回：
+```json
+subscribeEvent {
+  "id": {
+    "txDigest": "HkCBeBLQbpKBYXmuQeTM98zprUqaACRkjKmmtvC6MiP1",
+    "eventSeq": "0"
+  },
+  "packageId": "0x2d6733a32e957430324196dc5d786d7c839f3c7bbfd92b83c469448b988413b1",
+  "transactionModule": "coin_flip",
+  "sender": "0x46f184f2d68007e4344fffe603c4ccacd22f4f28c47f321826e83619dede558e",
+  "type": "0x2d6733a32e957430324196dc5d786d7c839f3c7bbfd92b83c469448b988413b1::coin_flip::Outcome",
+  "parsedJson": {
+    "bet_amount": "4000000000",
+    "game_id": "0xa7e1fb3c18a88d048b75532de219645410705fa48bfb8b13e8dbdbb7f4b9bbce",
+    "guess": 0,
+    "player_won": true
+  },
+  "bcs": "3oWWjWKRVu115bnnZphyDcJ8EyF9X4pgVguwhEtcsVpBf74B6RywQupm2X",
+  "timestampMs": "1687912116638"
+}
+```
+
+
 ## coin
 
 ### Fungible token
@@ -195,4 +267,18 @@ public entry fun burn<T>(
 ```
 
 返回供应量减少的数量
+
+## nft
+
+Non-fungible token
+
+### 动态 NFT（dNFT）
+
+静态 NFT 的迭代，可以根据数据的反馈实时更改 NFT 的数据
+dNFT 接受「链上数据」和「链下数据」
+链上数据可以通过智能合约直接访问，链下数据则需要由名为「预言机（Oracle）」的实体验证后，再添加到区块链中
+
+### ERC21
+
+以太坊上最早也是最基础的NFT底层协议标准。作为一种**非同质化**代币智能合约标准接口，允许发行基于ERC721的NFT，它规定了NFT资产的最小单位为1、不可拆分且非同质化（独一无二）的特性，ERC721是目前NFT资产的主要规范标准与基础之一（并也为其他链上NFT标准的制定提供了参照），目前以太坊绝大多数NFT都是ERC721标准的
 
