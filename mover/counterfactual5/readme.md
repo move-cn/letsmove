@@ -14,7 +14,7 @@
 
 ##   01 hello move
 
-- [] package id: `0x7a6292b3677e833c2ace2464266679361d7c2b0e440cfbda11e2425fe012f1d2`
+- [x] package id: `0x7a6292b3677e833c2ace2464266679361d7c2b0e440cfbda11e2425fe012f1d2`
 
 ##   02 move coin
 
