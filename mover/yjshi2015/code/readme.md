@@ -15,4 +15,4 @@ sui client pay  --gas-budget 100000000 --input-coins 0x9c4d630b88b3ae441d5fa24fa
 
 Usage: sui client call [OPTIONS] --package <PACKAGE> --module <MODULE> --function <FUNCTION> --gas-budget <GAS_BUDGET>
 
-sui client call --package 0xf2e86243d27592b90706c909d1ddfc8df8ce45d39017fb11bc6c41d5a7249845 --module YJSHI2015NFT --function mint --args YJSHI2015 https://avatars.githubusercontent.com/u/27291507 --gas-budget 100000000
+sui client call --package 0x10ab2a6b138ae496bc18e1668ba030202b65ab1104e374ebcac24dcab1f2ad64 --module YJSHI2015NFT --function mint --args YJSHI2015 https://avatars.githubusercontent.com/u/10650592?v=4 --gas-budget 100000000
