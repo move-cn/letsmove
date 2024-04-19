@@ -17,19 +17,21 @@
 
 ## 01 hello move
 
-- [x] package id: [0xd2d600f2a624b3c558523e4297153cd856246f723a7330800ea18d148c7306fa](https://testnet.suivision.xyz/package/0xd2d600f2a624b3c558523e4297153cd856246f723a7330800ea18d148c7306fa)
+- [X] package id: [0xd2d600f2a624b3c558523e4297153cd856246f723a7330800ea18d148c7306fa](https://testnet.suivision.xyz/package/0xd2d600f2a624b3c558523e4297153cd856246f723a7330800ea18d148c7306fa)
 
 ## 02 move coin
 
-- [] My Coin package id :
-- [] Faucet package id :
-- [] 转账 `My Coin` hash:
+- [X] My Coin package id :0x6b6ff05d1d174b21863a3927551a445a5ae229c3723461758dbe9ecda979a67a
+- [X] Faucet package id :0x6b6ff05d1d174b21863a3927551a445a5ae229c3723461758dbe9ecda979a67a
+- [X] 转账 `My Coin` hash:9V1qk3YU8dpXNRZGqMzYEbzPXppbNHWsmHfQfjLYVGCx
 
 ## 03 move NFT
 
-- [] nft package id :
+- [ ] xnft package id :
+
 - [] nft object id :
-- [] 转账 nft  hash:
+
+- [ ] x转账 nft  hash:
 
 ## 04 Move Game
 
