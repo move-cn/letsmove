@@ -11,6 +11,5 @@ PackageID:
 `ArYhTWK2nBmzdJrypXZKwer8CpjYmyZ7GuDnpGAPDGhi`
 ### Created Objects:
 `0x614b0f1e101078800cf003a35d884656589f30b8437823c388d0d723d3268d20`
+(https://suivision.xyz/object/0x614b0f1e101078800cf003a35d884656589f30b8437823c388d0d723d3268d20)
 
-### Scan:
-https://suivision.xyz/object/0x614b0f1e101078800cf003a35d884656589f30b8437823c388d0d723d3268d20

@@ -26,9 +26,10 @@
 
 ### 03 move NFT
 
-- [] nft package id: 
-- [] nft object id: 
-- [] 转账 nft hash: 
+- [x] nft package id: 0x0c25d0c66ae9248b8aa41a0800f58d3ab55de309d1abd9913c28ce9bf3679c96
+- [x] nft object id: 0xb878c4e052025eb758da5aef761cce10db9cd5418de345df1f31beff4f5c3d19
+- [x] 转账 nft hash: 6ZzZibPT8yztHsjZcpQA6UL49r9kPSC2AuZedE63mZn7
+(https://suiscan.xyz/testnet/object/0xb878c4e052025eb758da5aef761cce10db9cd5418de345df1f31beff4f5c3d19)
 
 ### 04 Move Game
 
