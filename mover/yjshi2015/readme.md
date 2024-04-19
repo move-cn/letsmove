@@ -14,10 +14,10 @@
 ##   01 hello move  
 - [x] package id: 0x7ffa5b174381082bd3695bd0e3fa2507b6d7e8d02a99d234ed0dfeb35cbe49f1 （devnet)
 
-##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+##   02 move coin(部署在同一个包下)
+- [x] My Coin package id : 0xf2f9f932744b1430d721d18e1b6fc5b767e67a0858a0d76340b2b55cdcdc77df
+- [x] Faucet package id : 0xf2f9f932744b1430d721d18e1b6fc5b767e67a0858a0d76340b2b55cdcdc77df
+- [x] 转账 `My Coin` hash: AHxmMwM7ghyp97zzgVH1n67M5BaYTkjPWfp8v7Cyk4bb
 
 ##   03 move NFT
 - [] nft package id :
