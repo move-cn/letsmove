@@ -4,14 +4,14 @@ module task1::task1 {
 
 }
 */
-module hello_world::hello {
+module task1::task1 {
     // Part 1: imports
     use sui::transfer;
     use sui::object::{Self, UID};
     use sui::tx_context::{Self, TxContext};
 
     // Part 2: struct definition
-    struct Counter has key {
+    public struct Counter has key {
         id: UID,
         value: u64,
     }
