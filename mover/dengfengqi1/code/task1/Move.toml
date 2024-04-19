@@ -1,7 +1,6 @@
 [package]
-name = "task2"
+name = "hello_dengfengqi1"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
-published-at = "0xd4f5cb5f4fafff5910e5fcd3f3d9184c0f6ac96837b521f3e3df32bab2cf8405"
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
@@ -20,7 +19,7 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-task2 = "0xd4f5cb5f4fafff5910e5fcd3f3d9184c0f6ac96837b521f3e3df32bab2cf8405"
+hello_dengfengqi1 = "0x0"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
