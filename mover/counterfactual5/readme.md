@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x1eb806ef44c2048b4f2491a690b3e16942d154677e456468736318db7d2b9258`
+- Sui钱包地址: `0xe2d3a7ec475a01cc26ea31c1260ccf7c3c70712b10cbaf5ff1d9837e929bb7bc`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `counterfactual5`
 
@@ -14,7 +14,7 @@
 
 ##   01 hello move
 
-- [] package id: 
+- [] package id: `0x7a6292b3677e833c2ace2464266679361d7c2b0e440cfbda11e2425fe012f1d2`
 
 ##   02 move coin
 
@@ -23,6 +23,7 @@
 - [] 转账 `My Coin` hash:
 
 ##   03 move NFT
+
 - [] nft package id :
 - [] nft object id : 
 - [] 转账 nft  hash:
