@@ -1,3 +1,9 @@
+/*
+/// Module: task1
+module task1::task1 {
+
+}
+*/
 module hello_world::hello {
     // Part 1: imports
     use sui::transfer;
