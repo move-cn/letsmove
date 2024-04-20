@@ -1,4 +1,4 @@
-module hello_world::hello {
+module hello_liky0310::hello {
         use sui::object::{Self, UID};
     use sui::tx_context::{Self, TxContext};
     use std::string::{Self, String};
@@ -12,8 +12,10 @@ module hello_world::hello {
     public fun say_hello(ctx: &mut TxContext) {
         let word = Hello {
             id: object::new(ctx),
-            str: string::utf8(b"Hello gunksd"),
+            str: string::utf8(b"Hello liky0310"),
         };
         transfer::transfer(word, tx_context::sender(ctx));
     }
 }
+
+
