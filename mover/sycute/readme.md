@@ -25,16 +25,20 @@
 
 ## 03 move NFT
 
-- [] nft package id :
-- [] nft object id :
-- [] 转账 nft hash:
+- [x] nft package id : 0xd6a4ac70188ab7cae848b9b755254fd0d07bd47b98d9f25f221f35abe0e6e9a3
+- [x] nft object id : 0x5f1e3390df20376d1992ca23fac2802b3ce65c887e0d7f76294497a9d90f7ae0
+- [x] 转账 nft hash: 9R8Rt2h7DHn6nFey3wCY2R62GzbJBPr7qKQoeFj7D3Ec
 
 ## 04 Move Game
 
-- [] game package id :
-- [] call game hash:
+- [x] game package id : 0x72ff37d4cd1b58469745be3737d9e9205fdf055d3b2a8bb8a5727bc96f73a3c9
+- [x] call game hash: CwbeQnx5NvzbqktWtBy8tetmbDT4Uij2p2enyMSAGi98
 
 ## 05 Move Swap
 
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id : 0x0d333262d5979bfa0bcdd10ed13a76f5ad5d732bf68f4ef819954ee026deada5
+- [x] call swap hash: coZfatvk97FimLkGmCZe1aybPjiZ62Lgbb9d9L2wuJg
+
+## 06 SDK_PTB_NAVI
+
+- [x] depositSuiToNavi hash : [Af4JEeN9jWNCpJcaUwEAKDEnPqfPECt4nC7JG4wMmw15](https://suivision.xyz/txblock/Af4JEeN9jWNCpJcaUwEAKDEnPqfPECt4nC7JG4wMmw15)

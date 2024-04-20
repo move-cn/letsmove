@@ -29,5 +29,5 @@
 - [x] call game hash:[tx](https://suiscan.xyz/testnet/tx/8zdbJidYQaoyEzcQsrqWN3xpCYjKQToJTZ5USLSxNaV3)
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id: 0x7f65c11f34a281ac3f64f99a24868e2ac76e7936befd7d0c8c47140f90c405a3
+- [x] call swap hash: [tx](https://suiscan.xyz/testnet/tx/4GY6J9NtZyHr7tarNkm14LvL9cJMvVTmD6azzuYyEXmm)
