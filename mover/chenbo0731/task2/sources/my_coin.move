@@ -1,17 +1,17 @@
-module new_coin::my_coin {
+module task2::my_coin {
     use std::option;
     use sui::coin::{Self, Coin, TreasuryCap};
     use sui::transfer;
     use sui::tx_context::{Self, TxContext};
 
-    struct MY_COIN has drop {}
+    public struct MY_COIN has drop {}
 
     fun init(witness: MY_COIN, ctx: &mut TxContext) {
         let (treasury_cap, metadata) = coin::create_currency<MY_COIN>(
             witness,
             2,
-            b"MY_COIN",
-            b"MC",
+            b"my_coin",
+            b"mc",
             b"learning for letsmove, power by chenbo0731",
             option::none(),
             ctx

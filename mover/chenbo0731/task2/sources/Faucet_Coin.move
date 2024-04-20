@@ -1,6 +1,6 @@
 #[test_only]
-module new_coin::Faucet Coin {
-    use new_coin::my_coin::{Self, Faucet Coin};
+module new_coin::Faucet_Coin {
+    use new_coin::my_coin::{Self, Faucet_Coin};
     use sui::coin::{Coin, TreasuryCap};
     use sui::test_scenario::{Self, next_tx, ctx};
 
@@ -14,24 +14,24 @@ module new_coin::Faucet Coin {
 
         // Run the coin module init function
         {
-            Faucet Coin::test_init(ctx(&mut scenario))
+            Faucet_Coin::test_init(ctx(&mut scenario))
         };
 
-        // Mint a `Coin<Faucet Coin>` object
+        // Mint a `Coin<Faucet_Coin>` object
         next_tx(&mut scenario, addr1);
         {
-            let treasurycap = test_scenario::take_from_sender<TreasuryCap<Faucet Coin>>(&scenario);
+            let treasurycap = test_scenario::take_from_sender<TreasuryCap<Faucet_Coin>>(&scenario);
             my_coin::mint(&mut treasurycap, 100, addr1, test_scenario::ctx(&mut scenario));
-            test_scenario::return_to_address<TreasuryCap<Faucet Coin>>(addr1, treasurycap);
+            test_scenario::return_to_address<TreasuryCap<Faucet_Coin>>(addr1, treasurycap);
         };
 
-        // Burn a `Coin<Faucet Coin>` object
+        // Burn a `Coin<Faucet_Coin>` object
         next_tx(&mut scenario, addr1);
         {
-            let coin = test_scenario::take_from_sender<Coin<MY_COIN>>(&scenario);
-            let treasurycap = test_scenario::take_from_sender<TreasuryCap<Faucet Coin>>(&scenario);
+            let coin = test_scenario::take_from_sender<Coin<Faucet_Coin>>(&scenario);
+            let treasurycap = test_scenario::take_from_sender<TreasuryCap<Faucet_Coin>>(&scenario);
             my_coin::burn(&mut treasurycap, coin);
-            test_scenario::return_to_address<TreasuryCap<Faucet Coin>>(addr1, treasurycap);
+            test_scenario::return_to_address<TreasuryCap<Faucet_Coin>>(addr1, treasurycap);
         };
 
         // Cleans up the scenario object
