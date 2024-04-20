@@ -24,3 +24,11 @@ https://suiscan.xyz/mainnet/coin/0x0852e253132415bb43f6f798ca65d7fa11c702bffe92b
 
 
 - [] 转账 `xushizhao_coin` hash: [7QDLQdZJoPCmP4Cofndqvy8ExG3jaWi5Apcc38eu63PQ](https://suiscan.xyz/mainnet/tx/7QDLQdZJoPCmP4Cofndqvy8ExG3jaWi5Apcc38eu63PQ)
+
+
+## 03 move_nft
+
+- [] nft package id：[0x4ce4bdd97297115dcc99f310c4639930d4e4e25a33b83614c0c0c530e14d1154](https://suiscan.xyz/mainnet/object/0x4ce4bdd97297115dcc99f310c4639930d4e4e25a33b83614c0c0c530e14d1154/txs)
+- [] nft object id：[0x9cae9d42306fea8301b6d5ce2102d0f4f64daed36860a8f334a3dce5d72b36cc](https://suiscan.xyz/mainnet/object/0x9cae9d42306fea8301b6d5ce2102d0f4f64daed36860a8f334a3dce5d72b36cc)
+- [] 转账 nft hash: [F3moVy2SMMuBx91TL542YztJZZbH7aYyctLyz4ZcJbW](https://suiscan.xyz/mainnet/tx/F3moVy2SMMuBx91TL542YztJZZbH7aYyctLyz4ZcJbW)
+
