@@ -1,23 +1,22 @@
 ## 基本信息
-- Sui钱包地址: `0x1000000000000x`
-> 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `自己的githubid`
+- Sui钱包地址: `0x7d0d20e105d584562c70fcc6ec4ea152c42fbac338759e11c1648ba34a29e9fa`
+- github: `qpb8023`
 
 ## 个人简介
 - 工作经验: 5年
-- 技术栈: `Rust` `C++`
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `xxx` 
+- 技术栈: `RUST` `Go`
+- 资深后端开发,web2及web3老兵
+- 联系方式: email: `tiutiutiu@foxmail.com` 
 
 ## 任务
 
 ##   01 hello move  
-- [] package id: 
+- [x] package id: 0xa719bdae7e7ebc2531004ac44085474bdbbccc13a6958e9521fd113af1ef1d4b
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [] My Coin package id :  0x85dc71d9b2fb48ea70a9ce44a208947a8a5848d0a3b0e5767ed6f2aa3a230810
+- [] Faucet package id : 0x85dc71d9b2fb48ea70a9ce44a208947a8a5848d0a3b0e5767ed6f2aa3a230810
+- [] 转账 `My Coin` hash: 6UJ6eWdmXVhYfvJs2YLXFHPoADGzj6RqXNqFToYRYF5M
 
 ##   03 move NFT
 - [] nft package id :

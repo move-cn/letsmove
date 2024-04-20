@@ -1,21 +1,18 @@
-module my_coin::mycoin {
+module task2::qpb8023_faucet {
 
     use sui::coin;
 
-    /// The type identifier of coin. The coin will have a type
-    /// tag of kind: `Coin<package_object::mycoin::MYCOIN>`
-    /// Make sure that the name of the type matches the module's name.
-    public struct MYCOIN has drop {}
+    public struct QPB8023_FAUCET has drop {}
 
     /// Module initializer is called once on module publish. A treasury
     /// cap is sent to the publisher, who then controls minting and burning
-    fun init(witness: MYCOIN, ctx: &mut TxContext) {
+    fun init(witness: QPB8023_FAUCET, ctx: &mut TxContext) {
         let (treasury, metadata) = coin::create_currency(
             witness,
             6,                // decimals
-            b"MY COIN",           // symbol
-            b"MY COIN",       // name
-            b"MY COIN", // description
+            b"QPB8023 FAUCET COIN",           // symbol
+            b"QPB8023 FAUCET COIN",       // name
+            b"github id qpb8023", // description
             option::none(),   // icon url
             ctx
         );
@@ -27,11 +24,11 @@ module my_coin::mycoin {
         transfer::public_freeze_object(metadata);
     }
 
-    public entry fun mint(treasury: &mut coin::TreasuryCap<MYCOIN>, amount: u64, recipient: address, ctx: &mut TxContext) {
+    public entry fun mint(treasury: &mut coin::TreasuryCap<QPB8023_FAUCET>, amount: u64, recipient: address, ctx: &mut TxContext) {
         coin::mint_and_transfer(treasury, amount, recipient, ctx);
     }
 
-    public entry fun burn(treasury: &mut coin::TreasuryCap<MYCOIN>, coin: coin::Coin<MYCOIN>) {
+    public entry fun burn(treasury: &mut coin::TreasuryCap<QPB8023_FAUCET>, coin: coin::Coin<QPB8023_FAUCET>) {
         coin::burn(treasury, coin);
     }
 }
