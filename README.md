@@ -5,6 +5,13 @@ Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move�
 - 复制 `mover` 目录下的 `001` 并且用自己的 `github id` 命名复制的目录
 - 在 `readme.md` 里面填写个人信息 后面的任务模板暂时不管
 - 提交PR
+- 必须加入社区群发出PR 才会被合并
+
+## 社区 & 问答
+- [move中文 TG](https://t.me/move_cn)
+- [Sui中文 TG](https://t.me/sui_dev_cn)
+- QQ群: 79489587
+
 
 ## 如何完成任务并获取奖励
 - 在自己`github id`目录的 readme.md 对应的任务列表填写完成信息
@@ -31,10 +38,7 @@ Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move�
 | [task 5](task/05.move_swap.md)    | move swap  |         ￥50          | 完成Swap学习，并上链交互         |
 | [task 6](task/06.SDK_PTB_NAVI.md) | sdk ptb    | ￥30（SUI） + ￥30（NAVX） | 完成SDK学习，并用SDK完成链上交互    |
 
-## 社区 & 问答
-- [move中文 TG](https://t.me/move_cn)
-- [Sui中文 TG](https://t.me/sui_dev_cn)
-- QQ群: 79489587
+
 
 ## 学习资料
 
