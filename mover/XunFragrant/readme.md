@@ -12,3 +12,8 @@
 ##   01 hello move  
 - [x] package id: `0xd3daf780592d99c6a703de5f892b80d657b9a73ac0bea360a7b2b03ebff98a7e`
 
+### 02 move coin
+
+- [x] My Coin package id: `0x34edbce31ebebcf9312638b7a55c078d34598d3e65e587e712f10521492450bb`
+- [x] Faucet package id: `0xf8e465aded0ede0875d2405421d0277a8b6dbbebe5acbdf90015dadeb04c460b`
+- [x] 转账 `My Coin(xunfragrant_coin)` hash: `36cEupJDEwDfzZx6ZHLTyzNifYLfZ2bwNn6EHjURBHvT`
