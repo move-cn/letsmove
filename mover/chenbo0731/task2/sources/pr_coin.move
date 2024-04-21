@@ -5,7 +5,7 @@ module task2::pr_coin {
     use sui::tx_context::{Self, TxContext};
     use sui::url::{Url,Self};
 
-    struct PR_COIN has drop {}
+    public struct PR_COIN has drop {}
 
     fun init(witness: PR_COIN, ctx: &mut TxContext) {
         let (treasury_cap, metadata) = coin::create_currency<PR_COIN>(
