@@ -1,6 +1,6 @@
 module task2::pr_coin {
     use std::option;
-    use sui::coin::{Self, Coin, TreasuryCap};
+    use sui::pr_coin::{Self, Coin, TreasuryCap};
     use sui::transfer;
     use sui::tx_context::{Self, TxContext};
     use sui::url::{Url,Self};
