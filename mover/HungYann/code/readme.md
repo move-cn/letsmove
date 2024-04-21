@@ -85,3 +85,26 @@ sui client switch --env mainnet
 ```
 sui client envs
 ```
+
+# 任务三笔记
+
+目标：构建nft并运行在主网mainnet
+
+
+创建项目
+```
+sui move new hungyan_nft
+```
+
+切换到主网
+```
+sui client switch --env mainnet
+```
+
+发布项目 
+
+```
+cd hungyan_nft/
+
+sui client publish --gas-budget 100000000
+```
