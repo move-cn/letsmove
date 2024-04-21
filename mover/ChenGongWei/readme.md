@@ -29,7 +29,7 @@
 
 ##   05 Move Swap
 - [x] swap package id : 0x8a3f4c8e381ea0590659504d44f6891b296caa5e611dcff560c88370df30da2e
-- [] call swap hash: [B999mFqexHbexY4FawhQkhh4hSe1GpeJaLtHgaLRdQN6](https://suiscan.xyz/testnet/tx/B999mFqexHbexY4FawhQkhh4hSe1GpeJaLtHgaLRdQN6)
+- [x] call swap hash: [B999mFqexHbexY4FawhQkhh4hSe1GpeJaLtHgaLRdQN6](https://suiscan.xyz/testnet/tx/B999mFqexHbexY4FawhQkhh4hSe1GpeJaLtHgaLRdQN6)
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : [HrNn5rQmBY7DS5deiK7ThVbu61g7J2teJZ4xzEYW1FSm](https://suivision.xyz/txblock/HrNn5rQmBY7DS5deiK7ThVbu61g7J2teJZ4xzEYW1FSm)
