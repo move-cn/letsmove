@@ -30,5 +30,5 @@
 
 ### 05 Move Swap
 
-- [x] swap package id: 0xe0699e530488cbae1a6cb6a7f1dfaa359b9e829f10748aa7609a421f56feb45b
-- [x] call swap hash: F9G2jKsNAyfCp3Kk2LHb19Xq3Z74hfW1TftXdYeBTvdo
+- [x] swap package id: `0xe0699e530488cbae1a6cb6a7f1dfaa359b9e829f10748aa7609a421f56feb45b`
+- [x] call swap hash: `F9G2jKsNAyfCp3Kk2LHb19Xq3Z74hfW1TftXdYeBTvdo`
