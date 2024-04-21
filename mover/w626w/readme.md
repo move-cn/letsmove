@@ -12,12 +12,12 @@
 ## 任务
 
 ##   01 hello move  
-- [] package id: 0x56e28c9bb3b80b39ea847dd306b753cffd4b6ba15494019cc08f3ee849ab493e
+- [x] package id: 0x56e28c9bb3b80b39ea847dd306b753cffd4b6ba15494019cc08f3ee849ab493e
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [x] My Coin package id : 0x47cf688dff2f021c693de8bba024d89d1be4552703d951f273884a11a9964cc4
+- [x] Faucet package id : 0x47cf688dff2f021c693de8bba024d89d1be4552703d951f273884a11a9964cc4
+- [x] 转账 `My Coin` hash:Fen34FGHbzYuG2Uymy41y1LexU8o6Xa353L9XmD6kwa7
 
 ##   03 move NFT
 - [] nft package id :
