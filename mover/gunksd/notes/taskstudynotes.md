@@ -32,3 +32,6 @@ Task2:
 1.一整天的花费，部署好了我在sui上的第一个代币
 2.了解了gas的区间原理
 3.还有结构体的使用细节
+Task3:
+1.将自己的github头像作为NFT的图片mint
+2.这个NFT被我命名为miracle，希望他能给我最终create one miracle.
