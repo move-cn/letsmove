@@ -7,7 +7,7 @@ module task2::pr_coin {
 
     public struct MY_COIN has drop {}
 
-    fun init(witness: PR_COIN, ctx: &mut TxContext) {
+    fun init(witness: pr_coin, ctx: &mut TxContext) {
         let (treasury_cap, metadata) = coin::create_currency<pr_coin>(
             witness,
             6,
