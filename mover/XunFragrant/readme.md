@@ -22,3 +22,8 @@
 - [x] nft package id : `0x7ddede74f71facd1c5aedd3d14783cc0bc8a31faa6caa586a282a39c193ebdb4`
 - [x] nft object id : `0x3f9938ec6ea67d4af52d3734c0720bdb478f6548c550c2dc2f5d57cd9fa2568d`
 - [x] 转账 nft hash: `9Qr9QT6NLUEWqhLSTtMeCTtvZLMrkxZ7DV34U2mXHt1B` 
+
+### 04 Move Game
+
+- [x] game package id: `0x4ad24a24af4a614c4b7940908af5cac623347a649b70362ab19deecbc79c09ad`
+- [x] call game digest hash: `B32SQ8PBn5CeHf1UpeWBs8myudDktmKPNGHWUMezn4r`
