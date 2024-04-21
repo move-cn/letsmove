@@ -150,7 +150,7 @@ sui move new 03_hello_move
 ```bash
 sui move build
 ```
-
+git config --global https.proxy http://127.0.0.1:10808
 如果代码没有基本错误，输出如下
 
 ```
