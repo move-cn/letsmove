@@ -1,6 +1,6 @@
 #[test_only]
-module new_coin::Faucet_Coin {
-    use new_coin::my_coin::{Self, Faucet_Coin};
+module task2::Faucet_Coin {
+    use task2::my_coin::{Self, Faucet_Coin};
     use sui::coin::{Coin, TreasuryCap};
     use sui::test_scenario::{Self, next_tx, ctx};
 
@@ -30,7 +30,7 @@ module new_coin::Faucet_Coin {
         {
             let coin = test_scenario::take_from_sender<Coin<Faucet_Coin>>(&scenario);
             let treasurycap = test_scenario::take_from_sender<TreasuryCap<Faucet_Coin>>(&scenario);
-            my_coin::burn(&mut treasurycap, coin);
+            Faucet_Coin::burn(&mut treasurycap, coin);
             test_scenario::return_to_address<TreasuryCap<Faucet_Coin>>(addr1, treasurycap);
         };
 
