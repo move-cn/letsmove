@@ -1,13 +1,13 @@
 module task2::pr_coin {
     use std::option;
-    use sui::my_coin::{Self, Coin, TreasuryCap};
+    use sui::coin::{Self, Coin, TreasuryCap};
     use sui::transfer;
     use sui::tx_context::{Self, TxContext};
     use sui::url::{Url,Self};
 
-    public struct my_coin has drop {}
+    public struct MY_COIN has drop {}
 
-    fun init(witness: pr_coin, ctx: &mut TxContext) {
+    fun init(witness: PR_COIN, ctx: &mut TxContext) {
         let (treasury_cap, metadata) = coin::create_currency<pr_coin>(
             witness,
             6,
