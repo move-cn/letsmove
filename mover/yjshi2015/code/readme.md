@@ -11,3 +11,8 @@ sui client transfer --to 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451
 sui client pay [OPTIONS] --gas-budget <GAS_BUDGET>
 
 sui client pay  --gas-budget 100000000 --input-coins 0x9c4d630b88b3ae441d5fa24fa75cdd9c884b49f35dfb582da288e1c285d0e1ed --recipients 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --amounts 6000000000
+
+
+Usage: sui client call [OPTIONS] --package <PACKAGE> --module <MODULE> --function <FUNCTION> --gas-budget <GAS_BUDGET>
+
+sui client call --package 0x10ab2a6b138ae496bc18e1668ba030202b65ab1104e374ebcac24dcab1f2ad64 --module YJSHI2015NFT --function mint --args YJSHI2015 https://avatars.githubusercontent.com/u/10650592?v=4 --gas-budget 100000000
