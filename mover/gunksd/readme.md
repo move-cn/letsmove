@@ -25,8 +25,8 @@
 - [x] 转账 nft  hash:Gf2pDMb8f1L4APFQsNxCASvmg9FWKWXN6J7ujTM3oDLD
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [x] game package id :0x70c49d53991a1f95dc5acaec7fbe77a8e4faba371a8945184243a2612dde49ae
+- [x] call game hash:4bUkMvCZ6q9wf4a8dtjaDQjuTn7yhnVCoKZmNCV43TBq
 
 ##   05 Move Swap
 - [] swap package id :
