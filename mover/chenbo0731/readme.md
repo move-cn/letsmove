@@ -14,23 +14,3 @@
 ##   01 hello move  
 - [x] package id: 0x7504599708fb357830977218b9a5f0149cc2b010713b1ef77a5ce613908a8168
 
-##   02 move coin
-- [x] My Coin package id : 
-- [x] Faucet package id : 
-- [x] 转账 `My Coin` hash: 
-
-##   03 move NFT
-- [x] nft package id : 
-- [x] nft object id : 
-- [x] 转账 nft  hash: 
-
-##   04 Move Game
-- [x] game package id : 
-- [x] call game hash: 
-
-##   05 Move Swap
-- [x] swap package id : 
-- [x] call swap hash: 
-
-##   06 SDK PTB
-- [x] save hash : 
