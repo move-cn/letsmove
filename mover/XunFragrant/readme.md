@@ -16,7 +16,7 @@
 
 - [x] My Coin package id: `0x406de6b171affee02e927de1af230fd4f22ffe5ab65b72c20a51309cc56513da`
 - [x] Faucet package id: `0x406de6b171affee02e927de1af230fd4f22ffe5ab65b72c20a51309cc56513da`
-- [x] 转账 `My Coin(xunfragrant_coin)` hash: `36cEupJDEwDfzZx6ZHLTyzNifYLfZ2bwNn6EHjURBHvT`
+- [x] 转账 `My Coin(xunfragrant_coin)` hash: `LRPTQFLtxZYgWT4pFe4M3e5JxEdm92pygXwwT8ZPDnY`
 
 ##   03 move NFT
 - [x] nft package id : `0x7ddede74f71facd1c5aedd3d14783cc0bc8a31faa6caa586a282a39c193ebdb4`
