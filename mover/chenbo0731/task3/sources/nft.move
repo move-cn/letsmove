@@ -4,7 +4,7 @@ module task3::task3 {
 
 }
 */
-module new_nft::nft {
+module task3::nft {
     use sui::url::{Url, Self};
     use std::string;
     use sui::object::{Self, ID, UID};
