@@ -7,8 +7,7 @@ module sui_sudoku::lidashu_sui_sudoku {
     use sui::clock::{Self, Clock};
     use sui::balance::{Self, Balance};
     
-    /// An example NFT that can be minted by anybody
-    public struct LidashuSudokuLevel<T> has key, store {
+    public struct SudokuLevel<phantom T> has key, store {
         id: UID,
         width: u64,
         level_data: vector<u8>,
@@ -31,7 +30,7 @@ module sui_sudoku::lidashu_sui_sudoku {
     }
 
 
-    public fun mint_level<T: store+key>(
+    public fun mint_level<T>(
         width: u64,
         level_data: vector<u8>,
         amount: u64,
@@ -45,7 +44,7 @@ module sui_sudoku::lidashu_sui_sudoku {
         let total_amount = balance::value(_balance);
         let win_balance = balance::split(_balance, total_amount);
 
-        let new_level = LidashuSudokuLevel {
+        let new_level = SudokuLevel<T> {
             id,
             width,
             level_data,
@@ -53,8 +52,8 @@ module sui_sudoku::lidashu_sui_sudoku {
             win_balance
         };
 
-        //transfer::public_transfer(new_level, sender);
-        transfer::share_object(new_level);
+        transfer::public_transfer(new_level, sender);
+        //transfer::share_object(new_level);
 
     }
 
@@ -136,8 +135,8 @@ module sui_sudoku::lidashu_sui_sudoku {
         (true, string::utf8(b"success"))
     }
 
-    public fun solve_level<T: store+key>(
-        level: &mut LidashuSudokuLevel<T>,
+    public fun solve_level<T>(
+        level: &mut SudokuLevel<T>,
         resolve: vector<u8>,
         clock: &Clock,
         ctx: &mut TxContext
@@ -153,7 +152,6 @@ module sui_sudoku::lidashu_sui_sudoku {
                 level_id: object::id(level),
                 solved_by: sender
             });
-
 
             let time = clock::timestamp_ms(clock);
             let random_amount = time%level.amount;
