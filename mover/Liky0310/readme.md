@@ -17,22 +17,22 @@ https://suiscan.xyz/devnet/tx/Fw3LzaFkzoVFaAXMMYfxKZ1oeiSkApxiLGNMnzxCVjJM
 https://suiscan.xyz/devnet/tx/AAbHkEvamPTgaeH1kPTfx5o5B6yeSpuJNWkXm94USB9G
 
 ##   02 move coin
-- [x] My Coin package id : `0x7f5da9bdee40c9ef8841a285289cb62da39d513ffa029b4abc2dbe4be05d9de6``
+- [x] My Coin package id : `0x7f5da9bdee40c9ef8841a285289cb62da39d513ffa029b4abc2dbe4be05d9de6`
 - [x] Faucet package id : `0xc32e8bc3937db12e726ea617bce283ada22d47d18255ca32dffc1f6236d7cab6`
 - [x] 转账 `liky0310_coin` hash:`5cE1urpqMyJQiYfWp75WhPVPfe46PdmJ68E3Zx5g8Kfv`
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [x] nft package id :`0x42f4153a73a520bda60d7fe3c444e791a40d1bef6c34ad296193f1251d135afe`
+- [x] nft object id : `0xa4b76d9eca0ce923d1a56745119269d13eef15f3c5389a53a540313957219935`
+- [x] 转账 nft  hash:[`DVFiUhu2j7GUPH2SmtbaCVhP8NqPpdsJR1KUHfY8BENc`](https://suiscan.xyz/devnet/tx/DVFiUhu2j7GUPH2SmtbaCVhP8NqPpdsJR1KUHfY8BENc)
 
 ##   04 Move Game
 - [] game package id :
 - [] call game hash:
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id : 0xdb18a62fe5e6e98216ad75708546a2240288c06c0ae4b44076da153399442924
+- [x] call swap hash: [`3Vww7AJQAASiCEwvnetJoqgWBAdp6Tc1odQUPn3fCsAD`](https://suiscan.xyz/devnet/tx/3Vww7AJQAASiCEwvnetJoqgWBAdp6Tc1odQUPn3fCsAD)
 
 ##   06 SDK PTB
 - [] save hash :
