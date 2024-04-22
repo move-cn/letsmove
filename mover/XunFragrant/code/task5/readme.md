@@ -8,12 +8,12 @@
 同时将自己的钱包地址也导出为变量。
 
 ```bash
-export COIN_A='0xe0699e530488cbae1a6cb6a7f1dfaa359b9e829f10748aa7609a421f56feb45b::coin_a::COIN_A'
-export COIN_B='0xe0699e530488cbae1a6cb6a7f1dfaa359b9e829f10748aa7609a421f56feb45b::coin_b::COIN_B'
+export COIN_A='0x406de6b171affee02e927de1af230fd4f22ffe5ab65b72c20a51309cc56513da::xunfragrant_coin::XUNFRAGRANT_COIN'
+export COIN_B='0x406de6b171affee02e927de1af230fd4f22ffe5ab65b72c20a51309cc56513da::xunfragrant_faucet_coin::XUNFRAGRANT_FAUCET_COIN'
 
-export PACKAGE_ID=0xe0699e530488cbae1a6cb6a7f1dfaa359b9e829f10748aa7609a421f56feb45b
-export COIN_A_TREASURY_CAP_ID=0x1d7035a29822a6c2243034cb06c143e176b18ef97a7337b16a67ad4a95954164 
-export COIN_B_TREASURY_CAP_ID=0x90c31da9ecf9c0d7c1103e8c691aecc404f35bd9fbdcaa5c8dff0bff339ef690
+export PACKAGE_ID=0x406de6b171affee02e927de1af230fd4f22ffe5ab65b72c20a51309cc56513da
+export COIN_A_TREASURY_CAP_ID=0x8ddd2a45aa530f9dee8399f518cedcdb19fee025af0a9b7a56f13802a05d9e55 
+export COIN_B_TREASURY_CAP_ID=0x01ff682ed995beba9469a20ea8d154683bfc44f06bdca807129ffd17f78f258e
 export MY_ADDRESS=0x06a253c33c90c9c4bd20bb129a2cad060b0434446c71a5b58571ec254ad4154c
 ```
 
@@ -22,73 +22,33 @@ export MY_ADDRESS=0x06a253c33c90c9c4bd20bb129a2cad060b0434446c71a5b58571ec254ad4
 提前铸造不同数值的 COIN_A 和 COIN_B，因为仅作测试使用，所以两个代币的 decimals 设置为 3，方便后续识别。
 
 ```bash
-# mint COIN_A
 # 根据需要，可以多次少量铸币，方便后续调用
-sui client call --gas-budget 7500000 --package $PACKAGE_ID --module coin_a --function mint --args $COIN_A_TREASURY_CAP_ID 1000 $MY_ADDRESS
+sui client call --gas-budget 7500000 --package $PACKAGE_ID --module xunfragrant_coin --function mint --args $COIN_A_TREASURY_CAP_ID 1000 $MY_ADDRESS
 
-sui client call --gas-budget 7500000 --package $PACKAGE_ID --module coin_b --function mint --args $COIN_B_TREASURY_CAP_ID 1000 $MY_ADDRESS
+sui client call --gas-budget 7500000 --package $PACKAGE_ID --module xunfragrant_faucet_coin --function mint --args $COIN_B_TREASURY_CAP_ID 1000 $MY_ADDRESS
 ```
 
 将输出记录下来
 
 ```bash
-# 1 coin A
-export COIN_A_ID_1=0x24eef8c76f997cb3f0abb95d8785378f5cdd664a2c78b98cbaa81e42f443d906
+# xunfragrant_coin
+export COIN_A_ID_1=0x2a200c25caa49030c8de7cbd0bf08afc0cad6cf6cb53fdcecea150ef0a0153e5
 
-# 1 coin B
-export COIN_B_ID_1=0x20441885b6905d63b40389642febbf20816dee1f4ad7939538fcb95f98f339ed
+# xunfragrant_faucet_coin
+export COIN_B_ID_1=0x9ae014384953ef4421c9a6845f27ac81810d1ff008b533f290a41e3922a201cb
 ```
 
 ## 构建流动性池
 
-将前面铸造的 coin a 1 和 coin b 1 拿来构建流动性池
+将前面铸造的 xunfragrant_coin 1 和 xunfragrant_faucet_coin 拿来构建流动性池
+```bash
+export SPACKAGE_ID=0xd8c9317e928977ef5ad20228eae539c390dedbf31b855931195fd1b0a4e72b85
+```
 
 ```bash
-sui client call --gas-budget 7500000 --package $PACKAGE_ID --module xunfragrant_swap \
+sui client call --gas-budget 7500000 --package $SPACKAGE_ID --module xunfragrant_swap \
     --function create_pool --type-args $COIN_A $COIN_B \
     --args $COIN_A_ID_1 $COIN_B_ID_1
 ```
 
-Transaction Digest: F9G2jKsNAyfCp3Kk2LHb19Xq3Z74hfW1TftXdYeBTvdo
-╭─────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ Transaction Data                                                                                │
-├─────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Sender: 0x06a253c33c90c9c4bd20bb129a2cad060b0434446c71a5b58571ec254ad4154c                      │
-│ Gas Owner: 0x06a253c33c90c9c4bd20bb129a2cad060b0434446c71a5b58571ec254ad4154c                   │
-│ Gas Budget: 7500000 MIST                                                                        │
-│ Gas Price: 750 MIST                                                                             │
-│ Gas Payment:                                                                                    │
-│  ┌──                                                                                            │
-│  │ ID: 0x5f16f7bf6c1f5dc2163a44e35e0e19df22caa36998cbaccb72ab14efd3ef3cd0                       │
-│  │ Version: 94800595                                                                            │
-│  │ Digest: uiX78Q1MLsHAA2geXoRQYy2G1xrKr8a9TXcKWYA4uEz                                          │
-│  └──                                                                                            │
-│                                                                                                 │
-│ Transaction Kind: Programmable                                                                  │
-│ ╭─────────────────────────────────────────────────────────────────────────────────────────────╮ │
-│ │ Input Objects                                                                               │ │
-│ ├─────────────────────────────────────────────────────────────────────────────────────────────┤ │
-│ │ 0   Imm/Owned Object ID: 0x24eef8c76f997cb3f0abb95d8785378f5cdd664a2c78b98cbaa81e42f443d906 │ │
-│ │ 1   Imm/Owned Object ID: 0x20441885b6905d63b40389642febbf20816dee1f4ad7939538fcb95f98f339ed │ │
-│ ╰─────────────────────────────────────────────────────────────────────────────────────────────╯ │
-│ ╭─────────────────────────────────────────────────────────────────────────────────────────╮     │
-│ │ Commands                                                                                │     │
-│ ├─────────────────────────────────────────────────────────────────────────────────────────┤     │
-│ │ 0  MoveCall:                                                                            │     │
-│ │  ┌                                                                                      │     │
-│ │  │ Function:  create_pool                                                               │     │
-│ │  │ Module:    xunfragrant_swap                                                          │     │
-│ │  │ Package:   0xe0699e530488cbae1a6cb6a7f1dfaa359b9e829f10748aa7609a421f56feb45b        │     │
-│ │  │ Type Arguments:                                                                      │     │
-│ │  │   0xe0699e530488cbae1a6cb6a7f1dfaa359b9e829f10748aa7609a421f56feb45b::coin_a::COIN_A │     │
-│ │  │   0xe0699e530488cbae1a6cb6a7f1dfaa359b9e829f10748aa7609a421f56feb45b::coin_b::COIN_B │     │
-│ │  │ Arguments:                                                                           │     │
-│ │  │   Input  0                                                                           │     │
-│ │  │   Input  1                                                                           │     │
-│ │  └                                                                                      │     │
-│ ╰─────────────────────────────────────────────────────────────────────────────────────────╯     │
-│                                                                                                 │
-│ Signatures:                                                                                     │
-│    Xuk5eoBPtDG2uiLFT//Vyf5s7b0mkaq/5KYZPberXh+mC0lnUbfdPnOr6MEDNmOFDtCNMtwlXUcpfjT3yhKhDw==     │
-│                                                                                                 │
-╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+Transaction Digest: BT6ezSFMHp8KaEMxVYUxeDrmpXo1MTVuiVbgdgaAHVdu
