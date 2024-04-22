@@ -45,4 +45,4 @@ FR2VNCMTzt9WQmTcxaXd7GCte3PPttE4wNgsvVzMRSv1
 H3dBmaUtnJ8SUc8YafEQ1xUxP73ZEiNghvdbYFxv2xGR
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : 8sxRjW93NrNhKG4iasMQZwT4PDT4KBcAtv1TcEoYgNFZ
