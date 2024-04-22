@@ -99,21 +99,21 @@ sui client publish --gas-budget 100000000
 
 **my coin treasurycap id:**[0xeabe493601f2b6b177e79775254b109ad19b448db15e8a8a26af76b1dc280ab1](https://suiscan.xyz/mainnet/object/0xeabe493601f2b6b177e79775254b109ad19b448db15e8a8a26af76b1dc280ab1)
 
-**facuet coin package id:** [0x6ee1004d89c9a0bc680c38a29754e2f0b2208508e56e09008aa8868d24958237](https://suiscan.xyz/mainnet/object/0x6ee1004d89c9a0bc680c38a29754e2f0b2208508e56e09008aa8868d24958237)
+**facuet coin package id:** [0x4170b0fe17d77f481ff938519a3e9f5f2553a614a3c6106c6f93343c58841937](https://suiscan.xyz/mainnet/object/0x4170b0fe17d77f481ff938519a3e9f5f2553a614a3c6106c6f93343c58841937/contracts)
 
-**facuet coin treasurycap id:** [0xf139fe72bbe3d400d4c04ba98a90063ded3a840a8365f1bad3ffb3756999bdc5](https://suiscan.xyz/mainnet/object/0xf139fe72bbe3d400d4c04ba98a90063ded3a840a8365f1bad3ffb3756999bdc5)
+**facuet coin treasurycap id:** [0x62d806d74bf9b479710966f1dbde3c0cd0b49fd7cff73467f37078dc56f64bbf](https://suiscan.xyz/mainnet/object/0x62d806d74bf9b479710966f1dbde3c0cd0b49fd7cff73467f37078dc56f64bbf)
 
 ##### 国库运行
 
 ~~~bash
-export PACKAGE_ID=0x6ee1004d89c9a0bc680c38a29754e2f0b2208508e56e09008aa8868d24958237
-export TREASURYCAP_ID=0xf139fe72bbe3d400d4c04ba98a90063ded3a840a8365f1bad3ffb3756999bdc5
+export PACKAGE_ID=0x4170b0fe17d77f481ff938519a3e9f5f2553a614a3c6106c6f93343c58841937
+export TREASURYCAP_ID=0x62d806d74bf9b479710966f1dbde3c0cd0b49fd7cff73467f37078dc56f64bbf
 ~~~
 
 ##### facuet_coin
 
 ~~~ba'sh
-sui client call --function mint --module facuet_coin --package $PACKAGE_ID --args $TREASURYCAP_ID 10000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --gas-budget 100000000
+sui client call --function mint --module facuet --package $PACKAGE_ID --args $TREASURYCAP_ID 100000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --gas-budget 100000000
 ~~~
 
 digest: [B5Gp55YKHjFNvVmhHy5NdbxPVFR8JVuvg8yfT1Wko6Z8](https://suiscan.xyz/mainnet/tx/B5Gp55YKHjFNvVmhHy5NdbxPVFR8JVuvg8yfT1Wko6Z8)

@@ -1,14 +1,14 @@
 /// Module: facuet
-module csdv_coin::facuet_coin {
+module csdv_coin::facuetcoin {
     use sui::coin;
 
-    public struct FACUET_COIN has drop {}
+    public struct FACUETCOIN has drop {}
 
-    fun init(witness: FACUET_COIN, ctx: &mut TxContext) {
+    fun init(witness: FACUETCOIN, ctx: &mut TxContext) {
         let (treasury_cap, coin_metadata) = coin::create_currency(
             witness,
             6,                    // decimals
-            b"FACUETCOIN",        // symbol
+            b"FACUET",            // symbol
             b"FACUET COIN",       // name
             b"FACUET COIN TEST",  // description
             option::none(),       // icon url
@@ -18,11 +18,7 @@ module csdv_coin::facuet_coin {
         transfer::public_freeze_object(coin_metadata);
     }
 
-    public entry fun mint(treasury: &mut coin::TreasuryCap<FACUET_COIN>, amount: u64, recipient: address, ctx: &mut TxContext) {
+    public entry fun faucet(treasury: &mut coin::TreasuryCap<FACUETCOIN>, amount: u64, recipient: address, ctx: &mut TxContext) {
         coin::mint_and_transfer(treasury, amount, recipient, ctx);
-    }
-
-    public entry fun burn(treasury: &mut coin::TreasuryCap<FACUET_COIN>, coin: coin::Coin<FACUET_COIN>) {
-        coin::burn(treasury, coin);
     }
 }
