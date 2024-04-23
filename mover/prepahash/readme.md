@@ -20,9 +20,10 @@
 - [×] 转账 `prepahash Coin` hash: (testnet)`7ZoEgphsBiknpTNGQfXg28GoNiikD5nUtbLztwfmiRpq`
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [×] nft package id : `0x75141de60c0943b4bc8019387bda9860c1a857c4769a4bd33eaab1263af590b6`
+- [×] nft object id : `0x71d7c61c0d11f16ac66dc8ffa9b0861c27c4a4d1b27b3a766920d32b2bde3b87`
+- [×] 转账 nft  hash: `8ChyGJAhjr1BnhLJ3nMkEs1v71H1AE5Thhb5DjJZGj45`
+- https://suiscan.xyz/testnet/tx/8ChyGJAhjr1BnhLJ3nMkEs1v71H1AE5Thhb5DjJZGj45
 
 ##   04 Move Game
 - [] game package id :
