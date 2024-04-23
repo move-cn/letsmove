@@ -26,8 +26,9 @@
 - https://suiscan.xyz/testnet/tx/8ChyGJAhjr1BnhLJ3nMkEs1v71H1AE5Thhb5DjJZGj45
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [×] game package id : `0xbf10ae346dbb778733fb5c1925f594cfdd0cd6201a1eea54e651bba9c22eade1`
+- [×] call game hash:`4wYHnFB91j5cr8zTW8LBurUWJmobjHkyV9jrpQ3ttyun`
+- https://suiscan.xyz/testnet/tx/4wYHnFB91j5cr8zTW8LBurUWJmobjHkyV9jrpQ3ttyun
 
 ##   05 Move Swap
 - [] swap package id :
