@@ -31,8 +31,9 @@
 - https://suiscan.xyz/testnet/tx/4wYHnFB91j5cr8zTW8LBurUWJmobjHkyV9jrpQ3ttyun
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [×] swap package id :  `0x7c71d6a518bfb07c48d7ec090f8338c65e83404a9d3150efc2792865e6994500`
+- [×] call swap hash: `HZRoA99HLjQvRtoMnVjH877mq3xxWYUJobAb1XwD5J2f`
+- https://suiscan.xyz/testnet/tx/HZRoA99HLjQvRtoMnVjH877mq3xxWYUJobAb1XwD5J2f
 
 ##   06 SDK PTB
 - [] save hash :
