@@ -15,9 +15,9 @@
 - [x] package id: 0x521ff1fad51d7c505e3237eb04397b7afa32e30fe60e6f6b411a23293805f33c
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [] My Coin package id : 0x5b3799a0c2e5dcedf689e86cadaf060703654c3c7211fd6ff948e5518a5f9368
+- [] Faucet package id : 0x17823e9a70e7cbcc426d9cbd985e5394f9300376cb86b0d0af8bae106cb66a0d
+- [] 转账 `My Coin` hash:EhVSwpbqM2a6GzrPBKwL1m3jDxuVpaavGBKbqXqwy6oz
 
 ##   03 move NFT
 - [] nft package id :
