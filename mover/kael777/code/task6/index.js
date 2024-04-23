@@ -3,7 +3,7 @@ import { NAVISDKClient } from 'navi-sdk'
 import { Sui } from 'navi-sdk/dist/address.js'
 
 // 自己钱包的助记词
-const words = `clever reveal depart double shadow fade seek salute sleep staff left industry`
+const words = ``
 
 // 账户
 const client = new NAVISDKClient({mnemonic: words, networkType: "mainnet"})
