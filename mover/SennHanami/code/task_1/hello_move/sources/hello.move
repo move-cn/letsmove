@@ -1,54 +1,20 @@
-module hello_move::my_module {
-    // Part 2: struct definitions
-    public struct Sword has key, store {
+module hello_move::hello_SennHanami {
+    use std::string;
+
+    /// An object that contains an arbitrary string
+    public struct HelloWorldObject has key, store {
         id: UID,
-        magic: u64,
-        strength: u64,
+        /// A string contained in the object
+        text: string::String
     }
 
-    public struct Forge has key {
-        id: UID,
-        swords_created: u64,
-    }
-
+    
     fun init(ctx: &mut TxContext) {
-        let admin = Forge {
+        let object = HelloWorldObject {
             id: object::new(ctx),
-            swords_created: 0,
+            text: string::utf8(b"Hello SennHanami!")
         };
-        // Transfer the forge object to the module/package publisher
-        transfer::transfer(admin, ctx.sender());
+        transfer::transfer(object, tx_context::sender(ctx));
     }
 
-    // Part 4: Accessors required to read the struct fields
-    public fun magic(self: &Sword): u64 {
-        self.magic
-    }
-
-    public fun strength(self: &Sword): u64 {
-        self.strength
-    }
-
-    public fun swords_created(self: &Forge): u64 {
-        self.swords_created
-    }
-
-    #[test]
-    fun test_sword_create() {
-      // Create a dummy TxContext for testing
-      let mut ctx = tx_context::dummy();
-
-      // Create a sword
-      let sword = Sword {
-          id: object::new(&mut ctx),
-          magic: 42,
-          strength: 7,
-      };
-
-      // Check if accessor functions return correct values
-      assert!(sword.magic() == 42 && sword.strength() == 7, 1);
-
-      let dummy_address = @0xCAFE;
-      transfer::public_transfer(sword, dummy_address);
-    }
 }
