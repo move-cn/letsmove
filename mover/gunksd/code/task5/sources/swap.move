@@ -325,15 +325,3 @@ module task5::gunksd {
     }
 }
 
-//packageID  0xd6f4b1d25a401c678fcccdb72680866abc45f1c737c48e3bad2a08f83b8a0317
-//coin_a: 0xa7edc406153123af11055029fc6f141138b413df1d191885607bd154ab7178e4
-//coin_b: 0xa5f37c9ecf31f9593fa8397048edaee926b697a50dd889ad933b239d07d0436a
-// sui client call --gas-budget 7500000 --package 0xd263908049bf7211f9719481f5bf99d7f83eed8f7dedd44521a2fdfb2cec7a56 --module coin_a --function mint --args 0xefe1aedb2ea684cfd97288a7ce14e8a69ecce087cc9a6cb0c2b2b990dd368f71 1000 0x8dc5827a93398f03913f4df834907aa38a8397b31398f63682f44de1fab90d0f
-// sui client call --gas-budget 7500000 --package 0xd263908049bf7211f9719481f5bf99d7f83eed8f7dedd44521a2fdfb2cec7a56 --module coin_b --function mint --args 0x7a2ea83861c92447904aecff6a2687bde71c20866e4df34f4adbf7b31562a9c4 10000 0x8dc5827a93398f03913f4df834907aa38a8397b31398f63682f44de1fab90d0f
-//coinA1:0x6a889f68bcc4ef956308f0f7173b6118868f38018202565c5d84814311e1a78d     type: 0xa7edc406153123af11055029fc6f141138b413df1d191885607bd154ab7178e4::mycoin::MYCOIN 0xc26cfb83c268b0ddc956ac5dbcc6471fba7b6ae1463b6f31e670b8ad1c3b79ea::faucetcoin::FAUCETCOIN
-//coinB10:0xf6b8fccd5d24f299e508443c31b094ed8f6df54fcca2e3c560d04e0b60b7d70d    type: 0xc26cfb83c268b0ddc956ac5dbcc6471fba7b6ae1463b6f31e670b8ad1c3b79ea::faucetcoin::FAUCETCOIN
-// coinA1:0x61d29c2b20ae6bc46a7ec18f7b00362cf22c239ea8b059ebe89c4935231eb281
-//增加流动性：sui client call --gas-budget 7500000 --package 0xd6f4b1d25a401c678fcccdb72680866abc45f1c737c48e3bad2a08f83b8a0317 --module vklo1 --function create_pool --type-args 0x6933a19cea6793b3b8fdc7e574922d3fa6d068af5bdbb2f4b9c8882fee6e1619::mycoin::MYCOIN 0xc26cfb83c268b0ddc956ac5dbcc6471fba7b6ae1463b6f31e670b8ad1c3b79ea::faucetcoin::FAUCETCOIN  --args 0x6a889f68bcc4ef956308f0f7173b6118868f38018202565c5d84814311e1a78d 0xf6b8fccd5d24f299e508443c31b094ed8f6df54fcca2e3c560d04e0b60b7d70d 
-// lp:0xd9651e9bf18f71888742036bbd96ba4516244b63cb3d8a44a33b9ec95f0250d1
-// swap  sui client call --gas-budget 7500000 --package 0xd6f4b1d25a401c678fcccdb72680866abc45f1c737c48e3bad2a08f83b8a0317 --module vklo1 --function swap_a_to_b --type-args 0x6933a19cea6793b3b8fdc7e574922d3fa6d068af5bdbb2f4b9c8882fee6e1619::mycoin::MYCOIN 0xc26cfb83c268b0ddc956ac5dbcc6471fba7b6ae1463b6f31e670b8ad1c3b79ea::faucetcoin::FAUCETCOIN --args 0xd9651e9bf18f71888742036bbd96ba4516244b63cb3d8a44a33b9ec95f0250d1 0x61d29c2b20ae6bc46a7ec18f7b00362cf22c239ea8b059ebe89c4935231eb281
-
