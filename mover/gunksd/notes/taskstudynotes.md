@@ -81,7 +81,9 @@ COIN_A_ID_5(FAUCET):  0x168f8f8bea194323fd87a72ee57fe1c366cffdd309e8c81abac3d87a
 COIN_B_ID_5(COIN): 0x6cd310a18d16b12e10c141b080a8e9ed91efa47c2b23b92f2dcfd9500d2b8c4d
 
 //swap : sui client call --gas-budget 7500000 --package 0xb44145573278571384c1ab5d27ed34fad3e302c60113c7d2b6c62e1c064ca945 --module gunksd --function swap_a_to_b --type-args 0xb4ea041850ca08ee26878bdbb27e4d28537e84d8cde11472f0c444e757bf207d::gunksd_coin::GUNKSD_COIN 0xcaa34ad3bdfde6ff74240279844549be22a71d4e96ecd0dbd97a2c85ef4681c2::gunksd_faucet::GUNKSD_FAUCET --args 0x7c9faf19b58b01f085c337f7402173451976d7967c6b2bcc68802a3bc5253739 0xbc1a908f96dba3c90697d6a8fe818f6d3605f6a2969be183ac3416e5596a9eee
-
+Task6:
+1.下载了nodejs，调用npm
+2.使用sdk来进行deposit操作，成功将1sui存进去
 
 
 
