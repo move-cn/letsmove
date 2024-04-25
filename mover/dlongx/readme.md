@@ -29,8 +29,8 @@
 - [x] call game hash:3JQEocNsn61ymbjSfvCJa6dNYf6BVFKx5gAMyMMMWuKK
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id :0xa27e8dca5cf11147b4fa8ac4590a06b2fd84dac24e4b499fded6b4b885c60f91[https://testnet.suivision.xyz/package/0xa27e8dca5cf11147b4fa8ac4590a06b2fd84dac24e4b499fded6b4b885c60f91]
+- [x] call swap hash:CV8nAqGDjinSW9LqBjqfRbZ9ke6WK8Gy1KJnDvXwhVex[https://testnet.suivision.xyz/txblock/CV8nAqGDjinSW9LqBjqfRbZ9ke6WK8Gy1KJnDvXwhVex]
 
 ##   06 SDK PTB
-- [] save hash :
+- [X] save hash :[https://suivision.xyz/txblock/Bd5NiqNa4cL7yDw7d9diMS8gdeKe39ZV3ok4Hb9fMY1y]
