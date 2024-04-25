@@ -1,0 +1,16 @@
+[package]
+name    = "helloworld"
+version = "0.0.1"
+edition = "2024.beta"
+
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+
+#
+[addresses]
+
+VKLO1       = "0x0"
+VKLO1FAUCET = "0x0"
+sui         = "0x0000000000000000000000000000000000000002"
