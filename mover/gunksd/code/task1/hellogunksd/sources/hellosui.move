@@ -12,7 +12,7 @@ module hello_world::hello {
     public fun say_hello(ctx: &mut TxContext) {
         let word = Hello {
             id: object::new(ctx),
-            str: string::utf8(b"Hello your githubid"),
+            str: string::utf8(b"Hello gunksd"),
         };
         transfer::transfer(word, tx_context::sender(ctx));
     }
