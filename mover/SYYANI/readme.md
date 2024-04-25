@@ -33,5 +33,5 @@
 - [] call swap hash:
 
 ##   06 SDK PTB
-- [x] save hash : ``
+- [] save hash :
 
