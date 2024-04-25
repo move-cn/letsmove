@@ -12,7 +12,7 @@ module task2::syyani_faucet_coin {
             b"SYYANI_FAUCET",
             b"SYYANI_FAUCET",
             b"SYYANI faucet coin, everyone can access and mutate.",
-            option::some<Url>(url::new_unsafe_from_bytes(b"https://avatars.githubusercontent.com/u/100562605")),
+            option::some<Url>(url::new_unsafe_from_bytes(b"https://avatars.githubusercontent.com/u/40732861")),
             ctx
         );
         transfer::public_freeze_object(metadata);

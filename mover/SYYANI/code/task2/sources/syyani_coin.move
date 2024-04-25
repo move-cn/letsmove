@@ -11,7 +11,7 @@ module task2::syyani_coin {
             b"SYYANI_COIN",
             b"SYYANI",
             b"syyani coin, my first coin",
-            option::some<Url>(url::new_unsafe_from_bytes(b"https://avatars.githubusercontent.com/u/100562605")),
+            option::some<Url>(url::new_unsafe_from_bytes(b"https://avatars.githubusercontent.com/u/40732861")),
             ctx
         );
         transfer::public_freeze_object(metadata);
