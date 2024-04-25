@@ -15,9 +15,9 @@
 - [x] package id: `0x66b450a9f687bcaebce29512871a7e78a58d61c15e55473f322021296e5e77ed`
 
 ##   02 move coin
-- [x] My Coin package id : `0x429eb497ebacb84da60c1efda1208269353b3e8e4e83e2bc7f06ce5894fa2684`
-- [x] Faucet package id : `0x429eb497ebacb84da60c1efda1208269353b3e8e4e83e2bc7f06ce5894fa2684`
-- [x] 转账 `My Coin(SYYANI Coin)` hash : `CDyU2igW5gDUV61eoUJZgTviU5VrQwb28cPh8jSTkCJB`
+- [x] My Coin package id : `0xcc39bf2742ec5cbbfbea8ba995e3e194a5a1a37dccd7a44b33e88aca4458d02b`
+- [x] Faucet package id : `0xcc39bf2742ec5cbbfbea8ba995e3e194a5a1a37dccd7a44b33e88aca4458d02b`
+- [x] 转账 `My Coin(SYYANI Coin)` hash : `EvkL2BjVyw6TBqtkp8FGEbhP2PdCJciRmKDF4ZXMcDjC`
 
 ##   03 move NFT
 - [x] nft package id : `0xbd09206b93b55087e8c690fac2271018d50e5d814f113beb1289929ad25ddb11`
@@ -33,4 +33,5 @@
 - [] call swap hash:
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : `BBir5QSG441hd5BfGTRSP7bx9sXif6hFLxji2pSBAmGb`
+
