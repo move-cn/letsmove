@@ -30,4 +30,4 @@
 - [x] call swap hash: `CD3h9kmsiwipJHkE5jBXyFxSwvQgVMYTQqXG2AMGWfSR`
 
 ##   06 SDK PTB
-- [] save hash:
+- [x] save hash: `GGCBzAV5roN2zfBtbJBAqraXouS57eq6FvN7SZbbVaiM`
