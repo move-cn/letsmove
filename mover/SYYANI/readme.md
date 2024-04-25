@@ -30,7 +30,7 @@
 
 ##   05 Move Swap
 - [x] swap package id : `0x755c2a42d8035ff2a759fe702af111ac17e827044def8f8a17e22aea868b1b6f`
-- [x] call swap hash : `CTE8DB6PA3gKcGGsRaf7GEtdfyaCRCZbHf5Kq5kToR6W`
+- [x] call swap hash : `BHcfEs1tq1gvxkP8xtjWcjSBL7pDe6MVBZAwJj7ANGCP`
 
 ##   06 SDK PTB
 - [x] save hash : `EyCLpnNisbD5Tp6UgDfwCTVczuipRjebsDMYTXNmU5PW`
