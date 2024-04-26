@@ -3,7 +3,7 @@ name = "task2"
 edition = "legacy" # edition = "legacy" to use legacy (pre-2024) Move
 # Mainnet
 published-at = "0xe1fb6293d4461f3a443b8a484c70bde344ce239def4f6412abeae531e3f4a38e"
-testnet-TreasuryCap = "0x02f95db2ca9966e1af26148e17daa3dd0e4c65407563f08ff1c2f6a439265966"
+mainnet-TreasuryCap = "0x02f95db2ca9966e1af26148e17daa3dd0e4c65407563f08ff1c2f6a439265966"
 
 # Testnet
 #published-at = "0x65352da921687470b48be2f403c6678b77fdb67e3acfbbf79348212d2e3a6e18"
