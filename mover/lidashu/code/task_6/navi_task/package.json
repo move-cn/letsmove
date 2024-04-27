@@ -1,0 +1,20 @@
+{
+  "name": "navi_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mysten/sui.js": "0.50.1",
+    "gql.tada": "1.6.1",
+    "navi-sdk": "^1.1.21",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
