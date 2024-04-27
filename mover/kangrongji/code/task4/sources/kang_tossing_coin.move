@@ -1,6 +1,5 @@
 module task4::kang_tossing_coin {
 
-    use std::debug;
     use std::string;
     use sui::event;
     use sui::clock::{Self, Clock};
@@ -16,7 +15,7 @@ module task4::kang_tossing_coin {
         outcome: string::String,
     }
 
-    public fun play(guess: u64, clock: &Clock){
+    public fun play(guess: u64, clock: &Clock) {
         assert!(guess == Head || guess == Tail, ErrInvalidGuess);
         let result = random(clock);
         let outcome = if (guess == result) {
@@ -28,7 +27,7 @@ module task4::kang_tossing_coin {
     }
 
     fun random(clock: &Clock): u64{
-        clock::timestamp_ms(clock) % 2
+        return clock::timestamp_ms(clock) % 2
     }
 
 }

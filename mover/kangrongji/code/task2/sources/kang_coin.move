@@ -18,13 +18,13 @@ module task2::kang_coin {
         transfer::public_transfer(treasury_cap, tx_context::sender(ctx));
     }
 
-    public fun mint(
+    public fun mint_and_transfer(
         treasury_cap: &mut TreasuryCap<KANG_COIN>,
         amount: u64,
         recipient: address,
         ctx: &mut TxContext
     ) {
-        coin::mint_and_transfer(treasury_cap, amount, recipient, ctx)
+        coin::mint_and_transfer(treasury_cap, amount, recipient, ctx);
     }
 
     public fun burn(treasury_cap: &mut TreasuryCap<KANG_COIN>, coin: Coin<KANG_COIN>) {
