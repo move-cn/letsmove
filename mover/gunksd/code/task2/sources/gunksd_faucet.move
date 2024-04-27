@@ -7,7 +7,7 @@ module task2::gunksd_faucet {
     public struct GUNKSD_FAUCET has drop {}
 
     fun init(witness: GUNKSD_FAUCET, ctx: &mut TxContext) {
-        let (treasury, metadata) = coin::create_currency(witness, 6, b"GUNKSD_FAUCET", b"gunksd", b"gunksd faucet", option::none(), ctx);
+        let (treasury, metadata) = coin::create_currency(witness, 6, b"GUNKSD_FAUCET", b"gunksd_faucet", b"gunksd faucet", option::none(), ctx);
         transfer::public_freeze_object(metadata);
         transfer::public_transfer(treasury, tx_context::sender(ctx))
     }
