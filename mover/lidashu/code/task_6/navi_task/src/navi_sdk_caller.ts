@@ -1,73 +1,54 @@
 
-'use strict';
-
 import { NAVISDKClient } from 'navi-sdk'
 import { TransactionBlock } from "@mysten/sui.js/transactions";
 import {depositCoin,withdrawCoin, borrowCoin, flashloan,repayFlashLoan, SignAndSubmitTXB, mergeCoins} from 'navi-sdk/dist/libs/PTB'
 import { CoinInfo, Pool, PoolConfig } from "navi-sdk/dist/types";
-import { pool, USDC } from 'navi-sdk/dist/address'
+import { pool, Sui, USDC } from 'navi-sdk/dist/address'
 
-const mnemonic = "Test Mnemonic"; //Replace with your mnemonic
+const mnemonic = "<Your mnemonic>"; //Replace with your mnemonic
 const client = new NAVISDKClient({mnemonic: mnemonic, networkType: "mainnet", numberOfAccounts: 1});
 
-//Set Up Zone
-const toBorrowCoin = USDC;
-const amount_to_borrow = 1 * 10**toBorrowCoin.decimal; //Borrow 1 USDC
-//End of Set Up Zone
-
-
-
 async function call_navi_sdk() {
+    
     //For the following code, you can directly copy and paste it to your project
     // Initialize the TransactionBlock
     let txb = new TransactionBlock();
     const account = client.accounts[0];
+
+    const allPortfolios = await client.getAllNaviPortfolios();
+    console.log(allPortfolios);
+    
     let sender = account.address;
     console.log(sender)
     txb.setSender(sender);
+    txb.setGasBudget(500000000);
+    
+    const deposit_coin = txb.object("0x07217e4b7d4da36302d298737f2995721e282a87b8f5ea3bf3db16c2d36d5d7a");
+    
+    //// deposit 1 Sui
+    const Sui_Pool: PoolConfig = pool[Sui.symbol as keyof Pool];
+    await depositCoin(txb, Sui_Pool, deposit_coin, 1e9);
 
+    // borrow USDC
+    // Supported: Sui/NAVX/vSui/USDC/USDT/WETH/CETUS/HAsui, import from address file
+    const amount_to_borrow = 0.042720 * 10**USDC.decimal; //[借出当前日期的USDC 0.[月][天][小时] 的 USDC ]
+
+    const USDC_Pool = pool[USDC.symbol as keyof Pool];
+    const [borrow_coin] = await borrowCoin(txb, USDC_Pool, amount_to_borrow);
+    
+    // deposit borrowed USDC
     //Get the object of the coin
-    const sourceTokenObjAddress = await account.getCoins(toBorrowCoin);
+    const sourceTokenObjAddress = await account.getCoins(USDC);
     const sourceTokenObj = txb.object(sourceTokenObjAddress.data[0].coinObjectId);
 
-    // Supported: Sui/NAVX/vSui/USDC/USDT/WETH/CETUS/HAsui, import from address file
-    const Coin_Pool: PoolConfig = pool[toBorrowCoin.symbol as keyof Pool];
-    const [balance, receipt] = await flashloan(txb, Coin_Pool, amount_to_borrow); // Flashloan 1 USDC
+    txb.mergeCoins(sourceTokenObj, [borrow_coin]);
 
-    //Transfer the flashloan money to the account
-    const this_coin = txb.moveCall({
-        target: '0x2::coin::from_balance',
-        arguments: [balance],
-        typeArguments: [Coin_Pool.type],
-    });
-
-    //Merge Coin to the wallet balance
-    txb.mergeCoins(sourceTokenObj, [this_coin]);
-
-    //Get the repayment object
-    const repayBalance = txb.moveCall({
-        target: '0x2::coin::into_balance',
-        arguments: [sourceTokenObj],
-        typeArguments: [Coin_Pool.type],
-    });
-
-    const [e_balance] = await repayFlashLoan(txb, Coin_Pool, receipt, repayBalance); // Repay with the balance
-
-    //Extra token after repay
-    const extra_coin = txb.moveCall({
-        target: '0x2::coin::from_balance',
-        arguments: [e_balance],
-        typeArguments: [Coin_Pool.type],
-    });
-
-    //Transfer left_money after repay to the account
-    txb.transferObjects([extra_coin], sender);
-    const result = SignAndSubmitTXB(txb, account.client, account.keypair);
+    await depositCoin(txb, USDC_Pool, sourceTokenObj, amount_to_borrow);
+  
+    const result = await SignAndSubmitTXB(txb, account.client, account.keypair);
     console.log("result: ", result);
-
+    
 }
-
-
 
 const res = call_navi_sdk();
 
