@@ -10,8 +10,8 @@ module task2::liushuyu6666_faucet {
         let (treasury, metadata) = coin::create_currency(
             witness,
             9,
-            b"GILGAMESH_FAUCET",
-            b"GILGAMESH_FAUCET",
+            b"LSYFAUCET",
+            b"LIUSHUYU6666_FAUCET",
             b"faucet from liushuyu6666",
             option::some<Url>(
                 url::new_unsafe_from_bytes(b"https://static.wikia.nocookie.net/civilization/images/f/ff/Gilgamesh_%28Civ6%29.png/revision/latest?cb=20200930124313")

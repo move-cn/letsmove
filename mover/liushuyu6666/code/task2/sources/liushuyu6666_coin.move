@@ -10,8 +10,8 @@ module task2::liushuyu6666_coin {
         let (treasury, metadata) = coin::create_currency(
             witness,
             9,
-            b"CR7",
-            b"CRISTIANO_COIN",
+            b"LSYCOIN",
+            b"LIUSHUYU6666_COIN",
             b"currency from liushuyu6666",
             option::some<Url>(
                 url::new_unsafe_from_bytes(b"https://avatars.githubusercontent.com/u/58156532?v=4")
