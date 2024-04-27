@@ -35,4 +35,4 @@ https://suiscan.xyz/devnet/tx/AAbHkEvamPTgaeH1kPTfx5o5B6yeSpuJNWkXm94USB9G
 - [x] call swap hash: [`3Vww7AJQAASiCEwvnetJoqgWBAdp6Tc1odQUPn3fCsAD`](https://suiscan.xyz/devnet/tx/3Vww7AJQAASiCEwvnetJoqgWBAdp6Tc1odQUPn3fCsAD)
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash :`FPLvSWyppQpZMP9WfkvA58QqCLL6Lqp8s37pDKrtyq2G`

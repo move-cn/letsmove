@@ -1,36 +1,36 @@
 ## 基本信息
-- Sui钱包地址: `0x4e8baf04fa412c7fcad7d977c64a10f735be1587f275a8987cf4b9bd68b7ed33`
+- Sui钱包地址: `0xfc564ea4a511ed9316a0fddfddd528c75201d6eb5ac0571914440c915d8aeae2`
+> 换了一个钱包
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `SYYANI`
 
 ## 个人简介
-- 工作经验: 5年
-- 技术栈: `Rust` `C++`
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `xxx` 
+- 学习经验: 5年
+- 技术栈: `C++` `Rust` `JavaScript`
+- 对Move、Sui感兴趣，想通过Move了解、入门区块链
 
 ## 任务
 
 ##   01 hello move  
-- [x] package id: `0xc19314d72c80de3cae3643db8dd1f59a698df678e1dbc159e4574b34fbe43d98`
+- [x] package id: `0x66b450a9f687bcaebce29512871a7e78a58d61c15e55473f322021296e5e77ed`
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [x] My Coin package id : `0xcc39bf2742ec5cbbfbea8ba995e3e194a5a1a37dccd7a44b33e88aca4458d02b`
+- [x] Faucet package id : `0xcc39bf2742ec5cbbfbea8ba995e3e194a5a1a37dccd7a44b33e88aca4458d02b`
+- [x] 转账 `My Coin(SYYANI Coin)` hash : `EvkL2BjVyw6TBqtkp8FGEbhP2PdCJciRmKDF4ZXMcDjC`
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [x] nft package id : `0xbd09206b93b55087e8c690fac2271018d50e5d814f113beb1289929ad25ddb11`
+- [x] nft object id : `0xeb42a20b024cd20700e1c1612ba99f4fbfc5de5355a38a83bd5d271b5d9fd56b`
+- [x] 转账 nft hash : `HLvsMcMRMoV8ARq1V1XQyBNMdWi54KqrwVbFW1Lyn6V8`
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [x] game package id : `0x33812c5da6adb88ea576342fad119d9162165794508c67d3067286418893dc3c`
+- [x] call game hash : `5JDZUAMWZUQ3G8vrzMmGb2dJHwAYTEjPWntwBNjNNkKU`
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id : `0x755c2a42d8035ff2a759fe702af111ac17e827044def8f8a17e22aea868b1b6f`
+- [x] call swap hash : `BHcfEs1tq1gvxkP8xtjWcjSBL7pDe6MVBZAwJj7ANGCP`
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : `EyCLpnNisbD5Tp6UgDfwCTVczuipRjebsDMYTXNmU5PW`
