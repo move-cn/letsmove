@@ -1,4 +1,4 @@
-module task2::chenbo0731_coin {
+module new_coin::chenbo0731_coin {
     use std::option;
     use sui::coin::{Self, Coin, TreasuryCap};
     use sui::transfer;

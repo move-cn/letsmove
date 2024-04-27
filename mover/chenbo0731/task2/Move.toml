@@ -1,5 +1,5 @@
 [package]
-name = "task2"
+name = "new_coin"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
@@ -19,8 +19,8 @@ Sui = { local = "../../../../sui/crates/sui-framework/packages/sui-framework"}
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-task2 = "0x0"
-task2_1= "0xa5e02b3e4ba84ac13083e3aa5b2d0c00ad46947539c3dd0fafa90e3e287dc5b8"
+new_coin = "0x0"
+task= "0x6110502824a4c8fbb8faa9fc92e0f7a6681208fc5ef412339b441d9272ea050c"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.

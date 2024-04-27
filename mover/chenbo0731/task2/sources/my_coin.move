@@ -1,4 +1,4 @@
-module task2::my_coin {
+module new_coin::my_coin {
     use std::option;
     use sui::coin::{Self, Coin, TreasuryCap};
     use sui::transfer;

@@ -1,5 +1,5 @@
 #[test_only]
-module task2::my_coin_tests {
+module new_coin::my_coin_tests {
     use new_coin::my_coin::{Self, MY_COIN};
     use sui::coin::{Coin, TreasuryCap};
     use sui::test_scenario::{Self, next_tx, ctx};
