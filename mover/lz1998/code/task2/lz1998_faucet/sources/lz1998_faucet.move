@@ -3,17 +3,17 @@ module lz1998_faucet::lz1998_faucet {
     use sui::balance::{Balance};
     use sui::balance;
     use sui::coin::{Self, TreasuryCap};
-    public struct Lz1998Faucet has drop {}
+    public struct LZ1998_FAUCET has drop {}
     public struct PublicWallet has key {
         id: UID,
-        coin: Balance<Lz1998Faucet>,
+        coin: Balance<LZ1998_FAUCET>,
         faucet_amount: u64,
     }
     const AMOUNT: u64 = 10^12;
     const EFaucetDry: u64 = 1;
     #[allow(lint(share_owned))]
-    fun init(witness: Lz1998Faucet, ctx: &mut TxContext) {
-        let (treasury_cap, metadata) = coin::create_currency<Lz1998Faucet>(
+    fun init(witness: LZ1998_FAUCET, ctx: &mut TxContext) {
+        let (treasury_cap, metadata) = coin::create_currency<LZ1998_FAUCET>(
             witness,
             10,
             b"Lz1998 Faucet",
@@ -31,7 +31,7 @@ module lz1998_faucet::lz1998_faucet {
         transfer::share_object(wallet);
     }
     public entry fun mint_faucet(
-        treasury_cap: &mut TreasuryCap<Lz1998Faucet>,
+        treasury_cap: &mut TreasuryCap<LZ1998_FAUCET>,
         amount: u64,
         wallet: &mut PublicWallet,
         ctx: &mut TxContext) {
