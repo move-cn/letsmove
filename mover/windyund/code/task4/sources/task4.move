@@ -21,7 +21,7 @@ module task4::guess_number {
     /**
     *  玩游戏猜数
     *  说出0-9的数字，如果你的数字和系统随机数一样，你就赢了
-    *  如果你赢了，你将获得1个SUI 奖励
+    *  如果你赢了，你将获得1个MYC 奖励
     */
     public entry fun play<T>( treasuryCap: &mut TreasuryCap<T>, number: u64,clock: &Clock, ctx: &mut TxContext) {
 
