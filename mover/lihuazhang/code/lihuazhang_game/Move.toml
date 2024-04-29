@@ -1,13 +1,15 @@
 [package]
-name = "lihuazhang_coin"
+name = "lihuazhang_game"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
-version = "0.0.2"
-published-at = "0x0820453d29a70f37b4555f7e8340c278119a84b8de48d701eaf34e61489246cf"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+lihuazhang_coin = { git = "https://github.com/lihuazhang/letsmove.git", subdir = "mover/lihuazhang/code/lihuazhang_coin", rev = "main" }
+
+# lihuazhang_coin = { local = "../lihuazhang_coin" }
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
@@ -21,7 +23,8 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-lihuazhang_coin = "0x0"
+lihuazhang_game = "0x0"
+lihuazhang_coin = "0x0820453d29a70f37b4555f7e8340c278119a84b8de48d701eaf34e61489246cf"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.

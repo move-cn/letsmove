@@ -18,7 +18,7 @@ module lihuazhang_coin::lihuazhang_faucet_coin {
         transfer::public_share_object(treasury);
     }
 
-    entry fun mint(treasury_cap: &mut TreasuryCap<LIHUAZHANG_FAUCET_COIN>, amount: u64, recipient: address, ctx: &mut TxContext) {
+    public entry fun mint(treasury_cap: &mut TreasuryCap<LIHUAZHANG_FAUCET_COIN>, amount: u64, recipient: address, ctx: &mut TxContext) {
         let coin = coin::mint(treasury_cap, amount, ctx);
         transfer::public_transfer(coin, recipient);
     }
