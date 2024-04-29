@@ -15,7 +15,7 @@ module hello_move::hello_move {
     public entry fun mint(ctx: &mut TxContext) {
         let object = HelloMoveObject {
             id: object::new(ctx),
-            text: string::utf8(b"Hello Move!")
+            text: string::utf8(b"s-sky-persson!")
         };
         transfer::public_transfer(object, tx_context::sender(ctx));
     }
