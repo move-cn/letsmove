@@ -7,7 +7,7 @@
 - 工作经验: 7年
 - 技术栈: `Java` `Python` `Vue`
 - 多年Java开发经验，对Move特别感兴趣，想通过Move入门Web3，随时准备all in Web3.
-- 联系方式: tg: `xxx` 
+- 联系方式: tg: `Pithos77` 
 
 ## 任务
 
@@ -20,9 +20,9 @@
 - [x] 转账 `My Coin` hash: HA1PLUnRsgrosBGoXgrvAFz2hEMvJs9HapDgy8BR5UJW
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [x] nft package id : 0x92ff098e5f7c97bed6e197e6e38de8e6d57421c58b87bebd2ce615690977489a
+- [x] nft object id : 0x351ccab95ec96ee8e3fafaa8854b53cdf2dc177e8aba7a5fe28e21adecac7523
+- [x] 转账 nft  hash: HxMcESmTSwF5W5sG3tgPSFjHs4nenuUtQJqtBssrcbmM
 
 ##   04 Move Game
 - [] game package id :
