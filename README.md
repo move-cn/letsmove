@@ -23,8 +23,9 @@ Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move�
 - task 1 必须包含自己的`github id` 也就是 hello `github id`
 - task 2 必须是自己 `github id` 开头的Coin名字,水龙头的Coin是 `github id` + `Faucet`
 - task 3 NFT必须是自己 github 的头像作为图片
-- task 4 的game 必须包含自己的 `github id`的元素
+- task 4 的game 必须包含自己的 `github id`的元素, 必须包含随机数，必须用task2的 `Faucet Coin`
 - task 5 swap 必须是 swap 自己发行的 task2 两个 Coin的互换，包名必须是自己的`github id`
+- task 6 必须在一个PTB内完成三步，必须包含当前时间的因子
 
 
 ## 奖励明细
@@ -72,3 +73,4 @@ Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move�
 - [Sui Dart SDK](https://github.com/mofalabs/sui) (community)
 - [Sui dApp Kit Vue](https://github.com/SuiCraftTeam/Sui-dApp-Kit-Vue/) (community)
 ### 生态项目源码
+
