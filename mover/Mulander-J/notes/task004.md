@@ -21,6 +21,14 @@
 - 调用`mint`生成随机Loot卡牌NFT。
 - 调用`battle`和机器人随机数对决，变更积分。
 
+```
+Transfer coin into contracts
+coinSui: Coin<Sui>
+transfer::public_transfer(coinSui,recipient);
+Transfer coin to sender
+mulander_faucet::mint(treasury_cap, amount, tx_context::sender(ctx), ctx);
+```
+
 ### 日志
 
 **publish contract**
