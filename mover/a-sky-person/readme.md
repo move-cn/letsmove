@@ -7,12 +7,12 @@
 - 工作经验: 无, 社会无业闲散人员, 嗯
 - 技术栈: `人生苦短, 我用python`
 - 我有一个梦想, 希望有一天我成为大佬, 有人在我面前恭敬地说道, "佬, 请上坐", "给佬上好茶"
-- 联系方式: tg: `tg号又没了, 过段时间买一个`
+- 联系方式: tg: `tg号又没了, 过段时间再买一个`
 
 ## 任务
 
 ##   01 hello move
-- [] package id: 0x17534ba3b7d7e543e3ffa5d5ee9dad2e979fdfcf48809f7a6cd2085c24f4cabc
+- [x] package id: 0xaf27dc09948609e08306f91882511876eb9fc5ca24b5607f9446eb985e94276b
 
 ##   02 move coin
 - [] My Coin package id :
