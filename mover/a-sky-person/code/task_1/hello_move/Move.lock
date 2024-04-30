@@ -29,6 +29,11 @@ flavor = "sui"
 
 [env.testnet]
 chain-id = "4c78adac"
-original-published-id = "0xaf27dc09948609e08306f91882511876eb9fc5ca24b5607f9446eb985e94276b"
-latest-published-id = "0xaf27dc09948609e08306f91882511876eb9fc5ca24b5607f9446eb985e94276b"
+<<<<<<<<< Temporary merge branch 1
+original-published-id = "0x450c45903309fb5fc4458f1ddcdd5d96e4924b71e1fad12aa108c92700b8e4cb"
+latest-published-id = "0x450c45903309fb5fc4458f1ddcdd5d96e4924b71e1fad12aa108c92700b8e4cb"
+=========
+original-published-id = "0x17534ba3b7d7e543e3ffa5d5ee9dad2e979fdfcf48809f7a6cd2085c24f4cabc"
+latest-published-id = "0x17534ba3b7d7e543e3ffa5d5ee9dad2e979fdfcf48809f7a6cd2085c24f4cabc"
+>>>>>>>>> Temporary merge branch 2
 published-version = "1"
