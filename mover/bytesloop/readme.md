@@ -12,17 +12,17 @@
 ## 任务
 
 ##   01 hello move  
-- [x] package id: `0x90f7990609a98035510af1a81f183f77c8d1c8bfd11148fc33b4a7d78d96c25d`
+- [x] package id: `0x90f7990609a98035510af1a81f183f77c8d1c8bfd11148fc33b4a7d78d96c25d` (Testnet)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [x] My Coin package id: `0x603c23f1529f80fe07aa0f0e63c42780de82f2d18089f6369519b4886efa22c6` (Testnet)
+- [x] Faucet package id: `0x603c23f1529f80fe07aa0f0e63c42780de82f2d18089f6369519b4886efa22c6` (Testnet)
+- [x] 转账 `My Coin` hash: `6ZfFqC5s2U2hFNNqnjkvfQ71TgBqiWTfpy9GxkS6Xa9T` (Testnet)
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [x] nft package id: `0x193452b4288caed0e35a8a1470753d722e41ece22d8da082183179fd2896db83` (Testnet)
+- [x] nft object id : `0x17449737cc5a2a94d611c521de7e8b69ae914fbfb277b585a87a01cce96fd364` (Testnet)
+- [x] 转账 nft hash: `YAak4KPdP7bCtSUhhZxPAr6AG7djUPrGNwxuDkxmWqT` (Testnet)
 
 ##   04 Move Game
 - [] game package id :

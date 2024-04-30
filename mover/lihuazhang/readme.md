@@ -25,3 +25,12 @@
 - [] mint NFT的合约地址：[0x8b1402e5a28a69d280959b05db83eaf110d5dc5b08e65050aa6e025b7403b5c2](https://suiscan.xyz/mainnet/object/0x8b1402e5a28a69d280959b05db83eaf110d5dc5b08e65050aa6e025b7403b5c2/contracts)
 - [] 给自己地址mint一个NFT：[0x464920b13c92ab299fe56d445e39270551b7c70baba392616f74bda15761d3a2](https://suivision.xyz/object/0x464920b13c92ab299fe56d445e39270551b7c70baba392616f74bda15761d3a2?network=mainnet)
 - [] mint 一个 nft 发送到地址: 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2: [0x061c095ade5a386392b5591c6cd8b56a63f0e5e9648bbf1d23af33db37db5292](https://suiscan.xyz/mainnet/object/0x061c095ade5a386392b5591c6cd8b56a63f0e5e9648bbf1d23af33db37db5292)
+
+##   04 Move Game
+
+1. initialize house data
+2. player starts game
+3. player plays game
+
+- [] game package id : [0x7d8f80d9ed4405f724cd92c89ffa965ca079fc6fcdd3f2edfb150f07e4ad2329](https://suiscan.xyz/mainnet/object/0x7d8f80d9ed4405f724cd92c89ffa965ca079fc6fcdd3f2edfb150f07e4ad2329)
+- [] call game hash: [BTQ2wcUKRhEmHxCmGKcBw4FmEsG2SBocsfXJatQfyqbC](https://suiscan.xyz/mainnet/tx/BTQ2wcUKRhEmHxCmGKcBw4FmEsG2SBocsfXJatQfyqbC)
