@@ -73,3 +73,34 @@ sui client call --function mint_to_sender --package 0x65ccc9fd6fb05ebde6eedfb2d0
 
 转移NFT：
 sui client call --function transfer --package 0x65ccc9fd6fb05ebde6eedfb2d06f14476dedcfba75e2ab706134ce92bac11e9d --module vv1133_nft --args0x8e24211e16198dc374a2eec98d0b387e689d3a60e311386dc26d8879a8d5dbce 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --gas-budget 5000000
+
+# task4
+
+## 需求
+
+完成链游，游戏必须包含随机数，游戏必须能存取[task2] 发行的Faucet Coin,用task2的 Faucet Coin作为游戏输赢的资产
+
+## Move.toml 文件修改
+
+之前发布的vv1133_faucet coin:
+package-id:0xd5cb8233cba492b0429d66461a50cb997792a8d848758e42bb993b2d1fc74073
+TreasuryCap-id:0x6c992befefb22b71388e41b91178e13597a9fc73ce7b674ef3bceeec83690ea4
+
+vv1133_faucet工程的Move.toml修改：
+[package]下添加
+published-at = "0xd5cb8233cba492b0429d66461a50cb997792a8d848758e42bb993b2d1fc74073"
+[addresses]下修改
+vv1133_faucet = "0xd5cb8233cba492b0429d66461a50cb997792a8d848758e42bb993b2d1fc74073"
+
+vv1133_game工程的Move.toml修改：
+[dependencies]下增加
+vv1133_faucet = { local = "../../../2/code/vv1133_faucet/" }
+
+## 部署和调用
+
+sui client publish --gas-budget 50000000
+
+sui client call --package 0x25158046b72d620d70d85fe4511e367caa27ac77d49faacda06abd82f67c785e --module vv1133_game --function play --args 0x6c992befefb22b71388e41b91178e13597a9fc73ce7b674ef3bceeec83690ea4 0x5a81e0f33142c7e7566a7164120838ea582d740dbedf3c4656d618d6cede25a3 0 0x6 --gas-budget 5000000
+
+如果游戏失利会损失质押的vv1133_faucet coin，如果胜利会收到双倍质押的vv1133_faucet coin
+
