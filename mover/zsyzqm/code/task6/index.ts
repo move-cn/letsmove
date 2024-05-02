@@ -41,6 +41,7 @@ const account = client.accounts[0];
     typeArguments: [SUI_Pool.type],
   });
 
+  // 4月30日 上午10点
   const borrowAmount = 4_301_00000;
   let borrowed = await txb.moveCall({
     target: `${process.env.Package}::incentive_v2::borrow`,
@@ -70,7 +71,7 @@ const account = client.accounts[0];
       txb.object(NAVX_Pool.poolId),
       txb.pure(NAVX_Pool.assetId),
       extra_coin,
-      txb.pure(4_301_00000),
+      txb.pure(borrowAmount),
       txb.object(process.env.IncentiveV1!),
       txb.object(process.env.IncentiveV2!),
     ],
