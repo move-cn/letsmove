@@ -24,8 +24,8 @@
 - [x] 转账 nft hash : [J57P5abnXGg3bxy3Y6CYyPirUpiAdCysGbXiY23jRXgY](https://suivision.xyz/txblock/J57P5abnXGg3bxy3Y6CYyPirUpiAdCysGbXiY23jRXgY)
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [x] game package id : [0xef0b128db4bb4393c8e2725cdf8f6ef3ff0669247ea7f51cdf4e7bf8019dea56](https://suivision.xyz/package/0xef0b128db4bb4393c8e2725cdf8f6ef3ff0669247ea7f51cdf4e7bf8019dea56)
+- [x] call game hash : [GW8mXZEVHwDqggRUMecfGbrFUgFV8XCj6YiqD7W7wkFr](https://suivision.xyz/txblock/GW8mXZEVHwDqggRUMecfGbrFUgFV8XCj6YiqD7W7wkFr)
 
 ##   05 Move Swap
 - [] swap package id :
