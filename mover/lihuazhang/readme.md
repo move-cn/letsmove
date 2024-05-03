@@ -41,3 +41,6 @@
 - [] 流动池 [0x5a00f3247944642211ded85dffa6ea13452e63eb77adddbe75bc9423a2045703](https://suiscan.xyz/mainnet/object/0x5a00f3247944642211ded85dffa6ea13452e63eb77adddbe75bc9423a2045703)
 - [] swap_x_to_y hash [BUc59P2xzaMNGLeTeA5KDJ8KscXDu1wjgshGvH8tUQqD](https://suivision.xyz/txblock/BUc59P2xzaMNGLeTeA5KDJ8KscXDu1wjgshGvH8tUQqD?tab=Overview)
 - [] swap_y_to_x hash [G5Cw4RbkdCBDak3BenLgBz7HmSFjcBoyuj6EtZMwdR1S](https://suivision.xyz/txblock/G5Cw4RbkdCBDak3BenLgBz7HmSFjcBoyuj6EtZMwdR1S?tab=Overview)
+
+## 用 Sui SDK 和 Navi SDK 在Navi Protocol 存入 1 SUI
+hash值：[H5TNhpNACJcy84yH6sRigLDiyVV2tV6fhFGLCKWM3Y1n](https://suiscan.xyz/mainnet/tx/H5TNhpNACJcy84yH6sRigLDiyVV2tV6fhFGLCKWM3Y1n)
