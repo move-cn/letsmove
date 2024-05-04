@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x1f775485ad9acf4497b63c45b7aef37ace3f358abae29089f19be4235547cdbf0x1000000000000x`
+- Sui钱包地址: `0x1f775485ad9acf4497b63c45b7aef37ace3f358abae29089f19be4235547cdbf`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `antake2333`
 
