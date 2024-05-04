@@ -78,6 +78,6 @@ sui client call --gas-budget 7500000 --package $TASK5_PACKAGE_ID --module reityp
 
 check the swap transaction at [DKUN81sE4Lbc6MXGpC9yPAuSs9yPEEKB3HiwjPzZ9EJF](https://suivision.xyz/txblock/DKUN81sE4Lbc6MXGpC9yPAuSs9yPEEKB3HiwjPzZ9EJF)
 
-思路是，先将task5的swap上链，再使用task2中的coin和faucet铸造币，使用它们调用task5的swap中的方法创造pool，这时候再铸造一枚coin，调用task5的swap中的方法交换得到fauce。
+思路是，先将task5的swap上链，再使用task2中的coin和faucet铸造币，使用它们调用task5的swap中的方法创造pool，这时候再铸造一枚coin，调用task5的swap中的方法交换得到faucet
 
 实现在testnet上验证思路，通过后再上mainnet
