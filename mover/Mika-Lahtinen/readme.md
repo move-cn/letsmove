@@ -5,7 +5,7 @@
 ## 个人简介
 - 工作经验: 4年
 - 技术栈: `Rust` `Elixir` `.NET` `Solidity`
-- 现从事工业软件开发，对区块链
+- 现从事工业软件开发，从Substrate开始了解接触区块链领域，希望通过这次课程了解并进入Move开发生态
 - 联系方式: email: `image1224@outlook.com`
 
 ## 任务
@@ -14,9 +14,9 @@
 - [x] package id: `0xe5fc062dfff0fdc0061fd873a56130ade616adca31b462203c81ab1a73e8ba32`
 
 ##   02 move coin
-- [] My Coin package id :
-- [] Faucet package id :
-- [] 转账 `My Coin` hash:
+- [x] My Coin package id : `0x99c916ee91a68bd4301e6fad729c6fefd4f8f76f554978f71ff594703a66db20`
+- [x] Faucet package id : `0xa3d80d7c1d1c3e50cc6e34ccbd1caa06c4350d8c5ef2bf5d8b20caf4ec148dd2`
+- [x] 转账 `My Coin` hash: `0x160bd4e2ebfbb97cd7900a8660ecd10d6b3bda53777827d73ef034c873c8747e`
 
 ##   03 move NFT
 - [] nft package id :
