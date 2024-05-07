@@ -1,40 +1,68 @@
-module my_game::a_sky_person_game_210 {
-    use std::string;
+module my_game::a_sky_person_game_accumulate_to_target {
+    use std::string::{Self, String};
+    use sui::tx_context::{sender};
+    use sui::coin::{Self, TreasuryCap, Coin};
+    use sui::balance::{Self, Balance};
     use sui::event;
-    use std::debug;
     use sui::clock::{Self, Clock};
 
-    const EInvaildNumber: u64 = 0xff;
+    const SymbolRange: u8 = 10;
 
-    public struct GameEvent has drop, copy {
-        input_number: u64,
-        game_number: u64,
-        output: string::String,
+    public struct AccumulateGame<phantom T> has key, store {
+        id: UID,
+        target_value: u64,
+        current_value: u64,
+        balance: Balance<T>,
     }
 
-    public fun start(number: u64, clock: &Clock){
-        assert!(number < 3, EInvaildNumber);
-        let game_number = random(clock);
+    public struct PlayResultEvent has copy, drop {
+        message: String,
+        current_value: u64,
+        is_win: bool,
+    }
 
-        let out_put = if (game_number == number && game_number == 0u64) {
-            string::utf8(b"WTF? Winning the jackpot! a sky person.")
-        } else if (game_number == number) {
-            string::utf8(b"Good! You win! a sky person.")
+    fun init(ctx: &mut TxContext) {
+    }
+
+    entry fun creat_game<T>(ctx: &mut TxContext) {
+        // 初始化游戏，当前值为零，余额为空。
+        let game = AccumulateGame<T> {
+            id: object::new(ctx),
+            target_value: 100,
+            current_value: 0,
+            balance: balance::zero(),
+        };
+        transfer::share_object(game)
+    }
+
+    entry fun play<T>(clock: &Clock, game: &mut AccumulateGame<T>, treasury_cap: &mut TreasuryCap<T>, ctx: &mut TxContext) {
+
+        let timestamp = clock::timestamp_ms(clock);
+        let add_value = ((timestamp % (SymbolRange as u64 + 1)) as u64);
+
+        game.current_value = game.current_value + add_value;
+
+        let (message, is_win) = if (game.current_value >= game.target_value) {
+            (b"Congratulations, you've reached the target!", true)
         } else {
-            string::utf8(b"Emm, you lose...! a sky person.")
-        };
-        let game_event = GameEvent {
-            input_number: number,
-            game_number: game_number,
-            output: out_put
+            (b"Keep going, you are on your way!", false)
         };
 
-        event::emit(game_event);
-    }
+        event::emit(PlayResultEvent {
+            message: string::utf8(message),
+            current_value: game.current_value,
+            is_win,
+        });
 
-    public fun random(clock: &Clock): u64{
-        let random_value = ((clock::timestamp_ms(clock) % 3) as u64);
-        debug::print(&random_value);
-        random_value
+        if (is_win) {
+            // 如果赢了，把游戏的余额全部转给玩家。
+            let all_coins = balance::withdraw_all(&mut game.balance);
+            let coin = coin::from_balance(all_coins, ctx);
+            transfer::public_transfer(coin, sender(ctx));
+        } else {
+            // 如果没有赢，铸造一个硬币并加到游戏的余额中。
+            let coin = coin::mint(treasury_cap, 1, ctx);
+            balance::join(&mut game.balance, coin::into_balance(coin));
+        }
     }
 }
