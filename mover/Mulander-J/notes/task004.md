@@ -50,4 +50,10 @@ Transaction Digest: D6eLFgi7u1cx9s2fSxhyiBJVzTntJRegU7oeXp6QWX9k
 
 **Faucet Coin结算版本**
 
-Testnet: `3qFMm2raPKZ5x1qmY6sYtKmq85p5We8KY5RxFpJQbC1n`
+- Testnet: `3qFMm2raPKZ5x1qmY6sYtKmq85p5We8KY5RxFpJQbC1n`
+
+- Mainnet
+
+```bash
+PackageID:0xb661c3cef582b7d7d04b06aaef0720d782d2b9a5ad2b85ecfa2b58a0b94f59a0
+```
