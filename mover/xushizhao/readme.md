@@ -32,3 +32,6 @@ https://suiscan.xyz/mainnet/coin/0x0852e253132415bb43f6f798ca65d7fa11c702bffe92b
 - [] nft object id：[0x9cae9d42306fea8301b6d5ce2102d0f4f64daed36860a8f334a3dce5d72b36cc](https://suiscan.xyz/mainnet/object/0x9cae9d42306fea8301b6d5ce2102d0f4f64daed36860a8f334a3dce5d72b36cc)
 - [] 转账 nft hash: [F3moVy2SMMuBx91TL542YztJZZbH7aYyctLyz4ZcJbW](https://suiscan.xyz/mainnet/tx/F3moVy2SMMuBx91TL542YztJZZbH7aYyctLyz4ZcJbW)
 
+## 04 Move_Game
+- [] game package id : 0xeab436f907ff2ae7c4e0c62d46ce4df503992e0d72beabc1d0b2d9b67334a175
+- [] call game hash: 4JEgJvexkSR5CRQtP3n1a39Pp4noynchScNykAMTmMs6
