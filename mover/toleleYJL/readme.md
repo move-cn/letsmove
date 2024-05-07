@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址:0x0x0d6192d3f6a593862f1647446b111dfd67fbd03dec2e6ecc926b85fb36bf4b75
+- Sui钱包地址: 0x0d6192d3f6a593862f1647446b111dfd67fbd03dec2e6ecc926b85fb36bf4b75
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: toleleYJL
 
