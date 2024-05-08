@@ -1,24 +1,29 @@
 /// Module: facuet
-module csdv_coin::facuetcoin {
-    use sui::coin;
+module csdv_coin::csdv_faucet {
 
-    public struct FACUETCOIN has drop {}
+    use std::option;
+    use sui::coin::{Self, Coin, TreasuryCap};
+    use sui::transfer;
+    use sui::tx_context::{Self, TxContext};
 
-    fun init(witness: FACUETCOIN, ctx: &mut TxContext) {
-        let (treasury_cap, coin_metadata) = coin::create_currency(
-            witness,
-            6,                    // decimals
-            b"FACUET",            // symbol
-            b"FACUET COIN",       // name
-            b"FACUET COIN TEST",  // description
-            option::none(),       // icon url
+    public struct CSDV_FAUCET has drop {}
+
+    fun init(witness: CSDV_FAUCET, ctx: &mut TxContext) {
+        let (treasury, metadata) = coin::create_currency(
+            witness, 
+            6,
+            b"CSDV FAUCET", 
+            b"CSDV FAUCET", 
+            b"CSDV FAUCET", 
+            option::none(), 
             ctx
         );
-        transfer::public_transfer(treasury_cap, tx_context::sender(ctx));
-        transfer::public_freeze_object(coin_metadata);
+        transfer::public_freeze_object(metadata);
+        transfer::public_share_object(treasury)
     }
 
-    public entry fun faucet(treasury: &mut coin::TreasuryCap<FACUETCOIN>, amount: u64, recipient: address, ctx: &mut TxContext) {
-        coin::mint_and_transfer(treasury, amount, recipient, ctx);
+    public fun mint(treasury_cap: &mut TreasuryCap<CSDV_FAUCET>, amount: u64, recipient: address, ctx: &mut TxContext) {
+        let coin = coin::mint(treasury_cap, amount, ctx);
+        transfer::public_transfer(coin, recipient)
     }
 }
