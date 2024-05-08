@@ -5,7 +5,7 @@
 ## 个人简介
 - 工作经验: 2年
 - 技术栈: 精通`windowsc内核` `linuxc-BEPF` `python` `java` `javascript` `网安全栈` 
-- 对Move特别感兴趣
+- 对Move特别感兴趣、
 - 联系方式: github: `cdxiaodong` 
 
 ## 任务
