@@ -7,21 +7,21 @@
 - 工作经验: 3年
 - 技术栈: `Python` `Golang` `Solidity` `Nodejs`
 - 多年web2开发经验，熟悉django web,对web3感兴趣,故来了解
-- 联系方式: email: `zeus@smallho.cn` 
+- 联系方式: email: `zeus@smallho.cn`
 
 ## 任务
 
-##   01 hello move  
-- [] package id: 
+##   01 hello move
+- [] package id: 0xbe840ecd105577a6dd906180b3ba310f2c16991a3974fa13c9cbf387e58d7c37
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
+- [] My Coin package id :
+- [] Faucet package id :
 - [] 转账 `My Coin` hash:
 
 ##   03 move NFT
 - [] nft package id :
-- [] nft object id : 
+- [] nft object id :
 - [] 转账 nft  hash:
 
 ##   04 Move Game

@@ -24,3 +24,18 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 cargo install --locked --git https://github.com/MystenLabs/sui.git --branch testnet sui
 
 等待编译完成
+
+which sui 查看sui是否安装成功
+
+sui client 配置sui客户端
+
+https://discord.com/channels/916379725201563759/1037811694564560966
+测试网领水
+
+区块链浏览器地址
+https://suiexplorer.com/ 主网
+https://suiscan.xyz/testnet/home 测试网
+
+sui client call --function mint --module hello_world --package 0xbe840ecd105577a6dd906180b3ba310f2c16991a3974fa13c9cbf387e58d7c37 --gas-budget 10000000
+call后找到Created Objects:下的ObjectID 去区块链浏览器访问
+https://suiscan.xyz/testnet/object/0x0006c91e210c7a6e2516e9f885adaf39cdc3d473a586dc1a87cc05d5b3b2771c
