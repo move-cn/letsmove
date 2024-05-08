@@ -1,6 +1,6 @@
 ## 基本信息
 
-- Sui 钱包地址: `0x303e3ba53f5addaf3d89f0fc71bd9ffaaea3d119bd376d05cd2e9c07c51e6271`
+- Sui 钱包地址: `0x2bc7a107afd5f79c22c46cc550823588762b1b2a85fe4981d83d0b922e3a8002`
 - github: `ArchieR7`
 
 ## 个人简介
