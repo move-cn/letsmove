@@ -6,13 +6,13 @@
 ## 个人简介
 - 工作经验: 6年
 - 技术栈: `JAVA` `C`
-- 从事软件开发及项目管理5年，想要通过move入门web3.0.
+- 从事嵌入式开发及项目管理，想要通过move入门web3.0.
 - 联系方式: tg: `@MakerZ1` 
 
 ## 任务
 
 ##   01 hello move  
-- [] package id: 
+- [x] package id: 0xfa376a7ebd56fac58731da1a5009c49ec60dec725fb3f5c9c2e23cd6c35e24b1
 
 ##   02 move coin
 - [] My Coin package id : 
