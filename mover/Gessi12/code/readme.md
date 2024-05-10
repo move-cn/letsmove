@@ -57,6 +57,7 @@ module my_coin::mycoin {
 }
 
 /// Module: faucet_coin
+/// Module: faucet_coin
 module faucet_coin::faucetcoin {
     use std::option;
     use sui::coin::{Self, Coin, TreasuryCap};
@@ -74,11 +75,11 @@ module faucet_coin::faucetcoin {
         // Get a treasury cap for the coin and give it to the transaction sender
         let (treasury_cap, metadata) = coin::create_currency<FAUCETCOIN>(witness, 2, b"Faucet Coin", b"FC", b"", option::none(), ctx);
         transfer::public_freeze_object(metadata);
-        transfer::public_transfer(treasury_cap, tx_context::sender(ctx))
+        transfer::public_share_object(treasury_cap)
     }
 
     /// Manager can mint new coins
-    public entry fun mint(
+    entry fun mint(
         treasury_cap: &mut TreasuryCap<FAUCETCOIN>, amount: u64, recipient: address, ctx: &mut TxContext
     ) {
         coin::mint_and_transfer(treasury_cap, amount, recipient, ctx)
@@ -89,6 +90,8 @@ module faucet_coin::faucetcoin {
         coin::burn(treasury_cap, coin);
     }
 }
+
+
 
 ## task3
 module my_nft::mynft {
