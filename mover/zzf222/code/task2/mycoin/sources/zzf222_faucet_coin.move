@@ -1,7 +1,6 @@
 module mycoin::zzf222_faucet_coin {
     use std::option;
-    use sui::coin::{Self,TreasuryCap};
-    use sui::event::emit;
+    use sui::coin::{Self,Coin,TreasuryCap};
     use sui::transfer;
     use sui::tx_context::{Self, TxContext};
 
@@ -13,9 +12,9 @@ module mycoin::zzf222_faucet_coin {
     }
 
     fun init(witness: ZZF222_FAUCET_COIN, ctx: &mut TxContext) {
-        let (treasury, metadata) = coin::create_currency(witness, 6, b"FAUCET_COIN", b"", b"", option::none(), ctx);
+        let (treasury_cap, metadata) = coin::create_currency(witness, 6, b"FAUCET_COIN", b"", b"", option::none(), ctx);
         transfer::public_freeze_object(metadata);
-        transfer::public_transfer(treasury, tx_context::sender(ctx))
+        transfer::public_share_object(treasury_cap);
     }
 
     public entry fun mint(
@@ -24,12 +23,12 @@ module mycoin::zzf222_faucet_coin {
         recipient: address,
         ctx: &mut TxContext,
     ) {
-        let coin = coin::mint(treasury_cap, amount, ctx);
-        transfer::public_transfer(coin, recipient);
-
-        emit(MintEvent{
-            amount,
-            recipient
-        })
+        coin::mint_and_transfer(treasury_cap, amount, recipient, ctx);
+    }
+    public fun burn(
+        treasury_cap: &mut TreasuryCap<ZZF222_FAUCET_COIN>, 
+        coin:coin::Coin<ZZF222_FAUCET_COIN>
+    ) {
+        coin::burn(treasury_cap, coin);
     }
 }
