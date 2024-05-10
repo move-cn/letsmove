@@ -21,13 +21,13 @@ module lottery::pool_manager{
 
     public(package) fun create_pool<ReceiveCoin> (
         name:String,
-        ticket_price: u8,
+        ticket_price: u64,
         interval:u64,
         max_cap:u64,
         start_time: u64,
-        pool_fee:u8,
-        settle_fee:u8,
-        fee_rate:u8,
+        pool_fee:u64,
+        settle_fee:u64,
+        fee_rate:u64,
         ctx:&mut TxContext
         ){
             pool::create_pool<ReceiveCoin>(name,ticket_price,interval,max_cap,start_time,option::some(tx_context::sender(ctx)),pool_fee,settle_fee,fee_rate,ctx);
@@ -52,6 +52,11 @@ module lottery::pool_manager{
             let random_index = safe_selection(ticket_length, &digest);
             let random_ticket = table_vec::borrow(tickets, random_index);
             let winner_pool_ticket = pool::copy_pool_ticket(random_ticket);
+            {
+                std::debug::print(tickets);
+                std::debug::print(&ticket_length);
+                std::debug::print(&winner_pool_ticket);
+            };
             distribute_and_reset_pool(pool,winner_pool_ticket,now_time,ctx);
         };
     }

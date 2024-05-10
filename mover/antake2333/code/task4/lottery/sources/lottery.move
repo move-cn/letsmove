@@ -21,13 +21,13 @@ module lottery::lottery {
     public entry fun create_pool<ReceiveCoin> (
         _poolAdminCap:&PoolAdminCap,
         name:String,
-        ticket_price: u8,
+        ticket_price: u64,
         interval:u64,
         max_cap:u64,
         start_time: u64,
-        pool_fee:u8,
-        settle_fee:u8,
-        fee_rate:u8,
+        pool_fee:u64,
+        settle_fee:u64,
+        fee_rate:u64,
         ctx:&mut TxContext
         ){
             pool_manager::create_pool<ReceiveCoin>(name,ticket_price,interval,max_cap,start_time,pool_fee,settle_fee,fee_rate,ctx);
