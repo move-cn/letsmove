@@ -28,8 +28,7 @@ module sony9997_faucet::sony9997_faucet{
         cap: &mut TreasuryCap<T>, 
         value: u64,
         receiver: address,
-        ctx: &mut TxContext)
-    {
+        ctx: &mut TxContext){
         let mint_coin = coin::mint<T>(
             cap,
             value,
@@ -40,8 +39,7 @@ module sony9997_faucet::sony9997_faucet{
 
     public entry fun burn<T>(
         cap: &mut TreasuryCap<T>, 
-        input_coin: Coin<T>,
-    ){
+        input_coin: Coin<T>,){
         coin::burn<T>(cap, input_coin);
     }
 }
