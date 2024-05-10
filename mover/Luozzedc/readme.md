@@ -29,7 +29,8 @@
 
 ##   05 Move Swap
 - [x] swap package id : `0x46ac55403f6a468f10bcb5e2a5695a92587b7426822f8ae01319be9372b03ddf`
-- [x] call swap hash: `Ap5MxuVRccFxGijYyAEckjXeJ18rrQzMjjTrcogeMyF`
+- [x] call swap CoinA-> CoinB  hash : `Ap5MxuVRccFxGijYyAEckjXeJ18rrQzMjjTrcogeMyF`
+- [x] call swap CoinB-> CoinA  hash : `EVgmitNvdd3gH6wYetv9uqQ16X4onFoCJLdpfcPBSqGm`
 
 ##   06 SDK PTB
 - [x] save hash : `6SuDgitkQqoagSKrvJwhV2c1FZy2XKVALuP6gSgJxBhz`
