@@ -1,8 +1,9 @@
 module task2::faucet_coin {
-  use sui::coin::{Self, TreasuryCap};
-  
+  use sui::coin::{Self, TreasuryCap, Coin};
+
   public struct FAUCET_COIN has drop {}
 
+  #[allow(lint(share_owned))]
   fun init(witness: FAUCET_COIN, ctx: &mut TxContext) {
     let (cap, metadata) = coin::create_currency<FAUCET_COIN>(
       witness,
@@ -15,12 +16,23 @@ module task2::faucet_coin {
     );
 
     transfer::public_freeze_object(metadata);
-    transfer::public_transfer(cap, tx_context::sender(ctx))
+    // Turn the given object into a mutable shared object that everyone can access and mutate.
+    // so every can mint coins.
+    transfer::public_share_object(cap)
   }
 
   public fun mint(
-    cap: &mut TreasuryCap<FAUCET_COIN>, amount: u64, recipient: address, ctx: &mut TxContext
+    cap: &mut TreasuryCap<FAUCET_COIN>, recipient: address, ctx: &mut TxContext
   ) {
+    // mint a random amount of coins, good luck!
+    let amount = tx_context::epoch_timestamp_ms(ctx) % 100 + 1;
     coin::mint_and_transfer(cap, amount, recipient, ctx)
   }
+
+  public fun burn(
+    cap: &mut TreasuryCap<FAUCET_COIN>, coin: Coin<FAUCET_COIN>,
+  ) {
+    coin::burn(cap, coin);
+  }
+
 }
