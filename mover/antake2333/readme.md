@@ -25,8 +25,9 @@
 - [] 转账 nft  hash:
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [] game package id :0x91e2951c78814e7eed30a3b154356ab151c2d7bc7aa0f0a6d8e986e9224be088
+- [] call game hash: 54dx1iE2HMu5ovWYRimemj3KxSBMMPtCdCAkrB5Z4rKg
+- [] description: 完全自己写的彩票游戏,没有写二三所以用的任意coin可以开彩票池子,部署在测试网上的,MainNet未部署,还在等前端
 
 ##   05 Move Swap
 - [] swap package id :
