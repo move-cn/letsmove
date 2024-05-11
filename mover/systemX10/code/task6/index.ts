@@ -5,6 +5,7 @@ import { pool } from "navi-sdk/dist/address";
 import {
   Sui,
   NAVX,
+  USDC
 } from "navi-sdk/dist/address";
 import { SignAndSubmitTXB } from "navi-sdk/dist/libs/PTB";
 
@@ -21,7 +22,7 @@ const account = client.accounts[0];
   txb.setGasBudget(500000000);
 
   const SUI_Pool: PoolConfig = pool[Sui.symbol as keyof Pool];
-  const NAVX_Pool: PoolConfig = pool[NAVX.symbol as keyof Pool];
+  const USDC_Pool: PoolConfig = pool[USDC.symbol as keyof Pool];
 
   const to_deposit = txb.splitCoins(txb.gas, [txb.pure(1000_000_000)]);
   
@@ -40,25 +41,25 @@ const account = client.accounts[0];
     typeArguments: [SUI_Pool.type],
   });
 
-  const borrowAmount = 5_111_30000;
+  const borrowAmount = 5_112_20000;
   let borrowed = await txb.moveCall({
     target: `${process.env.Package}::incentive_v2::borrow`,
     arguments: [
       txb.object("0x06"),
       txb.object(process.env.Oracle_Price!), 
       txb.object(process.env.Storage!),
-      txb.object(NAVX_Pool.poolId),
-      txb.pure(NAVX_Pool.assetId),
+      txb.object(USDC_Pool.poolId),
+      txb.pure(USDC_Pool.assetId),
       txb.pure(borrowAmount), 
       txb.object(process.env.IncentiveV2!),
     ],
-    typeArguments: [NAVX_Pool.type],
+    typeArguments: [USDC_Pool.type],
   });
 
   const extra_coin = txb.moveCall({
     target: "0x2::coin::from_balance",
     arguments: [borrowed],
-    typeArguments: [NAVX_Pool.type],
+    typeArguments: [USDC_Pool.type],
   });
 
   await txb.moveCall({
@@ -66,14 +67,14 @@ const account = client.accounts[0];
     arguments: [
       txb.object("0x06"),
       txb.object(process.env.Storage!),
-      txb.object(NAVX_Pool.poolId),
-      txb.pure(NAVX_Pool.assetId),
+      txb.object(USDC_Pool.poolId),
+      txb.pure(USDC_Pool.assetId),
       extra_coin,
       txb.pure(borrowAmount),
       txb.object(process.env.IncentiveV1!),
       txb.object(process.env.IncentiveV2!),
     ],
-    typeArguments: [NAVX_Pool.type],
+    typeArguments: [USDC_Pool.type],
   });
 
   const result = await SignAndSubmitTXB(txb, account.client, account.keypair);
