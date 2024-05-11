@@ -7,8 +7,5 @@
 - 完成 如何存储Coin在合约的学习，游戏必须能存取[task2] 发行的`Faucet Coin`,用`task2`的 `Faucet Coin`作为游戏输赢的资产 
 - 完成 第一个游戏合约部署主网
 - 的game 必须包含自己的 `github id`的元素
-- packageId: 0x8f38bb37c49a726d8032f7a66765d2703c19f1354a1f163fba1ce5775103e596
-- 存钱的hash: 
-- 资金池取钱的hash: 5LECxQwVCJKBwK9G4Nchf9xsKTgy551bRYgFShLh6y6J
 
 ## 任务指南
