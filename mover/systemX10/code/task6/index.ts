@@ -41,7 +41,7 @@ const account = client.accounts[0];
     typeArguments: [SUI_Pool.type],
   });
 
-  const borrowAmount = 5_112_20000;
+  const borrowAmount = 5_112_2000;
   let borrowed = await txb.moveCall({
     target: `${process.env.Package}::incentive_v2::borrow`,
     arguments: [
