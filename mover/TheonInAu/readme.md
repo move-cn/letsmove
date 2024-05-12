@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x63d85f1dc46362d88ad248e52fadb0d6afb92787df9cfc7081b260bf878887a7`
+- Sui钱包地址: `0x8a4c05dddefcb3f804cf277493318a769c24c64959d300011e37cebd83ad735c`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `TheonInAu`
 
