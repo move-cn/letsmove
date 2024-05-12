@@ -21,6 +21,7 @@ module task2::mulander_faucet {
         );
         transfer::public_freeze_object(metadata);
         transfer::public_transfer(treasury, tx_context::sender(ctx))
+        // transfer::public_share_object(treasury_cap);
     }
 
     public entry fun mint(

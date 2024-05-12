@@ -2,7 +2,7 @@
 
 [move]
 version = 2
-manifest_digest = "C55AFA702801C5258C6F8049F0DBF490194829EFC1DD7A55736A96623735FE57"
+manifest_digest = "1D6FA65F4CDBA0CD90E2368FCDCF59C0EBD5D23211A05158D00EF25EC9FCAB70"
 deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
 dependencies = [
   { name = "Sui" },
@@ -10,25 +10,37 @@ dependencies = [
 
 [[move.package]]
 name = "MoveStdlib"
-source = { git = "https://github.com/MystenLabs/sui.git", rev = "framework/testnet", subdir = "crates/sui-framework/packages/move-stdlib" }
+source = { local = "/Users/hedong/.move/https___github_com_MystenLabs_sui_git_framework__testnet/crates/sui-framework/packages/move-stdlib" }
 
 [[move.package]]
 name = "Sui"
-source = { git = "https://github.com/MystenLabs/sui.git", rev = "framework/testnet", subdir = "crates/sui-framework/packages/sui-framework" }
+source = { local = "/Users/hedong/.move/https___github_com_MystenLabs_sui_git_framework__testnet/crates/sui-framework/packages/sui-framework" }
 
 dependencies = [
   { name = "MoveStdlib" },
 ]
 
 [move.toolchain-version]
-compiler-version = "1.23.0"
+compiler-version = "1.24.1"
 edition = "2024.beta"
 flavor = "sui"
 
 [env]
 
 [env.devnet]
-chain-id = "69a65b6d"
-original-published-id = "0xc32e8bc3937db12e726ea617bce283ada22d47d18255ca32dffc1f6236d7cab6"
-latest-published-id = "0xc32e8bc3937db12e726ea617bce283ada22d47d18255ca32dffc1f6236d7cab6"
+chain-id = "d29677eb"
+original-published-id = "0xda3418e0e4f20ac871ad4cdb908076cf3252a0a689af7bd732516429998928a4"
+latest-published-id = "0xda3418e0e4f20ac871ad4cdb908076cf3252a0a689af7bd732516429998928a4"
+published-version = "1"
+
+[env.mainnet]
+chain-id = "35834a8a"
+original-published-id = "0x00192acee9f7ea45cc08f5eaf84dad1f3d79287f7b5cfb10b41ec241de8c8505"
+latest-published-id = "0x00192acee9f7ea45cc08f5eaf84dad1f3d79287f7b5cfb10b41ec241de8c8505"
+published-version = "1"
+
+[env.testnet]
+chain-id = "4c78adac"
+original-published-id = "0xd605b1df6ab414fe65869295a959904b99532ef1f6c1554c69c4445e9c0268c6"
+latest-published-id = "0xd605b1df6ab414fe65869295a959904b99532ef1f6c1554c69c4445e9c0268c6"
 published-version = "1"

@@ -65,7 +65,7 @@ module task3::task3 {
         transfer::public_transfer(nft, recipient);
     }
 
-    public entry fun transfer_nft(
+    public entry fun transfer(
         nft: FirmaNFT,
         recipient: address,
         _: &mut TxContext
