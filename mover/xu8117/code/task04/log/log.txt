@@ -1,0 +1,9 @@
+testnet>
+0x9047adddb25d459e14bb44a3999caec165c9c5e1b17c8dc96c07be02280650bb
+
+
+mainnet>
+XU8117FAUCETCOIN TreasuryCap ObjectID: 0x3b0d0ad90c085b23a5093868e59107739dea08b26dc1c612432ca4cd38852261
+
+
+sui client publish --gas-budget 800000000 task04.move --skip-fetch-latest-git-deps
