@@ -11,13 +11,11 @@ module sony9997_coin::sony9997_coin {
             transfer::public_transfer(treasury, tx_context::sender(ctx))
         }
 
-        public fun mint(
-        treasury_cap: &mut TreasuryCap<SONY9997_COIN>, 
-        amount: u64, 
-        recipient: address, 
-        ctx: &mut TxContext,
-    ) {
-        let coin = coin::mint(treasury_cap, amount, ctx);
-        transfer::public_transfer(coin, recipient)
-    }
+        public fun mint(treasury_cap: &mut TreasuryCap<SONY9997_COIN>,amount: u64,recipient: address,ctx: &mut TxContext,) {
+            coin::mint_and_transfer(treasury_cap, amount, recipient, ctx)
+        }
+
+        public entry fun burn(treasury_cap: &mut TreasuryCap<SONY9997_COIN>, coin: Coin<SONY9997_COIN>) {
+            coin::burn(treasury_cap, coin);
+        }
 }

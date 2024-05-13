@@ -25,12 +25,12 @@
 - [x] 转账 KyrinCode NFT  hash: 7mzLR4jBoVTYKi7b3Gnh7mB1oHVVNcqtLAnhzG5QqHyt
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [x] game package id : 0x235716a859b02f2bb7064f29944f5aca3cbd65ed836ce93a5e4277899121c038
+- [x] call game hash: 6eidsCBJs58nZGpuG2GLdxuBgy2qg9TYrr3dh6eSRZVe
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id : 0x41136239846916254ae2849781d5f74db9bd853aebb092045ac79d10f90fa014
+- [x] call swap hash: 98jZLtLBcf1oRGMUFNqgrPpUMUjGrwg7gFKCfcPPc5vF
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : 3CrKYbdAZkj95NaPJ4E4tVoZbR1WavJJ1LX26Lg8kZjp
