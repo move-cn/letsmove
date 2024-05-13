@@ -39,4 +39,4 @@ https://suiscan.xyz/testnet/tx/GfyZhPrw62qEsBYG9djSGiGuujpCuCudZpknH99Le6Xb
 - [x] call swap hash(b to a): [FxnE3wH7yaYxdB9BeUAt8kwfAtPNhXRwNUcPkSiBSoUK](https://suiscan.xyz/mainnet/tx/FxnE3wH7yaYxdB9BeUAt8kwfAtPNhXRwNUcPkSiBSoUK)
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : [EZrUBehd493gVopozs4Qf5vHYricQyLkqWPcYhbC6QWt](https://suiscan.xyz/mainnet/tx/EZrUBehd493gVopozs4Qf5vHYricQyLkqWPcYhbC6QWt)
