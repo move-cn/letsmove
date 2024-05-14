@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x8a4c05dddefcb3f804cf277493318a769c24c64959d300011e37cebd83ad735c`
+- Sui钱包地址: `0x63d85f1dc46362d88ad248e52fadb0d6afb92787df9cfc7081b260bf878887a7`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `TheonInAu`
 
@@ -19,11 +19,11 @@
 - [] package id 在 scan上的查看截图:![Scan截图](./images/scan.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [] My Coin package id : 0x306910e9bd90b4df696a5b34018b7a8df83e08f932bb69f7a032f232394af1ba
+- [] Faucet package id : 0x306910e9bd90b4df696a5b34018b7a8df83e08f932bb69f7a032f232394af1ba
+- [] 转账 `My Coin` hash: G4XhkXiqsfzFK7tLhSFmhNFppPX7vmCHXqkrkFb6z8oZ
+- [] `Faucet Coin` address1 mint hash: FwQo3NvtZtqvaBzosLEJtiHUwWgiF5m2KWBzFYYP443U
+- [] `Faucet Coin` address2 mint hash: 97BCHkmqBP7s1irpqKpbsGrGWmWkFyiLeUxLhHQWUHnu
 
 ##   03 move NFT
 - [] nft package id :
