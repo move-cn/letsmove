@@ -30,8 +30,8 @@ https://suiscan.xyz/testnet/tx/GfyZhPrw62qEsBYG9djSGiGuujpCuCudZpknH99Le6Xb
 - [x] mint 浏览器截图：![mint 浏览器截图t](notes/nft_mint.jpg)
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [x] game package id : [0x16da5f3b60b187eefe9bd10e739ed4654a1d5c7e9230cf2a7a61b49f01754477](https://suiscan.xyz/mainnet/object/0x16da5f3b60b187eefe9bd10e739ed4654a1d5c7e9230cf2a7a61b49f01754477/txs)
+- [x] call game hash: [5gCLYms5GwSm78AMa91ZVp1dDhVr5YkZN7kxrwzM1Y8m](https://suiscan.xyz/mainnet/tx/5gCLYms5GwSm78AMa91ZVp1dDhVr5YkZN7kxrwzM1Y8m)
 
 ##   05 Move Swap
 - [x] swap package id : [0x7b9f30cdf2c48755fc339af2c1e0701a47af1b8e42a3af991c0124edf8c70ffa](https://suiscan.xyz/mainnet/object/0x7b9f30cdf2c48755fc339af2c1e0701a47af1b8e42a3af991c0124edf8c70ffa/txs)
