@@ -5,7 +5,7 @@ module hello::hello {
     use sui::transfer;
     use sui::tx_context::{Self, TxContext};
 
-    struct HelloObject has key, store {
+    public struct HelloObject has key, store {
         id: UID,
         /// 被 object 包含的字符串
         text: string::String

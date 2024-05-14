@@ -6,12 +6,12 @@ module mycoin::faucetcoin {
     use sui::transfer;
     use sui::tx_context::{Self,TxContext};
 
-    struct TreasuryCapHolder has key{
+    public struct TreasuryCapHolder has key{
        id: UID,
        treasury: TreasuryCap<FAUCETCOIN>,
     }
 
-    struct FAUCETCOIN has drop {}
+   public struct FAUCETCOIN has drop {}
 
 
     fun init(witness: FAUCETCOIN, ctx: &mut TxContext) {
