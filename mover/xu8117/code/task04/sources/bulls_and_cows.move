@@ -1,4 +1,5 @@
 module task04::bulls_and_cows {
+    use std::debug;
     use std::string::{Self, String};
 
     use sui::clock::Clock;
@@ -22,6 +23,9 @@ module task04::bulls_and_cows {
     }
 
     public fun play(treasury_cap: &mut TreasuryCap<XU8117FAUCETCOIN>, number: u32, clock: &Clock, ctx: &mut TxContext) {
+        debug::print(&number);
+        debug::print(treasury_cap);
+        debug::print(clock);
         assert!(number < 1 || number > 10, InvalidNumber);
 
         let target_digit = get_random_number(clock);

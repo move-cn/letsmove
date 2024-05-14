@@ -1,9 +1,16 @@
 testnet>
-0x9047adddb25d459e14bb44a3999caec165c9c5e1b17c8dc96c07be02280650bb
+XU8117FAUCETCOIN TreasuryCap ObjectID: 0x9047adddb25d459e14bb44a3999caec165c9c5e1b17c8dc96c07be02280650bb
+coin package_id: 0x90ddd5af59a20ea94411a5d9989f51fe18e4483cdc8457c17ebc6c219c9f1e22
 
+bulls_and_cows package_id: 0x6eb4ec0fdbb17f6ab644c56d745eb4100f1bd61a7038fb98fa769702f0350cec
 
 mainnet>
-XU8117FAUCETCOIN TreasuryCap ObjectID: 0x3b0d0ad90c085b23a5093868e59107739dea08b26dc1c612432ca4cd38852261
-
+XU8117FAUCETCOIN TreasuryCap ObjectID: 0xca9c7bb11711716be7c7fd5ab6bfc1f07da94f5585a636b07c018cace18ec56f
+coin package_id: 0xca9c7bb11711716be7c7fd5ab6bfc1f07da94f5585a636b07c018cace18ec56f
 
 sui client publish --gas-budget 800000000 task04.move --skip-fetch-latest-git-deps
+
+sui client call --gas-budget 20000000 --package  0x2 --module coin  --function mint_and_transfer --type-args '0x90ddd5af59a20ea94411a5d9989f51fe18e4483cdc8457c17ebc6c219c9f1e22::xu8117faucetcoin::XU8117FAUCETCOIN' --args 0x9047adddb25d459e14bb44a3999caec165c9c5e1b17c8dc96c07be02280650bb 10000000000 0x03f0463af4185ecd1f221af4e30fbd68ce81bd438a3583e85db7320301b712b6
+
+sui client call --gas-budget 20000000 --package 0x6eb4ec0fdbb17f6ab644c56d745eb4100f1bd61a7038fb98fa769702f0350cec --module bulls_and_cows --function play --args 0x9047adddb25d459e14bb44a3999caec165c9c5e1b17c8dc96c07be02280650bb 5 0x6
+
