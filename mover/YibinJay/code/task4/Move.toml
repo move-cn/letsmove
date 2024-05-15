@@ -1,12 +1,12 @@
 [package]
-name = "task2"
+name = "task4"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
-published-at = "0xe55f387b15347ce3200e408c1213ee2a6f5951875d8239124c7555e7bc4d029c"
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+task2 = { local = "../task2" }
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
@@ -20,6 +20,7 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
+task4 = "0x0"
 task2 = "0xe55f387b15347ce3200e408c1213ee2a6f5951875d8239124c7555e7bc4d029c"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
