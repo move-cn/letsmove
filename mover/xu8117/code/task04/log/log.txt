@@ -23,14 +23,14 @@ coin id: 0x00e834581abb910b18d591c7b0f51b1803ea739a97dc2faee49a9052b7e6be56
 
 sui client publish --gas-budget 80000000 --skip-fetch-latest-git-deps --skip-dependency-verification
 
-bulls_and_cows package_id:
-bank :
+bulls_and_cows package_id: 0x9015bb37f2bf36d9c31a76440bc5de26c7ee445c5ccbca2e759c4f243ad938fa
+bank: 0xa6b3c55acc65b65c64bd4d53a0e287ec7ceb818c3bfc0006bd198e37c5fc1b4f
 
-sui client call --gas-budget 80000000 --package 0xbfdb6e0bd656aa9ee8bf824c415471bdf841cfa03f93c246477f39dd291dceaa --module bulls_and_cows --function deposit --args 0x526f51ab201b0c0567e0a027de2e8c555b9e696448317984fc903ea19ccde8c9 0x2147a17646c78747c3420e63111f83244309e8864791287858811f676546143d
-deposit:
+sui client call --gas-budget 60000000 --package 0x9015bb37f2bf36d9c31a76440bc5de26c7ee445c5ccbca2e759c4f243ad938fa --module bulls_and_cows --function deposit --args 0xa6b3c55acc65b65c64bd4d53a0e287ec7ceb818c3bfc0006bd198e37c5fc1b4f 0x00e834581abb910b18d591c7b0f51b1803ea739a97dc2faee49a9052b7e6be56
+deposit: ERZHujgjXUyrS89oFT4Ppc9qynadbDrQ27d6R3KpjMCQ
 
-sui client call --gas-budget 80000000 --package 0xbfdb6e0bd656aa9ee8bf824c415471bdf841cfa03f93c246477f39dd291dceaa --module bulls_and_cows --function play --args 0x526f51ab201b0c0567e0a027de2e8c555b9e696448317984fc903ea19ccde8c9 5 0x6
-withdraw:
+sui client call --gas-budget 60000000 --package 0x9015bb37f2bf36d9c31a76440bc5de26c7ee445c5ccbca2e759c4f243ad938fa --module bulls_and_cows --function play --args 0xa6b3c55acc65b65c64bd4d53a0e287ec7ceb818c3bfc0006bd198e37c5fc1b4f 0 0x6
+withdraw: c4c5KK2VnwjMHHK2SwondKNDPay394rC64rpzdv8vpY
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,7 +1,6 @@
 [package]
 name = "task04"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
-published-at = "0x1e64f14320422206d57a954b0886f233290a3319208ca2fe44aacecc3ece641f"
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
@@ -22,7 +21,6 @@ mycoin = { local = "../task02/mycoin" }
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-#task04 = "0x1e64f14320422206d57a954b0886f233290a3319208ca2fe44aacecc3ece641f"
 task04 = "0x0"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
