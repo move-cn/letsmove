@@ -25,8 +25,8 @@
 - [x] 转账 nft hash: `YAak4KPdP7bCtSUhhZxPAr6AG7djUPrGNwxuDkxmWqT` (Testnet)
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [x] game package id: `0xc90108000890fe94cf334ffa7808c624c845a3408cd449c9910d8f32a7858481` (Testnet)
+- [x] call game hash: `9wDmFHnQYe9FmtMhvWBx4mNQgSEbwb1tSTUidPxay1oa` (Testnet)
 
 ##   05 Move Swap
 - [] swap package id :
