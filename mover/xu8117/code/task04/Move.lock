@@ -2,7 +2,7 @@
 
 [move]
 version = 2
-manifest_digest = "4F2778AF902E8A92DD33A0BD05D49DC5889F4412ABEFAB328F0FCC9F4A1CA16E"
+manifest_digest = "887056AD738181100C03D536B65A3C093F3E6BA52BA63AED29415FF005634CF4"
 deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
 dependencies = [
   { name = "Sui" },
@@ -23,13 +23,21 @@ dependencies = [
 
 [[move.package]]
 name = "mycoin"
-source = { git = "https://github.com/xu8117/letsmove.git", rev = "main", subdir = "mover/xu8117/code/task02/mycoin" }
+source = { local = "..\\task02\\mycoin" }
 
 dependencies = [
   { name = "Sui" },
 ]
 
 [move.toolchain-version]
-compiler-version = "1.24.0"
+compiler-version = "1.24.1"
 edition = "2024.beta"
 flavor = "sui"
+
+[env]
+
+[env.testnet]
+chain-id = "4c78adac"
+original-published-id = "0xfae6a09d23a67cad986d59bb1205b581bb8f19439ae26afe85407bbfc5c61aec"
+latest-published-id = "0x1e64f14320422206d57a954b0886f233290a3319208ca2fe44aacecc3ece641f"
+published-version = "2"
