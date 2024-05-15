@@ -1,13 +1,13 @@
 [package]
-name = "task2_move_coin"
+name = "task4_move_game"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
-license = "MIT"           # e.g., "MIT", "GPL", "Apache 2.0"
-authors = ["bytesloop"]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
-published-at = "0x603c23f1529f80fe07aa0f0e63c42780de82f2d18089f6369519b4886efa22c6"
+# license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
+# authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
 [dependencies]
 # Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
 Sui = { local = "F:/GitCode/Move/sui/crates/sui-framework/packages/sui-framework" } 
+task2_move_coin = { local = "../task2_move_coin" }
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
@@ -21,6 +21,7 @@ Sui = { local = "F:/GitCode/Move/sui/crates/sui-framework/packages/sui-framework
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
+task4_move_game = "0xc90108000890fe94cf334ffa7808c624c845a3408cd449c9910d8f32a7858481"
 task2_move_coin = "0x603c23f1529f80fe07aa0f0e63c42780de82f2d18089f6369519b4886efa22c6"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
