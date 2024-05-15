@@ -9,17 +9,17 @@
 - 工作经验: 0 年
 - 技术栈: `JavaScript` `Java` `solidity` `go`
   > 重要提示 请认真写自己的简介
-- 多年 web2 开发经验，对 Move 特别感兴趣，想通过 Move 入门区块链
+- 区块链本科在读,从 solidity 认识合约,对 Move 特别感兴趣
 - 联系方式: tg: `@zzzcoconal`
 
 ## 任务
 
 ## 01 hello move
 
-- [] Sui cli version:
-- [] Sui 钱包截图: ![Sui钱包截图](./images/你的图片地址)
-- [] package id:
-- [] package id 在 scan 上的查看截图:![Scan截图](./images/你的图片地址)
+- [] Sui cli version: 0.0.1
+- [] Sui 钱包截图: ![Sui钱包截图](./images/task1_package.png)
+- [] package id: 0x0ea92304a9e9af1bced7223a00800eb2935914df47a5c8e3f12509f8b32ae152
+- [] package id 在 scan 上的查看截图:![Scan截图](./images/wallet.png)
 
 ## 02 move coin
 
