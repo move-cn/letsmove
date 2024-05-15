@@ -1,68 +1,55 @@
-module my_game::a_sky_person_game_accumulate_to_target {
-    use std::string::{Self, String};
-    use sui::tx_context::{sender};
-    use sui::coin::{Self, TreasuryCap, Coin};
+module my_game::a_sky_person_game_decision {
     use sui::balance::{Self, Balance};
-    use sui::event;
-    use sui::clock::{Self, Clock};
+    use sui::clock;
+    use sui::coin;
+    use sui::coin::TreasuryCap;
+    use sui::object;
+    use sui::transfer;
+    use sui::tx_context::sender;
 
-    const SymbolRange: u8 = 10;
-
-    public struct AccumulateGame<phantom T> has key, store {
+    public struct GameWallet<phantom T> has key {
         id: UID,
-        target_value: u64,
-        current_value: u64,
-        balance: Balance<T>,
+        balance: Balance<T>
     }
 
-    public struct PlayResultEvent has copy, drop {
-        message: String,
-        current_value: u64,
-        is_win: bool,
-    }
-
-    fun init(ctx: &mut TxContext) {
-    }
-
-    entry fun creat_game<T>(ctx: &mut TxContext) {
-        // 初始化游戏，当前值为零，余额为空。
-        let game = AccumulateGame<T> {
+    /// 初始化游戏钱包.
+    public fun init_game_wallet<T>(ctx: &mut TxContext) {
+        let game_wallet = GameWallet<T> {
             id: object::new(ctx),
-            target_value: 100,
-            current_value: 0,
-            balance: balance::zero(),
+            balance: balance::zero()
         };
-        transfer::share_object(game)
+        transfer::share_object(game_wallet);
     }
 
-    entry fun play<T>(clock: &Clock, game: &mut AccumulateGame<T>, treasury_cap: &mut TreasuryCap<T>, ctx: &mut TxContext) {
+    /// 向游戏钱包里面存入默认100万task2中发行的faucet coin.
+    public fun mint_and_transfer_coin_to_game_wallet<T>(
+        trasury_cap: &mut TreasuryCap<T>,
+        game_wallet: &mut GameWallet<T>,
+        ctx: &mut TxContext
+    ) {
+        let game_coin = coin::mint(trasury_cap, 1000000, ctx);
+        balance::join(&mut game_wallet.balance, coin::into_balance(game_coin));
+    }
 
-        let timestamp = clock::timestamp_ms(clock);
-        let add_value = ((timestamp % (SymbolRange as u64 + 1)) as u64);
-
-        game.current_value = game.current_value + add_value;
-
-        let (message, is_win) = if (game.current_value >= game.target_value) {
-            (b"Congratulations, you've reached the target!", true)
-        } else {
-            (b"Keep going, you are on your way!", false)
-        };
-
-        event::emit(PlayResultEvent {
-            message: string::utf8(message),
-            current_value: game.current_value,
-            is_win,
-        });
-
-        if (is_win) {
-            // 如果赢了，把游戏的余额全部转给玩家。
-            let all_coins = balance::withdraw_all(&mut game.balance);
-            let coin = coin::from_balance(all_coins, ctx);
-            transfer::public_transfer(coin, sender(ctx));
-        } else {
-            // 如果没有赢，铸造一个硬币并加到游戏的余额中。
-            let coin = coin::mint(treasury_cap, 1, ctx);
-            balance::join(&mut game.balance, coin::into_balance(coin));
+    /// 如果玩家选择的数字(0或1)与随机数相同, 从游戏钱包中取出100万代币并转给玩家.
+    public fun choose<T>(
+        gamer_num: u64,
+        clock: &clock::Clock,
+        game_wallet: &mut GameWallet<T>,
+        ctx: &mut TxContext
+    ) {
+        let luky_num: u64 = clock::timestamp_ms(clock) % 2;
+        if (gamer_num == luky_num) {
+            transfer_bonus_to_gamer<T>(game_wallet, ctx);
         }
+    }
+
+    /// 从游戏钱包中取出100万代币并转给玩家.
+    fun transfer_bonus_to_gamer<T>(
+        game_wallet: &mut GameWallet<T>,
+        ctx: &mut TxContext
+    ) {
+        let game_coin = coin::take(&mut game_wallet.balance, 1000000, ctx);
+        transfer::public_transfer(game_coin, sender(ctx));
     }
 }
