@@ -23,7 +23,7 @@ dotenv.config();
 
 
 
-
+const pk0='suikey..'
 const dex = new Dex("https://fullnode.mainnet.sui.io:443")
 const decodedPrivateKey=decodeSuiPrivateKey(pk0);
 const pk=decodedPrivateKey.secretKey;
