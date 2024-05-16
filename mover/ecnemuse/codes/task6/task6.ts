@@ -23,7 +23,7 @@ dotenv.config();
 
 
 
-/* const pk0="suiprivkey1qpwpc2ffx8m9tyk5mhzrtk8a96xmyg74en5f0e5j5jystjl5qfsgxpz5yne";
+
 const dex = new Dex("https://fullnode.mainnet.sui.io:443")
 const decodedPrivateKey=decodeSuiPrivateKey(pk0);
 const pk=decodedPrivateKey.secretKey;
@@ -42,7 +42,7 @@ const getsigner = (pk: string) => {
 
 const signer=getsigner(pk); */
 
-const mnemonic = "aunt coin arrive field inmate someone access kitten fox safe cash bachelor";
+const mnemonic = "";
 const client = new NAVISDKClient({mnemonic: mnemonic, networkType: "mainnet", numberOfAccounts: 1});
 const txb = new TransactionBlock();
 const todesCoin: CoinInfo = Sui;
