@@ -11,8 +11,11 @@
 ## 任务
 
 ##   01 hello move  
-- [x] package id: [0xfc8b1c8bd876077197844c85587dc586292f8cffcb7af19b5c3a4e1193a667f2](https://suivision.xyz/package/0xfc8b1c8bd876077197844c85587dc586292f8cffcb7af19b5c3a4e1193a667f2)
-- [x] Created Obj: 0x691bac4c31c76adf46790c85f194846c971f4edd07a320f3fb5ce0625b1884a2
+-- [] Sui cli version:sui 1.22.0-0362997-dirty
+
+- [] Sui钱包截图: ![Sui钱包截图](./codes/task1/wallet.png)
+- [] package id: [0xfc8b1c8bd876077197844c85587dc586292f8cffcb7af19b5c3a4e1193a667f2](https://suivision.xyz/package/0xfc8b1c8bd876077197844c85587dc586292f8cffcb7af19b5c3a4e1193a667f2)
+- [] package id 在 scan上的查看截图:![Scan截图](./codes/task1/package.png)
       
 ##   02 move coin
 - [x] My Coin package id :
@@ -32,4 +35,4 @@
 - [x] call swap hash: 
  
 ##   06 SDK PTB
-- [x] save hash : [A2s1Cvz6Toka4JbpR27mHgaXGgnCv1pJ2YLid3tDivpN](https://suivision.xyz/txblock/A2s1Cvz6Toka4JbpR27mHgaXGgnCv1pJ2YLid3tDivpN)
+- [] save hash : [A2s1Cvz6Toka4JbpR27mHgaXGgnCv1pJ2YLid3tDivpN](https://suivision.xyz/txblock/A2s1Cvz6Toka4JbpR27mHgaXGgnCv1pJ2YLid3tDivpN)
