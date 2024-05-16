@@ -1,7 +1,7 @@
-set packageId=0xf52a901aa045ca80117cd2d02f2d45fa78c1af15a2d72d785931d00cb227dfe4
+set packageId=0x783d1359df100f6b549861863b5d3ae8f0ef950348a11911ac4dd75113913c71
 set module=bulls_and_cows
 set func=withdraw
-set adminCap=0x0489e4fec63296fc15539e1f0e026c19a8e244b650ca4527c3c969d16899043a
-set game=0xabb37f178336bb8a1b89616d5147fbbc5fb2486b22778132fb4bdd0bad91dfb0
+set game=0xdb9100eab0e3929541212a992aa8c8a240feaadf0aa49a484b8e761a46c71479
+set adminCap=0xc9404c3eb53f6979b30afa38df92d07c69d42bd84bfa44bb14fc0c1f9a290ae6
 set amount=100000000
 sui client call --gas-budget 20000000 --package %packageId% --module %module% --function %func% --args %adminCap% %game% %amount%

@@ -1,9 +1,7 @@
-set XU8117FAUCETCOINTreasuryCapObjectID= 0x9047adddb25d459e14bb44a3999caec165c9c5e1b17c8dc96c07be02280650bb
-set XU8117FAUCETCOIN = 0xb67c5b74a579dc7e4c2be25498c7b1a6f857ca945e624008dac5c8e2d265cacf
-set packageId=0xf52a901aa045ca80117cd2d02f2d45fa78c1af15a2d72d785931d00cb227dfe4
+set packageId=0x783d1359df100f6b549861863b5d3ae8f0ef950348a11911ac4dd75113913c71
 set module=bulls_and_cows
 set func=deposit
-set game=0xabb37f178336bb8a1b89616d5147fbbc5fb2486b22778132fb4bdd0bad91dfb0
-set depositCoin=0x38f43e5bdca53ebdb6d37450dd9749324b7e1ec707a631c17e214a490847d514
-set amount=99999999
+set game=0xdb9100eab0e3929541212a992aa8c8a240feaadf0aa49a484b8e761a46c71479
+set depositCoin=0xb1bd51fb8fc830130211bdd179e6b755550e0f8430474685cefe267e4d25ff2f
+set amount=1000000000
 sui client call --gas-budget 20000000 --package %packageId% --module %module% --function %func% --args %game% %depositCoin% %amount%

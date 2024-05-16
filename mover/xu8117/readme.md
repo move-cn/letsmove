@@ -26,8 +26,8 @@
 
 ##   04 Move Game
 
-- [√] (Testnet) game package id : 0xf52a901aa045ca80117cd2d02f2d45fa78c1af15a2d72d785931d00cb227dfe4
-- [√] (Testnet) call game hash: 7jdRPMMEdiV1UTZn5SzjwH2fFLbvNWvKJUPkLsq4F5cx
+- [√] (Testnet) game package id : 0x783d1359df100f6b549861863b5d3ae8f0ef950348a11911ac4dd75113913c71
+- [√] (Testnet) call game hash: CiuJrWf34RZqECpsAudkHAPrx1j3vcX53dpiwfq5aCDC
 
 ##   05 Move Swap
 - [] swap package id :

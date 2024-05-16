@@ -1,8 +1,8 @@
-set packageId=0xf52a901aa045ca80117cd2d02f2d45fa78c1af15a2d72d785931d00cb227dfe4
+set packageId=0x783d1359df100f6b549861863b5d3ae8f0ef950348a11911ac4dd75113913c71
 set module=bulls_and_cows
 set func=play
-set game=0xabb37f178336bb8a1b89616d5147fbbc5fb2486b22778132fb4bdd0bad91dfb0
-set depositCoin=0x787b8c9371fa9e438742c11e98f7b861bc2ba5a7447ef23477b1db0e8d1d8308
+set game=0xdb9100eab0e3929541212a992aa8c8a240feaadf0aa49a484b8e761a46c71479
+set depositCoin=0x2167e2f7c3765bbbc1a7ce30c31670bbe6b57af4142c0a7317cfa24a3ad420d5
 set guessNumber=1
 sui client call --gas-budget 20000000 --package %packageId% --module %module% --function %func% --args %game% %guessNumber% %depositCoin% 0x6
 
