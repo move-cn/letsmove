@@ -88,10 +88,6 @@ module task04::bulls_and_cows {
     }
 
     public fun withdraw(_: &AdminCap, game: &mut Game, amount: u64, ctx: &mut TxContext) {
-        withdraw_no_permission(game, amount, ctx);
-    }
-
-    fun withdraw_no_permission(game: &mut Game, amount: u64, ctx: &mut TxContext) {
         assert!(get_pool_amount(game) > amount, EPoolNotEnough);
         let output_balance = balance::split(&mut game.pool, amount);
         let output_coin = coin::from_balance(output_balance, ctx);
@@ -132,7 +128,10 @@ module task04::bulls_and_cows {
 
         if (is_win) {
             let amount = game.reward;
-            withdraw_no_permission(game, amount, ctx);
+            assert!(get_pool_amount(game) > amount, EPoolNotEnough);
+            let output_balance = balance::split(&mut game.pool, amount);
+            let output_coin = coin::from_balance(output_balance, ctx);
+            transfer::public_transfer(output_coin, sender(ctx));
         };
 
         event::emit(GamingResultEvent {
