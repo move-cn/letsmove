@@ -30,8 +30,9 @@
 - [√] (Testnet) call game hash: CiuJrWf34RZqECpsAudkHAPrx1j3vcX53dpiwfq5aCDC
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+
+- [√] (Testnet) swap package id : 0x91d95713041aceac676e87185d95b8c38b00084e3c3bdf618bf39e32fe7ae9b2
+- [√] (Testnet) call swap hash: BwNe5YNr4iRPgdYJf2AJJxSELb16ACx42L7vJXmMYRgM
 
 ##   06 SDK PTB
 - [] save hash :
