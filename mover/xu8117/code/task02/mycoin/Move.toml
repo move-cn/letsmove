@@ -3,8 +3,8 @@ name = "mycoin"
 version = "0.0.1"
 
 # testnet
-# published-at = "0x90ddd5af59a20ea94411a5d9989f51fe18e4483cdc8457c17ebc6c219c9f1e22"
-published-at = "0xca9c7bb11711716be7c7fd5ab6bfc1f07da94f5585a636b07c018cace18ec56f"
+published-at = "0x90ddd5af59a20ea94411a5d9989f51fe18e4483cdc8457c17ebc6c219c9f1e22"
+#published-at = "0xca9c7bb11711716be7c7fd5ab6bfc1f07da94f5585a636b07c018cace18ec56f"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
@@ -25,8 +25,8 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 
 [addresses]
 # testnet
-# mycoin = "0x90ddd5af59a20ea94411a5d9989f51fe18e4483cdc8457c17ebc6c219c9f1e22"
-mycoin = "0xca9c7bb11711716be7c7fd5ab6bfc1f07da94f5585a636b07c018cace18ec56f"
+mycoin = "0x90ddd5af59a20ea94411a5d9989f51fe18e4483cdc8457c17ebc6c219c9f1e22"
+#mycoin = "0xca9c7bb11711716be7c7fd5ab6bfc1f07da94f5585a636b07c018cace18ec56f"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.

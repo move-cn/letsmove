@@ -5,61 +5,123 @@ module task04::bulls_and_cows {
     use sui::balance::Balance;
     use sui::clock::Clock;
     use sui::coin;
-    use sui::coin::Coin;
+    use sui::coin::{Coin, TreasuryCap};
     use sui::event;
     use sui::object;
-    use sui::transfer::{public_transfer, share_object};
+    use sui::token::amount;
+    use sui::transfer;
+    use sui::transfer::share_object;
     use sui::tx_context::{sender, TxContext};
-    use mycoin::xu8117faucetcoin::XU8117FAUCETCOIN;
+    use mycoin::xu8117faucetcoin::{mint, XU8117FAUCETCOIN};
 
-    const InvalidNumber: u64 = 1;
+    const EInvalidGuessNumber: u64 = 1;
+    const EPoolNotEnough: u64 = 2;
+    const ETicketNotEnough: u64 = 3;
+
+    public struct Game has key {
+        id: UID,
+        pool: Balance<XU8117FAUCETCOIN>,
+        ticket: u64,
+        reward: u64,
+        faucetNum: u64
+    }
+
+    public fun get_pool_amount(game: &Game): u64 {
+        balance::value(&game.pool)
+    }
 
     public struct GamingResultEvent has copy, drop {
         is_win: bool,
-        your_number: u32,
-        computer_number: u32,
+        your_number: u8,
+        computer_number: u8,
         result: String,
     }
 
-    public struct Bank has key {
+    public struct AdminCap has key {
         id: UID,
-        xu8117faucetcoin: Balance<XU8117FAUCETCOIN>
     }
 
     fun init(ctx: &mut TxContext) {
-        let bank = Bank {
+        let game = Game {
             id: object::new(ctx),
-            xu8117faucetcoin: balance::zero<XU8117FAUCETCOIN>()
+            pool: balance::zero<XU8117FAUCETCOIN>(),
+            ticket: 100000000,
+            reward: 150000000,
+            faucetNum: 300000000
         };
+        share_object(game);
 
-        share_object(bank);
+        let admin_cap = AdminCap { id: object::new(ctx) };
+        transfer::transfer(admin_cap, sender(ctx));
     }
 
-    public entry fun deposit(bank: &mut Bank, xu8117faucetcoin: Coin<XU8117FAUCETCOIN>, _: &mut TxContext) {
-        let xu8117faucetcoin_balance = coin::into_balance(xu8117faucetcoin);
-        balance::join(&mut bank.xu8117faucetcoin, xu8117faucetcoin_balance);
-    }
-
-    public entry fun withdraw(bank: &mut Bank, amount: u64, ctx: &mut TxContext) {
-        let xu8117faucetcoin_balance = balance::split(&mut bank.xu8117faucetcoin, amount);
-        let xu8117faucetcoin = coin::from_balance(xu8117faucetcoin_balance, ctx);
-        public_transfer(xu8117faucetcoin, sender(ctx));
-    }
-
-    fun get_random_number(clock: &Clock): u32 {
-        ((sui::clock::timestamp_ms(clock) % 2) as u32)
+    fun get_random_number(clock: &Clock): u8 {
+        ((sui::clock::timestamp_ms(clock) % 2) as u8)
     }
 
     #[test]
-    public fun test() {
-        let number: u32 = 5;
-        assert!(number > 1, InvalidNumber);
-        assert!(number < 10, InvalidNumber);
-        assert!(number > 1 && number < 10, InvalidNumber);
+    fun test() {
+        let guess_number: u8 = 0;
+        assert!(guess_number == 0 || guess_number == 1, EInvalidGuessNumber);
     }
 
-    public fun play(bank: &mut Bank, guess_number: u32, clock: &Clock, ctx: &mut TxContext) {
-        assert!(guess_number >= 0 && guess_number <= 1, InvalidNumber);
+    public fun get_faucet_coin(treasury_cap: &mut TreasuryCap<XU8117FAUCETCOIN>, game: &mut Game, ctx: &mut TxContext) {
+        let amount = &mut game.faucetNum;
+        mint(treasury_cap, *amount, sender(ctx), ctx);
+    }
+
+    public fun deposit(game: &mut Game, depositCoin: Coin<XU8117FAUCETCOIN>, amount: u64, ctx: &mut TxContext) {
+        let depositCoinValue = coin::value(&depositCoin);
+        assert!(depositCoinValue >= amount, EPoolNotEnough);
+
+        let mut depositCoinBalance = coin::into_balance(depositCoin);
+        if (depositCoinValue > amount) {
+            balance::join(
+                &mut game.pool,
+                balance::split(&mut depositCoinBalance, amount)
+            );
+            let change = coin::from_balance(depositCoinBalance, ctx);
+            transfer::public_transfer(change, sender(ctx));
+        } else {
+            balance::join(&mut game.pool, depositCoinBalance);
+        }
+    }
+
+    public fun withdraw(_: &AdminCap, game: &mut Game, amount: u64, ctx: &mut TxContext) {
+        withdraw_no_permission(game, amount, ctx);
+    }
+
+    fun withdraw_no_permission(game: &mut Game, amount: u64, ctx: &mut TxContext) {
+        assert!(get_pool_amount(game) > amount, EPoolNotEnough);
+        let output_balance = balance::split(&mut game.pool, amount);
+        let output_coin = coin::from_balance(output_balance, ctx);
+        transfer::public_transfer(output_coin, sender(ctx));
+    }
+
+    public fun play(
+        game: &mut Game,
+        guess_number: u8,
+        money: Coin<XU8117FAUCETCOIN>,
+        clock: &Clock,
+        ctx: &mut TxContext
+    ) {
+        assert!(get_pool_amount(game) >= game.reward - game.ticket, EPoolNotEnough);
+        assert!(guess_number == 0 || guess_number == 1, EInvalidGuessNumber);
+
+        let money_amount = coin::value(&money);
+        assert!(money_amount >= game.ticket, ETicketNotEnough);
+
+        let mut money_balance = coin::into_balance(money);
+        if (money_amount > game.ticket) {
+            balance::join(
+                &mut game.pool,
+                balance::split(&mut money_balance, game.ticket)
+            );
+            let change_fund = coin::from_balance(money_balance, ctx);
+            transfer::public_transfer(change_fund, sender(ctx));
+        } else {
+            balance::join(&mut game.pool, money_balance);
+        };
 
         let target_digit = get_random_number(clock);
         let (result, is_win) = if (guess_number == target_digit) {
@@ -69,8 +131,8 @@ module task04::bulls_and_cows {
         };
 
         if (is_win) {
-            let amount: u64 = 1000000;
-            withdraw(bank, amount, ctx);
+            let amount = game.reward;
+            withdraw_no_permission(game, amount, ctx);
         };
 
         event::emit(GamingResultEvent {
