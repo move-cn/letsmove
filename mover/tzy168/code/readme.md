@@ -22,6 +22,72 @@ module hello_world::hello_world {
 
 
 ## task2
+  ## mycoin
+  module my_coin::mycoin { 
+    use std::option;
+    use sui::coin::{Self, Coin, TreasuryCap}; 
+    use sui::transfer; 
+    use sui::tx_context::{Self, TxContext};
+
+public struct MYCOIN has drop {}
+
+fun init(witness: MYCOIN, ctx: &mut TxContext) {
+    let (treasury_cap, metadata) = coin::create_currency<MYCOIN>(
+        witness, 2, 
+        b"tzy Coin", 
+        b"TC", b"", 
+        option::none(), 
+        ctx);
+    transfer::public_freeze_object(metadata);
+    transfer::public_transfer(treasury_cap, tx_context::sender(ctx)) //
+}
+
+public entry fun mint(
+    treasury_cap: &mut TreasuryCap<MYCOIN>, 
+    amount: u64, 
+    recipient: address, 
+    ctx: &mut TxContext) {
+    coin::mint_and_transfer(treasury_cap, amount, recipient, ctx)
+}
+
+public entry fun burn(
+    treasury_cap: &mut TreasuryCap<MYCOIN>, 
+    coin: Coin<MYCOIN>) {
+    coin::burn(treasury_cap, coin);
+}
+}
+
+  ## faucetcoin
+  module faucet_coin::faucetcoin { 
+    use std::option; 
+    use sui::coin::{Self, Coin, TreasuryCap}; 
+    use sui::transfer; 
+    use sui::tx_context::{Self, TxContext};
+
+
+public struct FAUCETCOIN has drop {}
+
+
+fun init(witness: FAUCETCOIN, ctx: &mut TxContext) {
+    let (treasury_cap, metadata) = coin::create_currency<FAUCETCOIN>(witness, 2, b"TzyFaucet Coin", b"TFC", b"", option::none(), ctx);
+    transfer::public_freeze_object(metadata);
+    transfer::public_share_object(treasury_cap) //
+}
+
+
+entry fun mint(
+    treasury_cap: &mut TreasuryCap<FAUCETCOIN>, amount: u64, recipient: address, ctx: &mut TxContext
+) {
+    coin::mint_and_transfer(treasury_cap, amount, recipient, ctx)
+}
+
+
+public entry fun burn(treasury_cap: &mut TreasuryCap<FAUCETCOIN>, coin: Coin<FAUCETCOIN>) {
+    coin::burn(treasury_cap, coin);
+}
+
+}
+
 
 ## task3
 module my_nft::mynft { 
