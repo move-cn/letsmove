@@ -12,7 +12,7 @@
 
 ##   01 hello move  
 - [x] package id: [0xfc8b1c8bd876077197844c85587dc586292f8cffcb7af19b5c3a4e1193a667f2](https://testnet.suivision.xyz/package/0xfc8b1c8bd876077197844c85587dc586292f8cffcb7af19b5c3a4e1193a667f2)
-- [x] Created Obj: [0x691bac4c31c76adf46790c85f194846c971f4edd07a320f3fb5ce0625b1884a2]
+- [x] Created Obj: 0x691bac4c31c76adf46790c85f194846c971f4edd07a320f3fb5ce0625b1884a2
 ##   02 move coin
 - [x] My Coin package id :
 - [x] Faucet package id : 
