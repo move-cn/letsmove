@@ -43,4 +43,4 @@
 - [x] call swap CoinB-> CoinA  hash : E4yHc2jQkpkDf3mAVgqbpeAq8RhEGmV4MnqDzD5fHSSS
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : 5s7F2Jib6xGnownyAsRUVjUXW7iAEc23zYdxRKo4DFHf
