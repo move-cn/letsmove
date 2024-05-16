@@ -21,4 +21,11 @@ module task2::chenerge_faucet {
         let to = tx_context::sender(ctx);
         coin::mint_and_transfer(treasury_cap, amount, to, ctx);
     }
+
+    public entry fun mint_to(treasury_cap: &mut TreasuryCap<CHENERGE_FAUCET>,
+                          amount: u64,
+                          to: address,
+                          ctx: &mut TxContext) {
+        coin::mint_and_transfer(treasury_cap, amount, to, ctx);
+    }
 }
