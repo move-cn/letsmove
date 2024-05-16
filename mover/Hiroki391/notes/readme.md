@@ -54,3 +54,23 @@ sui client call --package 0x0251e62aaa7b0cc3cbf2ab554ec4819204cbfebe30fa86d893aa
 
 
 # task3 
+
+sui move new hiroki391_nft
+
+sui client publish --gas-budget 20000000
+
+拿到包 PackageID: 0xa48055c9230a0aa38e668b8ee9aff648234fe97b09147d0f2573736e6e887fc7 
+
+mint给自己`0x63352fa9593fa2d16a71823f7ab8865af627d51706a637fdfdf508cae42c8491`:
+
+sui client call --package 0xa48055c9230a0aa38e668b8ee9aff648234fe97b09147d0f2573736e6e887fc7 --module hiroki391_nft --function mint_to --args "Hiroki" 0x63352fa9593fa2d16a71823f7ab8865af627d51706a637fdfdf508cae42c8491 --gas-budget 20000000
+
+交易凭证： Transaction Digest: CoF5RchfHG6fmKpDM2N1cRRTngvgahRepaTpjGkouFt2
+
+还有NFT的 ObjectID: 0x9c96d4c25ea079d574174aa8de1c8cc37ae96bcb26af92adbb6f7a4b43a017b4       
+
+mint给指定的地址`0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2`：
+
+sui client call --package 0xa48055c9230a0aa38e668b8ee9aff648234fe97b09147d0f2573736e6e887fc7 --module hiroki391_nft --function mint_to --args "From Hiroki" 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --gas-budget 20000000
+
+交易凭据：Transaction Digest: FFCcX6uWdnx6haRJx7241r1bE8v2MHP9rZKR2mbCbGYi
