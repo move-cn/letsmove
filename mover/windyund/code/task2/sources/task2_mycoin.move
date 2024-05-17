@@ -6,18 +6,19 @@ module mycoin::mycoin {
     use sui::event::emit;
     use sui::tx_context::{Self, TxContext};
 
-    struct MYCOIN has drop {}
+   public struct MYCOIN has drop {}
     
-    struct MintEvent has copy, drop{
+   public  struct MintEvent has copy, drop{
         amount: u64,
         recipient: address
     }
-    
+
+
     fun init(witness: MYCOIN, ctx: &mut TxContext) {
-        let (treasury, metadata) = coin::create_currency(witness, 6, b"MYC", b"MyCoin", b"My Coin description", option::none(), ctx);
+        let (mut treasury, metadata) = coin::create_currency(witness, 6, b"MyCoinB", b"MyCoinB", b"My Coin description", option::none(), ctx);
 
         //初始资金：1000000
-        coin::mint_and_transfer(&mut treasury, 1000000, tx_context::sender(ctx), ctx);
+        coin::mint_and_transfer<MYCOIN>(&mut treasury, 2000000, tx_context::sender(ctx), ctx);
 
         transfer::public_freeze_object(metadata);
         transfer::public_transfer(treasury, tx_context::sender(ctx))

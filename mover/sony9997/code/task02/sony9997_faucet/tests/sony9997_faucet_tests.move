@@ -1,4 +1,4 @@
-/*
+
 #[test_only]
 module sony9997_faucet::sony9997_faucet_tests {
     // uncomment this line to import the module
@@ -16,4 +16,4 @@ module sony9997_faucet::sony9997_faucet_tests {
         abort ENotImplemented
     }
 }
-*/
+
