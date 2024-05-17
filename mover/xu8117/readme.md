@@ -35,4 +35,5 @@
 - [√] (Testnet) call swap hash: BwNe5YNr4iRPgdYJf2AJJxSELb16ACx42L7vJXmMYRgM
 
 ##   06 SDK PTB
-- [] save hash :
+
+- [√] save hash : 7rBNggBkX2yGBKoUQ1AkYnULGi4WhpVVo9DeuJRE7zWJ

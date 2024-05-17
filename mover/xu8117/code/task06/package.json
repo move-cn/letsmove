@@ -1,21 +1,16 @@
 {
-  "name": "hello-sui",
+  "name": "task_06",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "index.ts",
+  "author": "xu8117<xu8117@gmail.com>",
+  "license": "MIT",
+  "private": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@mysten/sui.js": "^0.54.1"
+    "start": "ts-node index.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "dayjs": "^1.11.11",
-    "dotenv": "^16.4.5",
-    "intl": "^1.2.5",
     "navi-sdk": "^1.1.21"
   }
 }
