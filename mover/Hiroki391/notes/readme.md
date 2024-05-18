@@ -77,71 +77,6 @@ sui client call --package 0xa48055c9230a0aa38e668b8ee9aff648234fe97b09147d0f2573
 
 # task4
 
-`testnet`
-
-sui client publish --gas-budget 20000000
-
-PackageID: 0x4c13e6c4eab42a3d97816d4939e2e63523190b02b9b91cb11ce884d21532d013   
-
-export PackageID=0x4c13e6c4eab42a3d97816d4939e2e63523190b02b9b91cb11ce884d21532d013   
-发布 task2 的faucet 到 testnet 
- PackageID: 0x2b40b7e300dec1fadb6a0fdf2d0463f78bd27a32a5bcd6fa1740946590f433b1            
- ObjectID: 0x8f9aebd6c14eb7929f6e618cdab7f5a71bc30fafd1d92c46b4a2eb17db17f5f4 
- ObjectType: 0x2::coin::TreasuryCap<0x2b40b7e300dec1fadb6a0fdf2d0463f78bd27a32a5bcd6fa1740946590f433b1::hiroki391_faucet::HIROKI391_FAUCET>
-
-export FaucetId=0x2b40b7e300dec1fadb6a0fdf2d0463f78bd27a32a5bcd6fa1740946590f433b1::hiroki391_faucet::HIROKI391_FAUCET
-
-创建游戏
-
-sui client call --gas-budget 7500000 --package $PackageID --module hiroki391_game --function creat_game --type-args $FaucetId
-
-adminCap: 0x86086062ebe278813785a89c712a9209768a513bcb1d9ed0cd448e7228ee4341           
-
-gameId: 0x451d61243edac29082e7f2d519e2218ac6321f5c23159acd7b2672cb8693fb4b          
-
-export GameId=0x451d61243edac29082e7f2d519e2218ac6321f5c23159acd7b2672cb8693fb4b          
-
-export AdminCap=0x86086062ebe278813785a89c712a9209768a513bcb1d9ed0cd448e7228ee4341 
-
-和task2 中一样 mint faucet coin:
-
-export MyAddress=0x63352fa9593fa2d16a71823f7ab8865af627d51706a637fdfdf508cae42c8491
-
-export Task2Pack=0x2b40b7e300dec1fadb6a0fdf2d0463f78bd27a32a5bcd6fa1740946590f433b1
-
-export TreasureId=0x8f9aebd6c14eb7929f6e618cdab7f5a71bc30fafd1d92c46b4a2eb17db17f5f4
-
-sui client call --package $Task2Pack  --module hiroki391_faucet --function mint --args $TreasureId 1000000 $MyAddress --gas-budget 50000000
-
-拿到faucet coin
-ObjectID: 0xe700c8cb804aa1a3a815a9fd3e57ebc9ae4716d9f9dcac49f1e5bce63f48c334     
-export FaucetCoin=0xe700c8cb804aa1a3a815a9fd3e57ebc9ae4716d9f9dcac49f1e5bce63f48c334
-
-使用task5的deposit方法
-sui client call --package $PackageID --module hiroki391_game --function deposit  --type-args $FaucetId --args $GameId $FaucetCoin 500000 --gas-budget 20000000
-
-拿到游戏内部 coin:
-
-ObjectID: 0x65052f51d776be5a03032576076f2a0fe8670a6935e69cf1d8c8e877975f68b9              
-
-Transaction Digest: 9LdUA6TGQg7zVChQJW9g9BeXvitbXBxQ5VB8BWuGu7kw
-
-sui client call --package $PackageID --module hiroki391_game --function set_ticket --type-args $FaucetId --args $AdminCap $GameId 100 --gas-budget 10000000
-
-sui client call --package $PackageID --module hiroki391_game --function set_reward --type-args $FaucetId --args $AdminCap $GameId 200 --gas-budget 10000000
-
-export GameCoin=0x65052f51d776be5a03032576076f2a0fe8670a6935e69cf1d8c8e877975f68b9
-
-sui client call --package $PackageID --module hiroki391_game --function play --type-args $FaucetId --args 2 $GameId $GameCoin 0x6 --gas-budget 10000000
-
-Transaction Digest: 93E75zHQk7hjNGzL7XaeoJTNeDJDPyzAtwEExFFoaMok
-
-取出GameCoin，使用task5的withdraw方法
-
-sui client call --package $PackageID --module hiroki391_game --function withdraw --type-args $FaucetId --args $AdminCap $GameId 2000 --gas-budget 10000000
-
-Transaction Digest: GkQqTtjiBXrk9td1w8QBLoMfNn91mFBxMn4SUXxi9G5a
-
 `mainnet`
 
 sui client publish --gas-budget 20000000
@@ -227,3 +162,64 @@ Transaction Digest: 7me3Uimd6nMnumgH4RAhtSjVpRwVQ9C7vLRVCmBKS8Pd
 sui client call --package $PackageID --module hiroki391_game --function withdraw --type-args $FaucetId --args $AdminCap $GameId 2000 --gas-budget 10000000
 
 Transaction Digest: 3cu3m4qfk2Lvr7CjzRggqVSQMPV9SVGbrSr43GJiVxou
+
+# task5
+
+task2的COIN_TYPE
+
+export HIROKI391_COIN=0xadd3f6d153775687016c1271a3cab27c68732aa494fd1d20afe37891a466b707::hiroki391_coin::HIROKI391_COIN
+export HIROKI391_FAUCET=0x251e62aaa7b0cc3cbf2ab554ec4819204cbfebe30fa86d893aabf6c4708461d::hiroki391_faucet::HIROKI391_FAUCET
+
+publish:
+
+sui client publish --gas-budget 50000000
+
+export SWAP_PACKAGE_ID=0xaebd6134ac55a687b3d3a4b1705eaede10dde88bac0ad60bf2d6e6951e8f5d90
+
+mint:
+
+export PACKAGE_ID=0xadd3f6d153775687016c1271a3cab27c68732aa494fd1d20afe37891a466b707
+export PACKAGE_ID_FAUCET=0x251e62aaa7b0cc3cbf2ab554ec4819204cbfebe30fa86d893aabf6c4708461d
+export HIROKI391_COIN_TREASURY_CAP_ID=0x29e17a3e72b0bf17c9615f036d325c4c1990115c048244d4bb05f76ba5f953e0
+export HIROKI391_FAUCET_TREASURY_CAP_ID=0x1fcb8ee64ef21406d5ab3c0500fc6025493a47daa34d334cf1ed6d04f80e2539
+export MY_ADDRESS=0x63352fa9593fa2d16a71823f7ab8865af627d51706a637fdfdf508cae42c8491
+
+sui client call --gas-budget 7500000 --package $PACKAGE_ID --module hiroki391_coin --function mint --args $HIROKI391_COIN_TREASURY_CAP_ID 1000 $MY_ADDRESS
+
+sui client call --gas-budget 7500000 --package $PACKAGE_ID_FAUCET --module hiroki391_faucet --function mint --args $HIROKI391_FAUCET_TREASURY_CAP_ID 1000 $MY_ADDRESS
+
+export HIROKI391_COIN_ID_1=0x8211f4f38d983ffd234a8fd15aa0c271314726d862e31d606116ad803175bd6d
+export HIROKI391_FAUCET_ID_1=0xadcd42c3bcc8640225c7b370553ed2bfa08d17a91fc65910f524110bc0094014 
+
+构建连通池
+
+sui client call --gas-budget 7500000 --package $SWAP_PACKAGE_ID --module hiroki391_swap \
+    --function create_pool --type-args $HIROKI391_COIN  $HIROKI391_FAUCET \
+    --args $HIROKI391_COIN_ID_1 $HIROKI391_FAUCET_ID_1
+
+export POOL_ID=0x4f63dfc3562e26bfdf0f0a36638970c8fd8e4c7336556b5340769ce3e0cb8c45
+
+交换
+
+首先需要再铸造一枚 HIROKI391_COIN
+
+sui client call --gas-budget 7500000 --package $PACKAGE_ID --module hiroki391_coin --function mint --args $HIROKI391_COIN_TREASURY_CAP_ID 1000 $MY_ADDRESS
+
+export HIROKI391_COIN_ID_2=0x71ce648e1e540cdb2219062a7a877ad4b6a03e24fda508885d1f63d1af838603 
+
+sui client call --gas-budget 7500000 --package $SWAP_PACKAGE_ID --module hiroki391_swap \
+    --function swap_a_to_b --type-args $HIROKI391_COIN  $HIROKI391_FAUCET \
+    --args $POOL_ID $HIROKI391_COIN_ID_2
+
+Transaction Digest: D5ZW4agz46KPHveYfghBz6aqzfNsuzprCXc3FSvPn5f9
+
+再mint faucet
+sui client call --gas-budget 7500000 --package $PACKAGE_ID_FAUCET --module hiroki391_faucet --function mint --args $HIROKI391_FAUCET_TREASURY_CAP_ID 1000 $MY_ADDRESS
+
+export HIROKI391_FAUCET_ID_2=0x1f283dcd388d579fa61bd06e355305ebb9d0811b9423458fd07094e1b939fc09
+
+sui client call --gas-budget 7500000 --package $SWAP_PACKAGE_ID --module hiroki391_swap \
+    --function swap_b_to_a --type-args $HIROKI391_COIN  $HIROKI391_FAUCET \
+    --args $POOL_ID $HIROKI391_FAUCET_ID_2
+
+Transaction Digest: 381CB8SJY6CmNeAy4c4QjzQ9J7QBgLT5HVAKCj1pWcCY
