@@ -111,3 +111,19 @@ mint faucet coin 给自己：
 sui client call --gas-budget 7500000 --package 0x1ca368d08ea0c4faff0ddb54e8bfab95a69c4c74b64c2ca405a13e2536c0145b --module maqihao01_faucet_coin --function mint --args 0x1d0672c4fb32640378fa0612e2570388aa691dd4a0581db797328b72188c8e58 1000 0x6a12133055bcb6819a5b03e5dc0a8ca8c862cfa1c63020a34519c07cbc976bbf
 
 Transaction Digest: 8WM3MYtMLX2HddghqiiAb9mZRi42DzYCS8EY8LxkHxvU
+
+# move nft
+
+sui client publish --gas-budget 20000000
+
+PackageID: 0x286f40d72aacd5b6ff9db1e126f0585ffa610e479f2f49e95461614c1aa7797d    
+
+sui client call --package 0x286f40d72aacd5b6ff9db1e126f0585ffa610e479f2f49e95461614c1aa7797d --module maqihao01_nft --function mint_to --args "Maqihao01" 0x6a12133055bcb6819a5b03e5dc0a8ca8c862cfa1c63020a34519c07cbc976bbf --gas-budget 20000000
+
+ObjectID: 0x271473b05579d0aa1f6c93129026c0d1903e2b9ae785b7992a5eccefc9086ca6        
+
+Transaction Digest: HzFDyzBqpWwm5EnLtttBQ6SUWtF9LJPounPKYcHAkjuS
+
+sui client call --package 0x286f40d72aacd5b6ff9db1e126f0585ffa610e479f2f49e95461614c1aa7797d --module maqihao01_nft --function mint_to --args "SEND BY Maqihao01" 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --gas-budget 20000000
+
+Transaction Digest: HMmLRQdRhrrgffSKDeiKXSv1nAkQQ1EivTQfQayHeM7S
