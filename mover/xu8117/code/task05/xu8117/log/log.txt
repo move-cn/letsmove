@@ -1,0 +1,5 @@
+(Testnet) deposit_coin: CPPV8DEy3ecpHbXxMxYYJmf2GTVKt3bf5gEQ3Vbz7zpt
+(Testnet) deposit_faucetcoin: 5sK7L5yYBGTPckVsL1JYXPHTZNpALpvccSbuKRopTsFD
+
+(Testnet) faucetcoin_to_coin: BwNe5YNr4iRPgdYJf2AJJxSELb16ACx42L7vJXmMYRgM
+(Testnet) coin_to_faucetcoin: 5eT4WZi1tggAc5WasyWFsrTkq7o2uoVQTs1oFhj76BHw

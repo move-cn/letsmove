@@ -1,0 +1,2 @@
+1. 在NAVI-SDK中对USDC池子调用borrowCoin函数时， amount的数量要输对不然会报错。 要注意1USDC=1e6=1000000。
+2. 在调用borrowCoin后要记得把返回的coin转移到自己的地址里，不然也会报错。一般使用 txb.transferObjects(borrowedCoin, sender);语句实现。
