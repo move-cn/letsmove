@@ -58,3 +58,42 @@ sui client call --package $PACKAGE_ID --module howardlau2000nft --function mint_
 Transaction Digest: 5jntJ6NaYWc17dVhMvdcrYxAEpFdbye8PpEstJEk8oEC
 
 ObjectID: 0xd3f8d0950f7c4146ca325ae3c53eb93040d49b8ac29b1438be5a160a35bc0343  
+
+# task4 完成游戏的上链部署
+- 上链网络: 主网(mainnet)
+
+## 需求
+- 完成 链游相关知识的学习
+- 完成 随机数的学习，游戏必须包含随机数
+- 完成 存和取游戏资金池
+- 完成 如何存储Coin在合约的学习，游戏必须能存取[task2] 发行的`Faucet Coin`,用`task2`的 `Faucet Coin`作为游戏输赢的资产 
+- 完成 第一个游戏合约部署主网
+- 的game 必须包含自己的 `github id`的元素
+
+`掷骰子游戏，npc和用户的点数都通过clock随机数生成，区别在于一个为 clock::timestamp_ms(clock) /100 和 clock::timestamp_ms(clock)`
+
+sui client publish --gas-budget 40000000
+
+export PACKAGE_ID=0x4bbd66618ff7e5e6cdd06a19c08ee324bd8252c0032f9377566cb4230595f430 
+export GAME_ID=0x88d5340ea2f7a93e45f0634c2d4b5c6c5f73af8a3285ece572b9f0db19717f4b  
+export ADMIN_CAP=0x9b5dbb5d9f3bfc3cb06a295b02c93c1d7887c5f8b43432b3b0acfefc7b403d74
+
+export FAUCET=0xe1448ba698cd3da190580f2ac308aedd28ce3811ad1387be0068b0d5fa8b925f
+
+sui client call --package $PACKAGE_ID --module howardlau2000_game --function get_faucet_coin --args $FAUCET 10000000 --gas-budget 10000000
+
+export FAUCET_COIN=0x61f6acd2d0efaf41e1e81cb75329bc6820c1399a7384d81bc2572d98bf48bc7d       
+
+sui client call --package $PACKAGE_ID --module howardlau2000_game --function deposit --args $GAME_ID  $FAUCET_COIN 5000000 --gas-budget 20000000
+
+Transaction Digest: 2Q7CDAAZzQXLxmopGuXTY9t4ksM6yKHbETaGJL6j7aFL
+
+export GAME_COIN=0xc2a934fde31d5e2216a89a6abb3f5692d649d8ec133ed8ad2b6c149d72875936 
+
+sui client call --package $PACKAGE_ID --module howardlau2000_game --function play --args $GAME_ID $GAME_COIN 0x6 --gas-budget 100000000
+
+Transaction Digest: FfNo8jjAF4PkTz8zryAPya7ntJaEJ63hoFzv5mQQXcYp
+
+sui client call --package $PACKAGE_ID --module howardlau2000_game --function withdraw --args $ADMIN_CAP $GAME_ID 2000 --gas-budget 10000000
+
+Transaction Digest: 9tTVW4SDwQKGT9tsLD5JrtfSdEzS9iTYTVW3s3yWPXqt
