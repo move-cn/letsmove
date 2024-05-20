@@ -66,8 +66,8 @@ module t4::game {
         let game = Game {
             id: obj_new(ctx),
             pool: balance::zero<T>(),
-            ticket: 10,
-            reward: 20,
+            ticket: 100,
+            reward: 200,
         };
         share_object(game);
         let admin_cap = AdminCap { id: obj_new(ctx) };
