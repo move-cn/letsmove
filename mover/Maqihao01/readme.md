@@ -32,15 +32,15 @@
 - [x] scan上的NFT截图:![Scan截图](notes/516.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : 0x0dd09a296ae728ca4660f5b0c24a7e5ba71377150d8f8ab1cd00f883cb41c817 
+- [x] deposit Coin hash: C6xtMYvQ95ejmQJKiBKYChaQ5ArdUPzvHUoyFxQgcDQR
+- [x] withdraw `Coin` hash: gxNRnVf7X45Qpw8E9czvVjRc8kwGvkWkVWwD33LVDnT
+- [x] play game hash:  EYMj9BU8ExcCXxugJYpAHbnhNGxMtNaVFvCgFcg1BhzZ
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0xeca373a6da0d118d323720871276e0b6b8c217167397b8bce009ddf604702922   
+- [x] call swap CoinA-> CoinB  hash : 6UEyk8y53FEtpcJDySSztAUR57rvQaV5kwbpM4Y67Gh
+- [x] call swap CoinB-> CoinA  hash : 5jP4LfHiXkqaXf9i3M6zADrEH8hnruSeGtg5fEh8hAQw
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : [J3RTijmy42AudV1Af784jaoCUCSRJCxCVxqq3Zee9jNV](https://suivision.xyz/txblock/J3RTijmy42AudV1Af784jaoCUCSRJCxCVxqq3Zee9jNV)

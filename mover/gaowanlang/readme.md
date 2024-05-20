@@ -19,17 +19,17 @@
 - [] package id 在 scan上的查看截图:![Scan截图](./images/task1.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [] My Coin package id : 0xf5fc96c2d88805b5b04194ea78b4fedca229a7a50d32e17321455527dcc63901
+- [] Faucet package id : 0x18eb8e4ac6178a710e897fccc8eec709a27b3b79ecfa1912667e267e1e06fab8
+- [] 转账 `My Coin` hash: 5mnD6CHgmb1zugZR2xv1cSUDwoT3Zqbiip48HvXn4qw9
+- [] `Faucet Coin` address1 mint hash: CSzwTwSk8ZhMA2KM57h76Qn4gowFzZ6tbredDyrCS9na
+- [] `Faucet Coin` address2 mint hash: GUZH1Le4QeJVSQKsZ3aGMeKCyzqVo9PhEQTEN6sMRuEz
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [] nft package id : 0xab2b8527cafe2d9b40f3246f57d764404e7bde55c82c40a54469ba87ba9c5751
+- [] nft object id : 0xaf2f05bdb5fb5a3f2a2e66d60cc98850896d5eb262bd7aadff1064e9da7e2907
+- [] 转账 nft  hash: 9rDHfGxbwRb489sz7wQViZHM2c7gxFRQPB3T1LSBBeEv
+- [] scan上的NFT截图:![Scan截图](./images/nft.png)
 
 ##   04 Move Game
 - [] game package id :
