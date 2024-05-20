@@ -2,10 +2,13 @@
 
 [move]
 version = 2
-manifest_digest = "14E547A00D2B2C96E8299BC92408DC08E58A8D6DF35DB298303F197CF3DDA22A"
-deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
+manifest_digest = "F51329A82969E949D98410C58169D7DF168176232CC1ECC624BD35DB8DFBC171"
+deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
 dependencies = [
   { name = "Sui" },
+]
+dev-dependencies = [
+  { name = "t2" },
 ]
 
 [[move.package]]
@@ -20,6 +23,14 @@ dependencies = [
   { name = "MoveStdlib" },
 ]
 
+[[move.package]]
+name = "t2"
+source = { local = "../t2" }
+
+dependencies = [
+  { name = "Sui" },
+]
+
 [move.toolchain-version]
 compiler-version = "1.25.0"
 edition = "2024.beta"
@@ -27,14 +38,8 @@ flavor = "sui"
 
 [env]
 
-[env.mainnet]
-chain-id = "35834a8a"
-original-published-id = "0xf5fc96c2d88805b5b04194ea78b4fedca229a7a50d32e17321455527dcc63901"
-latest-published-id = "0xf5fc96c2d88805b5b04194ea78b4fedca229a7a50d32e17321455527dcc63901"
-published-version = "1"
-
 [env.testnet]
 chain-id = "4c78adac"
-original-published-id = "0xebe9e54c5199b46c8aefc685bd94ff0c174ce7d1c448819f08ba061cdb80d7b2"
-latest-published-id = "0xebe9e54c5199b46c8aefc685bd94ff0c174ce7d1c448819f08ba061cdb80d7b2"
+original-published-id = "0x4b5e21763be34a5765d66c743748cb91a9b36fcee0b6d366fdc722e930646192"
+latest-published-id = "0x4b5e21763be34a5765d66c743748cb91a9b36fcee0b6d366fdc722e930646192"
 published-version = "1"
