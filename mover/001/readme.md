@@ -42,5 +42,5 @@
 - [] call swap CoinA-> CoinB  hash :
 - [] call swap CoinB-> CoinA  hash :
 
-##   06 SDK PTB
+##   06 Dapp-kit SDK PTB
 - [] save hash :
