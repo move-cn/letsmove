@@ -97,10 +97,10 @@
     superstruct "^1.0.3"
     tweetnacl "^1.0.3"
 
-"@mysten/sui.js@^0.51.2":
-  version "0.51.2"
-  resolved "https://registry.npmmirror.com/@mysten/sui.js/-/sui.js-0.51.2.tgz"
-  integrity sha512-RRG/VHhVvkQlWqodFZagRxVDo3SbXh4e3xTBplhPNNyybugbWj/V+wGrNv5/KtxfVxHBw6jTCoB798ijqPBq7g==
+"@mysten/sui.js@^0.52.0":
+  version "0.52.0"
+  resolved "https://registry.npmmirror.com/@mysten/sui.js/-/sui.js-0.52.0.tgz"
+  integrity sha512-oqfA0O/STWDJgnxvu07HsDRybG8yD3pfqAhADFawZTthbPdl6U01qJQVCzW7yf2OqG9AkYWHT+392rVcVjbcnw==
   dependencies:
     "@graphql-typed-document-node/core" "^3.2.0"
     "@mysten/bcs" "0.11.1"
@@ -730,10 +730,10 @@ nanoid@^3.3.7:
   resolved "https://registry.npmmirror.com/nanoid/-/nanoid-3.3.7.tgz"
   integrity sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==
 
-navi-sdk@^1.1.20:
-  version "1.1.20"
-  resolved "https://registry.npmmirror.com/navi-sdk/-/navi-sdk-1.1.20.tgz"
-  integrity sha512-SX27OeGWQpCT4TFBVbx8yi0ik5jhOaytmqsZnezmfTDDcGLfBZFuWySDkxSad5w//NR5vu0UjGsLQHuRiMJ6Gg==
+navi-sdk@^1.1.21:
+  version "1.1.21"
+  resolved "https://registry.npmmirror.com/navi-sdk/-/navi-sdk-1.1.21.tgz"
+  integrity sha512-AumnovQqslq9WSUOrJiILDH/Jh/ygslJS2WNcIIfovG4HpSLx+Q8qKHjg3bydsnnFIr4o0qdPiMb1K2nB8mwMQ==
   dependencies:
     "@mysten/sui.js" "^0.50.1"
     axios "^1.6.7"
