@@ -14,7 +14,8 @@
 
 ##   01 hello move  
 - [] Sui cli version:
-- [] Sui钱包截图: ![Sui钱包截图]()
+- [] Sui钱包截图: ![image](https://github.com/chmod777john/letsmove/assets/146207719/8df7ca7a-f505-4a40-80e8-dfab0b572284)
+
 - [] package id: 
 - [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
 
