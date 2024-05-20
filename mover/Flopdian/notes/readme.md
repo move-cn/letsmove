@@ -43,3 +43,11 @@ sui client call --package $PACKAGE_ID --module flopdiannft --function mint_to --
 Transaction Digest: CpjTD5cakMKHgoZz9BppAym8hSZ3ASLGQgJu8ECUmVTW
 
 ObjectID: 0xfe8976de95bd6274e486871b674c64639cde0483a0d7d9505242c6ecd8729517                 
+
+## task6
+
+npm install
+
+npm run dev
+
+transaction digest: {"digest":"7FuGnQ8hZX4pE7yMwpKB5DGocEub8SxWzHbzKDYNh5E2","confirmedLocalExecution":true}
