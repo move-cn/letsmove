@@ -12,7 +12,7 @@
 ## 任务
 
 ##   01 hello move
-- [x] Sui cli version:
+- [x] Sui cli version: sui 1.25.0-b10ea7331e1c
 - [x] package id: 0x464dc567abf77bc2ae3ba3424ea9d336279c88558d136dadea3702a5a2d1e3dc
 - [x] package id 在 scan上的查看截图: [sui-scan](https://suiscan.xyz/testnet/object/0x464dc567abf77bc2ae3ba3424ea9d336279c88558d136dadea3702a5a2d1e3dc/contracts)
 
