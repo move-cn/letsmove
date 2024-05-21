@@ -194,3 +194,10 @@ Transaction Digest: 3FuozTZCPppir3karAA9GBJ8ATe65AUzsZhET3vFbR4E
 │  │ Amount: -501                                                                                                                        │
 │  └──                                                                                                                                   │
 ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+# taks5
+
+参考了和https://github.com/suiet/wallet-kit
+参考了[https://kit.suiet.app/docs/tutorial/connect-dapp-with-wallets]()和[https://github.com/suiet/wallet-kit](https://github.com/suiet/wallet-kit)
+
+hash: FWEVZ6L9YEfNCpKB8f9wDFtg9hxVdw4KvAqvjQeYuWWf
