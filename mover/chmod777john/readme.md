@@ -14,8 +14,9 @@
 
 ##   01 hello move  
 - [] Sui cli version: sui 1.24.1-d63ccc6
-- [] Sui钱包截图: ![image](https://github.com/chmod777john/letsmove/assets/146207719/8df7ca7a-f505-4a40-80e8-dfab0b572284)
+- [] Sui钱包截图: ![image](https://github.com/chmod777john/letsmove/assets/146207719/e08b21e3-3459-419c-8556-5b1b6768e10a)
 
 - [] package id: 0x3d74725bf9be7475c2371b2d8b5393ee99262760c35cb6427127b84b72b1fb83
-- [] package id 在 scan上的查看截图: ![image](https://github.com/chmod777john/letsmove/assets/146207719/673590ed-e3f6-4864-86df-2a054b4099fd)
+- [] package id 在 scan上的查看截图: ![image](https://github.com/chmod777john/letsmove/assets/146207719/0e739627-9ea2-4477-a3d7-3c10dfd88e4f)
+
 
