@@ -13,35 +13,9 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:
+- [] Sui cli version: sui 1.24.1-d63ccc6
 - [] Sui钱包截图: ![image](https://github.com/chmod777john/letsmove/assets/146207719/8df7ca7a-f505-4a40-80e8-dfab0b572284)
 
-- [] package id: 
-- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+- [] package id: 0x3d74725bf9be7475c2371b2d8b5393ee99262760c35cb6427127b84b72b1fb83
+- [] package id 在 scan上的查看截图: ![image](https://github.com/chmod777john/letsmove/assets/146207719/673590ed-e3f6-4864-86df-2a054b4099fd)
 
-##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
-
-##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
-
-##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
-
-##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
-
-##   06 Dapp-kit SDK PTB
-- [] save hash :
