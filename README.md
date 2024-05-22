@@ -40,7 +40,8 @@ Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move�
 | [task 6](task/06.SDK_PTB_NAVI.md)          | sdk ptb    | ￥20（NAVX）  | 完成SDK学习，并用SDK完成链上交互    |
 | [defi](https://dacade.org/communities/sui) | defi       |   95SUI    | 完成Defi学习挑战             |
 
-
+## 快速开始
+如果不想本地安装或者本地安装 sui 工具链时遇到难以解决的环境问题，可以在此页面直接按下 `,` 键，GitHub 网页会提示你创建一个 Codespace，按照指示创建即可。构建几分钟后，它会为你提供一个 Linux 虚拟机，已经预先安装好 sui cli 并且有网页端 vscode 界面供你编辑代码和执行指令，move 语言支持插件也已安装。**请注意，这意味着你练习时所用的钱包私钥也将存储在该虚拟机中，出于安全考虑，请不要将此钱包作为你的实际资金钱包！**
 
 ## 学习资料
 
