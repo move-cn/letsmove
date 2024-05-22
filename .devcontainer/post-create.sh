@@ -7,6 +7,8 @@ tar -xzvf ./sui-installer -C ./sui-install
 wget -O ./sui-install/sui-move-analyzer https://github.com/movebit/sui-move-analyzer/releases/download/v1.1.5/sui-move-analyzer-ubuntu22.04-x86_64-v1.1.5
 chmod +x ./sui-install/sui-move-analyzer
 
+echo "export PATH=$PATH:~/sui-install" >> ~/.bashrc
+
 # 安装 rust 工具链
 wget -O rust-setup.sh https://sh.rustup.rs
 chmod +x rust-setup.sh
