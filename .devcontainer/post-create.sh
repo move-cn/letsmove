@@ -4,7 +4,8 @@ wget -O sui-installer https://github.com/MystenLabs/sui/releases/download/mainne
 mkdir ./sui-install
 tar -xzvf ./sui-installer -C ./sui-install
 
-echo "export PATH=$PATH:~/sui-install" >> ~/.bashrc
+wget -O ./sui-install/sui-move-analyzer https://github.com/movebit/sui-move-analyzer/releases/download/v1.1.5/sui-move-analyzer-ubuntu22.04-x86_64-v1.1.5
+chmod +x ./sui-install/sui-move-analyzer
 
 # 安装 rust 工具链
 wget -O rust-setup.sh https://sh.rustup.rs
