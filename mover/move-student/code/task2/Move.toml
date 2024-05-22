@@ -1,0 +1,12 @@
+[package]
+name = "task2"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+
+[addresses]
+task2 = "0x0"
+myaddress = "0x1592241ffbb4fd58ce33ce592d1b5c7bc9308f4cf96fde5b24fb4c6de1b51251"
+
