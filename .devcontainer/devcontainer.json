@@ -1,28 +1,22 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
 	"name": "Let's Move",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
 
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "sh .devcontainer/post-create.sh",
 
-	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"MoveBit.sui-move-analyzer"
-			]
+			],
+			"settings": {
+				// 这里原则上是不用指定这个路径的，但是实际尝试发现，如果不指定这个路径的话，即使在PATH中能找到 sui-move-analyzer, 插件也会报错
+				"sui-move-analyzer.server.path": "/home/vscode/sui-install/sui-move-analyzer"
+			}
 		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {}
 	}
 
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
 }
