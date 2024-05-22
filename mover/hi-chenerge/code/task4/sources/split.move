@@ -8,6 +8,7 @@ module task4::split {
     use sui::coin;
     use sui::coin::{Coin};
     use sui::event::emit;
+    use sui::object;
     use sui::random;
     use sui::random::{Random, new_generator};
     use sui::table;

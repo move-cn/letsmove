@@ -28,4 +28,11 @@ module task2::chenerge_faucet {
                           ctx: &mut TxContext) {
         coin::mint_and_transfer(treasury_cap, amount, to, ctx);
     }
+
+
+    #[test_only]
+    /// Wrapper of module initializer for testing
+    public fun test_init(ctx: &mut TxContext) {
+        init(CHENERGE_FAUCET {}, ctx)
+    }
 }
