@@ -126,3 +126,19 @@ https://suiscan.xyz/mainnet/object/0xf01b9c73ad3b205ff2d4666266168173df0bd4d1c06
 sui client call --function mint_and_transfer --module m4sk93_nft --package 0xf01b9c73ad3b205ff2d4666266168173df0bd4d1c0661b80d59803c2ba64fe70 --args first_m4sk93_nft 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2  --gas-budget 50000000
 ```
 https://suiscan.xyz/mainnet/tx/5QnRk6wUasMNYzXpVjHyMiBmtyhCJ4wEfMrUWLyrfio8
+
+## task4
+
+### 如何使用task2的合约
+```
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+m4sk93_faucet_coin= { local = "../../task2/m4sk93_faucet_coin" }
+```
+同时修改m4sk93_faucet_coin的Move.toml
+```
+[package]
+published-at = "0xe799e4d1324db8877c827cb4ca78dc065a8f9ef70fbe705e4c8c37250e195982" # package id
+[addresses]
+m4sk93_faucet_coin = "0xe799e4d1324db8877c827cb4ca78dc065a8f9ef70fbe705e4c8c37250e195982" # package id
+```
