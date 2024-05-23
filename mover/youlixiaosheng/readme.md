@@ -16,8 +16,10 @@
 
 ## 01 hello move
 
+- [x] Sui cli version: 1.24.1-d63ccc6-dirty
 - [x] package id: 0xd2aa88461b990803b98562b6ab68562a10027046fe7649776103ee5f8cbee3c4
-
+- [x] Sui钱包截图: ![Sui钱包截图](./images/wallet.png)
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/img.png)
 
 ## 02 move coin
 
