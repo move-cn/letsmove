@@ -14,13 +14,14 @@
 ##   01 hello move  
 - [] package id: 0x5f6d5213c3cdb56286707ceb714847ac1e1a82bdddc99f7212791f3287826cce
 - [] sui钱包截图：./images/task1.png
-- [] suiscan package截图：./images/task1/package.png
+- [] package id 在scan上的截图：./images/package1.png
 - [] sui cli version: sui-client 1.24 
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [] My Coin package id : 0x3351f49d3b515fd3cf79cd0d95ad239416552d2857a3d9a6955b013d86581a09
+- [] Faucet package id : 0x3351f49d3b515fd3cf79cd0d95ad239416552d2857a3d9a6955b013d86581a09
+- [] 转账 `My Coin` hash: 3sW3QLM4FvbpTGE2S7GcYVhjupeSbdpdyCZx5tZDSkKn
+- [] 转账 ‘faucet coin’ hash：6GTXMvtU63HRUEbQdAGTT4sPkAEjA567dQoWH6gtzChq， EfdPYrEtUPQpbYvEbWpFc8KTySB2tP4Mk7hhPbKJ4GcT
 
 ##   03 move NFT
 - [] nft package id :
