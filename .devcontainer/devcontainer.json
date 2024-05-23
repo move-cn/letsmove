@@ -2,7 +2,7 @@
 	"name": "Let's Move",
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
 
-	"postCreateCommand": "sh .devcontainer/post-create.sh",
+	"onCreateCommand": "sh .devcontainer/install.sh",
 
 	"customizations": {
 		"vscode": {
