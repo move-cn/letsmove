@@ -1,0 +1,14 @@
+[package]
+name = "hello_move"
+edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+
+[dependencies]
+Sui = { git = "https://gitee.com/mystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/devnet" }
+
+[addresses]
+hello_move = "0x0"
+
+
+[dev-dependencies]
+
+[dev-addresses]
