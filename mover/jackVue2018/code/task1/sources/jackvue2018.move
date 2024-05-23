@@ -14,6 +14,6 @@ module hello_move::hello {
             id:object::new(ctx),
             say: string(b"Hello jack2018!"),
         };
-        transfer(hello_move, sender(ctx));
+        transfer(hello_move, sender(ctx));  
     }
 }
