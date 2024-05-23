@@ -93,7 +93,7 @@ module t4::game {
             //将余额从coin中解构
             let mut init_balance = coin::into_balance(input);
             if (input_value > game.ticket) {
-                //将余额存入游戏的余额中
+                //将门票钱存入游戏的余额中
                 balance::join(
                     &mut game.pool,
                     //拆出单据游戏需要使用的门票额度
