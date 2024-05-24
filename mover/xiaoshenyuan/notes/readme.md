@@ -16,7 +16,6 @@ error[E03004]: unbound type
 Failed to build Move modules: Compilation error.
 
 需要换一个类名
-
 ## game
 
 sui client publish --gas-budget 40000000
