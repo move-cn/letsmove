@@ -16,15 +16,10 @@
     - PackageID: `0x3c682ffbf21b6fd472e282d3c56efd9998ae032e7b683bb2d750517da75119d3`
     - Mint transaction Digest: `BYUZsKUWMhjX7MFnJQe8DRSueTRohPEmPcqk7qGudZvs`
 
+## Task 3
 
-
-<!-- **MY_COIN TODOS**
-- [V] Devnet 測試發佈，成功鑄造 OXO token | [task2_mycoin_devnet 操作指令與終端機紀錄](/mover/do0x0ob/notes/task2_mycoin_devnet.md)
-- [ ] MainNet 正式發佈
-    - [ ] 修改幣的圖片為 `github` 頭像
-
-
-**FAUCET_COIN TODOS**
-- [V] Devnet 測試發佈，成功鑄造 OXO_Faucet token | [task2_faucetcoin_devnet 操作指令與終端機紀錄](/mover/do0x0ob/notes/task2_faucetcoin_devnet.md)
-- [V] MainNet 正式發佈，成功鑄造 OXO Token | [task2_faucetcoin_mainnet 操作指令與終端機紀錄](/mover/do0x0ob/notes/task2_faucetcoin_mainnet.md)
-    - [V] 修改幣的圖片為 `github` 頭像 -->
+- **My_nft Mainnet 合約發布、鑄造信息：**
+    - PackageID: `0x5cda0cbbbf309ae32ee89a229ba063df4de442e6e864a3c6c9792386d354daf6`
+    - Mint_cap object ID: `0x0d00935a97843eafac730a966bb5e0663e6b6c2e623221ba4b0a0672287300b0`
+    - MyNFT_Collection object ID: `0xad97706913ba3aac235e7e0495ac6517f8fadb0a959e9ee1ea902d00e1a51127`
+    - minted nft object id: `0xf6cbedd17173b5da49062bdfae63bb154e9d9a2f075072db657b1947a8e162ab`
