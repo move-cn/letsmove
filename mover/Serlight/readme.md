@@ -31,5 +31,6 @@
 - [] call game hash:
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [] swap package id : 0x7168e5002c7feda0447c7c1ab4d475bca7d79a54c1562ff67bad427b815fa6fe
+- [] call swap CoinA-> CoinB  hash : GofkcVuchButPEaUrFWc1NkQwHaFfkwkfRJaNAmM6BZP
+- [] call swap CoinB-> CoinA  hash : GRWS2gMGozSY6eUjjgXGmuJqLZqPfHuTCchjiaDdqXvo
