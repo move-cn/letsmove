@@ -142,3 +142,8 @@ published-at = "0xe799e4d1324db8877c827cb4ca78dc065a8f9ef70fbe705e4c8c37250e1959
 [addresses]
 m4sk93_faucet_coin = "0xe799e4d1324db8877c827cb4ca78dc065a8f9ef70fbe705e4c8c37250e195982" # package id
 ```
+## task5
+
+https://github.com/MystenLabs/sui/blob/main/sui_programmability/examples/defi/sources/pool.move
+
+https://github.com/sui-foundation/sui-move-intro-course/blob/main/unit-three/lessons/3_witness_design_pattern.md#the-phantom-keyword
