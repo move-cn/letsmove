@@ -19,9 +19,9 @@
 - [] package id 在 scan上的查看截图: (.\code\task1\hello_move\image\task1_scan.png)
 
 ##   02 move coin
-- [] My Coin package id : 0xf2b4b04f4a4f1eb1a062276c6a732b5690ff39fb3556052f9fbb983578e6970f
-- [] Faucet package id : 0x17b8269f442073f12e01e771a01e81e34729e77b79180260b4ed80a173dfdc16
-- [] 转账 `My Coin` hash: DHUqZZuvpXerY9gwnx6abDbwQwkfSyTyZaZLDxEeTTrb(.\code\task2\coin\image\my_coin_hash.png)
+- [] My Coin package id :
+- [] Faucet package id :
+- [] 转账 `My Coin` hash:
 
 ##   03 move NFT
 - [] nft package id :
