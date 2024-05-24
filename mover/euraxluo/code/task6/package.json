@@ -1,0 +1,16 @@
+{
+  "name": "task6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "task6": "ts-node task6.ts",
+    "round4": "ts-node round4_suisdk.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "navi-sdk": "^1.1.21",
+    "ts-node": "^10.9.2"
+  }
+}
