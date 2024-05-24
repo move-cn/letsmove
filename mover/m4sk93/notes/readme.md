@@ -147,3 +147,55 @@ m4sk93_faucet_coin = "0xe799e4d1324db8877c827cb4ca78dc065a8f9ef70fbe705e4c8c3725
 https://github.com/MystenLabs/sui/blob/main/sui_programmability/examples/defi/sources/pool.move
 
 https://github.com/sui-foundation/sui-move-intro-course/blob/main/unit-three/lessons/3_witness_design_pattern.md#the-phantom-keyword
+
+## task6
+
+### dapp-kit helloword
+- https://sdk.mystenlabs.com/dapp-kit
+- [Let's move - Sui Dapp Kit Hello Sui交互](https://www.learnblockchain.cn/article/7514)
+
+```
+$ npm create @mysten/dapp
+▸ react-client-dapp React Client dApp that reads data from wallet and the blockchain
+  react-e2e-counter React dApp with a move smart contract that implements a distributed counter
+
+$ cd my-first-sui-dapp && tree
+.
+├── index.html
+├── package.json
+├── prettier.config.cjs
+├── README.md
+├── src
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── OwnedObjects.tsx
+│   ├── vite-env.d.ts
+│   └── WalletStatus.tsx
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+2 directories, 12 files
+```
+之前已经在chrome安装了钱包,直接执行查看一下效果
+```
+$ npm install
+$ npm run dev
+
+  VITE v4.5.3  ready in 186 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h to show help
+```
+连接钱包后显示
+```
+Wallet Status
+Wallet connected
+Address: 0xe13......
+Objects owned by the connected wallet
+Object ID: 0x287......
+Object ID: 0xce0......
+```
+
+关于.tsx：在TypeScript语言中支持JSX语法.TypeScript编译器可以将JSX语法转换为React.createElement函数调用的形式，从而在运行时创建React组件。
