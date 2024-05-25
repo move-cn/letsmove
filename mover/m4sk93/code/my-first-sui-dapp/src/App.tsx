@@ -3,6 +3,17 @@ import { Box, Container, Flex, Heading } from "@radix-ui/themes";
 import { WalletStatus } from "./WalletStatus";
 
 function App() {
+  function showConfirm(): void {
+      let userConfirmed = confirm("你确定要进行这个操作吗？");
+      if (userConfirmed) {
+          console.log("用户点击了确定。");
+          // 这里编写用户点击确定后的逻辑
+      } else {
+          console.log("用户点击了取消。");
+          // 这里编写用户点击取消后的逻辑
+      }
+  }
+ 
   return (
     <>
       <Flex
@@ -32,6 +43,7 @@ function App() {
           <WalletStatus />
         </Container>
       </Container>
+      <button onClick={showConfirm}>Test</button>
     </>
   );
 }
