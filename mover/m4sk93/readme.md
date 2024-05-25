@@ -52,4 +52,4 @@ mainnet:
 - [x] call swap CoinB-> CoinA  hash :7hGAPDFroEq2d81Haw7yGn2kXQ2YxkotCjkNHZJRe6oy
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [X] save hash :7Mt6Cu9xSEWRxCdPsczZEbi6NBCYYa2JnBN21pz3Nifh

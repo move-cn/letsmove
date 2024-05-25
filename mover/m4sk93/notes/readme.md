@@ -199,3 +199,27 @@ Object ID: 0xce0......
 ```
 
 关于.tsx：在TypeScript语言中支持JSX语法.TypeScript编译器可以将JSX语法转换为React.createElement函数调用的形式，从而在运行时创建React组件。
+
+
+### PDT
+
+Programmable Transaction Blocks
+https://docs.sui.io/concepts/transactions/prog-txn-blocks
+PTBs allow a user to call multiple Move functions, manage their objects, and manage their coins in a single transaction--without publishing a new Move package.
+
+```
+npm i @mysten/sui.js
+npm i navi-sdk
+```
+https://naviprotocol.gitbook.io/navi-protocol-developer-docs/how-to-interact-with-the-contract/navi-sdk#navi-flash-loan-sample
+https://sdk.mystenlabs.com/dapp-kit/wallet-hooks/useSignAndExecuteTransactionBlock
+
+Navi不能在devnet/testnet中使用？?
+修改main.tsx 中的defaultNetwork
+```
+        <SuiClientProvider networks={networkConfig} defaultNetwork="mainnet">
+```
+https://suiscan.xyz/mainnet/tx/7Mt6Cu9xSEWRxCdPsczZEbi6NBCYYa2JnBN21pz3Nifh
+
+Todo:
+- withdrawCoin测试失败
