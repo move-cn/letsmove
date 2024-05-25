@@ -18,9 +18,15 @@
 - [] object内容为github id: ![alt text](image-2.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [] My Coin package id : 0x2edfbab877bf2f3bcb332dd72b462fdeea08ba1843507eabe3893ad6295b750e
+- [] TreasureCap id : 0x9f0f2155507f40c177382742af9d38fcd367823741d087f712276fb519361507
+- [] 转账 `My Coin` hash : DBeQS4YTP5Qm1Q4Rq2Da1Btcwq5eNh8dmqByg4R1ZN3d
+
+
+- [] Faucet package id : 0xb2167a378a72d98ceeebb73ace9b0f28c41067ba5f0f2e9112826943fa9f894b
+- [] TreasureCap id : 0x99ebcc8ff545ddbb58fad0a1895a3025c2bd50706d7b57b9fab6e2505df82757
+- [] Faucet mint hash1 : AHfSHa1Vb2urAa9ZkPWpDxUJCuCcqKYQZAY7AzKhRJoU
+- [] Faucet mint hash2 : 8BzWKQ8E7GFWoRmsX5zbdcDZw3V6priGsfDDtbZUWZ51
 
 ##   03 move NFT
 - [] nft package id :
