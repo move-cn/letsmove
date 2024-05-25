@@ -1,4 +1,5 @@
 module game::xiaoshenyuan_game {
+    use game::random;
     use std::string::{Self, String};
     use sui::clock::{Self, Clock};
     use sui::event;
@@ -12,8 +13,8 @@ module game::xiaoshenyuan_game {
     const EInputNotEnough: u64 = 2;
 
     public struct GameResult has copy, drop {
-        your_roll: u8,
-        npc_roll: u8,
+        your_roll: u64,
+        npc_roll: u64,
         result: String,
         is_winner: bool,
     }
@@ -54,15 +55,15 @@ module game::xiaoshenyuan_game {
         transfer::transfer(admin_cap, sender(ctx));
     }
 
-    fun get_random_roll(clock: &Clock) : u8 {
-        ((clock::timestamp_ms(clock) % 6) + 1) as u8
+    fun get_random_roll(ctx: &mut TxContext) : u64 {
+        random::rand_u64_range(0, 3, ctx)
     }
 
-    fun get_random_roll_2(clock: &Clock) : u8 {
-        (((clock::timestamp_ms(clock) /100) % 6) + 1) as u8
+    fun get_random_roll_2(ctx: &mut TxContext) : u64 {
+        random::rand_u64_range(0, 3, ctx)
     }
 
-    public entry fun play(game: &mut Game, input: Coin<XIAOSHENYUAN_FAUCET_COIN>, clock: &Clock, ctx: &mut TxContext) {
+    public entry fun play(game: &mut Game, input: Coin<XIAOSHENYUAN_FAUCET_COIN>, ctx: &mut TxContext) {
         
         assert!(balance::value(&game.pool) >= game.reward - game.ticket, EPoolNotEnough);
 
@@ -81,8 +82,8 @@ module game::xiaoshenyuan_game {
             balance::join(&mut game.pool, input_balance);
         };
 
-        let player_roll = get_random_roll_2(clock);
-        let npc_roll = get_random_roll(clock);
+        let player_roll = get_random_roll_2(ctx);
+        let npc_roll = get_random_roll(ctx);
         let (result, is_winner) = if (player_roll > npc_roll) {
             (string::utf8(b"Win"), true)
         } else if (player_roll == npc_roll) {

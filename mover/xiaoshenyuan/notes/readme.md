@@ -18,31 +18,31 @@ Failed to build Move modules: Compilation error.
 需要换一个类名
 ## game
 
-sui client publish --gas-budget 40000000
+sui client publish
 
-export PACKAGE_ID=0x207f2ab082b865c101527389255cda7b0dc2016c2dd9c21adfa59ef436c43264
-export GAME_ID=0xc6908be7ef663ae6c9f594be0576858d551b34a28c50bc7a504976297658df3a
-export ADMIN_CAP=0x7cfa9c51e992267a1dd3825486d790508b8ac9a1bc2b7a96df76fad6a5cc10b7 
+export PACKAGE_ID=0x6dac3de3bbe52fac96b80b6335d2857996959743e015ebbf91a1dc549cac4808
+export GAME_ID=0x909ded25bac3d42a9eff76ca7f77a21d91b0994afbd4e73ce0e953914b69750b
+export ADMIN_CAP=0x0e805f968542d3f7f67fbb501bb575001153a6ebffc0f4fdc284a2dc85af574c 
 
 export FAUCET=0x1410e0c310cc65ba2708bec2fc081660667ee51678b76a3ca7a5e029b6724b29
 
 sui client call --package $PACKAGE_ID --module xiaoshenyuan_game --function get_faucet_coin --args $FAUCET 10000000 --gas-budget 10000000
 
-export FAUCET_COIN=0xa9653adc3eb3ca91e2775521eb76891d3ac3f33b6266270de275e64fdcc689fa    
+export FAUCET_COIN=0xda10d9209f73ee835d298808115052b83f8d5f61dde062655ab14733b932158a       
 
 sui client call --package $PACKAGE_ID --module xiaoshenyuan_game --function deposit --args $GAME_ID  $FAUCET_COIN 5000000 --gas-budget 20000000
 
-Transaction Digest: HrsmKQV9qNkUnqavxLDab7iLUFCyKgEw9MVdAwf2uAGH
+Transaction Digest: 5ndnHuk9jv8Yp5nbggT93z64sMjqqozGL8e36M6yjdXM
 
-export GAME_COIN=0x9133ea5531da48ae6405104f2ae820206a01ff2bd15e3190f45e0e62fb01f7f7  
+export GAME_COIN=0x85d5a146f35ccc2e4f36f42a5a082fb3793f2712f5df2e684c0593292ee0cd97
 
-sui client call --package $PACKAGE_ID --module xiaoshenyuan_game --function play --args $GAME_ID $GAME_COIN 0x6 --gas-budget 100000000
+sui client call --package $PACKAGE_ID --module xiaoshenyuan_game --function play --args $GAME_ID $GAME_COIN --gas-budget 100000000
 
-Transaction Digest: 7ttUaQrY7dDup8a8iNnUfgfAeL73Qb63sjqSpTBwtGkB
+Transaction Digest: BRJMSZjobDfwCutJQkPDq1xaqekhzLhGsD1NNq35AcRW
 
 sui client call --package $PACKAGE_ID --module xiaoshenyuan_game --function withdraw --args $ADMIN_CAP $GAME_ID 2000 --gas-budget 10000000
 
-Transaction Digest: ftLFTVYN8DLHWEe9NemiWWazZ3ZfSffxBGvc1jZf9rs
+Transaction Digest: 6EgHgd5xPXtFs8HsRfhfqCn323iP9s4wTMBeenKGrGuw
 
 ## swap
 
