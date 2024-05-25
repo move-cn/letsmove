@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0xca49c632bd47ee3687b06cf46a64dd35a20cc70b2d06e326fe922170e2d3d1de`
+- Sui钱包地址: `0xe71e4e7036ed652728d9cbfe91e9ea5bf915318dd7fa8604fcdc8dc7785082d5`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `0xhutou`
 
@@ -12,7 +12,10 @@
 ## 任务
 
 ##   01 hello move  
-- [] package id: 
+- [] package id: 0x2914220ffe2c350e481729a7591a34c351910834187be73c2178d71c804d0cd6
+- [] Sui Cli Version: ![alt text](image.png)
+- [] 插件安装截图: ![alt text](image-1.png)
+- [] object内容为github id: ![alt text](image-2.png)
 
 ##   02 move coin
 - [] My Coin package id : 
