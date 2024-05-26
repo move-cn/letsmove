@@ -1,0 +1,7 @@
+mainnet
+aiqubit_faucet : 0xe8854e7ea330d0e794e12e8ef1dbd7e9e4c6f55fabd3978b60575df599ab3d06
+aiqubit_coin : 0x17636e03c667ef7f98138252cb68ed6bed56fe5c07869459f2e6195822cb1ffb
+
+testnet 
+aiqubit_faucet : 0xe8854e7ea330d0e794e12e8ef1dbd7e9e4c6f55fabd3978b60575df599ab3d06
+aiqubit_coin : 0x17636e03c667ef7f98138252cb68ed6bed56fe5c07869459f2e6195822cb1ffb
