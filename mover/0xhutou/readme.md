@@ -29,9 +29,10 @@
 - [] Faucet mint hash2 : 8BzWKQ8E7GFWoRmsX5zbdcDZw3V6priGsfDDtbZUWZ51
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [] nft package id : 0x700945ac0913a6f8659d0e440857fb74fa0959d9c7003501d8b311f7536978a8
+- [] nft object id : 0x018a7dd60b06e58a63e96728f529ac3a9cb376c887be6a34ebb74e9c6f67796e
+- [] 图片是Pinata上传到ipfs服务器的，但是不知道为什么在钱包里不显示
+- [] 转账 nft  hash: Hq3mwRp11graqzqXY5Ccx3QSqYSrtmgzDP9pV7L5gJqX
 
 ##   04 Move Game
 - [] game package id :
