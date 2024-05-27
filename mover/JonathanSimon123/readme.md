@@ -44,4 +44,4 @@
 
 ## 06 SDK PTB
 
-- [] save hash : [H3wDm2c3kk3jKSkjUKQi2YKDdLuvkgZKXP274SrBhL2P](https://suiscan.xyz/mainnet/tx/H3wDm2c3kk3jKSkjUKQi2YKDdLuvkgZKXP274SrBhL2P)
+- [X] save hash : [H3wDm2c3kk3jKSkjUKQi2YKDdLuvkgZKXP274SrBhL2P](https://suiscan.xyz/mainnet/tx/H3wDm2c3kk3jKSkjUKQi2YKDdLuvkgZKXP274SrBhL2P)
