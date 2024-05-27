@@ -39,3 +39,8 @@
 - [x] deposit Coin hash: CUF8Uo6WfDpd1t35V7kSpCeR6yiTjRrXUbp7m6EnHN2m
 - [x] withdraw `Coin` hash: FaQwyHcxZrpQpNVgFodUXAd1q6oWmFSVvrhH64EguFWe
 - [x] play game hash: FUVArxYE7cYBpdFe2EEjyXXmzuEBD2Y5NWk5Dnb2Cp9F
+
+##   05 Move Swap
+- [x] swap package id : 0x953a2bdd989331efea910108dae3308bae4ede698850beba96bce4bf60d6450a
+- [x] call swap CoinA-> CoinB  hash :  7QosWTtZqEWjbNkQLYA3zeFbJitnfzQzNNAgR1J311DN
+- [x] call swap CoinB-> CoinA  hash :  6b1jHQzMbdkbypiXs562YxikPZrc2XRdVvqUpegJjAPS
