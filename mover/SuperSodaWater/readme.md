@@ -19,28 +19,28 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./notes/baojietu.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id :  0x2eb7369f7d2c7e0da2e8a4352eb24196ad999dbc7ab2c417b0097b1a3a8deb87            
+- [x] Faucet package id :  0x2eb7369f7d2c7e0da2e8a4352eb24196ad999dbc7ab2c417b0097b1a3a8deb87            
+- [x] 转账 `My Coin` hash: HWRLhTNwm3HSRPtMxXKcmGh5jAKXxMgt4Nw7MrGwqEx6
+- [x] `Faucet Coin` address1 mint hash: 4kBnDkb45kQFvWCmzxLVr8eookxs4rR5148d7LMTGsVn
+- [x] `Faucet Coin` address2 mint hash: 29DqaDmi4WrxxwV9qhUr99bdVS97aBeFd5owvrGxfgAL
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id : 0xb27dc64ab89843ba3180fe65f5c0ca652e81540967d7fe45bfc912246cf615fa 
+- [x] nft object id :  0xc7b19f0f3610827db95e7c927d3eb7ddb1c807680b934ac06ebdec03024b78fe
+- [x] 转账 nft  hash:  7casryDrsaviZH9CUFDymFUJ6duWRdctLgswc9zhmNRj
+- [x] scan上的NFT截图:![Scan截图](./notes/nftjietu.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : 0x0d33fcbc055f0ba93dff73c6ca25f5cff6173ef088def2a304701628b73e438d  
+- [x] deposit Coin hash: 5Ntx6Miafvr5BvgGYoB5mrcGsiyXkUhg1iZvmUqP3hNn
+- [x] withdraw `Coin` hash:  BTDf9yVpzWzN4Fuy12cgWnn4QGNoNSZHgro8D1hSocGY
+- [x] play game hash: GY8Qrq1dmXxsWSQhT9aerZGnt19GVafDiSLKujstw24e
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0xe49343d46b1a41c68b4cfe06a2c1b2ea704cba9bfdeab7ddbd61058bbe30c37c
+- [x] call swap CoinA-> CoinB  hash : 5ci8ZS16zvD4UahhKvpQsizJb8QM8MBvBukHmAvCUhzr
+- [x] call swap CoinB-> CoinA  hash : 3Hhb9JKx1KDsRkxp2XQdhUKfSRQtt8hKHwW7WdteUz51
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : [orqLVPxSmfHD64QsXGJfbTdnnxzrwnCARyRMJdZhVSS](https://suivision.xyz/txblock/orqLVPxSmfHD64QsXGJfbTdnnxzrwnCARyRMJdZhVSS)
