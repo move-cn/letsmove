@@ -8,7 +8,7 @@
 - 技术栈: `C++`
 > 重要提示 请认真写自己的简介
 - 多年嵌入式开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `yemachinexu` 
+- 联系方式: tg: `yemachine` 
 
 ## 任务
 
@@ -19,11 +19,11 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./notes/packa.jpg)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id :  0x5e4f05ba8ef877ab17d079939eb13ce0e21785da7379e00772fed6a6beeaeecb          
+- [x] Faucet package id :  0x5e4f05ba8ef877ab17d079939eb13ce0e21785da7379e00772fed6a6beeaeecb          
+- [x] 转账 `My Coin` hash: CjFf3tLbtMPg2gouEhbscBnSefEADtUy3ZG7Vos8mYKk
+- [x] `Faucet Coin` address1 mint hash: Dw4kBJ3zkJT1ufTqg1ruaK3MCDNTeW3rcNBYXUy69g19
+- [x] `Faucet Coin` address2 mint hash:  Hmyk97516gfDnPfFs7AfqgYSMETA8Rz83wgRyK3gnFVq
 
 ##   03 move NFT
 - [] nft package id :
