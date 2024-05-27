@@ -188,3 +188,99 @@ Transaction Digest: CiToCsPnbfP2mkWrwERmUr8x1f7LeJr24yy2561jZFrD
 sui client call --package $PACKAGE_ID --module yibinjay_game --function withdraw --args $ADMIN_CAP $GAME_ID 2000 --gas-budget 10000000
 
 Transaction Digest: 5tDLMSNkGkGB5B1B4T8XGzBYgDFk8w5UUCwRMr7hZgHb
+
+
+task5:
+
+task2中的两种coin
+
+faucet: 0x2::coin::TreasuryCap<0xe55f387b15347ce3200e408c1213ee2a6f5951875d8239124c7555e7bc4d029c::yibinjay_faucet_coin::YIBINJAY_FAUCET_COIN>
+
+coin:
+0x2::coin::TreasuryCap<0xe55f387b15347ce3200e408c1213ee2a6f5951875d8239124c7555e7bc4d029c::yibinjay_coin::YIBINJAY_COIN>
+
+export COIN=0xe55f387b15347ce3200e408c1213ee2a6f5951875d8239124c7555e7bc4d029c::yibinjay_coin::YIBINJAY_COIN
+export FAUCET=0xe55f387b15347ce3200e408c1213ee2a6f5951875d8239124c7555e7bc4d029c::yibinjay_faucet_coin::YIBINJAY_FAUCET_COIN
+
+sui client publish --gas-budget 50000000
+
+PackageID: 0x0cd49e2217686cae5de14459a5a9f7721b7561362c6b181563033c77fb5acc65
+
+export SWAPACKAGE_ID=0x0cd49e2217686cae5de14459a5a9f7721b7561362c6b181563033c77fb5acc65
+
+faucet ObjectID: 0x4a10aaba6964df60beea7c48fa6fb3ffc7f4b999d481ab4c315b9dbd7426b84f
+
+coin ObjectID: 0xc50d10f8bb12c572144438916967ef41bf6efb7a34acd901492d5e7b9f4c3ee4 
+
+export COIN_OBJECT=0xc50d10f8bb12c572144438916967ef41bf6efb7a34acd901492d5e7b9f4c3ee4 
+export FAUCET_OBJECT=0x4a10aaba6964df60beea7c48fa6fb3ffc7f4b999d481ab4c315b9dbd7426b84f
+export MY_ADDRESS=0x8766fc99c2c3f9099d52d03126b5d04695bd9e1febcbdb9859fe56aedd00d394
+
+export CPACKAGE_ID=0xe55f387b15347ce3200e408c1213ee2a6f5951875d8239124c7555e7bc4d029c
+
+mint coin:
+
+sui client call --gas-budget 7500000 --package $CPACKAGE_ID --module yibinjay_coin --function mint --args $COIN_OBJECT 1000 $MY_ADDRESS
+
+coinId: ObjectID: 0xedd6fb4675733de5615584b8df66fa9c12499ef634a75d79721933a6f44d630f 
+
+mint faucet:
+
+sui client call --gas-budget 7500000 --package $CPACKAGE_ID --module yibinjay_faucet_coin --function mint --args $FAUCET_OBJECT 1000 $MY_ADDRESS
+
+facuetId: ObjectID: 0x1b108cc7b5cba416ecb533b5aaaa5dba25e744ab220a08308e698f6b140e893e
+
+export COIN_1=0xedd6fb4675733de5615584b8df66fa9c12499ef634a75d79721933a6f44d630f
+
+export FAUCET_1=0x1b108cc7b5cba416ecb533b5aaaa5dba25e744ab220a08308e698f6b140e893e
+
+creat pool:
+
+sui client call --gas-budget 7500000 --package $SWAPACKAGE_ID --module yibinjay_swap --function create_pool --type-args $COIN $FAUCET --args $COIN_1 $FAUCET_1
+
+Transaction Digest: 3Gy3mB9x7fop4psW3dhNqTX8mg3asUJNv1TPyLFP6m4y
+
+pool:  ObjectID: 0x2e71a8a20898478cd6f1088cc625e9008c3db1b40c31475864dba1f7fd31df65 
+
+export POOL_ID=0x2e71a8a20898478cd6f1088cc625e9008c3db1b40c31475864dba1f7fd31df65
+
+swap coin to faucet:
+
+mint coin: sui client call --gas-budget 7500000 --package $CPACKAGE_ID --module yibinjay_coin --function mint --args $COIN_OBJECT 1000 $MY_ADDRESS
+
+ObjectID: 0xb34c7d8961c08281e57e31617ee1de5678795e094456917114fbd8b60d6a7f65
+
+export COIN_2=0xb34c7d8961c08281e57e31617ee1de5678795e094456917114fbd8b60d6a7f65
+
+sui client call --gas-budget 7500000 --package $SWAPACKAGE_ID --module yibinjay_swap --function swap_a_to_b --type-args $COIN $FAUCET --args $POOL_ID $COIN_2
+
+Transaction Digest: GwrVA7QfD8rPYtui4V4XCGkLLXFKNFEWWNXMrSAqgrHx
+
+swap faucet to coin: 
+
+mint faucet: sui client call --gas-budget 7500000 --package $CPACKAGE_ID --module yibinjay_faucet_coin --function mint --args $FAUCET_OBJECT 1000 $MY_ADDRESS
+
+ObjectID: 0x2fe43f74aba07840e1f48a8dd6c15b081c559ded6c23dbc765ed680ab2ca7a65  
+
+export FAUCET_2=0x2fe43f74aba07840e1f48a8dd6c15b081c559ded6c23dbc765ed680ab2ca7a65
+
+sui client call --gas-budget 7500000 --package $SWAPACKAGE_ID --module yibinjay_swap --function swap_b_to_a --type-args $COIN $FAUCET --args $POOL_ID $FAUCET_2
+
+Transaction Digest: E4yHc2jQkpkDf3mAVgqbpeAq8RhEGmV4MnqDzD5fHSSS
+
+sui client balance
+
+╭────────────────────────────────────────────────────────────╮
+│ Balance of coins owned by this address                     │
+├────────────────────────────────────────────────────────────┤
+│ ╭────────────────────────────────────────────────────────╮ │
+│ │ coin             balance (raw)  balance                │ │
+│ ├────────────────────────────────────────────────────────┤ │
+│ │ Sui              14612486720    14.61 SUI              │ │
+│ │ unknown          961            0.00 unknown_symbol    │ │
+│ │ YibinJay         1002           0.00 YIBINJAY_COIN     │ │
+│ │ YIBINJAY_FAUCET  36002401       0.03 YIBINJAY_FAUCET   │ │
+│ ╰────────────────────────────────────────────────────────╯ │
+╰────────────────────────────────────────────────────────────╯
+
+交换这个任务做完，每个coin都有了和
