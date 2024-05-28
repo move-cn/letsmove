@@ -159,8 +159,8 @@ module t5::gaowanlang_swap {
         assert!(lsp_value > 0, EZeroAmount);
         let (pool_a_value, pool_b_value, lsp_supply) = get_amounts(pool);
 
-        let a_value = pool_b_value * lsp_value / lsp_supply;
-        let b_value = pool_a_value * lsp_value / lsp_supply;
+        let a_value = pool_a_value * lsp_value / lsp_supply;
+        let b_value = pool_b_value * lsp_value / lsp_supply;
         //移除LSP供应
         balance::decrease_supply(&mut pool.lsp_supply, coin::into_balance(lsp));
         (
