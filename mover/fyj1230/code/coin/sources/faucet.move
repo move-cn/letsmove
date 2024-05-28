@@ -12,7 +12,7 @@ module coin::fyj1230_faucet_coin {
             b"FYJ1230_FAUCET",
             b"FYJ1230_FAUCET",
             b"fyj1230's faucet coin, everyone can access and mutate.",
-            option::some<Url>(url::new_unsafe_from_bytes(b"https://avatars.githubusercontent.com/u/167279232")),
+            option::some<Url>(url::new_unsafe_from_bytes(b"https://avatars.githubusercontent.com/u/167277561")),
             ctx
         );
         transfer::public_freeze_object(metadata);
