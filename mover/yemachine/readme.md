@@ -39,9 +39,9 @@
 `只有devnet的0x8才有效，所以play game的hash是在devnet上的`
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0x6f91c83bca8557b322e8a228db4afb24b3172f76cd79fa7fba2d2cb45e7e7c0d 
+- [x] call swap CoinA-> CoinB  hash : 25auTNc6iPqJy1ra3rwLZF9BEraUsFAESYMVvReuAJdt
+- [x] call swap CoinB-> CoinA  hash : 7nSHZyXhi5fbSLSACMNQLrLCEq4vsnd4TDHnhNk1h4Hs
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :
