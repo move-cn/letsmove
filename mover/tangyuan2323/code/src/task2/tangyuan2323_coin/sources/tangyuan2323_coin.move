@@ -8,8 +8,8 @@ module tangyuan2323_coin::tangyuan2323_coin {
 
     struct Tangyuan2323Coin has drop {}
 
-    fun init(waitness: MYTangyuan2323Coin, ctx: &mut sui::tx_context::TxContext) {
-        let (treasury_cap, meta) = coin::create_currency(waitness,2,b"Tangyuan2323Coin", b"T$n", b"", 
+    fun init(witness: MYTangyuan2323Coin, ctx: &mut sui::tx_context::TxContext) {
+        let (treasury_cap, meta) = coin::create_currency(witness,2,b"Tangyuan2323Coin", b"T$n", b"", 
         option::some<Url>(url::new_unsafe_from_bytes(b"https://avatars.githubusercontent.com/u/70282618?s=96&v=4")), ctx);
 
         transfer::public_freeze_object(meta);
