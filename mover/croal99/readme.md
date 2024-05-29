@@ -33,10 +33,37 @@
 - [x] scan上的NFT截图:![Scan截图](./images/task_03_image_01.png) ![截图2](./images/task_03_image_02.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : 0x898f87e55e4cb51758f6bec2df4c59f5ae2b12b345c764799e62809ea12351fc
+- [x] deposit Coin hash: 0xdc78fb5114def8e7d0d01f1af4ced2061e3c5b68aa17d70492ab0d6fcfcaec09
+- [x] withdraw `Coin` hash: ERerTRV5dQCht54AYscJT962mgaZ34ar7JPFkX3fiTTL
+- [x] play game hash: 7GjU8c14kPYuxDKti2Jz4Hxrb7h29pfK6ntmTM5f6cCV
+
+game 包含自己 github id的元素 **croal99_choice**
+```ini
+╭────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Transaction Block Events                                                                                       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│  ┌──                                                                                                           │
+│  │ EventID: ERerTRV5dQCht54AYscJT962mgaZ34ar7JPFkX3fiTTL:0                                                     │
+│  │ PackageID: 0x898f87e55e4cb51758f6bec2df4c59f5ae2b12b345c764799e62809ea12351fc                               │
+│  │ Transaction Module: blue_game                                                                               │
+│  │ Sender: 0x167b61dcef37260fc8335e15a16cbad0a2f3ddc8a511169820f0c013396f205b                                  │
+│  │ EventType: 0x898f87e55e4cb51758f6bec2df4c59f5ae2b12b345c764799e62809ea12351fc::blue_game::GamingResultEvent │
+│  │ ParsedJSON:                                                                                                 │
+│  │   ┌────────────────┬──────────┐                                                                             │
+│  │   │ croal99_choice │ scissors │                                                                             │
+│  │   ├────────────────┼──────────┤                                                                             │
+│  │   │ is_win         │ true     │                                                                             │
+│  │   ├────────────────┼──────────┤                                                                             │
+│  │   │ result         │ You win  │                                                                             │
+│  │   ├────────────────┼──────────┤                                                                             │
+│  │   │ your_choice    │ paper    │                                                                             │
+│  │   └────────────────┴──────────┘                                                                             │
+│  └──                                                                                                           │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+```
+
 
 ##   05 Move Swap
 - [] swap package id :
