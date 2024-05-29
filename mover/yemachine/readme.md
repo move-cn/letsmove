@@ -32,15 +32,16 @@
 - [x] scan上的NFT截图:![Scan截图](./notes/nftscan.jpg)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id `mainnet`: 0x317cbce842ec95f3112a0591981c85a0af8083ae49a7e371ee468dab0e7e4f6f  
+- [x] deposit Coin hash `mainnet`: LpUYhJooFgRNpcML4ymJLXf5rPwj7FzUZga8Y48CCyz
+- [x] withdraw `Coin` hash `mainnet`: 4TaLpU68G7UfNqmn8raV43sDxeMpH6z9Snw97KNKaF3E
+- [x] play game hash `devnet`:  Dc67L6nT7kW9BQcbE5CagSHy6PyeEC3Se5Ha68krEsEg
+`只有devnet的0x8才有效，所以play game的hash是在devnet上的`
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0x6f91c83bca8557b322e8a228db4afb24b3172f76cd79fa7fba2d2cb45e7e7c0d 
+- [x] call swap CoinA-> CoinB  hash : 25auTNc6iPqJy1ra3rwLZF9BEraUsFAESYMVvReuAJdt
+- [x] call swap CoinB-> CoinA  hash : 7nSHZyXhi5fbSLSACMNQLrLCEq4vsnd4TDHnhNk1h4Hs
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :
