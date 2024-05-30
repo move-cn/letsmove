@@ -16,7 +16,7 @@ module meepo_coin::meepo_faucet {
 
     transfer::public_freeze_object(metadata);
     transfer::public_share_object(treasury)
-  }
+  } 
 
   public entry fun mint(treasury_cap: &mut TreasuryCap<MEEPO_FAUCET>, amount: u64, recipient: address, ctx: &mut TxContext) {
     coin::mint_and_transfer(treasury_cap, amount, recipient, ctx);
