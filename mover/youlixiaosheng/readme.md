@@ -31,6 +31,6 @@
 
 ##   03 move NFT
 - [x] nft package id :  0xcb55fd222851047e986c1a757816b2548358f3362abc9eba05c32a5f01acb074
-- [x] nft object id : 0x0add790ba13bacbb94b3ea7d488507c79a6f7e3ebddb0ddc71735e440726992f
+- [x] nft object id : 0x19f30c95b3572796b8203185681cde50519c23d9de8438ce6da534e1ee0b7f30
 - [x] 转账 nft  hash: CC6st2o5Vrgpns4o3ryPw4qCLga83HDcFL9E4RaRE3y4
-- [x] scan上的NFT截图:![Scan截图](images/screenshot-20240530-150408.png)
+- [x] scan上的NFT截图:![Scan截图](images/screenshot-2png.png)
