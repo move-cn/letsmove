@@ -26,10 +26,10 @@ https://github.com/321llljjjfff123
 - [] `Faucet Coin` address2 mint hash: 84wK2a3ipACH3gYSFePAHgDmC1M8qSxJ67rb3y7pCKar
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
+- [] nft package id :0xbf66e72c16353edc64c3fa3251fbf91e3e77a8ed808e0a5ce82c2a54aa6a955f
+- [] nft object id : 0xd9bf34d46eb38e8d9ffda6365ccac86ea2f92b2d033193d10c5c1e92c15d148c
 - [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+7qkAXBiVRfuhDwcpDoiMkxifbzvF4XwghsHGbFBjgpUv
 
 ##   04 Move Game
 - [] game package id :
