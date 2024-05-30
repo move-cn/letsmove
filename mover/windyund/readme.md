@@ -15,22 +15,22 @@
 - [x] package id: 0xc0eebd839014d04943513751bc71ac2b67187e9d43e426ced4fb4a562eb81ee1
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [x] My Coin package id :  0xe010cfbda44d5424ce493de8b181f8fb7316360de78688b585f271f6961bc51e
+- [x] Faucet package id :   0xe010cfbda44d5424ce493de8b181f8fb7316360de78688b585f271f6961bc51e
+- [x] 转账 `My Coin` hash:   4nA89MBgTRS3u1acKACryY2gwtxiWQS9DTNpNA3yrQXo
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [x] nft package id : 0x7961437babb116662cb51f99d80b410219142a8c179317cd5e0c78fa0b156b09
+- [x] nft object id :  0xf1eb64bd21866b84bd69ab0c644351004acac87214f55d964dc49f8d105c9c59
+- [x] 转账 nft  hash:   Ds1ckPNkKNwfrwZSSCSLUwPCscsKeZALmd4znJieY7wE
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [x] game package id : 0x8b1a2836062ea21d7d253d5f9e2469c0e15479f3deb81f315ba59651ed3dc860
+- [x] call game hash: EbqLGNvU7SH9Fd57yrMDJtc5T4WF1514rcsrCCXL19L2
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id :0x40de0e713249894ffd47d14d55a32b65b9e38f3f6df94b5e4ef586cd9e20743a
+- [x] call swap hash: 3iDPajSQ754Mk8q51ATrRywN4FPWuJthbcivDzq4iRBn
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : Cy6VJhAzwmVmX4K8tX9tFAim1Q8HdDYVM2ea8Nq9ayac

@@ -1,0 +1,13 @@
+{
+    "name": "task6",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "main.js",
+    "scripts": {
+      "start": "node main.js"
+    },
+    "dependencies": {
+      "navi-sdk": "^1.1.20"
+    }
+  }
+  

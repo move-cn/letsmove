@@ -4,9 +4,9 @@
 - github: `dlongx`
 
 ## 个人简介
-- 工作经验: 5年
-- 技术栈: `Rust` `C++`
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
+- 工作经验: 无
+- 技术栈: `Rust` 
+- 对区块链web3特别感兴趣，想通过Move入门区块链
 - 联系方式: tg: `xxx` 
 
 ## 任务
@@ -20,17 +20,17 @@
 - [x] 转账 `My Coin` hash:7tMTJT2aYncmhuqnPc4y67SzaTqgHBuzafBuGGSv4wDd
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [x] nft package id :0x2deab8a3a8a10c6e0f6052a1dfc5c6557a41e1936089463eb6f98ebf5b0a8349
+- [x] nft object id : 0xc8d66fbd953acc540e1bafe4fae3273f760a8797fd35d4c31602cc1cae536183
+- [x] 转账 nft  hash:GtJcCaNfMguv6ax4ysJWL2k9wDMGcntGg8zzTimbtiTJ
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [x] game package id :0x7df2eb4d0e57fd731a8eca34bb98c16c6f6f91a4912c3d074600fb9400704ca1
+- [x] call game hash:3JQEocNsn61ymbjSfvCJa6dNYf6BVFKx5gAMyMMMWuKK
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id :0xa27e8dca5cf11147b4fa8ac4590a06b2fd84dac24e4b499fded6b4b885c60f91[https://testnet.suivision.xyz/package/0xa27e8dca5cf11147b4fa8ac4590a06b2fd84dac24e4b499fded6b4b885c60f91]
+- [x] call swap hash:CV8nAqGDjinSW9LqBjqfRbZ9ke6WK8Gy1KJnDvXwhVex[https://testnet.suivision.xyz/txblock/CV8nAqGDjinSW9LqBjqfRbZ9ke6WK8Gy1KJnDvXwhVex]
 
 ##   06 SDK PTB
-- [] save hash :
+- [X] save hash :[https://suivision.xyz/txblock/Bd5NiqNa4cL7yDw7d9diMS8gdeKe39ZV3ok4Hb9fMY1y]
