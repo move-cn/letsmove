@@ -2,8 +2,17 @@
 
 [move]
 version = 2
-manifest_digest = "6EFD235D730180E6C4ED0CE14D8E98B7038FA286E5FBABA96E241231C6E4CD5E"
-deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
+manifest_digest = "6A773DAC75508F81BAB797954A51DED62E07FDB5CA905DEECCDEA03CEA687A9B"
+deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
+dependencies = [
+  { name = "Faucet" },
+  { name = "Sui" },
+]
+
+[[move.package]]
+name = "Faucet"
+source = { local = "../../task2/Faucet" }
+
 dependencies = [
   { name = "Sui" },
 ]
@@ -27,14 +36,8 @@ flavor = "sui"
 
 [env]
 
-[env.mainnet]
-chain-id = "35834a8a"
-original-published-id = "0xb2167a378a72d98ceeebb73ace9b0f28c41067ba5f0f2e9112826943fa9f894b"
-latest-published-id = "0xb2167a378a72d98ceeebb73ace9b0f28c41067ba5f0f2e9112826943fa9f894b"
-published-version = "1"
-
 [env.devnet]
 chain-id = "bd665407"
-original-published-id = "0xefbe3c211b8b4eee86194522d46f11ed2d3998cc33c5c080a3ba5c84bc5df6e8"
-latest-published-id = "0xefbe3c211b8b4eee86194522d46f11ed2d3998cc33c5c080a3ba5c84bc5df6e8"
+original-published-id = "0x70399eaafab25d70c790a021137aef094952753f4532ad5c4fa079ee2f3ff7a1"
+latest-published-id = "0x70399eaafab25d70c790a021137aef094952753f4532ad5c4fa079ee2f3ff7a1"
 published-version = "1"
