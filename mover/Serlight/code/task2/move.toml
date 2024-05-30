@@ -1,0 +1,25 @@
+[package]
+name = "meepo_coin"
+edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+# license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
+authors = ["Serlight ()"]
+# dev_coin_packegid= '0x3c205d3fb89b5e60fe89a75fcebc11a435b0844a385647a25cb806149ba70050'
+# coin_object_id = '0xb4bf8f12aa9c7a482bf821a9ead48726de95b2024b62f24af707c1975ac0cea9'
+# faucet_object_id = '0xe79fa538ed7cbc0d32a8215f193579345e646a9944c9da9843e8b96a3a4762d1'
+
+# mainnet
+# packageId = '0xcb44b7898e31545dd925ae02e50a3da3a10f71a7a1eb2bb8239ba592885a179a'
+# coin_object_id = '0x57b25e70956df14900541b8658055cb7d90cd963df3fe7fac277dfd142156403'
+# faucet_object_id = '0x1be5eacda0d6d8e18318dad13dc911692e42a31476aaaa43752252eadbc1f5be'
+
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+# For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
+# Revision can be a branch, a tag, and a commit hash.
+# MyRemotePackage = { git = "https://some.remote/host.git", subdir = "remote/path", rev = "main" }
+
+
+[addresses]
+meepo_coin = "0x0"

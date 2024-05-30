@@ -24,5 +24,8 @@
 - [x] call game hash: WIN: HsVY7L2W7hR1s8Ksp2BKgQVsSz2pUYLcaKu7wLfWkHk4(create_game), 7GUpbYQZDKcrTDFfrTZxpZXxhEToxsqe4JUW2N9rBPFp(choose_hand)<br>LOSE: AvmRSyQuz35deGZ7MsL3pAptuzg2QhBezrgg8kuFv228(create_game), BUEWya61uryXyHhQPDaSDQh97Ck9KTrYJbAT4yZXA6t2(choose_hand)
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id: 0xbf3da4e4174fda08f963abf9380e64aedec4d310dbd4a8e03ed4f653c05452ef
+- [x] call swap hash: a_swap_b: DKmL6aTL5XNbv32eCVzMqTiqsaEhBJ6uqHhUHFYug44S<br>b_swap_a: Bj17GAWCkc9muyr4JtoPEWhKEhyZd23MVMSN5nLU4R1e
+
+##   06 SDK PTB
+- [x] save hash: 3MT5e4a5LKQxijfsdYepApwPzSEQopTEB5iGj7TjbySi

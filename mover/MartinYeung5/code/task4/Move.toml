@@ -1,0 +1,12 @@
+[package]
+name = "martinyeung5"
+version = "0.0.1"
+edition = "2024.beta"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+fungible_tokens = { local = "./testnet_task2" }
+
+[addresses]
+martinyeung5 = "0x0"
+fungible_tokens = "0x5fd6c233a9876649cde33f240d2b42581ad479270a10ef1dc6689fd3ed5a4764"

@@ -1,0 +1,38 @@
+切换到主网
+sui client switch --env mainnet
+
+设置所有人(我的钱包地址)
+export OWNER=0x3b0cc452cb011d0aa552802c07c221ce0c93c16ea93042b5c8d8a8da95f096cc
+
+设置接收人
+export RECEIPT_ADDRESS=0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
+
+创建项目并进入目录
+sui move new task2 && cd task2
+
+编译合约
+sui move build
+
+发布合约
+sui client publish --gas-budget=100000000
+
+获取 MY_COIN 和 FAUCET_COIN 的 ObjectID
+注意：
+ObjectType 类型是: 0x2::coin::TreasuryCap
+ObjectType 后面的值是 my_coin::MY_COIN 或者 faucet_coin::FAUCET_COIN
+
+MY_COIN ObjectID (Object Changes -> ObjectID 并且 ObjectType: 0x2::coin::TreasuryCap  以 my_coin::MY_COIN> 结尾)
+0xa829104c713cd80c979b862782246e39613db5ae07e40644d4b878f507a15969
+
+FAUCET_COIN ObjectID (Object Changes -> ObjectID 并且 ObjectType: 0x2::coin::TreasuryCap  以 faucet_coin::FAUCET_COIN> 结尾)
+0x791b6be4f798027cff998ab37be9723cd7464355625a60827a51a4830563bc90
+
+拿到 faucet_coin 和 my_coin 的 PackageID	(Object Changes -> Created Objects -> Published Objects -> PackageID)
+0xe9b7e2055016f4c9d6150440c6280f8258339dea7bbcb907f12cb77e94468717
+
+转 100 个(包含精度) my_coin 到指定地址
+sui client call --function mint --module my_coin --package PackageID --args 代币 数量 接收人地址 --gas-budget 20000000
+sui client call --function mint --module my_coin --package 0xe9b7e2055016f4c9d6150440c6280f8258339dea7bbcb907f12cb77e94468717 --args 0xa829104c713cd80c979b862782246e39613db5ae07e40644d4b878f507a15969 100000000000 $RECEIPT_ADDRESS --gas-budget 50000000
+
+获取转账交易 hash (Transaction Digest)
+8epkKByvERCc5JRZ6AMttz49ioY3JNRa1FA3oMjnQ6ua

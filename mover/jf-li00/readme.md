@@ -27,4 +27,4 @@
 - [x] call swap hash: `J6JTybk7HuzUFBg2iuBrja71LSWawWq4sDzF7eyy88xm`[https://suiscan.xyz/testnet/tx/J6JTybk7HuzUFBg2iuBrja71LSWawWq4sDzF7eyy88xm]
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : `5gBAgdmc21YWiPnTeALQk3WLfZEVJpxookffjCM3CYT9`[https://suiscan.xyz/mainnet/tx/5gBAgdmc21YWiPnTeALQk3WLfZEVJpxookffjCM3CYT9]
