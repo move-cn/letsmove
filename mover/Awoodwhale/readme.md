@@ -25,12 +25,13 @@
 - [x] 转账 nft  hash: [2pfdx53izPh4rEFG5hdqiBtRoreF2WStqjvHsybBKbyL](https://suivision.xyz/txblock/2pfdx53izPh4rEFG5hdqiBtRoreF2WStqjvHsybBKbyL?tab=Overview)
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [x] game package id : [0xdddaf5dfefa3e3e5dd90ded8f4db27255f942f852f17a0e2edaf57af17141a0b](https://suivision.xyz/package/0xdddaf5dfefa3e3e5dd90ded8f4db27255f942f852f17a0e2edaf57af17141a0b)
+- [x] call game hash: [AoFddTfX5HdcH9UcuaZqCVaumSbu5rqGAGxWKC8QU4BV](https://suivision.xyz/txblock/AoFddTfX5HdcH9UcuaZqCVaumSbu5rqGAGxWKC8QU4BV)
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id : [0xe8838f240d927214cb71f2e6a1160711591598644724348ff736082d100749b2](https://suivision.xyz/package/0xe8838f240d927214cb71f2e6a1160711591598644724348ff736082d100749b2)
+- [x] call swap hash: [77CfaE6qHHdyc2VioB6pG9zhn4RJtwDXQvLA5xGTKVE5](https://suivision.xyz/txblock/77CfaE6qHHdyc2VioB6pG9zhn4RJtwDXQvLA5xGTKVE5)
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : [8KPuGxGNSRzdedV6onvisrgMjVuYT3Pcqt1G4PdDzg5p](https://suivision.xyz/txblock/8KPuGxGNSRzdedV6onvisrgMjVuYT3Pcqt1G4PdDzg5p?tab=Overview)
+

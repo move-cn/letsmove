@@ -1,0 +1,39 @@
+## 基本信息
+- Sui钱包地址: `0x91ae9033b4293acdf1a0b39c791a234f71a41842ec549902441faee6995a1cb8`
+- github: `github.com/galagala123`
+
+## 个人简介
+- 技术栈: `java` `golang`
+- web2从业者，想往web3方向发展
+- 联系方式: tg: `galagalagala123` 
+
+## 任务
+
+##   01 hello world
+发布对象：0x64d5e3ae9a5b0ed2084db40af60a1f5d2b2da01528859e2682903f11df7f5361
+调用合约产生对象：0xa1dfe77f58c0d1b9024f6647d6e9c6198a165d77fe2dd53f00586bd1adf5128e
+
+##   02 coin代币
+发布对象： 0x8ec13221507367a8e9870be8b905cee35fde699fbbe6fe174584453f38775003
+共享锁定对象： 0xfa34c295bfef059e6f7e442f07a1d1a3b175072cb70dec34264f37fa1472936a
+共享对象：0xfa917b68fcf084480e066769eec578dec3c48f2d7d9bfafb9af12d54a0c3f647
+mint代币对象：0x77c9321d42e06225f2961902e28161a0a6d42d8afabfe2012ec852efc272ebae
+
+##   03 nft
+发布对象：0xf6feecbdd4852d7b2022ff12e62fb0581ead1a02e7410ff0de97b3902bebeb87
+nft: 0x8e605a3e6771eead9ea21814f73c8d34168b471299e633b50c5062e6520c20eb 
+
+##   04 三子棋游戏
+发布对象：0x78f215c41310628e0a5b5da3dfddb9f4216b346700c32cd21d3f634e22971a9e
+共享对象：0x99f8e94981d014cb5aadb05b6c4db55ad7a8afbf489b343d0dc1cdeb362f9703
+
+##   06 task6
+转入对象：5VQXrLDdWonH49WJsio2wyHcjzv8SWoMCkZmJWeHqU29
+转出对象：8TyikJDNdKaackUjJDwdX8jq26EGcjBAQFGYr1ymikfW
+
+##   05 task5
+发布对象：0x028b5c3de3755f009a3b044c44fd21ecd8f2dbf723ea1aa8641555a6cfc4478e
+代币a类型:0x357e64040603032e5f315d4b4c2a24a4a909ab0cb6df384482806f7e7cb80f03::ccoin::CCOIN
+代币b:0xedefe681880efd592942766d935d1976a969e20e7fdc1dfa33a7943694889485::dcoin::DCOIN
+池子对象：0x35ce2072cd59522d318d3790c7299efb03221b0b9c9c7a8f6838aad7f4b68ecf
+swap对象：D3CYyD2khmmYEuuMbGL4rRUuugXdtuYH3oSQZZ7SBENU
