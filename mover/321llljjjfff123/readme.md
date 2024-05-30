@@ -19,11 +19,11 @@ https://github.com/321llljjjfff123
 - [] package id 在 scan上的查看截图:![Scan截图](./images/scan上的查看截图.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [] My Coin package id : 0x24cff64767f0d2fb8414f46a1a50a66cb70fe3eba3d88e12018f947be0720a58
+- [] Faucet package id : 0x85b1dbc2eb7888905a704a3c66d5fc38b9d0f2a4da19a2de76494b0de1ac12dc0x85b1dbc2eb7888905a704a3c66d5fc38b9d0f2a4da19a2de76494b0de1ac12dc
+- [] 转账 `My Coin` hash: https://suiscan.xyz/testnet/tx/5MaSpJHujniTgA9PUxCB2vXqgQiLkf8do3U5X1F3w7xf
+- [] `Faucet Coin` address1 mint hash: nk75c33mk3B2Esi7RqTyyjBJVpNXfqAg4EMDfEAAnmC
+- [] `Faucet Coin` address2 mint hash: 84wK2a3ipACH3gYSFePAHgDmC1M8qSxJ67rb3y7pCKar
 
 ##   03 move NFT
 - [] nft package id :
