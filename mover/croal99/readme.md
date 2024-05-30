@@ -20,23 +20,50 @@
 - [X] package id 在 scan上的查看截图:![Scan截图](./images/task_01_image_02.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id : 0xb9e23639b708f03e0a928c362436406dca9cf4ccc28af29f4388bc3894bcb3cd
+- [x] Faucet package id : 0x1034a40b9cc60e947910dea55e8c3a68421460d105bec425328a9f64859238e0
+- [x] 转账 `My Coin` hash: 0xacedf7dd91fada351eb9128ea0fe6410df141657b335555370c7491365715321
+- [x] `Faucet Coin` address1 mint hash: 9eM8jHTJvq5ZAacBU1HQ9YfHPi2DjxYuF49HoHXWYtj2
+- [x] `Faucet Coin` address2 mint hash: 44hPLC6XcGpwKCiZcZ1FjmX7oq2MgWT3fd5JSVYrGJRn
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id : 0x355a186a5f9905a8cee04bb15219b6a2c077cfa5f7a42a80c3cc8218c8dc86d4
+- [x] nft object id : 0x2b44b1293e575b831954effa7fb85ac10fd7be22ab4ea29fef71ad6b4e4c17e2
+- [x] 转账 nft  hash: G3eCJBsr1fsZp94EEena1TSoe1RBAUtPCRcj7E9YpT6w
+- [x] scan上的NFT截图:![Scan截图](./images/task_03_image_01.png) ![截图2](./images/task_03_image_02.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : 0x898f87e55e4cb51758f6bec2df4c59f5ae2b12b345c764799e62809ea12351fc
+- [x] deposit Coin hash: 0xdc78fb5114def8e7d0d01f1af4ced2061e3c5b68aa17d70492ab0d6fcfcaec09
+- [x] withdraw `Coin` hash: ERerTRV5dQCht54AYscJT962mgaZ34ar7JPFkX3fiTTL
+- [x] play game hash: 7GjU8c14kPYuxDKti2Jz4Hxrb7h29pfK6ntmTM5f6cCV
+
+game 包含自己 github id的元素 **croal99_choice**
+```ini
+╭────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Transaction Block Events                                                                                       │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│  ┌──                                                                                                           │
+│  │ EventID: ERerTRV5dQCht54AYscJT962mgaZ34ar7JPFkX3fiTTL:0                                                     │
+│  │ PackageID: 0x898f87e55e4cb51758f6bec2df4c59f5ae2b12b345c764799e62809ea12351fc                               │
+│  │ Transaction Module: blue_game                                                                               │
+│  │ Sender: 0x167b61dcef37260fc8335e15a16cbad0a2f3ddc8a511169820f0c013396f205b                                  │
+│  │ EventType: 0x898f87e55e4cb51758f6bec2df4c59f5ae2b12b345c764799e62809ea12351fc::blue_game::GamingResultEvent │
+│  │ ParsedJSON:                                                                                                 │
+│  │   ┌────────────────┬──────────┐                                                                             │
+│  │   │ croal99_choice │ scissors │                                                                             │
+│  │   ├────────────────┼──────────┤                                                                             │
+│  │   │ is_win         │ true     │                                                                             │
+│  │   ├────────────────┼──────────┤                                                                             │
+│  │   │ result         │ You win  │                                                                             │
+│  │   ├────────────────┼──────────┤                                                                             │
+│  │   │ your_choice    │ paper    │                                                                             │
+│  │   └────────────────┴──────────┘                                                                             │
+│  └──                                                                                                           │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+```
+
 
 ##   05 Move Swap
 - [] swap package id :
