@@ -144,4 +144,5 @@ module game::game {
     public entry fun get_faucet_coin(treasury_cap: &mut TreasuryCap<FAUCET_COIN>, amount: u64, ctx: &mut TxContext) {
         faucet_coin::mint(treasury_cap, amount, sender(ctx), ctx);
     }
-}
+    
+
