@@ -171,24 +171,16 @@ module game::fyj1230_game {
         return value
     }
 
-    // Generate a random u64
     fun rand_u64_with_seed(_seed: vector<u8>): u64 {
         bytes_to_u64(_seed)
     }
 
-    // Generate a random integer range in [low, high).
     fun rand_u64_range_with_seed(_seed: vector<u8>, low: u64, high: u64): u64 {
         assert!(high > low, ERR_HIGH_ARG_GREATER_THAN_LOW_ARG);
         let value = rand_u64_with_seed(_seed);
         (value % (high - low)) + low
     }
 
-    // Generate a random u64
-    public fun rand_u64(ctx: &mut TxContext): u64 {
-        rand_u64_with_seed(seed(ctx))
-    }
-
-    // Generate a random integer range in [low, high).
     public fun rand_u64_range(low: u64, high: u64, ctx: &mut TxContext): u64 {
         rand_u64_range_with_seed(seed(ctx), low, high)
     }
