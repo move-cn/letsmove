@@ -3,6 +3,8 @@ name = "faucetcoin"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
+#published-at = "0x06f08f31cb1e000334e03cd0214380d5ab9df2d1c206de675b392f587ce95069"  # testnet
+published-at = "0x05f461a5c2285387449600b09c5dda42d514f1a9608ea4a9555bf564789a451e"   # mainnet
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
@@ -19,7 +21,8 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-faucetcoin = "0x0"
+#faucetcoin = "0x06f08f31cb1e000334e03cd0214380d5ab9df2d1c206de675b392f587ce95069"  # testnet
+faucetcoin = "0x05f461a5c2285387449600b09c5dda42d514f1a9608ea4a9555bf564789a451e"   # mainnet
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
