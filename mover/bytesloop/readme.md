@@ -34,4 +34,4 @@
 - [x] call swap hash: `https://suiscan.xyz/testnet/tx/9zr3rEQabQfyn94gFZtEDM6SUUqgd32ftgkKVzdWiU9o` (rmb to usd)
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : `https://suivision.xyz/txblock/EfrEkzsnQjydVrnFdZwhSCWPDF3oiM1qnpMYHuzD6wb7`
