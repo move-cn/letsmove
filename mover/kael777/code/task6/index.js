@@ -6,22 +6,22 @@ import { Sui } from 'navi-sdk/dist/address.js'
 const words = ``
 
 // 账户
-const client = new NAVISDKClient({mnemonic: words, networkType: "mainnet"})
+const client = new NAVISDKClient({ mnemonic: words, networkType: "testent" })
 
 // 地址
 const account = client.accounts[0]
 
 const main = async () => {
-    try{
+    try {
         console.log(`account address is:${account.address}`)
         // 存钱
         let res = await account.depositToNavi(Sui, 1)
         console.log(res)
         console.log(`===============================`)
         // 取钱
-        res  = await account.withdraw(Sui, 1)
+        res = await account.withdraw(Sui, 1)
         console.log(res)
-    }catch(e){
+    } catch (e) {
         console.error(e)
     }
 }

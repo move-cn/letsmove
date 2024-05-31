@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Example</title>
+  <script type="module" src="defi.js" defer></script>
+</head>
+
+<body>
+  <input type="text" id="key" placeholder="获取助记词">
+  <button id="submit">提交</button>
+
+  <script>
+    function submit () {
+      var inputContent = document.getElementById('key').value
+      fetch('http://localhost:3000/save-mnemonic', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ mnemonic: inputContent }),
+      })
+        .then(response => response.text())
+        .then(data => console.log('Mnemonic saved:', data))
+        .catch(error => console.error('Error saving mnemonic:', error))
+    }
+
+    document.getElementById('submit').addEventListener('click', submit)
+  </script>
+</body>
+
+</html>
