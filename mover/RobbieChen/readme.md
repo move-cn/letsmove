@@ -33,8 +33,9 @@
 - [] call game hash:
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [] swap package id : 0x1e74adb0c5f560a2042eb9a61bbbe93577ebef2a58ab461521b8ed2d1f6a1978
+- [] swap coina_to_coinb hash:  6o1DPSMGYvoiP9f3GJ4KMjEAXaiBZ8EiYLqzrJzB9ufc
+- [] swap coinb_to_coina hash: EXARGoTLUhqpNurtn2rqqJJmm2ya47JeKYUYNSNRh3EF
 
 ##   06 SDK PTB
 - [] save hash :
