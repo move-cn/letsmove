@@ -1,3 +1,4 @@
+/*
 #[test_only]
 module faucetcoin::faucetcoin_tests {
     // uncomment this line to import the module
@@ -15,3 +16,4 @@ module faucetcoin::faucetcoin_tests {
         abort ENotImplemented
     }
 }
+*/
