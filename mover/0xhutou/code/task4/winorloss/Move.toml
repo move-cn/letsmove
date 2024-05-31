@@ -1,12 +1,12 @@
 [package]
-name = "Faucet"
-published-at = "0xefbe3c211b8b4eee86194522d46f11ed2d3998cc33c5c080a3ba5c84bc5df6e8"
+name = "winorloss"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+Faucet = { local = "../../task2/Faucet" }
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
@@ -20,9 +20,7 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-# faucet = "0x0"
-faucet = "0xefbe3c211b8b4eee86194522d46f11ed2d3998cc33c5c080a3ba5c84bc5df6e8"
-# shared object 0x8f04e6d6fc749963e223d113e388e12ea8fb615d8ab5ea262825faccf57f7d0a
+winorloss = "0x0"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.

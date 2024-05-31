@@ -35,8 +35,11 @@
 - [] 转账 nft  hash: Hq3mwRp11graqzqXY5Ccx3QSqYSrtmgzDP9pV7L5gJqX
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [] 任务说明：猜真假的游戏，调用的时候输入task2里发布的FAUCET代币（目前是定死的，需要输入一个10个FAUCET的object），并且猜测true或者false，然后利用随机数的object生成一个随机的布尔值，跟输入的猜测对比，如果赢了就翻倍返还，如果输了就把钱留在资金池。目前试了3次，两次赢一次输，游戏逻辑应该是没问题的，就是目前还比较粗糙，只能输入固定的10个FAUCET ：）。
+- [] game package id : 0x70399eaafab25d70c790a021137aef094952753f4532ad5c4fa079ee2f3ff7a1
+- [] call game hash1: 8srjVTPadeZ4i5FEWU75eNhwcFmEJxMhaDACqpFgSY8 赢了
+- [] call game hash2: 5wJvuPRMoNvuUDM9xQviL1QBdyFR2yF4xVAFv8w4HhVq 赢了
+- [] call game hash3: AHv4A8mukA12SNbjbzW4C48vDr1nPUFoF37otY5isfx 输了
 
 ##   05 Move Swap
 - [] swap package id :
