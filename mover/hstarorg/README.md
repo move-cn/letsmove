@@ -21,3 +21,7 @@
 - [x] 发送 `HSTAR_COIN` 到指定地址 hash: 9G7U22fg6xPKa71ijvw1FbZJ5rs3xZCoLnkyrHLaBDPX
 - [x] mint `HSTAR_FAUCET_COIN` tx hash 1: 9B7YAxmcLUHiqxTue86pJ63PXF5dyDvrF2sjnmMt1bCf
 - [x] mint `HSTAR_FAUCET_COIN` tx hash 1: BmiRMFUxeCqU8TapfMrfH5NW7XyAmx76GUB3C5LdNzV7
+
+### 03. move nft
+- [x] hstar nft package id: [0x2fd04200daa26953880bea43e140694fe02c030f9a44bc2f97b50ca3dde6ee8f](https://suiscan.xyz/mainnet/object/0x2fd04200daa26953880bea43e140694fe02c030f9a44bc2f97b50ca3dde6ee8f)
+- [x] 发送到指定地址的交易 hash: Ciik5ZzC83zHcJpzB9ekJb2gwo2JPwJuGiE4AdiboJ7t
