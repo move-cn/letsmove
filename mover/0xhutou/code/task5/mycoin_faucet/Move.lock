@@ -2,15 +2,24 @@
 
 [move]
 version = 2
-manifest_digest = "D6D5CF9FA36A0E71C891D2C234EBFC8F701BA798E54426D7321D4A38D1BAF8BC"
-deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
+manifest_digest = "1961D7F29D0A8F3D129F07359A3694309EA50645B50CBDB7B1459916A15EBF37"
+deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
 dependencies = [
+  { name = "MyCoin" },
   { name = "Sui" },
 ]
 
 [[move.package]]
 name = "MoveStdlib"
 source = { git = "https://github.com/MystenLabs/sui.git", rev = "framework/testnet", subdir = "crates/sui-framework/packages/move-stdlib" }
+
+[[move.package]]
+name = "MyCoin"
+source = { local = "../../task2/MyCoin" }
+
+dependencies = [
+  { name = "Sui" },
+]
 
 [[move.package]]
 name = "Sui"
@@ -29,6 +38,6 @@ flavor = "sui"
 
 [env.mainnet]
 chain-id = "35834a8a"
-original-published-id = "0x3a360817c4c45c70d77bb633c8f80244d8a1542b69befdd05b842acfcf845c0c"
-latest-published-id = "0x3a360817c4c45c70d77bb633c8f80244d8a1542b69befdd05b842acfcf845c0c"
+original-published-id = "0xad7798231f334daf897746c83bbe286877ef7e5bb5dfb811cf19bf9c438cfd4a"
+latest-published-id = "0xad7798231f334daf897746c83bbe286877ef7e5bb5dfb811cf19bf9c438cfd4a"
 published-version = "1"
