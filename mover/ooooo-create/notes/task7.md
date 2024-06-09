@@ -6,6 +6,15 @@
 sui clint object 0x10f3302f86607d758ab4e8519314aa368d2e53b3661e530fbc3e8a6988f82b56
 ```
 
+## 将数字转换成 ASCII 码
+
+powershell 中执行 `[char]number`
+
+```
+>>> [char]76
+>>> L
+```
+
 ## cli 调用与合约交互
 
 ```
