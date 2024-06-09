@@ -35,6 +35,8 @@
 ##   06 SDK PTB
 - [] save hash :
 
-## 07 move_ctf_check_in
-
+##   07 move_ctf_check_in
 - [x] Transaction block: `GmM1YcJM4SMzPYf9oQ5CBUXqt6j3LZ4nD6RdGUjH69za`
+
+##   08 Move CTF Lets Move
+- [x] Transaction block: `3Fdtr3gQiFxnjwrkgAPP7FiyWLsc3YFkASJA2vKYhDq2`
