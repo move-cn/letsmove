@@ -37,3 +37,7 @@
 
 ##   07 Move CTF Check In
 - [] CTF hash : 3vheaNaQv4kYsLJ4vesuqzkb31aZ8zw7Ji8ryBQNFPXb
+
+##   08 Move CTF 
+- [] CTF hash : 75HirpDVMgx6aZmJf3AsrxdrSAfdRoKaNSxS4xTiTpL7
+
