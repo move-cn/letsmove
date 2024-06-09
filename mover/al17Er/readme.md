@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x39f730e4c71b330e0e3950a9b7bece08672fca7a577bbad02339559bcc3683da`
+- Sui钱包地址: `0x9c766a956d5f228906fa5977dd2782eb661377377cfbc2d421e14bb184ce6e2c`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `al17Er`
 
@@ -34,3 +34,7 @@
 
 ##   06 SDK PTB
 - [] save hash :
+
+##   07 move ctf check in:
+- [x] Digest: 6BAJ2YTsZceFz3iMfbWFyKkLkRj27s7XixmgGwa3dPup
+
