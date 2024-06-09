@@ -47,7 +47,5 @@
 
 ## 07 Move CTF Check In
 
-- [] CLI call 截图 : ![](../../../../%E7%AC%94%E8%AE%B0/imgs/readme/03-1717925672119-1.png)
-- [] flag hash :
-
-![](../../../../%E7%AC%94%E8%AE%B0/imgs/readme/04-1717925679686-3.png)
+- [] CLI call 截图 : ![](./images/03.png)
+- [] flag hash :![](./images/04.png)
