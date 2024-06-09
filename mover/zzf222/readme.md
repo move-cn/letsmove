@@ -21,16 +21,16 @@
 
 ## 02 move coin
 
-* [] My Coin package id : 0xd9c9c49e9ea667689797bbde157f85113c97c375fdb0198132c4624073114256
-* [] Faucet package id : 0xd9c9c49e9ea667689797bbde157f85113c97c375fdb0198132c4624073114256
-* [] 转账 `My Coin` hash:G4wNfeX7fbEGjVddERgWbjcxZtKRtvTFtysP6DrNbzrb
+* [x] My Coin package id : 0xd9c9c49e9ea667689797bbde157f85113c97c375fdb0198132c4624073114256
+* [x] Faucet package id : 0xd9c9c49e9ea667689797bbde157f85113c97c375fdb0198132c4624073114256
+* [x] 转账 `My Coin` hash:G4wNfeX7fbEGjVddERgWbjcxZtKRtvTFtysP6DrNbzrb
 
 ## 03 move NFT
 
-- [] nft package id :0xe24d1dd5860dd4466d1f8f2da1fa8f3c3b37b007ff7be7865a6f8a6a1242c830
-- [] nft object id : 0x8af31c6714f7cc80b505a9e05b55d78a49124ba46d1274136ca68ac8002c331e
-- [] 转账 nft  hash:3bjmP9hKUgjzJTPz9L2vbqxHxr4wbGF5NR2fgBR1UvMa
-- [] scan上的NFT截图:![Scan截图](./image/1.png)
+- [x] nft package id :0xe24d1dd5860dd4466d1f8f2da1fa8f3c3b37b007ff7be7865a6f8a6a1242c830
+- [x] nft object id : 0x8af31c6714f7cc80b505a9e05b55d78a49124ba46d1274136ca68ac8002c331e
+- [x] 转账 nft  hash:3bjmP9hKUgjzJTPz9L2vbqxHxr4wbGF5NR2fgBR1UvMa
+- [x] scan上的NFT截图:![Scan截图](./image/1.png)
 
 
 
@@ -50,3 +50,9 @@
 ## 06 SDK PTB
 
 - [] save hash :
+
+## 07 Move CTF Check in
+
+- []合约部署地址: 0x5e51b4bb251dcd89645f200e2c26f51d6493c197e8d3e78ab9538280cb372370
+- []FlagStr Object:0x195440aa3ec116423a982d8365f1ed0e77232d6f64a838dada8401165723fe4e
+- []random: 0x8
