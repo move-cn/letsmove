@@ -1,0 +1,17 @@
+{
+  "name": "sui_task_6",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "author": "Calvin <siphonelee@gmail.com>",
+  "license": "MIT",
+  "private": false,
+
+  "scripts": {
+    "start": "ts-node main.ts",
+    "build": "tsc"
+  },
+
+  "dependencies": {
+    "navi-sdk": "^1.1.21"
+  }
+}

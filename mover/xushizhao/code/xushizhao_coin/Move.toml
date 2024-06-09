@@ -3,6 +3,7 @@ name = "xushizhao_coin"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
+published-at = "0x9863ad57403bc1a1f412ca637964e5824bcacdb89228a500b5a09f444604b81f"
 
 [dependencies]
 Sui = { git = "https://gitee.com/WGB5445/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
@@ -19,7 +20,7 @@ Sui = { git = "https://gitee.com/WGB5445/sui.git", subdir = "crates/sui-framewor
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-xushizhao_coin = "0x0"
+xushizhao_coin = "0x9863ad57403bc1a1f412ca637964e5824bcacdb89228a500b5a09f444604b81f"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.

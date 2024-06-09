@@ -3,7 +3,8 @@ name = "lihuazhang_coin"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
-version = "0.0.1"
+version = "0.0.2"
+published-at = "0x0820453d29a70f37b4555f7e8340c278119a84b8de48d701eaf34e61489246cf"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }

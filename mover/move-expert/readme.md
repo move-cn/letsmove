@@ -30,9 +30,11 @@
 - [x] call game hash : [2DcxBJDsBFynfcDFLSHLwxD37xP2J7faBKMiCFGe8Dmc](https://testnet.suivision.xyz/txblock/2DcxBJDsBFynfcDFLSHLwxD37xP2J7faBKMiCFGe8Dmc?tab=Events)
 
 ##   05 Move Swap
-- [] swap package id : 
-- [] call swap hash:
+- [x] swap package id : 
+https://suiscan.xyz/testnet/object/0x5004c3640cf73ef1daaa80ffc1d708fddd02bf34a6ea5b3d4a5e507c6d47e557/txs
+- [x] call swap hash:
+https://suiscan.xyz/testnet/tx/HkcsXWePN9dPW4FZ1hFvsHQqe8d6jnxu1bheQuab47xL
 
 ##   06 SDK PTB
-- [] save hash : 7qt3VdHaVwLvSnzMH4BRPRuQoe37t2VUNzrVLMsJAK38
+- [x] save hash : 7qt3VdHaVwLvSnzMH4BRPRuQoe37t2VUNzrVLMsJAK38
 （https://suivision.xyz/txblock/7qt3VdHaVwLvSnzMH4BRPRuQoe37t2VUNzrVLMsJAK38）

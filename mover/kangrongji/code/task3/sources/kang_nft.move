@@ -38,7 +38,7 @@ module task3::kang_nft {
         nft.name = string::utf8(name);
     }
 
-    // Initiation
+    // Initializer
 
     fun init(witness: KANG_NFT, ctx: &mut TxContext) {
         let keys = vector[
@@ -67,20 +67,20 @@ module task3::kang_nft {
             id: object::new(ctx),
             name: string::utf8(name),
         };
-
         let sender = tx_context::sender(ctx);
-
         event::emit(ENFTMinted {
             object_id: object::id(&nft),
             creator: sender,
             name: nft.name,
         });
-
         transfer::public_transfer(nft, sender);
-
     }
 
-    public fun transfer(nft: KangNFT, recipient: address, _: &mut TxContext) {
+    public fun transfer(
+        nft: KangNFT,
+        recipient: address,
+        _: &mut TxContext
+    ) {
         event::emit(ENFTTransferred {
             object_id: object::id(&nft),
             from: tx_context::sender(_),
