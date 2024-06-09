@@ -34,3 +34,7 @@
 
 ##   06 SDK PTB
 - [] save hash :
+
+##   07 Move CTF Check In
+- [x] CLI call 截图: ![CLI](./notes/task7/WechatIMG3291.jpg)
+- [x] flag hash: 8YnAUm8qjSkfqZnhh2oxcvWWAG1bcXtfbSgqcgpFDD44
