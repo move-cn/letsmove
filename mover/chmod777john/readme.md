@@ -19,4 +19,7 @@
 - [] package id: 0x3d74725bf9be7475c2371b2d8b5393ee99262760c35cb6427127b84b72b1fb83
 - [] package id 在 scan上的查看截图: ![image](https://github.com/chmod777john/letsmove/assets/146207719/0e739627-9ea2-4477-a3d7-3c10dfd88e4f)
 
+##   07 Move CTF Check In
+- [x] CLI call 截图 : ![image](https://github.com/chmod777john/letsmove/assets/146207719/3b97ef59-b53c-4777-9755-1e93c5e61f90)
 
+- [x] flag hash : F5nj8crmFYvJYCuZq84EV4Y3WfQ5UmZrJcAo5Yz7nfRU
