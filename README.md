@@ -30,15 +30,16 @@ Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move�
 
 ## 奖励明细 请仔细阅读要求
 
-| 任务                                         | 名称         | 人民币等值Token | 说明                     |
-|:-------------------------------------------|------------|:----------:|:-----------------------|
-| [task 1](task/01.hello_move.md)            | hello move |    ￥20     | 完成第一个合约部署上链            |
-| [task 2](task/02.move_coin.md)             | move coin  |    ￥20     | 完成Coin协议学习，并发布两个Coin上链 |
-| [task 3](task/03.move_nft.md)              | move nft   |    ￥20     | 完成NFT的学习，并发布NFT上链      |
-| [task 4](task/04.move_game.md)             | move game  |    ￥20     | 完成链上游戏学习，并上链交互         |
-| [task 5](task/05.move_swap.md)             | move swap  |    ￥20     | 完成Swap学习，并上链交互         |
-| [task 6](task/06.SDK_PTB_NAVI.md)          | sdk ptb    | ￥20（NAVX）  | 完成SDK学习，并用SDK完成链上交互    |
-| [defi](https://dacade.org/communities/sui) | defi       |   95SUI    | 完成Defi学习挑战             |
+| 任务                                         | 名称                 | 人民币等值Token | 说明                     |
+|:-------------------------------------------|--------------------|:----------:|:-----------------------|
+| [task 1](task/01.hello_move.md)            | hello move         |    ￥20     | 完成第一个合约部署上链            |
+| [task 2](task/02.move_coin.md)             | move coin          |    ￥20     | 完成Coin协议学习，并发布两个Coin上链 |
+| [task 3](task/03.move_nft.md)              | move nft           |    ￥20     | 完成NFT的学习，并发布NFT上链      |
+| [task 4](task/04.move_game.md)             | move game          |    ￥20     | 完成链上游戏学习，并上链交互         |
+| [task 5](task/05.move_swap.md)             | move swap          |    ￥20     | 完成Swap学习，并上链交互         |
+| [task 6](task/06.SDK_PTB_NAVI.md)          | sdk ptb            | ￥20（NAVX）  | 完成SDK学习，并用SDK完成链上交互    |
+| [task 7](task/07.move_ctf_check_in.md)     | move ctf check in  |    ￥20     | 完成move ctf check in    |
+| [defi](https://dacade.org/communities/sui) | defi               |   95SUI    | 完成Defi学习挑战             |
 
 
 

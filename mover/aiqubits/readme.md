@@ -19,28 +19,28 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/hello-package-id.jpg)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id : 0xb4b03a2729a2dac3053c86a422aab9a1f5c9a8aec4e20c6f1d004e40a779d153
+- [x] Faucet package id : 0x6a8a1f3dc800b09b3165df9e82f06cf8af5effa9120929e731674ecd09b76967
+- [x] 转账 `My Coin` hash: 43wayC1kvToT2uSMRGA2mFdSMezwSpmW5jqw57k16ZYW
+- [x] `Faucet Coin` address1 mint hash: eiji9mpE9RTSm5yjnhNJXTKbqLo6vbrTnLDWMJf91H4
+- [x] `Faucet Coin` address2 mint hash: DLzy3MkkHpDpDPnfTjHZvChC1ck7c8jjnVnCMRXvGVxH
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id : 0x3e388ec2e18459c40e6efb2633b992575dc2b40181df5b9feafb66175f9ff733
+- [x] nft object id : 0xa33e88f6c7b24c9d538539c4fd0c6624c997c0b8a797c1f4c525ace2e3cd6036
+- [x] 转账 nft  hash: Cr1EyYmLG7FfUbW1Ks5DV3hK5zTudKpjiMpw5qPMjWjU
+- [x] scan上的NFT截图:![Scan截图](./images/aiqubit-nft.jpg)
 
-##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+##   04 Move Game (testnet)
+- [x] game package id : 0x16bc98ae1bf7ce2e614b9fb426a5297ec04ebf30aa9ec577fdd34ccb87bb9943
+- [x] deposit Coin hash: 0x1822e7ce3b815ac8e18bfbc7a7ee2d6969e8d997b723e5e3d121ed344397e8df
+- [x] withdraw `Coin` hash: 4qFveaRrgjy8bCncYPGwkbGn2ThJ6v92CPEfSzcJqFBb
+- [x] play game hash: GdpKoqK8bToHFkgAUs7cp42kRECaemsKeeRLcAZfDcrx
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0xde2a12b321ef377b77a117b8fa055dd7c56a9564b557965a3d6fef2f8054a270
+- [x] call swap CoinA-> CoinB  hash : CD9kitpGWV2q9wjmG8mMyUWUAVs2aSu5ymLGR91uks2r
+- [x] call swap CoinB-> CoinA  hash : 95DgBFquNbogp7C3vptBQRHw4Mg5woJc1EDrWCh8sbYG
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : GFjqVtPD3JKgiDLUMvamTHkswv7257xyZhvCV8KQrNdt

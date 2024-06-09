@@ -34,14 +34,14 @@
 
 ## 04 Move Game
 
-- [] game package id :
-- [] call game hash:
+- [X] game package id : [0x28478d6dc26d2cd2d37b6d600402e73e7872ed8bf3aa550851957c837ba2d9d6](https://suiscan.xyz/mainnet/object/0x28478d6dc26d2cd2d37b6d600402e73e7872ed8bf3aa550851957c837ba2d9d6/contracts)
+- [X] call game hash: [Xj6AHeqoDCbbnWn2UcJnttKypSJWocekqcND5gNeZPK](https://suiscan.xyz/mainnet/tx/Xj6AHeqoDCbbnWn2UcJnttKypSJWocekqcND5gNeZPK)
 
 ## 05 Move Swap
 
-- [] swap package id :
-- [] call swap hash:
+- [X] swap package id : [0x8d19cd76a55af9a4d0129fa8da1735dd44ea944d45f1f7b163bd4ee9607d9cee](https://suiscan.xyz/mainnet/object/0x8d19cd76a55af9a4d0129fa8da1735dd44ea944d45f1f7b163bd4ee9607d9cee/contracts)
+- [X] call swap hash:[33HKgtfRJVmETMYhErSnusSF42yYuvZKP9rULZFwePeB](https://suiscan.xyz/mainnet/tx/33HKgtfRJVmETMYhErSnusSF42yYuvZKP9rULZFwePeB)
 
 ## 06 SDK PTB
 
-- [] save hash :
+- [X] save hash : [H3wDm2c3kk3jKSkjUKQi2YKDdLuvkgZKXP274SrBhL2P](https://suiscan.xyz/mainnet/tx/H3wDm2c3kk3jKSkjUKQi2YKDdLuvkgZKXP274SrBhL2P)
