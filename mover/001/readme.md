@@ -1,7 +1,7 @@
 ## 基本信息
 - Sui钱包地址: `0x367e3d1dbd24ad5f5ddeefada134018bb070dba41f99173628bb3cb9c279016f`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `自己的githubid`
+- github: `qxtlsm`
 
 ## 个人简介
 - 工作经验: 0年
