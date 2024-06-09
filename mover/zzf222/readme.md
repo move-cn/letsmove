@@ -51,8 +51,6 @@
 
 - [] save hash :
 
-## 07 Move CTF Check in
+## 07 Move CTF Check In
 
-- []合约部署地址: 0x5e51b4bb251dcd89645f200e2c26f51d6493c197e8d3e78ab9538280cb372370
-- []FlagStr Object:0x195440aa3ec116423a982d8365f1ed0e77232d6f64a838dada8401165723fe4e
-- []random: 0x8
+- [x] save hash: [9S7wBmRFpT65tcaGR9mJ8w9UFKauwwcsM6cbg55mvrTr](https://suiscan.xyz/testnet/tx/9S7wBmRFpT65tcaGR9mJ8w9UFKauwwcsM6cbg55mvrTr)
