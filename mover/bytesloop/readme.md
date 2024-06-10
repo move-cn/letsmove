@@ -25,12 +25,13 @@
 - [x] 转账 nft hash: `YAak4KPdP7bCtSUhhZxPAr6AG7djUPrGNwxuDkxmWqT` (Testnet)
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [x] game package id: `0xc90108000890fe94cf334ffa7808c624c845a3408cd449c9910d8f32a7858481` (Testnet)
+- [x] call game hash: `9wDmFHnQYe9FmtMhvWBx4mNQgSEbwb1tSTUidPxay1oa` (Testnet)
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id : `0x29cd0bf0b0cc54132acbf0cdae4bd21ce15e29a46d9acd2fcecdbca85d8c7258` (Testnet)
+- [x] call swap hash: `https://suiscan.xyz/testnet/tx/C3znaEcZTqiqtaVCfwMxip7DvbkhCewYcDkYiaT1wgMF` (usd to rmb)
+- [x] call swap hash: `https://suiscan.xyz/testnet/tx/9zr3rEQabQfyn94gFZtEDM6SUUqgd32ftgkKVzdWiU9o` (rmb to usd)
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : `https://suivision.xyz/txblock/EfrEkzsnQjydVrnFdZwhSCWPDF3oiM1qnpMYHuzD6wb7`
