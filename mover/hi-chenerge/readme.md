@@ -25,12 +25,35 @@
 - [] 转账 nft  hash: 8nttLmRWCfQcXVyHvgfLaY5qBfoKbMKBxu5uMtrEQmf4
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [] game package id : 0xe36750e6981fc0e8c45b300c6227a600102c6199200bea810233fbb046b74a18
+
+- [] call game hash: 
+
+  - depoist hash
+    ```
+    mainnet player1存钱的hash
+    FduzPvjtjSe2HH9HoAMqZ3hG5Txcc9pZFFxUfrWKUbEM
+    
+    mainnet player2存钱的hash
+    E1MUhSrcmwj23g6D5KS9d6UAEYrbNwQySvEnkn8eRGBA
+    
+    mainnet player3存钱的hash
+    GmWLTLQobFD6dqGtqgfk2ZSPszhAhUZ2u6eRkPvDPmnT
+    
+    开奖hash 暂无，因为 0x8 在 mainnet 还没有
+    暂用 devnet 的开奖hash代替： Fs2vVo8KuTzfwFF6zyELvEqLaFgZVhJEztqxZt24vUYM
+    
+    查看devnet 游戏对象 sui client object 0x2af3544d33358a4c499ce07634442fd5fe61220d539e7506eb9ab2db5f09a492
+    
+    
+    ```
+
+    
+
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [] swap package id : 0xc75e52a7d2aa9853e4ec40a780722aaa82a028ea8f76fa73da86de7d835add5e
+- [] call swap hash: swap hash `CHfPGiwrgC4CmNaJgcupeK2rs3mGA4P78SLFgKRha4vb`
 
 ##   06 SDK PTB
 - [] save hash :

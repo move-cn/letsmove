@@ -9,7 +9,7 @@
 ## 个人简介
 
 - 工作经验: 2 年
-- 技术栈: Python Labview C Rust
+- 技术栈: Python JS Move Rust 
 - 多年 web2 开发经验，对 Move 特别感兴趣，想通过 Move 入门区块链
 - 联系方式: 邮箱:tangyuan3141@163.com
 
@@ -21,15 +21,16 @@
 
 ## 02 move coin
 
-- [] My Coin package id :
-- [] Faucet package id :
-- [] 转账 `My Coin` hash:
+- [] My Coin package id : 0xb39046148a3761bd9ec0a707aee1118f1b357e58ccb5f5075f84507686b43cde
+- [] Faucet package id : 0xb99cfc7d536dff9934d889294eb86814dd918c016f0726b235da0a33e27f4e5a
+- [] 转账 `My Coin` hash: J2XaM3Y78mEFXTYfCSBzhHMhG7hQGUn7ydFr3zF18KGc
 
 ## 03 move NFT
 
-- [] nft package id :
-- [] nft object id :
-- [] 转账 nft hash:
+- [] nft package id : 0xfafd4f14efbb54da70e98c9f5469d3a82daede178dbb640ece5461b9a559c2cf
+- [] nft object id : 0xc11a78bd448d2d90ca02efd5140eca1da958e4750d0b62a9b2e9375eda94699e
+- [] 转账 nft hash: 6E9EsDVgRCtaoR67uLzZUp8r1Df7eoSrhUsp9y1u7dV7
+- [] 截图见task3/image下
 
 ## 04 Move Game
 

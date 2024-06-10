@@ -34,4 +34,5 @@
 - [] call swap hash:
 
 ##   06 SDK PTB
-- [] save hash :
+- [] save hash : BaJHKCKmJspf4kUA7e9RegkqbG9YWeKQaK9kWRwvPSFr
+- [] description: 手搓

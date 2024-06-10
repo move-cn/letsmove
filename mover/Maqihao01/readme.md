@@ -19,28 +19,28 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](notes/515.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id :  0x1ca368d08ea0c4faff0ddb54e8bfab95a69c4c74b64c2ca405a13e2536c0145b
+- [x] Faucet package id : 0x1ca368d08ea0c4faff0ddb54e8bfab95a69c4c74b64c2ca405a13e2536c0145b
+- [x] 转账 `My Coin` hash: FVCbP4hCHN82vjW5teKW1E7d5hjcxMTypirYKPya8Df7
+- [x] `Faucet Coin` address1 mint hash: GuSdJm1x7gzEXwjdw1RiMsP2xHTJKggif2SEmqhTTWMP
+- [x] `Faucet Coin` address2 mint hash:  8WM3MYtMLX2HddghqiiAb9mZRi42DzYCS8EY8LxkHxvU
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id : 0x286f40d72aacd5b6ff9db1e126f0585ffa610e479f2f49e95461614c1aa7797d
+- [x] nft object id : 0x271473b05579d0aa1f6c93129026c0d1903e2b9ae785b7992a5eccefc9086ca6 
+- [x] 转账 nft hash:  HMmLRQdRhrrgffSKDeiKXSv1nAkQQ1EivTQfQayHeM7S
+- [x] scan上的NFT截图:![Scan截图](notes/516.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : 0x0dd09a296ae728ca4660f5b0c24a7e5ba71377150d8f8ab1cd00f883cb41c817 
+- [x] deposit Coin hash: C6xtMYvQ95ejmQJKiBKYChaQ5ArdUPzvHUoyFxQgcDQR
+- [x] withdraw `Coin` hash: gxNRnVf7X45Qpw8E9czvVjRc8kwGvkWkVWwD33LVDnT
+- [x] play game hash:  EYMj9BU8ExcCXxugJYpAHbnhNGxMtNaVFvCgFcg1BhzZ
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0xeca373a6da0d118d323720871276e0b6b8c217167397b8bce009ddf604702922   
+- [x] call swap CoinA-> CoinB  hash : 6UEyk8y53FEtpcJDySSztAUR57rvQaV5kwbpM4Y67Gh
+- [x] call swap CoinB-> CoinA  hash : 5jP4LfHiXkqaXf9i3M6zADrEH8hnruSeGtg5fEh8hAQw
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : [J3RTijmy42AudV1Af784jaoCUCSRJCxCVxqq3Zee9jNV](https://suivision.xyz/txblock/J3RTijmy42AudV1Af784jaoCUCSRJCxCVxqq3Zee9jNV)
