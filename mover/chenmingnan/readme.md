@@ -38,3 +38,7 @@
 ##   07 Move CTF Check In
 - [x] CLI call 截图: ![CLI](./notes/task7/WechatIMG3291.jpg)
 - [x] flag hash: 8YnAUm8qjSkfqZnhh2oxcvWWAG1bcXtfbSgqcgpFDD44
+
+##   08 Move CTF Lets Move
+- [x] Proof: `86636586`
+- [x] Transaction block: `8vmrR3VdVrnfp1KrtbMGsuPiZ7qm4BaaCRdYTjxLMnFH`
