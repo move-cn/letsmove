@@ -55,7 +55,7 @@ module lets_move::lets_move {
             i = i + 1;
         };
 
-        assert!(prefix_sum >= 0, EPROOF);
+        assert!(prefix_sum == 0, EPROOF);
 
         challenge.str = getRandomString(rand, ctx);
         challenge.ture_num = challenge.ture_num + 1;

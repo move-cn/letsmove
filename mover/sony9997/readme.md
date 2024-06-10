@@ -63,13 +63,6 @@ sui client call --function get_flag --package $PackageID --module check_in --arg
 
 ## 08 Move CTF Lets Move
 
-export PackageID=0xa34f7df3d9699cea6fb49502c922e44cc99d916607c631a7a77976d45b3e9981
-export ChallengeID=0x60b58dc37397c2b604404a6bb8ab11d98518362e2be01804d2921fea3099730b
-sui client call --function get_flag --package $PackageID --module lets_move --args [2,10,110,203] 'sony9997' $ChallengeID 0x8 --gas-budget 10000000
 
-- [X] CLI call 截图 : 
-![CLI call 截图](notes/lets_move_cli.jpg)
-
-- [X] flag hash : [EmeN34VAvHJp8sVjw8a8NUzih5cFU2TKD6MfpW5527US](https://suiscan.xyz/testnet/tx/EmeN34VAvHJp8sVjw8a8NUzih5cFU2TKD6MfpW5527US)
 
 
