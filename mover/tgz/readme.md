@@ -21,3 +21,9 @@
 - [x] package id: 0x9530156c5c10e9343d12fc59b45c0b98728321a5c7924fb77a916ed82a65d78a 
 - [x] Sui钱包截图: ![Sui钱包截图](./images/wallet.png)
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/package.png)
+
+
+## 07 Move CTF Check in
+
+- [x] CLI call 截图 : ![截图](./images/get_flag_check_in.png)
+- [x] flag hash: BtyKPF54voXRznBszXwYVUzzrqoqcay2VyC1hgR6G4JU
