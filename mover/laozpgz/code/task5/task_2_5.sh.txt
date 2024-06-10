@@ -1,0 +1,56 @@
+
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+# sui client publish --gas-budget 800000000
+
+#task2
+export MY_ADDRESS=0xe1782afe9a84579c4fa67efba89d43fdf9e4468348327b60ff0241a699c8ad6b
+
+export TASK2_PACKAGE_ID=0x505116c299e1202199037b7915e8e0c80c5c5dbef5cb5105178f83412521ddc2
+
+export COIN_TYPE=0x505116c299e1202199037b7915e8e0c80c5c5dbef5cb5105178f83412521ddc2::laozpgz_coin::LAOZPGZ_COIN
+
+export FAUCET_TYPE=0x505116c299e1202199037b7915e8e0c80c5c5dbef5cb5105178f83412521ddc2::laozpgz_faucet_coin::LAOZPGZ_FAUCET_COIN
+
+export COIN_TREA_ID=0xe40d27bcf2dbc3897fc3f37d737cdd084297798281f4a5d36004e13619ffd4b0
+
+export FAUCET_TREA_ID=0xed2a54b89ac6b356a29b0fd6072ea22a77c048fa8bf423078662038c58734318 
+
+export ADDRESS_1=0x3944bb6f113124b528e9d3c5af2ee2945f3ffa4577d5015bca7321e8ff9b7055
+
+export ADDRESS_2=0x90d4bd15c8785b311daf2a5de65a41449b5883daa9c3ba750639bb87ff429229
+
+export COIN_ID_1=0xf456b03605343879bbc3384aeba7b8930a47cac23a5f3d9f239536b9d83373fd
+export COIN_ID_2=0xf1c739941a21653f915675212fb228206f2c367399a2fa7ae714fa8047f0179d
+
+export FAUCET_ID_1=0xf28b7fbef6b013857c8058ed5c8176369adbffba72ac53633e1638b3ab1b79b2
+export FAUCET_ID_2=0xafe4e6479ee673f117e538322a204e680aac02af723f7b714ff4b3631e97eaec
+
+#task5
+export TASK5_PACKAGE_ID=0xe3503fc01d7a3f1ae10cf300fc798c0be6b4d414a083272a834c201e373dde4c 
+
+export POOL_ID=0xe5707cbfe57c575acd4314877e26f965c61142ce943d10e5b8d6db8422ee0046
+
+
+#Mint LaozpgzFaucetCoin  ADDRESS1 ADDRESS2 
+#sui client call --gas-budget 8000000 --package $TASK2_PACKAGE_ID --module laozpgz_faucet_coin --function mint --args $FAUCET_TREA_ID 10000000000000 $ADDRESS_1
+#sui client call --gas-budget 8000000 --package $TASK2_PACKAGE_ID --module laozpgz_faucet_coin --function mint --args $FAUCET_TREA_ID 10000000000000 $ADDRESS_2
+
+#Mint LaozpgzCoin 
+sui client call --gas-budget 8000000 --package $TASK2_PACKAGE_ID --module laozpgz_coin --function mint --args $COIN_TREA_ID 1000000000 $MY_ADDRESS
+
+
+#Mint LaozpgzFaucetCoin
+#sui client call --gas-budget 8000000 --package $TASK2_PACKAGE_ID --module laozpgz_faucet_coin --function mint --args $FAUCET_TREA_ID 10000000000000 $MY_ADDRESS
+
+
+#create_pool
+#sui client call --gas-budget 80000000 --package $TASK5_PACKAGE_ID --module laozpgz_swap --function create_pool --type-args $COIN_TYPE $FAUCET_TYPE --args $COIN_ID_1 $FAUCET_ID_1
+
+
+#swap_a_to_b
+#sui client call --gas-budget 8000000 --package $TASK5_PACKAGE_ID --module laozpgz_swap --function swap_a_to_b --type-args $COIN_TYPE $FAUCET_TYPE --args $POOL_ID $COIN_ID_2
+
+
+#swap_b_to_a
+#sui client call --gas-budget 8000000 --package $TASK5_PACKAGE_ID --module laozpgz_swap --function swap_b_to_a --type-args $COIN_TYPE $FAUCET_TYPE --args $POOL_ID $FAUCET_ID_2

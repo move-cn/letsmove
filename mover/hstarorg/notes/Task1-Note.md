@@ -2,8 +2,8 @@
    * 本地生成钱包: `sui client new-address ed25519`
 2. 安装 Sui: `brew install sui`
 3. Sui 网络环境
-   * 主网(mainnet): 
-   * 测试网(testnet): 
+   * 主网(mainnet): https://fullnode.mainnet.sui.io:443
+   * 测试网(testnet): https://fullnode.testnet.sui.io:443
    * 开发网(devnet): https://fullnode.devnet.sui.io:443
    * 本地网(localnet): http://0.0.0.0:9000  
      * 生成本地网络配置文件: `sui genesis`

@@ -44,3 +44,11 @@
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :
+
+##   07 Move CTF Check In
+- [] CLI call 截图 : ![截图](./images/你的图片地址)
+- [] flag hash :
+
+##   08 Move CTF Lets Move
+- [] proof : 
+- [] flag hash :

@@ -393,3 +393,18 @@ Transaction Digest: 9cPXRyCZyD8MF8N1kUbN8q9AGawLXNVZvqXcBPYZNAjL
 
 成功Hello World
 
+
+
+# Task-7
+
+### 思路
+
+简答的CTF题
+
+在[suivision](https://testnet.suivision.xyz/package/0x5f67669cbad74f7eccdb9ff9310e540fbe09cae5c81281e962cb65ac5094aadd?tab=Code)中查看合约部署地址，阅读合约代码逻辑（调用函数绕过输入检查）
+
+查看`FlagStr Object`，ascii编码逆一下，EZ
+
+
+
+Transaction Block：BUss77X7J7ZJ76rp5M19SGEPb6P4NLW28MiQbSqD9NaL

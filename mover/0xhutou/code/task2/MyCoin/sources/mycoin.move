@@ -1,5 +1,5 @@
 /// Module: mycoin
-module mycoin::MYCOIN {
+module mycoin::mycoin {
     use std::option;
     use sui::coin::{Self, Coin, TreasuryCap};
     use sui::transfer;
@@ -20,10 +20,11 @@ module mycoin::MYCOIN {
     }
 
     public entry fun mint(
-        treasury_cap: &mut TreasuryCap<MYCOIN>, 
-        ctx: &mut TxContext,
+        treasury_cap: &mut TreasuryCap<MYCOIN>,
+        amount: u64, 
+        ctx: &mut TxContext
     ) {
-        let my_coin = coin::mint(treasury_cap, 10000000, ctx);
+        let my_coin = coin::mint(treasury_cap, amount, ctx);
         transfer::public_transfer(my_coin, tx_context::sender(ctx))
     }
 

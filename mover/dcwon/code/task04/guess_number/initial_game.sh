@@ -1,0 +1,10 @@
+# testnet package id: 0xfaac691d601171b337a0c686b1af2cd6dac590fd40f5425c56a00fee001f016d
+#         cap id: 0x7339d4d0d03b9cb1ba17201d84a4d0c7ad31a4d2de7995df7a88136bf53396c0
+# mainnet package id: 0xf3cc86549f161364ac7c7f3180199cc4bd95e638154e7b15bfa8d0c885147e68
+#         cap id: 0xf4dce1e04860e3a610b9652490215b0c1caa800c17a1ace25594aa9188f70219
+
+sui client call --gas-budget 100000000 \
+--package 0xf3cc86549f161364ac7c7f3180199cc4bd95e638154e7b15bfa8d0c885147e68 \
+--module guess_number \
+--function initialize_pool \
+--args 0xf4dce1e04860e3a610b9652490215b0c1caa800c17a1ace25594aa9188f70219 0x06f20f4e76e04475baa76a15fe9c071b2f57cfbcd3111b4be97c7dc40c58c293
