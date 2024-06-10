@@ -34,3 +34,11 @@
 
 ##   06 SDK PTB
 - [] save hash :
+
+##   07 Move CTF Check In
+- [x] CLI call 截图: ![CLI](./notes/task7/img.png)
+- [x] flag hash: 9fhpBMw3hyeVwpKteVuDPwqhhicRDvMjxnSjs8srZqD7
+
+##   08 Move CTF Lets Move
+- [x] CLI call 截图: ![CLI](./notes/task8/img.png)
+- [x] Transaction block: `FRnQ3ciz1Ujhq85rPt2roTWimo8zsAt4VHPPQULrLuow`

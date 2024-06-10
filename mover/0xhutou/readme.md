@@ -42,5 +42,7 @@
 - [] call game hash3: AHv4A8mukA12SNbjbzW4C48vDr1nPUFoF37otY5isfx 输了
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [] 任务说明：faucet本身是公开mint的，mycoin是只有发布者才能mint，但是swap合约一开始忘记写mycoin的水龙头了，另开一张合约写了一个mycoin的水龙头，水龙头pkg id: 0xad7798231f334daf897746c83bbe286877ef7e5bb5dfb811cf19bf9c438cfd4a, 函数为mycoinfaucet,参数为水龙头的pool id: 0x1301149590c2e28a2d799c21937a6a9b55e03ecd3d6f26c6a6e05fc075b3e49c，水龙头里已经预充了1亿个MYCOIN，单次执行水龙头获得10个MYCOIN。
+- [] swap package id : 0x0c33bf65f7599cacd775ac183184d713db9042d6a23b26ab3023e3031dc877f2
+- [] call swap hash1 (10FAUCET -> 10MYCOIN) : FTJj6cua64cDBBEePhr6aQSaBmBTEZnye7RU2HH8TSiZ
+- [] call swap hash2 (10MYCOIN -> 10FAUCET) : CJzCwpZhUQEsGd97Pmh5pcTjJVtjcaKjJdSE4d1K9827
