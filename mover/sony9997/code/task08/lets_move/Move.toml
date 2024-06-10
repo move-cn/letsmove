@@ -1,13 +1,12 @@
 [package]
-name = "random_test"
+name = "lets_move"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
 [dependencies]
 # Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
-Sui = { local = "/Users/hedong//.move/https___github_com_MystenLabs_sui_git_framework__devnet/crates/sui-framework/packages/sui-framework" }
-
+Sui = { local = "/Users/hedong//.move/https___github_com_MystenLabs_sui_git_framework__testnet/crates/sui-framework/packages/sui-framework" }
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
 # MyRemotePackage = { git = "https://some.remote/host.git", subdir = "remote/path", rev = "main" }
@@ -20,7 +19,7 @@ Sui = { local = "/Users/hedong//.move/https___github_com_MystenLabs_sui_git_fram
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-random_test = "0x0"
+lets_move = "0x0"
 random = "0x8"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
