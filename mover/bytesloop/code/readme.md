@@ -48,3 +48,13 @@ Object ID - 0xd6240a8aa63169c0fdc868fc30ff45312c1aa56fcfd6b2249547182e59183468)
 - random: 0x8
 - github id: bytesloop
 - CLI call: sui client call --package 0x60695ee31f93add1f79909c884a55dff7e5f140bbd2e495819966bd2f7971d42 --module check_in --function get_flag --args "rW~-fs`.8E:-E'7LZWqCj5" "bytesloop" 0x011f9404e6f167e549b617a53eea058029167a2beac26c624cbc3550e04b5ad2 0x8 --gas-budget 10000000
+
+
+## task8_move_ctf_pow
+
+- lets_move.move - https://github.com/move-cn/letsmove-ctf/blob/main/src/02_lets_move/lets_move/sources/lets_move.move
+- 合约部署地址: https://testnet.suivision.xyz/package/0x097a3833b6b5c62ca6ad10f0509dffdadff7ce31e1d86e63e884a14860cedc0f
+- Challenge Object: https://testnet.suivision.xyz/object/0x19e76ca504c5a5fa5e214a45fca6c058171ba333f6da897b82731094504d5ab9 (uMKz'lr#*kw][z/CAvOZ)
+- random: 0x8
+- github id: bytesloop
+- CLI call: sui client call --package 0x097a3833b6b5c62ca6ad10f0509dffdadff7ce31e1d86e63e884a14860cedc0f --module lets_move --function get_flag --args 6d2f21242436127de875 "bytesloop" 0x19e76ca504c5a5fa5e214a45fca6c058171ba333f6da897b82731094504d5ab9 0x8 --gas-budget 10000000

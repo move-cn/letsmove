@@ -41,5 +41,5 @@
 - [x] flag hash : `Du8woLMhqMtTXQoDz2yT4WgfwkmzeYL2XVocADdWfn6P`
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof : `6d2f21242436127de875`
+- [x] flag hash : `2hchn6NgjancH8QwsHpxkrr3hSeQjouPKKXCTZzYK2PU`
