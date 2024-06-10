@@ -15,9 +15,9 @@
 - [x] package id: 0x88ca0c451410eafb4213bf6d76882f728b147a2e337323fd02ebdd40e5679932
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [x] My Coin package id : 0xa931c2f9959e4ba8bc4140e146d8be52aa5496377851708621f2e9cd24ef5ed7
+- [x] Faucet package id : 0x6b453420fcf3917c53f2f94375f9047dd2d15889f5ff02acb0ff1d465ca8b348
+- [x] 转账 `My Coin` hash: 2nAFy7huKeX1R6DGJQwzvTrEJ5V8iYjdf69V5H9Hrfyn
 
 ##   03 move NFT
 - [] nft package id :
@@ -34,3 +34,11 @@
 
 ##   06 SDK PTB
 - [] save hash :
+
+##   07 Move CTF Check In
+- [x] CLI call 截图: ![CLI](./notes/task7/img.png)
+- [x] flag hash: 9fhpBMw3hyeVwpKteVuDPwqhhicRDvMjxnSjs8srZqD7
+
+##   08 Move CTF Lets Move
+- [x] CLI call 截图: ![CLI](./notes/task8/img.png)
+- [x] Transaction block: `FRnQ3ciz1Ujhq85rPt2roTWimo8zsAt4VHPPQULrLuow`

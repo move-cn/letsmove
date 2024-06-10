@@ -24,12 +24,30 @@
 - [x] 转账 nft  hash: HGX6SxoHUbmriTGWHZ1VU9zKRtyGkybtTWBsvfJm7xqR
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+"少数派"游戏说明：  
+1. 发起者调用 create_game()  创建一个新游戏。新游戏需要提出一个yes/no的问题等待玩家回答。
+2. 玩家调用 join_game() 提交一个 yes/no 答案，并提供一些coin进入游戏奖池
+3. 玩家满员后，发起者可以调用 settle_game() 对游戏进行结算：yes/no 两种回答中人少的一方平分奖池里的coin  
+
+TODO:  
+1. 按照最初的游戏设计，玩家参与游戏时需要提供一个邮箱地址或者telegram的ID,鼓励玩家进行私下沟通串联，使用结盟欺骗等策略影响其它玩家的回答，以增加游戏的策略性。后续可以继续开发，比如自动拉起telegram群聊。
+
+2. 合约中未对游戏时间做出限制，每个玩家提交的coin数量也没做检查，等等后面进一步补充优化。  
+主网由于账号和token有限只测试了创建游戏的链接：  
+- [] game package id : 0x774cca12cd3d60e5bb1d3f5ccdcdd8f3fb60fc0ab01b352c0f8fd48f438fd518
+- [] call game hash: 创建新游戏：HnFu8q69QpwtJC12qGw5dVTLuoWr8mobfp1efnV7fuud
+
+测试网完整的测试：
+game package id : 0x53661b946b14db90513424e6ae309b0a83628e08ebe885aa02141fe2c78c3822
+创建新游戏hash: ChiVMM3eWFgtmRNVYhrR1qAi4ZoBcfHUxVqDqfNFHSD9
+玩家1参与hash: 8S5FAbeFTaLJXUB1Ca6dZTmt9nffzB2oRKcS1Ts1bDJN
+玩家2参与hash: AFJtirW1uDc9jkdEuvXQmwB6hjTzEc4UCFq3hBaL3To4
+玩家3参与hash: A86RXxGya3S3kdt8gUGUFj7fySsd3KFH743zzyN7moFF
+结算游戏hash: Ho3cb6z3TWUs2ZziZg57c1N44TkSXBu4VnVDh9BXj62t
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [] swap package id : 0x84e8e058714bf5948b0e0283f73f434ed4f9ffa07c9bc97f0245ff02b876ee40
+- [] call swap hash: DbJDKzrdME7ymm46hhpZWVUNmcYj4oyesda664t3uvj1
 
 ##   06 SDK PTB
-- [] save hash :
+- [] save hash : 4uqT7SCRZjVC8aUYZrqHbxsC6KSVXksYncA89PEGXTox
