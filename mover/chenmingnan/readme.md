@@ -6,7 +6,7 @@
 ## 个人简介
 - 工作经验: 研究生
 - 技术栈: `Python`
-- 初学 Python，对 move 感性起
+- 初学 Python，对 move 感兴趣
 - 联系方式: tg: `cmn` 
 
 ## 任务
