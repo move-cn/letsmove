@@ -44,3 +44,7 @@
 
 ##   06 SDK PTB
 - [x] save hash : 6DRTyWPPNct7XxNNz8DwMeY3YSgBcCnpH3FfkWTZLgTu
+
+##   07 Move CTF Check In
+- [x] CLI call 截图 : ![截图](./images/hello_ctf.png)
+- [x] flag hash : 6FDsS2uRPYpe9h48obrogWheEvQFiTokfedK4aewnPp9

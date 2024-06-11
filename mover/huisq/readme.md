@@ -34,3 +34,9 @@
 
 ##   06 SDK PTB
 - [x] save hash : [BnWJzpGGM98xRRGppRshcN4jqmFe2rWcgiCYFv3BAUjt](https://suiscan.xyz/mainnet/tx/BnWJzpGGM98xRRGppRshcN4jqmFe2rWcgiCYFv3BAUjt)
+
+##   07 CHECK IN
+- [x] package id : [0x89dca6b9c3e2f8b3fb645118a1cbcf7655c764cfd884bcb1633cde54a5864993](https://suiscan.xyz/testnet/object/0x89dca6b9c3e2f8b3fb645118a1cbcf7655c764cfd884bcb1633cde54a5864993)
+- [x] FlagString : [0x697b994add9ace52d02c0ccd329856d8a2630b39e064fe36ea01bd3bd8130915](https://suiscan.xyz/testnet/object/0x697b994add9ace52d02c0ccd329856d8a2630b39e064fe36ea01bd3bd8130915)
+- [x] Transaction Hash of get_flag call : [5J3uBKdqDHiJL9HPYWUWCceDaHPanSFZZBPEUSbmUrD] (https://suiscan.xyz/testnet/tx/5J3uBKdqDHiJL9HPYWUWCceDaHPanSFZZBPEUSbmUrD)
+- [x] Event: [5J3uBKdqDHiJL9HPYWUWCceDaHPanSFZZBPEUSbmUrD:0]
