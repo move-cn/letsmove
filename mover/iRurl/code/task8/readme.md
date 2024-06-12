@@ -20,6 +20,8 @@ iRurl \
 
 ## 08 lets move
 
+Transaction Digest: E8wgpfS9LbGK9Z782nRUsPij9oYpzuXqGFkvvADrB4Ra 
+
 - [x] Sui cli version: 1.27.0
 - [x] package id: 0x60695ee31f93add1f79909c884a55dff7e5f140bbd2e495819966bd2f7971d42  
 - [x]  CLI call截图: ![ CLI call截图](./images/1.png)
