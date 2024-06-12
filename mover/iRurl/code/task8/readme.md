@@ -7,18 +7,18 @@
 ```
 sui client call \
 --function get_flag \
---module check_in \
---package 0x60695ee31f93add1f79909c884a55dff7e5f140bbd2e495819966bd2f7971d42 \
+--module lets_move \
+--package 0x097a3833b6b5c62ca6ad10f0509dffdadff7ce31e1d86e63e884a14860cedc0f \
 --args \
-'>~IdndKPnLw4' \
-0x011f9404e6f167e549b617a53eea058029167a2beac26c624cbc3550e04b5ad2 \
-0x8 \
+7b8b7644e55e54e7d650 \
 iRurl \
+0x19e76ca504c5a5fa5e214a45fca6c058171ba333f6da897b82731094504d5ab9 \
+0x8 \
 --gas-budget 10000000
 ```
 ## 任务
 
-## 01 check_in
+## 08 lets move
 
 - [x] Sui cli version: 1.27.0
 - [x] package id: 0x60695ee31f93add1f79909c884a55dff7e5f140bbd2e495819966bd2f7971d42  
