@@ -38,3 +38,7 @@
 ##   07 Move CTF Check In
 - [x] CLI call 截图: ![CLI](./img/WechatIMG63.jpg)
 - [x] flag hash: 8HHgBjQiFM1Yb1ThDveJrnUbCjQgWfLyQ5ouHsGccGaJ
+
+##   08 Move CTF Lets Move
+- [X] Proof : `IsCp`
+- [x] Transaction block: `CnYJSFjaJj5VNs16FH9nR8hi4XsPBPcXTr7goUdojLJg`
