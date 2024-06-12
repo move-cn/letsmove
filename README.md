@@ -40,7 +40,7 @@ Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move�
 | [task 6](task/06.SDK_PTB_NAVI.md)          | sdk ptb           | ￥20（NAVX）  | 完成SDK学习，并用SDK完成链上交互    |
 | [task 7](task/07.move_ctf_check_in.md)     | move ctf check in |    ￥20     | 完成move ctf check in    |
 | [task 8](task/08.move_ctf_lets_move.md)    | move ctf pow      |    ￥20     | 完成move ctf pow   |
-| [defi](https://dacade.org/communities/sui) | defi              |   95SUI    | 完成Defi学习挑战             |
+| [defi](https://dacade.org/communities/sui) | defi              |   35SUI    | 完成Defi学习挑战             |
 
 
 

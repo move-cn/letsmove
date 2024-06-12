@@ -34,12 +34,12 @@
 
 
 
-## 04 Move Game
+## 04 Move Game(testnet)
 
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [] game package id :0xc8f1bc31bb1cb8c61c34304b29c37707a043ac37044c52620ce64b3ac88d013a
+- [] deposit Coin hash:HNem8ymD6Uc5fA4NtB1oUExytLFhVwmWgmuSoVGG5fku
+- [] withdraw `Coin` hash:9eWnQmZxfB9ZK7yEHA6mJoY1rQjQ9K29EnC3wh7yMt7s
+- [] play game hash:5vAs2Lbdqj3PJdfHYemSS2gKrXp7XrnsX9Zcqun59ekK
 
 ## 05 Move Swap
 

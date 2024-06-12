@@ -66,9 +66,9 @@ game 包含自己 github id的元素 **croal99_choice**
 
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0x0c828cead5f0c1a7d88d1304fb91b77e5c72fe738643cfa585b0b069c7e6ad68
+- [x] call swap CoinA-> CoinB  hash : 8mvigYSzihVq93jfSFdTnjEbH3X4F2eZSxRG8Asz1Dv2
+- [x] call swap CoinB-> CoinA  hash : 7xKtgKZhabCUQbZXaWJm2v5gUWXp1BRqP5dXCRMz4bvH
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :
