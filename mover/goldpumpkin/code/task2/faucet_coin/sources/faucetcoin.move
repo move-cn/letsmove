@@ -1,11 +1,7 @@
 /// Module: faucetcoin
 module faucet_coin::faucetcoin {
 
-    use std::option;
     use sui::coin;
-    use sui::transfer;
-    use sui::tx_context;
-    use sui::tx_context::TxContext;
 
     /// The type identifier of coin. The coin will have a type
     /// tag of kind: `Coin<package_object::faucet_coin::FAUCETCOIN>`
@@ -26,8 +22,8 @@ module faucet_coin::faucetcoin {
         // transfer the `TreasuryCap` to the sender, so they can mint and burn
         transfer::public_transfer(treasury, tx_context::sender(ctx));
 
-        // metadata is typically frozen after creation
-        transfer::public_freeze_object(metadata);
+        // share the object to everyone
+        transfer::public_share_object(metadata);
     }
 
     public entry fun mint(cap: &mut coin::TreasuryCap<FAUCETCOIN>, amount: u64, recv: address, ctx: &mut TxContext) {

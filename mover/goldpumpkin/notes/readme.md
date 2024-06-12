@@ -1,5 +1,10 @@
 ## Task2
 
+### Requirement
+
+- 创建自己 coin，只有管理员可以 `mint`
+- 创建水龙头，任何人都可以 `mint`
+
 ### Create Coin Steps
 
 - define your coin struct, like `public struct MYCOIN has drop {}`

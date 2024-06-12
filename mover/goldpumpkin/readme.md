@@ -1,7 +1,7 @@
 ## 基本信息
 - Sui钱包地址: `0x0e0c9ecbf04056e68b27ea392ea0a65ed0908ddd56ba6e76d0147a4380cba1ad`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `Gold`
+- github: `goldpumpkin`
 
 ## 个人简介
 - 工作经验: 7年
@@ -17,8 +17,10 @@
 
 ##   02 move coin
 - [x] My Coin package id : [0x2049a291454215021d24d2def83107c6e3bb5778d945b8972e2c7d1d9bada7b2](https://suiscan.com/object/0x2049a291454215021d24d2def83107c6e3bb5778d945b8972e2c7d1d9bada7b2)
-- [x] Faucet package id : [0x3cfb32fcd3bc6b3f92656fe41ddcf35bdd15d570f0216fce91d5eb24eba3cb9e](https://suiscan.com/object/0x3cfb32fcd3bc6b3f92656fe41ddcf35bdd15d570f0216fce91d5eb24eba3cb9e)
+- [x] Faucet package id : [0x3b6b196b9c17390406c04d1c949179ebab1b001940dc38aa226b92cffc63b1ce](https://suiscan.xyz/mainnet/object/0x3b6b196b9c17390406c04d1c949179ebab1b001940dc38aa226b92cffc63b1ce/contracts)
 - [x] 转账 `My Coin` hash: [BvxoEjvXiPrcyEvFGTL1cNufJ7yMRporDGrHe5pLozH4](https://suiscan.com/txblock/BvxoEjvXiPrcyEvFGTL1cNufJ7yMRporDGrHe5pLozH4)
+- [x] `Faucet Coin` address1 mint hash:[HK6n3L8DyPg5pX1VBgU6oXdXYeintSAJgDEDSYydECUP](https://suiscan.xyz/mainnet/tx/HK6n3L8DyPg5pX1VBgU6oXdXYeintSAJgDEDSYydECUP)
+- [x] `Faucet Coin` address2 mint hash:[FGC6WGMMnaUEqEfYGWCrgaZQ1xeWZ4cdJ7qmhiUHcmW7](https://suiscan.xyz/mainnet/tx/FGC6WGMMnaUEqEfYGWCrgaZQ1xeWZ4cdJ7qmhiUHcmW7)
 
 ##   03 move NFT
 - [] nft package id :
