@@ -63,6 +63,9 @@ sui client call --function get_flag --package $PackageID --module check_in --arg
 
 ## 08 Move CTF Lets Move
 
+- [X] Proof : 0x026ee72d
+- [X] Transaction block : [8oJk3uG9kaaDpchoetiWKLSx859mPsYU7yjNqPhn3yeT](https://suiscan.xyz/testnet/tx/8oJk3uG9kaaDpchoetiWKLSx859mPsYU7yjNqPhn3yeT)
+
 
 
 
