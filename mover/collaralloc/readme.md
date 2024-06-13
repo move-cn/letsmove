@@ -24,10 +24,10 @@
 - [] `Faucet Coin` address2 mint hash:
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id : 0x316933ef9b27c341cfbb4f66f1943b1c1d75d25f571e617b521fb47fb647e53e
+- [x] nft object id : 0x3bc521e10ebc916c745275a400d6a572e8fccb8c1335c546619bbe8513964177
+- [x] 转账 nft  hash: HMoKhBQhJnLK8doBSpt6dPpgCar4VZdTsY5CpKmfTJsk
+- [x] scan上的NFT截图:![Scan截图](./images/屏幕截图%202024-06-14%20005455.png)
 
 ##   04 Move Game
 - [] game package id :
@@ -44,9 +44,9 @@
 - [] save hash :
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : ![截图](./notes/task7/屏幕截图%202024-06-13%20230215.png)
+- [x] flag hash : 7bZV4isUAjBBmfZXZ9qao5Y7PAP1dA9rn1hkhaC9pm2f
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof : dacd7fa4a7c4faf2
+- [x] flag hash : 5AAeXVCQcuSijvcHJz3Qj9VWYQ5RRzbrMUtx7d7ryZkv
