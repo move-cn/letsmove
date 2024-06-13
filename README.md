@@ -9,7 +9,6 @@ Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move�
 
 ## 社区 & 问答
 - [move中文 TG](https://t.me/move_cn)
-- [Sui中文 TG](https://t.me/sui_dev_cn)
 - QQ群: 79489587
 
 
