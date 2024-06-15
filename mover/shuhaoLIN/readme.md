@@ -20,3 +20,9 @@
 - [x] package id: 0xfc2b508e402d8930ddf55073d353f3f06bea4c3013adf532bb1ae3b0cdbdc704
 - [x] Sui钱包截图: ![Sui钱包截图](./images/wallet.png)
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/publish_hello_move.png)
+
+
+##   07 Move CTF Check In
+- [x] CLI call 截图 : ![截图](./code/task7/task7.png)
+- [x] flag hash : AzT1J6jeMqzXwh4tdF25PVChVvGNpzR3S1nP3x4FzQpM
+
