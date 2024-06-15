@@ -1,0 +1,13 @@
+参考了[https://xlog.yuheng.site/letsmove-task5](https://xlog.yuheng.site/letsmove-task5)
+
+sui client publish --gas-budget 50000000
+
+sui client call --gas-budget 7500000 --package 0x4735ae94f2de2d1fdb838d128a474cb452df34b7e78d39e761ed7367f5494ec8 --module zsyzqm_coin --function mint --args 0xc4384659043f4fa7f457d35c92e5d42feefa2b45ba15ceb0fb4b278706a71f34 1000 0xb9d2feeb733825b6392c970b31102d261bbae5fcd1afb560bec5b46b20d59d34
+
+sui client call --gas-budget 7500000 --package 0x4735ae94f2de2d1fdb838d128a474cb452df34b7e78d39e761ed7367f5494ec8 --module zsyzqm_faucet_coin --function mint --args 0x8bfdb404f44a2e22dad1be6820ce0caf588cc259e7b6aca5103872399f5d13d8 1000 0xb9d2feeb733825b6392c970b31102d261bbae5fcd1afb560bec5b46b20d59d34
+
+sui client call --gas-budget 7500000 --package 0x1a666dd5ef78c8351826510f7e25b164bc42eb5336672fb24502e6ed173521e6 --module zsyzqm_chain --function create_pool --type-args '0x4735ae94f2de2d1fdb838d128a474cb452df34b7e78d39e761ed7367f5494ec8::zsyzqm_coin::ZSYZQM_COIN' '0x4735ae94f2de2d1fdb838d128a474cb452df34b7e78d39e761ed7367f5494ec8::zsyzqm_faucet_coin::ZSYZQM_FAUCET_COIN'  --args 0x0ca6ddfb8e50238158c3f376a7751d783d5dc17ed49b96a697459b609d96345c 0x3b7de2b6678c684f7582d2ed5ad2063bbfa398e1ad9775117ed7c32e37d0c34d
+
+sui client call --gas-budget 7500000 --package 0x4735ae94f2de2d1fdb838d128a474cb452df34b7e78d39e761ed7367f5494ec8 --module zsyzqm_coin --function mint --args 0xc4384659043f4fa7f457d35c92e5d42feefa2b45ba15ceb0fb4b278706a71f34 1000 0xb9d2feeb733825b6392c970b31102d261bbae5fcd1afb560bec5b46b20d59d34
+
+sui client call --gas-budget 7500000 --package 0x1a666dd5ef78c8351826510f7e25b164bc42eb5336672fb24502e6ed173521e6 --module zsyzqm_chain --function swap_a_to_b --type-args   '0x4735ae94f2de2d1fdb838d128a474cb452df34b7e78d39e761ed7367f5494ec8::zsyzqm_coin::ZSYZQM_COIN' '0x4735ae94f2de2d1fdb838d128a474cb452df34b7e78d39e761ed7367f5494ec8::zsyzqm_faucet_coin::ZSYZQM_FAUCET_COIN'  --args 0x13062ae72af05df256067fb34d2cc651348a584b1228c5daa16b34cac5e160a3 0xdec52ca526c4cfd4e0b9b84471f5c306e0b225e32e709e7ce228f3cd458a9ae6

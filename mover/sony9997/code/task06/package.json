@@ -1,0 +1,21 @@
+{
+  "name": "hello-sui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@mysten/sui.js": "^0.54.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.11",
+    "dotenv": "^16.4.5",
+    "intl": "^1.2.5",
+    "navi-sdk": "^1.1.21"
+  }
+}
