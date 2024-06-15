@@ -1,15 +1,14 @@
 import { Container, Text, Button } from "@radix-ui/themes";
 import { TransactionBlock } from "@mysten/sui.js/transactions";
+import { useSignAndExecuteTransactionBlock, useCurrentAccount } from "@mysten/dapp-kit";
 import { pool, Sui, USDC } from 'navi-sdk/dist/address'
 import { depositCoin, borrowCoin} from 'navi-sdk/dist/libs/PTB';
 import { PoolConfig, Pool } from "navi-sdk/dist/types";
-import { useWallet } from '@suiet/wallet-kit';
-
-// const SuiSignAndExecuteTransactionBlockOutput = require("suiet/wallet-sdk/node_modules/@mysten/wallet-standard");
-
 
 export function NaviTx() {
   
+  const { mutate: signAndExecuteTransaction } = useSignAndExecuteTransactionBlock()
+
   function prefixInteger(num: number, length: number): string {
     return (num / Math.pow(10, length)).toFixed(length).substring(2)
   }
@@ -22,13 +21,11 @@ export function NaviTx() {
     return Number(transactionAmount)
   }
 
-  const wallet = useWallet();
-  const account = wallet.account;
-
-  // let executeResult:SuiSignAndExecuteTransactionBlockOutput = undefined;
+  const account = useCurrentAccount()!;
 
   async function executeTX() {
     try {
+      
       const transactionBlock = new TransactionBlock();
       transactionBlock.setSender(account!.address);
 
@@ -46,15 +43,24 @@ export function NaviTx() {
       const [borrow_usdc_obj] = await borrowCoin(transactionBlock, usdcPool, borrow_usdc_amount);
 
       await depositCoin(transactionBlock, usdcPool, borrow_usdc_obj, borrow_usdc_amount);
-      
-      const response = wallet.signAndExecuteTransactionBlock({
-        transactionBlock: transactionBlock
-      });
-
-      console.log("execute response " + response)
-  
+      debugger
+      signAndExecuteTransaction({
+        transactionBlock: transactionBlock, 
+        account: account,
+        chain: 'sui::mainnet'
+      }, {
+        onSuccess: (response) => {
+          console.log("success:",response)
+        },
+        onError: (error) => {
+          console.log("error:", error)
+        },
+        onSettled: (result) => {
+          console.log("settled:", result)
+        }
+      })
     } catch (error) {
-      
+      console.log("error: ", error)
     }
   }
   

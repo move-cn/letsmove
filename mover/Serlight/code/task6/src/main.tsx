@@ -13,10 +13,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Theme } from "@radix-ui/themes";
 import App from "./App.tsx";
 
-import { Transaction } from '@mysten/sui/transactions';
-
-
-
 const queryClient = new QueryClient();
 
 const { networkConfig } = createNetworkConfig({
