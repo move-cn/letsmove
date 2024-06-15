@@ -33,3 +33,8 @@
 ##   05 Move Swap
 - [] swap package id :
 - [] call swap hash:
+
+
+## 06 
+
+- [] digest: EC6QbhYNKaFruEuG9LvEFwqyRHebGxRmDriZMcYyXE8K
