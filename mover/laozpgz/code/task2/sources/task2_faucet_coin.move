@@ -12,7 +12,7 @@ module task2::laozpgz_faucet_coin {
             9,
             b"LaozpgzFaucetCoin",
             b"LAOZPGZ FAUCET COIN",
-            b"lets_move task2 faucet coin,for everyone.Everyone can mint this coin.",
+            b"lets_move task2 faucet coin",
             option::some<Url>(url::new_unsafe_from_bytes(b"https://avatars.githubusercontent.com/u/22661987")),
             ctx
         );

@@ -34,4 +34,12 @@
 - [x] call swap hash: `https://suiscan.xyz/testnet/tx/9zr3rEQabQfyn94gFZtEDM6SUUqgd32ftgkKVzdWiU9o` (rmb to usd)
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : `https://suivision.xyz/txblock/EfrEkzsnQjydVrnFdZwhSCWPDF3oiM1qnpMYHuzD6wb7`
+
+##   07 Move CTF Check In
+- [x] CLI call 截图 : ![截图](./code/task7_move_ctf_check_in/image.jpg)
+- [x] flag hash : `Du8woLMhqMtTXQoDz2yT4WgfwkmzeYL2XVocADdWfn6P`
+
+##   08 Move CTF Lets Move
+- [x] proof : `6d2f21242436127de875`
+- [x] flag hash : `2hchn6NgjancH8QwsHpxkrr3hSeQjouPKKXCTZzYK2PU`

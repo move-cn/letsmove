@@ -20,9 +20,9 @@
 - [x] 转账 `My Coin` hash: 2nAFy7huKeX1R6DGJQwzvTrEJ5V8iYjdf69V5H9Hrfyn
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [x] nft package id : 0xed8c17ffc0aaf31662efdd8adcc8f80d4175bdebede1515319a3ab330ffed533
+- [x] nft object id : 0x2b624e0e19325eb2b071d175a8578ce59a475b8b6b28640c64bbd757fec3bd42
+- [x] 转账 nft  hash: 6aBxY5548EXg7fVMvfQXyjfQce1QuXqkkasVo3MT1uJh
 
 ##   04 Move Game
 - [] game package id :
@@ -34,3 +34,11 @@
 
 ##   06 SDK PTB
 - [] save hash :
+
+##   07 Move CTF Check In
+- [x] CLI call 截图: ![CLI](./notes/task7/img.png)
+- [x] flag hash: 9fhpBMw3hyeVwpKteVuDPwqhhicRDvMjxnSjs8srZqD7
+
+##   08 Move CTF Lets Move
+- [x] CLI call 截图: ![CLI](./notes/task8/img.png)
+- [x] Transaction block: `FRnQ3ciz1Ujhq85rPt2roTWimo8zsAt4VHPPQULrLuow`

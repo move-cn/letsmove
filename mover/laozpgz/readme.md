@@ -19,11 +19,11 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/task1_PackageID_screenshot.png)
 
 ##   02 move coin
-- [x] My Coin package id : 0xdb18fd3ce00c0d8ba4a1720398639315975076d9ce3a407d0f090dccb9248d09
-- [x] Faucet package id : 0xdb18fd3ce00c0d8ba4a1720398639315975076d9ce3a407d0f090dccb9248d09
-- [x] 转账 `My Coin` hash : 9VNF9KTg47YNHs85dWp9Cw5WxXMHRWwCmg5XWNFw2hik
-- [x] `Faucet Coin` address1 mint hash : HtjVYd84zFDEg9Fjp3KqbMHsrRgX4ASAbaBzn4dtqvSw
-- [x] `Faucet Coin` address2 mint hash : GDrXEbPbMnDhv74yiBMNT7Kn7QeokMWStofcUFPER9hk
+- [x] My Coin package id : 0x505116c299e1202199037b7915e8e0c80c5c5dbef5cb5105178f83412521ddc2
+- [x] Faucet package id : 0x505116c299e1202199037b7915e8e0c80c5c5dbef5cb5105178f83412521ddc2
+- [x] 转账 `My Coin` hash : 6fP6nJoGM1EAbFHMnAk3RviEpxr9TByhYK4ReAgmr6ko
+- [x] `Faucet Coin` address1 mint hash : B3jrvXXPSeHNFZwTAF5fWrdWiNN1vUJEU862baivJ46f
+- [x] `Faucet Coin` address2 mint hash : AWtLUZL41zLF1r5EjNQF2BY5Dz8QyrG5LUkY7Zkd4QBJ
 
 ##   03 move NFT
 - [x] nft package id :0xc1feab0a77bfbaf5c6e2dc2a82e9574973d5f3c81fddd89657100bb30cdc1877
@@ -38,9 +38,9 @@
 - [] play game hash:
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id :0xe1782afe9a84579c4fa67efba89d43fdf9e4468348327b60ff0241a699c8ad6b
+- [x] call swap CoinA-> CoinB  hash :Dyew1ABnKfmeUKqPmc4Pt9cQLYKopiSD4PpTqESzY89h
+- [x] call swap CoinB-> CoinA  hash :HMTvFTzJVtCj2K9u3acDyTGUaLHdp7D8e6jEd2N2jnRZ
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :

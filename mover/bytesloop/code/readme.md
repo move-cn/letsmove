@@ -38,3 +38,23 @@ Object ID - 0xd6240a8aa63169c0fdc868fc30ff45312c1aa56fcfd6b2249547182e59183468)
 - https://suiscan.xyz/testnet/tx/C3znaEcZTqiqtaVCfwMxip7DvbkhCewYcDkYiaT1wgMF  RMB ObjectID: 0xe7ef4ecfc81cb4b5f1da57963b9c9e3b37a4e921c9ea5d16bbab312e2776abd1
 - swap rmb to usd - sui client call --package 0x29cd0bf0b0cc54132acbf0cdae4bd21ce15e29a46d9acd2fcecdbca85d8c7258 --module bytesloop_swap --function swap_rmb2usd --args 0x3ada5d09b7132bf3582fb7f7a13dab8f1c9a65d97000fdec6d70ddbdee51c4dc 0xe7ef4ecfc81cb4b5f1da57963b9c9e3b37a4e921c9ea5d16bbab312e2776abd1 --gas-budget 5000000
 - https://suiscan.xyz/testnet/tx/9zr3rEQabQfyn94gFZtEDM6SUUqgd32ftgkKVzdWiU9o  USD ObjectID: 0xd57fd1ecf6f9957ddd4ae9745454ce471dabf037c636616bf941d8da154dae6b
+
+
+## task7_move_ctf_check_in
+
+- check_in.move - https://github.com/move-cn/letsmove-ctf/blob/main/src/01_check_in/check_in/sources/check_in.move
+- 合约部署地址: https://testnet.suivision.xyz/package/0x60695ee31f93add1f79909c884a55dff7e5f140bbd2e495819966bd2f7971d42
+- FlagStr: https://testnet.suivision.xyz/object/0x011f9404e6f167e549b617a53eea058029167a2beac26c624cbc3550e04b5ad2 (rW~-fs`.8E:-E'7LZWqCj5) 每次执行成功都会更新FlagStr
+- random: 0x8
+- github id: bytesloop
+- CLI call: sui client call --package 0x60695ee31f93add1f79909c884a55dff7e5f140bbd2e495819966bd2f7971d42 --module check_in --function get_flag --args "rW~-fs`.8E:-E'7LZWqCj5" "bytesloop" 0x011f9404e6f167e549b617a53eea058029167a2beac26c624cbc3550e04b5ad2 0x8 --gas-budget 10000000
+
+
+## task8_move_ctf_pow
+
+- lets_move.move - https://github.com/move-cn/letsmove-ctf/blob/main/src/02_lets_move/lets_move/sources/lets_move.move
+- 合约部署地址: https://testnet.suivision.xyz/package/0x097a3833b6b5c62ca6ad10f0509dffdadff7ce31e1d86e63e884a14860cedc0f
+- Challenge Object: https://testnet.suivision.xyz/object/0x19e76ca504c5a5fa5e214a45fca6c058171ba333f6da897b82731094504d5ab9 (uMKz'lr#*kw][z/CAvOZ)
+- random: 0x8
+- github id: bytesloop
+- CLI call: sui client call --package 0x097a3833b6b5c62ca6ad10f0509dffdadff7ce31e1d86e63e884a14860cedc0f --module lets_move --function get_flag --args 6d2f21242436127de875 "bytesloop" 0x19e76ca504c5a5fa5e214a45fca6c058171ba333f6da897b82731094504d5ab9 0x8 --gas-budget 10000000
