@@ -22,6 +22,14 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/publish_hello_move.png)
 
 
+##   02 move coin
+- [x] My Coin package id : 0xe25e1f8480617d0d7919e1487ce60f8b53a87bb6861551bcc1ab92a36ec0c6b7
+- [x] Faucet package id : 0xfc99fcf6b305b2d8ace7166a7894980d3ebd5d04fe4827884d4983cb0cf2c0f4
+- [x] 转账 `My Coin` hash: 2NqydmWF5r2YZhbonoQPFGBctcKpCpgu9zbo9b8YLoB3
+- [x] `Faucet Coin` address1 mint hash: 4qnQXWMQuMBY1EEfqtqSxaRY85eakxpV6mdGVDKFeKz4
+- [x] `Faucet Coin` address2 mint hash: 4yHWhs3M5w3QTBtXyCQqSaDBRcttaEV9QUkUmPoGSazC
+
+
 ##   07 Move CTF Check In
 - [x] CLI call 截图 : ![截图](./code/task7/task7.png)
 - [x] flag hash : AzT1J6jeMqzXwh4tdF25PVChVvGNpzR3S1nP3x4FzQpM
