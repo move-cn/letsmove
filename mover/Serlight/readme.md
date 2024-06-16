@@ -38,3 +38,8 @@
 ## 06 
 
 - [] digest: EC6QbhYNKaFruEuG9LvEFwqyRHebGxRmDriZMcYyXE8K
+
+## 07
+第一个是网页过的， 第二个是cli 过的
+- [] digest: DBUZp7pSHowF4wAXKa2bZSD23Fguwu2YTyx7wu24jFhR
+- [] digest: FuoFUnfpL5hUcJtM1ozd3NSwWsojenGXmiC44gAthcLF
