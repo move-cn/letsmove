@@ -30,6 +30,12 @@
 - [x] `Faucet Coin` address2 mint hash: 4yHWhs3M5w3QTBtXyCQqSaDBRcttaEV9QUkUmPoGSazC
 
 
+##   03 move NFT
+- [x] nft package id : 0x70cdad7f38b09648a9d9ffbc6872af7c2be6931f84e63363568517d83d06a03e
+- [x] nft object id : 0xb3dc2eb170bf63577b4bef49977a2501462ab40f8f09b7bc48c95564ca3cd2bf
+- [x] 转账 nft  hash: 7dBeeQ2k6JzZ2UV17iiBd9RLwFBdyxRUXGgRfCwq9CE8
+- [x] mint 到自己地址的截图 hash：Bv94n3uVZ5ikfYC11jxGcPpZDvJHRfd9uMKY5LwUqdku 以及截图：![截图](./images/task3_nft_self.png)
+
 ##   07 Move CTF Check In
 - [x] CLI call 截图 : ![截图](./code/task7/task7.png)
 - [x] flag hash : AzT1J6jeMqzXwh4tdF25PVChVvGNpzR3S1nP3x4FzQpM
