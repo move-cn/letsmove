@@ -40,5 +40,5 @@
 - [x] flag hash: GCPBkZMqg94qkvmgvZrLxGkFTYwcYCActnHLi9rsNoKU
 
 ##   08 Move CTF Lets Move
-- [ ] CLI call 截图: 
-- [ ] Transaction block: 
+- [x] proof: `mmIjhC`
+- [x] Transaction block: 7GSntmwd89jnesiiosEzBGg4jyRF19FBiNdyRzbkCKhB
