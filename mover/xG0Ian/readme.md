@@ -34,3 +34,9 @@
 
 ##   06 SDK PTB
 - [] save hash :
+
+##   07 Move CTF Check In
+- [x] get flag hash : 46rqisQvVC9hNPq4oVwCqEKXaMF9VdRqT3ZESQmzVsm3
+
+##   08 Move CTF Lets Move
+- [x] get flag hash : CJJexjcwBqhQkAbVPzH3Z6jD8SKbjD9nZLxgx7kW5998
