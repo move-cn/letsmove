@@ -40,3 +40,6 @@
 - [x] CLI call 截图 : ![截图](./code/task7/task7.png)
 - [x] flag hash : AzT1J6jeMqzXwh4tdF25PVChVvGNpzR3S1nP3x4FzQpM
 
+##   08 Move CTF Lets Move
+- [x] proof : 90510229
+- [x] flag hash :8VRjuvCH5pCJepzeYujLCwmxN3TxLcW1F8i4kiCs7Lij
