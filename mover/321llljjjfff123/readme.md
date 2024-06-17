@@ -44,3 +44,13 @@ https://github.com/321llljjjfff123
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash : BpravNAvoWEkq7j7n7bCN1g7nXpBn66PnC79ABS4uUqS
+
+##   07 Move CTF Check In
+- [] CLI call 截图 : ![截图](/code/task7/task7.png)
+- [] flag hash : 8dFSZmFAHjawmraUNskVCxDE7uuBTXoXeVJHQqaXq9MP
+
+##   08 Move CTF Lets Move
+- [] proof : 
+- [] flag hash :
+
+
