@@ -13,9 +13,9 @@
 
 ##   01 hello move  
 - [] Sui cli version: sui 1.26.1-homebrew
-- [] Sui钱包截图: ![Sui钱包截图](https://github.com/xiaodi007/letsmove/mover/xiaodi007/images/task1-wallet.png)
+- [] Sui钱包截图: ![Sui钱包截图](https://github.com/xiaodi007/letsmove/blob/main/mover/xiaodi007/images/task1-wallet.png)
 - [] package id: 0x4bb8f2f992c19b2acbd9e48e7ad3cdbcf595a967227f3dea2a27de53d816a3ba
-- [] package id 在 scan上的查看截图:![Scan截图](https://github.com/xiaodi007/letsmove/mover/xiaodi007/images/task1-package.png)
+- [] package id 在 scan上的查看截图:![Scan截图](https://github.com/xiaodi007/letsmove/blob/main/mover/xiaodi007/images/task1-package.png)
 
 
 ##   02 move coin
@@ -24,13 +24,13 @@
 - [] 转账 `My Coin` hash: DcMGYv8gs8C9sCwhxRynegND9VEhxGmFjZ1zyYrMoSpv
 - [] `Faucet Coin` address1 mint hash: vFBQGgjk7KUxyqv66Ya5f6yqwt7N6Pkkz5TtzcuPrT8
 - [] `Faucet Coin` address2 mint hash: 4bHk3zdESqDjyJ8mwr26VJNsVhD5ofn3RUSLDaSJihcp
-[Scan截图](https://github.com/xiaodi007/letsmove/mover/xiaodi007/images/task2.png)
+[Scan截图](https://github.com/xiaodi007/letsmove/blob/main/mover/xiaodi007/images/task2.png)
 
 ##   03 move NFT
 - [] nft package id : 0x53829e8f97dd3ee7c9954c1743d6c386ecc86a8e5cd76ed590e8c8bea83c56a6
 - [] nft object id : 0xafc126feb46917afa9c315be3eeea66b2f8adb98b47e4f42b43e7c784d24b6f3
 - [] 转账 nft  hash: CcGSUohAsjZzTW2xxRsyobz2ad6C6V1fHU6VP16EBgCQ
-- [] scan上的NFT截图:![Scan截图](https://github.com/xiaodi007/letsmove/mover/xiaodi007/images/task3.png)
+- [] scan上的NFT截图:![Scan截图](https://github.com/xiaodi007/letsmove/blob/main/mover/xiaodi007/images/task3.png)
 
 ##   04 Move Game
 - [] game package id : 0x53829e8f97dd3ee7c9954c1743d6c386ecc86a8e5cd76ed590e8c8bea83c56a6
@@ -47,7 +47,7 @@
 - [] save hash :
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](https://github.com/xiaodi007/letsmove/mover/xiaodi007/images/task7.png)
+- [] CLI call 截图 : ![截图](https://github.com/xiaodi007/letsmove/blob/main/mover/xiaodi007/images/task7.png)
 - [] flag hash : BNSZkQ3H6mP7RbkXQHHNbRwg6sry4aCm3aS2Kez6H7p9
 
 ##   08 Move CTF Lets Move
