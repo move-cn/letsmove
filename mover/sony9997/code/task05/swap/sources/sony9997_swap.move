@@ -6,7 +6,7 @@ module sony9997_swap::sony9997_swap {
 
     use sui::transfer;
 
-    // const EInsufficientBalance: u64 = 11;
+    const EInsufficientBalance: u64 = 11;
 
     public struct AdminCap has key {
         id: UID

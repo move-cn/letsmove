@@ -44,3 +44,8 @@
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :
+
+## 07 Move CTF Check In
+
+- [] CLI call 截图 :![image-20240610175523325](https://zhu-yuan.oss-cn-beijing.aliyuncs.com/Blog/image-20240610175523325.png)
+- [] flag hash :9QShg9c81cMAXCbUnN2ZdmHH7ZcoBhbFimsTj58BeGFB

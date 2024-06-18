@@ -6,7 +6,7 @@
 ## 个人简介
 - 工作经验: 研究生
 - 技术栈: `Python`
-- 初学 Python，对 move 感性起
+- 初学 Python，对 move 感兴趣
 - 联系方式: tg: `cmn` 
 
 ## 任务
@@ -20,9 +20,9 @@
 - [x] 转账 `My Coin` hash : 4GcQ5qnMsjNCbPuDHhZYkgoxYqaVg6YnEHkKp2VgR7Uo
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [x] nft package id : 0x8c17d23917938aa01bb61fa9ee8ffab5c999f4ef2b47978ffabe111c5c4827b4
+- [x] nft object id : 0x2d577c06661f0ca3633b08872e519a5873f6ff78382407b5563f251f9f48e869
+- [x] 转账 nft  hash: 1415tF87kN4rpzqvcGGxK7wEFZamgEsoYUsYH2UKN9XL
 
 ##   04 Move Game
 - [] game package id :
@@ -38,3 +38,7 @@
 ##   07 Move CTF Check In
 - [x] CLI call 截图: ![CLI](./notes/task7/WechatIMG3291.jpg)
 - [x] flag hash: 8YnAUm8qjSkfqZnhh2oxcvWWAG1bcXtfbSgqcgpFDD44
+
+##   08 Move CTF Lets Move
+- [x] Proof: `86636586`
+- [x] Transaction block: `8vmrR3VdVrnfp1KrtbMGsuPiZ7qm4BaaCRdYTjxLMnFH`

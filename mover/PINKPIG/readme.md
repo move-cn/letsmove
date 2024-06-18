@@ -13,6 +13,7 @@
 ## 任务
 
 ##   01 hello move  
+
 - [√] Sui cli version:sui 1.27.0-e5f080922d56-dirty
 - [√] Sui钱包截图: ![alt text](image.png)
 - [√] package id: 0x47a03fd4bd836f3aec1472c76bdcbcb833f379b9dafc3ffddf1fff233efd0736
@@ -24,6 +25,7 @@
 - [√] 转账 `My Coin` hash: FH8UFfLX481do43S5tCLAQJv7PBLJGiQehpg3HCQVfvy
 - [√] `Faucet Coin` address1 mint hash:EuPvB7y8CSt5T8mfEDyyqP82hv6ULYgoXDcKNZPuQDAq
 - [√] `Faucet Coin` address2 mint hash:Bsu4WTC3NziS6dGxqc7ASqN1hrFA2qg6etLXX7oMMfuQ
+
 
 ##   03 move NFT
 - [] nft package id :
