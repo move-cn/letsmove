@@ -50,5 +50,5 @@
 - [x] flag hash : BuJqF376gacwCDW6e3iBgjNzJ5rYum7U1bHRp9PqaeUb
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof : 59457696
+- [x] flag hash : 35wfMug2Qqa47EKahjbTwDuyC9s78X9KrXGU76WHWWYS
