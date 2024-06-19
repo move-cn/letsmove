@@ -1,0 +1,11 @@
+services:
+  tos:
+    environment:
+      FLAG: justCTF{Th4t_sp3ll_looks_d4ngerous...keep_y0ur_distance}
+      PORT: 31337
+    build: 
+      context: ./
+      dockerfile: ./Dockerfile
+    ports:
+      - "31337:31337"
+    restart: always
