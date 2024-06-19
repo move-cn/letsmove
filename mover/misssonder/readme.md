@@ -11,17 +11,17 @@
 ## 任务
 
 ##   01 hello move  
-- [x] package id: 
+- [x] package id: 0x523de44d74d8b9d08a1e09fd608d28c80004f4dbff2305288d6a7e87f4fe78cf
 
 ##   02 move coin
-- [x] My Coin package id : 
-- [x] Faucet package id : 
-- [x] 转账 `My Coin` hash: 
+- [ ] My Coin package id : 
+- [ ] Faucet package id : 
+- [ ] 转账 `My Coin` hash: 
 
 ##   03 move NFT
-- [x] nft package id : 
-- [x] nft object id : 
-- [x] 转账 nft  hash: 
+- [ ] nft package id : 
+- [ ] nft object id : 
+- [ ] 转账 nft  hash: 
 
 ##   04 Move Game
 - [ ] game package id :
