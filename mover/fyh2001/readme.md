@@ -36,9 +36,9 @@
 - [] save hash :
 
 ##   07 Move CTF Check In
-- [x] CLI call 截图: ![CLI](./notes/task7/image.png)
-- [x] flag hash: GMy46QNfQEixuNa4uBMVBDbYx7c8NkYfKFaPNZwDCaNB
+- [] CLI call 截图: ![CLI](./notes/task7/image.png)
+- [] flag hash: 
 
 ##   08 Move CTF Lets Move
-- [] CLI call 截图: 
-- [] Transaction block: 
+- [x] CLI call 截图: ![CLI](./notes/task8/image.png)
+- [x] Transaction block: 4uwn6yeqnMULa8ZFckWQX7aHTvek3aGFRx42Yr3nHnwU
