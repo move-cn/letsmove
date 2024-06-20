@@ -34,3 +34,11 @@
 
 ##   06 SDK PTB
 - [X] save hash :[https://suivision.xyz/txblock/Bd5NiqNa4cL7yDw7d9diMS8gdeKe39ZV3ok4Hb9fMY1y]
+
+## 07 Move CTF Check In
+- [X] flag hash :[https://testnet.suivision.xyz/txblock/4ZJWsTGWgeaxYPvaUNqeLe1GEGs7Ej9f8HM5gTNhWAZM]
+
+## 08 Move CTF Lets Move
+
+- [x] proof : 31157547
+- [x] flag hash : kom5DmTEdcv3eJFWRFyAExheQuaNRYy8yrUxNbomfeq[https://testnet.suivision.xyz/txblock/kom5DmTEdcv3eJFWRFyAExheQuaNRYy8yrUxNbomfeq]

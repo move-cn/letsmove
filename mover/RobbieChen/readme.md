@@ -39,3 +39,9 @@
 
 ##   06 SDK PTB
 - [] save hash :
+
+##   07 check in
+- [] package id: 0xfbbec7d47a179328651ad2607158b21ecbc5e8b17dcb36c06d845bb9c8e8e2dd
+- [] flag_id : 0xe8794333b722d5ae618b20119df9b793f8e503af1630f6eab521791bc1db9895
+- [] image: ./images/task7.png
+

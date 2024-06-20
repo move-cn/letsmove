@@ -38,3 +38,6 @@
 
 ##   06 SDK PTB
 - [] save hash :
+
+## 07 Move CTF Check In
+- [] flag hash :[https://testnet.suivision.xyz/txblock/JD6Kh1gvFmoNit8GA9RGkMULTFXZuVyRdyw9GcPUGK6F]

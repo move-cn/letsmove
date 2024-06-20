@@ -53,3 +53,26 @@ mainnet:
 
 ##   06 Dapp-kit SDK PTB
 - [X] save hash :7Mt6Cu9xSEWRxCdPsczZEbi6NBCYYa2JnBN21pz3Nifh
+
+##   07 Move CTF Check In
+- [X] CLI call (忘记截图了):
+```
+#!/bin/bash
+
+PackageID=0x60695ee31f93add1f79909c884a55dff7e5f140bbd2e495819966bd2f7971d42
+FlagStr_Object=0x011f9404e6f167e549b617a53eea058029167a2beac26c624cbc3550e04b5ad2
+
+github_id="m4sk93"
+string="N21X"
+rand="0x8"
+
+sui client call --package $PackageID \
+                --module check_in \
+                --function get_flag \
+                --args $string $github_id $FlagStr_Object $rand
+```
+- [X] flag hash : BNKqqwLPDiA1th71C1qp8nAMzdYFC8WhkXaBjoNyZhWD
+
+##   08 Move CTF Lets Move
+- [X] proof : [0xe7,0xc6,0,0,0,0,0,0]
+- [x] flag hash : 7uCNDToLAkLm7Ks1bUJirqNRjNrZ2vCbwyYEvFUHGuB9

@@ -37,3 +37,15 @@
 ##   06 SDK PTB
 
 - [√] save hash : 7rBNggBkX2yGBKoUQ1AkYnULGi4WhpVVo9DeuJRE7zWJ
+-
+
+## 07 Move CTF Check In
+
+- [√] CLI call 截图 : ![截图](./images/20240610222238.png)
+- [√] flag
+  hash : [ES5dvUyvJWvug3cCFRDDykHKV9Dmn2FBoDT5SKihzZKG](https://suiscan.xyz/testnet/tx/ES5dvUyvJWvug3cCFRDDykHKV9Dmn2FBoDT5SKihzZKG)
+
+## 08 Move CTF Lets Move
+
+- [] proof :
+- [] flag hash :

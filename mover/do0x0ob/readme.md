@@ -35,3 +35,8 @@
 
 ##   06 SDK PTB
 - [] save hash :
+
+##   07 Move CTF Check in
+- [X] Transaction Digest: `vNACMAgumoqKT6sx1ZFY5AoS3qKaCPQGyJXjQLKbgNw`
+- [X] EventID: `vNACMAgumoqKT6sx1ZFY5AoS3qKaCPQGyJXjQLKbgNw:0`
+- [X] Sui CLI call screenshot: ![SUI CLI screenshot](/mover/do0x0ob/notes/task_7.png)

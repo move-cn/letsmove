@@ -74,3 +74,85 @@ faucetcoin = "0x06f08f31cb1e000334e03cd0214380d5ab9df2d1c206de675b392f587ce95069
 
 * mover/JonathanSimon123/code/task4
 * mover/yemachine/code/game
+
+# swap
+
+```move
+module sample::test01 {
+
+    public struct Object has key, store {
+        id: UID,
+        scarcity: u8,
+        style: u8,
+    }
+
+    public fun new(scarcity: u8, style: u8, ctx: &mut TxContext): Object {
+        Object {
+            id: object::new(ctx),
+            scarcity,
+            style
+        }
+    }
+    
+    // === Tests ===
+    #[test_only] use sui::test_scenario as ts;
+
+    #[test]
+    fun test_new() {
+        let mut ts = ts::begin(@0x0);
+        let alice = @0xA;
+        let bob = @0xB;
+        let custodian = @0xC;
+
+        let i1 = {
+            ts::next_tx(&mut ts, alice);
+            let o1 = new(1, 0, ts::ctx(&mut ts));
+        };
+
+        ts::end(ts);
+        // pass
+    }
+
+}
+```
+
+
+# 范型 （Generics）
+
+## Generic Syntax
+To define a generic type or function, a type signature needs to have a list of generic parameters enclosed in angle brackets (< and >). The generic parameters are separated by commas.
+```move
+/// Container for any type `T`.
+public struct Container<T> has drop {
+    value: T,
+}
+
+/// Function that creates a new `Container` with a generic value `T`.
+public fun new<T>(value: T): Container<T> {
+    Container { value }
+}
+
+/// Function that creates a new `Container` with a generic value `T`.
+public fun new2<T>(): Container<T> {
+    Container { value: 0 }
+}
+```
+
+调用方法
+```move
+#[test]
+fun test_container() {
+    // these three lines are equivalent
+    let container: Container<u8> = new(10); // type inference
+    let container = new<u8>(10); // create a new `Container` with a `u8` value
+    let container = new2<u8>(); // create a new `Container` with `u8` type and void param!
+    let container = new(10u8);
+
+    assert!(container.value == 10, 0x0);
+
+    // Value can be ignored only if it has the `drop` ability.
+    let Container { value: _ } = container;
+
+}
+
+```
