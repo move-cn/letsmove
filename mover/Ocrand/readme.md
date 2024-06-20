@@ -43,7 +43,7 @@
 
 ## 07 Move CTF Check In
 
-- [x] CLI call 截图 : ![image_task7](D:\blockchain\sui\study\mission\letsmove\mover\Ocrand\code\task7\image_task7.png)
+- [x] CLI call 截图 : ![image_task7](letsmove/mover/Ocrand/code/task7/image_task7.png)
 - [x] flag hash : GwtMZv2Jaq3dc5K3jsLe7KUj7bXmnADnPdCY9DLQuhnh
 
 ##   08 Move CTF Lets Move
