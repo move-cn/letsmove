@@ -1,13 +1,11 @@
 [package]
-name = "faucet_coin"
+name = "move_nft"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
-published-at = "0x2d5da0195bef2cbef4644999afb9b2d5cd0f5b5b6c1f3887f75060a3b821d137"
-# admin = "0x43d00d1c0a9f2621e6e1f58d7f244872b59606afc3b83d4d30a23eff7ad76cf2"
+
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
-
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
@@ -21,8 +19,7 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-#faucet_coin = "0x0"
-faucet_coin = "0x2d5da0195bef2cbef4644999afb9b2d5cd0f5b5b6c1f3887f75060a3b821d137"
+move_nft = "0x0"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
