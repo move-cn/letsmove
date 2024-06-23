@@ -1,13 +1,14 @@
 [package]
-name = "my_coin"
+name = "move_swap"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
-published-at = "0x10a875b82f2809e40b75af3b7d12b161007b90d5653e07e88d516fa229ed0cfa"
-# admin = "0x63e6b9c9e22c0e09492ced54e6e5008e109ee87dcf3714560c38454433cc0344"
+
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+my_coin = {local = "../../task2/my_coin"}
+faucet_coin = {local = "../../task2/faucet_coin"}
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
@@ -21,8 +22,7 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-#my_coin = "0x0"
-my_coin = "0x10a875b82f2809e40b75af3b7d12b161007b90d5653e07e88d516fa229ed0cfa"
+move_swap = "0x0"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
