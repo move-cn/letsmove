@@ -18,10 +18,11 @@ module hello_world::HuiWang_World_Faucet_Coin {
             ctx
         );
 
-        transfer::public_freeze_object(metadata);
-        transfer::public_transfer(treasury_cap, tx_context::sender(ctx));
+        transfer::public_freeze_object(metadata);//冻结coin原数据
+        transfer::public_transfer(treasury_cap, tx_context::sender(ctx));//转移所有权给调用者，也就是合约发布者
     }
 
+    ///铸造币
     public fun mint(
         treasury_cap: &mut TreasuryCap<HUIWANG_WORLD_FAUCET_COIN>,
         amount: u64,
@@ -30,7 +31,7 @@ module hello_world::HuiWang_World_Faucet_Coin {
     ) {
         coin::mint_and_transfer(treasury_cap, amount, recipient, ctx);
     }
-
+    ///销毁币
     public fun burn(treasury_cap: &mut TreasuryCap<HUIWANG_WORLD_FAUCET_COIN>, coin: Coin<HUIWANG_WORLD_FAUCET_COIN>) {
         coin::burn(treasury_cap, coin);
     }

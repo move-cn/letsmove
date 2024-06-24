@@ -21,10 +21,10 @@ module hello_world::HuiWang_World_Coin {
             ctx
         );
 
-        transfer::public_freeze_object(metadata);
-        transfer::public_share_object(treasury_cap);
+        transfer::public_freeze_object(metadata);//冻结coin原数据
+        transfer::public_share_object(treasury_cap);//共享coin所有权
     }
-    /// 铸造 mint
+    /// 铸造币 mint
     public entry fun mint(
         treasury_cap: &mut TreasuryCap<HUIWANG_WORLD_COIN>,
         amount: u64,
@@ -33,8 +33,12 @@ module hello_world::HuiWang_World_Coin {
     ) {
         coin::mint_and_transfer(treasury_cap, amount, recipient, ctx);
     }
-    /// 销毁 Coin
+    /// 销毁币 Coin
     public entry fun burn(treasury_cap: &mut TreasuryCap<HUIWANG_WORLD_COIN>, coin: Coin<HUIWANG_WORLD_COIN>) {
         coin::burn(treasury_cap, coin);
+    }
+    /// 水龙头 cap:coin类型,amount:token数量,recv:接收地址
+    public entry fun faucet(cap: &mut coin::TreasuryCap<HUIWANG_WORLD_COIN>, amount: u64, recv: address, ctx: &mut TxContext) {
+        coin::mint_and_transfer<HUIWANG_WORLD_COIN>(cap, amount, recv, ctx);
     }
 }

@@ -44,10 +44,13 @@ sui move new hello_world
 
 - 完成 HuiWang_World_Coin.move 与 HuiWang_World_Faucet_Coin.move 两个文件的代码
 - 发布到测试网
+
 ```shell
 sui client publish --gas-budget 100000000
 ```
+
 - 执行结果
+
 ```shell
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │ Transaction Data                                                                                             │
@@ -236,16 +239,18 @@ sui client publish --gas-budget 100000000
 ╰───────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
+- 修改 publish-at="" 和 hello_world 地址为 PackageID: 0x39fe998f1a01ea7df4e297e98aff13be5e3ec100d350cbb7f42077bc05e3a721
+  │
+  如:
 
-- 修改 publish-at="" 和 hello_world 地址为  PackageID: 0x39fe998f1a01ea7df4e297e98aff13be5e3ec100d350cbb7f42077bc05e3a721                                                                                  │
-如:
 ```toml
-publish-at="0x39fe998f1a01ea7df4e297e98aff13be5e3ec100d350cbb7f42077bc05e3a721"
+publish-at = "0x39fe998f1a01ea7df4e297e98aff13be5e3ec100d350cbb7f42077bc05e3a721"
 [addresses]
 hello_world = "0x39fe998f1a01ea7df4e297e98aff13be5e3ec100d350cbb7f42077bc05e3a721"
 ```
 
 - 使用水龙头产生gas
+
 ```shell
 ##### 水龙头（HUIWANG_WORLD_FAUCET_COIN）
 # --package  0x2 \ 中的 0x2 为标准库地址
@@ -268,14 +273,16 @@ hello_world = "0x39fe998f1a01ea7df4e297e98aff13be5e3ec100d350cbb7f42077bc05e3a72
 
 ```
 
-
 - 执行上面shell脚本发现有警告提示不能执行，需要升级版本
+
 ```shell
 [warn] Client/Server api version mismatch, client api version : 1.27.0, server api version : 1.27.2
 ```
+
 install-doc 文档中有如何安装或升级，这里不再赘述
 
 - 执行 shell 结果
+
 ```shell
 ╭───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │ Transaction Data                                                                                                                  │
@@ -429,7 +436,9 @@ install-doc 文档中有如何安装或升级，这里不再赘述
  --args 0x8ee0efcfee02f6e5ceefbf6a263b1e9f0c9c5288924b4a36866e44cbff6810f3 100000000000 0x23cd103501684d8da2ea03fcdc6af33f35d6d99736a174059e77fa4028e53dd7
 
 ```
+
 - 执行 shell 结果
+
 ```shell
 Transaction Digest: GZNZBDuSoWrS7sEix79iaam9hDMoNjq8idfZEdkF79wr
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -574,9 +583,7 @@ Transaction Digest: GZNZBDuSoWrS7sEix79iaam9hDMoNjq8idfZEdkF79wr
 
 ```
 
-
 - 查看铸币结果 https://testnet.suivision.xyz/account/0x23cd103501684d8da2ea03fcdc6af33f35d6d99736a174059e77fa4028e53dd7
-
 
 --- task end---
 
@@ -654,11 +661,11 @@ T : transfer,delete,write,read
 
 ### 所有权方法
 
-| 方法                     | 生成的方法   | 属性        |
-|------------------------|---------|-----------|
-| `transfer`             | 独享对象    | key       |
-| `public_transfer`      | 独享对象    | key+store |
-| `freeze_object`        | 共享对象-常量 | key       |
-| `public_freeze_object` | 共享对象-常量 | key+store |
-| `share_object`         | 共享对象    | key       |
-| `public_share_object`  | 共享对象    | key+store |
+| 方法                     | 生成的方法   | 属性        | 解释                                                                         |
+|------------------------|---------|-----------|----------------------------------------------------------------------------|
+| `transfer`             | 独享对象    | key       | 把对象所有权到某个地址                                                                |
+| `public_transfer`      | 独享对象    | key+store | 把对象所有权到某个地址,带store表示可以存储到其他结构体                                             |
+| `freeze_object`        | 共享对象-常量 | key       | 将给定对象转换为可变共享对象(常量)只能读取不能修改                                                 |
+| `public_freeze_object` | 共享对象-常量 | key+store | 将给定对象转换为可变共享对象(常量)只能读取不能修改,每个人都可以访问和改变该对象,带store表示可以存储到其他结构体               |
+| `share_object`         | 共享对象    | key       | 将给定对象转换为可变共享对象,每个人都可以访问和改变该对象,共享对象没有所有者,因为共享对象每个人可以可以读写                    |
+| `public_share_object`  | 共享对象    | key+store | 将给定对象转换为可变共享对象,每个人都可以访问和改变该对象,共享对象没有所有者,因为共享对象每个人可以可以读写,带store表示可以存储到其他结构体 |
