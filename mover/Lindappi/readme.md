@@ -14,9 +14,9 @@
 
 ##   01 hello move  
 - [x] Sui cli version: 1.27.2
-- [x] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
-- [x] package id: 
-- [x] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+- [x] Sui钱包截图: ![Sui钱包截图](./img/2024-06-26-10.png)
+- [x] package id:  `0x0b7fc98b6475b5e73c2fde3e14cdce24a82b93971e376469a6d2b7e85074602c`
+- [x] package id 在 scan上的查看截图:![Scan截图](./img/2024-06-26-11.png)
 
 ##   02 move coin
 - [] My Coin package id : 
