@@ -1,8 +1,11 @@
+#[allow(duplicate_alias, unused_variable, unused_field)]
+/// Module: check_in
 module check_in::check_in {
     use std::ascii::{String, string};
     use std::bcs;
     use std::hash::sha3_256;
     use std::vector;
+    use std::debug;
     use sui::event;
     use sui::object;
     use sui::random;
@@ -73,6 +76,30 @@ module check_in::check_in {
         };
 
         string(rand)
+    }
+
+    public fun get_vector(
+        github_id: String,
+        flag_str: &mut FlagString,
+        ctx: &mut TxContext
+    ): vector<u8> {
+        debug::print(&string(b"get_vector"));
+
+        let mut bcs_flag = bcs::to_bytes(&flag_str.str);
+
+        vector::append<u8>(&mut bcs_flag, *github_id.as_bytes());
+        // debug::print(&bcs_flag);
+
+        let s2 = sha3_256(bcs_flag);
+
+        s2
+    }
+
+    // === Tests ===
+    #[test_only]
+    public fun test_for_init(ctx: &mut TxContext)
+    {
+        init(ctx);
     }
 }
 
