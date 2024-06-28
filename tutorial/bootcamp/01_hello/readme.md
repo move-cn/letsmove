@@ -9,6 +9,22 @@
 ## 安装好Sui Cli （move编译器）
 -  [sui安装文档](https://docs.sui.io/guides/developer/getting-started/sui-install)
 -  [预编译的下载包](https://github.com/MystenLabs/sui/releases)
+
+### MacOS 包工具安装
+* [安装brew](https://brew.sh/)
+
+```shell
+brew install sui
+```
+
+### Windows 包工具安装
+* [安装 choco](https://chocolatey.org/)
+
+```shell
+choco install sui
+```
+
+
 ### docker 方式的安装
 pull 镜像  `devnet` 可以换成 `testnet` `mainnet`
 ```shell
@@ -28,7 +44,7 @@ sui --version
 
 输出
 ```shell 
-sui 1.22.0-0362997459
+sui 1.26.0
 ```
 
 
@@ -97,7 +113,7 @@ sui client publish --gas-budget 100000000
 ```
 
 
-# 提交作业 hello move的作业  30人民币等值SUI的奖励
+# 提交作业 hello move的作业  20人民币等值SUI的奖励
 - [let's move](https://github.com/move-cn/letsmove) 
 
 
