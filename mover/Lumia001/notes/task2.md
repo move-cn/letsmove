@@ -6,7 +6,7 @@
 sui client call --package  0xeca401e43db776c5a3149e27245c747907858abc38382a672e0f85d28d2ba124\
                 --module Lumia001Coin \
                 --function mint \
-                --gas-budget 100000000 \
+                 \
                 --args 0x3428d0b61176fcc6b8076be0ecc341f38643065028ec41ef176267cacb0af896  \
                        200000000 \
                        0x4887f3c29909a93ca193609fa28b9c3f35ee01ac352346fc9d56d2d50126ad59
@@ -62,7 +62,7 @@ Successfully verified dependencies on-chain against source.
 Error executing transaction: Failure {
     error: "InsufficientGas",
 }
-gorden@Gordendebijibendiannao task2 % sui client publish --gas-budget 100000000
+gorden@Gordendebijibendiannao task2 % sui client publish 
 [warn] Client/Server api version mismatch, client api version : 1.26.0, server api version : 1.25.2
 UPDATING GIT DEPENDENCY https://gitee.com/MystenLabs/sui.git
 INCLUDING DEPENDENCY Sui

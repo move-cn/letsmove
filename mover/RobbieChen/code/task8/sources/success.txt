@@ -1,4 +1,4 @@
-PS E:\code\move\tintin-bootcamp\mover\RobbieChen\code\task8> sui client call --package 0x097a3833b6b5c62ca6ad10f0509dffdadff7ce31e1d86e63e884a14860cedc0f --module lets_move --function get_flag --args [66,52,238] 'RobbieChen' 0x19e76ca504c5a5fa5e214a45fca6c058171ba333f6da897b82731094504d5ab9 0x8 --gas-budget 100000000
+PS E:\code\move\tintin-bootcamp\mover\RobbieChen\code\task8> sui client call --package 0x097a3833b6b5c62ca6ad10f0509dffdadff7ce31e1d86e63e884a14860cedc0f --module lets_move --function get_flag --args [66,52,238] 'RobbieChen' 0x19e76ca504c5a5fa5e214a45fca6c058171ba333f6da897b82731094504d5ab9 0x8
 [warn] Client/Server api version mismatch, client api version : 1.27.0, server api version : 1.27.2
 Transaction Digest: 8EkanwWmrn4r3piVp8Y5pj2UJsfZzwwWMCmgvbbuz5r2
 ╭─────────────────────────────────────────────────────────────────────────────────────────────────╮

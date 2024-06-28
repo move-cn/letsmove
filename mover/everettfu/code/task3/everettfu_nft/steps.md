@@ -2,20 +2,20 @@
 sui move build
 
 # push
-sui client publish --gas-budget 100000000
+sui client publish 
 
 package id:
 0xe42cfc3fce991f4428174116ea1c048821492da54fd65eb8509ba64865b97e78
 
 # mint nft
-sui client call --gas-budget 100000000 \
+sui client call  \
 --package  0xe42cfc3fce991f4428174116ea1c048821492da54fd65eb8509ba64865b97e78 \
 --module everettfu_nft \
 --function mint_to_sender \
 --args 'everettfu_nft' 'first nft of everettfu' 'https://avatars.githubusercontent.com/u/10185735'
 
 # transfer nft
-sui client call --gas-budget 100000000 \
+sui client call  \
 --package  0xe42cfc3fce991f4428174116ea1c048821492da54fd65eb8509ba64865b97e78 \
 --module everettfu_nft \
 --function transfer \

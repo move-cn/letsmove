@@ -96,7 +96,7 @@ public fun create_box(value: u64): Box<u64> {
 以下示例调用 `create_box` 函数创建一个盒子，其中包含 `0x2::sui::SUI` 类型的硬币：
 
 ```bash
-sui client call --package $PACKAGE --module $MODULE --function "create_box" --args $OBJECT_ID --type-args "0x2::coin::Coin<0x2::sui::SUI>" --gas-budget 100000000
+sui client call --package $PACKAGE --module $MODULE --function "create_box" --args $OBJECT_ID --type-args "0x2::coin::Coin<0x2::sui::SUI>" 
 ```
 
 ## 高级 Generics 语法

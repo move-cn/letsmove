@@ -67,7 +67,7 @@ sui client active-address
 sui client gas
 
 发布
-sui client publish --gas-budget 100000000  //一般5后面8个0就可以,表示最多花0.1sui
+sui client publish   //一般5后面8个0就可以,表示最多花0.1sui
 
 ```
 
@@ -94,7 +94,7 @@ sui move new hello_world
 - 完成 HuiWang_World_Coin.move 与 HuiWang_World_Faucet_Coin.move 两个文件的代码
 - 发布到测试网
 ```shell
-sui client publish --gas-budget 100000000
+sui client publish 
 ```
 - 执行结果
 ```shell
@@ -289,7 +289,7 @@ Transaction Digest: EgV4yWVJkAPVFAPqQciYk1bsAuJK6AsQ7LWAimVBUWHY
 
 - 使用水龙头产生gas
 ```shell
- sui client call --gas-budget 100000000 \
+ sui client call  \
  --package  0xae16113528530ccfefb1dfcf99da129421621be8307edee8bb05ea1ecb7dd2fa \
  --module HuiWang_World_Faucet_Coin \
  --function mint \
@@ -438,7 +438,7 @@ Transaction Digest: G32Rz8CrZMyv8umGg5c2hpCYjAT4vcPnqFj5pFWUnRcZ
 
 ```shell
 ##### 铸造 COIN（HUIWANG_WORLD_COIN）
- sui client call --gas-budget 100000000 \
+ sui client call  \
  --package  0xae16113528530ccfefb1dfcf99da129421621be8307edee8bb05ea1ecb7dd2fa \
  --module HuiWang_World_Coin \
  --function mint \

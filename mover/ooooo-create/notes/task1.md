@@ -23,4 +23,4 @@
 
 ## 发布上链
 
-1. `sui client publish --gas-budget 100000000`
+1. `sui client publish `

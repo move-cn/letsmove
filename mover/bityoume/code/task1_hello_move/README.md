@@ -42,7 +42,7 @@ BUILDING hello_move
 
 ```bash
 $ sui client publish
- --gas-budget 100000000
+ 
 UPDATING GIT DEPENDENCY https://github.com/MystenLabs/sui.git
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib

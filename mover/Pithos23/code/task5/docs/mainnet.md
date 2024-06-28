@@ -123,7 +123,7 @@ sui client call --package  0x41200a189e44151399fc2a74e2f90b9237c439379a0ba23ac44
 sui client call --package  0x343a6612df28090372bd49824fb5225ba6d2f797380d6da749386cb90de06934\
                 --module Pithos23Coin \
                 --function mint \
-                --gas-budget 100000000 \
+                 \
                 --args 0x746ffd30ee96481bf9c3dd8b3a30f61c268f045579669a8fd0814545ec82529d  \
                        200000000 \
                        0xd19dcf3419253ff759614f63b7026bee4e4cc46b823099f262d1b9a858dc5312
@@ -131,7 +131,7 @@ sui client call --package  0x343a6612df28090372bd49824fb5225ba6d2f797380d6da7493
 sui client call --package  0x343a6612df28090372bd49824fb5225ba6d2f797380d6da749386cb90de06934\
                 --module Pithos23Coin \
                 --function mint \
-                --gas-budget 100000000 \
+                 \
                 --args 0x746ffd30ee96481bf9c3dd8b3a30f61c268f045579669a8fd0814545ec82529d  \
                        50000000 \
                        0xd19dcf3419253ff759614f63b7026bee4e4cc46b823099f262d1b9a858dc5312

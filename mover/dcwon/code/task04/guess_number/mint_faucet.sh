@@ -4,7 +4,7 @@
 # mainet cap id: 0xf970dde8a8ebccca86f7d042e27aa2ec0366fcb3b263b99a7d1c12fb9e492216
 
 # testnet
-# sui client call --gas-budget 100000000 \
+# sui client call  \
 # --package 0x586cd3af1a22322f864d4f97aeb94287918e4e8cfe5f82906419ecef0e2df04a \
 # --module faucetcoin \
 # --function mint \
@@ -12,7 +12,7 @@
 
 
 # miannet
-sui client call --gas-budget 100000000 \
+sui client call  \
 --package 0x0e603bb721b3b1c12aeb5e7e0240c9ff5e2779092e0961455ee93669c78123d0 \
 --module faucetcoin \
 --function mint \

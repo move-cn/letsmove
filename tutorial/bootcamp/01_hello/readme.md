@@ -109,7 +109,7 @@ module hello_move::hello {
 
 ### 发布上链
 ```shell
-sui client publish --gas-budget 100000000
+sui client publish 
 ```
 
 

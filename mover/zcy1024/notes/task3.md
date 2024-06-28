@@ -36,7 +36,7 @@ sui move build
 ```
 4. 发布
 ```
-sui client publish --gas-budget 100000000
+sui client publish 
 
 # 成功后信息如下：
 UPDATING GIT DEPENDENCY https://github.com/MystenLabs/sui.git
@@ -185,7 +185,7 @@ export TO_ADDRESS=0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee
 ```
 6. 交互
 ```
-sui client call --package $PACKAGE_ID --module nft --function mint --args $NAME $DESCRIPTION $URL $TO_ADDRESS --gas-budget 100000000
+sui client call --package $PACKAGE_ID --module nft --function mint --args $NAME $DESCRIPTION $URL $TO_ADDRESS 
 
 # 成功后信息如下：
 Transaction Digest: 8PbkD3uBb6rdHoT8PvQ5j9wfpxXW1ByUqDr3ubpdhCkf

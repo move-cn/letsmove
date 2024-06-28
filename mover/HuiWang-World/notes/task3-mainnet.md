@@ -23,7 +23,7 @@
 - 发布合约
 
 ```shell
-sui client publish --gas-budget 100000000
+sui client publish 
 ```
 
 - 执行结果
@@ -179,7 +179,7 @@ Transaction Digest: F59xnVn61s9SJdbupqBmSyjhpuhgTPwYFJWhwu1nozKX
 - 调用合约
 
 ```shell
- sui client call --gas-budget 100000000 \
+ sui client call  \
  --package  0xb20685c739bfe12eff994044e34d7eab91cc04e2d84f8455e03f4d748591bfee \
  --module HUIWANG_WORLD_NFT \
  --function mint \
@@ -325,7 +325,7 @@ Transaction Digest: HcomP6P9Y6bLnc3FBMGc4XifEHm9eZZrYaUdwS9LaQmX
 - 调用合约 生成转发给任务地址的nft
 
 ```shell
- sui client call --gas-budget 100000000 \
+ sui client call  \
  --package  0xb20685c739bfe12eff994044e34d7eab91cc04e2d84f8455e03f4d748591bfee \
  --module HUIWANG_WORLD_NFT \
  --function mint \

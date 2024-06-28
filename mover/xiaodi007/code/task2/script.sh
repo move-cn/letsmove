@@ -5,7 +5,7 @@ sui client call \
 --module xiaodi_coin \
 --function mint \
 --args 0x9c01f80e2bace4218c09bd97afb2dcafee314e80dd3e834a6430ea55294e6769 1000000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 \
---gas-budget 100000000 
+
 
 
 # Faucet Coin address1
@@ -16,7 +16,7 @@ sui client call \
 --module xiaodi007_faucet_coin \
 --function mint \
 --args 0xbf9794c979280f281afe2193d62b73aaecaf89d6bd87616eb2f8a1a3802f9cd3 666000000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 \
---gas-budget 100000000 
+
 
 
 # Faucet Coin address2
@@ -27,4 +27,3 @@ sui client call \
 --module xiaodi007_faucet_coin \
 --function mint \
 --args 0xbf9794c979280f281afe2193d62b73aaecaf89d6bd87616eb2f8a1a3802f9cd3 666000000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 \
---gas-budget 100000000 

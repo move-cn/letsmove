@@ -46,7 +46,7 @@ sui move new hello_world
 - 发布到测试网
 
 ```shell
-sui client publish --gas-budget 100000000
+sui client publish 
 ```
 
 - 执行结果
@@ -264,7 +264,7 @@ hello_world = "0x39fe998f1a01ea7df4e297e98aff13be5e3ec100d350cbb7f42077bc05e3a72
 #   args 参数解释 0x23cd103501684d8da2ea03fcdc6af33f35d6d99736a174059e77fa4028e53dd7 为 钱包地址 铸造的币下发到那个钱包，0x23cd103501684d8da2ea03fcdc6af33f35d6d99736a174059e77fa4028e53dd7 为我本地测试环境的地址
 # 钱包地址不知道的可以使用 `sui client addresses` 获取  
   
- sui client call --gas-budget 100000000 \
+ sui client call  \
  --package  0x2 \
  --module coin \
  --function mint_and_transfer \
@@ -429,7 +429,7 @@ install-doc 文档中有如何安装或升级，这里不再赘述
  # --package packageID
  # --module 包名
  # --function 方法名称
- sui client call --gas-budget 100000000 \
+ sui client call  \
  --package  0x39fe998f1a01ea7df4e297e98aff13be5e3ec100d350cbb7f42077bc05e3a721 \
  --module HuiWang_World_Coin \
  --function mint \

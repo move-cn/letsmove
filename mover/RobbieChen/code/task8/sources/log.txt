@@ -1,13 +1,13 @@
 
 
-sui client call --package 0x097a3833b6b5c62ca6ad10f0509dffdadff7ce31e1d86e63e884a14860cedc0f --module lets_move --function get_flag --args [66,52,238] 'RobbieChen' 0x19e76ca504c5a5fa5e214a45fca6c058171ba333f6da897b82731094504d5ab9 0x8 --gas-budget 100000000
+sui client call --package 0x097a3833b6b5c62ca6ad10f0509dffdadff7ce31e1d86e63e884a14860cedc0f --module lets_move --function get_flag --args [66,52,238] 'RobbieChen' 0x19e76ca504c5a5fa5e214a45fca6c058171ba333f6da897b82731094504d5ab9 0x8
 
 
 
 
-sui client call --package 0x6200cf8a76d9e98e8ecc48b7241934cc2125a81ad935c37ff67b93134f2262f2 --module lets_move --function get_flag --args 1234567899999 'RobbieChen' 0x4bca68e2a537006c561a3a3ba97d05faff701f4eabcce51bab05f101f6bbde44 0x8 --gas-budget 100000000
+sui client call --package 0x6200cf8a76d9e98e8ecc48b7241934cc2125a81ad935c37ff67b93134f2262f2 --module lets_move --function get_flag --args 1234567899999 'RobbieChen' 0x4bca68e2a537006c561a3a3ba97d05faff701f4eabcce51bab05f101f6bbde44 0x8
 
-sui client call --package 0xfca21b9adca3ff3a52fffb090df4170cd598eb23fd12904a72e603132eb49996 --module lets_move --function get_flag --args 123445 'dd' 0xd7c09f00664d292fb02751822f12dd20e077dea60277728da27b0f413eef4354 0x8 --gas-budget 100000000
+sui client call --package 0xfca21b9adca3ff3a52fffb090df4170cd598eb23fd12904a72e603132eb49996 --module lets_move --function get_flag --args 123445 'dd' 0xd7c09f00664d292fb02751822f12dd20e077dea60277728da27b0f413eef4354 0x8
 
 
 Transaction Digest: HK8TmbbuZTQq7YPsm79ZtZw2iy7o5Pr8QYspsoB9hJdw

@@ -1,4 +1,4 @@
-sui client publish --gas-budget 100000000;
+sui client publish ;
 
 
 941003040=0.94SUi

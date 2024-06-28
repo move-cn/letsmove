@@ -78,5 +78,5 @@ module w626w::devnet_nft {
 
 //0x581d4d7726bd1878cbd617e2bcf205923ede197d09a158809767c567ce128194
 //0x5f4c447290d7a2db15ee3f4ec70f38eb228da19394e7d60595265590a9513a73
-//sui client call --function transfer --module devnet_nft --package 0x581d4d7726bd1878cbd617e2bcf205923ede197d09a158809767c567ce128194 --args 0x5f4c447290d7a2db15ee3f4ec70f38eb228da19394e7d60595265590a9513a73 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --gas-budget 100000000
-//sui client call --function mint_to_sender --module devnet_nft --package 0x581d4d7726bd1878cbd617e2bcf205923ede197d09a158809767c567ce128194 --args w626w nft https://avatars.githubusercontent.com/u/118292614?s=400&v=4 --gas-budget 100000000
+//sui client call --function transfer --module devnet_nft --package 0x581d4d7726bd1878cbd617e2bcf205923ede197d09a158809767c567ce128194 --args 0x5f4c447290d7a2db15ee3f4ec70f38eb228da19394e7d60595265590a9513a73 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
+//sui client call --function mint_to_sender --module devnet_nft --package 0x581d4d7726bd1878cbd617e2bcf205923ede197d09a158809767c567ce128194 --args w626w nft https://avatars.githubusercontent.com/u/118292614?s=400&v=4

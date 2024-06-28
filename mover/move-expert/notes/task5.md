@@ -165,7 +165,7 @@ Transaction Digest: wtcEp5Qp9Vvz1N1wMFPWHw94wcrmbpoQoXeuvTLBbS8
 
 铸造代币move410coin:
 ```bash
-❯ sui client call --package 0xe0d020485b78bb3a7b8f6352fcb4b4253f4843384dd5330d33ff9fad882a4e5f --module move410coin --function mint --gas-budget 100000000 --args 0xeac8a7c99a05646e0984984229a61a6424f5edbe83dad3fe4e2030236881dd23 1000000000000 0x7c5b23487cf42f99d980913cdc812f07c720d5da039ca89336e8d1d5253e7bfc
+❯ sui client call --package 0xe0d020485b78bb3a7b8f6352fcb4b4253f4843384dd5330d33ff9fad882a4e5f --module move410coin --function mint  --args 0xeac8a7c99a05646e0984984229a61a6424f5edbe83dad3fe4e2030236881dd23 1000000000000 0x7c5b23487cf42f99d980913cdc812f07c720d5da039ca89336e8d1d5253e7bfc
 Transaction Digest: Co9pqFQEh7nWwi5DnE2kV2ZDHxYhV47L3SMmt7nxHwEh
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │ Transaction Data                                                                                             │
@@ -305,7 +305,7 @@ Transaction Digest: Co9pqFQEh7nWwi5DnE2kV2ZDHxYhV47L3SMmt7nxHwEh
 
 铸造代币sui410coin:
 ```bash
-❯ sui client call --package 0xe0d020485b78bb3a7b8f6352fcb4b4253f4843384dd5330d33ff9fad882a4e5f --module sui410coin --function mint --gas-budget 100000000 --args 0x1289226cdff8183285d865a3ab61a96c9d277d7b3e372520ba0a3da17811a728 8100000000000 0x7c5b23487cf42f99d980913cdc812f07c720d5da039ca89336e8d1d5253e7bfc
+❯ sui client call --package 0xe0d020485b78bb3a7b8f6352fcb4b4253f4843384dd5330d33ff9fad882a4e5f --module sui410coin --function mint  --args 0x1289226cdff8183285d865a3ab61a96c9d277d7b3e372520ba0a3da17811a728 8100000000000 0x7c5b23487cf42f99d980913cdc812f07c720d5da039ca89336e8d1d5253e7bfc
 Transaction Digest: AdQwQ9uX4DkyDyTa5dpCUdNa3TXo575YSk2nzrwGSydb
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │ Transaction Data                                                                                             │

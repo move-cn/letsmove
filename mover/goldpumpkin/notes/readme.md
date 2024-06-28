@@ -22,9 +22,9 @@
 - `sui client new-env --alias mainnet --rpc https://fullnode.mainnet.sui.io:443`
 - `sui client switch --env mainnet`
 - `sui client balance`
-- `sui client publish --gas-budget 100000000`
+- `sui client publish `
 - `sui keytool import <seed phrase> ed25519  `
-- `sui client call --function <Function_Name> --module <Module_Name> --package <Published_Package_ID> --args <TreasuryCap_Object_ID> <Amount> <Recipient_Address> --gas-budget 100000000`
+- `sui client call --function <Function_Name> --module <Module_Name> --package <Published_Package_ID> --args <TreasuryCap_Object_ID> <Amount> <Recipient_Address> `
 
 ### Reference
 

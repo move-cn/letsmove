@@ -38,7 +38,7 @@
 ##   07 Move CTF Check in
 - [x] tx hash : DeBPjZovWqahNZiFS2DjNcwWmQaKgvRAahMiBXrrnzH3
 ```
-sui client call --package 0x60695ee31f93add1f79909c884a55dff7e5f140bbd2e495819966bd2f7971d42 --module check_in --function get_flag --args "LetsMoveCTF" "yjshi2015" 0x011f9404e6f167e549b617a53eea058029167a2beac26c624cbc3550e04b5ad2 0x8 --gas-budget 100000000
+sui client call --package 0x60695ee31f93add1f79909c884a55dff7e5f140bbd2e495819966bd2f7971d42 --module check_in --function get_flag --args "LetsMoveCTF" "yjshi2015" 0x011f9404e6f167e549b617a53eea058029167a2beac26c624cbc3550e04b5ad2 0x8 
 ```
 
 Transaction Digest: DeBPjZovWqahNZiFS2DjNcwWmQaKgvRAahMiBXrrnzH3
@@ -188,6 +188,6 @@ Transaction Digest: DeBPjZovWqahNZiFS2DjNcwWmQaKgvRAahMiBXrrnzH3
 ##   08 Move CTF get_flag
 - [x] tx hash : DbYnyU2jQbaF2B2AY2aNcsLmPYbvFWkYkFDqMxukqSfZ
 ```
-sui client call --package 0x097a3833b6b5c62ca6ad10f0509dffdadff7ce31e1d86e63e884a14860cedc0f --module lets_move --function get_flag --args "|%s8:5_Nt6" "yjshi2015" 0x19e76ca504c5a5fa5e214a45fca6c058171ba333f6da897b82731094504d5ab9 0x8 --gas-budget 100000000
+sui client call --package 0x097a3833b6b5c62ca6ad10f0509dffdadff7ce31e1d86e63e884a14860cedc0f --module lets_move --function get_flag --args "|%s8:5_Nt6" "yjshi2015" 0x19e76ca504c5a5fa5e214a45fca6c058171ba333f6da897b82731094504d5ab9 0x8 
 ```
 ![get_flag](image.png)

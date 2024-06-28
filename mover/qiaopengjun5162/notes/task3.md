@@ -21,7 +21,7 @@ INCLUDING DEPENDENCY MoveStdlib
 BUILDING mynft
 
 letsmove/mover/qiaopengjun5162/code/task3/mynft on  main [?] via 🅒 base took 5.1s 
-➜ sui client publish --gas-budget 100000000 --skip-fetch-latest-git-deps
+➜ sui client publish  --skip-fetch-latest-git-deps
 [warn] Client/Server api version mismatch, client api version : 1.22.0, server api version : 1.23.1
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
@@ -389,7 +389,7 @@ INCLUDING DEPENDENCY MoveStdlib
 BUILDING sui_nft
 
 letsmove/mover/qiaopengjun5162/code/task3/sui_nft on  main [!?] via 🅒 base 
-➜ sui client publish --gas-budget 100000000 --skip-fetch-latest-git-deps
+➜ sui client publish  --skip-fetch-latest-git-deps
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
 BUILDING sui_nft
@@ -727,7 +727,7 @@ INCLUDING DEPENDENCY MoveStdlib
 BUILDING sui_nft
 
 letsmove/mover/qiaopengjun5162/code/task3/sui_nft on  main [!?] via 🅒 base 
-➜ sui client publish --gas-budget 100000000 --skip-fetch-latest-git-deps
+➜ sui client publish  --skip-fetch-latest-git-deps
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
 BUILDING sui_nft
