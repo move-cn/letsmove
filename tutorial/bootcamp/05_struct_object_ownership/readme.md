@@ -1,0 +1,8 @@
+# struct
+
+```rust
+
+```
+
+
+# object

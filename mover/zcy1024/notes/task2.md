@@ -74,7 +74,7 @@ sui move build
 ```
 4. 发布
 ```
-sui client publish --gas-budget 100000000
+sui client publish 
 
 # 成功后信息如下：
 UPDATING GIT DEPENDENCY https://github.com/MystenLabs/sui.git
@@ -280,7 +280,7 @@ export TO_ADDRESS=0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee
 6. 发布者交互
 发布者调用`mycoin`模块，向指定地址转移1个coin
 ```
-sui client call --package $PACKAGE_ID --module mycoin --function mint --args $MYCOIN_TREASURYCAP 1 $TO_ADDRESS --gas-budget 100000000
+sui client call --package $PACKAGE_ID --module mycoin --function mint --args $MYCOIN_TREASURYCAP 1 $TO_ADDRESS 
 
 # 成功后信息如下：
 Transaction Digest: H2JVz3NcQWPGQKVLnunB874MHXsLEdK8joxGHPLdjaks
@@ -424,7 +424,7 @@ Transaction Digest: H2JVz3NcQWPGQKVLnunB874MHXsLEdK8joxGHPLdjaks
 切换另一个地址，调用faucetcoin模块，向指定地址转移6个coin。
 ```
 sui client switch --address peaceful-hiddenite
-sui client call --package $PACKAGE_ID --module faucetcoin --function mint --args $FAUCETCOIN_TREASURYCAP 6 $TO_ADDRESS --gas-budget 100000000
+sui client call --package $PACKAGE_ID --module faucetcoin --function mint --args $FAUCETCOIN_TREASURYCAP 6 $TO_ADDRESS 
 
 # 成功后信息如下：
 Transaction Digest: 9jsJG1iJTQcR6aeBL2BygSCgHji1pdQBphvYDo6arins

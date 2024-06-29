@@ -60,6 +60,6 @@ module fantasyni_swap::fantasyni_swap {
 
 /*
 sui move build --skip-fetch-latest-git-deps
-sui client publish --gas-budget 100000000 --skip-fetch-latest-git-deps
+sui client publish  --skip-fetch-latest-git-deps
 scripts/index.js
 */

@@ -44,7 +44,7 @@ play coin: 0xc5efea045b2a08a16fd4411c39c90da77912a90074f3833a9ab5392fe4c68f3b
 sui client call --package 0xc653c62991ffb78263bb0b4dc5314e6218bd1dc50b007d837e85a47701ea720f  \
                 --module guess_number  \
                 --function depoist  \
-                --gas-budget 100000000  \
+                  \
                 --args 0x740ce848cb02cf094cdf6fb322d09e07bc69159e6ccec4a0759c90de41d9ed00 0xa4fc7e772481e4ac56b343d6ba460aefd849c1c6d23ca23113f357dc15993bb5
                 
 
@@ -55,7 +55,7 @@ sui client call --package 0xc653c62991ffb78263bb0b4dc5314e6218bd1dc50b007d837e85
 sui client call --package  0xc653c62991ffb78263bb0b4dc5314e6218bd1dc50b007d837e85a47701ea720f\
                 --module guess_number \
                 --function play \
-                --gas-budget 100000000 \
+                 \
                 --args 0xc5efea045b2a08a16fd4411c39c90da77912a90074f3833a9ab5392fe4c68f3b \
                        0x740ce848cb02cf094cdf6fb322d09e07bc69159e6ccec4a0759c90de41d9ed00 \
                        8 \

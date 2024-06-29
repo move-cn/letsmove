@@ -1,6 +1,6 @@
 ## task1
 
-在win上安装sui，配置环境变量，idea装插件，发布hello源码到测试网`sui client publish --gas-budget 100000000`
+在win上安装sui，配置环境变量，idea装插件，发布hello源码到测试网`sui client publish `
 
 ## task2
 
@@ -1018,7 +1018,7 @@ Transaction Digest: DKBBG21V7asSvPxWLUjerRhWkDSB4KFYMkSnYWu5QXeu
 
 ## task7
 
-sui client call --function get_flag --package 0x5f67669cbad74f7eccdb9ff9310e540fbe09cae5c81281e962cb65ac5094aadd --module check_in --args [60,51,80,86,108,126,70,98,104,108,96,120,71,53,57,90,75,87,57,112,113,114,99,89,66] 0x10f3302f86607d758ab4e8519314aa368d2e53b3661e530fbc3e8a6988f82b56 0x8  --gas-budget 100000000
+sui client call --function get_flag --package 0x5f67669cbad74f7eccdb9ff9310e540fbe09cae5c81281e962cb65ac5094aadd --module check_in --args [60,51,80,86,108,126,70,98,104,108,96,120,71,53,57,90,75,87,57,112,113,114,99,89,66] 0x10f3302f86607d758ab4e8519314aa368d2e53b3661e530fbc3e8a6988f82b56 0x8  
 
 ```
 Transaction Digest: GmM1YcJM4SMzPYf9oQ5CBUXqt6j3LZ4nD6RdGUjH69za
@@ -1162,7 +1162,7 @@ Transaction Digest: GmM1YcJM4SMzPYf9oQ5CBUXqt6j3LZ4nD6RdGUjH69za
 
 ## task8
 
-sui client call --function get_flag --package 0xd5c6f9f40969f7af6f97c17d86ade578899f81b519f13e01dd551b12c3d99abf --module lets_move --args 0zfOD 0xac8019e319c6139b2cf6ea937aedab2d584fbeca28d0a7040518bac5aadbdbff 0x8 --gas-budget 100000000
+sui client call --function get_flag --package 0xd5c6f9f40969f7af6f97c17d86ade578899f81b519f13e01dd551b12c3d99abf --module lets_move --args 0zfOD 0xac8019e319c6139b2cf6ea937aedab2d584fbeca28d0a7040518bac5aadbdbff 0x8 
 
 ```
 Transaction Digest: 3Fdtr3gQiFxnjwrkgAPP7FiyWLsc3YFkASJA2vKYhDq2

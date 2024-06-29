@@ -102,7 +102,7 @@
 
 - 需要先去 faucet(水龙头领水), 领取测试代币
 - 在 hello_world_package 目录下执行下方的命令发布package 到 Sui 链上
-    - `sui client publish --gas-budget 1000000000`
+    - `sui client publish 0`
 - 发布成功之后会返回一些信息, 可以复制任意一个 ID, 将他复制到 [Sui 区块链浏览器](https://suiexplorer.com/) 中, 即可查看我们部署的 Hello World package!
     - **需要记录返回结果中的 Object Changes 下的 Published Objects 中的 Package ID**, 后面需要通过这个 ID 来调用我们部署到区块链上的 Hello World 合约 (通过 ID 定位到 Package)
     

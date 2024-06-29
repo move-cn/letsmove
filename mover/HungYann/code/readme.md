@@ -65,7 +65,7 @@ CoinMetadata是一个存储已创建的可替换代币的元数据的资源
 **命令行调用**
 
 ```rust
-sui client call --package xxx --module hungyan_facuet --function mint --args object_id 1 account_id --gas-budget 100000000
+sui client call --package xxx --module hungyan_facuet --function mint --args object_id 1 account_id 
 ```
 
 
@@ -106,5 +106,5 @@ sui client switch --env mainnet
 ```
 cd hungyan_nft/
 
-sui client publish --gas-budget 100000000
+sui client publish 
 ```

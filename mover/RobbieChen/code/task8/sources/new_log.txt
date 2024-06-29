@@ -1,0 +1,1 @@
+sui client call --package 0x7379135dfab135deac26c7c4f5f24a604f48f84455c17401df34a4854788f8f7 --module lets_move --function generate_random_vector

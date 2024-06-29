@@ -12,7 +12,7 @@ sui client call --package $PACKAGE_ID \
 --module shared \
 --function min_treesirop \
 --args $TREESIROP_CAP 10000 $BOB \
---gas-budget 100000000
+
 
 #get TREESIROP
 export TREESIROP=0x91f90c105e3cedd3753dda28220a2611665a35a918807ebd2505d682e80dfb2f
@@ -22,7 +22,7 @@ sui client call --package $PACKAGE_ID \
 --module shared \
 --function stage_one \
 --args $TREESIROP \
---gas-budget 100000000
+
 
 #get l,k
 export LID=0xd7b85c26263d73f39641f4d36ee889647a038410b05933c3fc84a972a383b075
@@ -35,7 +35,7 @@ sui client call --package $PACKAGE_ID \
 --module shared \
 --function min_treesirop_facet \
 --args $TREESIROP_FACET_CAP 100000 $ALICE \
---gas-budget 100000000
+
 
 #get TREESIROP_FACET
 export TREESIROP_FACET=0x0a328b97654da11963e0703981bcfceff3bfb09b1823217942cedea164d38d46
@@ -45,7 +45,7 @@ sui client call --package $PACKAGE_ID \
 --module shared \
 --function stage_two \
 --args $TREESIROP_FACET $KID $BOB \
---gas-budget 100000000
+
 
 #get escrowID
 export ESCROW=0xb19a073499371ba3e62ae1d1d5fd2a1e6d6baeb0f9cb6ffc298dcbda91398dda
@@ -57,4 +57,4 @@ sui client call --package $PACKAGE_ID \
 --module shared \
 --function stage_three \
 --args $ESCROW $KID $LID \
---gas-budget 100000000
+

@@ -70,7 +70,7 @@ sui client call --package $PACKAGE_ID --module aiqubit_game --function deposit -
 // 从调用deposit的返回信息 Created Objects:  ObjectType: 0x2::coin::Coin<0x29b6a0bca9c40bb55a48383c13b2b4872e747df7994e315be8593d722d9091e4::aiqubit_faucet::AIQUBIT_FAUCET>  ObjectID: 得到 GAME_COIN
 export GAME_COIN=0xe659aebc8bb3100b8e1f22c4418e2176d344acc40f9d0698861ec74cc382b2e5          
 
-sui client call --package $PACKAGE_ID --module aiqubit_game --function play --args 1 $GAME_ID $GAME_COIN 0x6 --gas-budget 100000000
+sui client call --package $PACKAGE_ID --module aiqubit_game --function play --args 1 $GAME_ID $GAME_COIN 0x6 
 
 
 sui client call --package $PACKAGE_ID --module aiqubit_game --function withdraw --args $ADMIN_CAP $GAME_ID 2000 --gas-budget 10000000

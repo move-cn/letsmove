@@ -208,7 +208,7 @@ PackageID:
 
 mint:
 ```
-@Euraxluo ➜ .../mover/euraxluo/code/task2 (main) $ ./test.sh --package 0xaab57e7f5fb04dd00978f6ed59c6977f46293f470ebdf43dc054a0f465ca8d7b --module mycoin --function mint --gas-budget 100000000 --args 0x58af22ef3758b90adf30f8775a2499be424880b27ba96a2c389e1bd5d5197847  100000000000 0xe5a5e2cf8b4971224a07068cc9ffe410d4a0ab7382fec79fb035e929951a39f3
+@Euraxluo ➜ .../mover/euraxluo/code/task2 (main) $ ./test.sh --package 0xaab57e7f5fb04dd00978f6ed59c6977f46293f470ebdf43dc054a0f465ca8d7b --module mycoin --function mint  --args 0x58af22ef3758b90adf30f8775a2499be424880b27ba96a2c389e1bd5d5197847  100000000000 0xe5a5e2cf8b4971224a07068cc9ffe410d4a0ab7382fec79fb035e929951a39f3
 [warn] Client/Server api version mismatch, client api version : 1.23.0, server api version : 1.23.1
 Transaction Digest: DthTFgWUmmX2SBTRmicNPqe8ARgYhPpiGEo8GGw9wBva
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮

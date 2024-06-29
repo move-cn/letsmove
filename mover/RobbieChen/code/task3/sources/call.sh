@@ -1,4 +1,4 @@
-sui client call --gas-budget 100000000\
+sui client call \
  --package 0xb6c2ff2ca71c67384a666b0a06af03253c738fa39124fa606c5693c219eea412 \
  --module nft \
  --function transferNFT \

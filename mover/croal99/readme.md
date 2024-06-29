@@ -71,4 +71,12 @@ game 包含自己 github id的元素 **croal99_choice**
 - [x] call swap CoinB-> CoinA  hash : 7xKtgKZhabCUQbZXaWJm2v5gUWXp1BRqP5dXCRMz4bvH
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : BhuqhPEynVudB23zEkHFzvQUWkYtUUrWvKDt3JfzQe3f
+
+##   07 Move CTF Check In
+- [x] CLI call 截图 : ![截图](./images/task_07_image.png)
+- [x] flag hash : 9ziXLF5dyTn9DfNLry22ZaG5a9cfWkczbVYj9ZUdeQkr
+
+##   08 Move CTF Lets Move
+- [] proof :
+- [] flag hash :

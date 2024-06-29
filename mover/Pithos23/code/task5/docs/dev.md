@@ -93,7 +93,7 @@ sui client call --package  0x484015a26efba1067cccabd9f19f815c1d4dc7aba06e8a0ec58
 sui client call --package  0x37069dd83e90896c26ff3df91f9a68173346b5ef758030885122c3a94b4d4529\
                 --module Pithos23Coin \
                 --function mint \
-                --gas-budget 100000000 \
+                 \
                 --args 0x0eec11b3b5816174676a1ef3bb3e5b132bb9cbc2adb00cd902c8a52d76fe3090  \
                        100000000 \
                        0xd19dcf3419253ff759614f63b7026bee4e4cc46b823099f262d1b9a858dc5312

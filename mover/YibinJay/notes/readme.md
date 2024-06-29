@@ -134,7 +134,7 @@ sui client call --package $PACKAGE_ID --module yibinjay_game --function deposit 
 
 Transaction Digest: 75VRQBU2rG2q1tihNQvL9pzwwMjWwdDS6Fj5PqT6JRXb
 
-sui client call --package $PACKAGE_ID --module yibinjay_game --function get_faucet_coin --args $FAUCET 100000000 --gas-budget 100000000
+sui client call --package $PACKAGE_ID --module yibinjay_game --function get_faucet_coin --args $FAUCET 100000000 
 
 Faucet Coin: ObjectID: 0x72ddc6684fc62e9b04b6bd36031bfcc7f8141f8fb3151c1f42cdb819c587d46f
 
@@ -146,7 +146,7 @@ deposit coin : ObjectId: 0xedc0862e337a22469c601c9430b8a0de96157959c05df1dcb50e3
 
 export GAME_COIN=0xedc0862e337a22469c601c9430b8a0de96157959c05df1dcb50e3d65b8f16318
 
-sui client call --package $PACKAGE_ID --module yibinjay_game --function play --args 2 $GAME_ID $GAME_COIN 0x6 --gas-budget 100000000
+sui client call --package $PACKAGE_ID --module yibinjay_game --function play --args 2 $GAME_ID $GAME_COIN 0x6 
 
 ```
 Error executing transaction: Failure {

@@ -42,7 +42,7 @@ sui move build
 
 ### 发布
 ```
-sui client publish --gas-budget 100000000 --skip-dependency-verification
+sui client publish  --skip-dependency-verification
 ```
 
 

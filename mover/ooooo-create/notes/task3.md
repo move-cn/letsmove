@@ -5,7 +5,7 @@
 1. 命令
 
 ```
-sui client publish --gas-budget 100000000
+sui client publish 
 ```
 
 2. 结果
