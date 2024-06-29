@@ -15,7 +15,7 @@ module hello_world::hello_world {
     public entry fun mint(ctx: &mut TxContext){
         let object = HelloWorldObject{
             id: object::new(ctx),
-            text: string::utf8(b"github_id = JA1E0")
+            text: string::utf8(b"hello JA1E0")
         };
         transfer::transfer(object, tx_context::sender(ctx))
     }

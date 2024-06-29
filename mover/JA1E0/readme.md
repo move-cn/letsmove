@@ -15,8 +15,8 @@
 ##   01 hello move  
 - [x] Sui cli version: `sui 1.27.2-homebrew`
 - [x] Sui钱包截图: ![Sui钱包截图](./images/SCR-20240629-mzit.png)
-- [x] package id: `0x897f4d46824ef4b349d384504003ca64ceaaa20f83f3ef52322d780b657a32b9`
-- [x] package id 在 scan上的查看截图:![Scan截图](./images/SCR-20240629-nfts.png)
+- [x] package id: `0x0453bfd84cf2f7af35d2a949ed614fe28413ec6a77b0c6ce83b105b7c6f2c2f9`
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/SCR-20240629-tftu.png)
 
 ##   02 move coin
 - [] My Coin package id : 
