@@ -68,11 +68,11 @@ sui client addresses
 
 ```shell
 
-curl --location --request POST 'https://faucet.devnet.sui.io/gas' \
+curl --location --request POST 'https://faucet.testnet.sui.io/gas' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "FixedAmountRequest": {
-        "recipient": "0xff71ff2dfa9f5ba0176fb40fdda9d13d738ec97143b46bdfa1addc09e2263b02"
+        "recipient": "0x1fdcbc218b29c5d91eb445781016a24658c45825a8469b76f0efb289ccc89f86"
     }
 }'
 ```
@@ -112,6 +112,13 @@ module hello_move::hello {
 sui client publish 
 ```
 
+
+### hello dapp 
+https://sdk.mystenlabs.com/dapp-kit/create-dapp
+
+```shell
+npm create @mysten/dapp@0.3.10
+```
 
 # 提交作业 hello move的作业  20人民币等值SUI的奖励
 - [let's move](https://github.com/move-cn/letsmove) 
