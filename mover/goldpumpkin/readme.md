@@ -21,6 +21,11 @@
 - [x] 转账 `My Coin` hash: [BvxoEjvXiPrcyEvFGTL1cNufJ7yMRporDGrHe5pLozH4](https://suiscan.com/txblock/BvxoEjvXiPrcyEvFGTL1cNufJ7yMRporDGrHe5pLozH4)
 - [x] `Faucet Coin` address1 mint hash:[HK6n3L8DyPg5pX1VBgU6oXdXYeintSAJgDEDSYydECUP](https://suiscan.xyz/mainnet/tx/HK6n3L8DyPg5pX1VBgU6oXdXYeintSAJgDEDSYydECUP)
 - [x] `Faucet Coin` address2 mint hash:[FGC6WGMMnaUEqEfYGWCrgaZQ1xeWZ4cdJ7qmhiUHcmW7](https://suiscan.xyz/mainnet/tx/FGC6WGMMnaUEqEfYGWCrgaZQ1xeWZ4cdJ7qmhiUHcmW7)
+- [x] Faucet Neo package id : [0xc2ef43cfeac82601ff1384bcb8ae45cfd8a632503f60fbc92aa71ea776ee1707](https://suiscan.xyz/mainnet/object/0xc2ef43cfeac82601ff1384bcb8ae45cfd8a632503f60fbc92aa71ea776ee1707/txs)
+- [x] `Faucet Neo Coin` address1 mint hash:[9cYsqfT1GSDwNLQoUmvDSztoAXyyatcozfV2tjfFks2P](https://suiscan.xyz/mainnet/tx/9cYsqfT1GSDwNLQoUmvDSztoAXyyatcozfV2tjfFks2P)
+  - Address: 0x0e0c9ecbf04056e68b27ea392ea0a65ed0908ddd56ba6e76d0147a4380cba1ad
+- [x] `Faucet Neo Coin` address2 mint hash:[CZ4VhRk5WvrGy4NTn1j1XHdEgrz2FQ9Pq5jRMgCG5DLC](https://suiscan.xyz/mainnet/tx/CZ4VhRk5WvrGy4NTn1j1XHdEgrz2FQ9Pq5jRMgCG5DLC)
+  - Address:0x260688fbcb5620c1343d0009e10660df145e414e7948b7ac012ff40ff4414de9
 
 ##   03 move NFT
 - [x] nft package id : [0xc3a53ecab42cf15733267b9d9dfa23aaa5b44046ef32d5e57034011b67d71906](https://suiscan.xyz/mainnet/object/0xc3a53ecab42cf15733267b9d9dfa23aaa5b44046ef32d5e57034011b67d71906/contracts)
@@ -29,8 +34,8 @@
 - [x] scan上的NFT截图:![SUI-screenshot](./images/nft.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] call game hash:
+- [x] game package id : [E6PvvP7Vn57e2VxC6skwTcPivz3rSQ5aQJq2ExjoZtxu](https://suiscan.xyz/mainnet/tx/E6PvvP7Vn57e2VxC6skwTcPivz3rSQ5aQJq2ExjoZtxu)
+- [x] call game hash: [5XKjJuRycWAnhWK3Zi9tYHuwEV2rzUsGmxCJp3sYhZA7](https://suiscan.xyz/mainnet/tx/5XKjJuRycWAnhWK3Zi9tYHuwEV2rzUsGmxCJp3sYhZA7)
 
 ##   05 Move Swap
 - [] swap package id :
