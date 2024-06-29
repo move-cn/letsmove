@@ -23,8 +23,6 @@ module game::game_tests {
 
     const ENotImplemented: u64 = 0;
 
-    // 1. bernard 是庄家，转入 500 coins
-    // 2. manny 是玩家，下注 100
     #[test]
     fun test_game() {
         let (host, player1) = (@0x1, @0x2);
