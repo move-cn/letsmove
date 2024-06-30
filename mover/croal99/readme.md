@@ -78,5 +78,6 @@ game 包含自己 github id的元素 **croal99_choice**
 - [x] flag hash : 9ziXLF5dyTn9DfNLry22ZaG5a9cfWkczbVYj9ZUdeQkr
 
 ##   08 Move CTF Lets Move
-- [] proof :
-- [] flag hash :
+- [x] CLI call 截图 : ![截图](./images/task_08_image.png)
+- [x] proof : 64254032a40f228ca985
+- [x] flag hash : 9i2j8XhysxnbkDeC5nhjH2EmxbXu1qDXeiTrFKQZy9gZ
