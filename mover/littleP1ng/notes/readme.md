@@ -113,3 +113,11 @@ Transaction Digest: AekFwTLjJHyrFSfMRapc9ofia3PjZ3F4a2cqtaPwPmj2
 sui client call --package $PackageID --module littleP1ng_game --function withdraw --args $AdminCap $GameId 2000
 
 Transaction Digest: 3YpDaTPU9JqcwMR6qFpCz1KHEeqgSWoecCRwCeutxewC
+
+# ctf 1
+
+sui client call --function get_flag --module check_in --package 0x914099b4d1b4f5513acc8aaa4fdc1f67578522b81d818f61bae527d590c6d87d --args [16,246,136,180,23,240,37,152,62,215,156,169,184,55,133,220,214,226,63,27,38,66,117,66,178,226,156,12,36,16,195,56] littleP1ng 0xc8dcd54baa7724177593a9f70598a09ae6a4286f996542e058f248209db08147  0x8
+
+# ctf 2
+
+sui client call --function get_flag --module lets_move --package 0x097a3833b6b5c62ca6ad10f0509dffdadff7ce31e1d86e63e884a14860cedc0f --args 2e1a501722db235e07ab littleP1ng 0x19e76ca504c5a5fa5e214a45fca6c058171ba333f6da897b82731094504d5ab9 0x8
