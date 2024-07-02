@@ -8,6 +8,12 @@ module obj::struct_code {
         height:u16
     }
 
+    public  struct Person2{
+        age:u8,
+        gender:u8,
+        height:u16
+    }
+
     public struct Dog {
         age:u8,
         gender:u8,
