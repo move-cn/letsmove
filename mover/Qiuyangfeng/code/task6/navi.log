@@ -1,0 +1,155 @@
+Network Type: mainnet
+AccountManager {
+  client: SuiClient { transport: SuiHTTPTransport {} },
+  address: '0x91d24c7cb44b22d0bab6f0084de7436b218b03afe16037daa6e65b9eef9ae4db',
+  keypair: Ed25519Keypair {
+    keypair: { publicKey: [Uint8Array], secretKey: [Uint8Array] }
+  }
+}
+{
+  digest: '9mukr9yxpRudhkXTVv8rNisPQvCeE7nCjE6NJRZAGR4m',
+  effects: {
+    messageVersion: 'v1',
+    status: { status: 'success' },
+    executedEpoch: '446',
+    gasUsed: {
+      computationCost: '4542000',
+      storageCost: '632814000',
+      storageRebate: '401480640',
+      nonRefundableStorageFee: '4055360'
+    },
+    modifiedAtVersions: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    sharedObjects: [ [Object], [Object], [Object], [Object], [Object] ],
+    transactionDigest: '9mukr9yxpRudhkXTVv8rNisPQvCeE7nCjE6NJRZAGR4m',
+    created: [
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      ... 24 more items
+    ],
+    mutated: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    gasObject: { owner: [Object], reference: [Object] },
+    eventsDigest: '4Ej1EgcKrF3boDnuKFyfkn93qzqsqQtXceUx6vUnM3GW',
+    dependencies: [
+      '9nsiX38asbcrak8ZHCHmJ9frX15BW3Tc569brW6i2SPd',
+      'AUEqc2KkAZU5RCG2DsSux6WxDsXsdD7yQMJ3SVhHg1Le',
+      'BBir5QSG441hd5BfGTRSP7bx9sXif6hFLxji2pSBAmGb',
+      'BSKPzTkPjaTAYGBSjYDxgdwRzPnPLr2VbonurstZyWUg',
+      'EY8ZaDkjhyBXX8iu9HXPQWznBp4QUcpAaTuwXSheDVuq',
+      'FZ39HpruRrBZdqTdiTRFng1siBsykiYVuqaVJSsAoWnW',
+      'Gagtv78gKNUo4PSqSu7xFsh9d5LwHsKgEU9Yt1hzirtr'
+    ]
+  },
+  confirmedLocalExecution: true
+}
+{
+  digest: '5QMQXWoayh37JnQWGxbcymYqTh6ezJdHFTTpRenVaDux',
+  effects: {
+    messageVersion: 'v1',
+    status: { status: 'success' },
+    executedEpoch: '446',
+    gasUsed: {
+      computationCost: '12112000',
+      storageCost: '633794400',
+      storageRebate: '626485860',
+      nonRefundableStorageFee: '6328140'
+    },
+    modifiedAtVersions: [
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      ... 78 more items
+    ],
+    sharedObjects: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    transactionDigest: '5QMQXWoayh37JnQWGxbcymYqTh6ezJdHFTTpRenVaDux',
+    created: [ [Object] ],
+    mutated: [
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      ... 78 more items
+    ],
+    gasObject: { owner: [Object], reference: [Object] },
+    eventsDigest: 'D9uCy99ATJNUQbT3wow7i6MMU4Me5zYg74Ufr6uLtCR8',
+    dependencies: [
+      '7jUaatRZGo1qazpB3zm8jPmmCfB7uwcpT7Xb5eVBkdWT',
+      '9mukr9yxpRudhkXTVv8rNisPQvCeE7nCjE6NJRZAGR4m',
+      'BBir5QSG441hd5BfGTRSP7bx9sXif6hFLxji2pSBAmGb',
+      'ES3LBBfxfyArUyobtkHefPvLLzY7p5xam5Vxb9KhsDua',
+      'EY8ZaDkjhyBXX8iu9HXPQWznBp4QUcpAaTuwXSheDVuq'
+    ]
+  },
+  confirmedLocalExecution: true
+}
