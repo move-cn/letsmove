@@ -9,7 +9,7 @@
 - 本科在读，参与过多场CTF和web2安全项目，web2漏洞研究，web2安全转web3安全ing。
 - 参与过几次web3黑客松。
 - Blog：`oosec.cn` 
-- 联系方式: X：`S7iter@gmail.com`
+- 联系方式: ：`S7iter@gmail.com`
 
 ## 任务
 
