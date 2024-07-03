@@ -57,8 +57,6 @@ module obj::obj {
 
 
        // transfer(dog, @0x3333)
-
-          dog.age  = 111;
          transfer(dog, @0x3333);
 
     }
@@ -66,10 +64,7 @@ module obj::obj {
 
     public entry fun use_dog2(dog: &Dog, _ctx: &mut TxContext){
         // 不涉及所有权 所以没法内部改变所有权
-
-
         let _age = dog.age;
-
     }
 
     public entry fun use_dog3(dog: &mut Dog, _ctx: &mut TxContext){
@@ -86,13 +81,9 @@ module obj::obj {
 
     /// 共享所有权 检查所有权
     public entry fun use_house( house: &House, ctx: &mut TxContext){
-
-        let adress = sender(ctx);
-        let flag = vector::contains(&house.onwer_address ,&adress );
-
-        if(flag){
-            abort 0;
-        }
+        //
+        // let adress = sender(ctx);
+        // let flag = vector::contains(&house.onwer_address ,&adress );
 
     }
 
