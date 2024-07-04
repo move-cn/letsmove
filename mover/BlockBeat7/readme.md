@@ -13,10 +13,13 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:
-- [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
-- [] package id: 
-- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+- [] Sui cli version:1.28.2
+- [] Sui钱包截图:
+- <img width="374" alt="image" src="https://github.com/BlockBeat7/letsmove/assets/155882749/e5b8328d-3846-41c4-ad9f-071cbd410730">
+- [] package id: 0xe44d8dff3e54a6e25ea26fec9fcc44813a4ce595464b8f490d103cbd193f288c
+- [] package id 在 scan上的查看截图:
+- <img width="1450" alt="image" src="https://github.com/BlockBeat7/letsmove/assets/155882749/e92f3b0e-e54b-4623-88d3-f3a37a223f0b">
+
 
 ##   02 move coin
 - [] My Coin package id : 
