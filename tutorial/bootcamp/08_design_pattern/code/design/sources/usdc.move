@@ -4,6 +4,9 @@ module design::usdc {
     public struct USDC has drop {}
 
     fun init(witness: USDC, ctx: &mut TxContext) {
+
+       // let witness = USDC{};
+
         let (treasury, metadata) = coin::create_currency(
             witness,
             6,                // decimals

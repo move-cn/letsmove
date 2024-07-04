@@ -55,7 +55,6 @@ module design::peace_guardian_2 {
     public fun get_peace(peace_hold: PEACE_HOLD): PEACE {
         let PEACE_HOLD { id, peace } = peace_hold;
         object::delete(id);
-
         peace
     }
 }
