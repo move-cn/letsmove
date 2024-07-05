@@ -1,22 +1,22 @@
 ## 基本信息
-- Sui钱包地址: `0x1000000000000x`
+- Sui钱包地址: `0x63818e608985f763d665d5e057c7da00eb9645d6e6162775f11d5977aa8feed2`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `自己的githubid`
+- github: `0xAiboo`
 
 ## 个人简介
-- 工作经验: x年
-- 技术栈: `Rust` `C++`
+- 工作经验: 7年
+- 技术栈: `solidty` `react` `next`  `NodeJs`
 > 重要提示 请认真写自己的简介
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `xxx` 
+- 两年web2前端开发经验，5年web3前端开发经验，智能合约开发经验，对Move,Sui特别感兴趣，想学习Move转到Sui的智能合约开发与前端开发
+- 联系方式: tg: `Nathan_0xAiboo` (https://t.me/Nathan_0xAiboo)
 
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:
-- [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
-- [] package id: 
-- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+- [] Sui cli version: sui 1.27.2
+- [] Sui钱包截图: ![Sui钱包截图](./images/walletAddress.png)
+- [] package id: 0x35f566e5526b13176e772b67e481e5465f55d79b76337569ad5d373323dcf44e
+- [] package id 在 scan上的查看截图:![Scan截图](./images/packageScan.png)
 
 ##   02 move coin
 - [] My Coin package id : 
