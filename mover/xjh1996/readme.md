@@ -18,3 +18,11 @@
 - [x] package id: 0x6b1121f176660eda5f9882428d292ce56d963a05be9bda338923891ef2b624d7
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/img2.png)
 
+
+##   07 Move CTF Check In
+- [] CLI call 截图 : ![截图](./images/task07.png)
+- [] flag hash : 3UzmBpwFGpCQUgGgfDQ9y5MQxVjmAdirU5yJ1M3Bst3z
+
+##   08 Move CTF Lets Move
+- [x] proof : 17134936
+- [x] flag hash : E8xZuxvbqLHJACgSmugpe5sz3Uwdp25mgo1dEA8VWZP6
