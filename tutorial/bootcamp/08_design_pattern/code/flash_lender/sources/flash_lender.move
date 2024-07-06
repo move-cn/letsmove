@@ -20,6 +20,8 @@ module flash_lender::flash_lender {
     }
 
 
+    // 类型
+    // 关联
     public struct Receipt<phantom T> {
         flash_lender_id: ID,
         repay_amount: u64
