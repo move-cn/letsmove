@@ -52,6 +52,7 @@ Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move�
 | Sui Book            | [中文](https://sui-book.com)                 |                                                      |  |
 | Sui Move by Example | [中文](https://examples.sui-book.com/)       |   [Sui Move by Example](https://examples.sui.io/)    |                                                       |
 | Move Book           | [中文](https://move.sui-book.com/index.html) |           [英文](https://move-book.com/)            |                                                   |
+| Move Reference           | [中文](https://reference.sui-book.com/index.html) |           [英文](https://move-book.com/reference/)            |                                                   |
 | Let's Move Sui      |                                            |                    [let's move](https://letsmovesui.com/)                    |                                                     |
 | 轻松入门Move            | [轻松入门Move](https://easy.sui-book.com/)     |                                    |                                                     |
 
