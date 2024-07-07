@@ -6,7 +6,7 @@ module display_nft::display_nft {
     use sui::package;
     use sui::display;
 
-    public struct NFT has key, store {
+    public struct MyNFT has key, store {
         id: UID,
         name: String,
         image_url: String,
@@ -36,7 +36,7 @@ module display_nft::display_nft {
 
         let publisher = package::claim(otw, ctx);
 
-        let mut display = display::new_with_fields<NFT>(
+        let mut display = display::new_with_fields<MyNFT>(
             &publisher, keys, values, ctx
         );
 
@@ -49,7 +49,7 @@ module display_nft::display_nft {
 
     public entry fun mint(name: String, image_url: String, ctx: &mut TxContext) {
         let id = object::new(ctx);
-        let nft =  NFT { id, name, image_url };
+        let nft =  MyNFT { id, name, image_url };
         transfer::public_transfer(nft, sender(ctx));
     }
 }
