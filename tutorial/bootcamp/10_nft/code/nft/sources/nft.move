@@ -25,9 +25,15 @@ module nft::nft {
 
 
 
-    // public entry fun mint(name:String,url:String,ctx:TxContext){
-    //
-    // }
+    public entry fun mint(name:String,url:String,ctx:&mut TxContext){
+        let my_nft = NFT{
+            id:object::new(ctx),
+            name,
+            image_url:url
+        };
+
+        public_transfer(my_nft, sender(ctx))
+    }
 
 }
 
