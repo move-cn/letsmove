@@ -10,6 +10,21 @@ module ability::only_store {
     }
 
 
+    public struct MyStruct has store{
+        num:u8,
+    }
+
+
+
+    public struct MyStructHold has key {
+        id:UID,
+        my_struct: MyStruct
+    }
+
+
+
+
+
     public struct HolderStore has key {
         id:UID,
         st:Store

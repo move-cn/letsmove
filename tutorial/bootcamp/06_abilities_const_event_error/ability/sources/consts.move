@@ -8,8 +8,10 @@ module ability::consts {
     // 'u8', 'u16', 'u32', 'u64', 'u128', 'u256', 'bool', 'address', 'vector<_>'
     const TenNum: u32 = 10;
     const OneNum: u32 = 0x1;
-    const Str: vector<u8> = b"3123123";
+    const OneBool: bool = false;
     const AddrMe: address = @0x22;
+    const Str: vector<u8> = b"3123123";  // [1,2,3,4,5]
+
 
     public struct ObjConst has key {
         id: UID,
