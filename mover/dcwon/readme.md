@@ -13,9 +13,9 @@
 
 ##   01 hello move  
 - [] Sui cli version: `sui 1.24.1`
-- [] Sui钱包截图: ![Sui钱包截图](./images/sui_wallet.png)
+- [] Sui钱包截图: ![Sui钱包截图](images/sui_wallet.png)
 - [] package id: 0x95ee60810aec095af92e8f6b70ec9bab10333db15b545b87063fac7e328a75d8
-- [] package id 在 scan上的查看截图:![Scan截图](./images/package_id.png)
+- [] package id 在 scan上的查看截图:![Scan截图](images/package_id.png)
 
 ##   02 move coin
 - [] My Coin package id : 0x2d41c67a9fd9d5e4a3e5dd917545bf36770b858a763155cc6a0f94adbd2471a0
@@ -28,7 +28,7 @@
 - [] nft package id : 0x8fe0b96d8351175fc6bafc05f73e0bd2ff00f516ad025fdfc704a0c5b978887f
 - [] nft object id : 0x0f2d90c0961a0cbd7e93a94346bf602f9463591c03858f7b8cdbe34982ff6460
 - [] 转账 nft  hash: 8AicjVUeveheHDRo2r9b21xZJmNTucHZcf8Dusi4u6bC
-- [] scan上的NFT截图:![Scan截图](./images/my_NFT.png)
+- [] scan上的NFT截图:![Scan截图](images/my_NFT.png)
 
 ##   04 Move Game
 - [] game package id : 0xf3cc86549f161364ac7c7f3180199cc4bd95e638154e7b15bfa8d0c885147e68
