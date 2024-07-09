@@ -1,4 +1,4 @@
-module faucet_coin::my_faucet_coin {
+module coin::my_faucet_coin {
 
     use sui::coin::create_currency;
     use sui::transfer::{public_freeze_object, public_share_object};
