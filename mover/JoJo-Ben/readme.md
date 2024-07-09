@@ -37,3 +37,7 @@
 ##   07 Move CTF Check In
 - [x] CLI call 截图: ![CLI](./task7.png)
 - [x] flag hash: 69roRD4wvpFhzFGT6UVkX8fZvhLnVAhbjV6WVFipmvo3
+
+##   08
+- [x] proof: `75pi`
+- [x] hash: ArVMrBAKPaTRsTTuAm9rbE5J1QNJNQsUHaH4RpAqS3B6
