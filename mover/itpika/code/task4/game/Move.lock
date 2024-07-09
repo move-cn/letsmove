@@ -2,10 +2,11 @@
 
 [move]
 version = 2
-manifest_digest = "23C730475A68F1E6BEDDB2CD78A3EB131C4A59425643F732B34CA8F439B08D68"
-deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
+manifest_digest = "F4895195A03AE5F082ECC3775FE13923400767F87834A8D46B7358589D9F8293"
+deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
 dependencies = [
   { name = "Sui" },
+  { name = "faucet" },
 ]
 
 [[move.package]]
@@ -20,6 +21,14 @@ dependencies = [
   { name = "MoveStdlib" },
 ]
 
+[[move.package]]
+name = "faucet"
+source = { local = "../../task2/faucet" }
+
+dependencies = [
+  { name = "Sui" },
+]
+
 [move.toolchain-version]
 compiler-version = "1.26.1"
 edition = "2024.beta"
@@ -29,6 +38,6 @@ flavor = "sui"
 
 [env.testnet]
 chain-id = "4c78adac"
-original-published-id = "0x33489aa44eb9cf9632b5f234403cf68aaa7354a367df4491b5fc4ba2af72e00f"
-latest-published-id = "0x33489aa44eb9cf9632b5f234403cf68aaa7354a367df4491b5fc4ba2af72e00f"
+original-published-id = "0x4f30771a362b150df5f9ef19a0f47139cde60494df57a7a937bc083eafc25d0e"
+latest-published-id = "0x4f30771a362b150df5f9ef19a0f47139cde60494df57a7a937bc083eafc25d0e"
 published-version = "1"

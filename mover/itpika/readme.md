@@ -31,10 +31,10 @@
 
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [] game package id : 0x4f30771a362b150df5f9ef19a0f47139cde60494df57a7a937bc083eafc25d0e
+- [] deposit Coin hash: GwjTsFSVkmkjfQYUTNSDtLMkXJL2AwrKf9Bq91Hg12bs
+- [] withdraw `Coin` hash: 玩游戏的时候赢了当时就把奖励发给用户，没有提取功能，问题不大吧
+- [] play game hash: GHMAWVqXzu1qzr72MXkc1rzQuMz4gYw5KG42VUQuAp39
 
 ##   05 Move Swap
 - [] swap package id :
