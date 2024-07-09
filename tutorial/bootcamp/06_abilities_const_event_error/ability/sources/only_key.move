@@ -6,37 +6,40 @@ module ability::only_key {
     use sui::transfer::transfer;
     use sui::tx_context::{TxContext, sender};
 
-    public struct OnlyKey has key {
-        id:UID,
-        age:u8,
+
+    public struct KeyName has key {
+        id: UID,
     }
 
 
-    public fun mint(ctx:&mut TxContext){
-        let only = OnlyKey{
-            id:object::new(ctx),
-            age:10,
+    public struct OnlyKey has key {
+        id: UID,
+        age: u8,
+    }
+
+
+    public fun mint(ctx: &mut TxContext) {
+        let only = OnlyKey {
+            id: object::new(ctx),
+            age: 10,
         };
 
-        transfer(only,sender(ctx));
+        transfer(only, sender(ctx));
     }
 
 
-
-    public fun del(only:OnlyKey, ctx:&mut TxContext){
-            let OnlyKey{id,age} = only;
-            object::delete(id);
-            let _  = age;
+    public fun del(only: OnlyKey, ctx: &mut TxContext) {
+        let OnlyKey { id, age } = only;
+        object::delete(id);
+        let _ = age;
     }
 
-    public fun tran(only:OnlyKey,addr:address) {
-        if(only.age > 10){
-            transfer(only,addr);
+    public fun my_transfer(only: OnlyKey, addr: address) {
+        if (only.age > 10) {
+            transfer(only, addr);
         }else {
-            abort 10
+            abort 10u64
         }
-
     }
-
 }
 

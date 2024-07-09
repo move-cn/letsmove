@@ -14,14 +14,14 @@
 - [x] (Testnet)package id:  0x37d0b44f047b31d69f7c3d0b1a0386cc1b5f2ceb0f364eab3e4f5d60d50eaf17
 
 ##   02 move coin
-- [ ] (Testnet) My Coin package id : 
-- [ ] (Testnet) Faucet package id : 
-- [ ] 转账 `My Coin` hash: 
+- [x] My Coin package id : 0xa8385516f66e045fe3c69179453c5b76855a141017ca622ae2516153e6622735
+- [x] Faucet package id : 0xa8385516f66e045fe3c69179453c5b76855a141017ca622ae2516153e6622735
+- [x] 转账 `My Coin` hash: BmvUTQXVhKsVrvfPfpqJZPBSqeoWEAApYGJ1TbKzKAWU
 
 ##   03 move NFT
-- [ ] nft package id : 
-- [ ] nft object id : 
-- [ ] 转账 nft  hash: 
+- [x] nft package id : 0x8bd45abe0784d12bfd12b20e9d7ac4c1f3b467ed49f69d57bffb2004d4a17003
+- [x] nft object id : 0xbeab697d0e12cbbde74ac27d245b2bea7e616672f19a4e47682ef6817ea18d2b
+- [x] 转账 nft  hash: FdJo9bUQLNkTBfTQU2JaHLr91iVLdH1xYxWNCnSP8vje
 
 ##   04 Move Game
 - [ ] game package id :
@@ -33,3 +33,11 @@
 
 ##   06 SDK PTB
 - [ ] save hash :
+
+##   07 Move CTF Check In
+- [x] CLI call 截图: ![CLI](./task7.png)
+- [x] flag hash: 69roRD4wvpFhzFGT6UVkX8fZvhLnVAhbjV6WVFipmvo3
+
+##   08
+- [x] proof: `75pi`
+- [x] hash: ArVMrBAKPaTRsTTuAm9rbE5J1QNJNQsUHaH4RpAqS3B6

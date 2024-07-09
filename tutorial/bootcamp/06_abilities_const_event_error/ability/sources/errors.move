@@ -22,6 +22,13 @@ module ability::errors {
     public fun intput2(num:u32):u32{
         assert!(num > 10, ErrMustGet10);
 
+
+        if(num > 10){
+           // xxxx
+        }else{
+            abort ErrMustGet10;
+        };
+
         num
     }
 

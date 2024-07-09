@@ -10,7 +10,8 @@ module flow_con::break_con {
 
     fun min_factor(n: u64): u64 {
         let mut i = 2;
-        while (i < = n) {
+
+        while (i <= n) {
             if (n % i == 0) break ;
             i = i + 1
         };

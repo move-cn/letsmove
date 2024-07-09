@@ -3,7 +3,10 @@ module function::function {
     use sui::transfer::{transfer, public_transfer, share_object, public_share_object};
 
     fun init(_:&mut TxContext){
-public_share_object()    }
+
+
+
+    }
 
 
     fun a(){
@@ -19,8 +22,8 @@ public_share_object()    }
     }
 
 
-    public  fun f(a:u32, b:u32): bool{
-        a > b
+    public  fun f(a:u32, b:u32): bool {
+         a > b
     }
 
     public  fun f2(a:u32, b:u32): (bool,bool){
