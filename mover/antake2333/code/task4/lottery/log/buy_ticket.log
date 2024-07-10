@@ -1,7 +1,7 @@
 
 分割硬币
-sui client split-coin --coin-id 0xdc21bc6b53180fcba1cb0276667fe9b2061aba4e20907e57c487f5561bf247ae --gas-budget 100000000 --amounts 9000000
-sui client call --function buy_ticket  --module lottery  --package 0x91e2951c78814e7eed30a3b154356ab151c2d7bc7aa0f0a6d8e986e9224be088 --args 0xccac73f5cc772ee64b47597f59e76508c1cf3e68a4b161349e4d9eef45bf443a 0x56add0d55a319bd6dc73cf33ffd7279bf993196ec7e6d56bb81f895882fb6f00 0x6 --type-args 0x2::sui::SUI  --gas-budget 100000000
+sui client split-coin --coin-id 0xdc21bc6b53180fcba1cb0276667fe9b2061aba4e20907e57c487f5561bf247ae  --amounts 9000000
+sui client call --function buy_ticket  --module lottery  --package 0x91e2951c78814e7eed30a3b154356ab151c2d7bc7aa0f0a6d8e986e9224be088 --args 0xccac73f5cc772ee64b47597f59e76508c1cf3e68a4b161349e4d9eef45bf443a 0x56add0d55a319bd6dc73cf33ffd7279bf993196ec7e6d56bb81f895882fb6f00 0x6 --type-args 0x2::sui::SUI
 
 
 [warn] Client/Server api version mismatch, client api version : 1.24.0, server api version : 1.24.1

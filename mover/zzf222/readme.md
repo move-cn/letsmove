@@ -36,16 +36,16 @@
 
 ## 04 Move Game(testnet)
 
-- [] game package id :0xc8f1bc31bb1cb8c61c34304b29c37707a043ac37044c52620ce64b3ac88d013a
-- [] deposit Coin hash:HNem8ymD6Uc5fA4NtB1oUExytLFhVwmWgmuSoVGG5fku
-- [] withdraw `Coin` hash:9eWnQmZxfB9ZK7yEHA6mJoY1rQjQ9K29EnC3wh7yMt7s
-- [] play game hash:5vAs2Lbdqj3PJdfHYemSS2gKrXp7XrnsX9Zcqun59ekK
+- [x] game package id :0xc8f1bc31bb1cb8c61c34304b29c37707a043ac37044c52620ce64b3ac88d013a
+- [x] deposit Coin hash:HNem8ymD6Uc5fA4NtB1oUExytLFhVwmWgmuSoVGG5fku
+- [x] withdraw `Coin` hash:9eWnQmZxfB9ZK7yEHA6mJoY1rQjQ9K29EnC3wh7yMt7s
+- [x] play game hash:5vAs2Lbdqj3PJdfHYemSS2gKrXp7XrnsX9Zcqun59ekK
 
 ## 05 Move Swap
 
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id :0xc15c1483fe48ef1aed79376fc78ab5e83441482f909a76f4553dca580edebe61
+- [x] call swap CoinA-> CoinB  hash :3NXBY7M3AaUFV2dnCbVb4sv6HN96BPrLDLSmyNcrbXtB
+- [x] call swap CoinB-> CoinA  hash :F6nN3y1y6N359x2roSqpisTuvFkvFyhBSg3hWTEcGS6u
 
 ## 06 SDK PTB
 

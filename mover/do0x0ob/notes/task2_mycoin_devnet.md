@@ -161,7 +161,7 @@ Transaction Digest: DvqFBvFkzsmYN3TNUNaFx6B4eLpLETHAXsEw6ctV6Xdh
 
 - **DevNet MINT Info**
 
-**Mint CLI Command:** `sui client call --package 0x9490436002c5855f48f752a4197024282c54f9ebf9f7cbbb8fd1b9e50d96da98 --module my_coin --function mint --args 0x19b70a8829d4fcd3a2463657d6adec41e9f765d252e7d6732189bb9756b59eda 100000000000 0x006d980cadd43c778e628201b45cfd3ba6e1047c65f67648a88f635108ffd6eb --gas-budget 10000000000`
+**Mint CLI Command:** `sui client call --package 0x9490436002c5855f48f752a4197024282c54f9ebf9f7cbbb8fd1b9e50d96da98 --module my_coin --function mint --args 0x19b70a8829d4fcd3a2463657d6adec41e9f765d252e7d6732189bb9756b59eda 100000000000 0x006d980cadd43c778e628201b45cfd3ba6e1047c65f67648a88f635108ffd6eb 00`
 
 ```
 Transaction Digest: FFs81fJopxji1poSDrqdtqwKV6wcXSezL52CLB3aqhSY

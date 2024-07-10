@@ -33,7 +33,7 @@
 │ 0x2f6c8718a9f7c8438feab4e507532599c81bb2d9bfd3a4775da47026bd0b0d20 │ 100000000          │ 0.10             │
 │ 0xa0b2789d0ce4ef924d3a88d233979b8b98101f0818670050a85ad8533a5a89ec │ 6970360            │ 0.00             │
 ╰────────────────────────────────────────────────────────────────────┴────────────────────┴──────────────────╯
-➜  task2 git:(main) ✗ sui client publish --gas-budget 100000000
+➜  task2 git:(main) ✗ sui client publish 
 UPDATING GIT DEPENDENCY https://github.com/MystenLabs/sui.git
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib

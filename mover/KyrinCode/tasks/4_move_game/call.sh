@@ -12,7 +12,7 @@ CLOCK=0x6
 #                 --module kyrincode_game \
 #                 --function get_faucet_coin \
 #                 --args $TREASURY_CAP 1000000000 \
-#                 --gas-budget 100000000
+#
 
 # INPUT=0x627e8035c35043e85ef5e89573b428913326d8a4c3e9aec6ad75ed0dc7c85be1
 
@@ -21,7 +21,7 @@ CLOCK=0x6
 #                 --module kyrincode_game \
 #                 --function deposit \
 #                 --args $GAME $INPUT 500000000 \
-#                 --gas-budget 100000000
+#
 
 INPUT=0x7d1f5a1a4923fee63b252bb77d78605ed3623cfb5a1d190aca5fffefcb6ed1ba
 
@@ -30,4 +30,3 @@ sui client call  --package $PACKAGE_ID \
                 --module kyrincode_game \
                 --function play \
                 --args 2 $GAME $INPUT $CLOCK \
-                --gas-budget 100000000

@@ -22,7 +22,7 @@ module my_coin::justin_coin {
 
 /*
 sui move build --skip-fetch-latest-git-deps
-sui client publish --gas-budget 100000000 --skip-fetch-latest-git-deps
+sui client publish  --skip-fetch-latest-git-deps
 export GAS_BUDGET=100000000
 export PACKAGE_ID=0x2bb921b49d4f5acffd78b3a9bcb899a2d5125ef6e1f6cd2a931a0a2d35737a7c
 export JUSTIN_COIN_TREASURY_CAP=0x5438efda5a5b9f909f79953ab5844475052a7668cb094b941d0ae1505366def1

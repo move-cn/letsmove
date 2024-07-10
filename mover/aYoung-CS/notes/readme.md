@@ -64,7 +64,7 @@ curl --location --request POST 'https://faucet.testnet.sui.io/gas' \
 
 新建：`sui move new <xxxx>`
 测试：`sui move test`或者`sui move test <xxxx>`，后者测试名字包含xxxx的
-发布：`sui client publish --gas-budget 100000000`
+发布：`sui client publish `
 
 发布后`init`返回的object id会在object changes - created objects里体现
 

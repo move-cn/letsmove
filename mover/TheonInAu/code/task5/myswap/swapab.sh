@@ -1,4 +1,4 @@
-sui client call --gas-budget 1000000000 \
+sui client call 0 \
   --package 0xe438fae1b5fa2142aededfc48449244f235f69f6dc28dcb53080e24809ea3faa \
   --module swap_generic \
   --function swap_a_b \

@@ -7,17 +7,17 @@
 
 # create_pool
 # sui client call  --package $PACKAGE_ID\
-#                 --module task5 --function create_pool --gas-budget 100000000 \
+#                 --module task5 --function create_pool  \
 #                 --type-args $COIN_A $COIN_B \
 
 # add_pool
 # sui client call  --package $PACKAGE_ID\
-#                 --module task5 --function add_pool --gas-budget 100000000 \
+#                 --module task5 --function add_pool  \
 #                 --type-args $COIN_A $COIN_B \
 #                 --args $POOL_ID $COIN_A_OBJECT $COIN_B_OBJECT 10 10
 
 # swap a to b
 # sui client call  --package $PACKAGE_ID\
-#                 --module task5 --function swap_a_b --gas-budget 100000000 \
+#                 --module task5 --function swap_a_b  \
 #                 --type-args $COIN_A $COIN_B \
 #                 --args $POOL_ID $COIN_A_OBJECT 5

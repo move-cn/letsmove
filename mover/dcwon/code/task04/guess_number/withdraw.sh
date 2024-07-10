@@ -3,7 +3,7 @@
 # mainnet package id: 0xf3cc86549f161364ac7c7f3180199cc4bd95e638154e7b15bfa8d0c885147e68
 #         pool id: 0x70c84d530ef09f70789428fb6d5c4c7a41d6d6b1a0c2215f0a08af071d93c970
 
-sui client call --gas-budget 100000000 \
+sui client call  \
 --package 0xf3cc86549f161364ac7c7f3180199cc4bd95e638154e7b15bfa8d0c885147e68 \
 --module guess_number \
 --function withdraw \

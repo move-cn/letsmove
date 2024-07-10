@@ -17,7 +17,7 @@ KYRINCODE_FAUCET_COIN_TYPE=0xde2d0d163530740d7587d71d4e9503338c2a7596c221688311a
 #                 --function create_pool_with_coins_and_transfer_lp_to_sender \
 #                 --type-args $KYRINCODE_COIN_TYPE $KYRINCODE_FAUCET_COIN_TYPE \
 #                 --args $FACTORY $KYRINCODE_COIN $KYRINCODE_FAUCET_COIN \
-#                 --gas-budget 100000000
+#
 
 # swap kyrincode_coin for kyrincode_faucet_coin
 POOL=0x9d24a2bef83e531eb14d9fce977cd2caa7e415ccfc816cb8d305915b33389434
@@ -29,4 +29,3 @@ sui client call --package $PACKAGE_ID \
                 --function swap_a_for_b_with_coin_and_transfer_to_sender \
                 --type-args $KYRINCODE_COIN_TYPE $KYRINCODE_FAUCET_COIN_TYPE \
                 --args $POOL $KYRINCODE_COIN $MIN_OUT \
-                --gas-budget 100000000

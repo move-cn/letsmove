@@ -1,4 +1,4 @@
-sui client call --gas-budget 100000000 \
+sui client call  \
  --package  0x2 \
  --module coin \
  --function mint_and_transfer \

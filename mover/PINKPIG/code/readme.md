@@ -28,3 +28,4 @@ module my_first_package::hello_PINKPIG {
 `sui version:`sui 1.27.0-e5f080922d56-dirty
 
 `sui address:`0xc9984d356bcf6455491993ebf6b875ed76d527acf44c4e413b1e7cef37dfafc0
+

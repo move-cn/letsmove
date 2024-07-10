@@ -5,7 +5,7 @@
 ## 领取
 
 ``` bash
-sui client call --package 0x3c205d3fb89b5e60fe89a75fcebc11a435b0844a385647a25cb806149ba70050 --module meepo_coin --function mint --args 0x6343e83c8e8b4c5cc0fa7fe5bf86443109a301c35e51ed5d18efc61b8bdc487a 1000000000000 0x49ac87502a3b3c47ae452d7ea4f50cb5b117b55b82ea31603e7741b44923a583 --gas-budget 100000000
+sui client call --package 0x3c205d3fb89b5e60fe89a75fcebc11a435b0844a385647a25cb806149ba70050 --module meepo_coin --function mint --args 0x6343e83c8e8b4c5cc0fa7fe5bf86443109a301c35e51ed5d18efc61b8bdc487a 1000000000000 0x49ac87502a3b3c47ae452d7ea4f50cb5b117b55b82ea31603e7741b44923a583 
 ```
 
 1. meepo_coin 

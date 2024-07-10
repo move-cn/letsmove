@@ -14,6 +14,6 @@ curl --location --request POST 'https://faucet.testnet.sui.io/gas' \
 
 sui client switch --env testnet
 sui move build
-sui client publish --gas-budget 100000000
+sui client publish 
 
 ref: https://docs.sui.io/references/cli/client
