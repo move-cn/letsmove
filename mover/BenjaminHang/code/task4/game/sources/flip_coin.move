@@ -9,7 +9,7 @@ module game::flip_coin {
     use sui::random::Random;
     use sui::transfer::{share_object, transfer, public_transfer};
     use sui::tx_context::sender;
-    use faucet_coin::my_faucet_coin::MY_FAUCET_COIN;
+    use coin::my_faucet_coin::MY_FAUCET_COIN;
 
     public struct Game  has key {
         id: UID,
