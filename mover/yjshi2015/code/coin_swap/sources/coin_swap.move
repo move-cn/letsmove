@@ -3,6 +3,10 @@ module coin_swap::coin_swap {
     use sui::balance::{ Self, Balance };
     use sui::vec_map::{ Self, VecMap };
     use sui::coin::{ Self, Coin };
+    #[test_only]
+    use sui::test_scenario;
+    #[test_only]
+    use std::debug;
 
     /*
      * 创建池子
@@ -102,6 +106,62 @@ module coin_swap::coin_swap {
         // 按照1:1 比例减少池子中的 coin0 代币，并将其转移给 sender
         let coin0 = coin::take(&mut pool.balance0, coin1_amount, ctx);
         transfer::public_transfer(coin0, ctx.sender());
+    }
+
+    #[test_only]
+    public struct TokenA has drop{}
+    #[test_only]
+    public struct TokenB has drop{}
+
+    #[test]
+    fun test_swap() {
+
+        let owner = @1000;
+        let alice = @1001;
+
+        // 初始化 token，并分配给 Alice 和 owner 
+        let mut scenario = test_scenario::begin(alice);
+        {
+            let mut tokenA = coin::mint_for_testing<TokenA>(10000, scenario.ctx());
+            let mut tokenB = coin::mint_for_testing<TokenB>(10000, scenario.ctx());
+
+            tokenA.split_and_transfer(100, alice, scenario.ctx());
+            tokenB.split_and_transfer(1000, alice, scenario.ctx());
+
+            transfer::public_transfer(tokenA, owner);
+            transfer::public_transfer(tokenB, owner);
+        };
+
+        // 创建池子
+        scenario.next_tx(owner);
+        {
+            init(scenario.ctx());
+            let admCap = scenario.take_from_sender<AdmCap>();
+            create_pool<TokenA, TokenB>(&admCap, scenario.ctx());
+        };
+
+        // 添加流动性
+        scenario.next_tx(owner);
+        {
+            // 获取池子
+            let mut pool = scenario.take_shared<Pool<TokenA, TokenB>>();
+            assert!(&pool.balance0.value() == 0, 1);
+            assert!(&pool.balance1.value() == 0, 1);
+
+            // 获取 owner 的代币，各拿 1000 个用来添加流动性
+            let mut tokenA = scenario.take_from_sender<Coin<TokenA>>();
+            let mut tokenB = scenario.take_from_sender<Coin<TokenB>>();
+            add_liq<TokenA, TokenB>(tokenA.split(1000, scenario.ctx()), tokenB.split(1000, scenario.ctx()), &mut pool, scenario.ctx());
+
+            assert!(pool.balance0.value() == 1000, 2);
+            assert!(pool.balance1.value() == 1000, 2);
+
+            test_scenario::return_shared(pool);
+            scenario.return_to_sender(tokenA);
+            scenario.return_to_sender(tokenB);
+        }
+
+        scenario.end();
     }
     
 }
