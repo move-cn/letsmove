@@ -6,8 +6,8 @@ edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
-faucet={git="https://github.com/wureny/letsmove.git",subdir="mover/wureny/code/task2_faucet",rev="main",override=true,published-at="0x6bee188c46b96387c1143935a1b8c22c611f25b0033681f7f309d1ee15683a11"}
-
+# faucet={git="https://github.com/wureny/letsmove.git",subdir="mover/wureny/code/task2_faucet",rev="main",override=true,published-at="0x6bee188c46b96387c1143935a1b8c22c611f25b0033681f7f309d1ee15683a11"}
+faucet = {local="../task2_faucet"}
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
 # MyRemotePackage = { git = "https://some.remote/host.git", subdir = "remote/path", rev = "main" }
