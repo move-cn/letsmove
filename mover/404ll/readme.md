@@ -5,18 +5,20 @@
 
 ## 个人简介
 - 工作经验: 0
-- 技术栈: C solidity
-> 重要提示 请认真写自己的简介
-- 区块链专业大一在读，All in Web3，非常热爱加密，自认为拥有强大的内驱力。
+- 技术栈: C， solidity
+
+
+
+- 区块链专业大一在读，All in Web3，非常热爱加密，正在不断学习中，热爱建设，如果有需要帮忙的地方随叫随到！
 - 联系方式: tg: '77'
 
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:
-- [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
-- [] package id: 
-- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+- [sui 1.28.3] Sui cli version:
+- [] Sui钱包截图: <img src="./images/钱包截图.png" alt="Sui钱包截图" style="zoom:25%;" />
+- [0x1a852fe63cdf97456f142a042e499e2766fef8f7579c2bb8c10fc7cb2a17904d] package id: 
+- [] package id 在 scan上的查看截图:<img src="./images/浏览器截图.png" alt="Scan截图" style="zoom:25%;" />
 
 ##   02 move coin
 - [] My Coin package id : 
