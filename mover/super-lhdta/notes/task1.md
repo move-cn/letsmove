@@ -53,7 +53,7 @@ module hello_move::hello_move {
 ##### 一定要用powershell
 
 ```
-D:\Sui-Cli\sui-testnet-v1.22.0-windows-x86_64\target\release\sui.exe client publish --gas-budget 100000000
+D:\Sui-Cli\sui-testnet-v1.22.0-windows-x86_64\target\release\sui.exe client publish 
 ```
 
 提示gasfee不足

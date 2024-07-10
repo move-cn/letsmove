@@ -3,7 +3,7 @@
 # mainnet package id: 0xf3cc86549f161364ac7c7f3180199cc4bd95e638154e7b15bfa8d0c885147e68
 #         cap id: 0xf4dce1e04860e3a610b9652490215b0c1caa800c17a1ace25594aa9188f70219
 
-sui client call --gas-budget 100000000 \
+sui client call  \
 --package 0xf3cc86549f161364ac7c7f3180199cc4bd95e638154e7b15bfa8d0c885147e68 \
 --module guess_number \
 --function initialize_pool \

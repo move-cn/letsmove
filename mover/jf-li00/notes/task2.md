@@ -247,7 +247,7 @@ Transaction Digest: 6q9tw1k9gRHAF8PcUVQZyGELBtHk11sgZqhjCUfPUEU3
 
 ### Transfer to certain address
 ```bash
-sui client call --function mint_for --module my_coin --package $PACKAGE_ID --args 0x3e78062579421ab4d5aac552bcaa644f204aea01fa8ccd5c3caef131147ceb15 100000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --gas-budget 100000000
+sui client call --function mint_for --module my_coin --package $PACKAGE_ID --args 0x3e78062579421ab4d5aac552bcaa644f204aea01fa8ccd5c3caef131147ceb15 100000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 
 ```
 
 Output:

@@ -1,10 +1,10 @@
 # push
-sui client publish --gas-budget 100000000
+sui client publish
 
 
 # mint
 
- sui client call --gas-budget 100000000 \
+ sui client call  \
  --package  0x2 \
  --module coin \
  --function mint_and_transfer \
@@ -12,7 +12,7 @@ sui client publish --gas-budget 100000000
  --args 0xc4d306168ee191ce5102a1c723abd8e71840c569cc06df63f4945fa8e6c06903 100000000000 0xff71ff2dfa9f5ba0176fb40fdda9d13d738ec97143b46bdfa1addc09e2263b02
 
 
-  sui client call --gas-budget 100000000 \
+  sui client call  \
   --package  0x2 \
   --module coin \
   --function mint_and_transfer \

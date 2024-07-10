@@ -163,7 +163,7 @@ Transaction Digest: CXWrAm26yXoLP72wc4nf7roaMM5QniywbgFdNuc5UJFD
 
 **Mint CLI Command:** 
 ```
-sui client call --package 0x895dfd2381de5b95f108818d449c2ce70e4bb07ad5a63b56bd3ac043f0673de5 --module faucet_coin --function mint --args 0x2c042b4576f77ba7b77698158f202b44a1407023a339cd26c3c762a4819e52ec 110000000000 0x006d980cadd43c778e628201b45cfd3ba6e1047c65f67648a88f635108ffd6eb --gas-budget 1000000000
+sui client call --package 0x895dfd2381de5b95f108818d449c2ce70e4bb07ad5a63b56bd3ac043f0673de5 --module faucet_coin --function mint --args 0x2c042b4576f77ba7b77698158f202b44a1407023a339cd26c3c762a4819e52ec 110000000000 0x006d980cadd43c778e628201b45cfd3ba6e1047c65f67648a88f635108ffd6eb 0
 ```
 
 ```

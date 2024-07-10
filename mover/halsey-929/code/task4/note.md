@@ -29,7 +29,7 @@ deposit coin: 0xd0b607aa99c146e63b60d72d886d01adb74a1cd95bac0e43c437b9b40ea461ae
 export GAME_COIN=0xd0b607aa99c146e63b60d72d886d01adb74a1cd95bac0e43c437b9b40ea461ae          
 
 
-sui client call --package $PACKAGE_ID --module halsey929_dice_game --function play --args 1 $GAME_ID $GAME_COIN 0x6 --gas-budget 100000000
+sui client call --package $PACKAGE_ID --module halsey929_dice_game --function play --args 1 $GAME_ID $GAME_COIN 0x6 
 
 Transaction Digest: 3AmurKeLmBh8SNdz4R8eLgHzUxQnnAQ6XaTaVm3wo5oU
 

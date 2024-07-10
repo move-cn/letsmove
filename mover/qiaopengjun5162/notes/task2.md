@@ -42,7 +42,7 @@ letsmove/mover/qiaopengjun5162/code/task2/mycoin on  main [!?] via 🅒 base
 ╰─────────┴───────────────────────────────────────┴────────╯
 
 letsmove/mover/qiaopengjun5162/code/task2/mycoin on  main [!?] via 🅒 base took 35.1s 
-➜ sui client publish --gas-budget 100000000 --skip-fetch-latest-git-deps
+➜ sui client publish  --skip-fetch-latest-git-deps
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
 BUILDING mycoin
@@ -360,7 +360,7 @@ Transaction Digest: Hk2m48YK9VbDL8cdLAMM119ZDHiqGuBJttC1zE2jH6yh
 ### 发布 faucet coin 
 ```shell
 letsmove/mover/qiaopengjun5162/code/task2/faucet_coin on  main [!?] via 🅒 base took 4.3s 
-➜ sui client publish --gas-budget 100000000 --skip-fetch-latest-git-deps                                                                                                                   
+➜ sui client publish  --skip-fetch-latest-git-deps                                                                                                                   
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
 BUILDING faucet_coin
@@ -552,7 +552,7 @@ mycoin package id testnet: 0x7e8063dd7740ec02746fa970dea089468a9730be75ee71530dc
 1. 发布报错  Server returned an error status code: 429
 ```shell
 letsmove/mover/qiaopengjun5162/code/task2/mycoin on  main [!?] via 🅒 base took 2.4s 
-➜ sui client publish --gas-budget 100000000                             
+➜ sui client publish                              
 Networking or low-level protocol error: Server returned an error status code: 429
 
 Caused by:

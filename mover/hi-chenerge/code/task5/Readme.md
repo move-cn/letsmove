@@ -2,7 +2,7 @@
 sui move build --skip-fetch-latest-git-deps
 
 # 发布
-sui client publish --gas-budget 100000000 --skip-dependency-verification --skip-fetch-latest-git-deps
+sui client publish  --skip-dependency-verification --skip-fetch-latest-git-deps
 
 # 切网
 sui client switch --env mainnet

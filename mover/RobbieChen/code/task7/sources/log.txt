@@ -1,9 +1,9 @@
 
 sui client call --function get_flag --module check_in --package 0xfbbec7d47a179328651ad2607158b21ecbc5e8b17dcb36c06d845bb9c8e8e2dd  --args 'dfdfdaggetebdagab' 'Robbiechen' 0xe8794333b722d5ae618b20119df9b793f8e503af1630f6eab521791bc1db9895 0x8 --skip-fetch-latest-git-deps --skip-dependency-verification
 
-sui client call --package 0x60695ee31f93add1f79909c884a55dff7e5f140bbd2e495819966bd2f7971d42 --module check_in  --function get_flag --args ']2XnpF=nb`Me^7TR"RF^T/OFte' 'RobbieChen' 0x011f9404e6f167e549b617a53eea058029167a2beac26c624cbc3550e04b5ad2 0x8 --gas-budget 100000000
+sui client call --package 0x60695ee31f93add1f79909c884a55dff7e5f140bbd2e495819966bd2f7971d42 --module check_in  --function get_flag --args ']2XnpF=nb`Me^7TR"RF^T/OFte' 'RobbieChen' 0x011f9404e6f167e549b617a53eea058029167a2beac26c624cbc3550e04b5ad2 0x8
 
-sui client call --package 0xfbbec7d47a179328651ad2607158b21ecbc5e8b17dcb36c06d845bb9c8e8e2dd --module check_in  --function get_flag --args 'LetsMoveCTF' 'RobbieChen' 0xe8794333b722d5ae618b20119df9b793f8e503af1630f6eab521791bc1db9895 0x8 --gas-budget 100000000
+sui client call --package 0xfbbec7d47a179328651ad2607158b21ecbc5e8b17dcb36c06d845bb9c8e8e2dd --module check_in  --function get_flag --args 'LetsMoveCTF' 'RobbieChen' 0xe8794333b722d5ae618b20119df9b793f8e503af1630f6eab521791bc1db9895 0x8
 
 
 

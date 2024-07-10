@@ -13,12 +13,12 @@
 `sui move build`
 
 ## Publish package
-`sui client publish --gas-budget 100000000`
+`sui client publish `
 
 ## Mint my first MFT
 
 ```
-sui client call --gas-budget 100000000 \
+sui client call  \
 --package  0xc3a53ecab42cf15733267b9d9dfa23aaa5b44046ef32d5e57034011b67d71906 \
 --module nft \
 --function mint_to_sender \
@@ -28,7 +28,7 @@ sui client call --gas-budget 100000000 \
 ## Transfer the nft just minted to the specified address
 
 ```
-sui client call --gas-budget 100000000 \
+sui client call  \
 --package  0xc3a53ecab42cf15733267b9d9dfa23aaa5b44046ef32d5e57034011b67d71906 \
 --module nft \
 --function transfer \
