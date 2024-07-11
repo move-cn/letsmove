@@ -125,19 +125,26 @@ module coin_swap::coin_swap {
             let mut tokenA = coin::mint_for_testing<TokenA>(10000, scenario.ctx());
             let mut tokenB = coin::mint_for_testing<TokenB>(10000, scenario.ctx());
 
-            tokenA.split_and_transfer(100, alice, scenario.ctx());
+            tokenA.split_and_transfer(1000, alice, scenario.ctx());
             tokenB.split_and_transfer(1000, alice, scenario.ctx());
 
             transfer::public_transfer(tokenA, owner);
             transfer::public_transfer(tokenB, owner);
         };
 
-        // 创建池子
+        // 初始化模块
         scenario.next_tx(owner);
         {
             init(scenario.ctx());
+            debug::print(&scenario.sender());
+        };        
+        
+        // 创建池子
+        scenario.next_tx(owner);
+        {
             let admCap = scenario.take_from_sender<AdmCap>();
             create_pool<TokenA, TokenB>(&admCap, scenario.ctx());
+            scenario.return_to_sender(admCap);
         };
 
         // 添加流动性
@@ -148,19 +155,50 @@ module coin_swap::coin_swap {
             assert!(&pool.balance0.value() == 0, 1);
             assert!(&pool.balance1.value() == 0, 1);
 
-            // 获取 owner 的代币，各拿 1000 个用来添加流动性
+            // 获取 owner 的代币，各拿 2000 个用来添加流动性
             let mut tokenA = scenario.take_from_sender<Coin<TokenA>>();
             let mut tokenB = scenario.take_from_sender<Coin<TokenB>>();
-            add_liq<TokenA, TokenB>(tokenA.split(1000, scenario.ctx()), tokenB.split(1000, scenario.ctx()), &mut pool, scenario.ctx());
+            add_liq<TokenA, TokenB>(tokenA.split(2000, scenario.ctx()), tokenB.split(2000, scenario.ctx()), &mut pool, scenario.ctx());
 
-            assert!(pool.balance0.value() == 1000, 2);
-            assert!(pool.balance1.value() == 1000, 2);
-
+            assert!(pool.balance0.value() == 2000, 2);
+            assert!(pool.balance1.value() == 2000, 2);
+            debug::print(&2);
             test_scenario::return_shared(pool);
             scenario.return_to_sender(tokenA);
             scenario.return_to_sender(tokenB);
-        }
+        };
 
+        // swap tokenA -> tokenB
+        scenario.next_tx(alice);
+        {
+            let mut tokenA = scenario.take_from_sender<Coin<TokenA>>();
+            let mut pool = scenario.take_shared<Pool<TokenA, TokenB>>();
+            // alice 用 100 个 TokenA 置换出 100 个 TokenB
+            swap_x2y(tokenA.split(100, scenario.ctx()), &mut pool, scenario.ctx());
+
+            scenario.return_to_sender(tokenA);
+            test_scenario::return_shared(pool);
+        };
+
+        // verify swap result
+        scenario.next_tx(alice);
+        {
+            let pool = scenario.take_shared<Pool<TokenA, TokenB>>();
+          
+            // alice 此时最新的 tokenB 代币为 100 个，实际总共 1100 个
+            let tokenB = scenario.take_from_sender<Coin<TokenB>>();
+            debug::print(&3);
+            debug::print(&tokenB.value());
+            assert!(&tokenB.value() == 100, 3);
+
+            // 池子中 tokenA 增加 100 个， tokenB 减少 100 个
+            assert!(&pool.balance0.value() == 2100, 4);
+            assert!(&pool.balance1.value() == 1900, 4);
+
+            scenario.return_to_sender(tokenB);
+            test_scenario::return_shared(pool);
+        };
+        
         scenario.end();
     }
     
