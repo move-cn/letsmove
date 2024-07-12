@@ -1,5 +1,5 @@
 module task2::share_coin {
-    use sui::tx_context::{Self, TxContext};
+    use sui::tx_context::{TxContext};
     use sui::coin;
     use sui::transfer::{public_freeze_object, public_share_object};
     use sui::url::Url;
@@ -18,5 +18,4 @@ module task2::share_coin {
         // 共享 控制管理权限
         public_share_object(treasury_cap);
     }
-
 }
