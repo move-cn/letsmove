@@ -18,3 +18,37 @@
 - [] package id: 0xa2d380fae66b53b69f192b8583c0fbf1afe82acc0e6a0b1dff7dd064df6968a1
 - [] package id 在 scan上的查看截图:![Scan截图](./images/SuiScan.png)
 
+##   02 move coin
+- [] My Coin package id : 0x8ee56689c2e689b501efdcfd74a0a1db4e87aa9a50eba47057cc1322a16d8d0e
+- [] Faucet package id : 0x8ee56689c2e689b501efdcfd74a0a1db4e87aa9a50eba47057cc1322a16d8d0e
+- [] 转账 `My Coin` hash: 4tnCTqVmafSDxzWUk8SyF7d6W3VFZNyxYtpyRY211Ms2
+- [] `Faucet Coin` address1 mint hash: 33xUHTuF22wHCf7r9ukMkXEDRTNpZDnSvLy9pUGdxXPh
+- [] `Faucet Coin` address2 mint hash: EZ3S5aBRwiJpg6KG8FN3gMAXFdUEVezpQd26jPc9prT5
+
+##   03 move NFT
+- [] nft package id :
+- [] nft object id : 
+- [] 转账 nft  hash:
+- [] scan上的NFT截图:
+
+##   04 Move Game
+- [] game package id :
+- [] deposit Coin hash:
+- [] withdraw `Coin` hash:
+- [] play game hash:
+
+##   05 Move Swap
+- [] swap package id :
+- [] call swap CoinA-> CoinB  hash :
+- [] call swap CoinB-> CoinA  hash :
+
+##   06 Dapp-kit SDK PTB
+- [] save hash :
+
+##   07 Move CTF Check In
+- [] CLI call 截图 : 
+- [] flag hash :
+
+##   08 Move CTF Lets Move
+- [] proof : 
+- [] flag hash :
