@@ -25,5 +25,7 @@ sui client call --package 0x2 \
 
 sui client call --package 0x2 --module coin --function mint_and_transfer --args 0x00aa511457d549ea6fee8cf156133f01e6e34cb2493a18819c11609057989f35 100000000 0xfabe32506438a111fa9cc7db561bea1e47121ef51cdb4e6b73658e90e60a88f5 --type-args "0x757db1db897d77a171633455a20c9bb9ce7fbcc1a4d5271b59ad1ab5c5708d64::my_coin::MY_COIN"
 
+sui client call --package 0x2 --module coin --function mint_and_transfer --args 0x00aa511457d549ea6fee8cf156133f01e6e34cb2493a18819c11609057989f35 100000000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --type-args "0x757db1db897d77a171633455a20c9bb9ce7fbcc1a4d5271b59ad1ab5c5708d64::my_coin::MY_COIN"
+
 
 sui client call --package 0x2 --module coin --function mint_and_transfer --args 0xa62a3d0a38824f7445af2288502555fb2fa2cef0b658c1632bb03c656de6ca00 130000000 0xfabe32506438a111fa9cc7db561bea1e47121ef51cdb4e6b73658e90e60a88f5 --type-args "0x757db1db897d77a171633455a20c9bb9ce7fbcc1a4d5271b59ad1ab5c5708d64::share_coin::SHARE_COIN"
