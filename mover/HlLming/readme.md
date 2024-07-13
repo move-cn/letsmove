@@ -13,7 +13,7 @@
 
 ##   01 hello move  
 - [x] Sui cli version: 1.28.3
-- [x] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
+- [x] Sui钱包截图: ![Sui钱包截图](./notes/wa.png)
 - [x] package id: 0x9a6f5ed5d360ae13bf86463722e93a3e0259882f67eed0900022f5cdcde74779 
 - [x] package id 在 scan上的查看截图:![Scan截图](./notes/package.png)
 
