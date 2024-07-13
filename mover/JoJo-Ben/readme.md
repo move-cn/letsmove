@@ -24,8 +24,12 @@
 - [x] 转账 nft  hash: FdJo9bUQLNkTBfTQU2JaHLr91iVLdH1xYxWNCnSP8vje
 
 ##   04 Move Game
-- [ ] game package id :
-- [ ] call game hash:
+- [x] (testnet Random) game package id : 0xfe0eff9fd4550b800461bd6301b5a74c9cc9aa8fd2bb50a88f209345ecc93a58
+- [x] (testnet Random)call game hash: BjVbfXFM3VF7BaAc1qi6V71z2TFK5PSgHVD1mWfwJnbg
+```bash
+[warn] Client/Server api version mismatch, client api version : 1.27.0, server api version : 1.27.4
+Object 0x0000000000000000000000000000000000000000000000000000000000000008 does not exist
+```
 
 ##   05 Move Swap
 - [ ] swap package id :
@@ -37,3 +41,7 @@
 ##   07 Move CTF Check In
 - [x] CLI call 截图: ![CLI](./task7.png)
 - [x] flag hash: 69roRD4wvpFhzFGT6UVkX8fZvhLnVAhbjV6WVFipmvo3
+
+##   08
+- [x] proof: `75pi`
+- [x] hash: ArVMrBAKPaTRsTTuAm9rbE5J1QNJNQsUHaH4RpAqS3B6
