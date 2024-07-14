@@ -46,8 +46,8 @@
 - [] save hash :
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [] CLI call 截图 : ![截图](./images/20240715042237.jpg)
+- [] flag hash : 6Het3SJuaF9aYEwwX8NLJ3CtoibMaSiRBDxhfZ54UpTV
 
 ##   08 Move CTF Lets Move
 - [] proof : 
