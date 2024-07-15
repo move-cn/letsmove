@@ -1,4 +1,4 @@
-sui client call --package 0x5f67669cbad74f7eccdb9ff9310e540fbe09cae5c81281e962cb65ac5094aadd --module check_in --function get_flag --gas-budget 100000000 --args "GV;rC1PqZ" 0x10f3302f86607d758ab4e8519314aa368d2e53b3661e530fbc3e8a6988f82b56 0x8
+sui client call --package 0x5f67669cbad74f7eccdb9ff9310e540fbe09cae5c81281e962cb65ac5094aadd --module check_in --function get_flag  --args "GV;rC1PqZ" 0x10f3302f86607d758ab4e8519314aa368d2e53b3661e530fbc3e8a6988f82b56 0x8
 
 Digest: 6BAJ2YTsZceFz3iMfbWFyKkLkRj27s7XixmgGwa3dPup
 

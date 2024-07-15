@@ -466,7 +466,7 @@ COINB=0x06dc273473ccf56fcbe4960ff7aad8aec76d4e77c6dd94446b5603ba5bd2aa63::faucet
 sui client call --package 0xf00ba72ba3e180ccde2318b077b48e572f923542dfa8fda17d312c02c040351a \
                 --module alvin_swap \
                 --function generate_pool \
-                --gas-budget 100000000 \
+                 \
                 --type-args  $COINA $COINB
 ```
 
@@ -600,7 +600,7 @@ POOLID="0x8698274f9e029bca0a9fcd577ae570b9a465a4c01ffb9e2a8cc38ddbe20a6e60"
 sui client call --package $AMMPKG \
                 --module alvin_swap \
                 --function create_pocket \
-                --gas-budget 100000000 
+                 
 ```
 
 1. POCKET
@@ -725,7 +725,7 @@ POCKETID="0x370ca5a1c5a6117c237ad691c7ae38d9f50d51357bc75db740af1d8bcf21426f"
 
 ```rust
 sui client call --package $AMMPKG --module alvin_swap --function deposit_totally \
-                --gas-budget 100000000 --type-args  $COINA $COINB \
+                 --type-args  $COINA $COINB \
                 --args $POOLID 0x063ce9f554dc92386c8bdcdd1eae067af423d84e33725360b4e64c37cd719540 0xeaee61e8a57da7e7e4334ebf1e07c5010fae4ead6a528ee866d8b76d698155a2 $POCKETID
 
 ```
@@ -942,7 +942,7 @@ Transaction Digest: 2L1RSpXBqCwKCA8nHyMhyt4WpGydPHq9rmknmti492qZ
 sui client call --package $AMMPKG \
                 --module alvin_swap \
                 --function swap_b_to_a \
-                --gas-budget 100000000 \
+                 \
                 --type-args $COINA $COINB \
                 --args $POOLID \
                        '["0xaa0f50671aa4fcfe3ee86b7215d4633d4f898e276b287bcf9348f93933e1779e"]' \

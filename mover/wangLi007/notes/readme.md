@@ -6,7 +6,7 @@ iex (iwr "https://gist.githubusercontent.com/WGB5445/73b3b54f8293125d4ba74260ea5
 ## sui用到的命令
 ```shell
 sui --version
-sui client publish --gas-budget 100000000 部署到链上，网络的配置可以去user/.sui、sui_config/client.yaml文件去修改
+sui client publish  部署到链上，网络的配置可以去user/.sui、sui_config/client.yaml文件去修改
 sui move build
 sui move new hello_world
 ```

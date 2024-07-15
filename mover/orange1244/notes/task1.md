@@ -114,7 +114,7 @@ sui move test
 没有报错之后进行发布
 
 ~~~
- sui client publish --gas-budget 100000000
+ sui client publish 
 ~~~
 
 有如下信息即发布成功

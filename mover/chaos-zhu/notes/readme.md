@@ -105,7 +105,7 @@ sui client switch --env mainnet
 
 ```shell
 # 部署
-sui client publish --gas-budget 100000000 .
+sui client publish  .
 ```
 
 在可视化web界面调用mint.

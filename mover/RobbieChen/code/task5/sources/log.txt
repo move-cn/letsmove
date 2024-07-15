@@ -150,7 +150,7 @@ Transaction Digest: FaVsRi1nHq8FsjESwMfXHreSzxmwzpFtXh1VEXu4o7Lj
 │  │ CoinType: 0x2::sui::SUI                                                                        │
 │  │ Amount: -22008680                                                                              │
 │  └──                                                                                              │
-╰────────────────────────────────────────────────────────────sui client publish --gas-budget 100000000 --skip-fetch-latest-git-deps --skip-dependency-verificationS E:\code\move\tintin-bootcamp\mover\RobbieChen\code\task5>
+╰────────────────────────────────────────────────────────────sui client publish  --skip-fetch-latest-git-deps --skip-dependency-verificationS E:\code\move\tintin-bootcamp\mover\RobbieChen\code\task5>
 [warn] Client/Server api version mismatch, client api version : 1.24.1, server api version : 1.26.0
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib

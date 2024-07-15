@@ -17,17 +17,18 @@
 - [x] package id: 0xd4fb3cc172f20e39641345c9762c59c6b45cb5700138a8568584e6383616ac0d
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
+- [x] My Coin package id : 0xae16113528530ccfefb1dfcf99da129421621be8307edee8bb05ea1ecb7dd2fa
+- [x] Faucet package id : 0xae16113528530ccfefb1dfcf99da129421621be8307edee8bb05ea1ecb7dd2fa
+- [x] 转账 `My Coin` hash: EXNu2hebvcsuTpnh5Higoi4BBiWy6BZ1hKJ4jKYiH2rD
+- [x] `Faucet Coin` address1 mint hash: G32Rz8CrZMyv8umGg5c2hpCYjAT4vcPnqFj5pFWUnRcZ
 - [] `Faucet Coin` address2 mint hash:
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id : 0xb20685c739bfe12eff994044e34d7eab91cc04e2d84f8455e03f4d748591bfee
+- [x] nft object id : 0x9855e6838b1dabc734e1b4991dab188bd2ecfe29ba912e2256768d4a4af6a3df
+- [x] 转账 nft  hash: DgJZRmmrfLg8rtvJEkRwZvZ6UMsSsYqDjjC96rPwTWwd
+- [x] scan上的NFT截图:![Scan截图](./images/SuiScanNFT.png)
+- [x] scan上的NFT的URL地址: https://suiscan.xyz/mainnet/object/0x9855e6838b1dabc734e1b4991dab188bd2ecfe29ba912e2256768d4a4af6a3df
 
 ##   04 Move Game
 - [] game package id :

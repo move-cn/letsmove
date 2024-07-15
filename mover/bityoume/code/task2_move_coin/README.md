@@ -92,7 +92,7 @@ Active environment switched to [mainnet]
 
 ## 合约发布
 ```bash
-$ sui client publish --gas-budget 100000000
+$ sui client publish 
 UPDATING GIT DEPENDENCY https://github.com/MystenLabs/sui.git
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
@@ -359,7 +359,7 @@ $ sui client balance
 
 ## 拆分 `My Coin`
 ```bash
-sui client split-coin --coin-id $COIN --amounts 1000 2000 --gas-budget 100000000
+sui client split-coin --coin-id $COIN --amounts 1000 2000 
 
 export COIN1=0x1f46de45bd8f75d7eab6349afc048e85f28c0b1e31c3add617ae361f8bbcc41f
 export COIN2=0xca32f8ef3814d97f64b1d55743adec35496d536297260712ec3916c061bf9e1e

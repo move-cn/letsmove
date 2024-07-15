@@ -138,7 +138,7 @@ sui move build
 ```
 4. 发布
 ```
-sui client publish --gas-budget 100000000
+sui client publish 
 
 # 成功后信息如下：
 UPDATING GIT DEPENDENCY https://github.com/MystenLabs/sui.git

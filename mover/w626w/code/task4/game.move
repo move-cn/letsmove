@@ -52,4 +52,4 @@ module w626w::rock_paper_scissors {
         });
     }
 }
-//sui client call --function play --module rock_paper_scissors --package 0xf2309c548c0dd2ca81ccde692b61c54ad91329bf472729cec09955e8d1730963 --args 1 0x6 --gas-budget 100000000
+//sui client call --function play --module rock_paper_scissors --package 0xf2309c548c0dd2ca81ccde692b61c54ad91329bf472729cec09955e8d1730963 --args 1 0x6
