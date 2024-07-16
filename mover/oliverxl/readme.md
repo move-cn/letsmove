@@ -1,10 +1,10 @@
 ## 基本信息
-- Sui钱包地址: `0x2b620b33469502fb35ea967878007d942359cefe9d4597abcfa2b89def895738`
+- Sui钱包地址: `0xd7ea6893354b5cdc343a86fe0f0423b74294ea1c52ffb749a56b4e1591496776`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `oliverxl`
 
 ## 个人简介
-- 工作经验: 10年+
+- 工作经验: 20年+
 - 技术栈: `Java` `JS`
 > 重要提示 请认真写自己的简介
 - 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
@@ -19,11 +19,11 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/suiscan_oliverxl.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id : 0x06051a8551294f499805069646968f923104f3f953f1652f86c5c5da3090d58b
+- [x] Faucet package id :  0x06051a8551294f499805069646968f923104f3f953f1652f86c5c5da3090d58b
+- [x] 转账 `My Coin` hash:  AkKUMhfhtqjKGQHSFbJgBaVUvVfUr5tknpgMn5V7ibdZ
+- [x] `Faucet Coin` address1 mint hash: 8bRAvP7g7EbRnk3U1b5yCYKDHfHvDkSmrgPYqnQyAees
+- [x] `Faucet Coin` address2 mint hash: 9w1BVCvMiufdQgYDCtrLB9QppirWNZDURSiBX9pMX8yu
 
 ##   03 move NFT
 - [] nft package id :
