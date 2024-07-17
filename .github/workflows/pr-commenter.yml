@@ -11,6 +11,8 @@ jobs:
         if: always()
         with:
           message: |
-            **hello!**
+            **必须加入社区发出PR才会被合并**
+            - QQ群: 79489587
+            - TG群: [Move中文](https://t.me/move_cn)
           message-failure: |
             Uh oh!
