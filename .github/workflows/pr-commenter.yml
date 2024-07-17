@@ -1,7 +1,5 @@
 on:
-  pull_request:
-
-permissions: write-all
+  pull_request_target:
 
 jobs:
   pr:
