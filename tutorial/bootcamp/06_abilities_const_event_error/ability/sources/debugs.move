@@ -7,14 +7,19 @@ module ability::debugs {
     }
 
     fun init(ctx: &mut TxContext) {
+
+
+    }
+
+    #[test]
+    fun test_a (){
         let p = People{
-            age:10,
+        age:10,
         };
         print(&p);
 
         let int10: u32 = 10;
         print(&int10);
-
     }
 
 }

@@ -24,4 +24,13 @@ module ability::key_store {
         public_transfer(only,sender(ctx));
     }
 
+
+    // public fun my_transfer(only: KeyStore, addr: address) {
+    //     if (only.age > 10) {
+    //         public_transfer(only, addr);
+    //     }else {
+    //         abort 10
+    //     }
+    // }
+
 }

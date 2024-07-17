@@ -13,6 +13,15 @@ module operator::as_op {
 
         let f = a  +  (c as u16);
 
+        let u8_1: u8 = 222;
+        let u8_2: u8 = 222;
+        let u8_3 = u8_1 + u8_2;
+
+
+
+
     }
+
+
 
 }

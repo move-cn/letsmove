@@ -12,18 +12,19 @@ module faucet_coin::faucetcoin {
         let (treasury, metadata) = coin::create_currency(
             witness,
             6, // decimals
-            b"FGMC", // symbol
-            b"Faucet Coin", // name
+            b"FGMCC", // symbol
+            b"Faucet Coin Neo", // name
             b"Don't ask why", // description
             option::none(), // icon url
             ctx
         );
 
-        // transfer the `TreasuryCap` to the sender, so they can mint and burn
-        transfer::public_transfer(treasury, tx_context::sender(ctx));
+        // metadata is typically frozen after creation
+        transfer::public_freeze_object(metadata);
 
         // share the object to everyone
-        transfer::public_share_object(metadata);
+        transfer::public_share_object(treasury);
+
     }
 
     public entry fun mint(cap: &mut coin::TreasuryCap<FAUCETCOIN>, amount: u64, recv: address, ctx: &mut TxContext) {
@@ -32,5 +33,10 @@ module faucet_coin::faucetcoin {
 
     public entry fun burn(treasury: &mut coin::TreasuryCap<FAUCETCOIN>, coin: coin::Coin<FAUCETCOIN>) {
         coin::burn(treasury, coin);
+    }
+
+    #[test_only]
+    public fun test_init(ctx: &mut TxContext) {
+        init(FAUCETCOIN {}, ctx)
     }
 }

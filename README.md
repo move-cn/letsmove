@@ -45,15 +45,18 @@ Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move�
 
 ## 学习资料
 
+[学习路径](learning_map.md)
+
 ### 书籍
-| 书名                  | 中文                                     |                          英文                          |                           配套视频                            |
-|:--------------------|----------------------------------------|:----------------------------------------------------:|:---------------------------------------------------------:|
-| Move 导论             | [中文](https://intro-zh.sui-book.com/)   | [Sui Move Intro Course](https://intro.sui-book.com/) |     [bilibili](https://www.bilibili.com/video/BV1RY411v7YU)  [Youtube](https://www.youtube.com/watch?v=lZHjmo2ngu0)                          |
-| Sui Book            | [中文](https://sui-book.com)             |                                                      |  |
-| Sui Move by Example | [中文](https://examples.sui-book.com/)   |   [Sui Move by Example](https://examples.sui.io/)    |                                                       |
-| Move Book           |                                        |           [英文](https://move-book.com/)            |                                                   |
-| Let's Move Sui      |                                        |                    [let's move](https://letsmovesui.com/)                    |                                                     |
-| 轻松入门Move            | [轻松入门Move](https://easy.sui-book.com/) |                                    |                                                     |
+| 书名                  | 中文                                              |                          英文                          |                           配套视频                            |
+|:--------------------|-------------------------------------------------|:----------------------------------------------------:|:---------------------------------------------------------:|
+| Move 导论             | [中文](https://intro-zh.sui-book.com/)            | [Sui Move Intro Course](https://intro.sui-book.com/) |     [bilibili](https://www.bilibili.com/video/BV1RY411v7YU)  [Youtube](https://www.youtube.com/watch?v=lZHjmo2ngu0)                          |
+| Sui Book            | [中文](https://sui-book.com)                      |                                                      |  |
+| Sui Move by Example | [中文](https://examples.sui-book.com/)            |   [Sui Move by Example](https://examples.sui.io/)    |                                                       |
+| Move Book           | [中文](https://move.sui-book.com/index.html)      |           [英文](https://move-book.com/)            |                                                   |
+| Move Reference           | [中文](https://reference.sui-book.com/index.html) |           [英文](https://move-book.com/reference/)            |                                                   |
+| Let's Move Sui      | [中文](https://movesui.sui-book.com/)                                          |                    [let's move](https://letsmovesui.com/)                    |                                                     |
+| 轻松入门Move            | [轻松入门Move](https://easy.sui-book.com/)          |                                    |                                                     |
 
 ### 文档
 - [官方文档](https://docs.sui.io/)

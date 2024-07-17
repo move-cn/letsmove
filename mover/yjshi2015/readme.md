@@ -29,8 +29,8 @@
 - [x] call game hash: GuxjPYGniNHxusPFgMFUR37qUayD4ohRZwb4c3cvVU8q
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id : 0x720963b103e2190780ecf74ce503ec2c84955d857d4da5ccb0ff60852a87025e
+- [x] call swap hash: 57ekXKYx3k8j6TyKsEATL2ZCXLRTcpqWSjLd9qbxgq95
 
 ##   06 SDK PTB
 - [] save hash :
@@ -191,3 +191,11 @@ Transaction Digest: DeBPjZovWqahNZiFS2DjNcwWmQaKgvRAahMiBXrrnzH3
 sui client call --package 0x097a3833b6b5c62ca6ad10f0509dffdadff7ce31e1d86e63e884a14860cedc0f --module lets_move --function get_flag --args "|%s8:5_Nt6" "yjshi2015" 0x19e76ca504c5a5fa5e214a45fca6c058171ba333f6da897b82731094504d5ab9 0x8 
 ```
 ![get_flag](image.png)
+
+## 09 translate move-book
+- [x] pr : https://github.com/move-cn/move-book/pull/1
+      pr : https://github.com/move-cn/move-book/pull/2
+my sui address: 0xc4301a727914c051c987331f30d002ef907f6f6e4badfec8981e6275ed22486c 
+
+## 10 translate reference
+- [x] pr : https://github.com/move-cn/move-book/pull/5
