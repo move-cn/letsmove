@@ -24,3 +24,9 @@
 - [x] 转账 `My Coin` hash: HZA4QqF58VmZHpT1nLFyTZt3SfoDnjDoRZuDaZbN3oxr
 - [x] `Faucet Coin` address1 mint hash: 5Fq43TfQ3BrAB7Bm7KzpjGg6jXxgTm2CMjtWyyGtMBzw
 - [x] `Faucet Coin` address2 mint hash: 2jSAHu4VkiUuoEpUFc7syX2wzdPojToUM7DwnMDsc2sz
+
+##   03 move NFT
+- [x] nft package id :0x38acd0378b9badb7f8d22395623d5c5b33aea27ca3adbe14d81b40f5cef04893
+- [x] nft object id : 0x6cc4431fb16ae3a77d2de72777616a9aa547bab25b3693e8275f3015451b6ae3
+- [x] 转账 nft  hash: 2Qc3JjyahEjjPL3GdkXiWJsuzFAMDtFNPPisnYaL76mE
+- [x] scan上的NFT截图:![Scan截图](./images/Snipaste_2024-07-18.png)
