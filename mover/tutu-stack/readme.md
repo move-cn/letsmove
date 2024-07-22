@@ -30,3 +30,9 @@
 - [x] nft object id : 0x6cc4431fb16ae3a77d2de72777616a9aa547bab25b3693e8275f3015451b6ae3
 - [x] 转账 nft  hash: 2Qc3JjyahEjjPL3GdkXiWJsuzFAMDtFNPPisnYaL76mE
 - [x] scan上的NFT截图:![Scan截图](./images/Snipaste_2024-07-18.png)
+
+##   04 Move Game
+- [x] game package id : 0xb88a0f3c2667d1820b7a8e0fc780e8715094194d14dc9f69f1c2322f44a7305c
+- [x] deposit Coin hash: GN8GFsh7AVNjV69zACgoeF239vVm8vjBtKahPfbtKP6n
+- [x] withdraw `Coin` hash: JDbjnKsR6GutnixbnUeVVAA1PfmMeGDJkBhq7Cac7TU1
+- [x] play game hash: HPkU6SDDPcmhxCAD8hi9iWyC3JA8XSjG2ty5ssErNc6F
