@@ -1,7 +1,7 @@
 ## 基本信息
 - Sui钱包地址: `0x9620b4d45bf7f8e7d83dacea7b4bf226382e411b1b289c1d61d1eaa5f2442be6`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `自己的githubid`
+- github: `zipdata1`
 
 ## 个人简介
 - 技术栈: `java`
