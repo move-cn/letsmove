@@ -15,6 +15,7 @@ module nft::itpika_nft {
         // TODO: allow custom attributes
     }
 
+
     // ===== Events =====
 
     public struct NFTMinted has copy, drop {

@@ -2,11 +2,11 @@
 
 [move]
 version = 2
-manifest_digest = "07F27D410E5867E72CB97519D71A4F5D095B13CD40618B2556AD49145BCA58DF"
+manifest_digest = "F32FD7EF3CAC07B296E92144968499443DC5BC5BE7D14210B4CB94D371C78754"
 deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
 dependencies = [
   { name = "Sui" },
-  { name = "faucet_coin" },
+  { name = "coin" },
 ]
 
 [[move.package]]
@@ -22,8 +22,8 @@ dependencies = [
 ]
 
 [[move.package]]
-name = "faucet_coin"
-source = { local = "../../task2/faucet_coin" }
+name = "coin"
+source = { local = "../../task2/coin" }
 
 dependencies = [
   { name = "Sui" },
