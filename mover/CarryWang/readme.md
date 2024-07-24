@@ -45,9 +45,9 @@
 
 ## 05 Move Swap
 
-- [] swap package id :
-- [] call swap CoinA-> CoinB hash :
-- [] call swap CoinB-> CoinA hash :
+- [x] swap package id : 0xaa88171226271a6d114cc5aa32bc2222de7057afa8e0595047c1692c820939e0
+- [x] call swap CoinA-> CoinB hash : EqfFiM3xPMkLVyuSX5hR8Fc9Zkx1LqZza2fX3pge3Ns9
+- [x] call swap CoinB-> CoinA hash : DfJmfwbpGMFvNugwG6kANm3NPCSD7W7rCiTu7Qjqc4qi
 
 ## 06 Dapp-kit SDK PTB
 
