@@ -5,9 +5,9 @@
 
 ## 个人简介
 - 工作经验: 1年
-- 技术栈: `python`、`machine learning`
+- 技术栈: `python`、`machine learning`、`solidity`
 > 重要提示 请认真写自己的简介
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
+- 可以英语为工作语言，擅长数据分析、数据可视化，有以太坊MEV bots开发经验；
 - 联系方式: tg: `@chenje.lyu` 
 
 ## 任务
@@ -19,11 +19,11 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/task1_package.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id : `0x74800bac922fe6da9dda50585f27f1145851c0dd0cc3d10d34c27dec3435c5ff`
+- [x] Faucet package id : `0x0476b1dab2f89a9d7333413321b8c685bd70ade24cb525d47f4b13de16dc41b5`
+- [x] 转账 `My Coin` hash: `SwiZx1EVaHSDm9F7RWr6fQ9t4aUS3vW4dCGAcBFhebw`
+- [x] `Faucet Coin` address1 mint hash: `9h2f2Yhe8SnSn3qE8FEqo72T5Ns4bpDYYkduSkuRWg6p`
+- [x] `Faucet Coin` address2 mint hash: `GRj1NL3naGgr5DSZxMcFdsZiEQunAmREjcKQH6813gv6`
 
 ##   03 move NFT
 - [] nft package id :
