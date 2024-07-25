@@ -38,17 +38,17 @@
 - [x] play game hash: A2EfDW2smAAxJdhxSZSard9kwszq63huJ6AfKaM5DnY8
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0x1bea4759df76e177267180fdb358fa469a099cf25b6124d0f55919d23d6484f9
+- [x] call swap CoinA-> CoinB  hash : Bg9zSoBEFyebZDaY8TSnsEvLuLt8zuE38dwtFJWJXZPE
+- [x] call swap CoinB-> CoinA  hash : B3c2d4RJaWjzDyrkK1bvivTR9ypd4pXH4LuSnPjjDkZo
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : 7Yak9doknHKohvhneqFt3t1THDB5NVvmaw8kaSsduTMN
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : ![截图](./images/你的图片地址)
+- [x] flag hash : FG3K1P1QNrsKQn2Mp13oryTShDCPYQv7TPj2usHGjsPw
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof : 9a0d895e291c55d701ab
+- [x] flag hash : G7iNv3UpeqHRT1pRqhEBrph5j32mKggu8KydHQHZ2J6L
