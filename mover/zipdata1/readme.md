@@ -1,22 +1,21 @@
 ## 基本信息
-- Sui钱包地址: `0x3a2e375a5f6febb1a19535cbc120cbee2890f9d11f8cf9f0fc04de0807628d7a`
+- Sui钱包地址: `0x9620b4d45bf7f8e7d83dacea7b4bf226382e411b1b289c1d61d1eaa5f2442be6`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `wasd845`
+- github: `zipdata1`
 
 ## 个人简介
-- 工作经验: 6年
-- 技术栈: `C++` `Python`
+- 技术栈: `java`
 > 重要提示 请认真写自己的简介
-- 多年C++开发经验，了解Solidity, 对Move感兴趣，想入门区块链和Web3开发.
-- 联系方式: tg: `wegen23` 
+- 一年java开发经验，对Move特别感兴趣，想通过Move入门区块链
+- 联系方式: qq: `2976003832` 
 
 ## 任务
 
 ##   01 hello move  
-- [x] Sui cli version:'sui 1.29.1-0e22aedc6f26'
-- [x] Sui钱包截图: ![Sui钱包截图](./images/Screenshot.png)
-- [x] package id: 0xa8376a9a796495e42a8f8a8d7aacd98d51aef349f10d02d5bbca3cb3ebcbefbc
-- [x] package id 在 scan上的查看截图:![Scan截图](./images/Screenshot2.png)
+- [x] Sui cli version:`sui 1.29.2-09db80adf1af`
+- [x] Sui钱包截图: ![Sui钱包截图](./images/01.png)
+- [x] package id: `0x569df0c06938c7e94ad7308505b9c473b2a09889815a8d74616ff26ee9a14901`
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/02.png)
 
 ##   02 move coin
 - [] My Coin package id : 
