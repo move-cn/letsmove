@@ -2,7 +2,7 @@
 Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move语言
 
 # 带奖励的学习任务
-[学习任务](./task/readme.md)
+[学习任务](./task)
 
 ## 社区 & 问答
 - [move中文 TG](https://t.me/move_cn)
