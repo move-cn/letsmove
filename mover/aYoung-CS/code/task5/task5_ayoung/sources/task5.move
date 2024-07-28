@@ -1,9 +1,7 @@
-/// Module: task5
-module task5::swap {
+/// Module: task5_ayoung
+module task5_ayoung::swap {
 
-    use task5::lock::{Self, Locked, Key};
-    use task2::AYOUNGCSCOIN::AYOUNGCSCOIN;
-    use sui::coin::{Coin};
+    use task5_ayoung::lock::{Self, Locked, Key};
 
     public struct Escrow<T: key+store> has key, store {
         id : UID,
@@ -65,8 +63,8 @@ module task5::swap {
     }
 
     #[allow(lint(self_transfer))]
-    public fun start_swap(
-        coin: Coin<AYOUNGCSCOIN>,
+    public fun start_swap<T: key+store>(
+        coin: T,
         ctx: &mut TxContext
     ) : (ID, ID)  {
         let cid = object::id(&coin);
@@ -78,8 +76,8 @@ module task5::swap {
         (cid, kid)
     }
 
-    public fun create_escrow(
-        coin: Coin<AYOUNGCSCOIN>,
+    public fun create_escrow<T: key+store>(
+        coin: T,
         exchange_key: ID,
         recipient: address,
         ctx: &mut TxContext
@@ -90,10 +88,10 @@ module task5::swap {
         cid
     }
 
-    public fun end_swap<T: key+store>(
+    public fun end_swap<T: key+store, U: key+store>(
         escrow: &mut Escrow<T>,
         k2: Key,
-        l2: Locked<T>,
+        l2: Locked<U>,
         recipient: address,
         ctx: &mut TxContext
     ){
@@ -104,7 +102,7 @@ module task5::swap {
     // === Tests ===
     #[test_only] use sui::sui::SUI;
     #[test_only] use sui::test_scenario::{Self as ts, Scenario};
-    #[test_only] use sui::coin::{Self};
+    #[test_only] use sui::coin::{Self, Coin};
 
     #[test_only] const ALICE: address = @0xA;
     #[test_only] const BOB: address = @0xB;
