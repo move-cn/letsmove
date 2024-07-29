@@ -16,3 +16,23 @@
 - [x] Sui钱包截图: ![Sui钱包截图](./images/suiwallet_imdia.png)
 - [x] package id: 0xa4321e15d5b64ed525781b8be865f0ba8f4d3d3bdd1846a006bd8925509dbcb1 
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/suiscan_imdia.png)
+
+##   02 move coin
+- [x] My Coin package id : 0x6b6c7b2c758e0a391cf636013f9ce177f6b81f4834a7d4c472e156d260148a2b
+- [x] Faucet package id : 0x6b6c7b2c758e0a391cf636013f9ce177f6b81f4834a7d4c472e156d260148a2b
+- [x] 转账 `My Coin` hash: 2kcpnzg9J3DXofhP9BMMjTMDWWWcdRYtG4gtLa1yzHjT
+- [x] `Faucet Coin` address1 mint hash: Fiqq1oiy9j17NkBJFLwVSgFDGwjE7oKWTEsae5PeGYsg
+- [x] `Faucet Coin` address2 mint hash: 52SviPbqzCLkciLXgfYE4mbfP6P4hVhHk4rNShSSAh8E
+
+##   03 move NFT
+- [x] nft package id : 0x2c6bda444ed347f4fe7cc42421a209974b07bb5591da363e61cc05eb3d3c4b33
+- [x] nft object id : 0xd3fb9efedcb89e3aed36eb6f6f21d10b453c9b4e90eb74fb709ec758c050aec4
+- [x] 转账 nft  hash: GmDdsMmiVsri9hbbGoBcHnBY57hRbPThYov3JJConqPc
+- [x] scan上的NFT截图:![Scan截图](./images/nft_suiscan_imdia.png)
+
+##   04 Move Game
+- [x] game package id : 0x147bd4512e6ae9fd6e2e733e4a51714ec966be7359be617cf8eb352d79ce723a
+- [x] deposit Coin hash: 5KD8bPTtwK8kzFr9XY9KHLo7aSW8kyXU34q1zCHmqDmL
+- [x] withdraw `Coin` hash: 3p2Aq7g54RiNH76fSeLMJb5cL6BmRiPK7XPgDdYLsF8Y
+- [x] play game hash: FMVsYT3pQTMdPkhL5MC1fzeg7ekEw14REVVvSQR3aFHD
+
