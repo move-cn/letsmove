@@ -4,41 +4,51 @@
 - github: `djendjcn`
 
 ## 个人简介
-- 工作经验: 3年
-- 技术栈: JS Python
-- 自我介绍：3年网页开发经验，对区块链比较感兴趣，想要学习move
-- 联系方式: czgo472973@163.com
+- 工作经验: 1年
+- 技术栈: `JS` `Python`
+> 重要提示 请认真写自己的简介
+- 多年网页开发经验，对Move特别感兴趣，想通过Move入门区块链
+- 联系方式: tg: `David_King429` 
 
 ## 任务
 
 ##   01 hello move  
-- [x] package id: 0x2a2b0d95dbb92462a2da10c5bab7576d07ff567385f944a14478326664c1e3ef  
+- [x] Sui cli version: 1.30.1
+- [x] Sui钱包截图: ![Sui钱包截图](./img/qianbao.png)
+- [x] package id:  0xae2b1a9414b088c22fbc6270179da25f1c639454d9e3aa4eec84b0f7c8d6dc12 
+- [x] package id 在 scan上的查看截图:![Scan截图](./img/paca.png)
 
 ##   02 move coin
-- [ ] My Coin package id :
-- [ ] Faucet package id :
-- [ ] 转账 `My Coin` hash:
+- [] My Coin package id : 
+- [] Faucet package id : 
+- [] 转账 `My Coin` hash:
+- [] `Faucet Coin` address1 mint hash:
+- [] `Faucet Coin` address2 mint hash:
 
 ##   03 move NFT
-- [ ] nft package id :
-- [ ] nft object id :
-- [ ] 转账 nft  hash:
+- [] nft package id :
+- [] nft object id : 
+- [] 转账 nft  hash:
+- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
 
 ##   04 Move Game
-- [ ] game package id :
-- [ ] call game hash:
+- [] game package id :
+- [] deposit Coin hash:
+- [] withdraw `Coin` hash:
+- [] play game hash:
 
 ##   05 Move Swap
 - [] swap package id :
-- [] call swap hash:
+- [] call swap CoinA-> CoinB  hash :
+- [] call swap CoinB-> CoinA  hash :
 
-##   06 SDK PTB
+##   06 Dapp-kit SDK PTB
 - [] save hash :
 
 ##   07 Move CTF Check In
-- [ ] CLI call 截图: 
-- [ ] flag hash:
+- [] CLI call 截图 : ![截图](./images/你的图片地址)
+- [] flag hash :
 
 ##   08 Move CTF Lets Move
-- [ ] CLI call 截图: 
-- [ ] Transaction block:
+- [] proof : 
+- [] flag hash :
