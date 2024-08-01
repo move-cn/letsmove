@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x1546e1d5d29e19d9474742942ec422b46e54f09693bce7d17b0183814f8e338a`
+- Sui钱包地址: `0xecb90b6627b7ecd11474ef6d7ef9e463fdb9cfa737ca765025fcc15eff2f8ebd`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `HoneyLin`
 
@@ -15,7 +15,7 @@
 ##   01 hello move  
 - [x] Sui cli version: sui 1.30.1-a4185da5659d
 - [x] Sui钱包截图: ![Sui钱包截图](./scan.jpg)
-- [x] package id: 0xfe5d985fdcfc92d0871708b4fe7bbd6e48bf2962d5df30e4670256ecba8dda9d
+- [x] package id: 0x11d368759217d1237a92ff73284733c526d3637618520c5331f2c6baea02b747
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/task1pid.jpg)
 
 ##   02 move coin
