@@ -19,23 +19,24 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./notes/2.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id :  [0x3532789c2976cbc05868dba979423c5f6376da1de5ef1257d55d296b99e3c15a](https://suivision.xyz/package/0x3532789c2976cbc05868dba979423c5f6376da1de5ef1257d55d296b99e3c15a)
+- [x] Faucet package id :  [0x3532789c2976cbc05868dba979423c5f6376da1de5ef1257d55d296b99e3c15a](https://suivision.xyz/package/0x3532789c2976cbc05868dba979423c5f6376da1de5ef1257d55d296b99e3c15a)
+- [x] 转账 `My Coin` hash: [3XE4YWCtdPH9MBwycNqjjrucV1mgDFMXhTVb7JKkUtba](https://suivision.xyz/txblock/3XE4YWCtdPH9MBwycNqjjrucV1mgDFMXhTVb7JKkUtba)
+- [x] `Faucet Coin` address1 mint hash: [3dEEoFLdgs9NZcKsK6LbGcCwYjuYa5SouvZapXUrTMvR](https://suivision.xyz/txblock/3dEEoFLdgs9NZcKsK6LbGcCwYjuYa5SouvZapXUrTMvR)
+- [x] `Faucet Coin` address2 mint hash: [Gmbh2iabzHSqeyjrru9uATzxw3DE7tJhwVH2QYnnBVsT](https://suivision.xyz/txblock/Gmbh2iabzHSqeyjrru9uATzxw3DE7tJhwVH2QYnnBVsT)
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id :  [0xe17f33b07c9a91b35632386f436a45ee78a66a9a8cdad9973f8a6dde5f770d40](https://suivision.xyz/package/0xe17f33b07c9a91b35632386f436a45ee78a66a9a8cdad9973f8a6dde5f770d40)
+- [x] nft object id :  [0x7ec425ed0c6ef9af1c00b8a8b792a815b00e5f5887cc24131fb31383522bf3e0](https://suivision.xyz/object/0x7ec425ed0c6ef9af1c00b8a8b792a815b00e5f5887cc24131fb31383522bf3e0)
+- [x] 转账 nft  hash : [HsojqjGBSq7vTg7LViex9mu6De4fWHgBEgmtqxARhoDc](https://suivision.xyz/txblock/HsojqjGBSq7vTg7LViex9mu6De4fWHgBEgmtqxARhoDc)
+- [x] scan上的NFT截图:![Scan截图](./notes/3.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : [0xd22aa04dc7b3c5ec7586d35f9ccd6b449a08dbb4c7dbbe71ebe216d82514e6cb](https://suivision.xyz/package/0xd22aa04dc7b3c5ec7586d35f9ccd6b449a08dbb4c7dbbe71ebe216d82514e6cb)
+- [x] deposit Coin hash: [9873ZiH6RoMEGqrmm26RrsCzpkJGtQ1DL2xPF8ZBtgmy](https://suivision.xyz/txblock/9873ZiH6RoMEGqrmm26RrsCzpkJGtQ1DL2xPF8ZBtgmy)
+- [x] withdraw `Coin` hash:  [DLZ1zvT3CoBZxcKzFpNMbnT2e3CkzY4pEzRoSTPACttR](https://suivision.xyz/txblock/DLZ1zvT3CoBZxcKzFpNMbnT2e3CkzY4pEzRoSTPACttR)
+- [x] play game hash:  [FafWkF8u5bXCprHMbQmkm8tR9PZq3zCcqaY9BYz673dV](https://suivision.xyz/txblock/FafWkF8u5bXCprHMbQmkm8tR9PZq3zCcqaY9BYz673dV)
+
 
 ##   05 Move Swap
 - [] swap package id :
