@@ -5,7 +5,7 @@
 1. 命令
 
 ```
-sui client publish --gas-budget 100000000
+sui client publish 
 ```
 
 2. 返回
@@ -250,7 +250,7 @@ Transaction Digest: 739WxomUU7rkxfzoJFdd2huvD8jR1Td5quQ5X4gUmnY1
 1. 命令
 
 ```
-sui client call --function mint --module mycoin --package 0x7247004b03f116499058575daac468d59ad6c4e84d0878628b785e16c39f5403 --args 0xd735520f429f73845c8193e724d7cb1c3631bc716b719d01dd783074ce0b8c0c 100 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --gas-budget 100000000
+sui client call --function mint --module mycoin --package 0x7247004b03f116499058575daac468d59ad6c4e84d0878628b785e16c39f5403 --args 0xd735520f429f73845c8193e724d7cb1c3631bc716b719d01dd783074ce0b8c0c 100 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 
 ```
 
 2. 返回

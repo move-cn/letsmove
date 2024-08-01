@@ -5,7 +5,7 @@
 1. 命令
 
 ```
-sui client publish --gas-budget 100000000
+sui client publish 
 ```
 
 2. 返回
@@ -487,7 +487,7 @@ Transaction Digest: EcKoA2jMQ36oYBgDhfKDz9g9ZSUhC3BMwShy5T6SsHzL
 1. 命令
 
 ```
-sui client call --package 0xd8b04849cd2642cc101fbca6043c810cfaa08f2f18cc61e2e5cb79933e5508ad --module mygame --function play --args 1 0x472ec3a985be7182ff404e141e48d2e8264c98a4f001a249f7e49ae76e7543b8  0xbf4f4865faec53790675e0e894fee6a8a37bd68f8135bdee8894cae03c6a45e0 0x6 --gas-budget 100000000
+sui client call --package 0xd8b04849cd2642cc101fbca6043c810cfaa08f2f18cc61e2e5cb79933e5508ad --module mygame --function play --args 1 0x472ec3a985be7182ff404e141e48d2e8264c98a4f001a249f7e49ae76e7543b8  0xbf4f4865faec53790675e0e894fee6a8a37bd68f8135bdee8894cae03c6a45e0 0x6 
 ```
 
 2. 结果

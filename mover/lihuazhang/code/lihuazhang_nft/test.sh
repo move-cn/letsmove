@@ -6,8 +6,8 @@ export GITHUB_ID=lihuazhang
 export ADDRESS=0x2c3b24eee650f51ae02d36ffacbc16e4c4bde83dd11b747762239c4b7456178d
 
 # create
-sui client call --package $PACKAGE_ID --module lihuazhang_nft --function mint --args $ISSUE_CAP $NAME $GITHUB_ID $IMAGE_URL $ADDRESS --gas-budget 100000000
+sui client call --package $PACKAGE_ID --module lihuazhang_nft --function mint --args $ISSUE_CAP $NAME $GITHUB_ID $IMAGE_URL $ADDRESS
 
 export DNFT=0xc056df3ab4cd829643de46966a166a97dc78a89f181f4b78b4f5936e4497e4be
 # destroy
-sui client call --package $PACKAGE_ID --module lihuazhang_nft --function burn --args $ISSUE_CAP $DNFT --gas-budget 100000000
+sui client call --package $PACKAGE_ID --module lihuazhang_nft --function burn --args $ISSUE_CAP $DNFT

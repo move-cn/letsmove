@@ -1,4 +1,4 @@
-sui client call --function create_pool  --module lottery  --package 0x91e2951c78814e7eed30a3b154356ab151c2d7bc7aa0f0a6d8e986e9224be088 --args 0xb09084039ffe08f6cff1656f8b54ba19ecf08a2e6b72402d10aaaad25da8b8ab SUI-24H 1000000 3600000 100 1715241578000 10 8 10000 --type-args 0x2::sui::SUI  --gas-budget 100000000
+sui client call --function create_pool  --module lottery  --package 0x91e2951c78814e7eed30a3b154356ab151c2d7bc7aa0f0a6d8e986e9224be088 --args 0xb09084039ffe08f6cff1656f8b54ba19ecf08a2e6b72402d10aaaad25da8b8ab SUI-24H 1000000 3600000 100 1715241578000 10 8 10000 --type-args 0x2::sui::SUI
 
 
 

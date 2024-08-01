@@ -19,28 +19,36 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./image/2.jpg)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id : `0x2dbd6e3eddfd792695e9da3beb1519f09cd8f3671fc2159a25eaf3210a73fe5f`
+- [x] Faucet package id : `0x2dbd6e3eddfd792695e9da3beb1519f09cd8f3671fc2159a25eaf3210a73fe5f`
+- [x] 转账 `My Coin` hash: `4HYiZmS6CEn7qQpyitE1GeqWva17ZgBiskNTtVCFw4Tq`
+- [x] `Faucet Coin` address1 mint hash: `sHe245LZYWX8FLyZfe22jC4B2edps5Xvq9eoh5EEaU8iV`
+- [x] `Faucet Coin` address2 mint hash: `EZiEdZvHWV4KJrhbHFjVBpsfUD8PBDifKfFXLjMxcSin`
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id : `0xb8808437c7fe64d667baa8af677ec329d035de4d11bfbf3277458e6677a9f2aa`
+- [x] nft object id :  `0xb9faaf32425cceb31c738eac6e3c3fdf0453017e50186ffca9f52c54c7f22f72`
+- [x] 转账 nft  hash:   `25ossVvh9CdanZ9RRDrGSXa4pq5nCtEFBuXsRDDGG1iE`
+- [x] scan上的NFT截图:![Scan截图](./image/3.jpg)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id :  `0xdc26d4bb1c3e67ce33af2eee2265d5899ebdecc15c299df2a6d198559f280536`
+- [x] deposit Coin hash: `C7n74CAWKotuxU3tXukBf2WBfyewbqBPt2nCtFQkU12E`
+- [x] withdraw `Coin` hash: `7QECNN9oPWoVkwSXoBBx6vQqW8BnPpW374mz8J3tHGrH`
+- [x] play game hash: `3fCzmzUpQnKZxUgeNLT5TQT8vVNVR7fqXJzQZtQGtdfi`
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : `0x239138cc55902a15360ee3198f610031adb858da2d4ce458100bb9d00cc6907e`
+- [x] call swap CoinA-> CoinB  hash : `Z3XQti2tfdVdM14MCwPufZyxjyPEKRdSwuiJys6RXyZ`
+- [x] call swap CoinB-> CoinA  hash : `GVs5kYXJasGkpSog8B8zpb5k4twa5EaS7KMjVFLEbXFS`
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : `WMQYcGTQSZu6PAVuUCujvQYakCsRTwKU38YhbcbQtRu`
+
+##   07 Move CTF Check In
+- [x] CLI call 截图 : ![截图](./image/4.png)
+- [x] flag hash : `G6BpVNLryQ18m7CBgT6HKqnqcX7p7WcTiMBWXWNSrMzN`
+
+##   08 Move CTF Lets Move
+- [x] proof : `f04e14ca5ad77672a392`
+- [x] flag hash : `6ik1DbpPCjbDTkCW7QvXeb7kKdK8JjX4aVBdcJuVFA9X`

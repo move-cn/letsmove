@@ -90,7 +90,7 @@ Transaction Digest: 2Q7CDAAZzQXLxmopGuXTY9t4ksM6yKHbETaGJL6j7aFL
 
 export GAME_COIN=0xc2a934fde31d5e2216a89a6abb3f5692d649d8ec133ed8ad2b6c149d72875936 
 
-sui client call --package $PACKAGE_ID --module howardlau2000_game --function play --args $GAME_ID $GAME_COIN 0x6 --gas-budget 100000000
+sui client call --package $PACKAGE_ID --module howardlau2000_game --function play --args $GAME_ID $GAME_COIN 0x6 
 
 Transaction Digest: FfNo8jjAF4PkTz8zryAPya7ntJaEJ63hoFzv5mQQXcYp
 

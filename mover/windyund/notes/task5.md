@@ -58,7 +58,7 @@ packge id  0xbaaa252f382c7cc66c15376bfa035a138c3369bcb21c0fada91f325d3c0351c2
 sui client call --package  0xca5cf766fee82ff53f7c3c1c3180e79dbf46090106c6ea14054c7653f864d5da\
                 --module mycoin \
                 --function mint \
-                --gas-budget 100000000 \
+                 \
                 --args 0xf87debd42f8ee2da2d6467bc04477d03ca31093a394788afccc3413865f2ea7d  \
                        100 \
                        0xe29fa8db4cb05d9b3b436784f146e1297f65fffdd5f69f7803844a5d81e0850c

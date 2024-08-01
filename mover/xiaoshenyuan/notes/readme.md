@@ -36,7 +36,7 @@ Transaction Digest: 5ndnHuk9jv8Yp5nbggT93z64sMjqqozGL8e36M6yjdXM
 
 export GAME_COIN=0x85d5a146f35ccc2e4f36f42a5a082fb3793f2712f5df2e684c0593292ee0cd97
 
-sui client call --package $PACKAGE_ID --module xiaoshenyuan_game --function play --args $GAME_ID $GAME_COIN --gas-budget 100000000
+sui client call --package $PACKAGE_ID --module xiaoshenyuan_game --function play --args $GAME_ID $GAME_COIN 
 
 Transaction Digest: BRJMSZjobDfwCutJQkPDq1xaqekhzLhGsD1NNq35AcRW
 
