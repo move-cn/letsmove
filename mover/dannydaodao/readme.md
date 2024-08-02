@@ -1,7 +1,7 @@
 ## 基本信息
 - Sui钱包地址: `0x2b7945fd143df1abf61be25bb1da566af1a8582156bd779e879aa2261395bd90`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `https://github.com/dannydaodao`
+- github: `https://github.com/dannydaoken`
 
 ## 个人简介
 - 工作经验: 10年
