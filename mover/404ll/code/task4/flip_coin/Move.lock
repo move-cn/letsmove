@@ -2,8 +2,17 @@
 
 [move]
 version = 2
-manifest_digest = "EB700C2874596221051E7064E25BE21F4F4B24A9DA2EA7EC75D46094A84A035B"
-deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
+manifest_digest = "0D16BD1D8945F1854D54AB65C26FCD9471D514EEF5463C8D0B3748ABC847EE46"
+deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
+dependencies = [
+  { name = "FaucetCoin" },
+  { name = "Sui" },
+]
+
+[[move.package]]
+name = "FaucetCoin"
+source = { local = "..\\..\\task2\\FaucetCoin" }
+
 dependencies = [
   { name = "Sui" },
 ]
@@ -21,7 +30,7 @@ dependencies = [
 ]
 
 [move.toolchain-version]
-compiler-version = "1.28.4"
+compiler-version = "1.30.1"
 edition = "2024.beta"
 flavor = "sui"
 
@@ -29,6 +38,6 @@ flavor = "sui"
 
 [env.testnet]
 chain-id = "4c78adac"
-original-published-id = "0x2b26b95bbfe136e0c46e2d322f1c9b48974aff124ecb96f7bd064ed4265f26d9"
-latest-published-id = "0x2b26b95bbfe136e0c46e2d322f1c9b48974aff124ecb96f7bd064ed4265f26d9"
+original-published-id = "0xb862bfc74b3983a05806ec2bb84be2404135c88c22daa0a102e2b6f966685712"
+latest-published-id = "0xb862bfc74b3983a05806ec2bb84be2404135c88c22daa0a102e2b6f966685712"
 published-version = "1"
