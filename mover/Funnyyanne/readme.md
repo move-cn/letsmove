@@ -7,7 +7,7 @@
 - 工作经验: 5年
 - 技术栈: `Kotlin` `Java` `Node.js` `Typescript` `Python` `JavaScript` `Dart` 
 > 重要提示 请认真写自己的简介
-- 多年web2开发经验，Flutter,Androidn，KMM，node.js全栈正在学习web3开发入门区块链技术
+- 多年web2开发经验，Flutter,Android，KMM，node.js全栈，正在学习web3开发入门区块链技术
 - 联系方式: tg: `` 
 
 ## 任务
