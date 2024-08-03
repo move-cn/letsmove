@@ -1,4 +1,5 @@
-module task2::my_coin {
+#[test_only]
+module task2::my_coin_test {
     use sui::tx_context::{Self, TxContext, sender};
     use sui::coin;
     use sui::transfer::{public_transfer, public_freeze_object};

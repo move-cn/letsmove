@@ -21,9 +21,9 @@
 > 这个是在testnet，后几个都是在devnet上。
 
 ##   02 move coin
-- [] My Coin package id :`0xd86f4e6f25a75f60d2b575c1e069838def14ed6178714c7d8ffa5cd8ff28c811`
-- [] Faucet package id :`0x20c0f043982643bf2a7b3cf775dfbcc8933301eb3f405586d40b968147c226a6`
-- [] 转账 `My Coin` hash: `0x00aa511457d549ea6fee8cf156133f01e6e34cb2493a18819c11609057989f35`
+- [] My Coin package id :`0xcce465f31dce513a712c9058bdd9f113bf80bcfa2a5fd834de5263298af53837`
+- [] Faucet package id :`0x3ec19fe33342bf29c904af3079447631a172ab349de16391698d98954d240389`
+- [] 转账 `My Coin` hash: `0x8d75a2cfb26535750ca9cdfe9e073ac3c1124fd053c282d1af79fd05f5293c4b`
 - [] `Faucet Coin` address1 mint hash: `0xa62a3d0a38824f7445af2288502555fb2fa2cef0b658c1632bb03c656de6ca00`
 
 ##   03 move NFT
@@ -31,7 +31,7 @@
 - [] nft object id :`0x20c0f043982643bf2a7b3cf775dfbcc8933301eb3f405586d40b968147c226a6`
 - [] 转账 nft  hash:`0x58f5b5a1e002c1199d37179fc30e0766bec1737307d69b9361b87d486c0a951b`
 - [] scan上的NFT截图:![Scan截图](./images/task3_success.png)
-  
+- 
 contract_address:
 ```hash
 0x20c0f043982643bf2a7b3cf775dfbcc8933301eb3f405586d40b968147c226a6
@@ -44,7 +44,7 @@ nft_address:
 
 
 ##   04 Move Game
-- [] game package id :`0x8c643aaa784b3566e85edb2b01cbbee45bd6d0742fc3e4163a569f1325e3a88f`
+- [] game package id :`0x330bd321f8180f26b340c60cf8706aceaa4a66ea92b1c65da11452b22e2a1180`
 - [] deposit Coin hash: ``
 - [] withdraw `Coin` hash:
 - [] play game hash:

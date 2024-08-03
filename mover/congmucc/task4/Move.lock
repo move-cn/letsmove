@@ -2,39 +2,43 @@
 
 [move]
 version = 2
-manifest_digest = "ED18027FE1E04C9C17AFCADBD07CCA64749BB3234A62A2FDA2C1172E7092CD17"
-deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
+manifest_digest = "C5C19181C5ACF9AE4B4B608E11E7F5A1768B454ECACB4E50F87E874BFE83362A"
+deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
 dependencies = [
   { name = "Sui" },
+  { name = "task2" },
 ]
 
 [[move.package]]
 name = "MoveStdlib"
-source = { git = "https://github.com/MystenLabs/sui.git", rev = "framework/testnet", subdir = "crates\\sui-framework\\packages\\move-stdlib" }
+source = { git = "https://gitee.com/MystenLabs/sui.git", rev = "framework/testnet", subdir = "crates\\sui-framework\\packages\\move-stdlib" }
 
 [[move.package]]
 name = "Sui"
-source = { git = "https://github.com/MystenLabs/sui.git", rev = "framework/testnet", subdir = "crates/sui-framework/packages/sui-framework" }
+source = { git = "https://gitee.com/MystenLabs/sui.git", rev = "framework/testnet", subdir = "crates/sui-framework/packages/sui-framework" }
 
 dependencies = [
   { name = "MoveStdlib" },
 ]
 
+[[move.package]]
+name = "task2"
+source = { local = "..\\task2" }
+
+dependencies = [
+  { name = "Sui" },
+]
+
 [move.toolchain-version]
-compiler-version = "1.30.0"
+compiler-version = "1.30.1"
 edition = "2024.beta"
 flavor = "sui"
 
 [env]
 
-[env.devnet]
-chain-id = "39a8ec84"
-original-published-id = "0x8ab0f33ed5cb2f76694d8153f4c93a12947de098b0e2de1e382aa280cba8f1fb"
-latest-published-id = "0x8ab0f33ed5cb2f76694d8153f4c93a12947de098b0e2de1e382aa280cba8f1fb"
-published-version = "1"
-
 [env.testnet]
 chain-id = "4c78adac"
-original-published-id = "0x8c643aaa784b3566e85edb2b01cbbee45bd6d0742fc3e4163a569f1325e3a88f"
-latest-published-id = "0x8c643aaa784b3566e85edb2b01cbbee45bd6d0742fc3e4163a569f1325e3a88f"
+original-published-id = "0xfe4b94283d33566f3315e73e548169884307cf61ceb4026056d80c7c6b87adbb"
+latest-published-id = "0xfe4b94283d33566f3315e73e548169884307cf61ceb4026056d80c7c6b87adbb"
 published-version = "1"
+

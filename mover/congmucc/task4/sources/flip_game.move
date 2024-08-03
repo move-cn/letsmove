@@ -6,13 +6,13 @@ module task4::flip_game {
     use sui::coin::{Coin, into_balance, from_balance};
     use sui::random;
     use sui::random::Random;
-    use sui::sui::SUI;
+    use task2::share_coin_test::SHARE_COIN_TEST;
     use sui::transfer::{share_object, transfer, public_transfer};
     use sui::tx_context::{TxContext,sender};
 
     public struct GamePool has key {
         id: UID,
-        val: Balance<SUI>
+        val: Balance<SHARE_COIN_TEST>
     }
 
     public struct AdminCap has key {
@@ -36,7 +36,7 @@ module task4::flip_game {
     }
 
     public entry fun play(
-        in: Coin<SUI>,
+        in: Coin<SHARE_COIN_TEST>,
         flip_value: bool,
         rand:&Random,
         game: &mut GamePool,
@@ -65,7 +65,7 @@ module task4::flip_game {
         }
     }
 
-    public entry fun add_sui(game: &mut GamePool,in: Coin<SUI>, ctx: &TxContext) {
+    public entry fun add_sui(game: &mut GamePool,in: Coin<SHARE_COIN_TEST>, ctx: &TxContext) {
         let in_balance = into_balance(in);
         balance::join(&mut game.val, in_balance);
     }

@@ -1,4 +1,5 @@
-module task2::faucet_coin {
+#[test_only]
+module task2::faucet_coin_test {
     use sui::tx_context::{TxContext};
     use sui::coin;
     use sui::transfer::{public_freeze_object, public_share_object};

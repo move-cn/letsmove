@@ -1,5 +1,5 @@
-module task2::supply_coin {
-    use std::u8::min;
+#[test_only]
+module task2::supply_coin_test {
     use sui::balance;
     use sui::balance::Supply;
     use sui::tx_context::{TxContext, sender};
