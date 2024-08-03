@@ -1,4 +1,4 @@
-module hello_move::hello_move {
+module hello_move::hello {
     use std::ascii::{String, string};
     use sui::object::{Self,UID};
     use sui::transfer::transfer;
