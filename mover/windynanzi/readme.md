@@ -29,10 +29,11 @@
 ![其中一个Faucet Coin截图](./images/hello_coin_2.jpg)
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+> 都只能在 testnet 上查询
+- [x] nft package id : 0x9d41f76683a517e518c72e28146cd00b51e6ad09788ebcde6aa524009208f317
+- [x] nft object id : 0xd211072d6211e1ed78933ca8091633c7841e8c7ddf03487c636f42788f606177
+- [x] 转账 nft  hash: 4aYWijwus4pu28c3nBT8wmxjY7FKJWqhaaeSMmJVD9aN
+- [x] scan上的NFT截图:![Scan截图](./images/nft_1.jpg)
 
 ##   04 Move Game
 - [] game package id :
