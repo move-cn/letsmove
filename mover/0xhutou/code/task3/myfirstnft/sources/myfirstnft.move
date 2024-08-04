@@ -15,13 +15,6 @@ module myfirstnft::myfirstnft {
     /// One-Time-Witness for the module.
     public struct MYFIRSTNFT has drop {}
 
-    /// In the module initializer one claims the `Publisher` object
-    /// to then create a `Display`. The `Display` is initialized with
-    /// a set of fields (but can be modified later) and published via
-    /// the `update_version` call.
-    ///
-    /// Keys and values are set in the initializer but could also be
-    /// set after publishing if a `Publisher` object was created.
     fun init(otw: MYFIRSTNFT, ctx: &mut TxContext) {
         let keys = vector[
             utf8(b"name"),

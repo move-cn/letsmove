@@ -44,3 +44,11 @@
 
 ##   06 Dapp-kit SDK PTB
 - [x] save hash : 7vHD9XctZ6kcfapUmFaCZ8CHpcsRFUY8HKTo2zjzMx1Y
+
+##   07 Move CTF Check In
+- [x] CLI call 截图 : ![截图](./notes/54.png)
+- [x] flag hash : H6rTN42N3WyZHU2DHCizUYRwr319h3MwG65GypqXP6vs
+
+##   08 Move CTF Lets Move
+- [x] proof :  3f306002c8309be9c540
+- [x] flag hash : 27BaJFRk3bPBptrNRMvogDib7N7AxT2n9vFYH3t4r5Gx
