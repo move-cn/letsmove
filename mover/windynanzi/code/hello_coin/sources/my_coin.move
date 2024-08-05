@@ -5,6 +5,9 @@ module hello_coin::my_coin {
   use sui::tx_context::{ Self, TxContext };
   // 转账模块
   use sui::transfer;
+  use sui::object::{ UID };
+  use std::ascii::{ Self, String };
+  use sui::url;
 
   // 一次性见证
   public struct MY_COIN has drop {}
@@ -19,7 +22,7 @@ module hello_coin::my_coin {
       b"windynanzi",
       b"Windy",
       b"test2",
-      option::none(),
+      option::some(url::new_unsafe(ascii::string(b"https://cdn.icon-icons.com/icons2/1865/PNG/96/dogbaby_119594.png"))),
       ctx
     );
     
