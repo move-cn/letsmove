@@ -11,7 +11,7 @@ module task2::veithly_faucet {
     fun init(witness: VEITHLY_FAUCET, ctx: &mut TxContext) {
         let (treasury_cap, metadata) = coin::create_currency(witness, 6, b"VLF", b"veithlyFaucet", b"", option::none(), ctx);
         transfer::public_freeze_object(metadata);
-        transfer::public_transfer(treasury_cap, tx_context::sender(ctx))
+        transfer::public_share_object(treasury_cap);
     }
 
     /// Mint new coins
