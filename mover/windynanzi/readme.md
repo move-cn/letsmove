@@ -18,21 +18,19 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/sui-hello-world.png)
 
 ##   02 move coin
-> 都只能在 testnet 上查询
-- [x] My Coin package id : 0x7f4e44674c27f72814b38986db5f9276b8387beade723e787d93f5ccf0b27bfb
-- [x] Faucet package id : 0x7f4e44674c27f72814b38986db5f9276b8387beade723e787d93f5ccf0b27bfb
-- [x] 转账 `My Coin` hash: DfBa9UmJvdaWF4JzeEJL8Avv47a5Xk6sSNEs96BHofSF
-- [x] `Faucet Coin` address1 mint hash: GLQLPUfgyJ9jzFEfzLWKUSADtWeEHGwEbsVF2FguD2D
-- [x] `Faucet Coin` address2 mint hash: A8LVA1fE9wWeZJf9JLAhEabfcVj8dbfoxeGgvb9CUaQM
-- `Faucet Coin` shared Object id: 0x2440636e94aca94715bad3c54421638eb974356497047899f50e1c191f0513cf
+- [x] My Coin package id : 0x0b729163b66a6ed4ae5d7352e7bbf16573548827c22464554caf0f5a8b8c89a4
+- [x] Faucet package id : 0x0b729163b66a6ed4ae5d7352e7bbf16573548827c22464554caf0f5a8b8c89a4
+- [x] 转账 `My Coin` hash: DG47kddA9N26T5fwWeU3FP4nkmHZd6gQFY8oa29ux6ne
+- [x] `Faucet Coin` address1 mint hash: FjQ9EkiRCbL53pm8jH4cuMhNPEy6xQW3VHPbRLtvh48Y
+- [x] `Faucet Coin` address2 mint hash: C7vnFtN3RZ2qBeaMQW3xwF9yrzbyjboHCShtev1JcKrR
 ![被转账用户活动页截图](./images/hello_coin_1.jpg)
 ![其中一个Faucet Coin截图](./images/hello_coin_2.jpg)
 
 ##   03 move NFT
 > 都只能在 testnet 上查询
-- [x] nft package id : 0x9d41f76683a517e518c72e28146cd00b51e6ad09788ebcde6aa524009208f317
-- [x] nft object id : 0xd211072d6211e1ed78933ca8091633c7841e8c7ddf03487c636f42788f606177
-- [x] 转账 nft  hash: 4aYWijwus4pu28c3nBT8wmxjY7FKJWqhaaeSMmJVD9aN
+- [x] nft package id : 0x416a821364630e10171ca531af3495996e713756a29554c99bc13622cd67ce22
+- [x] nft object id : 0xde4e094ee30029d665fb8666aea3bb38fc9a7d2710584ce1255f530f9edf5961
+- [x] 转账 nft  hash: EAyVZXU6KoFwW6XJYao5yeFtt6bi47qUt6pp3MaGg5cj
 - [x] scan上的NFT截图:![Scan截图](./images/nft_1.jpg)
 
 ##   04 Move Game
