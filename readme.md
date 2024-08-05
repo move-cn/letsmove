@@ -1,55 +1,53 @@
-## 基本信息
-- Sui钱包地址: `0xf4d7b9c956241352225d4115e271260a94843a0dc639ee5e1d7bc67f026a3170`
-> 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `huzm99`
+## letsmove
+Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move语言
 
-## 个人简介
-- 工作经验: 12年
-- 技术栈: `C#` `go`  'java','javascript'
-> 重要提示 请认真写自己的简介
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `xxx` 
+## 带奖励的学习任务
+[学习任务](./task)
 
-## 任务
+## 社区 & 问答
+- [move中文 TG](https://t.me/move_cn)
+- QQ群: 79489587
+
+## bootcamp视频
+| 期数               | 视频                                              |                    源码                    |
+|:-----------------|-------------------------------------------------|:----------------------------------------:|
+| 2024年4-6月 TinTin | [B站](https://www.bilibili.com/video/BV1Rm42177Kx) | [课程源码](https://github.com/move-cn/tintin-bootcamp) |
 
 
-##   01 hello move  
-- [√] Sui cli version:1.30.1
-- [√] Sui钱包截图: ![Sui钱包截图](./code/task1/hello_move/images/sui钱包.png)
-- [√] package id: 0x03d6894ba25fad298610c9c5e8b231ed4b91fe1224965ce3c68bfcf4a28b7715
-- [√] package id 在 scan上的查看截图:![Scan截图](./code/task1/hello_move/images/20240801235037.png)
+### 书籍
+| 书名                  | 中文                                              |                          英文                          |                           配套视频                            |
+|:--------------------|-------------------------------------------------|:----------------------------------------------------:|:---------------------------------------------------------:|
+| Move Book           | [中文](https://move.sui-book.com/index.html)      |             [英文](https://move-book.com/)             |                                                   |
+| Move Reference      | [中文](https://reference.sui-book.com/index.html) |        [英文](https://move-book.com/reference/)        |                                                   |
+| Move 导论             | [中文](https://intro-zh.sui-book.com/)            | [Sui Move Intro Course](https://intro.sui-book.com/) |     [bilibili](https://www.bilibili.com/video/BV1RY411v7YU)  [Youtube](https://www.youtube.com/watch?v=lZHjmo2ngu0)                          |
+| Let's Move Sui      | [中文](https://movesui.sui-book.com/)             |        [let's move](https://letsmovesui.com/)        |                                                     |
+| Sui Book            | [中文](https://sui-book.com)                      |                                                      |  |
+| Sui Move by Example | [中文](https://examples.sui-book.com/)            |   [Sui Move by Example](https://examples.sui.io/)    |                                                       |
+| 轻松入门Move            | [轻松入门Move](https://easy.sui-book.com/)          |                                                      |                                                     |
+| Move Master         | [中文](https://master.sui-book.com/)                |       [move master](https://metaschool.so/sui)        |                                                     |
+| move castle         | [中文](https://movecastle.sui-book.com/)                |       [move castle](https://learn.movecastle.info/courses/move-on-sui)        |                                                     |
 
-##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+[学习路径](learning_map.md)
 
-##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+### 文档
+- [官方文档](https://docs.sui.io/)
 
-##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+### 代码库
+- [Sui](https://github.com/MystenLabs/sui)
 
-##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
 
-##   06 Dapp-kit SDK PTB
-- [] save hash :
+### SDK
 
-##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [Rust SDK](https://docs.sui.io/devnet/build/rust-sdk) (official)
+- [TS/JS SDK](https://github.com/MystenLabs/sui/tree/main/sdk/typescript) (official)
+- [Sui Typescript SDK (community)](https://github.com/scallop-io/sui-kit)
+- [Golang SDK 1 by block vision](https://github.com/block-vision/sui-go-sdk) (community)
+- [Golang SDK 2 by coming chat](https://github.com/coming-chat/go-sui-sdk) (community)
+- [Python SDK](https://github.com/FrankC01/pysui) (community)
+- [Java SDK](https://github.com/GrapeBaBa/sui4j) (community)
+- [Kotlin SDK](https://github.com/cosmostation/suikotlin) (community)
+- [C# SDK](https://github.com/naami-finance/SuiNet) (community)
+- [Sui Dart SDK](https://github.com/mofalabs/sui) (community)
+- [Sui dApp Kit Vue](https://github.com/SuiCraftTeam/Sui-dApp-Kit-Vue/) (community)
+### 生态项目源码
 
-##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
