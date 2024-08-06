@@ -13,15 +13,15 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:sui 1.30.1-a4185da5659d
-- [] Sui钱包截图: ![Sui钱包截图](./images/1722520011261.jpg)
-- [] package id: 0x6cd59f0b3413cc6dac9919854361682b4c7bdbb363f6bcb408e9252f5b318937
-- [] package id 在 scan上的查看截图:![Scan截图](./images/1722520127907.jpg)
+- [&#x2714;] Sui cli version:sui 1.30.1-a4185da5659d
+- [&#x2714;] Sui钱包截图: ![Sui钱包截图](./images/1722520011261.jpg)
+- [&#x2714;] package id: 0x6cd59f0b3413cc6dac9919854361682b4c7bdbb363f6bcb408e9252f5b318937
+- [&#x2714;] package id 在 scan上的查看截图:![Scan截图](./images/1722520127907.jpg)
 
 ##   02 move coin
-- [] My Coin package id : 
+- [&#x2714;] My Coin package id : 0x1a85ad3480a87e3b8f5c5cecb3d3d2c6917c484d2ee8ba61c246c8f14810143d
 - [] Faucet package id : 
-- [] 转账 `My Coin` hash:
+- [&#x2714;] 转账 `My Coin` hash: A1d6tpXvCEVgTb5NQurZBZhJLTsrKZ2qrUQ791am56A9
 - [] `Faucet Coin` address1 mint hash:
 - [] `Faucet Coin` address2 mint hash:
 
