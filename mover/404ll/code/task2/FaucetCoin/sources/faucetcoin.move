@@ -1,4 +1,4 @@
-module faucetcoin::FaucetCoin {
+module FaucetCoin::FaucetCoin {
     use std::option;
     use sui::transfer;
     use sui::tx_context::{Self, TxContext};
