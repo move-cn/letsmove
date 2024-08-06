@@ -8,7 +8,7 @@
 - 技术栈: `Kotlin` `Java` `Node.js` `Typescript` `Python` `JavaScript` `Dart` 
 > 重要提示 请认真写自己的简介
 - 多年web2开发经验，Flutter,Android，KMM，node.js全栈，正在学习web3开发入门区块链技术
-- 联系方式: tg: `` 
+- 联系方式: : `` 
 
 ## 任务
 
@@ -16,14 +16,14 @@
 - [] Sui cli version:sui 1.30.1-a4185da5659d
 - [] Sui钱包截图: ![Sui钱包截图](images/address.png)
 - [] package id: 0x83455e0dbb5e3948276aa65bb2a7e410c07ea5fd36b12455891d0726ac38f048
-- [] package id 在 scan上的查看截图:![Scan截图](/images/scan.png) 
+- [] package id 在 scan上的查看截图:![Scan截图](images/scan.png) 
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [] My Coin package id : 0x1f8d02082b92c84d74b4b524d5c425f5db43f2dd5268d22522920c94addbccbc
+- [] Faucet package id : 0xc23a7d57739bd26fafb3daa58d4aeddcd9d17a6e205e5aaf6897f371bcf97eb2
+- [] 转账 `My Coin` hash:8vqXCQEXEwz7TNW8zV8aKer2DGmeZRpk9hYHQzKTR1u6
+- [] `Faucet Coin` address1 mint hash:5xVqhXTqLpEDJB89kUZCWF1rinyLPzhSEvsXXL6bVJkT
+- [] `Faucet Coin` address2 mint hash:HuwYq57GoCT7QmM4ReGc4sTys26Nxz82cE7SPhiUfjvX
 
 ##   03 move NFT
 - [] nft package id :
