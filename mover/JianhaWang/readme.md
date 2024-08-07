@@ -39,17 +39,17 @@
 
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : [0xcb086417ee4a84d3aea6609bfd416213d48b9b8f33ce0f6b7fcba971ca65a237](https://suivision.xyz/package/0xcb086417ee4a84d3aea6609bfd416213d48b9b8f33ce0f6b7fcba971ca65a237)
+- [x] call swap CoinA-> CoinB  hash : [EGzRnk6z7fFt2CToVVHLSHVs12p4r1NVSXBznFSkNru](https://suivision.xyz/txblock/EGzRnk6z7fFt2CToVVHLSHVs12p4r1NVSXBznFSkNru)
+- [x] call swap CoinB-> CoinA  hash : [HqVDBB7chrckZ2W3PfqhWQ31ha9sN8i6WgoGEZEAmFKt](https://suivision.xyz/txblock/HqVDBB7chrckZ2W3PfqhWQ31ha9sN8i6WgoGEZEAmFKt)
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash :  [9keY9rZ9UjiBRfP5ZsLVQYNnD9SCdc3gg5ZR2WrVX2RH](https://suivision.xyz/txblock/9keY9rZ9UjiBRfP5ZsLVQYNnD9SCdc3gg5ZR2WrVX2RH)
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : ![截图](./notes/4.png)
+- [x] flag hash : [6dCy12Z67jSU9be1tkLdt5JY3Bg5sbxE2xmTNmq1Nk5x](https://suivision.xyz/txblock/6dCy12Z67jSU9be1tkLdt5JY3Bg5sbxE2xmTNmq1Nk5x)
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof : e753ec4208401a078679
+- [x] flag hash : [AxWMZE1dtqw99a8E6cuencJoERHZKtALE7V9iae7EKsG](https://suivision.xyz/txblock/AxWMZE1dtqw99a8E6cuencJoERHZKtALE7V9iae7EKsG)
