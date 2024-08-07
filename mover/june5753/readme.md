@@ -18,8 +18,8 @@
 - [] package id 在 scan上的查看截图:![Scan截图](/images/Bruce_publish_success.jpg)
 
 ##   02 move coin
-- [] My Coin package id :
-- [] Faucet package id :
+- [] My Coin package id : 0x06fa8a1ca42dba5f343f4bf56ae6a4d67b04dfb3bceb113ea50be8bf271abb09
+- [] Faucet package id  0xab27605e10c62793e05631419b4975a96e766684fcd5d8348ca29af88e777f58
 - [] 转账 `My Coin` hash:
 - [] `Faucet Coin` address1 mint hash:
 - [] `Faucet Coin` address2 mint hash:
