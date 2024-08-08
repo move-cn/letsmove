@@ -88,14 +88,19 @@ module my_game::rock_paper_scissors {
     // 玩游戏
     public entry fun play(
         pool: &mut GamePool,
-        player_choice: u8,
+        bet_coin: Coin<TIANHUN_FAUCET_COIN>,
         bet_amount: u64,
+        player_choice: u8,
         clock: &Clock,
         ctx: &mut TxContext
     ) {
         assert!(player_choice <= 2, EInvalidChoice); // 确保玩家选择有效
         assert!(bet_amount > 0, EInvalidBetAmount); // 确保下注金额大于0
         assert!((pool.balance.value() * 2) >= bet_amount, EInsufficientBalance); // 确保余额充足
+
+        // 验证下注代币价值是否 >= 下注金额
+        let bet_coin_value = bet_coin.value();
+        assert!(bet_coin_value >= bet_amount, EInvalidBetAmount);
 
         // 生成电脑的选择
         let computer_choice = generate_random_number(ctx, clock);
@@ -113,13 +118,22 @@ module my_game::rock_paper_scissors {
             COMPUTER_WIN
         };
 
+        let mut bet_balance = coin::into_balance(bet_coin);
+
+        if (bet_coin_value > bet_amount) {
+            // 如果下注代币价值大于下注金额，则将剩余代币价值退还给玩家
+            pool.balance.join(bet_balance.split(bet_amount));
+
+            let refund_coin = coin::from_balance(bet_balance, ctx);
+            transfer::public_transfer(refund_coin, ctx.sender());
+        } else {
+            pool.balance.join(bet_balance);
+        };
+
         // 处理奖励
         if (result == PLAYER_WIN) {
             let reward = coin::take(&mut pool.balance, bet_amount * 2, ctx);
             transfer::public_transfer(reward, ctx.sender());
-        } else if (result == COMPUTER_WIN) {
-            let payment = coin::from_balance(pool.balance.split(bet_amount), ctx);
-            transfer::public_transfer(payment, ctx.sender());
         };
 
         // 发出游戏结果事件
