@@ -32,15 +32,15 @@
 - [x] scan上的NFT截图:![Scan截图](./notes/3.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : [0xffc5c937d285d618a1a65798287dc3e13c9600adef1f358c3f126467bd51e2b9](https://testnet.suivision.xyz/package/0xffc5c937d285d618a1a65798287dc3e13c9600adef1f358c3f126467bd51e2b9)
+- [x] deposit Coin hash: [AYwF5VtCFazTnq4CecZ7NjCBr9DAsZNJCCKaQhaqx565](https://testnet.suivision.xyz/txblock/AYwF5VtCFazTnq4CecZ7NjCBr9DAsZNJCCKaQhaqx565)
+- [x] withdraw `Coin` hash:  [2FTifEPixidJPDui3ZrMuduRAHi8C3ARrsVRtyZhMtJJ](https://testnet.suivision.xyz/txblock/2FTifEPixidJPDui3ZrMuduRAHi8C3ARrsVRtyZhMtJJ)
+- [x] play game hash: [FEDeXWHADSjjDhh5zQTXDaVeV2tFqgUMBezkzX3kinLz](https://testnet.suivision.xyz/txblock/FEDeXWHADSjjDhh5zQTXDaVeV2tFqgUMBezkzX3kinLz)
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : [0x3466cdc82f5a783a341a7d565933fee83ad2b9eaf6d7caec02844926ece43f16](https://suivision.xyz/package/0x3466cdc82f5a783a341a7d565933fee83ad2b9eaf6d7caec02844926ece43f16)
+- [x] call swap CoinA-> CoinB  hash : [H2TRJ3UHVDxvftap5rJ8SXVmAZ8xwnbxADNfD23nbq3e](https://suivision.xyz/txblock/H2TRJ3UHVDxvftap5rJ8SXVmAZ8xwnbxADNfD23nbq3e)
+- [x] call swap CoinB-> CoinA  hash : [EbUnkWiYp1zXiY5D36tucAJNCc5MAqEGr1w8fm1XLhxK](https://suivision.xyz/txblock/EbUnkWiYp1zXiY5D36tucAJNCc5MAqEGr1w8fm1XLhxK) 
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :
