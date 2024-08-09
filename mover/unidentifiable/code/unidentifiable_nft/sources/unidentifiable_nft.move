@@ -48,3 +48,5 @@ module unidentifiable_nft::unidentifiable_nft {
         transfer::transfer(course, receipt);
     }
 }
+
+// sui client call --package 0x991b12499aa37aa5d99375c2c9853cde031afa0a7732d420353127952250440c --module unidentifiable_nft --function mint --args "Unidentifiable_SUI_NFT" "https://avatars.githubusercontent.com/u/76279277?s=400&u=402672eeff3bb5fe00264f7c6d86a9f783ff7c5e&v=4" 2 0x3acea86b2bbb2fd240c747603ef82e58fc26e4e47d87d728ef29adea8d0baef8
