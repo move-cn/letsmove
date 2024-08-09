@@ -20,6 +20,7 @@ Sui = { git = "https://gitee.com/WGB5445/sui.git", subdir = "crates/sui-framewor
 
 [addresses]
 my_coin = "0x0"
+eymeria_faucet = "0x01"
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
 # alice = "0xA11CE"
