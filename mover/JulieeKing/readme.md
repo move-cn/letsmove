@@ -47,9 +47,9 @@
 - [x] save hash : 2bg4LjjpRmYafdeGS2QWgbzYJKEB8aJVEie1tQSUygVe
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : ![截图](./img/c)
+- [x] flag hash : 2tesfakeLvQJLw3UXzP1egkU22ukgbUFrAsKEVyN7GWq
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof : 2dfc745aa60754d46967
+- [x] flag hash : 5abhEXc5VfQwW8b7NMs1FnFscZkmYHK7QVK9eA82Lmbg
