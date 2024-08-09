@@ -27,17 +27,29 @@
 ![其中一个Faucet Coin截图](./images/hello_coin_2.jpg)
 
 ##   03 move NFT
-> 都只能在 testnet 上查询
 - [x] nft package id : 0x416a821364630e10171ca531af3495996e713756a29554c99bc13622cd67ce22
 - [x] nft object id : 0xde4e094ee30029d665fb8666aea3bb38fc9a7d2710584ce1255f530f9edf5961
 - [x] 转账 nft  hash: EAyVZXU6KoFwW6XJYao5yeFtt6bi47qUt6pp3MaGg5cj
 - [x] scan上的NFT截图:![Scan截图](./images/nft_1.jpg)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : 0x3be1388d977a2eaca3f9987086048d1533953263b1bff49de6598f25b21f7b19
+- [x] deposit Coin hash: 3nBEeXxeq9fM69kZ9NscbATUXU1sPUnbbCwux7kD5yPZ
+- [x] withdraw `Coin` hash: Ck2EEHtiDr71USRn3kJAynF1HSwRnRxYW1zJ5N7vHNMW
+- [x] play game hash: Ck2EEHtiDr71USRn3kJAynF1HSwRnRxYW1zJ5N7vHNMW
+---
+> 猜拳游戏, 共3次
+> Ck2EEHtiDr71USRn3kJAynF1HSwRnRxYW1zJ5N7vHNMW, 4EJbqMjoqrLeCuFwJfvn9T2hLyGD3RYpjgnJWWyhrkmA, 4JywJNuNY9mZh5BYur2fnYPhfJWei15c65j3dyVf3D6c
+---
+- 玩家赢
+![](./images/user_winner.jpg)
+- 机器赢
+![](./images/robot_winner.jpg)
+- 事件
+![](./images/game_event.jpg)
+- balance 变化
+![](./images/balance.jpg)
+
 
 ##   05 Move Swap
 - [] swap package id :
