@@ -23,7 +23,7 @@ module task4::flip_game {
 
         let game = GamePool {
             id: object::new(ctx),
-            val: balance::zero()
+            val: balance::zero<SHARE_COIN_TEST>()
         };
 
         share_object(game);
