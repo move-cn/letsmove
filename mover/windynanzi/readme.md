@@ -52,9 +52,62 @@
 
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0
+- [x] call swap CoinA-> CoinB  hash : 4zETge4hTR1RBJ3LkVYEdQFfq8CUcxPVfx2AnK1pGmpg
+- [x] call swap CoinB-> CoinA  hash : 5kPkALLCWTUS5KEFq7PUpxZdYRVubyY4jjb3ET5bHRhQ
+---
+> 包名是 windynanzi, 可在各个文件查看, 只是文件夹名是 hello_swap
+```cmd
+// publish hash 9PihP3hJP1mm8LB2YRKsZVYoQiFhrBLBYtzTJwYhyHW3
+// package id 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0
+// coin_a_cap 0xf301b2692d449dfa7a7e8caba279ca2d37efb8213b6d9b6fe95e3af1d639349d
+// coin_b_cap 0xfd034480993e55bea9ed82a1842f0e5cb988f3054c07676bd2794143a7d54d2b
+// address 0xddb33d56ab9aebc1cef10fbfb8ad6e29e2d3a2a33fc69ab658579b0699b28434
+
+
+// 铸币
+// sui client call --package 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0 --module coin_a --function mint --args 0xf301b2692d449dfa7a7e8caba279ca2d37efb8213b6d9b6fe95e3af1d639349d 50 0xddb33d56ab9aebc1cef10fbfb8ad6e29e2d3a2a33fc69ab658579b0699b28434
+// DqYhrhB4DBTyUEcUfUUTtENjSHFUatwrcKzx9DbC3jhk a 50
+// 2MyGbC78cb6V1MuUS3MZL4kNbjhG2AJ9h5QbaP7zi1dG a 50
+// sui client call --package 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0 --module coin_b --function mint --args 0xfd034480993e55bea9ed82a1842f0e5cb988f3054c07676bd2794143a7d54d2b 100 0xddb33d56ab9aebc1cef10fbfb8ad6e29e2d3a2a33fc69ab658579b0699b28434
+// BTN7yptt5w2GjfBnR8DAymuUXFiMYjf2LCfXs3QLBo6a b 100
+
+
+// set a1_id = 0x9a99d549a97ecaec182ab5ce3f188fdcb0edaaad9bfc3841fdee178084dfa1eb
+// set a2_id = 0xd925b1d9f4f32302adc687ff0ac0cc7ca402fa0a3ab1e22baa54c0a317f2409a
+// set b_id = 0x186436efbfa758a0c4b0dbc74c42a4b2f84620bbd797ae08e99430bf0cf4710f
+
+// set a_type = 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0::coin_a::COIN_A
+// set b_type = 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0::coin_b::COIN_B
+
+// 创建流动性资金池
+// sui client call --package 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0 --module swap --function create_pool --type-args 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0::coin_a::COIN_A 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0::coin_b::COIN_B
+// hash 2WZHK4okdaoRRGmJHGB5QwjwzDzswjoBhScyNTJ4Af6R
+// pool id 0x25f08c455c9529e1d042666ad3d418d43d34324597c63575fed6f0d672e80e9a
+// pocket id 0xb91b8c8339eed5ec7474c719aa9316d3e5a30fcc979ffe2ab9967458a25cfefe
+
+// 添加流动性
+// sui client call --package 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0 --module swap --function add_liquidity --args 0x25f08c455c9529e1d042666ad3d418d43d34324597c63575fed6f0d672e80e9a 0x9a99d549a97ecaec182ab5ce3f188fdcb0edaaad9bfc3841fdee178084dfa1eb 0x186436efbfa758a0c4b0dbc74c42a4b2f84620bbd797ae08e99430bf0cf4710f 0xb91b8c8339eed5ec7474c719aa9316d3e5a30fcc979ffe2ab9967458a25cfefe --type-args 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0::coin_a::COIN_A 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0::coin_b::COIN_B
+// hash 5JnjdGgTTi6Q8fXUCx9quXp6yFvtt9cpRKDv3Uxgm9vF
+// lp id 0x01cbd2018dff0758aee78da926b94b256ecc93b0cc116a0aa24ce878487afff1
+
+
+// a 交换 b
+// sui client call --package 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0 --module swap --function a_swap_b --args 0x25f08c455c9529e1d042666ad3d418d43d34324597c63575fed6f0d672e80e9a 0xd925b1d9f4f32302adc687ff0ac0cc7ca402fa0a3ab1e22baa54c0a317f2409a --type-args 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0::coin_a::COIN_A 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0::coin_b::COIN_B
+// hash 4zETge4hTR1RBJ3LkVYEdQFfq8CUcxPVfx2AnK1pGmpg
+// b_new_id 0xf703f0eaaad4894bd355dea55f319694b432833ecbc37d95d577a72f4784724a
+
+// b 交换 a
+// sui client call --package 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0 --module swap --function b_swap_a --args 0x25f08c455c9529e1d042666ad3d418d43d34324597c63575fed6f0d672e80e9a 0xf703f0eaaad4894bd355dea55f319694b432833ecbc37d95d577a72f4784724a --type-args 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0::coin_a::COIN_A 0xda2b6726d5ec14013e98c486976ffb64b087ad6260fb5b7c1f41df508e1dd2d0::coin_b::COIN_B
+// hash 5kPkALLCWTUS5KEFq7PUpxZdYRVubyY4jjb3ET5bHRhQ
+
+```
+- a -> b
+![](./images/a_to_b.jpg)
+
+- b -> a
+![](./images/b_to_a.jpg)
+
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :
