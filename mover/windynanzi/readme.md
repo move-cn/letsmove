@@ -110,7 +110,14 @@
 
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : DK6KLd1jFKj9ePjU8uiztZX8rrFbq2rmgYY7173mcRuv
+---
+- 使用 api 创建用户后，将助记词保存下来，或者自己弄一些助记词进去生成一个 navi 相关账户
+- 然后在创建client的api `NAVISDKClient`中填入助记词，此时反复刷新，账户都是不变的
+- `account.depositToNavi(Sui, 1e9)` 直接就转账了
+
+--- 
+![转账过程](./images/navi.gif)
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
