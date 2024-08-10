@@ -120,8 +120,12 @@
 ![转账过程](./images/navi.gif)
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : ![截图](./images/bsf.jpg)
+- [x] flag hash : 6jiPKATMnoD1F8TmAKz5XCc1xbnqdjvNwGxQsTNPV7sr
+
+---
+flag 参数获取hash: 4xXWQaKfCgZjro79Mh4yZdrqz4CWX5UAj91KSSK6sFvj
+- [](./images/flag_str.jpg)
 
 ##   08 Move CTF Lets Move
 - [] proof : 
