@@ -1,6 +1,5 @@
 ## 基本信息
 - Sui钱包地址: `0xe15e4705e1fbfbc131bb737df1ebdb6755f7c433724793513041d8946df13448`
-> 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `11532d`
 
 ## 个人简介
@@ -18,7 +17,7 @@
 - [] package id 在 scan上的查看截图:![Scan截图](images\package id.png)
 
 ##   02 move coin
-- [] My Coin package id : 
+- [] My Coin package id : 4sL6EW9oDUkxy5b7HZ5HQoTT4jswA5yKTa2VB1fbPzqr
 - [] Faucet package id : 
 - [] 转账 `My Coin` hash:
 - [] `Faucet Coin` address1 mint hash:
