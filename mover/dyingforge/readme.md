@@ -19,11 +19,11 @@
 - [√] package id 在 scan上的查看截图:![hello_move/001/image/package.png](./images/你的图片地址)
 
 ##   02 move coin
-- [] My Coin package id : 0x2e00b34b0345626ac8bed913974bcac82e01d057c4f6501696afcbfdd450d948
-- [] Faucet package id : 0xd0ed551927a06ebc54ed5aaaf9e45ccf8b0c5ee1da96fdc91ecd90cea3ae1b0c
-- [] 转账 `My Coin` hash:76dm1jPTLwKzJxWoTnerHJGqrr4vfrp8gq9fts7vJb5Y
-- [] `Faucet Coin` address1 mint hash:DcWKo2iSnmrgiB73hGs2dtzZacmkiLyuBLkJiKSFHHWj
-- [] `Faucet Coin` address2 mint hash:DuEBuVSFV7a2AtXDHicnWD7Wvh7V9BoQYPd45KTDD7sY
+- [√] My Coin package id : 0x2e00b34b0345626ac8bed913974bcac82e01d057c4f6501696afcbfdd450d948
+- [√] Faucet package id : 0xd0ed551927a06ebc54ed5aaaf9e45ccf8b0c5ee1da96fdc91ecd90cea3ae1b0c
+- [√] 转账 `My Coin` hash:76dm1jPTLwKzJxWoTnerHJGqrr4vfrp8gq9fts7vJb5Y
+- [√] `Faucet Coin` address1 mint hash:DcWKo2iSnmrgiB73hGs2dtzZacmkiLyuBLkJiKSFHHWj
+- [√] `Faucet Coin` address2 mint hash:DuEBuVSFV7a2AtXDHicnWD7Wvh7V9BoQYPd45KTDD7sY
 
 ##   03 move NFT
 - [] nft package id :
