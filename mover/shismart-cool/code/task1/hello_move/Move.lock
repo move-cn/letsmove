@@ -10,7 +10,7 @@ dependencies = [
 
 [[move.package]]
 name = "MoveStdlib"
-source = { git = "https://github.com/MystenLabs/sui.git", rev = "framework/testnet", subdir = "crates\\sui-framework\\packages\\move-stdlib" }
+source = { git = "https://github.com/MystenLabs/sui.git", rev = "framework/testnet", subdir = "crates/sui-framework/packages/move-stdlib" }
 
 [[move.package]]
 name = "Sui"
@@ -29,6 +29,6 @@ flavor = "sui"
 
 [env.testnet]
 chain-id = "4c78adac"
-original-published-id = "0x4550ee8c10fb238f7b8a3e206ed94fa6d2995bee5a02d3f8ef0893dcf68a558b"
-latest-published-id = "0x4550ee8c10fb238f7b8a3e206ed94fa6d2995bee5a02d3f8ef0893dcf68a558b"
+original-published-id = "0xfc72b7f84dca2534ac35319a5771ca23f9c99ec5f6f438ef9c4162ba3d88f812"
+latest-published-id = "0xfc72b7f84dca2534ac35319a5771ca23f9c99ec5f6f438ef9c4162ba3d88f812"
 published-version = "1"
