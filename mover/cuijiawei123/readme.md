@@ -19,11 +19,11 @@ https://github.com/cuijiawei123
 - [✅] package id 在 scan上的查看截图:![Scan截图](./images/scan上的查看截图.png)
 
 ##   02 move coin
-- [] My Coin package id : 0x24cff64767f0d2fb8414f46a1a50a66cb70fe3eba3d88e12018f947be0720a58
-- [] Faucet package id : 0x85b1dbc2eb7888905a704a3c66d5fc38b9d0f2a4da19a2de76494b0de1ac12dc0x85b1dbc2eb7888905a704a3c66d5fc38b9d0f2a4da19a2de76494b0de1ac12dc
-- [] 转账 `My Coin` hash: https://suiscan.xyz/testnet/tx/5MaSpJHujniTgA9PUxCB2vXqgQiLkf8do3U5X1F3w7xf
-- [] `Faucet Coin` address1 mint hash: nk75c33mk3B2Esi7RqTyyjBJVpNXfqAg4EMDfEAAnmC
-- [] `Faucet Coin` address2 mint hash: 84wK2a3ipACH3gYSFePAHgDmC1M8qSxJ67rb3y7pCKar
+- [✅] My Coin package id : 0x7d3bd14cc3005d467baa2b611388d871b45684e78079346f0262eeff9bcba44e
+- [✅] Faucet package id : 0xd16891701e9c671ee5a5387a78eaa945d56e81b60773eb4411b672b62b123ff4
+- [✅] 转账 `My Coin` hash: https://suiscan.xyz/testnet/tx/2JrxpYbyZG1nv5g4LU6P572y3HwtuYDuCqbMWxuW4dbq
+- [✅] `Faucet Coin` address1 mint hash: 6kDpQoyhifWRg1e9HC4zeMfbLdk3GPqHbpxLgzKVjntS
+- [✅] `Faucet Coin` address2 mint hash: EKYfvEgQKv9MveQL2QNBvwbXcEgiZur4KaNiMMKd7FvR
 
 ##   03 move NFT
 - [] nft package id :0xbf66e72c16353edc64c3fa3251fbf91e3e77a8ed808e0a5ce82c2a54aa6a955f

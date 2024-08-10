@@ -1,22 +1,21 @@
 ## 基本信息
-- Sui钱包地址: `0xd28096207c68280dbfac23f534f6ea5e34dbec93995da3f803316444e1680b59`
+- Sui钱包地址: `0xc205d7fc5862888647c57fde077597410dd206fac6bc0c9f4ee592a3db82fd53`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `dongfang223`
+- github: `shismart-cool`
 
 ## 个人简介
-- 工作经验: 5年
-- 技术栈: `Rust` `C++` `C#`
+- 工作经验: 2年
+- 技术栈: `Java` `Android`
 > 重要提示 请认真写自己的简介
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `[xxx](https://t.me/dongfang223)` 
+- Android开发者，对Move特别感兴趣，想通过Move入门区块链
 
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:  1.29.2-09db80adf1af
-- [] Sui钱包截图: ![Sui钱包截图](./images/1.png)
-- [] package id: 0x18070381a954ad29e199b8a9293cbad22767111cf9f9cb10893f1c159734f562
-- [] package id 在 scan上的查看截图:![Scan截图](./images/2.png)
+- [] Sui cli version: sui 1.30.1-a4185da5659d
+- [] Sui钱包截图: ![Sui钱包截图](./images/wallet.png)
+- [] package id: 0xfc72b7f84dca2534ac35319a5771ca23f9c99ec5f6f438ef9c4162ba3d88f812
+- [] package id 在 scan上的查看截图:![Scan截图](./images/package.png)
 
 ##   02 move coin
 - [] My Coin package id : 
@@ -46,9 +45,9 @@
 - [] save hash :
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/3.png)
-- [] flag hash 14mEM6Z6esK79a7q8bmFtwSnLHWsMakwRrbUrePUNJvh:
+- [] CLI call 截图 : ![截图](./images/task7.png)
+- [] flag hash : B7RymNyoVQtumKbW2XTr45xhHtFHp4umCK5kB6EavzU2
 
 ##   08 Move CTF Lets Move
-- [] proof : [10,126,97] 
-- [] flag hash : CEGVTKGU1NfeRSkPWUECMfarpvpbxY1uJGk97MXBFGQT
+- [] proof : 57832145
+- [] flag hash : DbLT1bGGUeYBF4q4ddwzgnLChQFDjLLc1SGVc6tFA4PU
