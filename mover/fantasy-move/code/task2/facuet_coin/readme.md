@@ -1,0 +1,16 @@
+package_id:  0x398797282df10e8b79f10cf4d2d8c1090c70be652b76e6efda5ed9cef6dd126c
+treasuryId:  0xab49d04dd1e5acd11838b22cb825a2432fc6e2de79c9900dc39140c87ed58861
+
+# address1: 0x0c5aeba79521f673430ddbee3b25cf9615dc74f8fab219a9b78460bcb137e178
+sui client call --package 0x398797282df10e8b79f10cf4d2d8c1090c70be652b76e6efda5ed9cef6dd126c \
+--module fantasy_facuet_coin \
+--function  mint \
+--args 0xab49d04dd1e5acd11838b22cb825a2432fc6e2de79c9900dc39140c87ed58861  1000000000 0x0c5aeba79521f673430ddbee3b25cf9615dc74f8fab219a9b78460bcb137e178 \
+--gas-budget 50000000
+
+# address2 0x51f51183c5af25ef0ec430e0a94bbbb0ec0d25f78c9b11161e59abaf0d524159
+sui client call --package 0x398797282df10e8b79f10cf4d2d8c1090c70be652b76e6efda5ed9cef6dd126c \
+--module fantasy_facuet_coin \
+--function  mint \
+--args 0xab49d04dd1e5acd11838b22cb825a2432fc6e2de79c9900dc39140c87ed58861  1000000000 0x398797282df10e8b79f10cf4d2d8c1090c70be652b76e6efda5ed9cef6dd126c \
+--gas-budget 50000000
