@@ -17,3 +17,13 @@
 - [] Sui钱包截图: ![Sui钱包截图](./images/wallet.png)
 - [] package id: 0xdb625738d055034d852b66ef4dc4ccf642c811c54d86586e7786fc2742924444
 - [] package id 在 scan上的查看截图:![Scan截图](./images/task1.png)
+
+##   02 move coin
+- [] My Coin package id : 0xbcbc8381eeef3f674433761d77f90b40e1d97957e997addbba24614b096871cf
+- [] Faucet package id : 0xbcbc8381eeef3f674433761d77f90b40e1d97957e997addbba24614b096871cf
+- [] 转账 `My Coin` hash: FFv6TfrJVRAcqcb32cAu51HE8oX2m6ZawVw8cjc94oF7
+- [] `Faucet Coin` address1 mint hash: AGtPZ6ihK8pHbKKrcB62vztTAAR5HBXvctXXVsTDocah
+- [] `Faucet Coin` address2 mint hash: DYic9jdot1cPFYsgA9zghi4xB3eSiuBqqqjtmjzXxMHZ
+
+
+
