@@ -25,3 +25,4 @@ yarn-debug.log*
 yarn-error.log*
 sui.log.*
 .history
+/mover/badmicroctrl/code/task1/hello_move/sources/hello_move.move
