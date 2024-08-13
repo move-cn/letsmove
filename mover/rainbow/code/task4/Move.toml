@@ -21,7 +21,7 @@ faucet_coin = { local = "../task2/faucet_coin"}
 
 [addresses]
 mini_game = "0x0"
-faucet_coin = "0x3cc027bc531227341a43aac3821ad72f3d41f32def20399234d455252fbfde65"
+faucet_coin = "0xd9bb8f5969f96f81a69e5e4081f71457c248f233bf82db14840a852cf8a9d8f8"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
