@@ -2,9 +2,9 @@ module move2024::match_keyworld {
 
     public fun run(x: u64): u64 {
         match (x) {
-        1 => 2,
-        2 => 3,
-        x => x,
+            1 => 2,
+            2 => 3,
+            x => x,
         }
     }
 

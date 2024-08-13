@@ -5,21 +5,22 @@ module move2024::mut_keyworld {
         // let x: u64 = 10;
         // x = 20;
 
-        // Move 2024
+       //  Move 2024
         let mut x: u64 = 10;
         x = 20;
 
-        let  y: u64 ;
+        let mut y: u64 ;
         y = 10u64;
+        y = 12u64;
     }
 
-    //
+
     // fun takes_by_value_and_mutates(mut v: Value): Value {
     //     v.field = 10;
     //     v
     // }
-    //
-    // // `mut` 应放在变量名之前
+
+    // `mut` 应放在变量名之前
     // fun destruct() {
     //     let (x, y) = point::get_point();
     //     let (mut x, y) = point::get_point();

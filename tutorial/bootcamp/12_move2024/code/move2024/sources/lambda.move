@@ -2,7 +2,8 @@ module move2024::lambda {
     use std::debug::print;
 
 
-    macro fun op($f: |u64, u64| -> u64, $x: u64, $y: u64): u64 {
+    macro fun op( $f: |u64, u64| -> u64,
+                 $x: u64, $y: u64): u64 {
         $f($x, $y)
     }
 
@@ -10,6 +11,8 @@ module move2024::lambda {
     #[test]
     fun test_op() {
         let z = op!(|x, y| x + y, 10u64, 20u64);
+
+
         print(&z);
 
 
