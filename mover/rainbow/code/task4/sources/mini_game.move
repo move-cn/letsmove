@@ -41,8 +41,8 @@ module mini_game::mini_game {
     let game = Game{
       id:object::new(ctx),
       balance:balance::zero(),
-      ticket: 10,
-      reward: 100
+      ticket: 10000,
+      reward: 1000
     };
     transfer::share_object(game);
 
@@ -91,20 +91,20 @@ module mini_game::mini_game {
         num = game.reward;
         msg = string::utf8(b"恭喜，您获得一等奖，获得所有奖励！");
       }else if(reward_level==2){
-        num = game.reward/100*7; //奖金70%
+        num = game.reward/100*70; //奖金70%
         msg = string::utf8(b"恭喜，您获得二等奖，获得70%的奖励！");
       }else if(reward_level==3){
         num = game.reward/2; //奖金50%
         msg = string::utf8(b"恭喜，您获得三等奖，获取得50%的奖励！");
       }else if(reward_level==4){
-        num = game.reward/100*2; //奖金20%
+        num = game.reward/100*20; //奖金20%
         msg = string::utf8(b"恭喜，您获得四等奖，获取得20%的奖励！");
       }else if(reward_level==5){
-        num = 20; //奖金20NB
-        msg = string::utf8(b"恭喜，您获得五等奖，获取得20NB！");
+        num = 2000; //奖金2000NB
+        msg = string::utf8(b"恭喜，您获得五等奖，获取得2000NB！");
       }else if(reward_level==6){
-        num = 15; //奖金15NB
-        msg = string::utf8(b"恭喜，您获得六等奖，获取得15NB！");
+        num = 1500; //奖金1500NB
+        msg = string::utf8(b"恭喜，您获得六等奖，获取得1500NB！");
       };
 
       let win_balance = balance::split(&mut game.balance, num);
@@ -180,9 +180,9 @@ module mini_game::mini_game {
       _reward_level =3;
     }else if((red_win_num==4 && blue_win) || (red_win_num==5 && !blue_win)){ // 四等奖 获得 20%的奖励
       _reward_level =4;
-    }else if((red_win_num==3 && blue_win) || (red_win_num==4 && !blue_win)){ // 五个等奖 获得20个币奖励
+    }else if((red_win_num==3 && blue_win) || (red_win_num==4 && !blue_win)){ // 五个等奖 获得2000个币奖励
       _reward_level =5;
-    }else if((red_win_num==2 && blue_win) || (red_win_num==1 && blue_win)){ //六等奖 获得15个币奖励
+    }else if((red_win_num==2 && blue_win) || (red_win_num==1 && blue_win)){ //六等奖 获得1500个币奖励
       _reward_level =6;
     }else{ //未中奖
       _reward_level =0;
