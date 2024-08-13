@@ -128,5 +128,8 @@ flag 参数获取hash: 4xXWQaKfCgZjro79Mh4yZdrqz4CWX5UAj91KSSK6sFvj
 - [](./images/flag_str.jpg)
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof : [145, 48, 12]
+- [x] flag hash : CPsuTwdemrSjcM6xnSasUHWZ8BUhErJjGuXgEkuN2Ys
+
+--- 
+![](./images/ctf.jpg)
