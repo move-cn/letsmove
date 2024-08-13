@@ -104,8 +104,4 @@ module mygame::game_data {
         let coin = coin::take(&mut game_data.fees, total_fees, ctx);
         transfer::public_transfer(coin, creator(game_data));
     }
-
-
-
-
 }
