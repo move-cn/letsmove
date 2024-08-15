@@ -57,10 +57,10 @@ module rainbow_swap::rainbow_swap {
     // Target coin
     //扣除手续费
     let swap_amount = amount - amount/100*bank.service_charge;
-    let target_amount = swap_amount/bank.rate;
+    let target_amount = swap_amount*bank.rate;
 
 
-    let bank_stock  = bank.BULL_COIN.value();
+    let bank_stock  = bank.NB.value();
 
     let client_balance = coin::balance_mut(coin);
     let client_balance_value = client_balance.value();
@@ -104,7 +104,7 @@ module rainbow_swap::rainbow_swap {
     balance::join(&mut bank.BULL_COIN, bull_coin_balance);
     
     
-    let nb_balance =  balance::split(&mut bank.BULL_COIN,  target_amount);
+    let nb_balance =  balance::split(&mut bank.NB,  target_amount);
     let nb = coin::from_balance(nb_balance, ctx);
     transfer::public_transfer(nb, ctx.sender());
   }
