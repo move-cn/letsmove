@@ -31,12 +31,12 @@ module rainbow_swap::rainbow_swap {
   }
 
   // 设置汇率
-  public fun set_rate(bank:&mut Bank,rate:u64){
+  public fun set_rate(_: &AdminCap,bank:&mut Bank,rate:u64){
     bank.rate = rate;
   }
 
   // 设置手续费率
-  public fun set_service_charge(bank:&mut Bank,rate:u64){
+  public fun set_service_charge(_: &AdminCap,bank:&mut Bank,rate:u64){
     bank.service_charge = rate;
   }
 
