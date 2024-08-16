@@ -32,15 +32,17 @@
 - [x] scan上的NFT截图:![Scan截图](./notes/scan3.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id :  主网0xa3faa2c055bb0f8abe03a0b6473ab4d98ac6d37d8101026cd6c10e5bd25d8924
+- [x] deposit Coin hash: 主网 BFy8jUEXK8maYXtZ2CVZfPCwL2vywcF2bXfvSkZosijV
+- [x] withdraw `Coin` hash: 主网 2z1sHGSq6fyyoapFaRCBryy4GyffTLbvHndEYwUzZRbE
+- [x] play game hash:  测试网 [GDbPskoVuqiyNgX84isnYEBXrevHpaAfUCt13THj4iBt](https://testnet.suivision.xyz/txblock/GDbPskoVuqiyNgX84isnYEBXrevHpaAfUCt13THj4iBt?tab=Events)
+
+完成存取才发现主网没0x8，所以play在测试网
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id :  0x3083348e7e7deafc1fed15fc591663f834213fc661870e7b27183f95ba601214
+- [x] call swap CoinA-> CoinB  hash swap rmb2usd  :  7hmCZSuMDBvEdd3vsf9uEhdUwfwg9DBE7KVfUmN8RvnT
+- [x] call swap CoinB-> CoinA  hash swap usd2rmb: 9N78DtHrkehsy7DtTxLcSmNrVrDAqnSb4wz7etzQBuCL
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :
