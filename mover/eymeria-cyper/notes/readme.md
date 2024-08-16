@@ -13,23 +13,23 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version: sui 1.30.1-a4185da5659d
-- [] Sui钱包截图: ![Sui钱包截图](./images/suiwallet.png)
-- [] package id: 0xa4445532e3187c2116e5c5dbda913e0a1cd5a3dd2078debd7138f75941a685d3
-- [] package id 在 scan上的查看截图:![Scan截图](./images/Task1-suiscan)
+- [x] Sui cli version: sui 1.30.1-a4185da5659d
+- [x] Sui钱包截图: ![Sui钱包截图](./images/suiwallet.png)
+- [x] package id: 0xa4445532e3187c2116e5c5dbda913e0a1cd5a3dd2078debd7138f75941a685d3
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/Task1-suiscan)
 
 ##   02 move coin
-- [] My Coin package id : 0x0d7ab1d386f90eb2bc708479afe6b9773e5d958bb7338aee24b7788e62cc9f1a
-- [] Faucet package id : 0x78da6448962def322918b84f7ffed0164de07edad2f3141a96fa36267613ca57
-- [] 转账 `My Coin` hash:42jV2xBryoG1bCCzReCtWEom5kn8DFmQWsb9owDAtzwr
-- [] `Faucet Coin` address1 mint hash:HDEDxRYVpehULRsU6F1DHrTVXPdJdzXM5yjjUX9ZUGdV
-- [] `Faucet Coin` address2 mint hash:AdxnkogT2LJnEN9AS6rLtGkggjCgTuzigqbZqQGv1YGk
+- [x] My Coin package id : 0x0d7ab1d386f90eb2bc708479afe6b9773e5d958bb7338aee24b7788e62cc9f1a
+- [x] Faucet package id : 0x78da6448962def322918b84f7ffed0164de07edad2f3141a96fa36267613ca57
+- [x] 转账 `My Coin` hash:42jV2xBryoG1bCCzReCtWEom5kn8DFmQWsb9owDAtzwr
+- [x] `Faucet Coin` address1 mint hash:HDEDxRYVpehULRsU6F1DHrTVXPdJdzXM5yjjUX9ZUGdV
+- [x] `Faucet Coin` address2 mint hash:AdxnkogT2LJnEN9AS6rLtGkggjCgTuzigqbZqQGv1YGk
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id :0x05cf960fe8165e41d34e08efda5d13516dadca7c18e8d2519a17035e2a96d4e5
+- [x] nft object id : 0xb884e49162b7427528b87ac7e8513af7f5530d32c81209732ce03404b7c8a0c6
+- [x] 转账 nft  hash:JCPfyHeqef9p9u5pXdgM538ooajr68BQuV49NGc7o2K9
+- [x] scan上的NFT截图:![Scan截图](./images/eymeriaNFT.png)
 
 ##   04 Move Game
 - [] game package id :
