@@ -30,12 +30,15 @@
 - [x] nft object id : 0xb884e49162b7427528b87ac7e8513af7f5530d32c81209732ce03404b7c8a0c6
 - [x] 转账 nft  hash:JCPfyHeqef9p9u5pXdgM538ooajr68BQuV49NGc7o2K9
 - [x] scan上的NFT截图:![Scan截图](./images/eymeriaNFT.png)
-
+ 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : 0xb03348cd937b703753e3f9b89348ab757cd7390fe0e94ffcac05bb340a631322
+- [x] deposit Coin hash: 9j8e2nSKtwTStSYzdRwwp5vwavjps6WS9hdnynk2v7EB
+- [x] withdraw `Coin` hash:5tzAj6o3ZhmhYfArJo8nQhMTcxjco6PXmDkEBTaXKeP6
+- [x] play game hash: 6qYc9cUKgdLN48t8smLncWASdgj4nVsGpWcGTAzjqhXW
+- 第一次游戏：[Vison截图](./images/task4/1_robotwin.png)
+- 第二次游戏：[Vison截图](./images/task4/2_robotwinagain.png)
+- 第三次游戏：[Vison截图](./images/task4/3_robotwinthird.png)
 
 ##   05 Move Swap
 - [] swap package id :
