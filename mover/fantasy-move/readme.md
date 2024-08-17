@@ -31,10 +31,10 @@
 - [] scan上的NFT截图: ![Scan截图](images/task3/nft.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [] game package id : 0xdb5804b3ac41f8b1e9266cf2b70fade97114e24cd24886ad43a4ccd36fdae85b
+- [] deposit Coin hash: 5q33v49BRawz7ddZXK5nGTJ2knX9kXD21GSYjysNWEkR
+- [] withdraw `Coin` hash: DmPiU6j9A3HthRVrya3SY4HvMmwHaSn2zQpKL2WoXckt
+- [] play game hash: 测试网[2rpXUd5pC6WZFZusUWENRPsJ6iU4wbXSESopg4xj3NuN](https://testnet.suivision.xyz/txblock/2rpXUd5pC6WZFZusUWENRPsJ6iU4wbXSESopg4xj3NuN)
 
 ##   05 Move Swap
 - [] swap package id :
