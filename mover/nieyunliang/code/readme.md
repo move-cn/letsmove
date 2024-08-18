@@ -1,0 +1,1 @@
+call --package 0xa64cbe45670aa33707b155d70ec91bf89fe1f52f6eb789397343800e02f7e8b4 --module github_nft --function mint --args 0x02351856fc68461bc6c6b5028facdcd700a28f5ddced0292ef72b44e50c23c30 "Github NFT" "https://avatars.githubusercontent.com/u/20198635?v=4" 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
