@@ -7,7 +7,7 @@
 - 工作经验: 0年(目前是学生)
 - 技术栈:  `Python`
 > 重要提示 请认真写自己的简介
-- 对Move特别感兴趣，想通过Move入门区块链
+- 对Move感兴趣，想通过Move入门区块链
 - 联系方式: tg: 2220961868@qq.com
 
 ## 任务
@@ -19,11 +19,11 @@
 - [] package id 在 scan上的查看截图:https://i.postimg.cc/WbNxzkm7/Sui01.png
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [] My Coin package id : 0xf2fd9f472dc7d6c4c62142971d3cd4deb81e3eaaf5f5a8343c55e84783103d67
+- [] Faucet package id : 0x875714b2340bf21d20af5dab41827eefe8482e169116d1cf37c1b20a10edcb87
+- [] 转账 `My Coin` hash: 7tYAEgu2AWksXzS1NWtXJKxtQjzqT1MDZ6jae8qtPnFj
+- [] `Faucet Coin` address1 mint hash: EWZaTSycmsti8uU45YpYhcuz8tLwCfNVhzutvGEoJ6Yy
+- [] `Faucet Coin` address2 mint hash: HHMiHb4HphvBJ8jFPLzzrCNgWvBf6JDsPPFRFxUDZRLy
 
 ##   03 move NFT
 - [] nft package id :
