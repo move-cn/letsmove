@@ -1,0 +1,6 @@
+铸币指令
+JULY_NANA_TOKEN：
+> sui client call --package 0xe03c047a1c85887ed3a3c4b775d0d74c752dfce736705e5abacbbc3ddf27bf8b --module july_nana_token --function mint --args 0xfc5a8a9d33a0fd383ea077e2317e63edabdd89c9ff853d6193e24ff0045264c1 246 0x007dcc09755ab7423e7b0801694c0b05dd0d974043a7f890030fdd37b32681ab --gas-budget 5000000
+
+JULY_NANA_FAUCET_TOKEN
+> sui client call --package 0xe03c047a1c85887ed3a3c4b775d0d74c752dfce736705e5abacbbc3ddf27bf8b --module july_nana_faucet_token --function mint --args 0xebd71ef46bc499804e052d41177a8e5aa0280306fe6f6d521c3807f4b9c31d20 246 0x007dcc09755ab7423e7b0801694c0b05dd0d974043a7f890030fdd37b32681ab --gas-budget 5000000
