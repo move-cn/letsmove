@@ -13,7 +13,6 @@ module nft::nft {
     // 重复铸造
     const EDontMintAgain: u64 = 1;
 
-    public struct NFT has drop {}
     // 定义结构体，表示nft的各种信息
     public struct GithubNFT has key, store {
         id: UID,
@@ -34,7 +33,7 @@ module nft::nft {
         creator: address,
         name: String,
     }
-
+    public struct NFT has drop {}
     // 初始化函数，一次性见证
     fun init(otw: NFT, ctx: &mut TxContext) {
         // 发布者权限
