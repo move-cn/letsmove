@@ -17,3 +17,19 @@
 - [] Sui钱包截图: ![Sui钱包截图](./images/wallet.png)
 - [] package id: 0xdb625738d055034d852b66ef4dc4ccf642c811c54d86586e7786fc2742924444
 - [] package id 在 scan上的查看截图:![Scan截图](./images/task1.png)
+
+##   02 move coin
+- [] My Coin package id : 0xbcbc8381eeef3f674433761d77f90b40e1d97957e997addbba24614b096871cf
+- [] Faucet package id : 0xbcbc8381eeef3f674433761d77f90b40e1d97957e997addbba24614b096871cf
+- [] 转账 `My Coin` hash: FFv6TfrJVRAcqcb32cAu51HE8oX2m6ZawVw8cjc94oF7
+- [] `Faucet Coin` address1 mint hash: AGtPZ6ihK8pHbKKrcB62vztTAAR5HBXvctXXVsTDocah
+- [] `Faucet Coin` address2 mint hash: DYic9jdot1cPFYsgA9zghi4xB3eSiuBqqqjtmjzXxMHZ
+
+##   03 move NFT
+- [] nft package id : 0xbfdfac99613211507919e79fe86ca00d7d958bda1a3a16358c9d4caec986e871
+- [] nft object id : 0x4312e925e3282a1387330b6c6c94252b2d99a55d037de28add8da3d3ad167e53
+- [] 转账 nft  hash: 7R3ops1jgegFmgWC3wubF4JqDxxrsrrPpoYe27MjE4uT
+- [] scan上的NFT截图:![Scan截图](./images/nft.jpg)
+
+
+

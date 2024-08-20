@@ -19,28 +19,30 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./notes/scan2.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id : 0x67e51e32e0c1436af544e4367ca732e857055fcc19be19c63322450b7ce85808
+- [x] Faucet package id : 0x67e51e32e0c1436af544e4367ca732e857055fcc19be19c63322450b7ce85808
+- [x] 转账 `My Coin` hash: Ak5EGaj1TMX7BESXPmN6sECFTwyEYN4bQ3JSQ2mYJPiB
+- [x] `Faucet Coin` address1 mint hash: E9NUJN3PySHMLrYMW886gRZxbV9xQ3KAi8WWMKxE3qLo
+- [x] `Faucet Coin` address2 mint hash: EuJ4rQBsLqp5AFg7FzX157ces553Z1VEPvZWrPP8jmDa
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id :  0x2f34fb4832696e400eb15b097843cdeeebc68a9742be2199c9016a68ba85c4ab
+- [x] nft object id :  GWkFX21E6gZz4kY4bUzS4X5sTgzDnszyYAvXTmRRLDS4
+- [x] 转账 nft  hash:  CAeHgJgdhd4PuDgTPkoowg8Cs9rDG2Vm2R7sYqaQUkpy
+- [x] scan上的NFT截图:![Scan截图](./notes/scan3.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id :  主网0xa3faa2c055bb0f8abe03a0b6473ab4d98ac6d37d8101026cd6c10e5bd25d8924
+- [x] deposit Coin hash: 主网 BFy8jUEXK8maYXtZ2CVZfPCwL2vywcF2bXfvSkZosijV
+- [x] withdraw `Coin` hash: 主网 2z1sHGSq6fyyoapFaRCBryy4GyffTLbvHndEYwUzZRbE
+- [x] play game hash:  测试网 [GDbPskoVuqiyNgX84isnYEBXrevHpaAfUCt13THj4iBt](https://testnet.suivision.xyz/txblock/GDbPskoVuqiyNgX84isnYEBXrevHpaAfUCt13THj4iBt?tab=Events)
+
+完成存取才发现主网没0x8，所以play在测试网
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id :  0x3083348e7e7deafc1fed15fc591663f834213fc661870e7b27183f95ba601214
+- [x] call swap CoinA-> CoinB  hash swap rmb2usd  :  7hmCZSuMDBvEdd3vsf9uEhdUwfwg9DBE7KVfUmN8RvnT
+- [x] call swap CoinB-> CoinA  hash swap usd2rmb: 9N78DtHrkehsy7DtTxLcSmNrVrDAqnSb4wz7etzQBuCL
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :
