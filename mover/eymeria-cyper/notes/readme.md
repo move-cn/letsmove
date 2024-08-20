@@ -2,6 +2,7 @@
 - Sui钱包地址: `0x37bbf31bd0d44debf2eed760eff87ec1c9a4d102f2d3dba14c3d05b40367c371`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `Eymeria-cyber`
+- github代理：export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 
 ## 个人简介
 - 工作经验: 3年
@@ -41,10 +42,11 @@
 - 第三次游戏：[Vison截图](./images/task4/3_robotwinthird.png)
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
-
+- [] swap package id :0xbe1952478dde49e946f717bf520f1a03af12b897d0671a7f05f9ce700a6e979d
+- [] call swap CoinA-> CoinB  hash :FfV3JCzdUwhCxyE5dN19Z5z7rH2Y2NhY9rW49Gg9G3eY
+- [] call swap CoinB-> CoinA  hash :9vaSzMtneJG1ahvRod79dEw1C41NUCrTD6HRLWFyk4tq
+- coinA swap CoinB pool的变化：[Vison截图](./images/task5/A_swap_B.jpg)
+- CoinB swap CoinA pool的变化：[Vison截图](./images/task5/B_swap_A.jpg)
 ##   06 Dapp-kit SDK PTB
 - [] save hash :
 
