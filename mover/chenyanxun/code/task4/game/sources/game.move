@@ -1,6 +1,9 @@
 /*
-    123比大小：玩家先押注，往资金池存入一笔代币，玩游戏输入1 2 3之一比大小
-    胜：从资金池获取双倍押注代币；平、负：不能获取代币
+    123比大小：
+    玩家先押注，往资金池存入一笔代币，需要验证玩家代币数量是否足够
+    玩游戏输入1 2 3之一比大小
+    胜：从资金池获取双倍押注代币，需要验证资金池余额是否足够
+    平、负：不能获取代币
     资金池：所有玩家共享一个资金池，所有玩家存入的代币都在同一个资金池中
 */
 module game::game {
@@ -12,7 +15,7 @@ module game::game {
     use sui::clock::{Self, Clock};
     use sui::event;
     use sui::table::drop;
-    use share_coin::share_coin::{SHARE_COIN};
+    use share_coin::share_coin::{SHARE_COIN,mint};
 
     // 错误码--玩家输入数字是否符合要求
     const EInput: u64 = 1;
@@ -34,7 +37,7 @@ module game::game {
         player_number: u64, // 玩家数
         computer_number: u64, // 电脑数
         result: String,// 结果
-        get_coin: u64, // 赢取代币数量
+        amount: u64, // 下注代币数量
     }
 
     // 存 结构体
@@ -75,13 +78,20 @@ module game::game {
         ((clock::timestamp_ms(clock) % 3) as u64)
     }
 
-    // 存 方法，相当于把所有代币存入资金池
-    public entry fun deposit(pool: &mut CoinPool, coin: Coin<SHARE_COIN>, ctx: &mut TxContext) {
-        let value = coin.value();
-        pool.balance.join(coin::into_balance(coin));
+    // 存 方法，向资金池存入一定量的代币，不能是全部转入
+    public entry fun deposit(pool: &mut CoinPool, coin: Coin<SHARE_COIN>, amount:u64, ctx: &mut TxContext) {
+        // 玩家要有足够代币下注
+        let coin_value = coin.value();
+        assert!(coin_value > amount, ECoinEnough);
+        // 玩家分出下注代币
+        let mut balance_coin = coin::into_balance(coin);
+        pool.balance.join(balance_coin.split(amount));
+        let refund_coin = coin::from_balance(balance_coin, ctx);
+        transfer::public_transfer(refund_coin, ctx.sender());
+
         event::emit(DepositCoin {
             user: ctx.sender(),
-            coin: value,
+            coin: amount,
         });
     }
 
@@ -97,13 +107,10 @@ module game::game {
     }
 
     // 玩游戏 参数：资金池、玩家数、代币、下注代币数量、时间、上下文
-    public entry fun play(pool: &mut CoinPool, player_number: u64, coin: Coin<SHARE_COIN>, amount:u64, clock: &Clock, ctx: &mut TxContext) {
-        let coin_value = coin.value();
+    public entry fun play(pool: &mut CoinPool, player_number: u64, amount:u64, clock: &Clock, ctx: &mut TxContext) {
         // 校验
         // 输入1 2 3之一
         assert!(player_number<=3, EInput);
-        // 玩家代币数量满足下注
-        assert!(coin_value < amount, ECoinEnough);
         // 资金池代币余额可以支付玩家奖励
         assert!(pool.balance.value() > amount*2, EPoolEnough);
 
@@ -119,18 +126,6 @@ module game::game {
             result = b"胜".to_string();
         };
         // 处理奖励
-        // 获取代币总额
-        let mut balance_coin = coin::into_balance(coin);
-        // 代币总额大于下注金额，返回剩余的代币
-        if(coin_value > amount) {
-            // 如果下注代币价值大于下注金额，则将剩余代币价值退还给玩家
-            pool.balance.join(balance_coin.split(amount));
-            let refund_coin = coin::from_balance(balance_coin, ctx);
-            transfer::public_transfer(refund_coin, ctx.sender());
-        }else {
-            pool.balance.join(balance_coin);
-        };
-
         if(result == utf8(b"胜")) {
             // 资金池代币take
             let reward = coin::take(&mut pool.balance, amount * 2, ctx);
@@ -141,12 +136,18 @@ module game::game {
             player_number,
             computer_number: random_num,
             result,
-            get_coin: amount*2,
+            amount,
         });
     }
 }
 
 // 存
-// export MINTRECORD="0xca28c8d82f4e401aa47de7ea57ccea32d82287248658024b5f565f66ec018f8b"
-// export NFT="0xfb7a0ce92433679e464f915381a63030d36ac5909e260e2a21cfaab681b97123"
-// sui client call --package $PACKAGE --module $MODULE --function burn --args $MINTRECORD $NFT
+// package id:0xad370dc6dc2eade0473612af4f9990527b29bcf54f790b902c34568133767102
+// pool id:0x675d61fdaf032e1951e24f860a481279a6bc16d08315aaa704e94bc3ccb11e93, coin id:0x7e2ad366a788d327f258fb6b22b66fad38f6d1d04ae5a96512579c53e41f6594
+// sui client call --package 0xad370dc6dc2eade0473612af4f9990527b29bcf54f790b902c34568133767102 --module game --function deposit --args 0x675d61fdaf032e1951e24f860a481279a6bc16d08315aaa704e94bc3ccb11e93 0x7e2ad366a788d327f258fb6b22b66fad38f6d1d04ae5a96512579c53e41f6594 1
+
+// 玩游戏
+// sui client call --package 0xad370dc6dc2eade0473612af4f9990527b29bcf54f790b902c34568133767102 --module game --function play --args 0x675d61fdaf032e1951e24f860a481279a6bc16d08315aaa704e94bc3ccb11e93 1 1 0x0000000000000000000000000000000000000000000000000000000000000006
+
+// 取
+// sui client call --package 0xad370dc6dc2eade0473612af4f9990527b29bcf54f790b902c34568133767102 --module game --function withdrow --args 0x7167a72c5fd45f83a1423fbbdf150e15b8452767f89556d65a32000220672936 0x675d61fdaf032e1951e24f860a481279a6bc16d08315aaa704e94bc3ccb11e93 2
