@@ -64,6 +64,7 @@ so，添加一个主网的
  >sui client active-env
 testnet
  > sui client new-env --alias mainnet（别名自己取） --rpc https://sui-mainnet.nodeinfra.com:443
+ 
 ```
 
 再次查看

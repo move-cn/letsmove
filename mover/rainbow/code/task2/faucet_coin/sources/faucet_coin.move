@@ -1,7 +1,5 @@
 module faucet_coin::faucet_coin {
   use sui::coin::{Self,Coin,TreasuryCap};
-  use sui::transfer;
-  use sui::tx_context::{Self,TxContext};
   use sui::url::new_unsafe_from_bytes;
 
   public struct FAUCET_COIN has drop{}
@@ -11,9 +9,9 @@ module faucet_coin::faucet_coin {
       witness,
       6,
       b"NB",
-      b"BULL_COIN",
-      b"this is BULL_COIN",
-      option::some(new_unsafe_from_bytes(b"https://github.com/reainbow/letsmove/blob/main/mover/rainbow/images/nb.png")),
+      b"NB",
+      b"The most expensive coin in the world",
+      option::some(new_unsafe_from_bytes(b"https://dadsblog.oss-cn-shenzhen.aliyuncs.com/cover/nb.png")),
       ctx
     ); 
     transfer::public_freeze_object(metadata);
