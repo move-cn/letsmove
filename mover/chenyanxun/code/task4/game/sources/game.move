@@ -83,9 +83,11 @@ module game::game {
         // 玩家要有足够代币下注
         let coin_value = coin.value();
         assert!(coin_value > amount, ECoinEnough);
-        // 玩家分出下注代币
+        // 玩家代币
         let mut balance_coin = coin::into_balance(coin);
+        // 分出下注代币到资金池
         pool.balance.join(balance_coin.split(amount));
+        // 剩余代币返回玩家
         let refund_coin = coin::from_balance(balance_coin, ctx);
         transfer::public_transfer(refund_coin, ctx.sender());
 
