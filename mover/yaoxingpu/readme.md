@@ -2,7 +2,7 @@
  * @Author: yaoxingpu yaoxpu@163.com
  * @Date: 2024-08-20 09:03:47
  * @LastEditors: yaoxingpu yaoxpu@163.com
- * @LastEditTime: 2024-08-22 16:38:29
+ * @LastEditTime: 2024-08-23 22:26:12
  * @FilePath: /letsmove/mover/yaoxingpu/readme.md
  * @Description: 
  * 
@@ -44,10 +44,10 @@
 
 ## 03 move NFT
 
-- [] nft package id :
-- [] nft object id :
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id : 0x390408a9381de1728217dcd97774fb790b32524c748a97d12c1c58228c275027
+- [x] nft object id : 0x9f21393ec9fb52c985039a335dd5c160fb9be37d8c90211bfea6cb89466cc8a6
+- [x] 转账 nft  hash: FFSbxKQyZuJmjDQxZ8xrmDicqkXDi1oeHmD8LHRSSWSf
+- [x] scan上的NFT截图:![Scan截图](./images/3.jpg)
 
 ## 04 Move Game
 
