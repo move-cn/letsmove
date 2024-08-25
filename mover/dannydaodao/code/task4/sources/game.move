@@ -7,8 +7,6 @@ module task4::game {
     use sui::tx_context::sender;
     use std::hash;
     use sui::bcs;
-    #[test_only]
-    use sui::tx_context;
 
     const EPoolNotEnough: u64 = 1;
     const EInputNotEnough: u64 = 2;
@@ -169,21 +167,5 @@ module task4::game {
 
     public fun rand_u64_range(low: u64, high: u64, ctx: &mut TxContext): u64 {
         rand_u64_range_with_seed(seed(ctx), low, high)
-    }
-
-    #[test]
-    fun test() {
-        rand_u64_range(0, 5, tx_context::TxContext {
-                    sender: address,
-
-                    tx_hash: [],
-        /// The current epoch number
-        epoch: 1,
-        /// Timestamp that the epoch started at
-        epoch_timestamp_ms: 1,
-        /// Counter recording the number of fresh id's created while executing
-        /// this transaction. Always 0 at the start of a transaction
-        ids_created: 1
-        })
     }
 }
