@@ -31,5 +31,11 @@
 - [] 转账 nft  hash: 7R3ops1jgegFmgWC3wubF4JqDxxrsrrPpoYe27MjE4uT
 - [] scan上的NFT截图:![Scan截图](./images/nft.jpg)
 
+##   04 Move Game
+- [x] game package id : 0x9e7a2e19bca806c704904e64d08ac625385ada045ecbe8cf7b8ddd69f103ad7f
+- [x] deposit Coin hash: 3qYWureG1hK4d3QnhgqdXZ19yzMCiRSPA4zZXxmoX4eQ
+- [x] withdraw `Coin` hash: 8GP2PhV7RdsDfjwXi1ymsxFuSK8BshRKJYXdwcyAzcZD
+- [x] play game hash: 3GoaMa4t2CZZiREZgHtmDAZgeHFcKbr7YX4DwzAakV5w
+
 
 
