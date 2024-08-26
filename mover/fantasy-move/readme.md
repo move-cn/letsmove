@@ -37,12 +37,12 @@
 - [] play game hash: 测试网[2rpXUd5pC6WZFZusUWENRPsJ6iU4wbXSESopg4xj3NuN](https://testnet.suivision.xyz/txblock/2rpXUd5pC6WZFZusUWENRPsJ6iU4wbXSESopg4xj3NuN)
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [] swap package id : 0xe4c8081458ea1a68fde7d7f049ce2bc53e0b864785e7203463a5d632fcaf7038
+- [] call swap CoinA-> CoinB  hash : 3jKTy5DX23kwbLZw4TiTmg4PgcfQJvntsFVCu6D8nNR7
+- [] call swap CoinB-> CoinA  hash : 9ij7sGkr4B7JrxHj7gTVPvhcgekzsVy3TumPuaNpmaPT
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [] save hash : 
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
