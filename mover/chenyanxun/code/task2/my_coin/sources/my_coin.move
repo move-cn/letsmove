@@ -26,3 +26,4 @@ module my_coin::my_coin {
     }
 }
 
+// sui client call --package 0x1a85ad3480a87e3b8f5c5cecb3d3d2c6917c484d2ee8ba61c246c8f14810143d --module my_coin  --function mint --args 0x53492e0b4f9003bfca7d7abe64c42808717a37de8088ef0cb0f1e5149427c059 10 0xad348ef5fef1bf4071b1fb0b4dc9562bbcf0e2707262284d70a6f89798f053a9
