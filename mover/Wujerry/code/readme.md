@@ -76,3 +76,4 @@ hash: `GKdduUuwLPr518DwCajZcojokzbKbuB3MbsgwxpGL98X`
 sui client call --package 0x7e71bb622e1683fdec8369624db34d6ee5c8e7d681a14c4e5e7923d77aeae2f5 --module swap --function swap_b_2_a --args 0x687ac693b4d95cae8b67f79072b630da16a1ecb39f57ebe1f43fa46bf6f89eec 0xf10c52b419a3eed818123b7c4bdb95f304e47fc3f4e288f61d6bebcb8d91597a --type-args 0x29dc673186351105c22905403d596fd93177cfe0ac250cfbf1090eaefd1113f2::jerry_token::JERRY_TOKEN 0x29dc673186351105c22905403d596fd93177cfe0ac250cfbf1090eaefd1113f2::jerry_faucet_token::JERRY_FAUCET_TOKEN --gas-budget 5000000
 ```
 hash: `4DSKtTy2aFqprb1ZJd5FLj8X3XRsvtuquyVKmSeenetG`
+
