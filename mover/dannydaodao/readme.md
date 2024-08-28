@@ -37,5 +37,10 @@
 - [x] withdraw `Coin` hash: 8GP2PhV7RdsDfjwXi1ymsxFuSK8BshRKJYXdwcyAzcZD
 - [x] play game hash: 3GoaMa4t2CZZiREZgHtmDAZgeHFcKbr7YX4DwzAakV5w
 
+##   05 Move Swap
+- [x] swap package id : 0x1ecf730ec28c14bb71ecd63a4549d90992b074511d083381ef96e12296c8e315
+- [x] call swap CoinA-> CoinB  hash :  1KXApCWP64R2f8HQu2vr5EqK3VXEkyqvcdTeYT7K98U
+- [x] call swap CoinB-> CoinA  hash :  FThPxv8JApmzD7WShkor3N5vFrgFxmRSF1CwBDzQXVHP
+
 
 
