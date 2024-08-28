@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@mysten/dapp-kit": "^0.14.17",
-    "@mysten/sui": "^1.7.0",
-    "@tanstack/react-query": "^5.52.1",
-    "navi-sdk": "^1.2.0"
-  }
-}
