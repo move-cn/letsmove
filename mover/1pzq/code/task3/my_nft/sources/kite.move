@@ -29,7 +29,7 @@ module my_nft::kite {
             utf8(b"{name}"),
             utf8(b"https://sui-heroes.io/hero/{id}"),
             utf8(b"{image_url}"),
-            utf8(b"A true Hero of the Sui ecosystem!"),
+            utf8(b"He Jing Yi's birthday!"),
             utf8(b"https://sui-heroes.io"),
             utf8(b"Unknown Sui Fan")
         ];
