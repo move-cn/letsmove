@@ -1,0 +1,6 @@
+sui client call --package 0x2 --module coin --function mint_and_transfer --args 0xd971214111ea63857a9064c413e93bef5361f70714f4a4b3a0f217c5523d563c 100000000 0xd7ea6893354b5cdc343a86fe0f0423b74294ea1c52ffb749a56b4e1591496776 --type-args "0x2fabc8d957987484eae7f3fe7e193affe32af5d2f79f6fb0bf24f4265e67d0ee::oliverxl_coin::OLIVERXL_COIN"
+
+sui client call --package 0x2 --module coin --function mint_and_transfer --args 0x0ef29f4dbc5450f9ba42b4d55dcdc38bf7a320bb437f8b5b6ac47953571e2cef 100000000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --type-args "0x06051a8551294f499805069646968f923104f3f953f1652f86c5c5da3090d58b::oliverxl_coin::OLIVERXL_COIN"
+
+sui client call --package 0x2 --module coin --function mint_and_transfer --args 0xf073bb8d6decd8f81c98afbb7fd811b0f9b5334d7564e105149eee667a1ee81e 100000000 0xd7ea6893354b5cdc343a86fe0f0423b74294ea1c52ffb749a56b4e1591496776 --type-args "0x06051a8551294f499805069646968f923104f3f953f1652f86c5c5da3090d58b::oliverxl_faucet::OLIVERXL_FAUCET"
+sui client call --package 0x2 --module coin --function mint_and_transfer --args 0xf073bb8d6decd8f81c98afbb7fd811b0f9b5334d7564e105149eee667a1ee81e 100000000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --type-args "0x06051a8551294f499805069646968f923104f3f953f1652f86c5c5da3090d58b::oliverxl_faucet::OLIVERXL_FAUCET"

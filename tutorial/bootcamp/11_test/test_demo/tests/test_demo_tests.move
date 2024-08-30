@@ -10,6 +10,7 @@ module test_demo::test_demo_tests {
     fun test_init() {
 
         let my_address = @0x88888;
+        let my_address = @0x111111;
 
         let  mut scenario =    begin(my_address);
         let my_ctx = ctx(&mut scenario);
@@ -19,10 +20,6 @@ module test_demo::test_demo_tests {
       // let transaction_effects =   next_tx(&mut scenario, my_address);
 
         end(scenario);
-
-
-
-
     }
 
 

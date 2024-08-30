@@ -44,3 +44,11 @@
 
 ##   06 SDK PTB
 - [x] save hash : [J3RTijmy42AudV1Af784jaoCUCSRJCxCVxqq3Zee9jNV](https://suivision.xyz/txblock/J3RTijmy42AudV1Af784jaoCUCSRJCxCVxqq3Zee9jNV)
+
+##   07 Move CTF Check In
+- [x] CLI call 截图 : ![截图](notes/111.png)
+- [x] flag hash : HZMEdPym4wwcboy4iqcfVHqBQHwfAPSrKXcSJU1M23U1
+
+##   08 Move CTF Lets Move
+- [x] proof : f5a78d2ae884ff1fd630
+- [x] flag hash : 4M4U6RVPj5rzgwkuPPykZ8DrCQm5V6CuRvFfkEnvvYUd
