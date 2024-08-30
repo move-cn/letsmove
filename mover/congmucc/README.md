@@ -1,7 +1,7 @@
 
 
 ## 基本信息
-- Sui钱包地址(奖励地址): `0xfabe32506438a111fa9cc7db561bea1e47121ef51cdb4e6b73658e90e60a88f5`
+- Sui钱包地址(奖励地址): `0x14f2511c93b8e6a294a478e3855e81346ad71e5e855e61bc0a212a58e9072ee3`
 - github: `congmucc`
 - 测试钱包地址：`0xfabe32506438a111fa9cc7db561bea1e47121ef51cdb4e6b73658e90e60a88f5`
 
