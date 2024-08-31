@@ -26,21 +26,21 @@
 - [&#x2714;] `Faucet Coin` address2 mint hash: CjyvZvAdr6zvEGc244j8zSkZJtskdYBwRp2c8o3FJUBo
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [&#x2714;] nft package id :0x9a9b278b08a15d9c7892d91e7625018c1f68ababf3517523c2bd224657d714b0
+- [&#x2714;] nft object id : 0xc284da7b8e6e5abc436859a06ffbd88e19ac3e3dca1977eb7d9224671c89ff91
+- [&#x2714;] 转账 nft  hash: 8TzFFPSr7N6WvRiMJ5TUMhC8AMjRNDJJ9fA8giAcpETU
+- [&#x2714;] scan上的NFT截图:![Scan截图](./images/1723988391903.jpg)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [&#x2714;] game package id : 0xad370dc6dc2eade0473612af4f9990527b29bcf54f790b902c34568133767102
+- [&#x2714;] deposit Coin hash: 7VeG6B39h22MtxNpCqBmBCjZq788oUfwSPozWi2TXKK1
+- [&#x2714;] withdraw `Coin` hash: GBFyDorqt78etDGBT8qHsP1xWz878PtXx8dUjssm7X8Z
+- [&#x2714;] play game hash: 8zac1KjqmjY9vN8PePb31eikzkYrKJ6aynBznu4catW8
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [&#x2714;] swap package id :0xfca79ed9b1cc25c9015754625b019beed0c468c50f2ad85bafb06cf8c52f0fe9
+- [&#x2714;] call swap CoinA-> CoinB  hash : 8tREAySD5wyDQjfoBvd1hXBBhwdtMzAit8Mn1MNaQz3s
+- [&#x2714;] call swap CoinB-> CoinA  hash : 43LaumkEDhfj3jBmcGZcHbAWLLzKVBmWjLGfRZdssBhT
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :

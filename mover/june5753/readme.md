@@ -31,10 +31,16 @@
 - [] scan上的NFT截图:![Scan截图](./images/june5753_nft.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [] game package id :  0xfd35101cf63fc015c6a6c8a90d718e88c01e6276e631b55cfbf6b37ba565a927             
+- [] deposit Coin hash: 6HUXejWdjEiYw8mJScbtnACPvqenx9wRG1D7kHwPWz2i
+- [] withdraw `Coin` hash: FE7qza8uK749g14fGtrNHgk5Z9Vfo5Va3w7FoQfnj6Qk
+- [] play game hash: CbwmYEeVotCzNjqdhEZr7zLXSyMwpQfoDFzeri9kaadQ
+
+- 第一次游戏：[Scan截图](./images/task4/1_user_winner.jpg)
+- 第二次游戏：[Scan截图](./images/task4/2_robot_winner.jpg)
+- 第三次游戏：[Scan截图](./images/task4/3_user_winner.jpg)
+
+
 
 ##   05 Move Swap
 - [] swap package id :

@@ -26,10 +26,10 @@ https://github.com/cuijiawei123
 - [✅] `Faucet Coin` address2 mint hash: EKYfvEgQKv9MveQL2QNBvwbXcEgiZur4KaNiMMKd7FvR
 
 ##   03 move NFT
-- [] nft package id :0xbf66e72c16353edc64c3fa3251fbf91e3e77a8ed808e0a5ce82c2a54aa6a955f
-- [] nft object id : 0xd9bf34d46eb38e8d9ffda6365ccac86ea2f92b2d033193d10c5c1e92c15d148c
-- [] 转账 nft  hash:
-7qkAXBiVRfuhDwcpDoiMkxifbzvF4XwghsHGbFBjgpUv
+- [✅] nft package id :0xda1697c23136d3965a1dbabd5b33ed621d2085cc8000172ae858c399031086a2
+- [✅] nft object id : 0xda5c0a8c7931e798d75836bf956aebb8745baf5d2304be8eef5fdd21504d9e9e
+- [✅] 转账 nft  hash:
+CqjzHSzjSL2GKT1oWWBmKCjextvNdMGVgseTccE7jTCQ
 
 ##   04 Move Game
 - [] game package id :

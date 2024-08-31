@@ -25,24 +25,24 @@
 - [] `Faucet Coin` address2 mint hash: EXao7XJfpm3grXXjNs2i4EgLZ21B5gqEJESBgPoHWgKM
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id :
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:
+- [] nft package id : 0x48996d932c68a52f5eb5d3ef7c1ccd88cf2c9e652d44bf00eee8f0c29f481fec
+- [] nft object id : 0x3451396e76bb37b1875a9bac8074386016d5bff589d0071b0b4a2380e49f2eb9
+- [] 转账 nft  hash: 7hKtd9DUf38SSQym6fJBQYPSBCX7hMPy5w28eBxzh4w7
+- [] scan上的NFT截图: ![Scan截图](images/task3/nft.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [] game package id : 0xdb5804b3ac41f8b1e9266cf2b70fade97114e24cd24886ad43a4ccd36fdae85b
+- [] deposit Coin hash: 5q33v49BRawz7ddZXK5nGTJ2knX9kXD21GSYjysNWEkR
+- [] withdraw `Coin` hash: DmPiU6j9A3HthRVrya3SY4HvMmwHaSn2zQpKL2WoXckt
+- [] play game hash: 测试网[2rpXUd5pC6WZFZusUWENRPsJ6iU4wbXSESopg4xj3NuN](https://testnet.suivision.xyz/txblock/2rpXUd5pC6WZFZusUWENRPsJ6iU4wbXSESopg4xj3NuN)
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [] swap package id : 0xe4c8081458ea1a68fde7d7f049ce2bc53e0b864785e7203463a5d632fcaf7038
+- [] call swap CoinA-> CoinB  hash : 3jKTy5DX23kwbLZw4TiTmg4PgcfQJvntsFVCu6D8nNR7
+- [] call swap CoinB-> CoinA  hash : 9ij7sGkr4B7JrxHj7gTVPvhcgekzsVy3TumPuaNpmaPT
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [] save hash : 
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
