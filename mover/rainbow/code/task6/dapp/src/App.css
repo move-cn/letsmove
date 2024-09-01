@@ -1,0 +1,38 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+  }
+  .wallet{
+    display: flex;
+    align-items: center;
+    .wallet-info{
+      display: flex;
+      align-items: center;
+      img{width: 30px;height: 30px;border-radius: 50%;};
+      span{font-size: 20px;margin-left: 10px;}
+    }
+    .connect-btn{
+      margin-left: 20px;
+      button{
+        height: 40px;
+        padding: 0 20px;
+      }
+    }
+  }
+}
+.content{
+  border:solid 1px #f0f2f5;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  border-radius: 10px;
+  .actions{
+    margin-top: 30px;
+  }
+}
