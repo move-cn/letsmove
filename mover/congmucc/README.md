@@ -18,7 +18,7 @@
 - [] Sui钱包截图: ![Sui钱包截图](./images/task1_success.png)
 - [] package id: `0xd0db7324c0b9905cb7acdef2906b1dd8d5da5a5105249bcbaddddcf8a9d3775e`
 - [] package id 在 scan上的查看截图:![Scan截图](./images/task1.png)
-> 这个是在testnet，后几个都是在devnet上。
+> 这个是在testnet，后几个都是在testnet上。
 
 ##   02 move coin
 - [] My Coin package id :`0xcce465f31dce513a712c9058bdd9f113bf80bcfa2a5fd834de5263298af53837`
