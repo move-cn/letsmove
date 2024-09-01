@@ -31,5 +31,16 @@
 - [] 转账 nft  hash: 7R3ops1jgegFmgWC3wubF4JqDxxrsrrPpoYe27MjE4uT
 - [] scan上的NFT截图:![Scan截图](./images/nft.jpg)
 
+##   04 Move Game
+- [x] game package id : 0x9e7a2e19bca806c704904e64d08ac625385ada045ecbe8cf7b8ddd69f103ad7f
+- [x] deposit Coin hash: 3qYWureG1hK4d3QnhgqdXZ19yzMCiRSPA4zZXxmoX4eQ
+- [x] withdraw `Coin` hash: 8GP2PhV7RdsDfjwXi1ymsxFuSK8BshRKJYXdwcyAzcZD
+- [x] play game hash: 3GoaMa4t2CZZiREZgHtmDAZgeHFcKbr7YX4DwzAakV5w
+
+##   05 Move Swap
+- [x] swap package id : 0x1ecf730ec28c14bb71ecd63a4549d90992b074511d083381ef96e12296c8e315
+- [x] call swap CoinA-> CoinB  hash :  1KXApCWP64R2f8HQu2vr5EqK3VXEkyqvcdTeYT7K98U
+- [x] call swap CoinB-> CoinA  hash :  FThPxv8JApmzD7WShkor3N5vFrgFxmRSF1CwBDzQXVHP
+
 
 
