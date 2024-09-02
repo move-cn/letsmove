@@ -32,7 +32,7 @@
 - [x] scan上的NFT截图:![Scan截图](./images/task3.png)
 
 ##   04 Move Game
-- [] game package id :
+- [] game package id : 0xc0fa90322fdd99e24ad777f6ae93ca0739fe231cf59bf901bf8feada29cce3c3
 - [] deposit Coin hash:
 - [] withdraw `Coin` hash:
 - [] play game hash:
