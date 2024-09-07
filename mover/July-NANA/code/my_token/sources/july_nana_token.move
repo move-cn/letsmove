@@ -1,8 +1,3 @@
-/*
-/// Module: my_token
-
-*/
-
 module my_token::july_nana_token {
     use std::option;
     use sui::coin;

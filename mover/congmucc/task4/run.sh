@@ -1,0 +1,8 @@
+sui client call --package 0x330bd321f8180f26b340c60cf8706aceaa4a66ea92b1c65da11452b22e2a1180 \
+--module flip_game --function add_sui \
+--args 0xd28bfd9b9ba78d33a1e5b862c763ade707088f1dc94b5ee485bba738db888bef \
+0x3ec19fe33342bf29c904af3079447631a172ab349de16391698d98954d240389
+
+
+
+sui client call --package 0x330bd321f8180f26b340c60cf8706aceaa4a66ea92b1c65da11452b22e2a1180 --module flip_game --function add_sui --args 0xd28bfd9b9ba78d33a1e5b862c763ade707088f1dc94b5ee485bba738db888bef  "0x9417612399489bb79130c0ae88ee237c0bff16a8ba5d9738e2f8033a960db517::share_coin_test::SHARE_COIN_TEST"
