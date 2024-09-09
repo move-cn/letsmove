@@ -19,7 +19,7 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/Screenshot2.png)
 
 ##   02 move coin
-- [x] My Coin package id : 0xd0388f5ee65f00e17f100d52dc3897a57a90745c7b6bdcf8761593562ae0f8ea
+- [x] My Coin package id : 0xd0388f5ee65f00e17f100d52dc3897a57a90745c7b6bdcf8761593562ae0f8ea(devnet), 0x46ce398eee459c127777253324a42f599a879178a03142b9724ec6b1789e6abe(testnet)
 - [x] Faucet package id : 0xfc9584dfc35c87a09fc6ae75ed5f27c1c82da4aac2972e4906ae622fe2bc00c4(devnet), 0x8574202000858e96dca3a2b03fd4072528833eacbc1c5857a1201a9507f9f452(testnet)
 - [x] 转账 `My Coin` hash: 58nSvLLjfdFqNfAQrmCpQimnKR54TY3S5Wxc5kaBevTw
 - [x] `Faucet Coin` address1 mint hash: 632KiUGabmVNAED6e3hzZ6R7XDinN2tuDRsfhRisxJU3
@@ -38,9 +38,9 @@
 - [x] play game hash: B7Yw41opfMWxLiXW9GHKeQc9oQYdqVkjEHzZXENiGXr3
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0x7db921414e6dd52c96023ef1500cb112e2287a52564dcc5da0a95b2306b5e0d7
+- [x] call swap CoinA-> CoinB  hash : 4NXLAemEoTg5NFsWX38LnX1wWuKgyuxusw5uaTpYhtFP
+- [x] call swap CoinB-> CoinA  hash : 38dBPQz6mtXMBifrQ9nKN7Zp5UVa9AmU74ivowUtrHqE
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :
