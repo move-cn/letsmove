@@ -44,7 +44,7 @@
 - [] call swap CoinB-> CoinA  hash : AM79bsDCUv2GHrTnjeK5hJvt8ddjs6D9w9LguJhXyFay
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [] save hash : DW5xPyZpu9qrRKTUXFRNzoh3XLDNAvuKquLFku8aSiJV
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](https://github.com/xiaodi007/letsmove/blob/main/mover/xiaodi007/images/task7.png)
