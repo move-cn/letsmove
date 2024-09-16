@@ -1,35 +1,35 @@
-## »ù±¾ĞÅÏ¢
-- SuiÇ®°üµØÖ·: `0x4bfe4b568b1519082b5b2861a573e1522a30be16e394782250b07f9b76c1ad7c`
-> Ê×´Î²ÎÓëĞèÒªÍê³ÉµÚÒ»¸öÈÎÎñ×¢²áºÃÇ®°üµØÖ·²Å±»ºÏ²¢£¬²¢ÇÒºóĞøÑ§Ï°½±Àø»á´òÈëÕâ¸öµØÖ·
+## åŸºæœ¬ä¿¡æ¯
+- Suié’±åŒ…åœ°å€: `0x4bfe4b568b1519082b5b2861a573e1522a30be16e394782250b07f9b76c1ad7c`
+> é¦–æ¬¡å‚ä¸éœ€è¦å®Œæˆç¬¬ä¸€ä¸ªä»»åŠ¡æ³¨å†Œå¥½é’±åŒ…åœ°å€æ‰è¢«åˆå¹¶ï¼Œå¹¶ä¸”åç»­å­¦ä¹ å¥–åŠ±ä¼šæ‰“å…¥è¿™ä¸ªåœ°å€
 - github: `yunru-volknet`
 
-## ¸öÈË¼ò½é
-- ¹¤×÷¾­Ñé: 0Äê
-- ¼¼ÊõÕ»: `PHP` `react` `python ` 
-> ÖØÒªÌáÊ¾ ÇëÈÏÕæĞ´×Ô¼ºµÄ¼ò½é
-- ±¾¿ÆÔÚ¶ÁÑ§Éú£¬ÓĞweb2µÄÏîÄ¿¾­Ñé£¬³¢ÊÔÈëÃÅweb3
-- ÁªÏµ·½Ê½: tg: `xxx` 
+## ä¸ªäººç®€ä»‹
+- å·¥ä½œç»éªŒ: 0å¹´
+- æŠ€æœ¯æ ˆ: `PHP` `react` `python ` 
+> é‡è¦æç¤º è¯·è®¤çœŸå†™è‡ªå·±çš„ç®€ä»‹
+- æœ¬ç§‘åœ¨è¯»å­¦ç”Ÿï¼Œæœ‰web2çš„é¡¹ç›®ç»éªŒï¼Œå°è¯•å…¥é—¨web3
+- è”ç³»æ–¹å¼: tg: `xxx` 
 
-## ÈÎÎñ
+## ä»»åŠ¡
 
 ##   01 hello move  
 - [+] Sui cli version:sui 1.33.0-77b18b45c195
-- [+] SuiÇ®°ü½ØÍ¼: ![SuiÇ®°ü½ØÍ¼](./images/image_sui_wallet.png)
+- [+] Suié’±åŒ…æˆªå›¾: ![Suié’±åŒ…æˆªå›¾](./images/image_sui_wallet.png)
 - [+] package id: 0x31bb1d338224a985e688a7f411d90ace0889050ef954adb6e5a78c5aacef435f
-- [+] package id ÔÚ scanÉÏµÄ²é¿´½ØÍ¼:![Scan½ØÍ¼](./images/image_package_id.png)
+- [+] package id åœ¨ scanä¸Šçš„æŸ¥çœ‹æˆªå›¾:![Scanæˆªå›¾](./images/image_package_id.png)
 
 ##   02 move coin
 - [] My Coin package id : 
 - [] Faucet package id : 
-- [] ×ªÕË `My Coin` hash:
+- [] è½¬è´¦ `My Coin` hash:
 - [] `Faucet Coin` address1 mint hash:
 - [] `Faucet Coin` address2 mint hash:
 
 ##   03 move NFT
 - [] nft package id :
 - [] nft object id : 
-- [] ×ªÕË nft  hash:
-- [] scanÉÏµÄNFT½ØÍ¼:![Scan½ØÍ¼](./images/ÄãµÄÍ¼Æ¬µØÖ·)
+- [] è½¬è´¦ nft  hash:
+- [] scanä¸Šçš„NFTæˆªå›¾:![Scanæˆªå›¾](./images/ä½ çš„å›¾ç‰‡åœ°å€)
 
 ##   04 Move Game
 - [] game package id :
@@ -46,7 +46,7 @@
 - [] save hash :
 
 ##   07 Move CTF Check In
-- [] CLI call ½ØÍ¼ : ![½ØÍ¼](./images/ÄãµÄÍ¼Æ¬µØÖ·)
+- [] CLI call æˆªå›¾ : ![æˆªå›¾](./images/ä½ çš„å›¾ç‰‡åœ°å€)
 - [] flag hash :
 
 ##   08 Move CTF Lets Move
