@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x5a53eed1f8f0c593a6e8756b7d31e30fe91e1acd1eb4dd07f05d5275ab506fca`
+- Sui钱包地址: `0x73cb4adab9aa74a44f4f828cf941f12982aebbc77e103973bb056cf8b28dc438` `修改钱包`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `chara64d`
 
@@ -19,11 +19,11 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./notes/package.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id :  0x722335fed7ef240e3890ef4bd8d77c26c633855d93f0388a6fafa7eb9fd59615
+- [x] Faucet package id :  0x722335fed7ef240e3890ef4bd8d77c26c633855d93f0388a6fafa7eb9fd59615
+- [x] 转账 `My Coin` hash: Fqg14WEr6vZXzbREX8XnFc8XBGbUe91A5FBNdehKQKTi
+- [x] `Faucet Coin` address1 mint hash: GWwSD48zoeXuq8zW4FcaB63GczWYgtQw1py2Xny1koTs
+- [x] `Faucet Coin` address2 mint hash: 3L4QcKSMvhJcgocdpW8yWuQVgN8nbhtbab1664vXoiRt
 
 ##   03 move NFT
 - [] nft package id :
