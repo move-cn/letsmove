@@ -1,0 +1,15 @@
+{
+  "name": "task6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "navi-sdk": "^1.1.20"
+  }
+}

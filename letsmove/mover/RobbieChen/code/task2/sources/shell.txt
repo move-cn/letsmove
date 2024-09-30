@@ -1,0 +1,3 @@
+
+
+sui client call  --package 0x2 --module coin --function mint_and_transfer

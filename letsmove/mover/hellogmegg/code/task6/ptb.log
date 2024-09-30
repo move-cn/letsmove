@@ -1,0 +1,146 @@
+Network Type: mainnet
+AccountManager {
+  client: SuiClient { transport: SuiHTTPTransport {} },
+  address: '0xe82c8d9d92a61fa5f583addd9d7b29cd3d45da5abd0ff5cf155a6fe9779e4f40',
+  keypair: Ed25519Keypair {
+    keypair: { publicKey: [Uint8Array], secretKey: [Uint8Array] }
+  }
+}
+{
+  digest: '6MnKKbMGFLke8oPW7LKvrs4dPNBLpJxv57eusm3gC7s4',
+  effects: {
+    messageVersion: 'v1',
+    status: { status: 'success' },
+    executedEpoch: '466',
+    gasUsed: {
+      computationCost: '2274000',
+      storageCost: '437326800',
+      storageRebate: '300568752',
+      nonRefundableStorageFee: '3036048'
+    },
+    modifiedAtVersions: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    sharedObjects: [ [Object], [Object], [Object], [Object], [Object] ],
+    transactionDigest: '6MnKKbMGFLke8oPW7LKvrs4dPNBLpJxv57eusm3gC7s4',
+    created: [
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object]
+    ],
+    mutated: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    deleted: [ [Object], [Object] ],
+    gasObject: { owner: [Object], reference: [Object] },
+    eventsDigest: 'G7WYvhzLFjRdZ2KCkR8kDtmFUCG7sumepM3zN7VrMA7y',
+    dependencies: [
+      '242v2UQPo2poK63KwLQ8ge6fs5q5VzTMzGqEvebttZgu',
+      '3UPXfLrfMmWLaFjK1u2eRFAg2un7AT7igZtYJjz1sC76',
+      '47bEoyzNuryUTkFrPVv9ykXm9wb5e3B2WmHVuXtQDLhc',
+      '5EDvv5a4gxkeNDMhQbCVbpuuf8s2os9Wkp4spJu5NLRM',
+      '6UDK9xnURvAiX9dWoXCp8AiYCHyju7jhCoqWSEbzDADL',
+      '9D85TcFa5oRWv48nkYWmFh5vQtd4HvzDWcU4MsphJcvC',
+      'GzAtGxtSiVdCwKekJqKXtxL3hHCsZ2H8tfttoaeuxd6C'
+    ]
+  },
+  confirmedLocalExecution: true
+}
+{
+  digest: '4G6eTgSAkhcSQ3SY69iqGu7ZDKeSC7kqUgqRAKtFqPgr',
+  effects: {
+    messageVersion: 'v1',
+    status: { status: 'success' },
+    executedEpoch: '466',
+    gasUsed: {
+      computationCost: '3032000',
+      storageCost: '438307200',
+      storageRebate: '432953532',
+      nonRefundableStorageFee: '4373268'
+    },
+    modifiedAtVersions: [
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      ... 3 more items
+    ],
+    sharedObjects: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    transactionDigest: '4G6eTgSAkhcSQ3SY69iqGu7ZDKeSC7kqUgqRAKtFqPgr',
+    created: [ [Object] ],
+    mutated: [
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      ... 3 more items
+    ],
+    gasObject: { owner: [Object], reference: [Object] },
+    eventsDigest: '4bzvsHtY2uZMYivCmL5Mm6uJT6oVLNE9WZJF8qSNvEnZ',
+    dependencies: [
+      'nc9kHs72NEuaJjkMnj3mqA2zPVYFB3cU6NxctHTEe5Z',
+      '5EDvv5a4gxkeNDMhQbCVbpuuf8s2os9Wkp4spJu5NLRM',
+      '6Btgdg8xquzs6hXjpFSDtuTD6iz56VgfYYUMQrFhntHu',
+      '6MnKKbMGFLke8oPW7LKvrs4dPNBLpJxv57eusm3gC7s4',
+      'GzAtGxtSiVdCwKekJqKXtxL3hHCsZ2H8tfttoaeuxd6C'
+    ]
+  },
+  confirmedLocalExecution: true
+}

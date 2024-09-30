@@ -1,0 +1,18 @@
+[package]
+name = "hello_move"
+edition ="2024.beta"
+
+[dependencies]
+Sui = { git = "https://gitee.com/WGB5445/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+hello_move = "0x0"
+
+
+
+[dev-dependencies]
+
+
+[dev-addresses]
+
+

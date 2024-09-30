@@ -1,0 +1,9 @@
+export PACKAGE_ID=0xf5fc96c2d88805b5b04194ea78b4fedca229a7a50d32e17321455527dcc63901
+export TREASURY_CAP_ID=0xaabfdf1cea18431b6ddec1b8c720160d9c730305c49b5c2019c2818621457799
+#export RECIPIENT_ADDRESS=0x30e31ca5c530bf113cf8cf5fd3160a3057db6cbe379f0c9db240b5bf90826ac4
+export RECIPIENT_ADDRESS=0xbee56cf9521c1184e27925041a64e83143d9a34cc315c3f9184806e29dab6e3f
+sui client call  \
+    --package $PACKAGE_ID \
+    --module faucet_coin \
+    --function mint \
+    --args $TREASURY_CAP_ID \"10000\" $RECIPIENT_ADDRESS

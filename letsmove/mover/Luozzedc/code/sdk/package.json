@@ -1,0 +1,12 @@
+{
+    "name": "sdk",
+    "module": "index.ts",
+    "type": "module",
+    "peerDependencies": {
+      "typescript": "^5.0.0"
+    },
+    "dependencies": {
+      "@mysten/sui.js": "^0.51.2",
+      "navi-sdk": "^1.1.21"
+    }
+  }

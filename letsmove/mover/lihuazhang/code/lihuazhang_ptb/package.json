@@ -1,0 +1,19 @@
+{
+  "name": "lihuazhang_ptb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx --watch src/index.ts"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@mysten/sui.js": "^0.50.1",
+    "@types/node": "^20.12.8",
+    "dotenv": "^16.4.5",
+    "navi-sdk": "^1.1.21"
+  }
+}
