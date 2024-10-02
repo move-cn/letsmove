@@ -103,7 +103,7 @@ module task3::nft_hero{
 ## 合约部署
 
 ```bash
-$ sui client publish --gas-budget 100000000
+$ sui client publish 
 
 UPDATING GIT DEPENDENCY https://github.com/MystenLabs/sui.git
 INCLUDING DEPENDENCY Sui

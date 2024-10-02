@@ -42,7 +42,7 @@ sui move test
 
 ```bash
 sui client switch --env testnet 
-sui client publish --gas-budget 100000000
+sui client publish 
 
 ADDRESS="0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2"
 PACKAGE_ID="0xf6743ed0cba33d6119bb5472cdb328f8afcfffcd61323e73d6e950e62ee26da6"
@@ -50,17 +50,17 @@ COIN_TREASURY="0x372d345064295e3389d861ab2606fedba5052ffa1052f7f89d7170a93174806
 FAUCET_TREASURY="0xbda736c2929a2630c6b01bb2291b1994477e22f132242aaa4ef6623afbb6f42f"
 
 # Transaction Digest: 6AEduZbZdCBw2gzirLJd5LfBEhiMW4w6QxtqMQ8vWFrj
-sui client call --package ${PACKAGE_ID} --module gzliudan_coin --function mint --args ${COIN_TREASURY} 100 ${ADDRESS} --gas-budget 100000000
+sui client call --package ${PACKAGE_ID} --module gzliudan_coin --function mint --args ${COIN_TREASURY} 100 ${ADDRESS} 
 
 # Transaction Digest: 3v3j9Wpv2HozZ44nsxTMjMtKn62QHdPiJMnfhAirCxd2
-sui client call --package ${PACKAGE_ID} --module gzliudan_faucet --function mint --args ${FAUCET_TREASURY} 100 ${ADDRESS} --gas-budget 100000000
+sui client call --package ${PACKAGE_ID} --module gzliudan_faucet --function mint --args ${FAUCET_TREASURY} 100 ${ADDRESS} 
 ```
 
 ### 2.4 主网
 
 ```bash
 sui client switch --env mainnet
-sui client publish --gas-budget 100000000
+sui client publish 
 
 ADDRESS="0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2"
 PACKAGE_ID="0x0fe40e15fb138fce7c11fd341b173a8ddc3184c389147f3f7044aa4f1e2677ea"
@@ -68,10 +68,10 @@ COIN_TREASURY="0x47f21bde78897543b6f3864b8f46c2c8414e74e6a5961e7fa8414091e1e75b0
 FAUCET_TREASURY="0x20651eff485bf329ea2aa8c1fb2a73e6cac00feddfc322d000e30d5ca71fd648"
 
 # Transaction Digest: GXu4gp5TkK8PfwvS51qRFY7CiBszdHDS4hcjew5jKfLe
-sui client call --package ${PACKAGE_ID} --module gzliudan_coin --function mint --args ${COIN_TREASURY} 100 ${ADDRESS} --gas-budget 100000000
+sui client call --package ${PACKAGE_ID} --module gzliudan_coin --function mint --args ${COIN_TREASURY} 100 ${ADDRESS} 
 
 # Transaction Digest: 2cicQW8ZA5DmBgAwhvdpG3guehp1zJzb1BbHTDymGzyh
-sui client call --package ${PACKAGE_ID} --module gzliudan_faucet --function mint --args ${FAUCET_TREASURY} 100 ${ADDRESS} --gas-budget 100000000
+sui client call --package ${PACKAGE_ID} --module gzliudan_faucet --function mint --args ${FAUCET_TREASURY} 100 ${ADDRESS} 
 ```
 
 ### 2.5 结果
@@ -105,11 +105,11 @@ name="gzliudan"
 email="139250065@qq.com"
 description="Daniel Liu"
 url="https://avatars.githubusercontent.com/u/7695325?v=4"
-sui client call --gas-budget 100000000 --package ${PACKAGE_ID} --module github_medal --function mint --args ${name} ${email} "${description}" ${url}
+sui client call  --package ${PACKAGE_ID} --module github_medal --function mint --args ${name} ${email} "${description}" ${url}
 
 nft_id="0x8a25c6c81e44a8b4bd665ae72cc20e2b958af1668bd2bc6e414058f7ae6d38f3"
 address="0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2"
-sui client call --gas-budget 100000000 --package ${PACKAGE_ID} --module github_medal --function transfer --args ${nft_id} ${address}
+sui client call  --package ${PACKAGE_ID} --module github_medal --function transfer --args ${nft_id} ${address}
 ```
 
 ### 3.2 主网
@@ -126,11 +126,11 @@ name="gzliudan"
 email="139250065@qq.com"
 description="Daniel Liu"
 url="https://avatars.githubusercontent.com/u/7695325?v=4"
-sui client call --gas-budget 100000000 --package ${PACKAGE_ID} --module github_medal --function mint --args ${name} ${email} "${description}" ${url}
+sui client call  --package ${PACKAGE_ID} --module github_medal --function mint --args ${name} ${email} "${description}" ${url}
 
 nft_id="0x68969f7a64bac1ed12139272df871ef2c854e865694486427a3db81fff3781f9"
 address="0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2"
-sui client call --gas-budget 100000000 --package ${PACKAGE_ID} --module github_medal --function transfer --args ${nft_id} ${address}
+sui client call  --package ${PACKAGE_ID} --module github_medal --function transfer --args ${nft_id} ${address}
 ```
 
 ## 04 Move Game

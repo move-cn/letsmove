@@ -325,7 +325,7 @@ export AMM_PKG="0x82baebc7a93f60c1f1e575371565e387171b3e5d69f7c4455be39e4630e684
 export COIN_A="0xc846b5c2ecd10aaf62f645e1c6f4bd2718c8782378a0059893cc6bb7f9d8e800::mycoin::MYCOIN"
 export COIN_B="0xc846b5c2ecd10aaf62f645e1c6f4bd2718c8782378a0059893cc6bb7f9d8e800::faucet_coin::FAUCET_COIN"
 
-sui client call --package $AMM_PKG --module move_swap --function generate_pool --gas-budget 100000000 --type-args $COIN_A $COIN_B
+sui client call --package $AMM_PKG --module move_swap --function generate_pool  --type-args $COIN_A $COIN_B
 
 
 [warn] Client/Server api version mismatch, client api version : 1.21.1, server api version : 1.22.0
@@ -441,7 +441,7 @@ Transaction Digest: ALQtovYaJtRrAEwZ4EHj9RkGeTL9z9gGzjndHgKo6c9J
 
 
 ```bash
-sui client call --package $AMM_PKG --module move_swap --function create_pocket --gas-budget 100000000
+sui client call --package $AMM_PKG --module move_swap --function create_pocket 
 
 [warn] Client/Server api version mismatch, client api version : 1.21.1, server api version : 1.22.0
 Transaction Digest: 4CNfQ4DohgNipjn4xnaaEVon5RaqZ2oFScu3KaSd5ETa
@@ -555,7 +555,7 @@ Transaction Digest: 4CNfQ4DohgNipjn4xnaaEVon5RaqZ2oFScu3KaSd5ETa
 export POOL_ID="0xea7fad53bfae04eacc72316686d8477344dc8773f6ecbb3377dcd193867bc0e7"
 export POCKET_ID="0x1b3724c412885a2170345bf1be7447023c5bbf7a79c2dc1dc39f47eb58068340"
 
-sui client call --package $AMM_PKG --module move_swap --function deposit_totally --gas-budget 100000000 --type-args  $COIN_A $COIN_B --args $POOL_ID 0x90ff4bee2326aac8d893518af966c5cc6d381241a319a9c6026c81a9fa19d54c 0xae13e1c8e2fa65bccfba044bf8ad20cc4afb26eb97d1ba04776bbfe295d08c86 $POCKET_ID
+sui client call --package $AMM_PKG --module move_swap --function deposit_totally  --type-args  $COIN_A $COIN_B --args $POOL_ID 0x90ff4bee2326aac8d893518af966c5cc6d381241a319a9c6026c81a9fa19d54c 0xae13e1c8e2fa65bccfba044bf8ad20cc4afb26eb97d1ba04776bbfe295d08c86 $POCKET_ID
 
 [warn] Client/Server api version mismatch, client api version : 1.21.1, server api version : 1.22.0
 Transaction Digest: DPREixURvBMogfsxuiXPEreJ7XXe8uM6rDWuqETMt5iZ
@@ -899,7 +899,7 @@ Transaction Digest: HF5wvp1sWm967LcFH6UjjYfTciSTLTVWWwEhUY1vSprs
 ```
 
 ```bash
-sui client call --package $AMM_PKG --module move_swap --function swap_b_to_a --gas-budget 100000000 --type-args $COIN_A $COIN_B --args $POOL_ID \
+sui client call --package $AMM_PKG --module move_swap --function swap_b_to_a  --type-args $COIN_A $COIN_B --args $POOL_ID \
     '["0x28ef00d9dc55d7f08c9a13b7ebcfc7ef5611b75446b1029c1bdfb6998e8b8ef9"]' \"66\"
 
 

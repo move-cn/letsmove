@@ -301,7 +301,7 @@ Transaction Digest: jGH2ZN8s7vPLntPGRshNBoAdTtGAip6P42FVSDspPkC
 │  └──                                                                                              │
 ╰───────────────────────────────────────────────────────────────────────────────────────────────────╯
 
-sui client call --gas-budget 100000000 --package 0x9cf4dd321a1db40886be126c0201b28598b0a5182ef79f84e10daafdc5e4a729 --module TuYv_NFT --function transfer --args "0x62e8dc93eaaa01a490adcee693cf1fa69dca774332aaa14eac67f214f466c8a4" "0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2"
+sui client call  --package 0x9cf4dd321a1db40886be126c0201b28598b0a5182ef79f84e10daafdc5e4a729 --module TuYv_NFT --function transfer --args "0x62e8dc93eaaa01a490adcee693cf1fa69dca774332aaa14eac67f214f466c8a4" "0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2"
 [warn] Client/Server api version mismatch, client api version : 1.22.0, server api version : 1.25.1
 Transaction Digest: BogGY49Q56wKyUX53htfWgpchANyVzR6teBfh8BVsbrs
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮

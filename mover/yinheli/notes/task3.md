@@ -6,7 +6,7 @@
 sui client switch --env mainnet
 
 # publish
-sui client publish --gas-budget 100000000
+sui client publish 
 ```
 
 publish output
@@ -213,7 +213,7 @@ Transaction Digest: DtNAUEHV5BfmgXeEwWKmJ26mPBEn4D3griK4RtTm83VE
 ```bash
 export PACKAGE_ID=0xc591b939397e796f830e98b1bf02199a8a3b7d20903a752801f0f6742276b164
 
-sui client call --gas-budget 100000000 \
+sui client call  \
   --module task3 --function mint_to_sender \
   --package $PACKAGE_ID \
   --args "yinheli" "yinheli's github avatar"
@@ -354,7 +354,7 @@ Transaction Digest: 5ABXrj2yxb9KvvuyzqVzNCNCn21aeiqYtMXNgmUu1v7y
 send to task address
 
 ```bash
-sui client call --gas-budget 100000000 \
+sui client call  \
   --module task3 --function transfer \
   --package $PACKAGE_ID \
   --args \

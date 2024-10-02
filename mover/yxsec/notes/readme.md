@@ -37,7 +37,7 @@ module hello_world::hello_world {
 
 部署合约
 ```
-sui client publish --gas-budget 100000000 .
+sui client publish  .
 
 UPDATING GIT DEPENDENCY https://github.com/MystenLabs/sui.git
 INCLUDING DEPENDENCY Sui

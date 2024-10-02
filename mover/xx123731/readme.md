@@ -41,4 +41,4 @@ sui client envs
 sui client new-env --alias=testnet --rpc https://fullnode.testnet.sui.io:443
 sui client switch --env testnet
 发布：
-sui client publish --gas-budget 100000000
+sui client publish 

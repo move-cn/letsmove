@@ -340,7 +340,7 @@ module my_coin::joeycoin {
 
 发布
 ```
-sui client publish --gas-budget 100000000
+sui client publish 
 ```
 
 输出
@@ -546,7 +546,7 @@ module faucet_coin::joeyfaucetcoin {
 
 发布
 ```
-sui client publish --gas-budget 100000000
+sui client publish 
 ```
 
 输出
@@ -990,7 +990,7 @@ module task3::joey_nft {
 
 发布：
 ```
-sui client publish --gas-budget 100000000
+sui client publish 
 ```
 
 输出：
@@ -1192,7 +1192,7 @@ Transaction Digest: AkZsQvRnUDsNFSYQWubuF5fAGC9wQwCZy4CiWfd3Ustp
 
 调用：
 ```
-sui client call --function mint_to_sender --module joey_nft --package 0xc4f7a839784cb5dc03a6a06e2c5b6c8b00b74c1360da77be1279deed47f72b46 --args Joey itsjoeyrighthere https://avatars.githubusercontent.com/u/48686956 --gas-budget 100000000
+sui client call --function mint_to_sender --module joey_nft --package 0xc4f7a839784cb5dc03a6a06e2c5b6c8b00b74c1360da77be1279deed47f72b46 --args Joey itsjoeyrighthere https://avatars.githubusercontent.com/u/48686956 
 ```
 
 ```
@@ -1331,7 +1331,7 @@ Transaction Digest: 3gCSBRJDLjKG6qsx3SnVKkxEwXQZc38qr6CN8QremTkM
 
 将 nft 发送到地址: 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
 ```
-sui client call --function transfer --module joey_nft --package 0xc4f7a839784cb5dc03a6a06e2c5b6c8b00b74c1360da77be1279deed47f72b46 --args 0xa087e182045a818db3ce431b2089afff87cd279e95c7d4e3bf52dbe67bb087cc 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --gas-budget 100000000
+sui client call --function transfer --module joey_nft --package 0xc4f7a839784cb5dc03a6a06e2c5b6c8b00b74c1360da77be1279deed47f72b46 --args 0xa087e182045a818db3ce431b2089afff87cd279e95c7d4e3bf52dbe67bb087cc 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 
 ```
 
 输出

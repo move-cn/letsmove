@@ -4,7 +4,7 @@ sui client envs
 sui client switch --address 0x167b61dcef37260fc8335e15a16cbad0a2f3ddc8a511169820f0c013396f205b
 sui client addresses
 
-sui client call --gas-budget 100000000 \
+sui client call  \
 --package 0x3bb84b8e7a1876d8cc102cec9e3bea7e49d13f3998ae5d3e982b83e007971fec \
 --module rmb_coin \
 --function mint \

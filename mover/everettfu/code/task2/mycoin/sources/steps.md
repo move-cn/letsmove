@@ -8,7 +8,7 @@ address:
 0x553c6fe083866c81b0499632ed4e68c0d4d4dd2df0a278a1630f480128e51609
 
 # push
-sui client publish --gas-budget 100000000
+sui client publish 
 
 package id:
 0xdb72c319d00dbffb1df12aef51e7ffca3a3254d986fc53e4ef410f0f452bb48f
@@ -27,7 +27,7 @@ EVERETTFU_FACUET_COIN address:
 
 # mint everettfu_coin
 
-sui client call --gas-budget 100000000 \
+sui client call  \
 --package  0x2 \
 --module coin \
 --function mint_and_transfer \
@@ -38,7 +38,7 @@ sui client call --gas-budget 100000000 \
 # mint everettfu_facuet_coin
 
 # a mint
-sui client call --gas-budget 100000000 \
+sui client call  \
 --package  0x2 \
 --module coin \
 --function mint_and_transfer \
@@ -46,7 +46,7 @@ sui client call --gas-budget 100000000 \
 --args 0x263003dfcf8e2362931f6aa12e314d69d035e264c53b5ea0e586a21a13a9d716 100000000000 0x553c6fe083866c81b0499632ed4e68c0d4d4dd2df0a278a1630f480128e51609
 
 # b mint
-sui client call --gas-budget 100000000 \
+sui client call  \
 --package  0x2 \
 --module coin \
 --function mint_and_transfer \

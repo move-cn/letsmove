@@ -66,7 +66,7 @@ module task4::kael777_game {
 
 // test net
 // 0x6 is clock object
-//sui client call --function play --module kael777_game --package 0x5915087002bc3f6b92f56493750ef9a04d0c43a55b32f8564fdfd815546e4988 --args 1 0x6 --gas-budget 100000000
+//sui client call --function play --module kael777_game --package 0x5915087002bc3f6b92f56493750ef9a04d0c43a55b32f8564fdfd815546e4988 --args 1 0x6
 
 // main net
-//sui client call --function play --module kael777_game --package 0xe2c9bbf4bd8da9f66a95cca911084a4d3b29157f9c131810b789d55447027570 --args 2 0x6 --gas-budget 100000000
+//sui client call --function play --module kael777_game --package 0xe2c9bbf4bd8da9f66a95cca911084a4d3b29157f9c131810b789d55447027570 --args 2 0x6

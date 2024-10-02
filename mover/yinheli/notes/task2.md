@@ -6,10 +6,10 @@
 sui client switch --env mainnet
 
 # publish
-sui client publish --gas-budget 100000000
+sui client publish 
 
 # or publish module
-# sui client publish --gas-budget 100000000 sources/mycoin.move
+# sui client publish  sources/mycoin.move
 ```
 
 publish output:
@@ -210,7 +210,7 @@ Transaction Digest: ATp4U8dpWK8grgCUE3FuSWuaaFcMpD8g3wbgtSVh4d3n
 export PACKAGE_ID=0xf0c26a9e727f0d475bd960f6c0a97695ef9bc43344a8651603c879a8068398fd
 
 # 给自己发一个
-sui client call --gas-budget 100000000 \
+sui client call  \
   --package $PACKAGE_ID \
   --module mycoin --function mint --args \
   0x1a00ca28bad247d059bb29ce192bc1a07ef4a62a7737409c9637a8e1a8976426 \
@@ -219,7 +219,7 @@ sui client call --gas-budget 100000000 \
 
 
 # 给任务要求的发一个
-sui client call --gas-budget 100000000 \
+sui client call  \
   --package $PACKAGE_ID \
   --module mycoin --function mint --args \
   0x1a00ca28bad247d059bb29ce192bc1a07ef4a62a7737409c9637a8e1a8976426 \
@@ -233,13 +233,13 @@ sui client call --gas-budget 100000000 \
 
 export PACKAGE_ID=0xf0c26a9e727f0d475bd960f6c0a97695ef9bc43344a8651603c879a8068398fd
 
-sui client call --gas-budget 100000000 \
+sui client call  \
   --package $PACKAGE_ID \
   --module faucet_coin --function mint --args \
   0xf66f7c220f0a0ea40c1ec2e305b2946b81c48f05cbdcbe8a8b7022eb8d3ed272 \
   0x9afd49b0ead9f2884c69fc73282637d83a9341b221b125bc235c2d75d4c59465
 
-sui client call --gas-budget 100000000 \
+sui client call  \
   --package $PACKAGE_ID \
   --module faucet_coin --function mint --args \
   0xf66f7c220f0a0ea40c1ec2e305b2946b81c48f05cbdcbe8a8b7022eb8d3ed272 \

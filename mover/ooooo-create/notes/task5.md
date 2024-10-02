@@ -5,7 +5,7 @@
 1. 命令
 
 ```
-sui client publish --gas-budget 100000000
+sui client publish 
 ```
 
 2. 结果
@@ -178,11 +178,11 @@ Transaction Digest: FCmVfKVXHvompfxwUP4gneqZ9pDbJtMWmq8iixpYJVey
 
 ```
 ## mint mycoin1
-sui client call --function mint --module mycoin --package 0x7247004b03f116499058575daac468d59ad6c4e84d0878628b785e16c39f5403 --args 0xd735520f429f73845c8193e724d7cb1c3631bc716b719d01dd783074ce0b8c0c 10000 0x118abaa1d8254a0c1e0a2a8287560701aad59b74ca33801826d4a10e0153abb4 --gas-budget 100000000
+sui client call --function mint --module mycoin --package 0x7247004b03f116499058575daac468d59ad6c4e84d0878628b785e16c39f5403 --args 0xd735520f429f73845c8193e724d7cb1c3631bc716b719d01dd783074ce0b8c0c 10000 0x118abaa1d8254a0c1e0a2a8287560701aad59b74ca33801826d4a10e0153abb4 
 ## mint faucetcoin1
 sui client call --function mint --module faucetcoin --package 0x7247004b03f116499058575daac468d59ad6c4e84d0878628b785e16c39f5403 --args  0xbe2b232fb67ee76f5e9adfcdf2d3d2785d8c5a5cd0f2cf2af4ba3981fb8a4983 1000000 0x118abaa1d8254a0c1e0a2a8287560701aad59b74ca33801826d4a10e0153abb4 --gas-budget 10000000
 ## mint mycoin2 
-sui client call --function mint --module mycoin --package 0x7247004b03f116499058575daac468d59ad6c4e84d0878628b785e16c39f5403 --args 0xd735520f429f73845c8193e724d7cb1c3631bc716b719d01dd783074ce0b8c0c 1000 0x118abaa1d8254a0c1e0a2a8287560701aad59b74ca33801826d4a10e0153abb4 --gas-budget 100000000  
+sui client call --function mint --module mycoin --package 0x7247004b03f116499058575daac468d59ad6c4e84d0878628b785e16c39f5403 --args 0xd735520f429f73845c8193e724d7cb1c3631bc716b719d01dd783074ce0b8c0c 1000 0x118abaa1d8254a0c1e0a2a8287560701aad59b74ca33801826d4a10e0153abb4   
 ## mint faucetcoin2
 sui client call --function mint --module faucetcoin --package 0x7247004b03f116499058575daac468d59ad6c4e84d0878628b785e16c39f5403 --args  0xbe2b232fb67ee76f5e9adfcdf2d3d2785d8c5a5cd0f2cf2af4ba3981fb8a4983 10000 0x118abaa1d8254a0c1e0a2a8287560701aad59b74ca33801826d4a10e0153abb4 --gas-budget 10000000
 ## deposit_mycoin

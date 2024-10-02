@@ -30,7 +30,7 @@ sui move new hello_move
 # sui client faucet --help
 sui client faucet # default with active address on active network
 cd hello_move
-sui client publish --gas-budget 100000000
+sui client publish 
 ```
 
 
@@ -78,7 +78,7 @@ export PACKAGE=0xf4e4754da5ede3b693fffe332a61ede86b21ac3ca439fe9546624759955e779
 export RECIPIENT=0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
 
 # sui client call 
-sui client call --package $PACKAGE --module move_nft --function mint_for --args $RECIPIENT --gas-budget 100000000
+sui client call --package $PACKAGE --module move_nft --function mint_for --args $RECIPIENT 
 # NFT Object ID: 0x751d9f216d3bfa395508f2b2263ab4562791ac20af0b08270a97888692534279
 # Transfer TX: 8Hnp4mg4FKZGm47SeufVTJMXHSVpqVPZpVh7wiFk6BsY
 ```
