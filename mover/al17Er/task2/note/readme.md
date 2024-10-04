@@ -1,0 +1,2 @@
+上传合约代码：proxychains sui client publish 
+远程调用：sui client call --function mint --package 0x9467f6d758300f54b559ec13c68c28bc32206bbbdf6b39bff1f6397d51c0dc2f --module al17er --args 0x60d82c651045d31cef8263dd5be0950fef41859f3f51b7a90f032476681ce174 1 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2  --type-args "0x9467f6d758300f54b559ec13c68c28bc32206bbbdf6b39bff1f6397d51c0dc2f::al17er::AL17ER" --gas-budget 10000000

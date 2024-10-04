@@ -1,0 +1,25 @@
+[package]
+name = "framework"
+version = "0.1.0"
+edition = "2021"
+exclude = ["chall/"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+quote = "1.0.26"
+threadpool = "1.8.1"
+proc-macro2 = "1.0.66"
+
+tokio = { version = "1", features = ["full"] }
+
+move-core-types = { git = "https://github.com/MystenLabs/sui", tag = "devnet-v1.27.0", package = "move-core-types" }
+move-bytecode-source-map = { git = "https://github.com/MystenLabs/sui", tag = "devnet-v1.27.0", package = "move-bytecode-source-map" }
+move-binary-format = { git = "https://github.com/MystenLabs/sui", tag = "devnet-v1.27.0", package = "move-binary-format" }
+move-symbol-pool = { git = "https://github.com/MystenLabs/sui", tag = "devnet-v1.27.0", package = "move-symbol-pool" }
+move-transactional-test-runner = { git = "https://github.com/MystenLabs/sui", tag = "devnet-v1.27.0", package = "move-transactional-test-runner" }
+
+sui-types = { git = "https://github.com/MystenLabs/sui", tag = "devnet-v1.27.0", package = "sui-types"}
+sui-transactional-test-runner = { git = "https://github.com/MystenLabs/sui", tag = "devnet-v1.27.0", package = "sui-transactional-test-runner"}
+
+sui-ctf-framework = { git = "https://github.com/otter-sec/sui-ctf-framework", branch = "justctf2024" }

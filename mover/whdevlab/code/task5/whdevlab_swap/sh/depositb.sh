@@ -1,0 +1,8 @@
+export BANK_ID=0x35e26cc308495d2797e18bb6cc45aac5a75a3a1e4662c60f2a9533fcade8c1f9
+export COIN_TYPE="0x197759b798efa236547bd26370792d2a3f3dd0863d7303830bfa993b22a2877d::whdevlab_coin::WHDEVLAB_COIN"
+export FAUCET_TYPE="0x58dcb637ae31e54b67fcea86f53a626bde4ef8e7442815f8559842fba09a45fe::whdevlab_faucet_coin::WHDEVLAB_FAUCET_COIN"
+
+export PACKAGE_ID=0x28a208bc3bc2de8c1055900b15866a3190e5ee49e90bcc7635cafb131edfdbe1
+
+export COINB=0x60efb1ded1ddbd0ac844bb2a7cf3aab19a35945708c5a07aac818e1bc3fe3285
+sui client call --gas-budget 7500000 --package $PACKAGE_ID --module whdevlab_swap --function deposit_b --type-args $COIN_TYPE $FAUCET_TYPE  --args $BANK_ID $COINB

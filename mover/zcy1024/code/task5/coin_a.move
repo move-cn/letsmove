@@ -1,0 +1,23 @@
+module simple_swap::coin_a {
+    use sui::coin::{Self, TreasuryCap};
+
+    public struct COIN_A has drop {}
+
+    fun init(otw: COIN_A, ctx: &mut TxContext) {
+        let (treasury_cap, metadata) = coin::create_currency(
+            otw,
+            9,
+            b"coin_a",
+            b"CA",
+            b"coin_a to study simple swap",
+            option::none(),
+            ctx,
+        );
+        transfer::public_freeze_object(metadata);
+        transfer::public_transfer(treasury_cap, tx_context::sender(ctx));
+    }
+
+    entry fun mint(treasury_cap: &mut TreasuryCap<COIN_A>, amount: u64, recipient: address, ctx: &mut TxContext) {
+        coin::mint_and_transfer(treasury_cap, amount, recipient, ctx);
+    }
+}

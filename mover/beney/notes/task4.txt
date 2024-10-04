@@ -1,0 +1,17 @@
+创建项目并进入目录
+sui move new task4 && cd task4
+
+编译合约
+sui move build
+
+发布合约
+sui client publish --gas-budget=100000000
+
+拿到 PackageID (Object Changes -> Published Objects -> PackageID)
+0x1ec77b805a32508b61d4bf0868e55879055891e1558942419aa9080330558e72
+
+玩一把游戏吧，少年
+sui client call --function play --module guessing_game --package 0x1ec77b805a32508b61d4bf0868e55879055891e1558942419aa9080330558e72 --args 0 0x6 --gas-budget 20000000
+
+拿到交易 hash (Transaction Digest)
+T3rC1aaR9SBUz6VVyEAso4nth9ZuWswX7nSMPZUzAGx

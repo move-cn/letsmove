@@ -1,0 +1,183 @@
+sui client call --function create_pool  --module lottery  --package 0x91e2951c78814e7eed30a3b154356ab151c2d7bc7aa0f0a6d8e986e9224be088 --args 0xb09084039ffe08f6cff1656f8b54ba19ecf08a2e6b72402d10aaaad25da8b8ab SUI-24H 1000000 3600000 100 1715241578000 10 8 10000 --type-args 0x2::sui::SUI
+
+
+
+[warn] Client/Server api version mismatch, client api version : 1.24.0, server api version : 1.24.1
+Transaction Digest: Dn28gumy8hm3wbYt4ie37mvgyTbCCEcrNJ6bG991JwDV
+╭─────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Transaction Data                                                                                │
+├─────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Sender: 0xd0247d9ea5f348adc0915f65d571b4299324526cbb65476b6927f575dccf48f8                      │
+│ Gas Owner: 0xd0247d9ea5f348adc0915f65d571b4299324526cbb65476b6927f575dccf48f8                   │
+│ Gas Budget: 100000000 MIST                                                                      │
+│ Gas Price: 1000 MIST                                                                            │
+│ Gas Payment:                                                                                    │
+│  ┌──                                                                                            │
+│  │ ID: 0xdc21bc6b53180fcba1cb0276667fe9b2061aba4e20907e57c487f5561bf247ae                       │
+│  │ Version: 969726                                                                              │
+│  │ Digest: 52kku8JG7jycKsRuhq6Wa6hmCDoAspqPQQuP42aMP5M4                                         │
+│  └──                                                                                            │
+│                                                                                                 │
+│ Transaction Kind: Programmable                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────────────────╮ │
+│ │ Input Objects                                                                               │ │
+│ ├─────────────────────────────────────────────────────────────────────────────────────────────┤ │
+│ │ 0   Imm/Owned Object ID: 0xb09084039ffe08f6cff1656f8b54ba19ecf08a2e6b72402d10aaaad25da8b8ab │ │
+│ │ 1   Pure Arg: Type: 0x1::string::String, Value: "SUI-24H"                                   │ │
+│ │ 2   Pure Arg: Type: u64, Value: "1000000"                                                   │ │
+│ │ 3   Pure Arg: Type: u64, Value: "3600000"                                                   │ │
+│ │ 4   Pure Arg: Type: u64, Value: "100"                                                       │ │
+│ │ 5   Pure Arg: Type: u64, Value: "1715241578000"                                             │ │
+│ │ 6   Pure Arg: Type: u64, Value: "10"                                                        │ │
+│ │ 7   Pure Arg: Type: u64, Value: "8"                                                         │ │
+│ │ 8   Pure Arg: Type: u64, Value: "10000"                                                     │ │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│ ╭──────────────────────────────────────────────────────────────────────────────────╮            │
+│ │ Commands                                                                         │            │
+│ ├──────────────────────────────────────────────────────────────────────────────────┤            │
+│ │ 0  MoveCall:                                                                     │            │
+│ │  ┌                                                                               │            │
+│ │  │ Function:  create_pool                                                        │            │
+│ │  │ Module:    lottery                                                            │            │
+│ │  │ Package:   0x91e2951c78814e7eed30a3b154356ab151c2d7bc7aa0f0a6d8e986e9224be088 │            │
+│ │  │ Type Arguments:                                                               │            │
+│ │  │   0x2::sui::SUI                                                               │            │
+│ │  │ Arguments:                                                                    │            │
+│ │  │   Input  0                                                                    │            │
+│ │  │   Input  1                                                                    │            │
+│ │  │   Input  2                                                                    │            │
+│ │  │   Input  3                                                                    │            │
+│ │  │   Input  4                                                                    │            │
+│ │  │   Input  5                                                                    │            │
+│ │  │   Input  6                                                                    │            │
+│ │  │   Input  7                                                                    │            │
+│ │  │   Input  8                                                                    │            │
+│ │  └                                                                               │            │
+│ ╰──────────────────────────────────────────────────────────────────────────────────╯            │
+│                                                                                                 │
+│ Signatures:                                                                                     │
+│    TERn4pT5Qb2pagEBAfnW3R9uBenzFY03ep6KnKyg2YlWkpQ8zJHF86LNk66EQXmnO3N1roZycU8dY/I5BSimDw==     │
+│                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Transaction Effects                                                                               │
+├───────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Digest: Dn28gumy8hm3wbYt4ie37mvgyTbCCEcrNJ6bG991JwDV                                              │
+│ Status: Success                                                                                   │
+│ Executed Epoch: 364                                                                               │
+│                                                                                                   │
+│ Created Objects:                                                                                  │
+│  ┌──                                                                                              │
+│  │ ID: 0xccac73f5cc772ee64b47597f59e76508c1cf3e68a4b161349e4d9eef45bf443a                         │
+│  │ Owner: Shared                                                                                  │
+│  │ Version: 969727                                                                                │
+│  │ Digest: G5sWrCRY2nVd5pdyUWWg21GHk34fadfAJvyfecEk8e5e                                           │
+│  └──                                                                                              │
+│ Mutated Objects:                                                                                  │
+│  ┌──                                                                                              │
+│  │ ID: 0xb09084039ffe08f6cff1656f8b54ba19ecf08a2e6b72402d10aaaad25da8b8ab                         │
+│  │ Owner: Account Address ( 0xd0247d9ea5f348adc0915f65d571b4299324526cbb65476b6927f575dccf48f8 )  │
+│  │ Version: 969727                                                                                │
+│  │ Digest: 9torhGUNCuHt6Zo3yL6gfHAFD2ERT9HnZZwCHaVxW6eS                                           │
+│  └──                                                                                              │
+│  ┌──                                                                                              │
+│  │ ID: 0xdc21bc6b53180fcba1cb0276667fe9b2061aba4e20907e57c487f5561bf247ae                         │
+│  │ Owner: Account Address ( 0xd0247d9ea5f348adc0915f65d571b4299324526cbb65476b6927f575dccf48f8 )  │
+│  │ Version: 969727                                                                                │
+│  │ Digest: 2mJ5h3oMZtbkSjwaXoS1awZ49mEuwgVJLBBs2iWYcdL3                                           │
+│  └──                                                                                              │
+│ Gas Object:                                                                                       │
+│  ┌──                                                                                              │
+│  │ ID: 0xdc21bc6b53180fcba1cb0276667fe9b2061aba4e20907e57c487f5561bf247ae                         │
+│  │ Owner: Account Address ( 0xd0247d9ea5f348adc0915f65d571b4299324526cbb65476b6927f575dccf48f8 )  │
+│  │ Version: 969727                                                                                │
+│  │ Digest: 2mJ5h3oMZtbkSjwaXoS1awZ49mEuwgVJLBBs2iWYcdL3                                           │
+│  └──                                                                                              │
+│ Gas Cost Summary:                                                                                 │
+│    Storage Cost: 5168000 MIST                                                                     │
+│    Computation Cost: 1000000 MIST                                                                 │
+│    Storage Rebate: 2339964 MIST                                                                   │
+│    Non-refundable Storage Fee: 23636 MIST                                                         │
+│                                                                                                   │
+│ Transaction Dependencies:                                                                         │
+│    6PxS2PLSDGJscAqU14vs86Wew9q2dHPBugF3163mXZFV                                                   │
+│    HHbyXoXMbqqfSAv1c8FFzVAUrndWBYbarHH7MAX474H9                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Transaction Block Events                                                                                      │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│  ┌──                                                                                                          │
+│  │ EventID: Dn28gumy8hm3wbYt4ie37mvgyTbCCEcrNJ6bG991JwDV:0                                                    │
+│  │ PackageID: 0x91e2951c78814e7eed30a3b154356ab151c2d7bc7aa0f0a6d8e986e9224be088                              │
+│  │ Transaction Module: lottery                                                                                │
+│  │ Sender: 0xd0247d9ea5f348adc0915f65d571b4299324526cbb65476b6927f575dccf48f8                                 │
+│  │ EventType: 0x91e2951c78814e7eed30a3b154356ab151c2d7bc7aa0f0a6d8e986e9224be088::pool::CreatePoolEvent       │
+│  │ ParsedJSON:                                                                                                │
+│  │   ┌──────────────────┬───────────────────────────────────────────────────────────────────────────────────┐ │
+│  │   │ end_time         │ 1715245178000                                                                     │ │
+│  │   ├──────────────────┼───────────────────────────────────────────────────────────────────────────────────┤ │
+│  │   │ fee_rate         │ 10000                                                                             │ │
+│  │   ├──────────────────┼───────────────────────────────────────────────────────────────────────────────────┤ │
+│  │   │ interval         │ 3600000                                                                           │ │
+│  │   ├──────────────────┼───────────────────────────────────────────────────────────────────────────────────┤ │
+│  │   │ max_cap          │ 100                                                                               │ │
+│  │   ├──────────────────┼───────────────────────────────────────────────────────────────────────────────────┤ │
+│  │   │ name             │ SUI-24H                                                                           │ │
+│  │   ├──────────────────┼───────────────────────────────────────────────────────────────────────────────────┤ │
+│  │   │ pool_fee         │ 10                                                                                │ │
+│  │   ├──────────────────┼───────────────────────────────────────────────────────────────────────────────────┤ │
+│  │   │ pool_fee_address │ 0xd0247d9ea5f348adc0915f65d571b4299324526cbb65476b6927f575dccf48f8                │ │
+│  │   ├──────────────────┼───────────────────────────────────────────────────────────────────────────────────┤ │
+│  │   │ pool_id          │ 0xccac73f5cc772ee64b47597f59e76508c1cf3e68a4b161349e4d9eef45bf443a                │ │
+│  │   ├──────────────────┼──────┬────────────────────────────────────────────────────────────────────────────┤ │
+│  │   │ receive_coin     │ name │ 0000000000000000000000000000000000000000000000000000000000000002::sui::SUI │ │
+│  │   ├──────────────────┼──────┴────────────────────────────────────────────────────────────────────────────┤ │
+│  │   │ sender           │ 0xd0247d9ea5f348adc0915f65d571b4299324526cbb65476b6927f575dccf48f8                │ │
+│  │   ├──────────────────┼───────────────────────────────────────────────────────────────────────────────────┤ │
+│  │   │ settle_fee       │ 8                                                                                 │ │
+│  │   ├──────────────────┼───────────────────────────────────────────────────────────────────────────────────┤ │
+│  │   │ start_time       │ 1715241578000                                                                     │ │
+│  │   ├──────────────────┼───────────────────────────────────────────────────────────────────────────────────┤ │
+│  │   │ ticket_price     │ 1000000                                                                           │ │
+│  │   └──────────────────┴───────────────────────────────────────────────────────────────────────────────────┘ │
+│  └──                                                                                                          │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Object Changes                                                                                                 │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Created Objects:                                                                                               │
+│  ┌──                                                                                                           │
+│  │ ObjectID: 0xccac73f5cc772ee64b47597f59e76508c1cf3e68a4b161349e4d9eef45bf443a                                │
+│  │ Sender: 0xd0247d9ea5f348adc0915f65d571b4299324526cbb65476b6927f575dccf48f8                                  │
+│  │ Owner: Shared                                                                                               │
+│  │ ObjectType: 0x91e2951c78814e7eed30a3b154356ab151c2d7bc7aa0f0a6d8e986e9224be088::pool::Pool<0x2::sui::SUI>   │
+│  │ Version: 969727                                                                                             │
+│  │ Digest: G5sWrCRY2nVd5pdyUWWg21GHk34fadfAJvyfecEk8e5e                                                        │
+│  └──                                                                                                           │
+│ Mutated Objects:                                                                                               │
+│  ┌──                                                                                                           │
+│  │ ObjectID: 0xb09084039ffe08f6cff1656f8b54ba19ecf08a2e6b72402d10aaaad25da8b8ab                                │
+│  │ Sender: 0xd0247d9ea5f348adc0915f65d571b4299324526cbb65476b6927f575dccf48f8                                  │
+│  │ Owner: Account Address ( 0xd0247d9ea5f348adc0915f65d571b4299324526cbb65476b6927f575dccf48f8 )               │
+│  │ ObjectType: 0x91e2951c78814e7eed30a3b154356ab151c2d7bc7aa0f0a6d8e986e9224be088::pool_manager::PoolAdminCap  │
+│  │ Version: 969727                                                                                             │
+│  │ Digest: 9torhGUNCuHt6Zo3yL6gfHAFD2ERT9HnZZwCHaVxW6eS                                                        │
+│  └──                                                                                                           │
+│  ┌──                                                                                                           │
+│  │ ObjectID: 0xdc21bc6b53180fcba1cb0276667fe9b2061aba4e20907e57c487f5561bf247ae                                │
+│  │ Sender: 0xd0247d9ea5f348adc0915f65d571b4299324526cbb65476b6927f575dccf48f8                                  │
+│  │ Owner: Account Address ( 0xd0247d9ea5f348adc0915f65d571b4299324526cbb65476b6927f575dccf48f8 )               │
+│  │ ObjectType: 0x2::coin::Coin<0x2::sui::SUI>                                                                  │
+│  │ Version: 969727                                                                                             │
+│  │ Digest: 2mJ5h3oMZtbkSjwaXoS1awZ49mEuwgVJLBBs2iWYcdL3                                                        │
+│  └──                                                                                                           │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Balance Changes                                                                                   │
+├───────────────────────────────────────────────────────────────────────────────────────────────────┤
+│  ┌──                                                                                              │
+│  │ Owner: Account Address ( 0xd0247d9ea5f348adc0915f65d571b4299324526cbb65476b6927f575dccf48f8 )  │
+│  │ CoinType: 0x2::sui::SUI                                                                        │
+│  │ Amount: -3828036                                                                               │
+│  └──                                                                                              │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────╯

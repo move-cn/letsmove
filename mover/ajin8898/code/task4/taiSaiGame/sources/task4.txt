@@ -1,0 +1,8 @@
+gameId：0x585a3deb820ebe94b42dd49aa12e1887a2cc27a67aaa4fd4e81c1160519f08fb
+packageID：0x81ab36916b0a2adc9b217027ad660481ff36170ee0ed2c5771952ad0afa2a8dc
+0x5535158c0fdb6fb0d4537b9460d347cf30ffb7788585c420ce55744b0391c4c0
+sui client call --function deposit --module taisaigame  --package $PACKAGE_ID --gas-budget 3000000 --args $Game_Share_ID $Coin_ID
+sui client call --function deposit --module taisaigame  --package 0x5535158c0fdb6fb0d4537b9460d347cf30ffb7788585c420ce55744b0391c4c0 --gas-budget 3000000 --args 0x649658a65d4334c933bc1c65cabe7705c728c0b871f27b24b19b1289d4841098 0x634b1890e1c41e6c46ffb51fb2e60cdde5bcda98a2d8c06d160304a47701fb63
+sui client call --function withdraw --module taisaigame  --package $GAME_PACKAGE_ID --gas-budget 3000000 --args $adminCap $Game_Share_ID 1000000
+sui client call --function withdraw --module taisaigame  --package 0x5535158c0fdb6fb0d4537b9460d347cf30ffb7788585c420ce55744b0391c4c0 --gas-budget 3000000 --args 0x9d729e0aeab6130bc55b459e17b56f9d9fa704771ea8f02c891e4e5ba6ea7485 0x649658a65d4334c933bc1c65cabe7705c728c0b871f27b24b19b1289d4841098 100000000
+sui client call --function play --module taisaigame  --package 0x5535158c0fdb6fb0d4537b9460d347cf30ffb7788585c420ce55744b0391c4c0 --gas-budget 3000000 --args 0x649658a65d4334c933bc1c65cabe7705c728c0b871f27b24b19b1289d4841098 true 0xe0777777dea58f72720f30aafb76391a259af8ddad5fece433f23bd036710fe9 0x8

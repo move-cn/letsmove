@@ -1,0 +1,6 @@
+export GAME_ID=0x9b4cc9e79973477d12644ce9fbb4eeed7ff2a224b5e143e4c1b95a083f7306cd
+export PACKAGE_ID=0x85bbd3bd27919882a465edd4ec624f82181dfb9e717c51d98e4d2915a1b5994b
+export FaucetId="0x58dcb637ae31e54b67fcea86f53a626bde4ef8e7442815f8559842fba09a45fe::whdevlab_faucet_coin::WHDEVLAB_FAUCET_COIN"
+
+export AmindCap=0xf064acacaca45be757c798396a7cd8f8204979bbb5e7c6bea72eca9c9707540f
+sui client call --gas-budget 3000000 --package $PACKAGE_ID --module whdevlab_game --function withdraw --type-args $FaucetId --args $AmindCap $GAME_ID 500
