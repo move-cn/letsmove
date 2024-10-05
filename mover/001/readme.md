@@ -14,11 +14,12 @@
 
 ##   01 hello move  
 - [] Sui cli version:
+![hello_move – hello_move move 2024_10_5 16_13_40](https://github.com/user-attachments/assets/512e77d7-5a0a-49d1-a89c-2d49a7ebe3ff)
 
-https://github.com/user-attachments/assets/52e83cf0-1dd8-449e-bc32-02b9deb86169
 
 
-- [] Sui钱包截图: ![Sui钱包截![Editing letsmove_mover_001_readme md at main · 3381575948_letsmove - 个人 - Microsoft​ Edge 2024_10_5 16_09_04](https://github.com/user-attachments/assets/a2711573-3e3c-4b5a-92b0-62c1f7a23522)
+- [] Sui钱包截图: ![Editing letsmove_mover_001_readme md at main · 3381575948_letsmove - 个人 - Microsoft​ Edge 2024_10_5 16_09_04](https://github.com/user-attachments/assets/31888d0b-f0a3-4bf1-afd4-16cfd8b1eb36)
+![Sui钱包截!
 图](./images/你的图片地址)
 - [] package id: 
 - [] package id 在 scan上的查看截图:![Scan截图](./images/你![hello_move – hello_move move 2024_10_5 16_19_45](https://github.com/user-attachments/assets/ae3a7954-d507-4817-832e-ae82ab206219)
