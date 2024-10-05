@@ -1,7 +1,7 @@
 ## 基本信息
-- Sui钱包地址: `0x1000000000000x`
+- Sui钱包地址: 0xe31e10d67640706cc1f22385314a08da5de6f1b49ba7ba35231c027656bc9a23
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `自己的githubid`
+- github: `3381575948`
 
 ## 个人简介
 - 工作经验: x年
@@ -14,9 +14,15 @@
 
 ##   01 hello move  
 - [] Sui cli version:
-- [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
+
+https://github.com/user-attachments/assets/52e83cf0-1dd8-449e-bc32-02b9deb86169
+
+
+- [] Sui钱包截图: ![Sui钱包截![Editing letsmove_mover_001_readme md at main · 3381575948_letsmove - 个人 - Microsoft​ Edge 2024_10_5 16_09_04](https://github.com/user-attachments/assets/a2711573-3e3c-4b5a-92b0-62c1f7a23522)
+图](./images/你的图片地址)
 - [] package id: 
-- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+- [] package id 在 scan上的查看截图:![Scan截图](./images/你![hello_move – hello_move move 2024_10_5 16_19_45](https://github.com/user-attachments/assets/ae3a7954-d507-4817-832e-ae82ab206219)
+的图片地址)
 
 ##   02 move coin
 - [] My Coin package id : 
