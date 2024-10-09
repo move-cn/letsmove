@@ -4,7 +4,7 @@ module hello_nina_233::hello_nina_233 {
 
 }
 */
-module hello_move::hello {
+module hello_nina_233::hello {
     use std::ascii::{String, string};
     use sui::object::{Self,UID};
     use sui::transfer::transfer;
