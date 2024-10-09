@@ -16,7 +16,7 @@
 - [] Sui cli version:
 - [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
 - [] package id: 
-- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+- [] package id 在 scan上的查看截图:![Scan截图](https://github.com/zhtlyj/images/blob/main/sui%E9%92%B1%E5%8C%85.png)
 
 ##   02 move coin
 - [] My Coin package id : 
