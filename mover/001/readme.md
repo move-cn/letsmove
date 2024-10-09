@@ -1,20 +1,20 @@
 ## 基本信息
-- Sui钱包地址: `0x1000000000000x`
+- Sui钱包地址: `0xc3bbd3b1fb6f8bbf5f0d331a148d1b32d8828e506da4785ebd2605d3eb08cdde`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `自己的githubid`
+- github: `Nina_2333`
 
 ## 个人简介
-- 工作经验: x年
-- 技术栈: `Rust` `C++`
+- 工作经验: 0.5年
+- 技术栈: `solidity、go、nodejs`
 > 重要提示 请认真写自己的简介
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `xxx` 
+- 对web3很感兴趣，有撰写过solidity的活页式教程，https://www.thinkingsolidity.com/ ，现在想学习一下Move语言，时间允许的话可以帮忙写教程
+- 联系方式: tg: `Echo_2333` 
 
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:
-- [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
+- [x] Sui cli version: sui 1.34.1-homebrew
+- [x] Sui钱包截图: ![Sui钱包截图](./images/WX20241009-205157@2x.png)
 - [] package id: 
 - [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
 

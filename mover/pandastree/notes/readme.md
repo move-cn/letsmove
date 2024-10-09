@@ -1,1 +1,0 @@
-code is law.
