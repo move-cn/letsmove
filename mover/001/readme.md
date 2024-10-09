@@ -29,7 +29,7 @@
 - [] nft package id :
 - [] nft object id : 
 - [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [] scan上的NFT截图:![Scan截图](https://github.com/zhtlyj/images/blob/main/packageId%E6%88%AA%E5%9B%BE.png)
 
 ##   04 Move Game
 - [] game package id :
