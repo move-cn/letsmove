@@ -16,7 +16,7 @@ module hello_xu200::hello {
     fun init(ctx: &mut TxContext) {
         let hello_xu200 = Hello {
             id:object::new(ctx),
-            say: string(b"move"),
+            say: string(b"Hello,xu200"),
         };
         transfer(hello_xu200, sender(ctx));
     }
