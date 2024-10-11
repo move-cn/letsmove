@@ -8,7 +8,7 @@ module web3richer_coin::web3richer_coin {
     fun init(witness: WEB3RICHER_COIN, ctx: &mut TxContext) {
         let (treasury, metadata) =
             coin::create_currency(
-                witness,
+            witness,
             8,
             b"WRC",
             b"Web3Richer Coin",
@@ -20,5 +20,13 @@ module web3richer_coin::web3richer_coin {
         transfer::public_freeze_object(metadata);
 
         transfer::public_transfer(treasury, ctx.sender());
+    }
+
+    public entry fun mint(ctx: &mut TxContext) {
+        let object = HelloWorldObject {
+            id: object::new(ctx),
+            text: string::utf8(b"Hello World!")
+        };
+        transfer::transfer(object, tx_context::sender(ctx));
     }
 }
