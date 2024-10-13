@@ -1,23 +1,21 @@
 ## 基本信息
-- Sui钱包地址: `0xc4654c5dc95a8032e58d089211e4bc5ce094b841f9a1858ff6258e2c5e4586ea`
+- Sui钱包地址: `0xb2cb587391bdc40d73382cc4cf7c86fbe01740010a25c609d7ff94de3e71886f`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `AdolfYv`
+- github: `aoooooeaoooooe`
 
 ## 个人简介
 - 工作经验: 0年
-- 技术栈: `C++`
+- 技术栈: `学过一点c语言`
 > 重要提示 请认真写自己的简介
 - 在校学生，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式:  微信: `wxid_35lrk7oen4no22`
+- 联系方式:  qq: `2979525180`
 
 ## 任务
 
 ##   01 hello move  
-- [x] Sui cli version:sui 1.25.0-b10ea7331e1c-dirty
-- [x] Sui钱包截图: ![Sui钱包截图](./images/wallet.png)
-- [x] package id: 0x9495f0214c31ea98178543a3657ff797e1f82660a00193671c35d3d97f6eb8f1
-- [x] package id 在 scan上的查看截图:![Scan截图](./images/scan.png)
-
+- [x] sui-client 1.34.0-c23f6057c8d6
+- [x] package id: 0x4f07662c5de0dfc7b86aef644606661f06d4a0012a099ab0ff28f334a97a0d24     
+scan 截图 scan查不到用 sui client object id 命令的运行截图代替
 ##   02 move coin
 - [] My Coin package id : 
 - [] Faucet package id : 
