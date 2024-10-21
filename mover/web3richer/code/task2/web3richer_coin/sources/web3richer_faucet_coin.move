@@ -6,6 +6,11 @@ module web3richer_coin::web3richer_faucet_coin {
 
     public struct WEB3RICHER_FAUCET_COIN has drop{}
 
+    public struct TotalSupply has key, store {
+        id: UID,
+        supply: balance::Supply<WEB3RICHER_FAUCET_COIN>
+    }
+
     fun init(witness: WEB3RICHER_FAUCET_COIN, ctx: &mut TxContext) {
         let (treasury, metadata) =
             coin::create_currency(
@@ -21,9 +26,19 @@ module web3richer_coin::web3richer_faucet_coin {
         transfer::public_freeze_object(metadata);
 
         transfer::public_share_object(treasury);
+
+        let supply = coin::treasury_into_supply(treasury);
+
+        transfer::public_transfer(TotalSupply {
+            id: object::new(ctx),
+            supply
+        }, ctx.sender());
+
     }
 
-    public entry fun mint(treasury: &mut TreasuryCap<WEB3RICHER_FAUCET_COIN>, value: u64,  recipient: address, ctx: &mut TxContext){
-        coin::mint_and_transfer(treasury, value, recipient, ctx);
+    public entry fun mint(supply: &mut TotalSupply, value: u64, ctx: &mut TxContext) {
+        let balance = balance::increase_supply(&mut supply.supply, value);
+        let coin = coin::from_balance(balance, ctx);
+        transfer::public_transfer(coin, ctx.sender());
     }
 }

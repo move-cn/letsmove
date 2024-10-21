@@ -22,4 +22,8 @@ module web3richer_coin::web3richer_coin {
         transfer::public_transfer(treasury, ctx.sender());
     }
 
+    public fun mint(treasury_cap: &mut TreasuryCap<WEB3RICHER_COIN>, amount: u64, recipient: address, ctx: &mut TxContext) {
+        coin::mint_and_transfer(treasury_cap, amount, recipient, ctx)
+    }
+
 }
