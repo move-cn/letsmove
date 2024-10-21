@@ -35,6 +35,6 @@ published-version = "1"
 
 [env.ed25519]
 chain-id = "4c78adac"
-original-published-id = "0xaab6c0c35bbe8225ff658fbe18a31a923c29e6a696fdd0272056556bbd041e59"
-latest-published-id = "0xaab6c0c35bbe8225ff658fbe18a31a923c29e6a696fdd0272056556bbd041e59"
+original-published-id = "0xc9b4e1a5845d2074035bc844fb20c49d937955456f3148e4273dcef356f4fddd"
+latest-published-id = "0xc9b4e1a5845d2074035bc844fb20c49d937955456f3148e4273dcef356f4fddd"
 published-version = "1"
