@@ -2,7 +2,7 @@
 name = "web3richer_coin"
 edition = "2024.beta"
 version = "0.0.1"
-publish_at = "0x0"
+
 
 
 [dependencies]
