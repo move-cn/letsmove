@@ -1,4 +1,4 @@
-module web3richer_coin::web3richer_coin {
+module web3richer_nft::web3richer_coin {
 
     use sui::coin;
     use sui::transfer;

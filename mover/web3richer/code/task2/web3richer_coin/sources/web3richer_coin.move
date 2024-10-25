@@ -1,7 +1,7 @@
 module web3richer_coin::web3richer_coin {
 
     use sui::coin;
-    use sui::transfer;
+    use sui::coin::TreasuryCap;
 
     public struct WEB3RICHER_COIN has drop{}
 
@@ -18,12 +18,17 @@ module web3richer_coin::web3richer_coin {
         );
 
         transfer::public_freeze_object(metadata);
-
         transfer::public_transfer(treasury, ctx.sender());
     }
 
-    public fun mint(treasury_cap: &mut TreasuryCap<WEB3RICHER_COIN>, amount: u64, recipient: address, ctx: &mut TxContext) {
-        coin::mint_and_transfer(treasury_cap, amount, recipient, ctx)
+    public entry fun mint(treasury: &mut TreasuryCap<WEB3RICHER_COIN>, amount: u64, recipient: address, ctx: &mut TxContext) {
+        coin::mint_and_transfer(treasury, amount, recipient, ctx)
+    }
+
+
+    #[test_only]
+    public fun test_init(ctx: &mut TxContext) {
+        init(WEB3RICHER_COIN {}, ctx)
     }
 
 }
