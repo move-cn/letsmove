@@ -43,12 +43,12 @@
 - [x] call swap CoinB-> CoinA  hash : 8eWybBLnrZjGgcFdBGF4L2S3Z98bkeF148ZMwJ7gFyy3
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : BurB7LP37vyzrsqjr5wVxTQ9pwEdwuaAV5nfDQyJDJ9L
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : ![cli截图](./notes/4.png)
+- [x] flag hash : 8Fq1zyfhGxbSNSi7rpo9BRMih66YwEsDPsq6CSAab1Hg
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof :  d84e540db65649ecbda1
+- [x] flag hash : 5JRdKy6oQSNeTJzX3Xuje8hi8aGdruxgB2zVD45pgfE1
