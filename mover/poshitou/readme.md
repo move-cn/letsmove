@@ -13,22 +13,22 @@
   - 在这大半年里，我学习了区块链的基础知识，包括区块链的概念、原理、技术架构、共识算法、智能合约等。
   - 目前对以太坊生态比较熟悉，现在正在学习sui生态，更看好sui。
   - 熟练掌握了以太坊生态的solidity开发，熟练掌握hardhat，foundry开发工具。
-  - 熟悉以太坊的dapp开发，熟悉web3.js，ethers.js等开发工具。
-  - 熟悉以太坊defi生态。了解AMM自动做市商，uniswap，sushiswap等dex和compound借贷协议。
+  - 熟悉以太坊的dapp开发，熟悉web3.js,ethers.js等开发工具。
+  - 熟悉以太坊defi生态。了解AMM自动做市商,uniswap,Curve,sushiswap等dex和compound借贷协议。
   - 对以太坊生态mev有一定的研究，熟悉dex套利，三明治攻击，清算等策略。了解flashbots的订单拍卖流程。
-  - 熟悉mev中的各个角色，包括searcher，builder，relay，validator。
-  - 对falshbots中的各个组件有一定的了解，包括Flashbots-Protect,MEV-Boost,MEV-Boost Relay,MEV-Share等。
+  - 熟悉mev中的各个角色，包括searcher,builder,relay,validator。
+  - 对Falshbots中的各个组件有一定的了解，包括Flashbots-Protect,MEV-Boost,MEV-Boost Relay,MEV-Share等。
 
 
 - 正在做的事情:
-   - 用rust和solidty语言，flashbots的sdk，开发自动化以太坊dex的套利和三明治机器人。
+   - 用rust和Solidty语言,Flashbots的sdk，开发自动化以太坊dex的套利和三明治机器人。
    - 学习sui生态和move语言，希望能在sui上找到自己的位置，包括找一份sui生态的开发工作、捕获sui生态早期mev机会。
 
 
 - 个人特点: 对区块链技术有浓厚兴趣，喜欢研究区块链技术的前沿知识。
 
 
-- 联系方式: Email: `m15633780867@163.com` 
+- 联系方式: Email: `m15633780867@163.com` Tg: `https://t.me/demon0378`
 
 ## 任务
 
