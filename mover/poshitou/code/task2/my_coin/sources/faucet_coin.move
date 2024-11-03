@@ -20,7 +20,6 @@ module my_coin::faucet_coin {
         transfer::public_freeze_object(coin_metadata);
 
         transfer::public_share_object(treasury_cap);
-        coin::mint_and_transfer()
 
     }
 }
