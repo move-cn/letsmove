@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x1000000000000x`
+- Sui钱包地址: `0xd123e6de58c45994bcb04a9b2fec83de6bcf21b12d29f1b4b1d85d243d7969dd`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `greyhao`
 
@@ -13,10 +13,10 @@
 ## 任务
 
 ##   01 hello move
-- [] Sui cli version:
-- [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
-- [] package id:
-- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+- [x] Sui cli version: sui 1.36.2-3ada97c109cc
+- [x] Sui钱包截图: ![Sui钱包截图](./images/sui-wallet.png)
+- [x] package id: 0x55ff6092fee0e2ce0b079f8677b2e040b4746d9c7e236cd856a60184abeacb18
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/package-id.png)
 
 ##   02 move coin
 - [] My Coin package id :
