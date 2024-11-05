@@ -33,23 +33,23 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version: sui 1.22.0-0362997-dirty
-- [] Sui钱包截图: ![Sui钱包截图](./images/img.png)
-- [] package id: 0xd30aac1205b84bc3a84c0ecc7c53f1716d259ff5ff86c85b968ea1f2272354d4
-- [] package id 在 scan上的查看截图:![Scan截图](./images/img_1.png)
+- [√] Sui cli version: sui 1.22.0-0362997-dirty
+- [√] Sui钱包截图: ![Sui钱包截图](./images/img.png)
+- [√] package id: 0xd30aac1205b84bc3a84c0ecc7c53f1716d259ff5ff86c85b968ea1f2272354d4
+- [√] package id 在 scan上的查看截图:![Scan截图](./images/img_1.png)
 
 ##   02 move coin
-- [] My Coin package id : 0x388ecc0ef7261e40f7be055c723e4bf275d3eeb33eae3525e4b7096065b19b73
-- [] Faucet package id : 0x388ecc0ef7261e40f7be055c723e4bf275d3eeb33eae3525e4b7096065b19b73
-- [] 转账 `My Coin` hash: 6uoiAJdExVurr1bTUwx129PdvEUQGYtYa9TLwjJVgEs7
-- [] `Faucet Coin` address1 mint hash: KyxELgY5Ph3vHhugZirRYLS9ThGJbLUyrTLobgGyN3U
-- [] `Faucet Coin` address2 mint hash: 6Bb5a4MGsqxRaYHx1EpDuVzostWkZ8W45bYZhURVb9sw
+- [√] My Coin package id : 0x388ecc0ef7261e40f7be055c723e4bf275d3eeb33eae3525e4b7096065b19b73
+- [√] Faucet package id : 0x388ecc0ef7261e40f7be055c723e4bf275d3eeb33eae3525e4b7096065b19b73
+- [√] 转账 `My Coin` hash: 6uoiAJdExVurr1bTUwx129PdvEUQGYtYa9TLwjJVgEs7
+- [√] `Faucet Coin` address1 mint hash: KyxELgY5Ph3vHhugZirRYLS9ThGJbLUyrTLobgGyN3U
+- [√] `Faucet Coin` address2 mint hash: 6Bb5a4MGsqxRaYHx1EpDuVzostWkZ8W45bYZhURVb9sw
 
 ##   03 move NFT
-- [] nft package id : 0xca848e93c091f6439839ea3ca4ec2498b8dc82112be2c732368eddbce597c7d4
-- [] nft object id : 0x89db57a30f2bf646caa42ad764e747f3aa042d24a177e37ad7822af1365530db
-- [] 转账 nft  hash: 7Rt36wXxhB8ppmeLhwT94aXYXPbvyF9LMzMoGCBdhK1E
-- [] scan上的NFT截图:![Scan截图](./images/github_img.png)
+- [√] nft package id : 0xca848e93c091f6439839ea3ca4ec2498b8dc82112be2c732368eddbce597c7d4
+- [√] nft object id : 0x89db57a30f2bf646caa42ad764e747f3aa042d24a177e37ad7822af1365530db
+- [√] 转账 nft  hash: 7Rt36wXxhB8ppmeLhwT94aXYXPbvyF9LMzMoGCBdhK1E
+- [√] scan上的NFT截图:![Scan截图](./images/github_img.png)
 
 ##   04 Move Game
 - [] game package id :

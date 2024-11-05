@@ -3,7 +3,7 @@ name = "my_coin"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
-publish-at = "0x388ecc0ef7261e40f7be055c723e4bf275d3eeb33eae3525e4b7096065b19b73"
+published-at = "0x388ecc0ef7261e40f7be055c723e4bf275d3eeb33eae3525e4b7096065b19b73"
 
 [dependencies]
 Sui = { git = "https://gitee.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
