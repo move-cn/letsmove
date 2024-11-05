@@ -2,11 +2,12 @@
 
 ## b站，推特关注
 
-- [] b站，推特关注截图: ![关注截图](./images/bilibili_follow.png)
+- [√] b站，推特关注截图: ![关注截图](./images/bilibili_follow.png)
+![关注截图](./images/x_follow.png)
 
 ## 为共学营宣传（在朋友圈或者群聊中转发海报/文章）
 
-- [] 宣传截图:![宣传截图](./images/brand_promote.png)
+- [√] 宣传截图:![宣传截图](./images/brand_promote.png)
 
 ## 每周课程学习
 
