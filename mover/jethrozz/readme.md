@@ -5,7 +5,7 @@
 
 ## 个人简介
 - 工作经验: 5年
-- 技术栈: `JAVA` `JS`
+- 技术栈: `JAVA` `JS` `Solidity` 
 > 重要提示 请认真写自己的简介
 - 多年web2后端开发经验，会一些前端，学了一些Rust和Solidity，感觉Sui在未来应该会更火，所以想了解一下，顺便看看能不能增长一下自己的技能树
 - 联系方式: wechat: `xinchen_zhu` 
@@ -13,10 +13,10 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:
-- [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
-- [] package id: 
-- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+- [✔] Sui cli version: sui 1.37.1-7839b9501066
+- [✔] Sui钱包截图: ![Sui钱包截图](./images/sui_wallet.png)
+- [✔] package id: 0xe266ac352fc74df85a968217dd1064240d138adfdc2aefc0aa6f3f4b9d001d9f
+- [✔] package id 在 scan上的查看截图:![Scan截图](./images/packageid.png)
 
 ##   02 move coin
 - [] My Coin package id : 
