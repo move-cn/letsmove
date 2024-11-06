@@ -2,8 +2,8 @@
 
 ## b站，推特关注
 
-- [] b站，推特关注截图: ![关注截图](./images/bilibili.png)
-- [] b站，推特关注截图: ![关注截图](./images/bilibili_guanzhu.png)
+- [x] b站，推特关注截图: ![关注截图](./images/bilibili.png)
+- [x] b站，推特关注截图: ![关注截图](./images/bilibili_guanzhu.png)
 
 ## 为共学营宣传（在朋友圈或者群聊中转发海报/文章）
 
