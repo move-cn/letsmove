@@ -7,16 +7,17 @@
 - 工作经验: 3年
 - 技术栈: `JavaScript` `TypeScript`
 > 重要提示 请认真写自己的简介
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
+- 墨尔本大学IT硕士毕业，3年在某头部券商前端开发经验
+- 对区块链以及Move语言特别感兴趣，想通过Move入门区块链
 - 联系方式: tg: `chriszyy` 
 
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:
-- [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
-- [] package id: 
-- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+- [✔] Sui cli version: 1.37.1-7839b9501066
+- [✔] Sui钱包截图: ![Sui钱包截图](./code/task1/images/sui-wallet.jpg)
+- [✔] package id: 0x78bc47c59f9f1790461bf86905af09d9f67aebb1e718757cff03f84fae237e38
+- [✔] package id 在 scan上的查看截图:![Scan截图](./code/task1/images/sui-scan-package.jpg)
 
 ##   02 move coin
 - [] My Coin package id : 
