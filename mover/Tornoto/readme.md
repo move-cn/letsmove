@@ -16,10 +16,10 @@
 
 ## 01 hello move
 
-- [] Sui cli version: sui 1.37.1-7839b9501066
-- [] Sui 钱包截图: ![Sui钱包截图](../Tornoto//co-learn-2411/images/wallet-screenshoot.png)
-- [] package id: BfgNxpRpJXEayZ61qVNGRNvViamxjE5nnh8A2yP6jkgK
-- [] package id 在 scan 上的查看截图:![Scan截图](../Tornoto/co-learn-2411/images/package-id-screenshoot.png)
+- [x] Sui cli version: sui 1.37.1-7839b9501066
+- [x] Sui 钱包截图: ![Sui钱包截图](../Tornoto//co-learn-2411/images/wallet-screenshoot.png)
+- [x] package id: BfgNxpRpJXEayZ61qVNGRNvViamxjE5nnh8A2yP6jkgK
+- [x] package id 在 scan 上的查看截图:![Scan截图](../Tornoto/co-learn-2411/images/package-id-screenshoot.png)
 
 ## 02 move coin
 
