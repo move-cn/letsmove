@@ -2,7 +2,11 @@
 
 ## b站，推特关注
 
-- [] b站，推特关注截图: ![关注截图](./images/你的图片地址)
+- [x] b站，推特关注截图: 
+![关注截图](./images/Twitter%20follow.png)
+![关注截图](./images/Bilibili%20follow.png)
+![关注截图](./images/Typus_Finance_follow.png)
+![关注截图](./images/Navi_Protocol_follow.png)
 
 ## 为共学营宣传（在朋友圈或者群聊中转发海报/文章）
 

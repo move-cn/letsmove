@@ -1,22 +1,23 @@
 ## 基本信息
-- Sui钱包地址: `0x1000000000000x`
+- Sui钱包地址: `0x0234bddfc4deb68aaddd61b79a5857c1b0a29268a3b2e9d162bc13f45be60e1a`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `自己的githubid`
+- github: `looikaizhi`
 
 ## 个人简介
-- 工作经验: x年
-- 技术栈: `Rust` `C++`
+- 学历: 北京理工大学 研一（在读）
+- 技术栈: `Python` `Solidity` `JavaScript`
 > 重要提示 请认真写自己的简介
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `xxx` 
+- 2023年12月开始正式接触Web3项目，会参与一些项目的空投
+- 在今年8月有开始写一些文章，可是开课后比较忙，更新频率较低（ https://medium.com/@looikaizhi0305 ）
+- 联系方式: tg: `@potato_4392013` twitter: `@LKZchain`
 
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:
-- [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
-- [] package id: 
-- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+- [x] Sui cli version: `sui 1.36.2-3ada97c109cc`
+- [x] Sui钱包截图: ![Sui钱包截图](./images/SuiWalletScreenshot.png)
+- [x] package id: `0x878f8f938f55f9511e28b4a3b41db4121ad4bb46c3ab2933dbe4db9df5dbd05a`
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/SuiScanScreenshot.png)
 
 ##   02 move coin
 - [] My Coin package id : 
