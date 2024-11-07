@@ -1,4 +1,4 @@
-# HOH*Move 共学\_Task1*小白向（mac 版）
+# HOHMove 共学_Task1小白向（mac 版）
 
 ![海报](assets/%E6%B5%B7%E6%8A%A5.webp)
 ![HOH](assets/HOH.webp)
