@@ -1,4 +1,4 @@
-# HOHMove 共学_Task1小白向（mac 版）
+# HOHMove 共学*Task1*小白向（mac 版）
 
 ![海报](assets/%E6%B5%B7%E6%8A%A5.webp)
 ![HOH](assets/HOH.webp)
@@ -183,9 +183,9 @@ cd 到 code 中`cd code`
 
 ![](assets/17309833849361.jpg)
 
-将内容替换为以下代码
+将内容替换为以下代码，记得将输出内容替换成你的 github id
 
-```move
+```rust
 module task1::hello ;
 
 use std::ascii::{String, string};
@@ -201,7 +201,7 @@ public struct Hello has key {
 fun init(ctx: &mut TxContext) {
     let hello_move = Hello {
         id: object::new(ctx),
-        say: string(b"ChainRex"),
+        say: string(b"你的github id"),
     };
     transfer(hello_move, ctx.sender());
 }
@@ -308,4 +308,8 @@ fun init(ctx: &mut TxContext) {
 
 把 PR 链接发到群里进行接龙，可以等着拿奖励啦
 
-![](assets/17309893142005.jpg)
+![](assets/PR.png)
+
+又要到饭啦
+
+![](assets/17309912666039.jpg)
