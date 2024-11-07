@@ -7,8 +7,8 @@
 - 工作经验: 10年
 - 技术栈: `java` `python`
 > 重要提示 请认真写自己的简介
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `xxx` 
+- 多年web2开发经验，想学一门web3开发语言
+- 联系方式: tg: `https://t.me/recursionSk` 
 
 ## 任务
 
