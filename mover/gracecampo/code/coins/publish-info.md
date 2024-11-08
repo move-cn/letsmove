@@ -2,6 +2,7 @@ PackageID: 0xb23d8af72896b232ca9d5deb26fde9bf06dea1ad42c72542606433e3c5b702e0
 Modules: faucet_coin, my_coin
 
 my_coin
+
 ObjectID: 0x070342e3b5201c8cc203bd28b50180f5e9dd5c7f89d6e40f382b41f1b56074c0
 
 faucet_coin
