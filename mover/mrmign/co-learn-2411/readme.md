@@ -2,37 +2,37 @@
 
 ## b站，推特关注
 
-- [✔] b站，推特关注截图: ![B站关注截图](./images/bzhan.png)
-![B站关注截图](./images/X.png)
+- [x] b站关注截图: ![关注截图](./images/bilibili.png)
+- [x] 推特关注截图: ![关注截图](./images/twitter.png)
 
 ## 为共学营宣传（在朋友圈或者群聊中转发海报/文章）
 
-- [] 宣传截图:![宣传截图](./images/你的图片地址)
+- [x] 宣传截图:![宣传截图](./images/pengyouquan.png)
 
 ## 每周课程学习
 
-- [✔] 第一周:![学习记录截图](./images/lesson01finish.png)
+- [x] 第一周:![学习记录截图](./images/week1_note.png)
 - [] 第二周:![学习记录截图](./images/你的图片地址)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 参加直播答疑
 
-- [] 第一周:![学习记录截图](./images/你的图片地址)
+- [x] 第一周:![学习记录截图](./images/week1_learning.png)
 - [] 第二周:![学习记录截图](./images/你的图片地址)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 群里分享学习笔记
 
-- [✔] 第一篇笔记 https://juejin.cn/post/7434579970826289215
+- [x] 第一篇笔记 [环境搭建 - Move共学营2024](https://blog.metaprogramming.space/post/34.html)
 - [] 第二篇笔记
 - [] 第三篇笔记
 - [] 第四篇笔记
 
 ## 对外输出学习笔记
 
-- [✔] 第一篇笔记【 https://juejin.cn/post/7434579970826289215 】
+- [x] 第一篇笔记【[环境搭建 - Move共学营2024](https://blog.metaprogramming.space/post/34.html)
 - [] 第二篇笔记【学习笔记链接】
 - [] 第三篇笔记【学习笔记链接】
 - [] 第四篇笔记【学习笔记链接】
