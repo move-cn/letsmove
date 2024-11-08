@@ -11,7 +11,7 @@ module coins::my_coin {
 				transfer::public_transfer(treasury, ctx.sender());
 		}
 
-        public fun mint(
+        public entry fun mint(
 				treasury_cap: &mut TreasuryCap<MY_COIN>, 
 				amount: u64, 
 				recipient: address, 
