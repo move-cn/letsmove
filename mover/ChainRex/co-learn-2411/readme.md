@@ -32,7 +32,9 @@
 
 ## 对外输出学习笔记
 
-- [x] 第一篇笔记 https://learnblockchain.cn/article/9804
+- [x] 第一篇笔记
+  - https://learnblockchain.cn/article/9804
+  - https://juejin.cn/spost/7434694056411103295
 - [] 第二篇笔记【学习笔记链接】
 - [] 第三篇笔记【学习笔记链接】
 - [] 第四篇笔记【学习笔记链接】
