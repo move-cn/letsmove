@@ -5,14 +5,14 @@ edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 authors = ["gracecampo(gracecampo666@gmail.com)"]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
 [dependencies]
-Sui = { git = "https://gitee.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+Sui = { git = "https://gitee.com/move-cn/sui-jp.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
 # MyRemotePackage = { git = "https://some.remote/host.git", subdir = "remote/path", rev = "main" }
 
 # For local dependencies use `local = path`. Path is relative to the package root
-# Local = { local = "../path/to" }
+# Local = { local = "D:\\project\\sui\\crates\\sui-framework\\packages\\sui-framework" }
 
 # To resolve a version conflict and force a specific version for dependency
 # override use `override = true`
