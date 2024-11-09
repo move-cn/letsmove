@@ -1,6 +1,6 @@
 module move_coin::ZCDCCOIN {
     use sui::coin::{Self, Coin, TreasuryCap};
-
+    use sui::url;
     public struct ZCDCCOIN has drop {}
 
     /// Module initializer is called once on module publish. A treasury
@@ -12,7 +12,7 @@ module move_coin::ZCDCCOIN {
           b"ZCDCCoin",
           b"ZCDCCoin",
           b"ZCDCCoin is NO.1",
-          option::none(),
+        option::some(url::new_unsafe_from_bytes(b"https://aggregator.walrus-testnet.walrus.space/v1/n-e_Ni4LwoBJUwu_Ovccl7Lflh_NmHmvwMpLWLRwCt0")),
           ctx
         );
         transfer::public_freeze_object(metadata);
