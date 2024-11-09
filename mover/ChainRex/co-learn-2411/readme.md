@@ -26,14 +26,14 @@
 ## 群里分享学习笔记
 
 - [x] [第一篇笔记](../notes/task1/readme.md)
-- [] 第二篇笔记
+- [x] [第二篇笔记](../notes/task2/readme.md)
 - [] 第三篇笔记
 - [] 第四篇笔记
 
 ## 对外输出学习笔记
 
 - [x] 第一篇笔记 https://learnblockchain.cn/article/9810
-- [] 第二篇笔记【学习笔记链接】
+- [x] 第二篇笔记 https://learnblockchain.cn/article/9822
 - [] 第三篇笔记【学习笔记链接】
 - [] 第四篇笔记【学习笔记链接】
 
