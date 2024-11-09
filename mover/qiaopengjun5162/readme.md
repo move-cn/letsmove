@@ -11,7 +11,7 @@
 - 工作经验: 3年
 - 技术栈: `Rust` `Python` `Go`
 - 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `xxx`
+- 联系方式: tg: `qiao4812`
 
 ## 任务
 
@@ -31,16 +31,24 @@
 - [] nft object id : 0x6f0da7613e0c334f2f28dabd9e48ed46fd57e5f0e94426dd03feed98ce11ab91
 - [] 转账 nft  hash: J265bgtRvkGiP5D7TRH4qrFPQJ1xGPbvgkPAhhHNJAXN
 
-## 04 Move Game
+##   04 Move Game
+- [] game package id : 0x496748d4d94c241583d915fb6e81f52601dc2c813af3d5e9584d5643d69f1afd
+- [] deposit Coin hash: F8V1rPcLYR7QijakrbkZkzPEMfJeanUaPAidLnUTj9C7
+- [] play game hash: 3ZymeB9CVZdkwQBuaP1NJtPZU5hT2tkmVRqUGJYJbPeG
 
-- [] game package id :
-- [] call game hash:
-
-## 05 Move Swap
-
+##   05 Move Swap
 - [] swap package id :
-- [] call swap hash:
+- [] call swap CoinA-> CoinB  hash :
+- [] call swap CoinB-> CoinA  hash :
 
-## 06 SDK PTB
-
+##   06 Dapp-kit SDK PTB
 - [] save hash :
+
+##   07 Move CTF Check In
+- [] CLI call 截图 : ![截图](./images/你的图片地址)
+- [] flag hash :
+
+##   08 Move CTF Lets Move
+- [] proof :
+- [] flag hash :
+
