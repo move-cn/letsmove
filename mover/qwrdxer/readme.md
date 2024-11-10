@@ -4,11 +4,11 @@
 - github: `qwrdxer`
 
 ## 个人简介
-- 工作经验: 
-- 技术栈: `java` `python`
+- 工作经验: 研究生在读
+- 技术栈: `javascript` `python` `rust`
 > 重要提示 请认真写自己的简介
-- 多年web2开发经验，想学一门web3开发语言
-- 联系方式: tg: `https://t.me/recursionSk` 
+- 有web2开发、大模型相关项目经验、学习过solidity,对move生态感兴趣,共同学习进步。
+- 联系方式: tg: `https://t.me/qwrdxer` 
 
 ## 任务
 
