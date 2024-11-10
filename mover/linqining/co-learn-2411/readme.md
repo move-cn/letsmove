@@ -2,7 +2,12 @@
 
 ## b站，推特关注
 
-- [] b站，推特关注截图: ![关注截图](./images/bilibili.png)
+- [] b站，推特关注截图: ![关注截图](images/task/bilibili/bilibili.png)
+ github项目点赞和关注
+ ![github关注](images/task/github_x_follow/githubfollow.png)
+ ![github项目Star](images/task/github_x_follow/githubstar.png)
+ X关注
+ ![X关注](images/task/github_x_follow/x_follow.png)
 
 ## 为共学营宣传（在朋友圈或者群聊中转发海报/文章）
 
