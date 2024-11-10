@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x2647216f353fcb955ccc97a3d3c1f2d26e1c6b21bb3a30521dfd11cbfc82af8c`
+- Sui钱包地址: `0x2647216353fcb955ccc97a3d3c1f2d26e1c6b21bb3a30521dfd11cbfc82af8c`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `lori223`
 
@@ -13,10 +13,10 @@
 ## 任务
 
 ##   01 hello move  
-- [x] Sui cli version: sui 1.37.1-7839b9501066
-- [x] Sui钱包截图: ![Sui钱包截图](./images/C:\Users\lenovo\Desktop\SUI.png))
-- [x] package id: 0xdeda3118a73ea8c43c009a25382571b75f78cfea2e10662b9248ddfb513422ca
-- [x] package id 在 scan上的查看截图:![Scan截图](./images/(C:\Users\lenovo\Desktop\scan.png))
+- [] Sui cli version: sui 1.37.1-7839b9501066
+- [] Sui钱包截图: ![Sui钱包截图](./images/sui.png)
+- [] package id: 0xdeda3118a73ea8c43c009a25382571b75f78cfea2e10662b9248ddfb513422ca
+- [] package id 在 scan上的查看截图:![Scan截图](./images/scan.png)
 
 ##   02 move coin
 - [] My Coin package id : 
