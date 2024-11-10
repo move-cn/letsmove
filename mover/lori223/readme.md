@@ -13,10 +13,10 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version: sui 1.37.1-7839b9501066
-- [] Sui钱包截图: ![Sui钱包截图](./images/你的![](C:\Users\lenovo\Desktop\SUI.png)图片地址)
-- [] package id: 3QE9cScpB84RRp8Fi749HM1KjyoerZZ66X16Ttj5gUx8
-- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图![](C:\Users\lenovo\Desktop\123.png)片地址)
+- [x] Sui cli version: sui 1.37.1-7839b9501066
+- [x] Sui钱包截图: ![Sui钱包截图](./images/[](C:\Users\lenovo\Desktop\SUI.png))
+- [x] package id: 0xdeda3118a73ea8c43c009a25382571b75f78cfea2e10662b9248ddfb513422ca
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/[][](C:\Users\lenovo\Desktop\scan.png))
 
 ##   02 move coin
 - [] My Coin package id : 
