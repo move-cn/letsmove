@@ -1,22 +1,22 @@
 ## 基本信息
-- Sui钱包地址: `0xf54f02036244432d8462f5122fe8d7141efce900accfe987187caff17130624d`
+- Sui钱包地址: `0x41a53fcb05fff6f4c38093b41bf22f711b2fa893019bdabcbf5296d8314ec14e`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `RecursionHs`
+- github: `cmdscz`
 
 ## 个人简介
-- 工作经验: 10年
-- 技术栈: `java` `python`
+- 工作经验: 10000年
+- 技术栈: `我是小白`
 > 重要提示 请认真写自己的简介
 - 多年web2开发经验，想学一门web3开发语言
-- 联系方式: tg: `https://t.me/recursionSk` 
+- 联系方式: tg: `暂时不填上去` 
 
 ## 任务
 
 ##   01 hello move  
-- [✓] Sui cli version: sui 1.37.1-homebrew
-- [✓] Sui钱包截图: ![Sui钱包截图](./images/qb.png)
-- [✓] package id: 0xf54f02036244432d8462f5122fe8d7141efce900accfe987187caff17130624d
-- [✓] package id 在 scan上的查看截图:![Scan截图](./images/l.png)
+- [✓] Sui cli version: sui 1.37.1-7839b9501066
+- [✓] Sui钱包截图: ![Sui钱包截图](./images/qb1.png)
+- [✓] package id: 0xf1084a3b716eb28351b6f15231a79bb16e2912fde564ef0f3ed7093aedb34282
+- [✓] package id 在 scan上的查看截图:![Scan截图](./images/scan1.png)
 
 ##   02 move coin
 - [] My Coin package id : 
