@@ -2,9 +2,9 @@
 
 ## b站，推特关注
 
-- [] b站关注截图: ![关注截图](./images/bilibili_follow.png)
-- [] 推特关注截图: ![关注截图](./images/github_starred.png)
-- [] 仓库Starred截图: ![关注截图](./images/Hoh_follow.png)
+- [✓] b站关注截图: ![关注截图](./images/bilibili_follow.png)
+- [✓] 推特关注截图: ![关注截图](./images/github_starred.png)
+- [✓] 仓库Starred截图: ![关注截图](./images/Hoh_follow.png)
 
 ## 为共学营宣传（在朋友圈或者群聊中转发海报/文章）
 
@@ -12,7 +12,7 @@
 
 ## 每周课程学习
 
-- [] 第一周:![学习记录截图](./images/Learn_NO1.jpg)
+- [✓] 第一周:![学习记录截图](./images/Learn_NO1.jpg)
 - [] 第二周:![学习记录截图](./images/你的图片地址)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
