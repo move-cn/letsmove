@@ -13,10 +13,10 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version: sui 1.37.1-7839b9501066
-- [] Sui钱包截图: ![Sui钱包截图](./images/sui.png)
-- [] package id: 0xdeda3118a73ea8c43c009a25382571b75f78cfea2e10662b9248ddfb513422ca
-- [] package id 在 scan上的查看截图:![Scan截图](./images/scan.png)
+- [x] Sui cli version: sui 1.37.1-7839b9501066
+- [x] Sui钱包截图: ![Sui钱包截图](./images/sui.png)
+- [x] package id: 0xdeda3118a73ea8c43c009a25382571b75f78cfea2e10662b9248ddfb513422ca
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/scan.png)
 
 ##   02 move coin
 - [] My Coin package id : 
