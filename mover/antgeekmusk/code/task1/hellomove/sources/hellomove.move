@@ -15,5 +15,5 @@ fun init(ctx: &mut TxContext) {
         id: object::new(ctx),
         say: string(b"antgeekmusk"),
     };
-    transfer(hello_move, ctx.sender());
+    transfer(hellomove, ctx.sender());
 }
