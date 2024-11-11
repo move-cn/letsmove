@@ -2,7 +2,12 @@
 
 ## b站，推特关注
 
-- [] b站，推特关注截图: ![关注截图](./images/你的图片地址)
+- [x] b站，推特关注截图: ![关注截图](images/task/bilibili/bilibili.png)
+ github项目点赞和关注
+ ![github关注](images/task/github_x_follow/githubfollow.png)
+ ![github项目Star](images/task/github_x_follow/githubstar.png)
+ X关注
+ ![X关注](images/task/github_x_follow/x_follow.png)
 
 ## 为共学营宣传（在朋友圈或者群聊中转发海报/文章）
 
@@ -10,7 +15,7 @@
 
 ## 每周课程学习
 
-- [] 第一周:![学习记录截图](./images/你的图片地址)
+- [] 第一周:![学习记录截图](./images/task/learn_task1/img.png)
 - [] 第二周:![学习记录截图](./images/你的图片地址)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
