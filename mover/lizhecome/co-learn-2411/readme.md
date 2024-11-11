@@ -27,18 +27,18 @@
 
 ## 群里分享学习笔记
 
-- [x] (一)初识Move：区块链智能合约语言概览 【[代码库链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/01_new_to_move.md)】
-- [x]（二）Move开发环境搭建与工具介绍【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/02_move_dev_env.md)】
-- [x]三）使用Move在Sui上发行Coin快速上手【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/03_move_mint_coin.md)】
+- [x] （一）初识Move：区块链智能合约语言概览 【[代码库链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/01_new_to_move.md)】
+- [x] （二）Move开发环境搭建与工具介绍【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/02_move_dev_env.md)】
+- [x] （三）使用Move在Sui上发行Coin快速上手【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/03_move_mint_coin.md)】
 - [] 第二篇笔记
 - [] 第三篇笔记
 - [] 第四篇笔记
 
 ## 对外输出学习笔记
 
-- [x] (一)初识Move：区块链智能合约语言概览【[学习笔记链接](https://learnblockchain.cn/article/9790)】
-- [x]（二）Move开发环境搭建与工具介绍【[学习笔记链接](https://learnblockchain.cn/article/9807)】
-- [x]（二）使用Move在Sui上发行Coin快速上手【[学习笔记链接](https://learnblockchain.cn/article/9838)】
+- [x] （一）初识Move：区块链智能合约语言概览【[学习笔记链接](https://learnblockchain.cn/article/9790)】
+- [x] （二）Move开发环境搭建与工具介绍【[学习笔记链接](https://learnblockchain.cn/article/9807)】
+- [x] （三）使用Move在Sui上发行Coin快速上手【[学习笔记链接](https://learnblockchain.cn/article/9838)】
 - [] 第二篇笔记【学习笔记链接】
 - [] 第三篇笔记【学习笔记链接】
 - [] 第四篇笔记【学习笔记链接】
