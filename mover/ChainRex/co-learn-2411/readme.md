@@ -28,14 +28,14 @@
 - [x] [第一篇笔记](../notes/task1/readme.md)
 - [x] [第二篇笔记](../notes/task2/readme.md)
 - [x] [第三篇笔记](../notes/task3/readme.md)
-- [] 第四篇笔记
+- [x] [第四篇笔记](../notes/task4/readme.md)
 
 ## 对外输出学习笔记
 
 - [x] 第一篇笔记 https://learnblockchain.cn/article/9810
 - [x] 第二篇笔记 https://learnblockchain.cn/article/9822
 - [x] 第三篇笔记 https://learnblockchain.cn/article/9833
-- [] 第四篇笔记【学习笔记链接】
+- [x] 第四篇笔记 https://learnblockchain.cn/article/9846
 
 ## 在 HOH 社区公众号发布自己的技术文章
 
