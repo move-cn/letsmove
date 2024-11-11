@@ -1,25 +1,25 @@
 ## 基本信息
-- Sui钱包地址: `0x1000000000000x`
+- Sui钱包地址: `0x6c9cf8889683b874de4aa15a16497a6c8833f34a12dab73de2976a64371913d6`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `自己的githubid`
+- github: `potato89757`
 
 ## 个人简介
-- 工作经验: x年
-- 技术栈: `Rust` `C++`
+- 工作经验: 0年
+- 技术栈: `无`
 > 重要提示 请认真写自己的简介
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `xxx` 
+- 24年2月接触web3，目前还在读金融硕士，对web3很感兴趣并且未来想往这个行业发展，也很喜欢sui。
+- 联系方式: tg: `@potato89757` 
 
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:
-- [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
-- [] package id: 
-- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+- [x] Sui cli version: `sui 1.37.1-homebrew`
+- [x] Sui钱包截图: ![Sui钱包截图](./image/img.png)
+- [x] package id: `0x5ae23da22f0d6ce7edba2c8bea9bb4d2de81b5158fb4671d94dc59f6fe29fb0c`
+- [x] package id 在 scan上的查看截图:![Scan截图](./image/img_1.png)
 
 ##   02 move coin
-- [] My Coin package id : 
+- [] My Coin package id :  
 - [] Faucet package id : 
 - [] 转账 `My Coin` hash:
 - [] `Faucet Coin` address1 mint hash:
