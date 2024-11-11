@@ -23,7 +23,7 @@
 - [] My Coin package id : 
 - [] Faucet package id : 
 - [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
+- [] `Faucet Coin` address1 mint hash:s
 - [] `Faucet Coin` address2 mint hash:
 
 ##   03 move NFT
