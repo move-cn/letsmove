@@ -1,4 +1,4 @@
-module hello_move::hello ;
+module hellomove::hello ;
 
 use std::ascii::{String, string};
 use sui::object::{Self, UID};
@@ -13,7 +13,7 @@ public struct Hello has key {
 fun init(ctx: &mut TxContext) {
     let hello_move = Hello {
         id: object::new(ctx),
-        say: string(b"RecursionHs"),
+        say: string(b"jdf12"),
     };
     transfer(hello_move, sender(ctx));
 }
