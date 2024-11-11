@@ -24,17 +24,21 @@
 
 ## 群里分享学习笔记
 
-- [x] 第一篇笔记
-- [x] 第二篇笔记
-- [x] 第三篇笔记
-- [x] 第四篇笔记
+- [x] 第一篇笔记 :![群内分享学习笔记](./images/007_群内笔记分享_task1相关.png)
+- [] 第二篇笔记
+- [] 第三篇笔记
+- [] 第四篇笔记
 
 ## 对外输出学习笔记
 
-- [x] 第一篇笔记【 https://blog.csdn.net/weixin_44745147/article/details/143627137 】
-- [x] 第二篇笔记【 https://blog.csdn.net/weixin_44745147/article/details/143627442 】
-- [x] 第三篇笔记【 https://blog.csdn.net/weixin_44745147/article/details/143627498 】
-- [x] 第四篇笔记【 https://blog.csdn.net/weixin_44745147/article/details/143627551 】
+- [x] 第一篇笔记
+  - https://blog.csdn.net/weixin_44745147/article/details/143627137
+  - https://blog.csdn.net/weixin_44745147/article/details/143627442
+  - https://blog.csdn.net/weixin_44745147/article/details/143627498
+  - https://blog.csdn.net/weixin_44745147/article/details/143627551
+- [] 第二篇笔记
+- [] 第三篇笔记
+- [] 第四篇笔记
 
 ## 在HOH社区公众号发布自己的技术文章
 
