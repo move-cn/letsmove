@@ -15,7 +15,7 @@
 
 ## 每周课程学习
 
-- [] 第一周:![学习记录截图](./images/task/learn_task1/img.png)
+- [x] 第一周:![学习记录截图](./images/task/learn_task1/img.png)
 - [] 第二周:![学习记录截图](./images/你的图片地址)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
