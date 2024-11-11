@@ -3,7 +3,7 @@
 ## b站，推特关注
 
 - [x] b站，推特关注截图: ![关注截图](images/task/bilibili/bilibili.png)
- github项目点赞和关注
+- [x] github项目点赞和关注
  ![github关注](images/task/github_x_follow/githubfollow.png)
  ![github项目Star](images/task/github_x_follow/githubstar.png)
  X关注
