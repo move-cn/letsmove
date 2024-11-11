@@ -4,19 +4,19 @@
 - github: `z0yuan`
 
 ## 个人简介
-- 工作经验: x年
-- 技术栈: `Rust` `C++`
+- 工作经验: 0年
+- 技术栈: `C` `C++` `python`
 > 重要提示 请认真写自己的简介
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
+- 本科在读，擅长网络安全中的二进制方向，想学习区块链技术，从move入门。
 - 联系方式: tg: `@z0yuan` 
 
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:sui 1.26.0-d709c305ebf3-dirty
-- [] Sui钱包截图: ![image-20240605112655135](https://zhu-yuan.oss-cn-beijing.aliyuncs.com/Blog/image-20240605112655135.png)
-- [] package id: 0xec177dab0c5504d8f05ad4637a63c7d45cc5a9132e913703e769b3b15706991f
-- [] package id 在 scan上的查看截图:![image-20240605112732845](https://zhu-yuan.oss-cn-beijing.aliyuncs.com/Blog/image-20240605112732845.png)
+- `Sui cli version:sui 1.37.1-7839b9501066`
+- Sui钱包截图: ![wallet](./images/wallet.png)
+- package id: `0x413ed4c91c3387249c5f6f5a364385e2c639e0566810316a30f9b8783bd479cd`
+- package id 在 scan上的查看截图:![task1-packge](./images/task1-packge.png)
 
 ##   02 move coin
 - [] My Coin package id : 
@@ -47,5 +47,5 @@
 
 ## 07 Move CTF Check In
 
-- [] CLI call 截图 :![image-20240610175523325](https://zhu-yuan.oss-cn-beijing.aliyuncs.com/Blog/image-20240610175523325.png)
-- [] flag hash :9QShg9c81cMAXCbUnN2ZdmHH7ZcoBhbFimsTj58BeGFB
+- [] CLI call 截图 :
+- [] flag hash :
