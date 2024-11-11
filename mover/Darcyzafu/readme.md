@@ -15,10 +15,9 @@
 
 ##   01 hello move  
 - [x] Sui cli version:sui 1.37.1-7839b9501066
-- [x] Sui钱包截图: ![![alt text](image.png)](./images/你的图片地址)
+- [x] Sui 钱包截图: ![Sui钱包截图](./images/task1/image.png)
 - [x] package id: 0x5e168e60875e3603e86738428511acddbefb80fbb67df32cc0a8043ab6d40983
-- [x] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)![alt text](e8466fd4812f11bf42364f16da315cf.png)
-
+- [x] package id 在 scan 上的查看截图:![Scan截图](./images/task1/e8466fd4812f11bf42364f16da315cf.png)
 ##   02 move coin
 - [] My Coin package id : 
 - [] Faucet package id : 
