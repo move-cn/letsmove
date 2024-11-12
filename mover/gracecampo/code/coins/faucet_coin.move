@@ -12,13 +12,12 @@ module coins::faucet_coin{
             transfer:: public_share_object(treasury);
     }
 
-    public fun mint(
+    public entry fun get_coin(
         treasury_cap: &mut TreasuryCap<FAUCET_COIN>, 
         amount: u64, 
         recipient: address, 
         ctx: &mut TxContext,
     ) {
-        let coin = coin::mint(treasury_cap, amount, ctx);
-        transfer::public_transfer(coin, recipient)
+        coin::mint_and_transfer(treasury_cap,amount,recipient,ctx);
     }
 }
