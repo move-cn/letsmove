@@ -2,7 +2,6 @@
 /// Module: hello_move
 module hello_move::hello_move;
 */
-
 module hello_move::hello {
     use std::ascii::{String, string};
     use sui::object::{Self,UID};
@@ -17,7 +16,7 @@ module hello_move::hello {
     fun init(ctx: &mut TxContext) {
         let hello_move = Hello {
             id:object::new(ctx),
-            say: string(b"move"),
+            say: string(b"RaynorZhong"),
         };
         transfer(hello_move, sender(ctx));
     }

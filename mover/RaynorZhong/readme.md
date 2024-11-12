@@ -5,18 +5,18 @@
 
 ## 个人简介
 - 工作经验: 12年
-- 技术栈: `Python`
+- 技术栈: `Raynor`
 > 重要提示 请认真写自己的简介
 - 多年 Python 开发经验，对Move特别感兴趣，想通过Move入门区块链
-
+- 联系方式: tg: `xxx` 
 
 ## 任务
 
 ##   01 hello move  
-- [x] Sui cli version: sui 1.37.1-homebrew
-- [x] Sui钱包截图: ![Sui钱包截图](./images/wallet.png)
-- [x] package id: 0xc445ba718d4ad4b7ced98631a2de91f98d748b15585af8ee8cee8b306a81d2a7
-- [x] package id 在 SuiVision上的查看截图:![Scan截图](./images/packageid.png)
+- [] Sui cli version: sui 1.37.1-homebrew
+- [] Sui钱包截图: ![Sui钱包截图](./images/wallet.png)
+- [] package id: 0x22b201c33f9272292876888fb49f5c95a938079ce1ed4ac7a9199018769453f2
+- [] package id 在 scan上的查看截图:![Scan截图](./images/packageid.png)
 
 ##   02 move coin
 - [] My Coin package id : 
