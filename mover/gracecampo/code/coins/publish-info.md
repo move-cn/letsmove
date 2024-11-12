@@ -1,13 +1,22 @@
-PackageID: 0xb23d8af72896b232ca9d5deb26fde9bf06dea1ad42c72542606433e3c5b702e0
-Modules: faucet_coin, my_coin
+-  My Coin :
+   >`0xb9b1172911ad48c5950344cc5bfc7b43ff154a3a91e42a91feb81b9311344880`
+-  Faucet Coin:
+   > ``0x820f3c79f0aba49963049ee67a6ac54f30a7b28311f1cdbcf2ba42220d9ee451``  
+   
+   
+-  My Coin 和 Faucet Coin  package id:
+   >`0xa25825763b380efa4c01d5d8fd490f9c7cae403ac116161779a4433a8f225fae`  
+   
+   
+- 发送 `My Coin`  给地址`0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2`
+  
+  >Transaction Digest:`9G442mbXWPB14dXMDV7zRHMZ7Z6Zs5Q4HZdYtkUuGBac`  
+   
 
-my_coin
+   
+- Faucet Coin需要至少用两个地址mint:  
+    > Transaction Digest: `6GAFqAm1djQ6HjJDVsAX6UUHjkKMwArviNBAZteKtpGv`  
 
-ObjectID: 0x070342e3b5201c8cc203bd28b50180f5e9dd5c7f89d6e40f382b41f1b56074c0
+    > Transaction Digest: `HKDpQC529yqn57M9to7Ppp6m7KemxjHNEHfu2yo2JtJx`  
 
-faucet_coin
-ObjectID: 0x5ae4aed193a21e3d6de40b805aba0e8d040f0a2e7849c5b91eafe9142e0c0838
 
-sui client call --package 0xb23d8af72896b232ca9d5deb26fde9bf06dea1ad42c72542606433e3c5b702e0 --module my_coin --function mint --args 0x1f646fd289d026eda8d336ca25b349f6d8eb39bef1dfdbdb25702323adf5d59a 100000000 0xa3b3e16a06bc3d449a8c716d6834da7ba7143a2d7c84067976d14ed886124c6f --gas-budget 100000000
-
-sui client call --package 0xb23d8af72896b232ca9d5deb26fde9bf06dea1ad42c72542606433e3c5b702e0 --module faucet_coin --function get_coin --args 0xe423edeb86f8ccd434e2dc1627d7a02d2eada57cea145c7bec0b0edbaf9b7d41 100000000 0xa015d5a7be57f60c0b41fd7ec6c046d0ee560e1861fb9f415e4632ec35b53cc0 --gas-budget 100000000
