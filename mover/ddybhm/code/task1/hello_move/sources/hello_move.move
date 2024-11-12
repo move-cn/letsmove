@@ -2,7 +2,6 @@ module hello_move::hello {
     use std::ascii::{String, string};
     use sui::object::{Self,UID};
     use sui::transfer::transfer;
-    #[allow(duplicate_alias)]
     use sui::tx_context::{TxContext, sender};
 
     public struct Hello has key{
@@ -18,3 +17,5 @@ module hello_move::hello {
         transfer(hello_move, sender(ctx));
     }
 }
+
+
