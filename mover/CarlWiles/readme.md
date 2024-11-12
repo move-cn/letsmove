@@ -1,22 +1,20 @@
 ## 基本信息
 - Sui钱包地址: `0x42b7ae673876887c5087aa3ae44060146da70c58c1606d6c58f145b3fc10531f`
-> 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `CarlWiles`
 
 ## 个人简介
-- 工作经验: 8年
+- 工作经验: 6年
 - 技术栈: `TypesScript`、`React`、`Solidity`、`Rust`、`Golang`
-> 重要提示 请认真写自己的简介
 - 通过登链、theweb3等社区学习区块链相关知识，对智能合约感兴趣，希望学习move部署自己的合约应用
-- 联系方式: tg: `https://t.me/CarlSDW` 
+- 联系方式: TG: `https://t.me/CarlSDW` 
 
 ## 任务
  
 ##   01 hello move  
-- [x] Sui cli version: sui 1.27.2-homebrew
-- [x] Sui钱包截图: ![Sui钱包截图](./images/image.png)
-- [x] package id: 0x2a323df972976f7c2248553ac381224f6c29d87d0092f38dc0e277f6300cc488
-- [x] package id 在 scan上的查看截图:![Scan截图](./images/01.png)
+- [x] Sui cli version: sui 1.37.2-homebrew
+- [x] Sui钱包截图: ![Sui钱包截图](./images/sui_wallet.png)
+- [x] package id: 0x08e222cd2e44cef73110dcad5dab323f6a7483ca2199a952930c691c5d505ded
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/hello_package.png)
 
 ##   02 move coin
 - [] My Coin package id : 
