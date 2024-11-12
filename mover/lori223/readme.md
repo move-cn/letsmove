@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x2647216353fcb955ccc97a3d3c1f2d26e1c6b21bb3a30521dfd11cbfc82af8c`
+- Sui钱包地址: `0x2647216f353fcb955ccc97a3d3c1f2d26e1c6b21bb3a30521dfd11cbfc82af8c`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `lori223`
 
