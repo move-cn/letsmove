@@ -14,14 +14,14 @@
 ## 每周课程学习
 
 - [x] 第一周:![学习记录截图](./images/task1_learning.png)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
+- [x] 第二周:![学习记录截图](./images/week2_learning.png)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 参加直播答疑
 
 - [x] 第一周:![学习记录截图](./images/week1_living_ask.jpg)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
+- [x] 第二周:![学习记录截图](./images/week2_living_qa.png)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
@@ -30,7 +30,7 @@
 - [x] （一）初识Move：区块链智能合约语言概览 【[代码库链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/01_new_to_move.md)】
 - [x] （二）Move开发环境搭建与工具介绍【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/02_move_dev_env.md)】
 - [x] （三）使用Move在Sui上发行Coin快速上手【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/03_move_mint_coin.md)】
-- [] 第二篇笔记
+- [x] （四）使用Move在Sui上发行第一个NFT【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/04_move_first_nft.md)】
 - [] 第三篇笔记
 - [] 第四篇笔记
 
@@ -39,6 +39,7 @@
 - [x] （一）初识Move：区块链智能合约语言概览【[学习笔记链接](https://learnblockchain.cn/article/9790)】
 - [x] （二）Move开发环境搭建与工具介绍【[学习笔记链接](https://learnblockchain.cn/article/9807)】
 - [x] （三）使用Move在Sui上发行Coin快速上手【[学习笔记链接](https://learnblockchain.cn/article/9838)】
+- [x] （四）使用Move在Sui上发行第一个NFT【[学习笔记链接](https://learnblockchain.cn/article/9849)】
 - [] 第二篇笔记【学习笔记链接】
 - [] 第三篇笔记【学习笔记链接】
 - [] 第四篇笔记【学习笔记链接】
