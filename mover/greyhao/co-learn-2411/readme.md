@@ -27,15 +27,15 @@
 
 - [x] 第一篇笔记
 - [x] 第二篇笔记
-- [] 第三篇笔记
-- [] 第四篇笔记
+- [x] 第三篇笔记
+- [x] 第四篇笔记
 
 ## 对外输出学习笔记
 
 - [x] 第一篇笔记 [学习笔记链接](https://learnblockchain.cn/article/9814)
 - [x] 第二篇笔记 [学习笔记链接](https://learnblockchain.cn/article/9839)
-- [] 第三篇笔记【学习笔记链接】
-- [] 第四篇笔记【学习笔记链接】
+- [x] 第三篇笔记 [学习笔记链接](https://learnblockchain.cn/article/9866)
+- [x] 第四篇笔记 [学习笔记链接](https://learnblockchain.cn/article/9876)
 
 ## 在HOH社区公众号发布自己的技术文章
 
