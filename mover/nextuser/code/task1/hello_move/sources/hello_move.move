@@ -15,7 +15,7 @@ module hello_move::hello {
     fun init(ctx: &mut TxContext) {
         let hello_move = Hello {
             id:object::new(ctx),
-            say: string(b"hello nextuser"),
+            say: string(b"nextuser"),
         };
         transfer(hello_move, sender(ctx));
     }

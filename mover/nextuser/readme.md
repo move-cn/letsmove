@@ -14,10 +14,19 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:sui-client 1.36.2-3ada97c109cc
-- [] Sui钱包截图: ![Sui钱包截图](./images/01-wallet.jpg) 
-- [] package id: 0xb374b1209c842cab56b80f298a3383c1f9015c12dbc3ea1b8d64d10b33e45c94
-- [] package id 在 scan上的查看截图:![Scan截图](./images/01-package.jpg)
+- [] Sui cli version: 1.37.1-7839b9501066
+
+- [] Sui钱包截图: ![image-20241113222340749](images/image-20241113222340749.png) 
+
+- [] package id: 0xe1e783c536f5c11b00a624a7de9b58a55e91ae25763c27b1de6382ec54450541[] 
+
+- package id 在 scan上的查看截图:
+
+  ![image-20241113230252716](images/image-20241113230252716.png)
+
+  
+
+  
 
 ##   02 move coin
 - [] My Coin package id : 
@@ -27,10 +36,15 @@
 - [] `Faucet Coin` address2 mint hash:
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
+- [] nft package id :0xcaf1d107eb08c9c7e39fab4eba69dedfa7a427e2859d63238a8b906a79e6fa0f
+
+- [] nft object id : 0x92e3a52a127fda8325496807d1b91fbbc8f67a9630867f408db8350dfc46ce57
+
+- [] 转账 nft  hash: 6PtC65GCdxrkRUJCZ6sfTxvxVZ7bBd3R79YfCiDB8s8M
+
 - [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+
+  ![image-20241114000654688](images/image-20241114000654688.png)
 
 ##   04 Move Game
 - [] game package id :
