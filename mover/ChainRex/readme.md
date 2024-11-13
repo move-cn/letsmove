@@ -54,7 +54,7 @@
 
 ## 06 Dapp-kit SDK PTB
 
-- [] save hash :
+- [x] save hash : AL1kk6K8EhJKyM3mFgnhuRPN6VLYPNenbokqg3m1ELXY
 
 ## 07 Move CTF Check In
 
