@@ -24,8 +24,8 @@
 
 ## 群里分享学习笔记
 
-- [] 第一篇笔记
-- [] 第二篇笔记
+- [√] 第一篇笔记 【https://learnblockchain.cn/article/9860】
+- [√] 第二篇笔记 【https://learnblockchain.cn/article/9878】
 - [] 第三篇笔记
 - [] 第四篇笔记
 
@@ -34,7 +34,8 @@
 - [√] 第一篇笔记【https://blog.csdn.net/jinpeng741143592/article/details/143261589?spm=1001.2014.3001.5502】
 - [√] 第二篇笔记【https://blog.csdn.net/jinpeng741143592/article/details/143251993?spm=1001.2014.3001.5502】
 - [√] 第三篇笔记【https://blog.csdn.net/jinpeng741143592/article/details/143251799?spm=1001.2014.3001.5502】
-- [] 第四篇笔记【学习笔记链接】
+- [√] 第四篇笔记【https://learnblockchain.cn/article/9860】
+- [√] 第四篇笔记【https://learnblockchain.cn/article/9878】
 
 ## 在HOH社区公众号发布自己的技术文章
 
