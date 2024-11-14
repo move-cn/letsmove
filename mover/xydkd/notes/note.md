@@ -229,3 +229,5 @@ sui client switch --env devnet
 # 9.切换主网
 sui client new-env --alias mainnet --rpc https://sui-mainnet.nodeinfra.com:443
 sui client switch --env mainnet
+
+sui client publish --gas-budget 50000000 --skip-dependency-verification
