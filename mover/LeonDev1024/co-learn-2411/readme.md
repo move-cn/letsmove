@@ -31,7 +31,7 @@
 
 ## 对外输出学习笔记
 
-- [x] 第一篇笔记【https://torch-marigold-f42.notion.site/Move-TASK4-13b122fe2edb80b3bbe9ebee8f95c78c?pvs=73】
+- [x] 第一篇笔记【https://learnblockchain.cn/article/9899】
 - [] 第二篇笔记【学习笔记链接】
 - [] 第三篇笔记【学习笔记链接】
 - [] 第四篇笔记【学习笔记链接】
