@@ -63,7 +63,7 @@
 
 CFG流程图
 
-![flap_coin.png](flap_coin.png)
+![flap_coin.png](./asserts/flap_coin.png)
 
 ## 1. 初始化源码解析
 
@@ -262,7 +262,7 @@ module move_game::flip_coin {
 
 修改Move.toml文件，添加之前的`faucet_coin`
 
-![image.png](./imgs/image.png)
+![image.png](./asserts/image.png)
 
 ```rust
 sui move build --skip-fetch-latest-git-deps
@@ -289,7 +289,7 @@ Transaction Digest: 2kBk7UGLLrAodgVkxfmoaCh4SvQxHMuqYKKkWd8dyZeL
 
 ### 6.1 充值
 
-![image.png](./imgs/image%201.png)
+![image.png](./asserts/image%201.png)
 
 ### 3.2 玩游戏 play
 
@@ -306,7 +306,7 @@ sui client call --package 0x1bd47788320409d493dacf5c55fccca592b4cbde9012e3cdcd4a
 - **`amt`**：指定要取出的金额。
 - **`TxContext`**：提供交易上下文信息，用于创建 `Coin` 对象和获取发送者的地址。
 
-![image.png](./imgs/image%202.png)
+![image.png](./asserts/image%202.png)
 
 ```bash
 sui client call --package 0x1bd47788320409d493dacf5c55fccca592b4cbde9012e3cdcd4ace2b3489a48e --module flip_coin --function remove_sui --args 0xda2dc3c6cc563fb9b3d0a1050bbb237da0949014a7ca38de1fb16a62664c55cc 0xa16a5c2a95a4d9fa151dd7faf44e160bc0f1c4ef12b6fc628c3c9cd1895a0da1 100 --gas-budget 10000000
@@ -318,12 +318,12 @@ Q1:  直接钱包浏览器页面play 报错， **Expect true to be boolean, rece
 
 A：提现报错，这边用Bash命令操作，注意参数的顺序，Random的object id为0x8
 
-![image.png](./imgs/image%203.png)
+![image.png](./asserts/image%203.png)
 
-![image.png](./imgs/image%204.png)
+![image.png](./asserts/image%204.png)
 
 Q2: 提现报错 Error executing transaction 'DWtg68kXBTVoHYHgRxXbTbE2ckQx9zeLQPnGDnJ6H6UA': InsufficientGas
 
 A. 提现消耗的Gas手续费比较多，增加gas费用，最后提现成功
 
-![image.png](./imgs/image%205.png)
+![image.png](./asserts/image%205.png)
