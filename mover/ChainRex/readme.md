@@ -34,27 +34,27 @@
 
 ## 03 move NFT
 
-- [] nft package id :
-- [] nft object id :
-- [] 转账 nft hash:
-- [] scan 上的 NFT 截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id : 0xf9df315f84a3772e6f034c0add67332a2cf37c841b6ccf419f2eba446aae687f
+- [x] nft object id : 0x682b1bb9aa78392c56b6381cc24e1c2f9e4c463950efeb5a7bde4a2430f62f22
+- [x] 转账 nft hash: 6PjBzWagrHhpzUwFugujqraTQbzjuCAmaxJ637aa8eDh
+- [x] scan 上的 NFT 截图:![Scan截图](./images/task3/Scan截图.png)
 
 ## 04 Move Game
 
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : 0x37c3152c9b1dcce88d27f6d2375fdbf9fbd357eb0a7baaea4b268a12af15b524
+- [x] deposit Coin hash: FZ34ZYUCi3YNd9JobJjp6EMuyCYhyAGhUeWp8cYqFPw
+- [x] withdraw `Coin` hash: 8bv1pckuG5Bb1AKxyETP2Wsh786J3MSGr39KU9WS2z8Q
+- [x] play game hash: 5UL2HWzWpcLdrdYConQZDFEWwG9LFzoxb4uP5EgwhyBS
 
 ## 05 Move Swap
 
-- [] swap package id :
-- [] call swap CoinA-> CoinB hash :
-- [] call swap CoinB-> CoinA hash :
+- [x] swap package id : 0xb510dd237d2e18682968ef3bd6c423b337c312be2466f76702148f9500adc7f3
+- [x] call swap CoinA-> CoinB hash : CZZ6SnzdTRtKPVqUiktX2x5xBBeUijbvjYFK2nkKad4z
+- [x] call swap CoinB-> CoinA hash : 3gqW9nEmLP3xtFQpy8mqDTFuwoYtcRKh4ncexuxqYRhR
 
 ## 06 Dapp-kit SDK PTB
 
-- [] save hash :
+- [x] save hash : AL1kk6K8EhJKyM3mFgnhuRPN6VLYPNenbokqg3m1ELXY
 
 ## 07 Move CTF Check In
 
