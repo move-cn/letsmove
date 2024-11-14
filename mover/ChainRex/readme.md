@@ -48,13 +48,13 @@
 
 ## 05 Move Swap
 
-- [] swap package id :
-- [] call swap CoinA-> CoinB hash :
-- [] call swap CoinB-> CoinA hash :
+- [x] swap package id : 0xb510dd237d2e18682968ef3bd6c423b337c312be2466f76702148f9500adc7f3
+- [x] call swap CoinA-> CoinB hash : CZZ6SnzdTRtKPVqUiktX2x5xBBeUijbvjYFK2nkKad4z
+- [x] call swap CoinB-> CoinA hash : 3gqW9nEmLP3xtFQpy8mqDTFuwoYtcRKh4ncexuxqYRhR
 
 ## 06 Dapp-kit SDK PTB
 
-- [] save hash :
+- [x] save hash : AL1kk6K8EhJKyM3mFgnhuRPN6VLYPNenbokqg3m1ELXY
 
 ## 07 Move CTF Check In
 
