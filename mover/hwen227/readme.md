@@ -3,9 +3,8 @@
 - github: `hwen227`
 
 ## 个人简介
-- 工作经验: 0年
-- 技术栈: `java` `javascript` `python` `c++`
 - 计算机专业，未参加工作
+- 技术栈: `java` `javascript` `python` `c++`
     - 正在学习使用solidity编写智能合约，参加共学营来了解move语言以及sui生态，加深对区块链的理解
     - 寻找远程工作中
 - 联系方式: 微信: `Luca0227` 
