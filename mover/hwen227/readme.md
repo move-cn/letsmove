@@ -1,22 +1,21 @@
 ## 基本信息
-- Sui钱包地址: `0x`
-> 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `xxx`
+- Sui钱包地址: `0xd83dda8dcdae875933dc6c1814a08e0a3e62204aeac2314a0bba0a0be757fc97`
+- github: `hwen227`
 
 ## 个人简介
-- 工作经验: 10000年
-- 技术栈: `xx` `xx`
-> 重要提示 请认真写自己的简介
-- 
-- 联系方式: tg: `xx` 
+- 计算机专业，未参加工作
+- 技术栈: `java` `javascript` `python` `c++`
+    - 正在学习使用solidity编写智能合约，参加共学营来了解move语言以及sui生态，加深对区块链的理解
+    - 寻找远程工作中
+- 联系方式: 微信: `Luca0227` 
 
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version: sui 1.37.1-homebrew
-- [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
-- [] package id: 
-- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+- [✓] Sui cli version: sui 1.36.2-3ada97c109cc
+- [✓] Sui钱包截图: ![Sui钱包截图](./images/task1_wallet.png)
+- [✓] package id: 0x0a46e385e71c71534f8d3e401ddc07a3b2d58a17204f2954e1f30fd393ee9449
+- [✓] package id 在 scan上的查看截图:![Scan截图](./images/task1_code.png)
 
 ##   02 move coin
 - [] My Coin package id : 
