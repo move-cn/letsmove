@@ -11,7 +11,7 @@
 
 ## 为共学营宣传（在朋友圈或者群聊中转发海报/文章）
 
-- [x] 宣传截图:![宣传截图](./images/wxpyq.png)
+- [x] 宣传截图:![宣传截图](./co-learn-2411/images/wxpyq.png)
 
 ## 对外输出学习笔记
 
@@ -28,12 +28,12 @@
 - [x] ![package id 在 suivision 链上截图](./co-learn-2411/images/task01-2.jpg)
 
 
-##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+##   02 move coin 
+- [x] My Coin package id : 0x5eba66432f3f60b472895c003872af367cc73f81c726207fae9585026da3858c
+- [x] Faucet package id :  0x5865895f21bad55e8c747d2b53a3787a123b55c2dd0ea070e0813873b1e2c347
+- [x] 转账 `My Coin` hash: 8kyMipWo4U4iCBsxvqjkN5UDQUuyeuoyoWZLXrvw4rYC        
+- [x] `Faucet Coin` address1 mint hash: B2YVMGK3v1Ti8TTKQ9GST95jnpAFEexqmqSdBJMsGT8z
+- [x] `Faucet Coin` address2 mint hash: DsTyxsjSaYjMAmC6Bn2Nf9WyG6vpXDSoTcCM572BJ6Lg
 
 ##   03 move NFT
 - [] nft package id :
