@@ -1,7 +1,7 @@
 ## 基本信息
-- Sui钱包地址: `0x435645882422995504a682fbc6fe752e36a97ab9b82d54cebec387a8594e4ff0`
+- Sui钱包地址: `0x1000000000000x`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `smithclkpayphone123456789010`
+- github: `自己的githubid`
 
 ## 个人简介
 - 工作经验: x年
@@ -13,10 +13,10 @@
 ## 任务
 
 ##   01 hello move  
-- [√] Sui cli version: `sui 1.37.3-b8eb8920aeca`
-- [√] Sui钱包截图: ![Sui钱包截图](images\sui钱包截图.png)
-- [√] package id: `0x52bac991d33afcbcb4293d2a412f8b982d45d9f3cbaa6385a5d1f453297ad2d3`
-- [√] package id 在 scan上的查看截图:![Scan截图](images\packageid浏览器截图.png)
+- [] Sui cli version:
+- [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
+- [] package id: 
+- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
 
 ##   02 move coin
 - [] My Coin package id : 
@@ -52,3 +52,4 @@
 ##   08 Move CTF Lets Move
 - [] proof : 
 - [] flag hash :
+
