@@ -53,6 +53,7 @@
 - [x] flag hash :En5nJpBQ1QUNtux8cF25WbZDRsfubqfyBfuDhpAew8Rp
 
 ##   08 Move CTF Lets Move
-- [x] proof :证明方法见mover/lizhecome/code/task8/get_proof.py，以及move项目gen_proof
+- [x] proof :[156, 102, 222, 97, 186, 162, 178, 36]
+证明方法见mover/lizhecome/code/task8/get_proof.py，以及move项目gen_proof
  CLI call 截图 : ![截图](./images/task8.png)
 - [x] flag hash : DfyvNhuyZk6wk17B2Hwz3NUWLQ6Abndp2Xou2uaNxb7X
