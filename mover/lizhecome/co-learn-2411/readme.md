@@ -33,6 +33,7 @@
 - [x] （三）使用Move在Sui上发行Coin快速上手【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/03_move_mint_coin.md)】
 - [x] （四）使用Move在Sui上发行第一个NFT【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/04_move_first_nft.md)】
 - [x] （五）使用Move语言开发第一个链上游戏【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/05_move_game.md)】
+- [x] （六）Move实现简单的代币swap功能【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/06_move_swap.md)】
 
 
 ## 对外输出学习笔记
@@ -42,6 +43,7 @@
 - [x] （三）使用Move在Sui上发行Coin快速上手【[学习笔记链接](https://learnblockchain.cn/article/9838)】
 - [x] （四）使用Move在Sui上发行第一个NFT【[学习笔记链接](https://learnblockchain.cn/article/9849)】
 - [x] （五）使用Move语言开发第一个链上游戏【[学习笔记链接](https://learnblockchain.cn/article/9869)】
+- [x] （六）Move实现简单的代币swap功能【[学习笔记链接](https://learnblockchain.cn/article/9908)】
 
 ## 在HOH社区公众号发布自己的技术文章
 
