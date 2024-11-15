@@ -49,9 +49,10 @@
 - [x] save hash : 3BUnnzzjgi7nzZ1q53nLgAhWYWzdYb7Ststp6GciPtE5
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : ![截图](./images/task7.png)
+- [x] flag hash :En5nJpBQ1QUNtux8cF25WbZDRsfubqfyBfuDhpAew8Rp
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof :证明方法见mover/lizhecome/code/task8/get_proof.py，以及move项目gen_proof
+ CLI call 截图 : ![截图](./images/task8.png)
+- [x] flag hash : DfyvNhuyZk6wk17B2Hwz3NUWLQ6Abndp2Xou2uaNxb7X
