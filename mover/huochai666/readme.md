@@ -6,17 +6,16 @@
 ## 个人简介
 - 工作经验: 1年
 - 技术栈: `java` `spring`
-> 重要提示 请认真写自己的简介
 - Web2后端开发 想要和在Web3里进步
 - 联系方式: 微信: `huochaiyoo` 
 
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version: sui 1.37.1-7839b9501066
-- [] Sui钱包截图: ![sui wallet.png](./images/sui wallet.png)!
-- [] package id: 0x247bd81400851c690d0db60c6b4a5cc69490414bf2ad10caf66c9268c2fcaaa6
-- [] package id 在 scan上的查看截图:![Scan截图](./images/package_id.png)
+- [x] Sui cli version: sui 1.37.1-7839b9501066
+- [x] Sui钱包截图: ![sui wallet.png](./images/sui wallet.png)!
+- [x] package id: 0x247bd81400851c690d0db60c6b4a5cc69490414bf2ad10caf66c9268c2fcaaa6
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/package_id.png)
 
 ##   02 move coin
 - [] My Coin package id : 
