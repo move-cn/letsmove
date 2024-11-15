@@ -17,6 +17,9 @@
 - [] Sui钱包截图: ![Sui钱包截图](./images/wallet.png)
 - [] package id: 0xc1b082a9e8660a90d221d986883fb328815555b42eebdf8f1c78a2a1426ff4c4
 - [] package id 在 scan上的查看截图:![Scan截图](./images/package.png)
+### 其他截图, b站关注与github star:
+1: ![b站关注](./images/bilibili.png)
+2: ![github star](./images/githubstar.png)
 
 ##   02 move coin
 - [] My Coin package id : 
