@@ -34,3 +34,13 @@
 
 ##   06 SDK PTB
 - [] save hash : 28EQHUfuwHdnyoxKwzSg7VYzdCyjjTGs8oWLahZveNoK
+
+##   07 Move CTF Check In
+- [] CLI call 截图 : 
+sui client call --package 0x60695ee31f93add1f79909c884a55dff7e5f140bbd2e495819966bd2f7971d42 --module check_in --function get_flag --args "LetsMoveCT" "MartinYeung5" 0x011f9404e6f167e549b617a53eea058029167a2beac26c624cbc3550e04b5ad2 0x8 --gas-budget 100000000
+sui client call --package 0x60695ee31f93add1f79909c884a55dff7e5f140bbd2e495819966bd2f7971d42 --module check_in --function get_flag --args "LetsMoveCTF" "yjshi2015" 0x011f9404e6f167e549b617a53eea058029167a2beac26c624cbc3550e04b5ad2 0x8 --gas-budget 100000000
+
+
+sui client call --package 0x60695ee31f93add1f79909c884a55dff7e5f140bbd2e495819966bd2f7971d42 --module check_in --function get_flag --args "HappyMoving" "MartinYeung5" 0x011f9404e6f167e549b617a53eea058029167a2beac26c624cbc3550e04b5ad2 0x8 --gas-budget 100000000
+
+- [] flag hash :
