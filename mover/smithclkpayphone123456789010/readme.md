@@ -1,11 +1,11 @@
 ## 基本信息
-- Sui钱包地址: `0x2f47252cb1d0422a1e5953571bcb3e27c382d8043ae9b7865a33399cce716682`
+- Sui钱包地址: `0x435645882422995504a682fbc6fe752e36a97ab9b82d54cebec387a8594e4ff0`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `smithclkpayphone123456789010`
 
 ## 个人简介
-- 工作经验: 10年
-- 技术栈: `Rust` `C++` `Java` `Go`
+- 工作经验: x年
+- 技术栈: `Rust` `C++`
 > 重要提示 请认真写自己的简介
 - 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
 - 联系方式: tg: `xxx` 
@@ -13,10 +13,10 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:`sui 1.24.0-92ba3bc-dirty`
-- [] Sui钱包截图: ![Sui钱包截图](Images\SuiWallet.png)
-- [] package id (testnet): `0xce6897e193b3eec337017dbb9f6bd7185fcb8e5c7e203a73c07c061148d4af9d`
-- [] package id 在 scan上的查看截图:`https://suiscan.xyz/testnet/object/0xce6897e193b3eec337017dbb9f6bd7185fcb8e5c7e203a73c07c061148d4af9d/txs` ![packageid截图](Images\PackageId.png)
+- [√] Sui cli version: `sui 1.37.3-b8eb8920aeca`
+- [√] Sui钱包截图: ![Sui钱包截图](images\sui钱包截图.png)
+- [√] package id: `0x52bac991d33afcbcb4293d2a412f8b982d45d9f3cbaa6385a5d1f453297ad2d3`
+- [√] package id 在 scan上的查看截图:![Scan截图](images\packageid浏览器截图.png)
 
 ##   02 move coin
 - [] My Coin package id : 

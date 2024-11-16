@@ -37,9 +37,9 @@
 - [x] play game hash: [JALk1BLnrTyTAV71cDZ3Be2AJPqaJYZ1WM47yT4ux4PQ](https://suiscan.xyz/mainnet/tx/JALk1BLnrTyTAV71cDZ3Be2AJPqaJYZ1WM47yT4ux4PQ)
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : [0x2aabda497a78029660d83c04d26b294dbc66acc56873ff1e22302c9a98bb927a](https://suiscan.xyz/mainnet/object/0x2aabda497a78029660d83c04d26b294dbc66acc56873ff1e22302c9a98bb927a)
+- [x] call swap CoinA-> CoinB  hash : [DB6Wy9Ba4xoUVjSnPqAm7HSJahmtiVSLyhVJH9zR8zEc](https://suiscan.xyz/mainnet/tx/DB6Wy9Ba4xoUVjSnPqAm7HSJahmtiVSLyhVJH9zR8zEc)
+- [x] call swap CoinB-> CoinA  hash : [Gattj5oWZMaYggjc7vke8rUdTi9SaMMsmC1xdV9hQ9dW](https://suiscan.xyz/mainnet/tx/Gattj5oWZMaYggjc7vke8rUdTi9SaMMsmC1xdV9hQ9dW)
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :
