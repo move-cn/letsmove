@@ -7,7 +7,7 @@ edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
 # 引入线上水龙头币合约
-faucet_coin = { git = "https://github.com/move-cn/letsmove.git", subdir = "mover/klren0312/code/faucet_coin", rev = "main" }
+faucet_coin = { git = "https://github.com/klren0312/letsmove.git", subdir = "mover/klren0312/code/faucet_coin", rev = "feature/task5" }
 # 引入线上普通币合约
 move_coin = { git = "https://github.com/move-cn/letsmove.git", subdir = "mover/klren0312/code/move_coin", rev = "main" }
 

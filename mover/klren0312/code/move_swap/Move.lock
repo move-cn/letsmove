@@ -2,7 +2,7 @@
 
 [move]
 version = 3
-manifest_digest = "EBC31D63DF83A24314AA106D35DCC9B67D9AD324279AFB73EBA5E785ED27A0C1"
+manifest_digest = "CC8677BF8ABC75558C0B3F2BD7828AB09B6A7E8F145C8953F0072A21388918DC"
 deps_digest = "060AD7E57DFB13104F21BE5F5C3759D03F0553FC3229247D9A7A6B45F50D03A3"
 dependencies = [
   { id = "Sui", name = "Sui" },
@@ -24,7 +24,7 @@ dependencies = [
 
 [[move.package]]
 id = "faucet_coin"
-source = { git = "https://github.com/move-cn/letsmove.git", rev = "main", subdir = "mover/klren0312/code/faucet_coin" }
+source = { git = "https://github.com/klren0312/letsmove.git", rev = "feature/task5", subdir = "mover/klren0312/code/faucet_coin" }
 
 dependencies = [
   { id = "Sui", name = "Sui" },
@@ -49,4 +49,10 @@ flavor = "sui"
 chain-id = "0fc07bbe"
 original-published-id = "0x34df2fff07a93600b0292bc66a266441ca0c0d79c5fd91a11e35304befdce2d5"
 latest-published-id = "0x34df2fff07a93600b0292bc66a266441ca0c0d79c5fd91a11e35304befdce2d5"
+published-version = "1"
+
+[env.Mainnet]
+chain-id = "35834a8a"
+original-published-id = "0x2aabda497a78029660d83c04d26b294dbc66acc56873ff1e22302c9a98bb927a"
+latest-published-id = "0x2aabda497a78029660d83c04d26b294dbc66acc56873ff1e22302c9a98bb927a"
 published-version = "1"
