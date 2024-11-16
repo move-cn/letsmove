@@ -5,3 +5,23 @@
 * packageId: 0x549616dbefd766ce256f00b4662eca840964dff08174f6206d141157e9b2bebd
 * UpgradeCapID:0x3eea017ced2d484f0593b9b7a4bd7fd9da5504177cebccb7581ec18f39b99271
 * guess_number::PrizePoolCap: 0xc362a9db9ecfbe3fa4043dd00be11c1c0e52158554ff457c83d472ae6d49acd6
+
+
+### faucetcoin
+
+* pacakgeId: 0x5d56e4b9ef9e4d7eed8ea64b337eb9220d9ca55c34e795f2db49f1b26fe248bf
+* coin: 0x27b93ff04870aa99ce50ca35694fb66d5678629088cacefaa78c6d7d5f20763a
+
+
+## mainnet
+
+* publish hash: BJT1Dga7cHKK6B5KKPq2JQe1RBzwcaUH3nsRZddMxPmQ
+* packageId:0x472b8f0ff90d472069fb57f33a9899243debb7c3201f1dc3bb2b49d15ec537ee
+* UpgradeCapID:0x05d90f14cd51264d703c84c837e7febb4f556e16cd0306f8646f265f0352a4ea
+* guess_number::PrizePoolCap:0xf88111d290581033164f4222c2cc8f827594b8431406bf1e378f64b138bd72d3
+* inithash: HRaT2c1UsoXfAz5y9EhWLuhMuhqkWn3zzP8gZv5THatj
+* poolId: 0x7dddecadd6f32cd78e5897991f12632ac02d9cbe9315835b5406e29c01b45b5f
+
+
+
+
