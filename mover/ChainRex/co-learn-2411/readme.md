@@ -7,18 +7,18 @@
 
 ## 为共学营宣传（在朋友圈或者群聊中转发海报/文章）
 
-- [] 宣传截图:![宣传截图](./images/你的图片地址)
+- [x] 宣传截图:![宣传截图](./images/宣传截图.jpg)
 
 ## 每周课程学习
 
 - [x] 第一周:![学习记录截图](./images/第一课学习.png)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
+- [x] 第二周:![学习记录截图](./images/第二课学习.png)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 参加直播答疑
 
-- [] 第一周:![学习记录截图](./images/你的图片地址)
+- [x] 第一周:![学习记录截图](./images/第一次答疑.jpg)
 - [] 第二周:![学习记录截图](./images/你的图片地址)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
@@ -26,16 +26,16 @@
 ## 群里分享学习笔记
 
 - [x] [第一篇笔记](../notes/task1/readme.md)
-- [] 第二篇笔记
-- [] 第三篇笔记
-- [] 第四篇笔记
+- [x] [第二篇笔记](../notes/task2/readme.md)
+- [x] [第三篇笔记](../notes/task3/readme.md)
+- [x] [第四篇笔记](../notes/task4/readme.md)
 
 ## 对外输出学习笔记
 
-- [x] 第一篇笔记 https://learnblockchain.cn/article/9804
-- [] 第二篇笔记【学习笔记链接】
-- [] 第三篇笔记【学习笔记链接】
-- [] 第四篇笔记【学习笔记链接】
+- [x] 第一篇笔记 https://learnblockchain.cn/article/9810
+- [x] 第二篇笔记 https://learnblockchain.cn/article/9822
+- [x] 第三篇笔记 https://learnblockchain.cn/article/9833
+- [x] 第四篇笔记 https://learnblockchain.cn/article/9846
 
 ## 在 HOH 社区公众号发布自己的技术文章
 

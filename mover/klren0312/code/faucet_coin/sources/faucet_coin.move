@@ -34,6 +34,15 @@ module faucet_coin::TRUMP_COIN {
     transfer::share_object(publicWallet);
   }
 
+  // 修改水龙头一次获取数量
+  public entry fun set_faucet_amount(
+    wallet: &mut Public_Wallet,
+    amount: u64,
+    _ctx: &mut TxContext
+  ) {
+    wallet.faucet_amount = amount;
+  }
+
   // 创建水龙头
   public entry fun create_faucet(
     treasury_cap: &mut TreasuryCap<TRUMP_COIN>,
