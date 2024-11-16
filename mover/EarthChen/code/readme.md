@@ -1,0 +1,7 @@
+# 猜数游戏信息
+
+## testnet
+
+* packageId: 0x549616dbefd766ce256f00b4662eca840964dff08174f6206d141157e9b2bebd
+* UpgradeCapID:0x3eea017ced2d484f0593b9b7a4bd7fd9da5504177cebccb7581ec18f39b99271
+* guess_number::PrizePoolCap: 0xc362a9db9ecfbe3fa4043dd00be11c1c0e52158554ff457c83d472ae6d49acd6
