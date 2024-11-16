@@ -14,7 +14,7 @@
 
 如果遇到以下类似问题
 
-![](D:\suiWork\letsmove-zhbbll\mover\zhbbll\notes\images\walrus问题1.png)
+![](./images/walrus问题1.png)
 
 尝试切换浏览器即可解决问题
 
