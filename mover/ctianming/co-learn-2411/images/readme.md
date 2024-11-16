@@ -30,3 +30,6 @@ task3_image
 
 ![alt text](image.png)
 b站关注
+
+![alt text](image.png)
+第四篇笔记分享

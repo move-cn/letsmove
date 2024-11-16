@@ -26,15 +26,15 @@
 
 - [x] 第一篇笔记：![第一篇笔记分享](./images/note_share_1.png)
 - [x] 第二篇笔记：![第二篇笔记分享](./images/note_share_2.png)
-- [x] 第三篇笔记：![第二篇笔记分享](./images/note_share_3.png)
-- [] 第四篇笔记
+- [x] 第三篇笔记：![第三篇笔记分享](./images/note_share_3.png)
+- [x] 第四篇笔记: ![第四篇笔记分享](./images/note_share_4.png)
 
 ## 对外输出学习笔记
 
 - [x] 第一篇笔记【https://learnblockchain.cn/article/9784】
 - [x] 第二篇笔记【https://learnblockchain.cn/article/9823】
 - [x] 第三篇笔记【https://learnblockchain.cn/article/9912】
-- [] 第四篇笔记【学习笔记链接】
+- [x] 第四篇笔记【https://learnblockchain.cn/article/9938】
 
 ## 在HOH社区公众号发布自己的技术文章
 
