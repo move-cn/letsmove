@@ -1,11 +1,11 @@
 [package]
-name = "hello_move"
+name = "task2"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
 [dependencies]
-Sui = { git = "https://gitee.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
@@ -19,7 +19,7 @@ Sui = { git = "https://gitee.com/MystenLabs/sui.git", subdir = "crates/sui-frame
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-hello_move = "0x0"
+task2 = "0x595755e12a700673fd174e05eac9a6e22cfb5d202de027d5830c256bd20d5b3a"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
