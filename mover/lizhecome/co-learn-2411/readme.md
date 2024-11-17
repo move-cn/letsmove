@@ -35,6 +35,7 @@
 - [x] （五）使用Move语言开发第一个链上游戏【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/05_move_game.md)】
 - [x] （六）Move实现简单的代币swap功能【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/06_move_swap.md)】
 - [x] （七）Move语言基础数据类型【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/07_move_base_types.md)】
+- [x] （八）Move语言的函数【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/08_move_function.md)】
 
 
 ## 对外输出学习笔记
@@ -46,6 +47,7 @@
 - [x] （五）使用Move语言开发第一个链上游戏【[学习笔记链接](https://learnblockchain.cn/article/9869)】
 - [x] （六）Move实现简单的代币swap功能【[学习笔记链接](https://learnblockchain.cn/article/9908)】
 - [x] （七）Move语言基础数据类型【[学习笔记链接](https://learnblockchain.cn/article/9935)】
+- [x] （八）Move语言的函数【[学习笔记链接](https://learnblockchain.cn/article/9942)】
 
 ## 在HOH社区公众号发布自己的技术文章
 
