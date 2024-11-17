@@ -2,10 +2,6 @@
 /// Module: hello_move
 module hello_move::hello_move;
 */
-/*
-/// Module: hello_move
-module hello_move::hello_move;
-*/
 module hello_move::hello ;
 
 use std::ascii::{String, string};
