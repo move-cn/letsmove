@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x8901f128dac4bac3c0324cccade86f5b29329f6cae32a09671476f61a87021db`
+- Sui钱包地址: `0x24ddd392f33ab29f2c4a557e0e9fe0943760a078c41487cf807c158ab20067f3`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `Chi1hiro`
 
@@ -32,10 +32,10 @@
 - [x] scan上的NFT截图:![](./images/05.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id :  0xb7bb112a60162d790dfaf1249d76aeb470ba3f2a220bcbe07eba3eed86f11066
+- [x] deposit Coin hash:6pCBciK1TSWhEJ7sr3BxnbFnsP959NAxpZho2H76nzLr
+- [x] withdraw `Coin` hash:J3bNTxDskwCSanig5SDQJsScH1HE6FGTcaAMPHBrct8X
+- [x] play game hash:9T1jyEu5bKYLoXgofMd9cvTxtB3zjaTtCgWiWjtCW9xk
 
 ##   05 Move Swap
 - [] swap package id :
