@@ -13,10 +13,10 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:sui 1.37.3
-- [] Sui钱包截图: ![Sui钱包截图](/Users/shaoweiwang/work/hoh/letsmove/mover/didigo545/coLearn2411/images/img.png)
-- [] package id: 0x37a6d1eeb4cfde0baa41fc7b6849fab777511c4a6c0b92bc026a97d773eb20e6
-- [] package id 在 scan上的查看截图:![Scan截图](/Users/shaoweiwang/work/hoh/letsmove/mover/didigo545/coLearn2411/images/img_1.png)
+- [√] Sui cli version:sui 1.37.3
+- [√] Sui钱包截图: ![Sui钱包截图](/Users/shaoweiwang/Desktop/钱包截图1.png)
+- [√] package id: 0x37a6d1eeb4cfde0baa41fc7b6849fab777511c4a6c0b92bc026a97d773eb20e6
+- [√] package id 在 scan上的查看截图:![Scan截图](/Users/shaoweiwang/Desktop/浏览器截图.png)
 
 ##   02 move coin
 - [] My Coin package id : 
