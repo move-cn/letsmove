@@ -26,29 +26,29 @@
 - [x] `Faucet Coin` address2 mint hash: CNPVqQLRUTwgLEziadBszRgVr5FCks7kgQKrmSpbkyh1
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id : 0x4ed08186238ef20df72465b4e8398ee57ea153f815719c9ec46de2eea7174afc
+- [x] nft object id : 0x4d3f502c3a09131cc7ccd98fe42a9ea89ea75730c0c7ac9fd11e47c4fa2a4aaa
+- [x] 转账 nft  hash: HxzcichsCzXkSEs9oBg4N5ksx6M278xTCnV5SoSNXGwk
+- [x] scan上的NFT截图:![Scan截图](./notes/3.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id :  0xeda1fb9295c5bd4c44324ae88daf5adcc4c70ad98d38a9670d60f8294b6cb569 `testnet`
+- [x] deposit Coin hash: Bw3SJECJyjYLtzDqCzNFRFKCn1EBMznnAg1XfJbfuuKQ `testnet`
+- [x] withdraw `Coin` hash:  RVBRLi7d2s6HYJDx1gqVgStVJUx9TztTLD8dAFdMeGN `testnet`
+- [x] play game hash:  6ErXygbUtFPd4ETJSPWnWzTEWLhAJzJ47BxeUVrLvAgp `testnet`
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0x87986aad9367f25821093784f767b48afa232205346b4df64f66d30f227b2e21
+- [x] call swap CoinA-> CoinB  hash : EVyhZZDXLTEZ6xqatJ3Y5QibkWtzL2U1JDey5BGsEDcw
+- [x] call swap CoinB-> CoinA  hash : CiVuJcbVqqabD6NVLpjZCxxGKJLtgS7cFmFtY8rcUcwE
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : 2iCE9viXdQEqDToj64nNJjgACWLd5Bk8B7VMaUasp4TF
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : ![截图](./notes/2.png)
+- [x] flag hash : D9qVYYWT9EB1hzzcMACHQoTv6f9vBuxfaZWo3ag1ua6A
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof :  007ff2bb54b8a2a64f47
+- [x] flag hash : DBVr3NX2cumEv8ibpDCUTUuWNKXG8fZyi9Bq3Sn2xEWL

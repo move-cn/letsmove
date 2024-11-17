@@ -1,0 +1,24 @@
+{
+  "name": "with-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000"
+  },
+  "dependencies": {
+    "@mysten/sui.js": "0.51.2",
+    "@suiet/wallet-kit": "0.2.24",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tweetnacl": "^1.0.3",
+    "navi-sdk": "^1.1.21"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^5.4.3",
+    "vite": "^3.2.7"
+  }
+}

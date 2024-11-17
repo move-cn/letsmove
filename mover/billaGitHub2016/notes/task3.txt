@@ -1,0 +1,32 @@
+编译合约
+sui move build
+
+发布合约 test网
+sui client publish --gas-budget=100000000
+
+PackageID 在这里看：(Object Changes -> Created Objects -> Published Objects -> PackageID)
+0xa3407929538dd603fa7ab7f1b156de82440026e99ff566ec32c8716175021b05
+
+设置所有人(我的钱包地址)
+export OWNER=0x4c016d80dbd4c4715a877fe274fe33bdd33b1557e38f888db23be790564fcfd6
+
+设置接收人
+export RECEIPT_ADDRESS=0x28eb471d3f18c0faa15ded45c0442d99fa5226c2d7e63b14d731f6a6a7b10e74
+
+mint_record ObjectID
+0xcceb3e28381c5d6524aa78b55865dc0ebb3ac66b761cee78e75ee887a624db61
+
+mint nft
+sui client call --function mint --module github_nft --package PackageID --args mint_record name image_url recipient --gas-budget 20000000
+sui client call --function mint --module github_nft --package 0xa3407929538dd603fa7ab7f1b156de82440026e99ff566ec32c8716175021b05 --args 0xcceb3e28381c5d6524aa78b55865dc0ebb3ac66b761cee78e75ee887a624db61 "billa" "https://avatars.githubusercontent.com/u/9780825?v=4" 0x04aec9c55ac040784e333cf547a75455cceae4331c8199a785d7b39d6d6dbd4e --gas-budget 20000000
+
+mint burn
+sui client call --function burn --module github_nft --package PackageID --args mint_record nft --gas-budget 20000000
+sui client call --function burn --module github_nft --package 0xa3407929538dd603fa7ab7f1b156de82440026e99ff566ec32c8716175021b05 --args 0xcceb3e28381c5d6524aa78b55865dc0ebb3ac66b761cee78e75ee887a624db61 0x7d101c827aec141ec4d55fe66bd260da494a9a868722940531a99d753796124e --gas-budget 20000000
+
+主网
+mint nft
+sui client call --function mint --module github_nft --package 0xc4c8cb08e25c313b16e71ea659caefc6077796a5801d6f21029d11602d2468fb --args 0xe9875d93256efedbe484c8a713138e49e492311359f51f68aab0dcabe7c0e23f "billa" "https://avatars.githubusercontent.com/u/9780825?v=4" 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --gas-budget 20000000
+
+
+

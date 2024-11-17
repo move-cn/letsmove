@@ -34,7 +34,7 @@
 - [x] call swap CoinB-> CoinA  hash : `4NJ7qL7NxSAfXD665cwppw4EMRWVYGLCbi4NQPxwwExg`
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash :`AfWH9CFMCxNYRumL2ZwFETnYns8SYomE7FY4iorWSWaR`
 
 ##   07 move_ctf_check_in
 - [x] Transaction block: `GmM1YcJM4SMzPYf9oQ5CBUXqt6j3LZ4nD6RdGUjH69za`

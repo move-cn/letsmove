@@ -8,7 +8,7 @@
 - 技术栈: `Java` `JS`
 > 重要提示 请认真写自己的简介
 - 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: QQ: `298056679` 
+- 联系方式: QQ: `298056679`
 
 ## 任务
 
@@ -32,15 +32,15 @@
 - [x] scan上的NFT截图:![Scan截图](./images/oliverxl_nft.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : 0xfb8f9a76e6f4a1aafd58d26c89106c0c3abdc082bb07d7fae1bcc28ae2a2743e
+- [x] deposit Coin hash: Drk9f5Ei1ZxXLr5tboYymBQN1Xqq6enA7vyDTsmb9kt
+- [x] withdraw `Coin` hash: D4VuekL3ZxRvrZfwMxmcrvcDuN4B23oU6tN8ECXukxSZ
+- [x] play game hash: 3YevPSrKt8VTugUBwCP2Em1JrmpXdtLM6Pk7JWjeBDKP (testnet)
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0xf1b6b704d6fd679736d3704a7278d4ad5c0dfff348f85a547c9c7f37b4d9d6f5
+- [x] call swap CoinA-> CoinB  hash : 2LU5TWxXEHWjWYq8MXKKuCmoFdYLmsSwdxA5e9eTSGsq
+- [x] call swap CoinB-> CoinA  hash : DzZYGjw4CudbJAMakz5Z32yvzZ4PF6AUj5hHcRsPGPG
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :

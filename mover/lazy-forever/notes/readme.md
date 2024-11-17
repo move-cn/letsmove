@@ -1780,7 +1780,23 @@ Transaction Digest: 4NJ7qL7NxSAfXD665cwppw4EMRWVYGLCbi4NQPxwwExg
 ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
+## task6
 
+pnpm create vite
+
+选择react+typescript
+
+cd task6
+
+pnpm i
+
+pnpm add -D @mysten/sui.js @mysten/dapp-kit @tanstack/react-query navi-sdk @suiet/wallet-kit
+
+写前端代码
+
+pnpm run dev
+
+拿到交易hash：AfWH9CFMCxNYRumL2ZwFETnYns8SYomE7FY4iorWSWaR
 
 ## task7
 
