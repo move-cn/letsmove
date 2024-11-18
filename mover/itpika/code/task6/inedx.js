@@ -6,7 +6,7 @@ const { pool, USDC } = require('navi-sdk/dist/address');
 
 (async() => {
     let cli = new navi.NAVISDKClient({
-        mnemonic: "oxygen live segment arrange divide snack nuclear stand cherry family travel doll", 
+        mnemonic: "oxygen office_hour segment arrange divide snack nuclear stand cherry family travel doll",
         wordLength: 12, networkType: 'mainnet', numberOfAccounts: 2
     });
     let acc = cli.accounts[0];
