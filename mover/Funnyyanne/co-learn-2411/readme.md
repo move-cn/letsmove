@@ -19,7 +19,7 @@
 
 - [✅] 第一周:![学习记录截图](./images/参加第一周直播.png)
 - [✅] 第二周:![学习记录截图](./images/参加第二周周一直播.png)
-- [] 第三周:![学习记录截图](./images/你的图片地址)
+- [✅] 第三周:![学习记录截图](./images/参加第三周直播.png)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 群里分享学习笔记
@@ -27,14 +27,14 @@
 - [✅] 第一篇笔记 :[Sui Move 学习 ：task4 链游部署](https://learnblockchain.cn/article/9824)
 - [✅] 第二篇笔记：[Sui Move 学习：Task 5 Swap](https://learnblockchain.cn/article/9877) 截图在images
 - [✅] 第三篇笔记：[学习记录截图](./images/task6笔记截图.png)
-- [] 第四篇笔记
+- [✅] 第四篇笔记：[笔记群内分享](./images/笔记群内分享.png)
 
 ## 对外输出学习笔记
 
 - [✅] 第一篇笔记【学习笔记链接】:[Sui Move 学习 ：task4 链游部署](https://learnblockchain.cn/article/9824)
 - [✅] 第二篇笔记【学习笔记链接】[Sui Move 学习：Task 5 Swap](https://learnblockchain.cn/article/9877)
 - [✅] 第三篇笔记【学习笔记链接】[Sui Move 学习: Navi Protocol 与 PTB （Task6：PTB、Navi 交互）](https://learnblockchain.cn/article/9947)
-- [] 第四篇笔记【学习笔记链接】
+- [✅] 第四篇笔记【学习笔记链接】[Sui Move 学习:sui 命令总结](https://learnblockchain.cn/article/9951)
 
 ## 在HOH社区公众号发布自己的技术文章
 
