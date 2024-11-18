@@ -120,4 +120,18 @@ sui client call \
     0x1021116270d1bee0eaabd4353a2b998009c74f86573df54a37a291cab33782d1 \
     1000000000 \
     0xd790d41adfffd48df8e38607991a297970743decff87517e647008a652587d4c 
+    
+```
+
+## 共享币
+```shell
+ sui client call \
+  --package 0x2 \
+  --module coin \
+  --function mint_and_transfer \
+  --type-args 0x71d67141b2c06e7abdf6829aa2ca8e36cb469fe304519e084c3f29e9e6244824::dao::DAO \
+  --args \
+    0x7a2079da6aa6a74d5a3466f98afe96a47cecca0be6c79ef151aa370720f855fd \
+    1000000000 \
+    0x1cf6273dc8d5f7f8189fbae937741434d388fefeabe029ac128c2fed67633498 
 ```
