@@ -22,17 +22,18 @@
 2: ![github star](./images/githubstar.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+(在同一个package里同时包含Faucet Coin和My Coin, 因此两个id是一样的.)
+- [] My Coin package id : 0x0b0b06cc47146f8d4f0db905dc1492354169ae416c78d371e14f0d13c8876836
+- [] Faucet package id : 0x0b0b06cc47146f8d4f0db905dc1492354169ae416c78d371e14f0d13c8876836
+- [] 转账 `My Coin` hash: (mint_and_transfer) 4bR3X9rdtL19FhLnepvqqy3pTDaXVyRaubi9ZKS36fKd
+- [] `Faucet Coin` address1 mint hash: 89ur8P58qYAhQrQhQY4XVQpAJqSdghKKQR2WzAz6daAH
+- [] `Faucet Coin` address2 mint hash: 4ySXL9qT1smLQ4YErpFV4GvFUXac9zKtUAhgn3pLhGGQ
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [] nft package id : 0x76c65ad4cbf1a0fac148ba88e15b2d542b5c151a970601a81f889faa09bc336e
+- [] nft object id : (mint给自己的nft obj id) 0x33ed248181429a6b7c0d1c1f1ce05d3ba602e7da346100109fb1ae3f358fc566
+- [] 转账 nft  hash: (直接mint给uvd的nft的hash)  Bu41bE6eqMYszj1v12mojoGrTKF2eBKnU9Pgbuy8amN8
+- [] scan上的NFT截图:![mint给自己的Scan截图](./images/task3-mint2me.png)
 
 ##   04 Move Game
 - [] game package id :
