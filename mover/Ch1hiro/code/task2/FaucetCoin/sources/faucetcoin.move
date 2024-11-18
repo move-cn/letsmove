@@ -1,9 +1,5 @@
 module faucetcoin::faucetcoin {
-    use std::option;
     use sui::coin::{Self, Coin, TreasuryCap};
-    use sui::transfer;
-    use sui::tx_context::{Self, TxContext};
-
 
     public struct FAUCETCOIN has drop {}
 
