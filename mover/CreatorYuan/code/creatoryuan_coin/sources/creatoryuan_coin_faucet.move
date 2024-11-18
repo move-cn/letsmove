@@ -1,33 +1,23 @@
 /// Module: creatoryuan_coin
-module creatoryuan_coin::creatoryuan_coin {
+module creatoryuan_coin::creatoryuan_coin_faucet {
 
-    use sui::tx_context::TxContext;
-    use sui::coin::{Self, TreasuryCap};
+    use sui::coin::{create_currency};
+    use sui::transfer::{public_freeze_object, public_share_object};
 
-    public struct CREATORYUAN_COIN has drop{}
+    public struct CREATORYUAN_COIN_FAUCET has drop{}
 
-    fun init(witness: CREATORYUAN_COIN, ctx: &mut TxContext){
-        let (treasury, metadata) = coin::create_currency(
+    fun init(witness: CREATORYUAN_COIN_FAUCET, ctx: &mut TxContext){
+        let (treasury, metadata) = create_currency(
             witness,
             6,
-            b"cyc",
-            b"creator yuan coin",
-            b"cy build move, create new world",
+            b"CYCF",
+            b"CreatorYuan Faucet Coin",
+            b"this is CreatorYuan Faucet Coin.",
             option::none(),
             ctx);
-        transfer::public_freeze_object(metadata);
-        transfer::public_transfer(treasury, ctx.sender())
-    }
 
-    public fun mint(
-        treasury_cap: &mut TreasuryCap<CREATORYUAN_COIN>,
-        amount: u64,
-        recipient: address,
-        ctx: &mut TxContext,
-    ) {
-        let coin = coin::mint(treasury_cap, amount, ctx);
-        transfer::public_transfer(coin, recipient)
+        public_freeze_object(metadata);
+        public_share_object(treasury)
     }
 
 }
-Faucet

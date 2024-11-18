@@ -176,3 +176,15 @@ C:\Users\Administrator\
 [core]
 	excludesfile = C:/Users/Administrator/git.ignore
 ```
+
+## 拉起最新远端代码版本
+- 撤销本地、暂存区、版本库、
+- git fetch --all
+- 回退到最新的远端代码
+- git pull origin master
+```shell
+git fetch --all
+git reset --hard origin/master
+git pull 
+```
+
