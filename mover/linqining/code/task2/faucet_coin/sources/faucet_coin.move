@@ -1,4 +1,4 @@
-module my_coin::eig;
+module faucet_coin::eig;
 use std::option::none;
 use sui::coin::create_currency;
 use sui::transfer::{public_freeze_object, public_share_object};
@@ -12,3 +12,4 @@ fun init(eig:EIG,ctx: &mut TxContext){
     public_freeze_object(metadata);
     public_share_object(treasury);
 }
+
