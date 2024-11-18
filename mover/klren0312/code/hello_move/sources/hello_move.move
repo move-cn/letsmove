@@ -1,5 +1,5 @@
 module hello_move::hello_klren0312 {
-  use std::ascii::{String, string};
+  use std::string::{String};
   use sui::transfer::transfer;
   use sui::tx_context::{sender};
 
@@ -9,7 +9,7 @@ module hello_move::hello_klren0312 {
   }
 
   fun init (ctx: &mut TxContext) {
-    let hello_move = Hello { id: object::new(ctx), say: string(b"klren0312") };
+    let hello_move = Hello { id: object::new(ctx), say: b"klren0312".to_string() };
     transfer(hello_move, sender(ctx));
   }
 }
