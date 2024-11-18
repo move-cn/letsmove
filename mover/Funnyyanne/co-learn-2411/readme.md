@@ -11,28 +11,28 @@
 ## 每周课程学习
 
 - [✅] 第一周:![学习记录截图](./images/第一周课程完成.png)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
+- [✅] 第二周:![学习记录截图](./images/第二周视频完成.png)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 参加直播答疑
 
 - [✅] 第一周:![学习记录截图](./images/参加第一周直播.png)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
+- [✅] 第二周:![学习记录截图](./images/参加第二周周一直播.png)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 群里分享学习笔记
 
 - [✅] 第一篇笔记 :[Sui Move 学习 ：task4 链游部署](https://learnblockchain.cn/article/9824)
-- [] 第二篇笔记
+- [✅] 第二篇笔记：[Sui Move 学习：Task 5 Swap](https://learnblockchain.cn/article/9877) 截图在images
 - [] 第三篇笔记
 - [] 第四篇笔记
 
 ## 对外输出学习笔记
 
 - [✅] 第一篇笔记【学习笔记链接】:[Sui Move 学习 ：task4 链游部署](https://learnblockchain.cn/article/9824)
-- [] 第二篇笔记【学习笔记链接】
+- [✅] 第二篇笔记【学习笔记链接】[Sui Move 学习：Task 5 Swap](https://learnblockchain.cn/article/9877)
 - [] 第三篇笔记【学习笔记链接】
 - [] 第四篇笔记【学习笔记链接】
 
