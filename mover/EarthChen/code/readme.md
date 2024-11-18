@@ -1,4 +1,4 @@
-# 猜数游戏信息
+# task4 猜数游戏信息
 
 ## testnet
 
@@ -10,6 +10,7 @@
 ### faucetcoin
 
 * pacakgeId: 0x5d56e4b9ef9e4d7eed8ea64b337eb9220d9ca55c34e795f2db49f1b26fe248bf
+* 0x2::package::UpgradeCap: 0x1443e8d5e94f7080ae73e0c2b1c9907b3d16df740d98e361b5264f7325535b62
 * coin: 0x27b93ff04870aa99ce50ca35694fb66d5678629088cacefaa78c6d7d5f20763a
 
 
@@ -24,4 +25,21 @@
 
 
 
+# task5 bank
 
+## testnet
+
+* packageId: 0xdd4c3f39b2446f596a0abb7c764266b43719adc4f4b8a9c488b81d096a8663c4
+* earthchen::Bank :  0x1965c930d133fc49dcdc1ac55b6b18a8ac5b782125796d94902ddbc52216f64a
+* amdin: 0x15c02c340a6948e80fb74723a9c15af3192cbf4651dc603c879dbd7a9656d1dc
+* deposit_mycoin hash: 8SPPuNUjoorqYQa4xo5P3jFYakjFFtky1EDyLFC8B33p
+* deposit_faucetcoin hash: APpff8GhwNfd2Z494frcaLoDPuWNFkFfYFsPPgCqrtsD
+* swap_mycoin hash: 3vLWRgDJMefi4449HS9KSjQS5PQwKjQmpLzdeZWHgBbX
+
+
+## mainnet
+
+* packageId: 0x6d4dd7fffe36cce18887a19a935df4cd45633546c947756ce7d45d1fbca9766e
+* bank: 0x0a307a8b9d0a97d911973ad395cdeb9e9e213b2370087e33dea48bee16b7e149
+* deposit_mycoin hash:C1MnhbfeTsnwdNRjf1jmaAcLRW71K6LDCb12LAk8GmMa
+* swap_
