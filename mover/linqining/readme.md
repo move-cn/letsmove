@@ -22,11 +22,11 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/img.png)
 
 ##   02 move coin
-- [x] My Coin package id : 0x1771f9d52f5e59f43bdc544fedf0246eac2bbf616f551f6aa15da0866512a475
-- [x] Faucet package id : 0x23728ec5d011eaf7a8bca55811edf283d83a3ffe105b1bfd067ebb16a475cb1d
-- [x] 转账 `My Coin` hash: DeDhmvv5gHzuGGfNrQhqeDt7kUaqwd2Cn3gK1ue3DdHZ
-- [x] `Faucet Coin` address1(0xc1f4704452819f75c258fe3a01e54d6561899e3478f818625ee8be716fbdd007) mint hash: ACrvHycdyRWC8wAK8DXNcdE4xJKK1b3nDz6oKeuS5kGy
-- [x] `Faucet Coin` address2(0x7caaf3d123266f92398b3b642682133098afa7017b3a74b7fd0442d0368ae595) mint hash: 6tQHzfmfhk4d9sbeSVfoSBkfmhkwEEr1huqmudixFDJa
+- [x] My Coin package id : 0xff6c887f84778d86304dab92b31fed7ea25fec1bdc783c9f7c9a2bfa0546f4a3
+- [x] Faucet package id : 0xf855a34f6870634a444260ec3a7ad5581334849d8388f63d67e703b06428edc4
+- [x] 转账 `My Coin` hash: zMbWbMhgKgaWxJBwYswUJpqHR4ZmUCVu8856P2jjz2p
+- [x] `Faucet Coin` address1(0x7caaf3d123266f92398b3b642682133098afa7017b3a74b7fd0442d0368ae595) mint hash: 5XY6xTNBYmSYN4zGGf7WRUV3pB7Q4Tn8fm1WFjqktQZc
+- [x] `Faucet Coin` address2(0xc1f4704452819f75c258fe3a01e54d6561899e3478f818625ee8be716fbdd007) mint hash: HYr5URs9WbfP4sEUxQJtbfPg16U33XCmNnGwv7MPyVVM
 
 ##   03 move NFT
 - [x] nft package id : 0x34caeefe0d3b271ec280a386a37090cae86a35b5caadb9ed1b19c42698e2a92c
