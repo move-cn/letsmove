@@ -26,14 +26,14 @@
 
 - [✅] 第一篇笔记 :[Sui Move 学习 ：task4 链游部署](https://learnblockchain.cn/article/9824)
 - [✅] 第二篇笔记：[Sui Move 学习：Task 5 Swap](https://learnblockchain.cn/article/9877) 截图在images
-- [] 第三篇笔记
+- [✅] 第三篇笔记：[学习记录截图](./images/task6笔记截图.png)
 - [] 第四篇笔记
 
 ## 对外输出学习笔记
 
 - [✅] 第一篇笔记【学习笔记链接】:[Sui Move 学习 ：task4 链游部署](https://learnblockchain.cn/article/9824)
 - [✅] 第二篇笔记【学习笔记链接】[Sui Move 学习：Task 5 Swap](https://learnblockchain.cn/article/9877)
-- [] 第三篇笔记【学习笔记链接】
+- [✅] 第三篇笔记【学习笔记链接】[Sui Move 学习: Navi Protocol 与 PTB （Task6：PTB、Navi 交互）](https://learnblockchain.cn/article/9947)
 - [] 第四篇笔记【学习笔记链接】
 
 ## 在HOH社区公众号发布自己的技术文章
