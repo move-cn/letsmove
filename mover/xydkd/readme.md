@@ -16,19 +16,19 @@
 
 ## 为共学营宣传（在朋友圈或者群聊中转发海报/文章）
 
-- [] 宣传截图:![宣传截图](./images/你的图片地址)
+- [x] 宣传截图:![宣传截图](./images/8.png)
 
 ## 每周课程学习
 
 - [x] 第一周:![学习记录截图](./images/5.png)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
+- [x] 第二周:![学习记录截图](./images/9.png)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 参加直播答疑
 
 - [] 第一周:![学习记录截图](./images/你的图片地址)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
+- [x] 第二周:![学习记录截图](./images/7.png)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
@@ -55,11 +55,11 @@
 
 ## 直播分享学习技巧/工具推荐
 
-- [] 会议截图:![会议记录截图](./images/你的图片地址)
+- [] 会议截图:![会议记录截图](./images/)
 
 ## 提交项目
 
-- [] 项目提交![项目截图](./images/你的图片地址)
+- [] 项目提交![项目截图](./images/6.png)
 
 ## 任务
 
@@ -71,17 +71,17 @@
 
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id : 0x136f02ff814bb100b4d39d0dae658272183d1c9ca1142368a7c3ce0f0386a365
+- [x] Faucet package id : 0x136f02ff814bb100b4d39d0dae658272183d1c9ca1142368a7c3ce0f0386a365
+- [x] 转账 `My Coin` hash:0xd76958539ca96b5c72935ddc62d69a6c5c5417f52b8a7d50f990ca3a2af043d4
+- [x] `Faucet Coin` address1 mint hash:0x116de4b85d7f47d098bf4ad26c10e1c84bc8ce2014d8983bdd2402715c5f575a
+- [x] `Faucet Coin` address2 mint hash:0x32301b58242d2ca99a61dd774e27e41eebb26b52a515a3a6c119737483310dfd
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id :0x1e773d7a904c83664a17263c930134ec58a339be989024a89fd7f995c3aecac4
+- [x] nft object id : 0xd76c72e70bb4851dd49c2326024959812c547c5d5f6bad76d17d08665269caf3
+- [x] 转账 nft  hash:Hq3KF6c2EwCS1KEWGpdQLWH1hBSKy16uo8r3LECGgcgF
+- [x] scan上的NFT截图:![Scan截图](./images/10.png)
 
 ##   04 Move Game
 - [] game package id :
