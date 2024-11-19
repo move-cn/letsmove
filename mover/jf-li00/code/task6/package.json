@@ -16,6 +16,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "navi-sdk": "1.1.15"
+    "navi-sdk": "1.1.15",
+    "task6": "file:"
   }
 }
