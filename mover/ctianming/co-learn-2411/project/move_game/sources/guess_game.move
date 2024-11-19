@@ -19,7 +19,7 @@ module move_game::guess_game {
     /// 定义游戏
     public struct Game has key, store {
         id: UID,
-        secret_number: u32,
+        secret_number: Option<u32>,
         attempts: u32,
         over: bool,
         winner: address,
@@ -46,7 +46,7 @@ module move_game::guess_game {
     fun init(ctx: &mut TxContext){
         let game = Game {
             id: object::new(ctx),
-            secret_number: 0,
+            secret_number: option::none(),
             attempts: 0,
             over: false,
             winner: address::from_u256(0),
@@ -78,7 +78,7 @@ module move_game::guess_game {
         // 取哈希值的第一个字节并转换为随机数 [1, 100]
         let random_byte = *vector::borrow(&hash_output, 0); // 解引用 &u8
         let random_value = (random_byte as u32) % 100 + 1;
-        game.secret_number = random_value;
+        game.secret_number = option::some(random_value);
     }
 
     //get faucet_coin
@@ -129,7 +129,7 @@ module move_game::guess_game {
 
     //restart
     public entry fun restart(_: &AdminCap, game: &mut Game) {
-        game.secret_number = 0;
+        game.secret_number = option::none();
         game.attempts = 0;
         game.over = false;
         game.winner = address::from_u256(0);
@@ -140,7 +140,7 @@ module move_game::guess_game {
         game.attempts = game.attempts + 1;
         let caller = tx_context::sender(ctx);
         // base check
-        assert!(game.secret_number != 0, EInvalid); 
+        assert!(game.secret_number != option::none(), EInvalid); 
         assert!(game.over != true, EHaveWon);       
         assert!(game.winner == address::from_u256(0), EHaveWon); 
         assert!(table::contains(&game.users, caller), ENotUser); 
@@ -154,10 +154,11 @@ module move_game::guess_game {
         balance::join(&mut game.game_pool, input_balance);
         game.pool = game.pool + game.cost_per_round;
         // compare guess with secret number
-        if (guess < game.secret_number) {
-            emit(GuessEvent::TooSmall); // too small
-        } else if (guess > game.secret_number) {
-            emit(GuessEvent::TooBig); // too big
+        let secret_number = option::borrow(&game.secret_number);
+        if (guess < *secret_number) {
+        emit(GuessEvent::TooSmall); // too small
+        } else if (guess > *secret_number) {
+        emit(GuessEvent::TooBig); // too big
         } else {
             // guess correct
             emit(GuessEvent::Correct);
