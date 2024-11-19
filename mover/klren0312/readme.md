@@ -31,22 +31,22 @@
 - [x] scan上的NFT截图:![Scan截图](./images/03movenft/scan上的NFT截图.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id: [0x413e80e5c694ee898cdb34ba412365702f2d7b5d5f2d0f3c6ccc40f89bdbb066](https://suiscan.xyz/mainnet/object/0x413e80e5c694ee898cdb34ba412365702f2d7b5d5f2d0f3c6ccc40f89bdbb066)
+- [x] deposit Coin hash: [F8SrvkmhmXoCozCJdMCEeLVpco9WRLv4Nc7P8JBwsJk1](https://suiscan.xyz/mainnet/tx/F8SrvkmhmXoCozCJdMCEeLVpco9WRLv4Nc7P8JBwsJk1)
+- [x] withdraw `Coin` hash: [2kcQf8D3KaDqdwU6rgBpddVuGA7E1ccvfM14XmqubzFd](https://suiscan.xyz/mainnet/tx/2kcQf8D3KaDqdwU6rgBpddVuGA7E1ccvfM14XmqubzFd)
+- [x] play game hash: [JALk1BLnrTyTAV71cDZ3Be2AJPqaJYZ1WM47yT4ux4PQ](https://suiscan.xyz/mainnet/tx/JALk1BLnrTyTAV71cDZ3Be2AJPqaJYZ1WM47yT4ux4PQ)
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : [0x2aabda497a78029660d83c04d26b294dbc66acc56873ff1e22302c9a98bb927a](https://suiscan.xyz/mainnet/object/0x2aabda497a78029660d83c04d26b294dbc66acc56873ff1e22302c9a98bb927a)
+- [x] call swap CoinA-> CoinB  hash : [DB6Wy9Ba4xoUVjSnPqAm7HSJahmtiVSLyhVJH9zR8zEc](https://suiscan.xyz/mainnet/tx/DB6Wy9Ba4xoUVjSnPqAm7HSJahmtiVSLyhVJH9zR8zEc)
+- [x] call swap CoinB-> CoinA  hash : [Gattj5oWZMaYggjc7vke8rUdTi9SaMMsmC1xdV9hQ9dW](https://suiscan.xyz/mainnet/tx/Gattj5oWZMaYggjc7vke8rUdTi9SaMMsmC1xdV9hQ9dW)
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : [7LaCsFnPva62KDDSECgFFgFXYsrvEAzc8jEFY2sFkEX5](https://suiscan.xyz/mainnet/tx/7LaCsFnPva62KDDSECgFFgFXYsrvEAzc8jEFY2sFkEX5)
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : ![截图](./images/07checkin/call.png)
+- [x] flag hash : [5WVoCoD1RoWnXo8Z17r1QR8WjrjCfTcqpBnKSqn8i29D](https://suiscan.xyz/mainnet/tx/5WVoCoD1RoWnXo8Z17r1QR8WjrjCfTcqpBnKSqn8i29D)
 
 ##   08 Move CTF Lets Move
 - [] proof : 
