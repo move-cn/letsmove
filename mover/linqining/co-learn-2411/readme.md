@@ -22,8 +22,8 @@
 
 ## 参加直播答疑
 
-- [x] 第一周:![学习记录截图](./images/live/week1.png)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
+- [x] 第一周:![学习记录截图](images/office_hour/week1.png)
+- [x] 第二周:![学习记录截图](./images/office_hour/week2.png)
 - [] 第三周:![学习记录截图](./images/你的图片地址)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
