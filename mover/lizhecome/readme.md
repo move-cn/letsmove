@@ -41,17 +41,19 @@
 - [x] play game hash:3dkDKXBvRZ9pgyAMRvAL5vSm2uXe8sLbSrz2PgBsyiwe
 
 ##   05 Move Swap
-- [] swap package id : 0x220e1fb6821f2851bf8557104251b47036527f1ac35ad757db1d9a503388cf14
-- [] call swap CoinA-> CoinB  hash : ED2zkQed7ZChNWtVq2CYMb3GNBaTKWfMTEA4ZjE4KPRc
-- [] call swap CoinB-> CoinA  hash : HujYQgQuHp81bJ5FfHhG1KnDMVq9x6VcZay9Pa7MvDsp
+- [x] swap package id : 0x220e1fb6821f2851bf8557104251b47036527f1ac35ad757db1d9a503388cf14
+- [x] call swap CoinA-> CoinB  hash : ED2zkQed7ZChNWtVq2CYMb3GNBaTKWfMTEA4ZjE4KPRc
+- [x] call swap CoinB-> CoinA  hash : HujYQgQuHp81bJ5FfHhG1KnDMVq9x6VcZay9Pa7MvDsp
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : 3BUnnzzjgi7nzZ1q53nLgAhWYWzdYb7Ststp6GciPtE5
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : ![截图](./images/task7.png)
+- [x] flag hash :En5nJpBQ1QUNtux8cF25WbZDRsfubqfyBfuDhpAew8Rp
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof :[156, 102, 222, 97, 186, 162, 178, 36]
+证明方法见mover/lizhecome/code/task8/get_proof.py，以及move项目gen_proof
+ CLI call 截图 : ![截图](./images/task8.png)
+- [x] flag hash : DfyvNhuyZk6wk17B2Hwz3NUWLQ6Abndp2Xou2uaNxb7X
