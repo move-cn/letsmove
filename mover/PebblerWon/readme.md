@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x1a9dc5b81090ca7201d1a001a8a048e44c694cc55ab2076b3bdbbe401d90ef03`
+- Sui钱包地址: `0x60364db3c6fa7128433ad62ce4e32649443a999ab6b54bdcbaf14194ec1a6203`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `PebblerWon`
 
