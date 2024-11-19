@@ -13,17 +13,17 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version: sui 1.34.0-99ebd8f082f2
-- [] Sui钱包截图: ![Sui钱包截图](./images/sui-wallet.png)
-- [] package id: 0xc441a563822caa87821d4aeb29948ba735fdc61b7647d313916b6550f89b5a0
-- [] package id 在 scan上的查看截图:![Scan截图](./images/package-id.png)
+- [x] Sui cli version: sui 1.34.0-99ebd8f082f2
+- [x] Sui钱包截图: ![Sui钱包截图](./images/sui-wallet.png)
+- [x] package id: 0xc441a563822caa87821d4aeb29948ba735fdc61b7647d313916b6550f89b5a0
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/package-id.png)
 
-##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+##   02 move coin  
+- [x] My Coin package id : 0x26c52507cbd06684da94a201bc6228acce8337bb768bd423f7a5d8db5fe28598
+- [x] Faucet package id :  0x456356b93dd173dfc641a21db0b53f504baeca59b9679c267692c5b5b3f28369
+- [x] 转账 `My Coin` hash: Bc9RUbLhzw31xaE87NmqzpwyXiqx12hanJGgyiPJ1o62
+- [x] `Faucet Coin` address1 mint hash: 9GdcMy9xUsVPFZ1TeK6vvQ3DpvUeLTxW1kpH8KoKgPfG
+- [x] `Faucet Coin` address2 mint hash: 2pnVPpT3mMCrHVgCgpXoP9VSbDeV75VA2yB57Fe3X2ib
 
 ##   03 move NFT
 - [] nft package id :
