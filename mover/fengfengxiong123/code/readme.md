@@ -135,3 +135,52 @@ sui client call \
     1000000000 \
     0x1cf6273dc8d5f7f8189fbae937741434d388fefeabe029ac128c2fed67633498 
 ```
+
+## 主网
+Digest: 9VCLdmeCVTtbcHs6ygV96YYMMSF3qnWrz1o6Aadx84QL
+
+账户：0x1cf6273dc8d5f7f8189fbae937741434d388fefeabe029ac128c2fed67633498
+pkg id : 0xae412de9df987063117db968d17e8f4dfa16b92f5f9527e36af47af427070b83
+
+### coin对象id
+obj id : 0x56d0bb3c37de365e23a2c56180601da49d8b23794b45119f4fbb4c64deb1825a
+ObjectType: 0x2::coin::CoinMetadata<0xae412de9df987063117db968d17e8f4dfa16b92f5f9527e36af47af427070b83::faucetcoin::FAUCETCOIN> 
+
+ObjectID: 0x6a64c9dbce72db96f7cc9cd7be8531f546a5ca3e9ebc43da2569f5e354bd6487
+ObjectType: 0x2::coin::CoinMetadata<0xae412de9df987063117db968d17e8f4dfa16b92f5f9527e36af47af427070b83::dao::DAO>  
+
+### TreasuryCap信息
+DAO TreasuryCap obj id : 0xe880375ea3d82755a9c387bf3fb705a9bbc5982afc5d16349773e162754a9b86
+faucet coin TreasuryCap obj id ： 0x56d0bb3c37de365e23a2c56180601da49d8b23794b45119f4fbb4c64deb1825a
+
+## mint dao
+```shell
+ sui client call \
+  --package 0x2 \
+  --module coin \
+  --function mint_and_transfer \
+  --type-args 0xae412de9df987063117db968d17e8f4dfa16b92f5f9527e36af47af427070b83::dao::DAO \
+  --args \
+    0xe880375ea3d82755a9c387bf3fb705a9bbc5982afc5d16349773e162754a9b86 \
+    7000000000 \
+    0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 \
+   --gas-budget 100000000
+```
+
+## mint faucet coin
+
+```shell
+ sui client call \
+  --package 0x2 \
+  --module coin \
+  --function mint_and_transfer \
+  --type-args 0xae412de9df987063117db968d17e8f4dfa16b92f5f9527e36af47af427070b83::faucetcoin::FAUCETCOIN \
+  --args \
+    0x56d0bb3c37de365e23a2c56180601da49d8b23794b45119f4fbb4c64deb1825a \
+    8000000000 \
+    0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 \
+   --gas-budget 100000000
+```
+
+## 使用sui cli转账
+sui client transfer-sui --to 0x2e312e10390700d045ae462dcac090354bda4a81dc151c0d538a250beb0492f5 --amount 13266772 --sui-coin-object-id 0x1feb5ad79c303c52cca592272203b259119fc3fb02e037209ceaf9570474ce08  --gas-budget 100000000
