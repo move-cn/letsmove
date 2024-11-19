@@ -1,0 +1,4 @@
+export const DEVNET_COUNTER_PACKAGE_ID = "0xTODO";
+// 测试网
+export const TESTNET_COUNTER_PACKAGE_ID = "HwHUyP4UNozGF2xfLZ1rLmjHYMNnQCMEfdfzHUrwBTaU";
+export const MAINNET_COUNTER_PACKAGE_ID = "0xTODO";

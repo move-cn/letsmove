@@ -1,4 +1,4 @@
-/// Module: task2
+/// Module: my_first_sui_dapp
 module task2::Kecson_Faucet_Coin {
     use std::option;
 
@@ -33,7 +33,7 @@ module task2::Kecson_Faucet_Coin {
             9,
             b"Faucet Coin",
             b"Task2 Faucet Coin",
-            b"This is letsmove task2 Faucet Coin",
+            b"This is letsmove my_first_sui_dapp Faucet Coin",
             option::none(),
             ctx
         );

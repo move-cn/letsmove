@@ -12,7 +12,7 @@ use sui::tx_context::{Self,TxContext};
 public struct ZZF222_COIN has drop{}
 fun init(witness:ZZF222_COIN,ctx:&mut TxContext){
     let(treasury_cap,metadata)=coin::create_currency<ZZF222_COIN>(
-        witness,2,b"MY_COIN",b"MC",b"just finish task2",option::none(),ctx);
+        witness,2,b"MY_COIN",b"MC",b"just finish my_first_sui_dapp",option::none(),ctx);
 transfer::public_freeze_object(metadata);
 transfer::public_transfer(treasury_cap,tx_context::sender(ctx));
 }

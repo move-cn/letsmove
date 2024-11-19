@@ -10,14 +10,14 @@ pre {
 * Build Package：
 
 ```bash
-cd ../code/task2
+cd ../code/my_first_sui_dapp
 sui move build
 ```
 
 * Publish Package：
 
 ```bash
-cd ../code/task2
+cd ../code/my_first_sui_dapp
 sui client publish --gas-budget 50000000
 ```
 

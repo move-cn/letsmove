@@ -1,6 +1,6 @@
 /*
-/// Module: task2
-module task2::task2 {
+/// Module: my_first_sui_dapp
+module my_first_sui_dapp::my_first_sui_dapp {
 
 }
 */

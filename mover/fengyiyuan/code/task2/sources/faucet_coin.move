@@ -1,4 +1,4 @@
-/// Module: task2
+/// Module: my_first_sui_dapp
 module task2::faucet_coin {
 
 

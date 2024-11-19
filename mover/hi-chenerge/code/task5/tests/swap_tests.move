@@ -52,7 +52,7 @@ module hichenerge::swap_tests {
         // {
         //     let mut treasury_cap = test_scenario::take_shared<TreasuryCap<CHENERGE_FAUCET>>(&scenario);
         //
-        //     task2::chenerge_faucet::mint(&mut treasury_cap, 10000, test_scenario::ctx(&mut scenario));
+        //     my_first_sui_dapp::chenerge_faucet::mint(&mut treasury_cap, 10000, test_scenario::ctx(&mut scenario));
         //
         //     test_scenario::return_shared(treasury_cap);
         // };
@@ -108,7 +108,7 @@ module hichenerge::swap_tests {
         // {
         //     let mut treasury_cap = test_scenario::take_from_sender<TreasuryCap<CHENERGE>>(&scenario);
         //
-        //     task2::chenerge::mint(&mut treasury_cap, 22, player1, test_scenario::ctx(&mut scenario));
+        //     my_first_sui_dapp::chenerge::mint(&mut treasury_cap, 22, player1, test_scenario::ctx(&mut scenario));
         //
         //     test_scenario::return_to_sender(&scenario, treasury_cap);
         // };

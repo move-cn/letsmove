@@ -12,7 +12,7 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # MyRemotePackage = { git = "https://some.remote/host.git", subdir = "remote/path", rev = "main" }
 
 # For local dependencies use `local = path`. Path is relative to the package root
-# faucet_token = { local = "../../task2/jerry_faucet_token" }
+# faucet_token = { local = "../../my_first_sui_dapp/jerry_faucet_token" }
 
 # To resolve a version conflict and force a specific version for dependency
 # override use `override = true`

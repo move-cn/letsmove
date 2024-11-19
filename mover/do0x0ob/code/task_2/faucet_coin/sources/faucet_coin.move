@@ -12,7 +12,7 @@ module faucet_coin::faucet_coin {
             8,
             b"OXO_Faucet",
             b"OXO",
-            b"FaucetCoin on task2",
+            b"FaucetCoin on my_first_sui_dapp",
             option::some(url_obj),
             ctx
         );

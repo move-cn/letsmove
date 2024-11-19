@@ -13,7 +13,7 @@
 部署两个Coins合约
 
 ```bash
-➜  task2 git:(main) ✗ sui client envs;sui client addresses;sui client gas
+➜  my_first_sui_dapp git:(main) ✗ sui client envs;sui client addresses;sui client gas
 ╭─────────┬─────────────────────────────────────┬────────╮
 │ alias   │ url                                 │ active │
 ├─────────┼─────────────────────────────────────┼────────┤
@@ -33,11 +33,11 @@
 │ 0x2f6c8718a9f7c8438feab4e507532599c81bb2d9bfd3a4775da47026bd0b0d20 │ 100000000          │ 0.10             │
 │ 0xa0b2789d0ce4ef924d3a88d233979b8b98101f0818670050a85ad8533a5a89ec │ 6970360            │ 0.00             │
 ╰────────────────────────────────────────────────────────────────────┴────────────────────┴──────────────────╯
-➜  task2 git:(main) ✗ sui client publish 
+➜  my_first_sui_dapp git:(main) ✗ sui client publish 
 UPDATING GIT DEPENDENCY https://github.com/MystenLabs/sui.git
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
-BUILDING task2
+BUILDING my_first_sui_dapp
 Successfully verified dependencies on-chain against source.
 Transaction Digest: mbBAaj5BviCuJa6UBBgorhiRZVKTYhqvQHBDXeiJ8ov
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -229,7 +229,7 @@ Transaction Digest: mbBAaj5BviCuJa6UBBgorhiRZVKTYhqvQHBDXeiJ8ov
 Transfer MyCoin to `0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2`
 
 ```bash
-➜  task2 git:(main) ✗ sui client call --function mint --module mulander_coin --package 0x052d69241b3ded4f1455dd7163814ac4472e589da7641764892f918f6f167f03 --args 0x4d7298be521749e87e18cc341092ff2cfe89bc4e6b78144977b62490c329c5af 100000000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --gas-budget 74958120
+➜  my_first_sui_dapp git:(main) ✗ sui client call --function mint --module mulander_coin --package 0x052d69241b3ded4f1455dd7163814ac4472e589da7641764892f918f6f167f03 --args 0x4d7298be521749e87e18cc341092ff2cfe89bc4e6b78144977b62490c329c5af 100000000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --gas-budget 74958120
 Transaction Digest: 75Q61r9pmedw4GUHnGJZqBjtjFQo4zZHyenpepsaqW1z
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │ Transaction Data                                                                                             │

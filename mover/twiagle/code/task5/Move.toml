@@ -6,8 +6,8 @@ edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 
 [dependencies]
 Sui = {local="/home/cleversushi/sui_projects/sui/crates/sui-framework/packages/sui-framework"}
-#task2 = {local="/home/cleversushi/sui_projects/letsmove/mover/twiagle/code/task2/twiagleCoin"}
-#faucet = {local="/home/cleversushi/sui_projects/letsmove/mover/twiagle/code/task2/faucet"}
+#my_first_sui_dapp = {local="/home/cleversushi/sui_projects/letsmove/mover/twiagle/code/my_first_sui_dapp/twiagleCoin"}
+#faucet = {local="/home/cleversushi/sui_projects/letsmove/mover/twiagle/code/my_first_sui_dapp/faucet"}
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.

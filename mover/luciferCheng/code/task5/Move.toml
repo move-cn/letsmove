@@ -13,7 +13,7 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 
 # For local dependencies use `local = path`. Path is relative to the package root
 
-# task2 = { git = "https://github.com/luciferCheng/letsmove.git", subdir = "mover/luciferCheng/code/task2", rev = "main" }
+# my_first_sui_dapp = { git = "https://github.com/luciferCheng/letsmove.git", subdir = "mover/luciferCheng/code/my_first_sui_dapp", rev = "main" }
 task2 = { local = "../task2" }
 
 # To resolve a version conflict and force a specific version for dependency
@@ -33,7 +33,7 @@ task2 = "0xd4f5cb5f4fafff5910e5fcd3f3d9184c0f6ac96837b521f3e3df32bab2cf8405"
 # The dev-dependencies section allows overriding dependencies for `--test` and
 # `--dev` modes. You can introduce test-only dependencies here.
 # Local = { local = "../path/to/dev-build" }
-# task2 = { local = "../task2" }
+# my_first_sui_dapp = { local = "../my_first_sui_dapp" }
 
 [dev-addresses]
 # The dev-addresses section allows overwriting named addresses for the `--test`

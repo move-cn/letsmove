@@ -23,7 +23,7 @@ task4 = "0x0"
 # mainnet
 task2 = "0x37b20406866053c3944f1f89ea1d86120dae36a791941cc6cf22ae65232f7c54"
 # testnet
-#task2 = "0xd54541bc29f85a8b93b58dee36a9a56ef7b9ff83edb577747dc8d8982ac10e0b"
+#my_first_sui_dapp = "0xd54541bc29f85a8b93b58dee36a9a56ef7b9ff83edb577747dc8d8982ac10e0b"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.

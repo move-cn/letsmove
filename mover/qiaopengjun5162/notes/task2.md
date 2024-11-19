@@ -17,7 +17,7 @@ sui move new mycoin
 sui move build
 sui move test 
 
-letsmove/mover/qiaopengjun5162/code/task2/mycoin on  main [?] via 🅒 base took 8.8s 
+letsmove/mover/qiaopengjun5162/code/my_first_sui_dapp/mycoin on  main [?] via 🅒 base took 8.8s 
 ➜ sui client envs                                                       
 ╭─────────┬───────────────────────────────────────┬────────╮
 │ alias   │ url                                   │ active │
@@ -27,11 +27,11 @@ letsmove/mover/qiaopengjun5162/code/task2/mycoin on  main [?] via 🅒 base t
 │ testnet │ https://fullnode.testnet.sui.io:443   │ *      │
 ╰─────────┴───────────────────────────────────────┴────────╯
 
-letsmove/mover/qiaopengjun5162/code/task2/mycoin on  main [!?] via 🅒 base 
+letsmove/mover/qiaopengjun5162/code/my_first_sui_dapp/mycoin on  main [!?] via 🅒 base 
 ➜ sui client switch --env mainnet
 Active environment switched to [mainnet]
 
-letsmove/mover/qiaopengjun5162/code/task2/mycoin on  main [!?] via 🅒 base 
+letsmove/mover/qiaopengjun5162/code/my_first_sui_dapp/mycoin on  main [!?] via 🅒 base 
 ➜ sui client envs                
 ╭─────────┬───────────────────────────────────────┬────────╮
 │ alias   │ url                                   │ active │
@@ -41,7 +41,7 @@ letsmove/mover/qiaopengjun5162/code/task2/mycoin on  main [!?] via 🅒 base
 │ testnet │ https://fullnode.testnet.sui.io:443   │        │
 ╰─────────┴───────────────────────────────────────┴────────╯
 
-letsmove/mover/qiaopengjun5162/code/task2/mycoin on  main [!?] via 🅒 base took 35.1s 
+letsmove/mover/qiaopengjun5162/code/my_first_sui_dapp/mycoin on  main [!?] via 🅒 base took 35.1s 
 ➜ sui client publish  --skip-fetch-latest-git-deps
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
@@ -212,14 +212,14 @@ sui move new faucet_coin
 ### - 发送 `My Coin`  给地址 `0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2`
 
 ```shell
-letsmove/mover/qiaopengjun5162/code/task2/mycoin on  main [!?] via 🅒 base 
+letsmove/mover/qiaopengjun5162/code/my_first_sui_dapp/mycoin on  main [!?] via 🅒 base 
 ➜ export PACKAGE_ID=0x0c303dc81a35841a80e40462b6f96d9b1a9e519e1b01ddfc94be00061127fa0c
 
 
-letsmove/mover/qiaopengjun5162/code/task2/mycoin on  main [!?] via 🅒 base 
+letsmove/mover/qiaopengjun5162/code/my_first_sui_dapp/mycoin on  main [!?] via 🅒 base 
 ➜ export TREASURYCAP_ID=0x3f2b8b45d2e7c655026dec24c15e220d18a23ed624e9caa0ccac4814aad554f2                                                                                                 
 
-letsmove/mover/qiaopengjun5162/code/task2/mycoin on  main [!?] via 🅒 base 
+letsmove/mover/qiaopengjun5162/code/my_first_sui_dapp/mycoin on  main [!?] via 🅒 base 
 ➜ sui client call --function mint --module mycoin --package $PACKAGE_ID --args $TREASURYCAP_ID 100 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --gas-budget 10000000
 Transaction Digest: Hk2m48YK9VbDL8cdLAMM119ZDHiqGuBJttC1zE2jH6yh
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -359,7 +359,7 @@ Transaction Digest: Hk2m48YK9VbDL8cdLAMM119ZDHiqGuBJttC1zE2jH6yh
 
 ### 发布 faucet coin 
 ```shell
-letsmove/mover/qiaopengjun5162/code/task2/faucet_coin on  main [!?] via 🅒 base took 4.3s 
+letsmove/mover/qiaopengjun5162/code/my_first_sui_dapp/faucet_coin on  main [!?] via 🅒 base took 4.3s 
 ➜ sui client publish  --skip-fetch-latest-git-deps                                                                                                                   
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
@@ -524,7 +524,7 @@ Transaction Digest: GvbJ8ia1HfavuccAmi8EJJAaCGShtdv4NWrs1B13vvom
 │  └──                                                                                              │
 ╰───────────────────────────────────────────────────────────────────────────────────────────────────╯
 
-letsmove/mover/qiaopengjun5162/code/task2/faucet_coin on  main [!?] via 🅒 base took 8.7s 
+letsmove/mover/qiaopengjun5162/code/my_first_sui_dapp/faucet_coin on  main [!?] via 🅒 base took 8.7s 
 ➜ 
 
 
@@ -551,7 +551,7 @@ mycoin package id testnet: 0x7e8063dd7740ec02746fa970dea089468a9730be75ee71530dc
 ## 问题
 1. 发布报错  Server returned an error status code: 429
 ```shell
-letsmove/mover/qiaopengjun5162/code/task2/mycoin on  main [!?] via 🅒 base took 2.4s 
+letsmove/mover/qiaopengjun5162/code/my_first_sui_dapp/mycoin on  main [!?] via 🅒 base took 2.4s 
 ➜ sui client publish                              
 Networking or low-level protocol error: Server returned an error status code: 429
 

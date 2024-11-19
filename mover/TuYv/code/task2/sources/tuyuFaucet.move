@@ -1,4 +1,4 @@
-/// Module: task2
+/// Module: my_first_sui_dapp
 module tuyuFaucet::tuyv_faucet {
     use sui::coin::{Self,Coin,TreasuryCap};
     use std::option::{none};

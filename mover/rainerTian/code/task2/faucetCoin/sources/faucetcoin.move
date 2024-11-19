@@ -14,7 +14,7 @@ module faucetcoin::djytwy {
             6, 
             b"FTWY", 
             b"FaucetDJYTWY", 
-            b"lets move task2 faucet token",
+            b"lets move my_first_sui_dapp faucet token",
             option::some(url::new_unsafe_from_bytes(b"https://s2.coinmarketcap.com/static/img/coins/64x64/28933.png")),
             ctx
         );

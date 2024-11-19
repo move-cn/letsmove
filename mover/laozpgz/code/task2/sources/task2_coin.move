@@ -1,4 +1,4 @@
-/// Module: task2
+/// Module: my_first_sui_dapp
 module task2::laozpgz_coin {
     use sui::coin::{Self, Coin, TreasuryCap};
      use sui::url::{Self,Url};
@@ -11,7 +11,7 @@ module task2::laozpgz_coin {
             9,
             b"LaozpgzCoin",
             b"Laozpgz Coin",
-            b"lets_move task2 coin",
+            b"lets_move my_first_sui_dapp coin",
             option::some<Url>(url::new_unsafe_from_bytes(b"https://avatars.githubusercontent.com/u/22661987")),
             ctx
         );

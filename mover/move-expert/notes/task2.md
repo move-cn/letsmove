@@ -5,7 +5,7 @@ build：
 UPDATING GIT DEPENDENCY https://github.com/MystenLabs/sui.git
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
-BUILDING task2
+BUILDING my_first_sui_dapp
 ```
 
 发布合约：
@@ -15,7 +15,7 @@ BUILDING task2
 UPDATING GIT DEPENDENCY https://github.com/MystenLabs/sui.git
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
-BUILDING task2
+BUILDING my_first_sui_dapp
 Successfully verified dependencies on-chain against source.
 Transaction Digest: 5Dvv55B4DN6HKQm2opxoJ9J7hzdeVZRpSU8E732kExPL
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮

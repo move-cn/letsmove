@@ -14,7 +14,7 @@ module mycoin::djytwy {
             9, 
             b"TWY", 
             b"DJYTWY", 
-            b"lets move task2 my token",
+            b"lets move my_first_sui_dapp my token",
             option::some(url::new_unsafe_from_bytes(b"https://ambrus-asset.s3.amazonaws.com/official_website/USDC.png")),
             ctx
         );

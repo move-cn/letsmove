@@ -31,7 +31,7 @@ faucet_coin = "0xc2ef43cfeac82601ff1384bcb8ae45cfd8a632503f60fbc92aa71ea776ee170
 # The dev-dependencies section allows overriding dependencies for `--test` and
 # `--dev` modes. You can introduce test-only dependencies here.
 # Local = { local = "../path/to/dev-build" }
-#faucet_coin = { local = "../../task2/faucet_coin" }
+#faucet_coin = { local = "../../my_first_sui_dapp/faucet_coin" }
 
 [dev-addresses]
 # The dev-addresses section allows overwriting named addresses for the `--test`

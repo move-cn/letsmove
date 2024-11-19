@@ -1,4 +1,4 @@
-/// Module: task2
+/// Module: my_first_sui_dapp
 module task3::nft_5255b64 {
     use std::string;
     use sui::object::UID;

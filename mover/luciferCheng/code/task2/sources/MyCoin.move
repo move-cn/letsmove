@@ -1,5 +1,5 @@
 
-/// Module: task2
+/// Module: my_first_sui_dapp
 module task2::mycoin {
     use sui::coin::{Self};
     use sui::url::{Url,Self};

@@ -1,5 +1,5 @@
 
-/// Module: task2
+/// Module: my_first_sui_dapp
 module task2::kael777_coin {
     use sui::tx_context::{sender};
     use sui::coin::{Self,TreasuryCap,Coin};

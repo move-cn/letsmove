@@ -16,7 +16,7 @@ sui client faucet
 ## 发布项目
 ### 新建项目
 ```bash
-sui move new task2
+sui move new my_first_sui_dapp
 ```
 
 ### 构建、发布

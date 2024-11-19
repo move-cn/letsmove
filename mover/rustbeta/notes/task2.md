@@ -5,7 +5,7 @@
 UPDATING GIT DEPENDENCY https://github.com/MystenLabs/sui.git
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
-BUILDING task2
+BUILDING my_first_sui_dapp
 ```
 
 ```bash
@@ -15,7 +15,7 @@ sui client publish --gas-budget 50000000 --skip-dependency-verification
 UPDATING GIT DEPENDENCY https://github.com/MystenLabs/sui.git
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
-BUILDING task2
+BUILDING my_first_sui_dapp
 Skipping dependency verification
 Transaction Digest: E5n3wX9WdZ4NZSRddxKRMHpqigzCdWaRy1aYK4cnQPme
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
