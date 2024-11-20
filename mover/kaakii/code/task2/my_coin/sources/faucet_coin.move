@@ -3,7 +3,7 @@ module my_coin::faucet_coin;
 
 use sui::coin::create_currency;
 use std::option;
-use sui::transfer::{public_transfer, public_freeze_object};
+use sui::transfer::{public_share_object, public_freeze_object};
 
 public struct FAUCET_COIN has drop{}
 
