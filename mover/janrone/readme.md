@@ -36,16 +36,16 @@
 - [x] `Faucet Coin` address2 mint hash: DsTyxsjSaYjMAmC6Bn2Nf9WyG6vpXDSoTcCM572BJ6Lg
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id : 0xfa39712553ea4b508f755819b2b4946f9f93c3dfc76d4348305c9b0804f6b08d
+- [x] nft object id :  0xfd8e2f69c4eae0f4db3d963bcf055fc42991b7ce53482341f8375d4b8837a2f0
+- [x] 转账 nft  hash: 4CwsV6sx2q7qgFsZ1ADADYkj6rp2yWtF4dFnyCdJj2C1
+- [x] scan上的NFT截图:![Scan截图](./co-learn-2411/images//nft_move_img_1.jpg)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : 0xef7757243da29bc7efe22a38a27200c9f826cfd045739ee3c79e13b6b93ae78a
+- [x] deposit Coin hash: AteMkxCoTTNtvQD1DQgr39911vkQCxNZsGWj4uFxGJw
+- [x] withdraw `Coin` hash: ALLscCgww3Yo5yekaucbm2TfzZjuudkusvEfZ2X3kkyS
+- [x] play game hash: CW5woz1EzzX7FhMtiBKZwqXkXxF8W7yjT6UDkGB1piwZ
 
 ##   05 Move Swap
 - [] swap package id :
