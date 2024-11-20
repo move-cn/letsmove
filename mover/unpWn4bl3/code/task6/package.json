@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "navi-sdk": "^1.1.15"
+    "navi-sdk": "^1.1.15",
+    "task6": "file:"
   },
   "type": "module"
 }
