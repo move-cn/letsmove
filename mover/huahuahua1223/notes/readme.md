@@ -109,3 +109,17 @@ sui client call --package 0x2 --module coin --function mint_and_transfer --type-
 
 sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0x4e393fad36baba534f8cbfa9852665c49a69be64cf5b82576f267007e187d036::huahuahua1223_faucet_coin::HUAHUAHUA1223_FAUCET_COIN --args 0x0b1d96bcc48a001596fd1b8a98c9166f8653aee9888a12d221e807c0f5be0009 10000000000 0xba05e5ff69321ed26d686dc08ecb9df43113139f6483893740b35a8361c6c4a7
 ```
+
+
+# task3
+## 1. 创建项目
+sui move new my_nft
+cd .\my_nft\
+sui move build
+
+[nft对象标准](https://docs.sui.io/standards/display)
+
+部署合约
+```bash
+sui client publish --skip-dependency-verification
+```
