@@ -3,9 +3,8 @@
 - github: `hwen227`
 
 ## 个人简介
-- 工作经验: 0年
-- 技术栈: `java` `javascript` `python` `c++`
 - 计算机专业，未参加工作
+- 技术栈: `java` `javascript` `python` `c++`
     - 正在学习使用solidity编写智能合约，参加共学营来了解move语言以及sui生态，加深对区块链的理解
     - 寻找远程工作中
 - 联系方式: 微信: `Luca0227` 
@@ -19,17 +18,17 @@
 - [✓] package id 在 scan上的查看截图:![Scan截图](./images/task1_code.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [✓] My Coin package id : 0x025c077dd399fe7d9a18271df29ea6b4922782d64f6aee06e218c0af9586546b
+- [✓] Faucet package id : 0xc4a538a0f477051636e06e2cea07a179f5a62e8125ed1eef92fa84993eb729ac
+- [✓] 转账 `My Coin` hash: GYtZkdMo8RjJsMHhqm5Bv1V56EAPDjNpRwTZy9bSKKTG
+- [✓] `Faucet Coin` address1 mint hash: BeCYs1GUxkWeqq1wqFeunCb8SegEM1EuqqGXiMyr4FcZ
+- [✓] `Faucet Coin` address2 mint hash: HxVBpPgtD4DVPPu4VHuFw12CtAQhGXCNTcUAkR1A6x4P
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [✓] nft package id : 0x8e2e51ec7307cd7a525e46b158e932d971fbf4c46cd7e7dd0b0ed90e5413d223
+- [✓] nft object id : 0x81549006100165cfa96f4635d09b340b564dd899c632be38ca6e6e09e2c3e0ae
+- [✓] 转账 nft  hash: FVhVDEE4gb9VKK3Lu79SyEJnGD4sCN2X5SVPucUE7wdK
+- [✓] scan上的NFT截图:![Scan截图](./images/myNFT.png)
 
 ##   04 Move Game
 - [] game package id :
