@@ -49,7 +49,7 @@ export function Task(){
         const [toBorrowCoin] = await borrowCoin(tx, wusdcPool, borrow_amount);
 
 
-        // 存入USDC
+        // 存入USDC 
         await depositCoin(tx, wusdcPool,toBorrowCoin, borrow_amount);
 
         // 提交交易
