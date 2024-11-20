@@ -16,14 +16,14 @@
 
 - [x] 第一周:![学习记录截图](./images/task1_learning.png)
 - [x] 第二周:![学习记录截图](./images/week2_learning.png)
-- [] 第三周:![学习记录截图](./images/你的图片地址)
+- [x] 第三周:![学习记录截图](./images/week3_learning.png)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 参加直播答疑
 
 - [x] 第一周:![学习记录截图](./images/week1_living_ask.jpg)
 - [x] 第二周:![学习记录截图](./images/week2_living_qa.png)
-- [] 第三周:![学习记录截图](./images/你的图片地址)
+- [x] 第三周:![学习记录截图](./images/week4_living_ask.png)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 群里分享学习笔记
@@ -36,6 +36,7 @@
 - [x] （六）Move实现简单的代币swap功能【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/06_move_swap.md)】
 - [x] （七）Move语言基础数据类型【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/07_move_base_types.md)】
 - [x] （八）Move语言的函数【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/08_move_function.md)】
+- [x] （九）Move语言中的能力（Ability）【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/09_move_ability.md)】
 
 
 ## 对外输出学习笔记
@@ -48,6 +49,7 @@
 - [x] （六）Move实现简单的代币swap功能【[学习笔记链接](https://learnblockchain.cn/article/9908)】
 - [x] （七）Move语言基础数据类型【[学习笔记链接](https://learnblockchain.cn/article/9935)】
 - [x] （八）Move语言的函数【[学习笔记链接](https://learnblockchain.cn/article/9942)】
+- [x] （九）Move语言中的能力（Ability）【[学习笔记链接](https://learnblockchain.cn/article/9982)】
 
 ## 在HOH社区公众号发布自己的技术文章
 
