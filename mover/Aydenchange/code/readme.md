@@ -1,0 +1,1 @@
+sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0x4a63c9ccdd5488637d6d1e6be17efbbd0de8e191fe8cc8eb06a3abff0daf2d6f::aydenchange_faucet::AYDENCHANGE_FAUCET --args 0x4adedd29b8357af46cb8028866b2d8398528917596ffb9635b68baf56daca14e 100000000 0x63cff068a582222a2d6f0391158a2d64cd652134b6e6bf442ed61ba487189dae
