@@ -13,6 +13,10 @@ https://github.com/move-cn/letsmove
 # 配置代理拉取代码
 git clone -c http.proxy="127.0.0.1:2334" https://github.com/fengfengxiong123/letsmove.git
 
+# 配置git代理
+git config --global https.proxy https://127.0.0.1:2334
+git config --global http.proxy http://127.0.0.1:2334
+
 # 查看版本
 sui -V
 
