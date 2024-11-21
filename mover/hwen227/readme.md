@@ -31,10 +31,10 @@
 - [✓] scan上的NFT截图:![Scan截图](./images/myNFT.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [] game package id : 0x5d530517d4fee43180fd1ea82ea1f6c7afc8dbde3e052cc24e2942b382fbb82a
+- [] deposit Coin hash: Gpzu4SvSSz8MoQ6SpkJoRHbj3FCMpLEvqnJcqjzyocyX
+- [] withdraw `Hwen Faucet Coin` hash: 4g1fYE6XFmCxZhiYbZqqk5tU1TU757PzXTpgpnbPPohT
+- [] play game hash: AATCc2d2pME3NAF2uXVvBZiZ8VHam5hjmieQBBSukovd
 
 ##   05 Move Swap
 - [] swap package id :
