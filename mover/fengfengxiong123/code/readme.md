@@ -17,6 +17,9 @@ git clone -c http.proxy="127.0.0.1:2334" https://github.com/fengfengxiong123/let
 git config --global https.proxy https://127.0.0.1:2334
 git config --global http.proxy http://127.0.0.1:2334
 
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
 # 查看版本
 sui -V
 
