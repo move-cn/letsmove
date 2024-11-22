@@ -37,6 +37,7 @@
 - [x] （七）Move语言基础数据类型【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/07_move_base_types.md)】
 - [x] （八）Move语言的函数【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/08_move_function.md)】
 - [x] （九）Move语言中的能力（Ability）【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/09_move_ability.md)】
+- [x] （十）让Move语言的单元测试跑起来！【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/10_move_unit_test.md)】
 
 
 ## 对外输出学习笔记
@@ -50,6 +51,7 @@
 - [x] （七）Move语言基础数据类型【[学习笔记链接](https://learnblockchain.cn/article/9935)】
 - [x] （八）Move语言的函数【[学习笔记链接](https://learnblockchain.cn/article/9942)】
 - [x] （九）Move语言中的能力（Ability）【[学习笔记链接](https://learnblockchain.cn/article/9982)】
+- [x] （十）让Move语言的单元测试跑起来！【[学习笔记链接](https://learnblockchain.cn/article/10011)】
 
 ## 在HOH社区公众号发布自己的技术文章
 
