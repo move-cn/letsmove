@@ -33,10 +33,10 @@
 - [✅] scan上的NFT截图:![Scan截图](./images/mint_alexnft_myaddress.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [✅] game package id : `0xd58b8295f6bcebbcb3b565cd2506fe547d663e71460fc35c8f77518b03d18172`
+- [✅] deposit Coin hash: `3GaUrZiFRhb4pfp4W1HiaSKntPxvCdJk4w27SLfy6aEA`
+- [✅] withdraw `Coin` hash: `5Kkc4ckL244b1UiqrpNgp36EfCpgkeoA62rtx148eVrC`
+- [✅] play game hash: `Efd8wLmV3QNkF74Cao7jtDu1UXk8r9vTwgzSt6hnKhxn`
 
 ##   05 Move Swap
 - [] swap package id :
