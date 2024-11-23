@@ -15,7 +15,7 @@
 
 - [x] 第一周:![学习记录截图](./images/study_week1.png)
 - [x] 第二周:![学习记录截图](./images/study_week2.png)
-- [] 第三周:![学习记录截图](./images/你的图片地址)
+- [x] 第三周:![学习记录截图](./images/study_week3.jpg)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 参加直播答疑
@@ -29,14 +29,14 @@
 
 - [x] 第一篇笔记 ![分享记录截图](./images/study_note1.png)
 - [x] 第二篇笔记 ![分享记录截图](./images/study_note2.png)
-- [] 第三篇笔记
+- [x] 第三篇笔记 ![分享记录截图](./images/study_note3.png)
 - [] 第四篇笔记
 
 ## 对外输出学习笔记
 
 - [x] 第一篇笔记【https://learnblockchain.cn/article/9813】
 - [x] 第二篇笔记【https://learnblockchain.cn/article/9852】
-- [] 第三篇笔记【学习笔记链接】
+- [x] 第三篇笔记【https://learnblockchain.cn/article/9974】
 - [] 第四篇笔记【学习笔记链接】
 
 ## 在HOH社区公众号发布自己的技术文章
