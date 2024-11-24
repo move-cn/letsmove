@@ -18,7 +18,12 @@ sui client addresses
 sui client faucet 
 ##查看gas
 sui client gas 
-
+##导入私钥,其中KEY_SCHEME 为 ed25519 或 secp256k1
+sui keytool import <private_key> <KEY_SCHEME>
+##设置默认的钱包
+sui client switch --address <wallet_address>
+##当前网络
+sui client envs
 
 
 ##开发相关
@@ -28,5 +33,9 @@ sui move new hello_move
 sui move test
 ##生成文档
 sui move build  --doc
+##发布并指定gas
+sui client publish  --skip-fetch-latest-git-deps --gas-budget 3000
+## 命令行调用方法
+sui client call --function mint --module [module_name] --package 0x60420571cc570199c16955006658e67c399f1a588972797acb007c29c300f8de
 
 ```
