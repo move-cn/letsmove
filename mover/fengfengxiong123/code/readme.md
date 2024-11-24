@@ -26,6 +26,9 @@ sui -V
 # 零测试网sui币
 sui client faucet
 
+# 添加环境
+sui client new-env --alias devnet --rpc https://fullnode.devnet.sui.io:443
+
 # 正在使用的地址
 sui client active-address
 
@@ -191,3 +194,6 @@ faucet coin TreasuryCap obj id ： 0x56d0bb3c37de365e23a2c56180601da49d8b23794b4
 
 ## 使用sui cli转账
 sui client transfer-sui --to 0x2e312e10390700d045ae462dcac090354bda4a81dc151c0d538a250beb0492f5 --amount 13266772 --sui-coin-object-id 0x1feb5ad79c303c52cca592272203b259119fc3fb02e037209ceaf9570474ce08  --gas-budget 100000000
+
+## task3 
+摘要： Hjn95SsHsm59si6zVhcLamy7wL7KS8Vx6YYbbXuQecXZ
