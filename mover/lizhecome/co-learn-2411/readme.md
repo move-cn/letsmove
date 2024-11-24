@@ -28,6 +28,10 @@
 
 ## 群里分享学习笔记
 
+- [x] 基础学习（一）Windows DOS 命令 - 学习笔记【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/00_01_windows_dos_commands.md)】
+- [x] 基础学习（二）速学150个Linux常用命令 - 学习笔记【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/00_02_150_linux_commands.md)】
+- [x] 基础学习（三）VS Code 零基础学习笔记【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/00_03_vscode_learning.md)】
+- [x] 基础学习（四）Git 入门到精通全套教程 - 学习笔记【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/00_04_git_github_learning.md)】
 - [x] （一）初识Move：区块链智能合约语言概览 【[代码库链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/01_new_to_move.md)】
 - [x] （二）Move开发环境搭建与工具介绍【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/02_move_dev_env.md)】
 - [x] （三）使用Move在Sui上发行Coin快速上手【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/03_move_mint_coin.md)】
@@ -38,10 +42,16 @@
 - [x] （八）Move语言的函数【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/08_move_function.md)】
 - [x] （九）Move语言中的能力（Ability）【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/09_move_ability.md)】
 - [x] （十）让Move语言的单元测试跑起来！【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/10_move_unit_test.md)】
+- [x] （十一）Move泛型：从入门到“我真的会了”【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/11_move_generics.md)】
 
 
 ## 对外输出学习笔记
 
+- [x] 基础学习（一）Windows DOS 命令 - 学习笔记【[学习笔记链接](https://zhuanlan.zhihu.com/p/8711813251)】
+- [x] 基础学习（二）速学150个Linux常用命令 - 学习笔记【[学习笔记链接](https://zhuanlan.zhihu.com/p/8712060263)】
+- [x] 基础学习（三）VS Code 零基础学习笔记【[学习笔记链接](https://zhuanlan.zhihu.com/p/8712206795)】
+- [x] 基础学习（四）Git 入门到精通全套教程 - 学习笔记【[学习笔记链接](https://zhuanlan.zhihu.com/p/8712285850)】
+- [x] （一）初识Move：区块链智能合约语言概览【[学习笔记链接](https://learnblockchain.cn/article/9790)】
 - [x] （一）初识Move：区块链智能合约语言概览【[学习笔记链接](https://learnblockchain.cn/article/9790)】
 - [x] （二）Move开发环境搭建与工具介绍【[学习笔记链接](https://learnblockchain.cn/article/9807)】
 - [x] （三）使用Move在Sui上发行Coin快速上手【[学习笔记链接](https://learnblockchain.cn/article/9838)】
@@ -52,6 +62,7 @@
 - [x] （八）Move语言的函数【[学习笔记链接](https://learnblockchain.cn/article/9942)】
 - [x] （九）Move语言中的能力（Ability）【[学习笔记链接](https://learnblockchain.cn/article/9982)】
 - [x] （十）让Move语言的单元测试跑起来！【[学习笔记链接](https://learnblockchain.cn/article/10011)】
+- [x] （十一）Move泛型：从入门到“我真的会了”【[学习笔记链接](https://learnblockchain.cn/article/10019)】
 
 ## 在HOH社区公众号发布自己的技术文章
 
