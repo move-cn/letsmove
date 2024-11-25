@@ -1,12 +1,12 @@
 [package]
-name = "task2"
+name = "cryptoctl"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
-published-at = "0x595755e12a700673fd174e05eac9a6e22cfb5d202de027d5830c256bd20d5b3a"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+task2 = { local="../task2" }
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
@@ -20,10 +20,7 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-# mainnet
-task2 = "0x595755e12a700673fd174e05eac9a6e22cfb5d202de027d5830c256bd20d5b3a"
-# testnet
-#task2 = "0x260cf370e2f907c25e21cdf2b285224a88b3b839f74fb3b25fa3e0fb063f14bd"
+cryptoctl = "0x0"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
@@ -33,3 +30,9 @@ task2 = "0x595755e12a700673fd174e05eac9a6e22cfb5d202de027d5830c256bd20d5b3a"
 # The dev-dependencies section allows overriding dependencies for `--test` and
 # `--dev` modes. You can introduce test-only dependencies here.
 # Local = { local = "../path/to/dev-build" }
+
+[dev-addresses]
+# The dev-addresses section allows overwriting named addresses for the `--test`
+# and `--dev` modes.
+# alice = "0xB0B"
+
