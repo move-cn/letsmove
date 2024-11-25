@@ -1,4 +1,5 @@
 module gracecampo::gracecampo {
+    use std::vector;
     use sui::coin::{Self, Coin};
     use sui::balance::{Self, Supply, Balance};
     use sui::transfer::{share_object, public_transfer};
@@ -18,6 +19,9 @@ module gracecampo::gracecampo {
 
     ///用户地址无足够数量X/Y代币以供存入
     const ErrNotEnoughBalance :u64 = 1006;
+    ///乘积因子
+    const PRODUCT_FACTOR :u64 = 10000000;
+
     ///LP结构体：类型是<phantom X, phantom Y> 拥有drop能力
     public struct LP<phantom X, phantom Y> has drop {
     }
@@ -62,9 +66,9 @@ module gracecampo::gracecampo {
 
     ///此函数主用于，验证移除流动性的正确性，以及返回应转移给调用者的代币数量
     public fun remove_liquidity<X,Y>(pool: &mut Pool<X, Y>,
-                      lp: &mut Coin<LP<X, Y>>,
-                      vec: vector<u64>,
-                      ctx: &mut TxContext): (Coin<X>, Coin<Y>) {
+                                     lp: &mut Coin<LP<X, Y>>,
+                                     vec: vector<u64>,
+                                     ctx: &mut TxContext): (Coin<X>, Coin<Y>) {
         assert!(vector::length(&vec)==2,ErrInvalidVecotrType);
         //LP的值
         let lp_balance_value = lp.value();
@@ -74,8 +78,8 @@ module gracecampo::gracecampo {
         let coin_y_out = vec[1];
         //判断池子中代币余额是否满足取出值
         assert!(lp_balance_value == coin_x_out + coin_y_out, ErrBalanceNotMatch);
-        assert!(pool.coin_x.value() > coin_x_out, ErrNotEnoughXInPool);
-        assert!(pool.coin_y.value() > coin_y_out, ErrNotEnoughYInPool);
+        assert!(pool.coin_x.value() >= coin_x_out, ErrNotEnoughXInPool);
+        assert!(pool.coin_y.value() >= coin_y_out, ErrNotEnoughYInPool);
         //销毁lp取出的供应量
         let lp_split = lp.split( coin_x_out + coin_y_out,ctx);
         pool.lp_supply.decrease_supply(coin::into_balance(lp_split));
@@ -89,11 +93,11 @@ module gracecampo::gracecampo {
     }
     //供用户调用的存入流动性函数
     public entry fun  deposit_liquidity<X,Y>(pool: &mut Pool<X, Y>,
-                                         coin_x:&mut Coin<X>,
-                                         coin_y:&mut Coin<Y>,
-                                         coin_x_amt: u64,
-                                         coin_y_amt: u64,
-                                         ctx: &mut TxContext){
+                                             coin_x:&mut Coin<X>,
+                                             coin_y:&mut Coin<Y>,
+                                             coin_x_amt: u64,
+                                             coin_y_amt: u64,
+                                             ctx: &mut TxContext){
         //获取调用地址X代币余额
         let  coin_x_balance = coin::balance(coin_x).value();
         //获取调用地址Y代币余额
@@ -114,10 +118,10 @@ module gracecampo::gracecampo {
         //获取流动池LP总供应
         let lp_supply = balance::supply_value(&pool.lp_supply);
         //计算用户输入的LP所占LP总供应份额
-        let proportion = (lp.value()*100)/lp_supply;
+        let proportion = (lp.value() * PRODUCT_FACTOR)/lp_supply;
         //计算 X/Y 应提取数量
-        let x_out = pool.coin_x.value() * proportion;
-        let y_out = pool.coin_y.value() * proportion;
+        let x_out = (pool.coin_x.value() * proportion) / PRODUCT_FACTOR;
+        let y_out = (pool.coin_y.value() * proportion) / PRODUCT_FACTOR;
         //组装一个集合,元素为X,Y代币提出的数量
         let mut vec = vector::empty<u64>();
         vector::push_back(&mut vec,x_out);
@@ -130,9 +134,9 @@ module gracecampo::gracecampo {
 
     ///交换X代币到Y代币：因代币数量是1:1 ,就无须计算代币兑换比例
     public entry fun swap_x_to_y<X, Y>(pool: &mut Pool<X, Y>,
-                                    coin_x: &mut Coin<X>,
-                                    amount: u64,
-                                    ctx: &mut TxContext){
+                                       coin_x: &mut Coin<X>,
+                                       amount: u64,
+                                       ctx: &mut TxContext){
         //判断池中是否有足量的代币以供兑换
         assert!(amount < pool.coin_y.value(), ErrNotEnoughYInPool);
         //减去兑换地址X代币的数量
@@ -146,9 +150,9 @@ module gracecampo::gracecampo {
 
     ///交换Y代币到X代币：因代币数量是1:1 ,就无须计算代币兑换比例
     public entry fun swap_y_to_x<X, Y>(pool: &mut Pool<X, Y>,
-                                   coin_y: &mut Coin<Y>,
-                                   amount: u64,
-                                   ctx: &mut TxContext){
+                                       coin_y: &mut Coin<Y>,
+                                       amount: u64,
+                                       ctx: &mut TxContext){
         assert!(amount < pool.coin_x.value(), ErrNotEnoughYInPool);
         //池中减去兑换地址Y代币的数量
         let y_value = coin_y.split(amount,ctx);
