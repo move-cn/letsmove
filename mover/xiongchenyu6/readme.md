@@ -31,7 +31,7 @@
 - [x] nft package id : 0x8f114682b00555c2cc6d2fd2fb2fa8b388d3f71e067150b6493133dc1a4133a6
 - [x] nft object id : 0x80f62e3d3c52373385e21763cc235e1e46b3ef658b837fde4b390d2a448ebc5b
 - [x] 转账 nft hash: 7bLrDV4GVAM1niBEQ19Tz4ZB8u1XytdhzNYoUw9C2KWm
-- [x] scan 上的 NFT 截图:![Scan截图](./images/20241119-164015_screenshot.png)
+- [x] scan 上的 NFT 截图:![Scan截图](./co-learn-2411/images/20241119-164015_screenshot.png)
 
 ## 04 Move Game
 
@@ -42,20 +42,21 @@
 
 ## 05 Move Swap
 
-- [] swap package id :
-- [] call swap CoinA-> CoinB hash :
-- [] call swap CoinB-> CoinA hash :
+- [x] swap package id : 0x90a3c9dfde7b36a761dbf1a7630c4a3eb5c32d925a40d1363fcd776fbe044054
+- [x] call swap CoinA-> CoinB hash : 3bAqJCAwx8VQtRAYucXiiiVxMRZ9DUoZWsia8RqYdRYX
+- [x] call swap CoinB-> CoinA hash : J5zSow7Xz1BU1HpzGVsGLTiB8VZzNVDJE4ffvXwi3eP2
 
 ## 06 Dapp-kit SDK PTB
 
-- [] save hash :
+- [x] save hash : CEHn1tfbbxKEGcNgH74LbU1J8RBWh6osTDjM6yDBuPLt
 
 ## 07 Move CTF Check In
 
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : ![截图](./co-learn-2411/images/20241125-151014_screenshot.png)
+- [x] flag hash : CacNm5MzFXMtLruhRw3FiqPDtUpNnV1zCdcqehNcPYZp
 
 ## 08 Move CTF Lets Move
 
-- [] proof :
-- [] flag hash :
+- [x] CLI call 截图 : ![截图](./co-learn-2411/images/20241125-161956_screenshot.png)
+- [x] proof : [208,210,23,0,0,0,0,0] : vec<u8>
+- [x] flag hash : 9oU4YZq5PpuKtMQ8HUbPQkE1qDYqc43ggcpS2HzK5trm
