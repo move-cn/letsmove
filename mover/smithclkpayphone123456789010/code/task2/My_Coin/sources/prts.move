@@ -16,15 +16,6 @@ fun init(prts:PRTS, ctx: &mut TxContext) {
     let yes = some<Url>(url);     // The variable `yes` holds a `Some` variant containing the `Url` instance, which is the URL of the image you want to use.
     let(treasury,coin_metadata) =
         create_currency(prts,8,b"PRTS",b"Longmen_Coin",b"Currency issued by Longmen, with wide-ranging uses.",yes,ctx);
-    // public fun create_currency<T: drop>(
-    // witness: T,
-    // decimals: u8,
-    // symbol: vector<u8>,
-    // name: vector<u8>,
-    // description: vector<u8>,
-    // icon_url: Option<Url>,
-    // ctx: &mut TxContext,
-    // ): (TreasuryCap<T>, CoinMetadata<T>)
 
     public_freeze_object(coin_metadata); //The public_freeze_object method freezes the passed object,the object contains the data of your own coin .
 
