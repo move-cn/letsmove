@@ -8,6 +8,8 @@
 
 #### 学习资料
 - https://easy.sui-book.com/chapter_3.html
+- https://intro-zh.sui-book.com/unit-three/lessons/3_witness_design_pattern.html
+- https://github.com/RandyPen/sui-move-intro-course-zh
 
 
 ```shell
@@ -36,6 +38,6 @@ sui move build  --doc
 ##发布并指定gas
 sui client publish  --skip-fetch-latest-git-deps --gas-budget 3000
 ## 命令行调用方法
-sui client call --function mint --module [module_name] --package 0x60420571cc570199c16955006658e67c399f1a588972797acb007c29c300f8de
+sui client call --function mint --module [module_name]  --package 0x60420571cc570199c16955006658e67c399f1a588972797acb007c29c300f8de --args "参数"
 
 ```
