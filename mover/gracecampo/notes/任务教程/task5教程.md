@@ -63,7 +63,7 @@ LP 凭证在整个过程中扮演着关键角色，它主要用于储存存入�
 
 在 Move 中，`phantom` 类型参数用于定义一个类型参数，该参数不会在结构体的字段或方法中实际使用。它主要用于类型区分和约束，而不是存储或操作数据。
 
-在您的例子中，`LP<phantom X, phantom Y>` 是一个具有两个 `phantom` 类型参数 `X` 和 `Y` 的结构体。这些类型参数不会在结构体的字段中使用，但可以用于类型区分或施加某些约束。
+`LP<phantom X, phantom Y>` 是一个具有两个 `phantom` 类型参数 `X` 和 `Y` 的结构体。这些类型参数不会在结构体的字段中使用，但可以用于类型区分或施加某些约束。
 
 ```move
 public struct LP<phantom X, phantom Y> has drop {}
