@@ -225,7 +225,7 @@ sui client publish --gas-budget 30000
 
 # 或者按需发布模块
 # publish module
-# sui client publish sources/my_coin.move --gas-budget 30000
+# sui client publish sources/usd.move --gas-budget 30000
 ```
 
 发布后的输出结果中，包含了
