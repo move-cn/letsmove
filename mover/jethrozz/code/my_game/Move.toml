@@ -6,7 +6,7 @@ edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
-Jethro_Coin = {local = "../my_coin"}
+my_coin = {local = "../my_coin"}
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
 # MyRemotePackage = { git = "https://some.remote/host.git", subdir = "remote/path", rev = "main" }
@@ -20,7 +20,7 @@ Jethro_Coin = {local = "../my_coin"}
 
 [addresses]
 my_game = "0x0"
-jethro_coin = "0xea234fbb881adab94da3af129d8f7682da4f6ae5bf2cf5e013984bbeeebfcd2d"
+#my_coin = "0xea234fbb881adab94da3af129d8f7682da4f6ae5bf2cf5e013984bbeeebfcd2d"
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
 # alice = "0xA11CE"
@@ -31,8 +31,6 @@ jethro_coin = "0xea234fbb881adab94da3af129d8f7682da4f6ae5bf2cf5e013984bbeeebfcd2
 # Local = { local = "../path/to/dev-build" }
 
 [dev-addresses]
-
-jethro_coin = "0x880dcda104b7103b8adaa7933d7aca323032ded4be9f439d2b5439869a41f024"
 # The dev-addresses section allows overwriting named addresses for the `--test`
 # and `--dev` modes.
 # alice = "0xB0B"
