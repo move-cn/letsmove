@@ -86,7 +86,7 @@ module lets_move::lets_move {
 
 
     entry fun get_flag_test():vector<u8> {
-        let mut bcs_flag: vector<u8> = bcs::to_bytes(&string(b"dSz$''{#3&?CYucRi}"));
+        let mut bcs_flag: vector<u8> = bcs::to_bytes(&string(b""));
         vector:: append<u8>(&mut bcs_flag, *string(b"brainsk").as_bytes());
         let sha256= sha3_256(bcs_flag);
         sha256
@@ -98,8 +98,4 @@ module lets_move::lets_move {
         let ret= get_flag_test();
         print(&ret);
     }
-
 }
-
-
-
