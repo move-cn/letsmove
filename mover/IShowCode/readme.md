@@ -4,7 +4,7 @@
 - github: `IShowCode`
 
 ## 个人简介
-- 工作经验: 传统web2 java开发
+- 工作经验: 传统web2 java开发3年
 - 技术栈: `Java` `solidity`
 - 本科生，想转Sui生态开发
 - 联系方式: gmail: `aliotrowerh545@gmail.com` 
