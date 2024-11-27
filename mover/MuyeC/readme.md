@@ -6,7 +6,7 @@
 ## 个人简介
 - 工作经验: 半年
 - 技术栈: `Java` `JavaScript` `Vue`
-- 应届生Java前端开发，前后端都涉及，侧重于前端，对Move特别感兴趣，想向区块链方向发展。
+- web3新人，lol钻石选手，彩虹六号3k小时青铜。
 - 联系方式: tg: `@Mussenv` 
 
 ## 任务
@@ -31,10 +31,10 @@
 - [] scan上的NFT截图:<img src="nft.png" alt="scan" style="zoom:35%;" />
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [] game package id :0x11a56eecfccc7b99da61314baa6b8a98d58c038438f167b0c79f7999e3807bc0
+- [] deposit Coin hash:DQbA5sm3H7mUpzT3KDrTX2euKKL1sFxyXu8VuKxuxeKh
+- [] withdraw `Coin` hash:CsNaizBSeXcpFdk3256y8cJETnDywwj1gXSvNe43o6co
+- [] play game hash:HUKXFAozYvnLxestmWWcqRmpyZBwAz4jMjUkh53ZTHF1
 
 ##   05 Move Swap
 - [] swap package id :0x849624658265f290237bb1c7bf8d369f29127f5b2d797c28c3940dc9207a9cef
@@ -42,12 +42,12 @@
 - [] call swap CoinB-> CoinA  hash :2ZLEwMFjMF2RmXFEbS2wGXZFMo9YMKinSwd6BEGGREJM
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [] save hash :6FvJxkX2avYVwzt6y9aYBKjDAs7giti2JBEb91ATZdE2
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [] CLI call 截图 : <img src="task7.png" alt="scan" style="zoom:35%;" />
+- [] flag hash :BQTpmJBSjmQqTiSwysA3ooSqJwmAzfDMnUqRA5Ynkvxb
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [] proof : [135,84,124,185,180,192,134,86]
+- [] flag hash :Aq9N56LEwERHd6JVohP1wxQNXTK3mgWqCY4AhACtYuJw
