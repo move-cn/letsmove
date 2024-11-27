@@ -7,7 +7,7 @@
 - 工作经验: 9年
 - 技术栈: `Go` `Python`
 > 重要提示 请认真写自己的简介
-- 多年老运维，对系统架构和运维有丰富经验，最近在接触sui链跟tg相关的项目，学习下move相关知识
+- SRE，对Move特别感兴趣，想通过Move入门区块链
 - 联系方式: tg: `https://t.me/Carl_xc` 
 
 ## 任务
@@ -26,10 +26,10 @@
 - [] `Faucet Coin` address2 mint hash:
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [X] nft package id : 0x4f46f827a7994ea523175dcb7e6ee67d817e0719daeead1734ce7998871c62ab
+- [X] nft object id : 0x0233b5402c9060ee3c8fc983f7ca3c9fd2deb8eb81c4faf58fa6d58a63550b09
+- [X] 转账 nft  hash: FbcDBqtxeoi1xX4Yh1WPnj6eGRYiZ1FiAtDLjzXwjyjU
+- [X] scan上的NFT截图:![Scan截图](./images/task-3.jpg)
 
 ##   04 Move Game
 - [] game package id :
