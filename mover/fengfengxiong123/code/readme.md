@@ -1,3 +1,41 @@
+# sui中一些操作和方法
+use sui::balance::Balance
+
+// Balance 结构体可以存储代币，避免管理过多对象
+struct Game {
+    id:UID,
+    amt : Balance<SUI>
+}
+// 设置余额为零
+balance::zero<SUI>()
+
+// 将对象共享出去
+share_object(game);
+
+// 定义外部调用方法,使用Random的函数不能用public修饰
+entry fun play(game:&mut Game,rand:&Random,in:bool,amt:Coin<SUI>,ctx){}
+
+// 将Coin转为Balance
+let in_amt_balance:Balance<> = coin::into_balance(amt);
+
+// 使用balance相加
+balance::join(game.amt,in_amt_balance);
+
+// 从coin对象中取值
+let val = amt.value() 
+
+// 将game中余额拿出来一部分
+let out_balance = game.amt.split(val)
+
+// balance没有key能力，不能直接放入账户中
+let out_coin = coin::from_balance(out_balance,ctx)
+
+// 函数中使用&Random，外面直接传0x8
+// 创建随机数生成器
+// 生成随机数
+let  mut gen = random::new_generator(rand,ctx);
+let value = random::generate_bool(&mut gen);
+
 # 命令
 ```shell
 

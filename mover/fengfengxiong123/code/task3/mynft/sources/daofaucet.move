@@ -1,4 +1,4 @@
-module mynft::dao {
+module mynft::daofaucet {
     use nft_protocol::attributes::Attributes;
     use nft_protocol::collection;
     use sui::url::{Self, Url};
@@ -12,9 +12,9 @@ module mynft::dao {
 
     public struct Witness has drop {}
 
-    public struct DAO has drop {}
+    public struct DAOFAUCET has drop {}
 
-    public struct DaoNFT has key, store {
+    public struct DaoFaucetNFT has key, store {
         id: UID,
         name: String,
         description: String,
@@ -22,19 +22,19 @@ module mynft::dao {
         attributes: Attributes,
     }
 
-    fun init(otw: DAO, ctx: &mut TxContext) {
-        let (mut collection, mint_cap) = collection::create_with_mint_cap<DAO, DaoNFT>(
+    fun init(otw: DAOFAUCET, ctx: &mut TxContext) {
+        let (mut collection, mint_cap) = collection::create_with_mint_cap<DAOFAUCET, DaoFaucetNFT>(
             &otw, option::none(), ctx
         );
 
-        let delegated_witness = witness::from_witness<DaoNFT, Witness>(Witness {});
+        let delegated_witness = witness::from_witness<DaoFaucetNFT, Witness>(Witness {});
 
         collection::add_domain(
             delegated_witness,
             &mut collection,
             display_info::new(
-                string::utf8(b"dao"),
-                string::utf8(b"a nft collection of dao on sui")
+                string::utf8(b"daofaucet"),
+                string::utf8(b"a nft collection of dao faucet on sui")
             ),
         );
 
@@ -43,13 +43,13 @@ module mynft::dao {
     }
 
     public fun mint_nft(
-        mint_cap: &MintCap<DAO>,
+        mint_cap: &MintCap<DAOFAUCET>,
         name: String,
         description: String,
         url: AsciiString,
         ctx: &mut TxContext,
     ) {
-        let nft = DaoNFT {
+        let nft = DaoFaucetNFT {
             id: object::new(ctx),
             name,
             description,
@@ -58,11 +58,11 @@ module mynft::dao {
         };
 
         mint_event::emit_mint(
-            witness::from_witness<DaoNFT, Witness>(Witness {}),
+            witness::from_witness<DaoFaucetNFT, Witness>(Witness {}),
             mint_cap::collection_id(mint_cap),
             &nft,
         );
 
-        transfer::public_transfer(nft, tx_context::sender(ctx));
+        transfer::public_share_object(nft);
     }
 }
