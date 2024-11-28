@@ -42,5 +42,14 @@
 - []call swap CoinA-> CoinB 哈希值 ：6vLPzu3Q14r9sWjBkCQeooAT7nkzMqLw6c7rz8oFwGVL
 - []call swap CoinB-> CoinA 哈希值 ：GR4vMaWfRRwhLzpwiW26h4w1ohzWH1wy7H8Y8qzJjbje
 
-##   06 SDK PTB 开发工具包
-- []保存哈希 ：
+
+##   06 Dapp-kit SDK PTB
+- [] save hash :7BoZp4ym2ZgUzHiPJVrGiqtScZrV5QDySyApZBhSvjF2
+
+##   07 Move CTF Check In
+- [] CLI call 截图 : ![截图](./images/你的图片地址)
+- [] flag hash :
+
+##   08 Move CTF Lets Move
+- [] proof : 
+- [] flag hash :
