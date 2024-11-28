@@ -32,7 +32,6 @@
 - [√] 第六篇笔记[sui-cli使用指南](https://learnblockchain.cn/article/9934)
 - [√] 第七篇笔记[move入门之结构体的四大能力](https://learnblockchain.cn/article/9952)
 - [√] 第八篇笔记[MOVE共学营TASK4教程](https://learnblockchain.cn/article/9959)
-- [√] 第八篇笔记[MOVE共学营TASK4教程](https://learnblockchain.cn/article/9959)
 - [√] 第九篇笔记[move入门之基础语法(一)](https://learnblockchain.cn/article/9966)
 ## 对外输出学习笔记
 
