@@ -22,6 +22,10 @@ sui keytool update-alias <老别名> <新别名>
 sui keytool generate secp256k1/ed25519
 ## 导入助记词
 sui keytool import "助记词" secp256k1/ed25519
+##导入私钥,其中KEY_SCHEME 为 ed25519 或 secp256k1
+sui keytool import <private_key> <KEY_SCHEME>
+##设置默认的钱包
+sui client switch --address <wallet_address>
 
 ##当前网络环境
 sui client active-env
@@ -34,10 +38,7 @@ sui client switch --env mainnet
 sui client faucet 
 ##查看gas
 sui client gas 
-##导入私钥,其中KEY_SCHEME 为 ed25519 或 secp256k1
-sui keytool import <private_key> <KEY_SCHEME>
-##设置默认的钱包
-sui client switch --address <wallet_address>
+
 ##当前网络
 sui client envs
 
