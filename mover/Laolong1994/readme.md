@@ -14,6 +14,7 @@
 
 ##   01 hello move  
 - [] Sui cli version:sui 1.37.4-a139ef255ae7
+<<<<<<< HEAD
 - [] Sui钱包截图: ![Sui钱包截图](./images/task1_wallet.png)
 - [] package id: 0x4a8ff94757bdcc3e50a36f2c006c25f5cf53b90cad39393d5821caf34c4419d8
 - [] package id 在 scan上的查看截图:![Scan截图](./images/task1contract.png)
@@ -53,3 +54,8 @@
 - [] proof : 
 - [] flag hash :
 
+=======
+- [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
+- [] package id: 0x4a8ff94757bdcc3e50a36f2c006c25f5cf53b90cad39393d5821caf34c4419d8
+- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+>>>>>>> 7840fa7b71a95307e1a783c7c0aa9a92a7cdc65c
