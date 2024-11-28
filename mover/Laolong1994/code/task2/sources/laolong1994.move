@@ -9,10 +9,7 @@ module task2_1::laolong1994 {
 
 
     fun init(usd: LAOLONG1994, ctx: &mut TxContext) {
-        // https://github.com/MystenLabs/sui/blob/main/crates/sui-framework/packages/sui-framework/sources/coin.move#L211
 
-        //  2     move 100   现实 1     1  0.01
-        //  4     move 10000   现实 1     1  0.0001
         let no = none<Url>();
         // let url = url::new_unsafe_from_bytes(b"https://q2.itc.cn/images01/20240223/cd0cd2f403d944fea1826a3df2f8d60d.png");
         // let yes = some<Url>(url);
