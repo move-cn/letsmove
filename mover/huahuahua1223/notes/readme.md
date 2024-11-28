@@ -123,3 +123,48 @@ sui move build
 ```bash
 sui client publish --skip-dependency-verification
 ```
+
+# task4
+sui move new rock_paper_scissors
+cd .\rock_paper_scissors\
+sui move build
+
+sui client publish --skip-dependency-verification
+
+<!-- 铸币 -->
+```bash
+sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0x4e393fad36baba534f8cbfa9852665c49a69be64cf5b82576f267007e187d036::huahuahua1223_faucet_coin::HUAHUAHUA1223_FAUCET_COIN --args 0x2ff9778c2563fa0abcc4357950c788a4ae6184c8fd17eb39d4a094feb184246b 50000000000 0xfcaab3c6b0758f32b8e6782a23ab10a59ff0884a0785cd3d8ee391ccf96ca50a
+```
+
+<!-- deposit -->
+```bash
+sui client call --package 0xa6a77abc39f150237a73c656f044f0cdb1ad14462eead9b383a3dd6130f23ef1 --module rock_paper_scissors --function deposit --args 0x197f4b839f76a3fe70ffa231f943e2af5b3cc4ace5ec8218eda006a6ea10eb51 0x46853f0febc06db8564ff9e30cbc96f009cdec0414bab3191cd3fdb6ad4ae06d --gas-budget 10000000
+```
+
+<!-- withdraw -->
+代币精度为8，所以20 0000 0000就是20个代币
+```bash
+sui client call --package 0xa6a77abc39f150237a73c656f044f0cdb1ad14462eead9b383a3dd6130f23ef1 --module rock_paper_scissors --function withdraw --args 0x197f4b839f76a3fe70ffa231f943e2af5b3cc4ace5ec8218eda006a6ea10eb51 0x6f912e2160ef32589ad4ddcf3a4b46e4b088ac6bc8981f21bcce21023c45cb40 500000000 --gas-budget 10000000
+```
+
+<!-- play -->
+```bash
+sui client call --package 0xa6a77abc39f150237a73c656f044f0cdb1ad14462eead9b383a3dd6130f23ef1 --module rock_paper_scissors --function play --args 0x197f4b839f76a3fe70ffa231f943e2af5b3cc4ace5ec8218eda006a6ea10eb51 1 0x35e6f217432027ba35d9f64e994f2334f63bc15c0526e8cd75e587d2642ca49a 0x8 --gas-budget 10000000
+```
+
+# task5
+sui move new my_swap
+cd .\my_swap\
+sui move build
+
+一个池子存储两种代币，存储和管理员提取的接口，以及A代币和B代币互相兑换的接口
+
+sui client publish --skip-dependency-verification
+
+- my_coin::HUAHUAHUA1223_COIN
+```bash
+sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0x4e393fad36baba534f8cbfa9852665c49a69be64cf5b82576f267007e187d036::huahuahua1223_coin::HUAHUAHUA1223_COIN --args 0xeb347cf0d593756d04a7f56eb7d71864ecc1b0d4db4f131dc58d8c735581d5e6 10000000000 0xfcaab3c6b0758f32b8e6782a23ab10a59ff0884a0785cd3d8ee391ccf96ca50a
+```
+
+# task6
+0.112616
