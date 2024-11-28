@@ -55,8 +55,8 @@
 
 ## 07 Move CTF Check In
 
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [] CLI call 截图 : ![截图](scan/CLI-call.png)
+  - [] flag hash :  GusFVityk257Li1vDbbGYzz33xq3JXwzZrdPYUgSrDug
 
 ## 08 Move CTF Lets Move
 
