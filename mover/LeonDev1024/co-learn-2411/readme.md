@@ -33,8 +33,8 @@
 
 - [x] 第一篇笔记【https://learnblockchain.cn/article/9899】
 - [x] 第二篇笔记【https://learnblockchain.cn/article/9968】
-- [] 第三篇笔记【学习笔记链接】
-- [] 第四篇笔记【学习笔记链接】
+- [x] 第三篇笔记【https://learnblockchain.cn/article/10025】
+- [x] 第四篇笔记【https://learnblockchain.cn/article/10039】
 
 ## 在HOH社区公众号发布自己的技术文章
 

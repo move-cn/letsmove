@@ -15,7 +15,7 @@
 - [✓] Sui cli version: sui 1.37.0-6646b75dd688
 - [✓] Sui钱包截图: ![Sui钱包截图](./images/qb.png)
 - [✓] package id: 0x808c08151f326aa453ccd40de9ae7b14e082e4375f4cfd5a80ede9d71d214ebf (发到devnet上了)
-- [✓] package id 在 scan上的查看截图:![Scan截图](./images/l.png)
+- [✓] package id 在 scan上的查看截图:![Scan截图](./images/l.jpg)
 
 ##   02 move coin
 - [✓] My Coin package id : 0xea5e2369e8d9d502f4aca15d2c72ce4235610381d4a6238e2800ed617a5c28c1
@@ -31,10 +31,10 @@
 - [✓] scan上的NFT截图:![Scan截图](./images/task3_nft.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [✓] game package id :0xe9589c26b6c9e879a7f77c700ad02e8c084a7cbae4e8dc446db6cdb60dfe7073
+- [✓] deposit Coin hash: EBsWTXRFJw1DM4pPg3hoKxMbtfoVeDkHzufNZSrxrfwS
+- [✓] withdraw `Coin` hash: EbqmdVwTdBVGpngYQNsyc8H9D5TAyyS4GuYNY417uswT
+- [✓] play game hash: G84JB8K1TBEQowPG1srqFLsWTQWANgrWThNjQYpjKaAz
 
 ##   05 Move Swap
 - [] swap package id :
