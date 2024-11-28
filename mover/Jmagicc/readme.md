@@ -26,10 +26,10 @@
 - [x] `Faucet Coin` address2 mint hash: 2pnVPpT3mMCrHVgCgpXoP9VSbDeV75VA2yB57Fe3X2ib
 
 ##   03 move NFT
-- [] nft package id : 0xf2ff2aa355b94f3bb4f0f4781d7c4df708002192d27c7e84ae509fd3a0889de0
-- [] nft object id :  0x2ac6f5f1f162fd6607bd3880c9438d60c2808074190a73720d7d36bbd86ceee3
-- [] 转账 nft  hash: JEF88V2kwZbEviS9rDvG5LPz7yyaxQ8zSqSmSJqrgTEp
-- [] scan上的NFT截图:![Scan截图](./images/jmagicc-nft.png)
+- [x] nft package id : 0xf2ff2aa355b94f3bb4f0f4781d7c4df708002192d27c7e84ae509fd3a0889de0
+- [x] nft object id :  0x2ac6f5f1f162fd6607bd3880c9438d60c2808074190a73720d7d36bbd86ceee3
+- [x] 转账 nft  hash: JEF88V2kwZbEviS9rDvG5LPz7yyaxQ8zSqSmSJqrgTEp
+- [x] scan上的NFT截图:![Scan截图](./images/jmagicc-nft.png)
 
 ##   04 Move Game
 - [] game package id :
