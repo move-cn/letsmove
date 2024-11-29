@@ -223,8 +223,6 @@ module package::module_name {
         let House{person} = house;
         let Person { name, age } = person;
     }
-c
-
 ```
 
 💧  [HOH水分子公众号](https://mp.weixin.qq.com/s/d0brr-ao6cZ5t8Z5OO1Mog)

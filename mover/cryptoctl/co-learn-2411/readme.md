@@ -19,7 +19,7 @@
 
 - [x] 第一周:![学习记录截图](./images/11.5_online.png)
 - [x] 第二周:![学习记录截图](./images/week2_online.png)
-- [] 第三周:![学习记录截图](./images/你的图片地址)
+- [x] 第三周:![学习记录截图](./images/week3_online.png)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 群里分享学习笔记
