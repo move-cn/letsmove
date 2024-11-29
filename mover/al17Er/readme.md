@@ -33,7 +33,7 @@
 - [x] call swap hash: GPz4v3Hi6PUdWoXsV2eLJVdZ7TtqXw1YXtw8rwMrzbUd
 
 ##   06 SDK PTB
-- [] save hash :
+- [x] save hash : 9Wur5q7i3CYcrByB6rf5GwHspDVbG6EerUFHyD3R9JyS
 
 ##   07 move ctf check in:
 - [x] Digest: 6BAJ2YTsZceFz3iMfbWFyKkLkRj27s7XixmgGwa3dPup

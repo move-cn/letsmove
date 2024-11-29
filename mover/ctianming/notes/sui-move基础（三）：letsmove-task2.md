@@ -409,6 +409,12 @@ help:
 ![alt text](image-2.png)
 - 在Contracts窗口中直接调用即可
 
+若要在终端调用，使用：
+
+```bash
+sui client call --package <EXAMPLE> --module 'clock' --function 'access' --args '0x6' --gas-budget <GAS-AMOUNT>
+```
+
 以上就是本次教程的全部内容，如果有不懂的部分，请先自行询问AI或者查阅相关资料。
 
 同样欢迎交流，联系方式：yu18209854584(微信)
