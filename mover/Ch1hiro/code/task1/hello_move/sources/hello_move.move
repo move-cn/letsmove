@@ -12,7 +12,7 @@ module hello_move::hello {
     fun init(ctx: &mut TxContext) {
         let hello_move = Hello {
             id:object::new(ctx),
-            say: string(b"move"),
+            say: string(b"Ch1hiro"),
         };
         transfer(hello_move, sender(ctx));
     }
