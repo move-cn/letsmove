@@ -25,8 +25,8 @@
 ## 群里分享学习笔记
 
 - [x] [第一篇笔记](../notes/task4/readme.md)
-- [x] [第二篇笔记](../notes/taskt/readme.md)
-- [] 第三篇笔记
+- [x] [第二篇笔记](../notes/task5/readme.md)
+- [x] [第三篇笔记](../notes/task6/readme.md)
 - [] 第四篇笔记
 
 ## 对外输出学习笔记
@@ -35,6 +35,7 @@
 - [x] 第二篇笔记【https://learnblockchain.cn/article/9968】
 - [x] 第三篇笔记【https://learnblockchain.cn/article/10025】
 - [x] 第四篇笔记【https://learnblockchain.cn/article/10039】
+- [x] 第五篇笔记【https://learnblockchain.cn/article/10066】
 
 ## 在HOH社区公众号发布自己的技术文章
 
