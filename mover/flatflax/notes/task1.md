@@ -23,3 +23,9 @@ git config --global http.version HTTP/1.1
 git push 
 git config --global --unset http.version
 ```
+
+* publish
+
+```
+sui client publish --gas-budget <GAS_BUDGET> --skip-dependency-verification
+```

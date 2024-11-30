@@ -10,9 +10,9 @@
 
 ## 每周课程学习
 
-- [] 第一周:![学习记录截图](./images/你的图片地址)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
-- [] 第三周:![学习记录截图](./images/你的图片地址)
+- [x] 第一周:![学习记录截图](./images/第一周学习记录.png)
+- [x] 第二周:![学习记录截图](./images/第二周学习截图.png)
+- [x] 第三周:![学习记录截图](./images/第三周直播学习.png)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 参加直播答疑
@@ -25,16 +25,16 @@
 ## 群里分享学习笔记
 
 - [x] [第一篇笔记](../notes/task4/readme.md)
-- [] 第二篇笔记
+- [x] [第二篇笔记](../notes/taskt/readme.md)
 - [] 第三篇笔记
 - [] 第四篇笔记
 
 ## 对外输出学习笔记
 
 - [x] 第一篇笔记【https://learnblockchain.cn/article/9899】
-- [] 第二篇笔记【学习笔记链接】
-- [] 第三篇笔记【学习笔记链接】
-- [] 第四篇笔记【学习笔记链接】
+- [x] 第二篇笔记【https://learnblockchain.cn/article/9968】
+- [x] 第三篇笔记【https://learnblockchain.cn/article/10025】
+- [x] 第四篇笔记【https://learnblockchain.cn/article/10039】
 
 ## 在HOH社区公众号发布自己的技术文章
 
