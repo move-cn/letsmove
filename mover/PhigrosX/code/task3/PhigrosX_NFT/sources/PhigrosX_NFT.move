@@ -1,5 +1,5 @@
 
-/// Module: my_nft
+/// Module: task3-my_nft
 module PhigrosX_NFT::PhigrosX_nft {
 
     use std::string;

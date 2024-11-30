@@ -26,7 +26,7 @@ module my_nft::my_nft {
             name: name,
             image_url: image_url,
         };
-        // 这里将铸造好的 my_nft 转移给其他人
+        // 这里将铸造好的 task3-my_nft 转移给其他人
         public_transfer(my_nft, recipient)
     }
 }

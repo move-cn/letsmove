@@ -22,11 +22,11 @@ sui move build --skip-fetch-latest-git-deps
 sui client publish --gas-budget=20000000 --skip-fetch-latest-git-deps 
 
 export PACKAGE_ID=0xfc7875f481a6f62e9622efefbbf359d867eea774b9e226641d734db8af9b57c5
-sui client call --function mint_to_sender --module my_nft --package $PACKAGE_ID --args "a981008" "github a981008 profile" "https://github.com/a981008" --gas-budget 20000000
+sui client call --function mint_to_sender --module task3-my_nft --package $PACKAGE_ID --args "a981008" "github a981008 profile" "https://github.com/a981008" --gas-budget 20000000
 
 export NFT_ID=0x0e12b3a76ddb35c1d02337df090b92924e8a53753fba5d396b6785bfe8b8f5da
 export RECIPIENT_ID=0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
-sui client call --function transfer --module my_nft --package $PACKAGE_ID --args $NFT_ID $RECIPIENT_ID --gas-budget 20000000
+sui client call --function transfer --module task3-my_nft --package $PACKAGE_ID --args $NFT_ID $RECIPIENT_ID --gas-budget 20000000
 sui client object $NFT_ID
 ```
 

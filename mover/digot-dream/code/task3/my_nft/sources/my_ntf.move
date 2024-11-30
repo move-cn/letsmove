@@ -1,5 +1,5 @@
 
-/// Module: my_nft
+/// Module: task3-my_nft
 module my_ntf::my_nft {
 
     use sui::url::{Self, Url};

@@ -1,4 +1,4 @@
-/// Module: my_nft
+/// Module: task3-my_nft
 module my_nft::my_nft {
     use sui::tx_context::{sender};
     use std::string::{utf8};

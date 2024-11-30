@@ -95,7 +95,7 @@ sui client publish --gas-budget=50000000
 ## mint&转账
 ### mint
 ```bash
-sui client call  --gas-budget 50000000 --function mint_nft --module my_nft --package 0xb01abee6307b48e001f17f06dcd42db9341aae627a74145859142a03e486ffd0 --args "joker" "twitter joker" "https://png.pngtree.com/png-clipart/20190904/original/pngtree-clown-cartoon-png-material-png-image_4477011.jpg"
+sui client call  --gas-budget 50000000 --function mint_nft --module task3-my_nft --package 0xb01abee6307b48e001f17f06dcd42db9341aae627a74145859142a03e486ffd0 --args "joker" "twitter joker" "https://png.pngtree.com/png-clipart/20190904/original/pngtree-clown-cartoon-png-material-png-image_4477011.jpg"
 ```
 
 ```
@@ -104,7 +104,7 @@ sui client call  --gas-budget 50000000 --function mint_nft --module my_nft --pac
 
 ### 转账
 ```bash
-sui client call --gas-budget 50000000 --function transfer_nft --module my_nft --package 0xb01abee6307b48e001f17f06dcd42db9341aae627a74145859142a03e486ffd0 --args 0xbf7f5bd4609c1f3cd079e2368e843bb83459f1a494a3342def5860ccc4b7bff1 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
+sui client call --gas-budget 50000000 --function transfer_nft --module task3-my_nft --package 0xb01abee6307b48e001f17f06dcd42db9341aae627a74145859142a03e486ffd0 --args 0xbf7f5bd4609c1f3cd079e2368e843bb83459f1a494a3342def5860ccc4b7bff1 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
 ```
 
 

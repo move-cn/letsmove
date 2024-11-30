@@ -1,4 +1,4 @@
-/// Module: my_nft
+/// Module: task3-my_nft
 module my_nft::my_nft {
     use std::string::{String,utf8};
     use sui::table::{Self,Table};
@@ -92,6 +92,6 @@ module my_nft::my_nft {
 
     // mint中注意 mint_record中的id
     // https://suiscan.xyz/mainnet/object/0x519749e34e829531fa9f68405d416e3b4bc20bf36c36d4b39ee16f0da45cd6c6
-   // sui client call --package 0x70bee25061b84faf1d03692ef5c678fc40ab99207f85255798632d9a5f7d6ead --module my_nft
+   // sui client call --package 0x70bee25061b84faf1d03692ef5c678fc40ab99207f85255798632d9a5f7d6ead --module task3-my_nft
     // --function mint --args 0x519749e34e829531fa9f68405d416e3b4bc20bf36c36d4b39ee16f0da45cd6c6 "JUNE5753 NFT" "https://avatars.githubusercontent.com/u/12596742?v=4" 0xba518d8c6db3e2b8b71b06af694198d56ce0e264a6d9c10ad782f7fd969a99c3
 }
