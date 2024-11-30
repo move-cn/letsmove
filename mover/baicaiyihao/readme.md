@@ -33,7 +33,8 @@
 - [] call swap hash:
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] dapp 截图 : ![截图](./code/task6/code/image.png)
+- [x] save hash :4Wxvaioc2LiqsMUNyuw15MyTyXxi9oRXwNAnid9mTRrM
 
 ##   07 Move CTF Check In
 - [x] CLI call 截图 : ![截图](./code/task7/1717903519799.jpg)
