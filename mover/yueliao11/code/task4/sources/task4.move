@@ -10,26 +10,35 @@ module task4::bright_flip {
     // 错误码
     const E_INSUFFICIENT_POOL: u64 = 0;
     const E_BET_TOO_LARGE: u64 = 1;
+    
+    // 添加 GitHub ID 常量
+    const GITHUB_ID: vector<u8> = b"yueliao11";
 
     /// 游戏主体结构
     public struct Game has key {
         id: UID,
-        pool: Balance<BRIGHT_FAUCET_COIN>
+        pool: Balance<BRIGHT_FAUCET_COIN>,
+        creator: vector<u8>  // 添加创建者 ID
     }
 
     /// 管理员权限凭证
     public struct AdminCap has key, store {
-        id: UID
+        id: UID,
+        creator: vector<u8>  // 添加创建者 ID
     }
 
     fun init(ctx: &mut TxContext) {
         share_object(Game {
             id: object::new(ctx),
-            pool: balance::zero()
+            pool: balance::zero(),
+            creator: GITHUB_ID
         });
 
         public_transfer(
-            AdminCap { id: object::new(ctx) },
+            AdminCap { 
+                id: object::new(ctx),
+                creator: GITHUB_ID
+            },
             sender(ctx)
         );
     }
