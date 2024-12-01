@@ -129,6 +129,7 @@ sui client faucet --address ADDRESS  --指定地址通过水龙头获取测试�
 sui client faucet --url CUSTOM_FAUCET_URL ----指定水龙头URL地址获取测试代币
 sui client gas                            ----获取当前地址测试代币余额
 sui client gas ADDRESS                    ----获取指定地址测试代币余额
+sui client objects                        ----获取地址的拥有对象                     
 ```
 > sui client faucet
 ```text

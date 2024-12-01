@@ -42,11 +42,11 @@
 - [x] call swap CoinB-> CoinA  hash : [Gattj5oWZMaYggjc7vke8rUdTi9SaMMsmC1xdV9hQ9dW](https://suiscan.xyz/mainnet/tx/Gattj5oWZMaYggjc7vke8rUdTi9SaMMsmC1xdV9hQ9dW)
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : [7LaCsFnPva62KDDSECgFFgFXYsrvEAzc8jEFY2sFkEX5](https://suiscan.xyz/mainnet/tx/7LaCsFnPva62KDDSECgFFgFXYsrvEAzc8jEFY2sFkEX5)
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : ![截图](./images/07checkin/call.png)
+- [x] flag hash : [5WVoCoD1RoWnXo8Z17r1QR8WjrjCfTcqpBnKSqn8i29D](https://suiscan.xyz/mainnet/tx/5WVoCoD1RoWnXo8Z17r1QR8WjrjCfTcqpBnKSqn8i29D)
 
 ##   08 Move CTF Lets Move
 - [] proof : 
