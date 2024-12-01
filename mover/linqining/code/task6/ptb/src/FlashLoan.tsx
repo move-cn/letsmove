@@ -1,8 +1,8 @@
-import { NAVISDKClient } from "navi-sdk";
+import {depositCoin, NAVISDKClient} from "navi-sdk";
 import { Transaction } from "@mysten/sui/transactions";
-import { flashloan, repayFlashLoan, SignAndSubmitTXB,depositCoin } from "navi-sdk/dist/libs/PTB";
+import { flashloan, repayFlashLoan, SignAndSubmitTXB,borrowCoin,repayDebt } from "navi-sdk/dist/libs/PTB";
 import { CoinInfo, PoolConfig, Pool } from "navi-sdk/dist/types";
-import { pool, wUSDC, nUSDC } from "navi-sdk/dist/address";
+import { pool, nUSDC,Sui } from "navi-sdk/dist/address";
 import dotenv from "dotenv";
 
 dotenv.config();
@@ -65,31 +65,42 @@ async function executeFlashLoan() {
         if (coinObjects.length === 0) {
             throw new Error(`No coin objects found for ${CONFIG.toBorrowCoin.symbol}`);
         }
-        const sourceTokenObj = tx.object(coinObjects[0].coinObjectId);
+        // const sourceTokenObj = tx.object(coinObjects[0].coinObjectId);
 
         // Retrieve loan pool configuration
         const loanPoolConfig: PoolConfig = pool[CONFIG.toBorrowCoin.symbol as keyof Pool];
         console.log("Loan Pool Configuration:", loanPoolConfig);
 
+        const suiPoolConfig: PoolConfig = pool[Sui.symbol as keyof  Pool];
+
+        const [coin] = tx.splitCoins(tx.gas, [1e9]);
+        await depositCoin(tx,suiPoolConfig,coin,[1e9])
+
+
         // Calculate the amount to borrow in smallest units (wei-like units)
         const borrowAmountInWei = CONFIG.amountToBorrow * 10 ** CONFIG.toBorrowCoin.decimal;
 
+        const [borrowedCoin] = await borrowCoin(tx,loanPoolConfig, borrowAmountInWei)
+
         // Execute flashloan and get the borrowed balance
-        const [borrowedBalance, receipt] = await flashloan(tx, loanPoolConfig, borrowAmountInWei);
+        // const [borrowedBalance, receipt] = await flashloan(tx, loanPoolConfig, borrowAmountInWei);
 
         // Merge borrowed funds with the wallet balance
-        const flashCoin = createCoinFromBalance(tx, borrowedBalance, loanPoolConfig.type);
-        tx.mergeCoins(sourceTokenObj, [flashCoin]);
+        const flashCoin = createCoinFromBalance(tx, borrowedCoin, loanPoolConfig.type);
+        await repayDebt(tx, loanPoolConfig,flashCoin,borrowAmountInWei)
 
-        // Prepare repayment balance
-        const repayBalance = createCoinIntoBalance(tx, sourceTokenObj, loanPoolConfig.type);
 
-        // Repay the flashloan
-        const [remainingBalance] = await repayFlashLoan(tx, loanPoolConfig, receipt, repayBalance);
-
-        // Transfer remaining funds back to the wallet
-        const extraCoin = createCoinFromBalance(tx, remainingBalance, loanPoolConfig.type);
-        tx.transferObjects([extraCoin], sender);
+        // tx.mergeCoins(sourceTokenObj, [flashCoin]);
+        //
+        // // Prepare repayment balance
+        // const repayBalance = createCoinIntoBalance(tx, sourceTokenObj, loanPoolConfig.type);
+        //
+        // // Repay the flashloan
+        // const [remainingBalance] = await repayFlashLoan(tx, loanPoolConfig, receipt, repayBalance);
+        //
+        // // Transfer remaining funds back to the wallet
+        // const extraCoin = createCoinFromBalance(tx, remainingBalance, loanPoolConfig.type);
+        // tx.transferObjects([extraCoin], sender);
 
         // Sign and submit the transaction
         const result = await SignAndSubmitTXB(tx, account.client, account.keypair);
@@ -113,13 +124,13 @@ function createCoinFromBalance(tx: Transaction, balance: any, type: string) {
 /**
  * Helper function to convert a coin object into a balance
  */
-function createCoinIntoBalance(tx: Transaction, coin: any, type: string) {
-    return tx.moveCall({
-        target: "0x2::coin::into_balance",
-        arguments: [coin],
-        typeArguments: [type],
-    });
-}
+// function createCoinIntoBalance(tx: Transaction, coin: any, type: string) {
+//     return tx.moveCall({
+//         target: "0x2::coin::into_balance",
+//         arguments: [coin],
+//         typeArguments: [type],
+//     });
+// }
 
 // Execute the script
 (async () => {
