@@ -13,8 +13,8 @@ export function NaviPTB() {
   const { mutate: signAndExecuteTransaction } = useSignAndExecuteTransaction();
 
 
-  const [digest, setDigest] = useState<string>("");
-  const [message, setMessage] = useState<string>("");
+  const [, setDigest] = useState<string>("");
+  const [, setMessage] = useState<string>("");
 
   const deposit_borrow_Sui = async () => {
     if (!account) {
@@ -22,19 +22,17 @@ export function NaviPTB() {
       return;
     }
 
+    //获取日期
     try {
-      const date = new Date(); // 获取当前日期
-      const month = date.getMonth() + 1; // 获取月份
-      const day = date.getDate(); // 获取日期
-      const hour = date.getHours(); // 获取小时
+      const date = new Date(); 
+      const month = date.getMonth() + 1; 
+      const day = date.getDate(); 
+      const hour = date.getHours(); 
 
       // 计算借款金额
-      const borrow_amount =
-          parseFloat(
-              `0.${month.toString().padStart(2, "0")}${day.toString().padStart(2, "0")}${hour.toString().padStart(2, "0")}`,
-          ) *
-          10 ** wUSDC.decimal;
-      console.log(borrow_amount);
+      const borrowAmount = parseFloat(`0.${month}${day}${hour}`);
+
+      console.log(borrowAmount);
 
       // 创建新的交易对象
       const tx = new Transaction();
@@ -46,30 +44,24 @@ export function NaviPTB() {
       const wusdcPool: PoolConfig = pool[wUSDC.symbol as keyof Pool];
 
 
-      // 存款 SUI
-      const [suiCoin] = tx.splitCoins(tx.gas, [1_000_000_000]); // 分割 SUI 代币
-      if (!suiCoin) throw new Error("Failed to split SUI coins"); // 如果分割失败，抛出错误
+      // 存入SUI
+      const [suiCoin] = tx.splitCoins(tx.gas, [1_000_000_000]); 
+      if (!suiCoin) throw new Error("Failed to split SUI coins"); 
 
-      await depositCoin(tx, suiPool, suiCoin, 1_000_000_000); // 存款 SUI
+      await depositCoin(tx, suiPool, suiCoin, 1_000_000_000); 
 
-      // 借款和存款 USDC
-      const [toBorrowCoin] = await borrowCoin(tx, wusdcPool, borrow_amount); // 借款 USDC
-      if (!toBorrowCoin) throw new Error("Failed to borrow USDC"); // 如果借款失败，抛出错误
+      // 借出并存储usdt
+      const [toBorrowCoin] = await borrowCoin(tx, wusdcPool, borrowAmount); 
+      if (!toBorrowCoin) throw new Error("Failed to borrow USDC"); 
 
-      await depositCoin(tx, wusdcPool, toBorrowCoin, borrow_amount); // 存款 USDC
+      await depositCoin(tx, wusdcPool, toBorrowCoin, borrowAmount); 
 
-      // 清除之前的消息
-      setMessage("");
-      setDigest("");
-
-      // 签名并执行交易
+      //执行交易
       signAndExecuteTransaction(
           { transaction: tx, chain: "sui:mainnet" },
           {
             onSuccess: (result) => {
-              // 成功时打印结果
               console.log("Transaction successful:", result);
-              // 设置交易摘要
               setDigest(result.digest);
             },
             onError: (error) => {
@@ -89,16 +81,10 @@ export function NaviPTB() {
         <Box>
           <Heading as="h2">task6</Heading>
           <Text>
-            存入1Sui,并且在借当前日期的usdt是，还相同数量的回去
+            存入1Sui,并且在借当前日期的usdt是,还相同数量的回去
           </Text>
           <Flex gap="3" direction={"column"}>
             <Button onClick={deposit_borrow_Sui} variant="solid">交易</Button>
-            {digest && (
-                <Text >Transaction submitted: {digest}</Text>
-            )}
-            {message && (
-                <Text>Error: {message}</Text>
-            )}
           </Flex>
         </Box>
       </Container>
