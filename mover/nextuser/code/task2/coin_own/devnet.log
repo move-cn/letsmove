@@ -1,0 +1,34 @@
+┌──                                                                                                                                  │
+│  │ ObjectID: 0xacd64cf3d4ea9737aa1c395228ff5b2c76ce89b3fac6d22e90ec1e3650a516d8                                                       │
+│  │ Sender: 0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38                                                         │
+│  │ Owner: Account Address ( 0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38 )                                      │
+│  │ ObjectType: 0x2::coin::TreasuryCap<0x6ffb4e41fbadd03fe26155fec7d8cb292283feddd8cecc258d1027f3ce2348b2::yuan_da_tou::YUAN_DA_TOU>   │
+│  │ Version: 364                                                                                                                       │
+│  │ Digest: 9WLiowhaXbvioU4pqkjrtzKWoeK6Rb1fx2a1V2zRd7aS          
+
+export ALICE=0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38
+export PKG_A=0x6ffb4e41fbadd03fe26155fec7d8cb292283feddd8cecc258d1027f3ce2348b2
+export CAP_A=0xacd64cf3d4ea9737aa1c395228ff5b2c76ce89b3fac6d22e90ec1e3650a516d8
+
+# 分配两个币，一个做池子，一个做swap
+sui client ptb  --move-call 0x2::coin::mint_and_transfer \
+"<$PKG_A::yuan_da_tou::YUAN_DA_TOU>"  "@$CAP_A 20000 @$ALICE"
+
+sui client ptb  --move-call 0x2::coin::mint_and_transfer \
+"<$PKG_A::yuan_da_tou::YUAN_DA_TOU>"  "@$CAP_A 10000 @$ALICE"
+
+│  ┌──                                                                                                                                 │
+│  │ ObjectID: 0x47dcf0ce0b1145a035ab016697b21ff179249a5250e157de3bd4c31ed36a3e40                                                      │
+│  │ Sender: 0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38                                                        │
+│  │ Owner: Account Address ( 0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38 )                                     │
+│  │ ObjectType: 0x2::coin::Coin<0x6ffb4e41fbadd03fe26155fec7d8cb292283feddd8cecc258d1027f3ce2348b2::yuan_da_tou::YUAN_DA_TOU>         │
+│  │ Version: 368                                                                                                                      │
+│  │ Digest: 6U7CiRDkKDptrTsieYtmGNvmJ1zgsbDRKve1gEDFvbzn                                                                              │
+│  └──                                                                                                                                 │
+│ Mutated Objects:             
+
+export ALICE=0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38
+export PKG_A=0x6ffb4e41fbadd03fe26155fec7d8cb292283feddd8cecc258d1027f3ce2348b2
+export CAP_A=0xacd64cf3d4ea9737aa1c395228ff5b2c76ce89b3fac6d22e90ec1e3650a516d8
+export COIN_A_ID=0x7bc92c7a987b9a65303235a33e06522b2aef718ea2542c9d44f38766bf78a20b
+export COIN_A_ID2=0x47dcf0ce0b1145a035ab016697b21ff179249a5250e157de3bd4c31ed36a3e40

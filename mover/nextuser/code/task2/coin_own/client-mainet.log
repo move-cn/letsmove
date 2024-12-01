@@ -206,7 +206,7 @@ ljl@ljl-i5-14400:~/work/sui/move-cn/letsmove/mover/nextuser/code/task2/coin_own$
 
 # move MoveCall
 
-ljl@ljl-i5-14400:~/work/sui/move-cn/letsmove/mover/nextuser/code/task2/coin_own$ sui client call --package 0x2 --module coin --function mint_and_transfer --type-args $PKG::yuan_da_tou::YUAN_DA_TOU  --args $YDT_CAP   5000000   $W_ADDR
+sui client call --package 0x2 --module coin --function mint_and_transfer --type-args $PKG::yuan_da_tou::YUAN_DA_TOU  --args $YDT_CAP   5000000   $W_ADDR
 
 [warn] Client/Server api version mismatch, client api version : 1.37.1, server api version : 1.36.2
 Transaction Digest: DQMWZ4nEYZ4Cc6MN8HXkRWmajTJTh9Psf9euSDCTSUJt

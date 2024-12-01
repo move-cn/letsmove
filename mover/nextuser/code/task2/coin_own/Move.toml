@@ -3,9 +3,12 @@ name = "coin_own"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
+published-at="0xb6b7cc1b7b4e7183ba42341c22f10c56b86d70e14a02d4f321769c687b2dabd2"
 
+#testnet
+#published-at="0x98308ad32a944ed750d703c1ef175da01a644d5000e0806b4f63e715d3c5fb8c"
 [dependencies]
-Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/devnet" }
+Sui = { git = "https://gitee.com:MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
@@ -19,8 +22,17 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-coin_own = "0x0"
+#coin_own = "0x0"
+#coin_own=""
 
+#mainnet
+coin_own="0xb6b7cc1b7b4e7183ba42341c22f10c56b86d70e14a02d4f321769c687b2dabd2"
+
+#testnet
+#coin_own="0x98308ad32a944ed750d703c1ef175da01a644d5000e0806b4f63e715d3c5fb8c"
+
+#devnet
+#coin_own="0x6ffb4e41fbadd03fe26155fec7d8cb292283feddd8cecc258d1027f3ce2348b2"
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
 # alice = "0xA11CE"
@@ -34,4 +46,6 @@ coin_own = "0x0"
 # The dev-addresses section allows overwriting named addresses for the `--test`
 # and `--dev` modes.
 # alice = "0xB0B"
+
+
 

@@ -408,7 +408,15 @@ ljl@ljl-i5-14400:~/work/sui/move-cn/letsmove/mover/nextuser/code/task2/coin_fauc
 │  │ ID: 0xc78c9bf0d263ea91610e04cd31cb5fbe131db94416e6010098575829b10297bc                         │
 │  │ Owner: Account Address ( 0x7cbe5e6596e23266dd5763dd89b4ab1195516908ecde8febfe96685c7cbe6432 )  │
 │  │ Version: 416420240                                                                             │
-│  │ Digest: HXVBwd2VMHTpeTKkFQoPbECD15oe2Hs1C6hqpnxbvDGU                                           │
+│ Created Objects:                                                                                                   │
+│  ┌──                                                                                                               │
+│  │ ObjectID: 0x7dd540dadf993cdc48300f0d6916d48fa49f433891699b2952c4472324de1143                                    │
+│  │ Sender: 0x7cbe5e6596e23266dd5763dd89b4ab1195516908ecde8febfe96685c7cbe6432                                      │
+│  │ Owner: Account Address ( 0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38 )                   │
+│  │ ObjectType: 0x2::coin::Coin<0x5004eab7e42fd66ad3b7475632ae3070e9a4015f8f8976009e7e8637592e9d76::jp::JP>         │
+│  │ Version: 416420240                                                                                              │
+│  │ Digest: DwxQv869J1xUBxKYw6odTpfnasNa4Fvfif82gSBC2s6m                                                            │
+│  └──                                │  │ Digest: HXVBwd2VMHTpeTKkFQoPbECD15oe2Hs1C6hqpnxbvDGU                                           │
 │  └──                                                                                              │
 │ Gas Cost Summary:                                                                                 │
 │    Storage Cost: 3952000 MIST                                                                     │
@@ -429,15 +437,7 @@ ljl@ljl-i5-14400:~/work/sui/move-cn/letsmove/mover/nextuser/code/task2/coin_fauc
 ╭────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │ Object Changes                                                                                                     │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Created Objects:                                                                                                   │
-│  ┌──                                                                                                               │
-│  │ ObjectID: 0x7dd540dadf993cdc48300f0d6916d48fa49f433891699b2952c4472324de1143                                    │
-│  │ Sender: 0x7cbe5e6596e23266dd5763dd89b4ab1195516908ecde8febfe96685c7cbe6432                                      │
-│  │ Owner: Account Address ( 0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38 )                   │
-│  │ ObjectType: 0x2::coin::Coin<0x5004eab7e42fd66ad3b7475632ae3070e9a4015f8f8976009e7e8637592e9d76::jp::JP>         │
-│  │ Version: 416420240                                                                                              │
-│  │ Digest: DwxQv869J1xUBxKYw6odTpfnasNa4Fvfif82gSBC2s6m                                                            │
-│  └──                                                                                                               │
+                                                                               │
 │ Mutated Objects:                                                                                                   │
 │  ┌──                                                                                                               │
 │  │ ObjectID: 0xc78c9bf0d263ea91610e04cd31cb5fbe131db94416e6010098575829b10297bc                                    │

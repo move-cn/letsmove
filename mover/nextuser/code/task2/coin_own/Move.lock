@@ -2,7 +2,7 @@
 
 [move]
 version = 3
-manifest_digest = "B6F18F40A14EE667670B9229382CE85B9C8C903BBFED8B07868214B2EA5CFA69"
+manifest_digest = "E5174B356BDFF7506629EB1FCFEDC4CCC379DFCD1F886153F266369D054DE938"
 deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
 dependencies = [
   { id = "Sui", name = "Sui" },
@@ -10,18 +10,18 @@ dependencies = [
 
 [[move.package]]
 id = "MoveStdlib"
-source = { git = "https://github.com/MystenLabs/sui.git", rev = "framework/devnet", subdir = "crates/sui-framework/packages/move-stdlib" }
+source = { git = "https://gitee.com:MystenLabs/sui.git", rev = "framework/testnet", subdir = "crates/sui-framework/packages/move-stdlib" }
 
 [[move.package]]
 id = "Sui"
-source = { git = "https://github.com/MystenLabs/sui.git", rev = "framework/devnet", subdir = "crates/sui-framework/packages/sui-framework" }
+source = { git = "https://gitee.com:MystenLabs/sui.git", rev = "framework/testnet", subdir = "crates/sui-framework/packages/sui-framework" }
 
 dependencies = [
   { id = "MoveStdlib", name = "MoveStdlib" },
 ]
 
 [move.toolchain-version]
-compiler-version = "1.37.1"
+compiler-version = "1.38.0"
 edition = "2024.beta"
 flavor = "sui"
 
@@ -29,14 +29,14 @@ flavor = "sui"
 
 [env.testnet]
 chain-id = "4c78adac"
-original-published-id = "0xd81316014a5261dde8f584181fed7a5a13cd17be451790a38646b2bd00704188"
-latest-published-id = "0xd81316014a5261dde8f584181fed7a5a13cd17be451790a38646b2bd00704188"
+original-published-id = "0x98308ad32a944ed750d703c1ef175da01a644d5000e0806b4f63e715d3c5fb8c"
+latest-published-id = "0x98308ad32a944ed750d703c1ef175da01a644d5000e0806b4f63e715d3c5fb8c"
 published-version = "1"
 
 [env.devnet]
-chain-id = "0fc07bbe"
-original-published-id = "0xf0b931b280b23dc7b99bf10355eae49b701e9668503048d869b6740e94783542"
-latest-published-id = "0xf0b931b280b23dc7b99bf10355eae49b701e9668503048d869b6740e94783542"
+chain-id = "54f83c42"
+original-published-id = "0x6ffb4e41fbadd03fe26155fec7d8cb292283feddd8cecc258d1027f3ce2348b2"
+latest-published-id = "0x6ffb4e41fbadd03fe26155fec7d8cb292283feddd8cecc258d1027f3ce2348b2"
 published-version = "1"
 
 [env.mainnet]
