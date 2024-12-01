@@ -167,4 +167,24 @@ sui client call --package 0x2 --module coin --function mint_and_transfer --type-
 ```
 
 # task6
-0.112616
+## 初始化项目
+1. 用dapp-kit脚手架创建项目
+npm create @mysten/dapp
+选择 `react-client-dapp`
+
+2. 下载依赖
+cd client_dapp
+pnpm i --save navi-sdk 
+pnpm i
+
+修改`main.tsx`中的网络配置为`mainnet`
+
+## 部署合约
+在move包下启动命令行
+sui move build
+sui client publish --skip-dependency-verification
+复制得到的packageid到`src/constants.ts`里面
+
+## 运行项目
+在项目根目录下运行
+pnpm dev

@@ -13,7 +13,7 @@
 - [x] 第一周:![学习记录截图](./images/第一周学习记录.png)
 - [x] 第二周:![学习记录截图](./images/第二周学习记录.png)
 - [x] 第三周:![学习记录截图](./images/第三周学习记录.png)
-- [] 第四周:![学习记录截图](./images/你的图片地址)
+- [x] 第四周:![学习记录截图](./images/第四周学习记录.png)
 
 ## 参加直播答疑
 
@@ -40,8 +40,8 @@
 - [x] 第一篇笔记【[学习笔记链接](https://blog.csdn.net/Huahua_1223/article/details/143750762)】
 - [x] 第二篇笔记【[学习笔记链接](https://hua1223.blog.csdn.net/article/details/143866005)】
 - [x] 第三篇笔记【[学习笔记链接](https://hua1223.blog.csdn.net/article/details/143895408)】
-- [x] 第四篇笔记【[学习笔记链接](https://hua1223.blog.csdn.net/article/details/144029667)】
-- [x] 第五篇笔记【[学习笔记链接](https://hua1223.blog.csdn.net/article/details/144032486)】
+- [x] 第四篇笔记【[学习笔记链接](https://hua1223.blog.csdn.net/article/details/144032486)】
+<!-- - [x] 第五篇笔记【[学习笔记链接](https://hua1223.blog.csdn.net/article/details/144032486)】 -->
 
 ## 在HOH社区公众号发布自己的技术文章
 
