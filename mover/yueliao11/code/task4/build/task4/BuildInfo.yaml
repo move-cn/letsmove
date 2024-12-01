@@ -1,0 +1,33 @@
+---
+compiled_package_info:
+  package_name: task4
+  address_alias_instantiation:
+    faucetcoin: c10653bf28efb11b4a062f6560bed1f2a265f7e3d212b36bc6a2e5445671cd18
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+    task2: c10653bf28efb11b4a062f6560bed1f2a265f7e3d212b36bc6a2e5445671cd18
+    task4: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 1CB9AAABDBA178EB2C3A38BE3FEF5ABEAE3A4D80651E7588727C5F78FABF7877
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+    json_errors: false
+    additional_named_addresses: {}
+    lint_flag:
+      no_lint: false
+      lint: false
+dependencies:
+  - MoveStdlib
+  - Sui
+  - faucetcoin
