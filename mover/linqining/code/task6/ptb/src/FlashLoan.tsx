@@ -1,6 +1,6 @@
 import {depositCoin, NAVISDKClient} from "navi-sdk";
 import { Transaction } from "@mysten/sui/transactions";
-import { flashloan, repayFlashLoan, SignAndSubmitTXB,borrowCoin,repayDebt } from "navi-sdk/dist/libs/PTB";
+import {  SignAndSubmitTXB,borrowCoin,repayDebt } from "navi-sdk/dist/libs/PTB";
 import { CoinInfo, PoolConfig, Pool } from "navi-sdk/dist/types";
 import { pool, nUSDC,Sui } from "navi-sdk/dist/address";
 import dotenv from "dotenv";
@@ -74,7 +74,7 @@ async function executeFlashLoan() {
         const suiPoolConfig: PoolConfig = pool[Sui.symbol as keyof  Pool];
 
         const [coin] = tx.splitCoins(tx.gas, [1e9]);
-        await depositCoin(tx,suiPoolConfig,coin,[1e9])
+        await depositCoin(tx,suiPoolConfig,coin,1e9)
 
 
         // Calculate the amount to borrow in smallest units (wei-like units)
