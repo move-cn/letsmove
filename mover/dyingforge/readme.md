@@ -44,7 +44,7 @@
 - [x] call swap faucet-> token  hash :4qW2Pg9XN9TqMuj4nykxcaaxEeNss9SdaH5Pf2M6gAfn
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash :BoAkdthLMeT99BycCFZUjR2miT9MUcp4McjU4j5xmDvv
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
