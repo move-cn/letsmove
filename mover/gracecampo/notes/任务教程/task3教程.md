@@ -31,11 +31,24 @@ Sui 的 NFT 可以直接在链上存储和管理，提供了比传统区块链�
 
 store使得这个对象可以进行全局传输和传递。
 
-接下来，我们创建一个GRACECAMPO_NFT的结构体体，它拥有key和store能力，并且拥有4个属性，分别是： id 作为链上索引地址，name作为NFT结构体名称，
+接下来，我们创建一个GRACECAMPO_NFT的结构体体，它拥有key和store能力
 
-description作为一个NFT描述,url是NFT对象的外部图像链接地址。
+当我们需要在链上储存对象时，结构体应该具备key + store 能力，当我们赋予该结构体这两个能力时
+
+此结构体对于move虚拟机来说，此对象将可以被发布在链上储存。
+
+该结构体拥有4个属性，分别是： 
+
+1. id 作为链上索引地址
+
+2. name作为NFT结构体名称，
+
+3. description作为一个NFT描述
+
+4. url是NFT对象的外部图像链接地址
+
 > 定义NFT结构体
-```sui move
+```move
     public struct GRACECAMPO_NFT has store, key {
         id: UID,
         name: string::String,
@@ -46,24 +59,38 @@ description作为一个NFT描述,url是NFT对象的外部图像链接地址。
 
 监听事件：通过监听事件，我们可以对链上事件进行分析，例如跟踪 NFT 的铸造次数或智能合约生成的交易金额。这对于分析和统计非常有用。
 
-例如向下的例子，当我们在铸造函数中添加这个事件的时候，我们在应用程序中就可以订阅这个事件，方便我们对铸造人数进行分析，也可用于在铸造完成后，对用户
+例如下面的例子，当我们在铸造函数中添加这个事件的时候，我们在应用程序中就可以订阅这个事件，方便我们对铸造人数进行分析，也可用于在铸造完成后，对用户
 
 进行通知。当然这个任务我们将不会对这个事件进行采集和统计，只是作为一个代码规范进行引入。
 
 >定义铸造监听事件
-```sui move
+```move
     public struct GRACECAMPO_NFT_Minted has copy, drop {
         object_id: ID,
         creator: address,
         name: string::String,
     }
 ```
-接下来，我们将声明一个铸造函数，可以看到mint_to_sender函数中，我们传入了用户初始化NFT对象的信息，比如name、description、url以及上下文ctx信息，这个函数作为公开函数，可以使任何人调用，当我们调用这个函数时，我们将从上线问中获取调用者信息，将传入的参数信息用于进行NFT对象的初始化，同时我们在代码中注册上面的监听事件。
-当用户调用mint_to_sender,将为用户铸造一个GRACECAMPO_NFT的NFT,以及发送铸造事件，当订阅这个事件的应用，接收到事件，将通知用户（这一步我们将不做实践，感兴趣的朋友可以手动实践下）
+接下来，我们将声明一个铸造函数，可以看到mint_to_sender函数中，我们传入了用户初始化NFT对象的信息，比如name、description、url以及上下文ctx信息，
 
-transfer::public_transfer 是 Sui 网络中的一个函数，用于将对象的所有权从一个地址转移到另一个地址。这个函数允许对象在其定义模块之外进行转移， 但前提是对象具有 store 和 key 能力。
+这个函数作为公开函数，可以使任何人调用，当我们调用这个函数时，我们将从上线问中获取调用者信息，
 
-```sui move
+将传入的参数信息用于进行NFT对象的初始化，同时我们在代码中注册上面的监听事件。
+
+当用户调用mint_to_sender,将为用户铸造一个GRACECAMPO_NFT的NFT,以及发送铸造事件
+
+当订阅这个事件的应用，接收到事件，将通知用户（这一步我们将不做实践，感兴趣的朋友可以手动实践下）
+
+transfer::public_transfer 是 Sui 网络中的一个函数，用于将对象的所有权从一个地址转移到另一个地址。
+
+这个函数允许对象在其定义模块之外进行转移， 但前提是对象具有 store 和 key 能力。
+
+public_transfer 是我们对于NFT进行铸造以及转移时，用到的重要的官方库中的函数方法。
+
+此方法接受的为交易对象，接受地址，并要求交易对象，必须拥有key + store 能力，这也是我们在前面定义NFT结构体时，要求NFT结构体必须拥有key + store
+
+的原因之一。
+```move
 public fun public_transfer<T: store, key>(obj: T, recipient: address)
 ```
 
@@ -92,7 +119,23 @@ public entry fun mint_to_sender(
         transfer::public_transfer(nft, sender);
     }
 ```
-接下来，我们声明一个转移函数，用于用户对NFT的转移，此函数，我们可以看到，需要传入的参数依次为：nft(用户拥有的nft对象)，address(接收人地址)，此函数未用到上下文对象，此处我们以 _ 形式进行忽略。我们在此函数中调用transfer::public_transfer进行对象转移。
+**铸造函数**
+
+函数参数有 `name(nft的名称),description(nft的描述信息),url(nft的图像地址),ctx(上下文)`
+
+我们从上下文中获取调用者的地址信息：`let sender = tx_context::sender(ctx);`
+
+通过构造一个`GRACECAMPO_NFT`对象,并将参数依次赋值给对象元素
+
+接下来，我们通过`transfer::public_transfer(nft, sender);` 将声明的对象发送给调用者地址。
+
+当链上打包成功后，调用者就可以在地址中看到对应的NFT对象以及信息。
+
+**转移函数**
+
+接下来，我们声明一个转移函数，用于用户对NFT的转移，此函数，我们可以看到，需要传入的参数依次为：nft(用户拥有的nft对象)，address(接收人地址)
+
+此函数未用到上下文对象，此处我们以 _ 形式进行忽略。我们在此函数中调用transfer::public_transfer进行对象转移
 
 >定义转移函数
 ```sui move
@@ -111,11 +154,14 @@ public entry fun mint_to_sender(
 
 发布前，可以先在测试网进行调试，无问题后，将环境切换到主网环境（这一点需要注意，测试完成后，因任务要求，必须在主网部署）
 
-```sui move
+打开命令行工具，在命令行中输入
+
+```move
 sui client publish 
 ```
+在执行完发布后，我们将在控制台看到 部署的包信息，以及交易信息。
 
-发布之后，控制台将显示我们部署模块的PACKAGEID，记录下来。
+发布之后，控制台将显示我们部署模块的PACKAGEID，此数据记录下来，用于我们之后调用该包下的模块函数。
 
 之后我们将频繁使用到（下文中的PACKAGEID，在运行时，请替换为发布后记录的PACKAGEID）
 
@@ -123,13 +169,22 @@ sui client publish
 
 调用铸造函数： 此命令，需要替换PACKAGEID，GRACECAMPO_NFT替换为你定义的NFT对象名，mint_to_sender替换为你的铸造函数名
 
-args  后跟你铸造的NFT名称 NFT描述 NFT图片地址，任务要求NFT图片地址必须是自己 github 的头像作为图片，故你需要替换为你的github 的头像URL
+args
+1. 铸造的NFT名称 
+2. NFT描述 
+3. NFT图片地址 
+
+**任务要求NFT图片地址必须是自己 github 的头像作为图片，故你需要替换为你的github 的头像URL**
 
 ```shell
 sui client call --package PACKAGEID --module GRACECAMPO_NFT --function mint_to_sender args NFT名称 NFT描述 NFT图片地址
 ```
 
 调用成功后，需要记录NFT的OBJECTID,方便区块浏览器查看
+
+我们可以通过 `https://suiscan.xyz/testnet/object/NFT-OBJECTID` ,将NFT-OBJECTID替换为调用函数，在控制台输出的 `OBJECTID`,
+
+我们就可以看到我们铸造的NFT了
 
 ### 3. 转移NFT
 调用转移函数：
@@ -149,7 +204,7 @@ recipient-address 替换为0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b534
 sui client call --package PACKAGEID --module GRACECAMPO_NFT --function transfer args NFT-OBJECTID recipient-address
 ```
 
-调用成功后，需要记录交易hash,方便区块浏览器查看
+调用成功后，需要记录`交易hash`,方便区块浏览器查看
 
 合约中的铸造和转移函数声明为entry,如果不熟悉命令行调用也可支持在区块浏览器调用
 
