@@ -13,7 +13,7 @@
 ## 任务
 
 ##   01 hello move  
-- [x] Sui cli version: sui 1.28.0-f58faa4c5bbf-dirty
+- [x] Sui cli version: sui 1.30.1-a4185da5659d
 - [x] Sui钱包截图: ![Sui钱包截图](./images/suiwallet_oliverxl.png)
 - [x] package id: 0x07007b1c8529afcca60d9aa89a9bde87a5439707f5a0d9efafc4b9746feb5cef 
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/suiscan_oliverxl.png)
@@ -43,10 +43,10 @@
 - [x] call swap CoinB-> CoinA  hash : DzZYGjw4CudbJAMakz5Z32yvzZ4PF6AUj5hHcRsPGPG
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : AYTrqoXLVyPNTFvcKQLg4hMoF6JLcieM38tcYMZhPmWp
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
+- [x] CLI call 截图 : ![截图](./images/movecall_check_in.png)
 
 ##   08 Move CTF Lets Move
 - [] proof : 

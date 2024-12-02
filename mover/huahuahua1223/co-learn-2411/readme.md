@@ -45,10 +45,11 @@
 
 ## 在HOH社区公众号发布自己的技术文章
 
-- [x] 第一篇笔记【[公众号文章链接](https://mp.weixin.qq.com/s/xNgX7heNowggNLYcCwGPdQ)】
-- [x] 第二篇笔记【[公众号文章链接](https://mp.weixin.qq.com/s/X5cYcL2bC6etKMkp_Lt3Xg)】
-- [x] 第三篇笔记【[公众号文章链接](https://mp.weixin.qq.com/s/tWx03o77KXxWSYYnz0L1sQ)】
-- [] 第四篇笔记【公众号文章链接】
+- [x] 第一篇笔记【[公众号文章链接](https://mp.weixin.qq.com/s/xNgX7heNowggNLYcCwGPdQ)】![第一篇HOH公众号](./images/第一篇HOH公众号.png)
+- [x] 第二篇笔记【[公众号文章链接](https://mp.weixin.qq.com/s/X5cYcL2bC6etKMkp_Lt3Xg)】![第二篇HOH公众号](./images/第二篇HOH公众号.png)
+- [x] 第三篇笔记【[公众号文章链接](https://mp.weixin.qq.com/s/tWx03o77KXxWSYYnz0L1sQ)】![第三篇HOH公众号](./images/第三篇HOH公众号.png)
+- [x] 第四篇笔记【[公众号文章链接](https://mp.weixin.qq.com/s/w5SNITGL6sWx7FoWLoT2dQ)】![第四篇HOH公众号](./images/第四篇HOH公众号.png)
+- [x] 第五篇笔记【[公众号文章链接](https://mp.weixin.qq.com/s/zc5MyY9OITld0z4-q1C-IQ)】![第五篇HOH公众号](./images/第五篇HOH公众号.png)
 
 ## 直播分享学习技巧/工具推荐
 
