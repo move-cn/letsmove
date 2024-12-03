@@ -19,7 +19,6 @@
 - [√] 第一周:![学习记录截图](images/直播答疑/共学营开营仪式.jpg):参与共学营开营仪式并积极互动
 - [√] 第一周:![学习记录截图](images/直播答疑/第一周直播答疑.jpg):参与第一周直播答疑并积极互动
 - [√] 第二周:![学习记录截图](images/直播答疑/第二周直播答疑.png):参与第二周直播答疑并积极互动
-- [√] 第二周:![学习记录截图](images/直播答疑/共学营分享会.png)  :分享并参与共学营讨论并积极互动
 - [√] 第三周:![学习记录截图](images/直播答疑/第三周直播答疑.png):参与第一周直播答疑并积极互动
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
@@ -36,6 +35,8 @@
 - [√] 第九篇笔记[move入门之基础语法(一)](https://learnblockchain.cn/article/9966)
 - [√] 第十篇笔记[MOVE共学营TASK5教程](https://learnblockchain.cn/article/10035)
 - [√] 第十一篇笔记[move入门之泛型](https://learnblockchain.cn/article/10036)
+- [√] 第十二篇笔记[move入门之集合(一)](https://learnblockchain.cn/article/10090)
+- [√] 第十三篇笔记[move入门之集合(二)](https://learnblockchain.cn/article/10091)
 ## 对外输出学习笔记
 
 - [√] 第一篇笔记[Git入门到精通](https://blog.csdn.net/jinpeng741143592/article/details/143261589?spm=1001.2014.3001.5502)
@@ -51,7 +52,9 @@
 - [√] 第十一篇笔记[MOVE共学营TASK4教程](https://learnblockchain.cn/article/9959)
 - [√] 第十二篇笔记[move入门之基础语法(一)](https://learnblockchain.cn/article/9966)
 - [√] 第十三篇笔记[MOVE共学营TASK5教程](https://learnblockchain.cn/article/10035)
-- [√] 第十三篇笔记[move入门之泛型](https://learnblockchain.cn/article/10036)
+- [√] 第十四篇笔记[move入门之泛型](https://learnblockchain.cn/article/10036)
+- [√] 第十五篇笔记[move入门之集合(一)](https://learnblockchain.cn/article/10090)
+- [√] 第十六篇笔记[move入门之集合(二)](https://learnblockchain.cn/article/10091)
 ## 在HOH社区公众号发布自己的技术文章
 
 - [] 第一篇笔记【公众号文章链接】
@@ -61,7 +64,7 @@
 
 ## 直播分享学习技巧/工具推荐
 
-- [] 会议截图:![会议记录截图](./images/你的图片地址)
+- [√] 会议截图:![会议记录截图](images/直播答疑/共学营分享会.png)
 
 ## 提交项目
 

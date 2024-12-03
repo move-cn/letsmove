@@ -42,14 +42,16 @@
 
 ##   05 Move Swap
 
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0x302c31c249ba3c812342f5f72136e5708b390b739ff93d7ad3bf7814c2c3202b
+- [x] call swap CoinA-> CoinB  hash : 3PRDNA3YMYWYBVxALuSvykhePFPuWAZPAQyR1mq6fWwS
+- [x] call swap CoinB-> CoinA  hash : BnyHKB8iMBEQCgtZwf7PuDPim96jrH9h6AWrvnM7qMAn
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+
+- [] save hash : 
 
 ##   07 Move CTF Check In
+
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
 - [] flag hash :
 
