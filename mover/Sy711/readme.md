@@ -32,15 +32,24 @@
 - []scan上的NFT截图：！[Scan截图]（./images/nft.png
 
 ##   04 移动游戏
-- []游戏包 ID ：
-- []存入 Coin 哈希：
-- []提取 'Coin' 哈希：
-- []Play Game Hash 进行游戏哈希：
+- []游戏包 ID ：  0x57a309dc952c878fe9016bc53cbbd546ca9736e53734fe497b17cc8dae81990c
+- []存入 Coin 哈希：FdLs6Qgw5P89KppcWfWh3BVkc8bLP4CF69z9rUsnFMxZ
+- []提取 'Coin' 哈希：8BqdF8nwyhqvaQ5ECzdy8UAjdoMdH5k394wQgpuACJxD
+- []Play Game Hash 进行游戏哈希:J3E8huLFUHVa4B9R3hADU3HdPaGGD9NUNCUcGFLH1YDM
 
 ##   05 移动交换
-- []交换包 ID ：
-- []call swap CoinA-> CoinB 哈希值 ：
-- []call swap CoinB-> CoinA 哈希值 ：
+- []交换包 ID ：0x440e4f33eab2cc50852e7b6467b88d038a836daeb79313954e563f29645a7062  
+- []call swap CoinA-> CoinB 哈希值 ：6vLPzu3Q14r9sWjBkCQeooAT7nkzMqLw6c7rz8oFwGVL
+- []call swap CoinB-> CoinA 哈希值 ：GR4vMaWfRRwhLzpwiW26h4w1ohzWH1wy7H8Y8qzJjbje
 
-##   06 SDK PTB 开发工具包
-- []保存哈希 ：
+
+##   06 Dapp-kit SDK PTB
+- [] save hash :7BoZp4ym2ZgUzHiPJVrGiqtScZrV5QDySyApZBhSvjF2
+
+##   07 Move CTF Check In
+- [] CLI call 截图 : ![截图](./images/你的图片地址)
+- [] flag hash :
+
+##   08 Move CTF Lets Move
+- [] proof : 
+- [] flag hash :

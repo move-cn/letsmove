@@ -71,6 +71,7 @@ module task4::task4 {
         let balance = pool.prize.withdraw_all();
         let coin = coin::from_balance(balance, ctx);
         // 由于已经确认了调用者是奖金池的拥有者，这里不需要再次检查
+
         public_transfer(coin, sender(ctx));
     }
 

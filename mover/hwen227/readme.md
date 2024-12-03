@@ -3,7 +3,7 @@
 - github: `hwen227`
 
 ## 个人简介
-- 计算机专业，未参加工作
+- 计算机专业
 - 技术栈: `java` `javascript` `python` `c++`
     - 正在学习使用solidity编写智能合约，参加共学营来了解move语言以及sui生态，加深对区块链的理解
     - 寻找远程工作中
@@ -31,15 +31,15 @@
 - [✓] scan上的NFT截图:![Scan截图](./images/myNFT.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [✓] game package id : 0x5d530517d4fee43180fd1ea82ea1f6c7afc8dbde3e052cc24e2942b382fbb82a
+- [✓] deposit Coin hash: Gpzu4SvSSz8MoQ6SpkJoRHbj3FCMpLEvqnJcqjzyocyX
+- [✓] withdraw `Hwen Faucet Coin` hash: 4g1fYE6XFmCxZhiYbZqqk5tU1TU757PzXTpgpnbPPohT
+- [✓] play game hash: AATCc2d2pME3NAF2uXVvBZiZ8VHam5hjmieQBBSukovd
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [✓] swap package id : 0x3fb5d5b05557c3fe832c720dec96c6f6f622879fa0586b5c8b5eb8252e3f2dbc
+- [✓] call swap CoinA-> CoinB  hash : DtWSweEj3RNcCsKq6udvNyPfHpfmczYi8hjtEUwVZWYo
+- [✓] call swap CoinB-> CoinA  hash : DaWSAdBts9WPjwK5kdijCXiCho5YCxcQN5kz12wxHJQQ
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :

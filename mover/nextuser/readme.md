@@ -28,11 +28,11 @@
 
   
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [] My Coin package id :0xb6b7cc1b7b4e7183ba42341c22f10c56b86d70e14a02d4f321769c687b2dabd2
+- [] Faucet package id : 0x5004eab7e42fd66ad3b7475632ae3070e9a4015f8f8976009e7e8637592e9d76
+- [] 转账 `My Coin` hash:DQMWZ4nEYZ4Cc6MN8HXkRWmajTJTh9Psf9euSDCTSUJt
+- [] `Faucet Coin` address1 mint hash:6wFAe3HwXUHzwfcVLK63KBXmv3vnr1XykRWN37gMUd4M
+- [] `Faucet Coin` address2 mint hash:4S49DwS3ZkXKcQ7aTr4USyL9sowe9324CyM4riU7FcxB
 
 ##   03 move NFT
 
@@ -45,10 +45,10 @@
 - [] scan上的NFT截图: ![Scan截图](images/image-20241114000654688.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [] game package id :0x80f3da6457c89720ca6de5474d2d130b5d7b2c5a443bfad3daa36299d77c4d25
+- [] deposit Coin hash:3J4PHqktepgHGFj7TRk2UQ4BFXEPWPWk6iGyeWJuf9o8
+- [] withdraw `Coin` hash:9FWvZVpohexsHreMbMaLUmB73feei3iEykEUYZ9a9tKP
+- [] play game hash:21iVdmFaie9SxQczY8cQZiCuWFDtTeo9tEY8sFb3dVHy
 
 ##   05 Move Swap
 - [] swap package id :
@@ -56,12 +56,22 @@
 - [] call swap CoinB-> CoinA  hash :
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [] save hash :3zBHw9ewimtLQqUx29TxpcAALTeCTNde1FXBxg7e3e6r
+
+网上的时间戳 2024-12-01 13:50   , 我在UTC  2024-12-01 21:50   => udc  。 0.120121   （decimal=6）
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+
+- [] CLI call 截图 : ![截图](images/image-20241130191834237.png)
+- [] flag hash :FXGLuAXD5DPv4Xm6c3CNPLaPgtz6KvTss2vf1SDDmYW1
+- [] github-id:nextuser
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+
+- [] proof :    [0,160,101,151]
+
+- ![image-20241202180513119](images/image-20241202180513119.png)
+
+- ![image-20241202180358030](images/image-20241202180358030.png)
+- [] flag hash :2neKKhgxXTgtivx4hKHWEi4efqqXfhcvSe9vN2wtQADf
+
