@@ -1,12 +1,10 @@
-# 对象
+# 主网
+包id 0xf85b9ecd6a1891e905f9554a8d2572b86497c81379b02bdb31c16d2799502ce4
 
-# 测试网，task2 faucet coin
-ObjectID: 0x603ebab27f82bd670fcb2bb2a126c21a99cc75ca170020f723ad2d7383c3e91c
-Sender: 0x2af6c1938280cf418ce388f62deffe9a56746d0887c9e6c031a4127016987e35
-Owner: Shared( 236173788 )
-ObjectType: 0x2::coin::TreasuryCap<0x791b79868f96bf1f771736b67f1e14421078d7ba17d5fc6d05f9b2ffd7dafee1::faucetcoin::FAUCETCOIN> 
+共享对象id  0x5c29c35795ec11af27b673501afe83d8b76dbd92535d5082bd63ba5977827900
 
-ObjectID: 0x114fdbdaaff13ab5a376019b8d688762d0f4f2f03be871552f16db35bcff7c57
-Sender: 0x2af6c1938280cf418ce388f62deffe9a56746d0887c9e6c031a4127016987e35
-Owner: Immutable
-ObjectType: 0x2::coin::CoinMetadata<0x791b79868f96bf1f771736b67f1e14421078d7ba17d5fc6d05f9b2ffd7dafee1::faucetcoin::FAUCETCOIN>
+# 交易hash
+BQZehzAvZUtswczEWr7rqez7BLazyJnxz5GQZgvwH5tM
+
+# 所属用户
+0x2af6c1938280cf418ce388f62deffe9a56746d0887c9e6c031a4127016987e35
