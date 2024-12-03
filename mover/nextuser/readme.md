@@ -56,12 +56,22 @@
 - [] call swap CoinB-> CoinA  hash :
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [] save hash :3zBHw9ewimtLQqUx29TxpcAALTeCTNde1FXBxg7e3e6r
+
+网上的时间戳 2024-12-01 13:50   , 我在UTC  2024-12-01 21:50   => udc  。 0.120121   （decimal=6）
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+
+- [] CLI call 截图 : ![截图](images/image-20241130191834237.png)
+- [] flag hash :FXGLuAXD5DPv4Xm6c3CNPLaPgtz6KvTss2vf1SDDmYW1
+- [] github-id:nextuser
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+
+- [] proof :    [0,160,101,151]
+
+- ![image-20241202180513119](images/image-20241202180513119.png)
+
+- ![image-20241202180358030](images/image-20241202180358030.png)
+- [] flag hash :2neKKhgxXTgtivx4hKHWEi4efqqXfhcvSe9vN2wtQADf
+
