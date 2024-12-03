@@ -19,23 +19,25 @@
 - [✓] package id 在 scan上的查看截图:![Scan截图](./images/suivision_code.png)
 
 ##   02 move coin
-- [] My Coin package id : 0x5c3a6b4a55686eb982ce65be5cb4b0d7935765c8be1dc1902de031efd945866e
-- [] Faucet package id : 0x5d2aad9075f6d13961d0d08545eaf9e3194b466f9775bc45492e87395ba3059b
-- [] 转账 `My Coin` hash: 7wJH7ELc7Wzw25jUzrdnMdeQkvw169kHrWSt5M5j2yNk
+- [✓] My Coin package id : 0x5c3a6b4a55686eb982ce65be5cb4b0d7935765c8be1dc1902de031efd945866e
+- [✓] Faucet package id : 0x5d2aad9075f6d13961d0d08545eaf9e3194b466f9775bc45492e87395ba3059b
+- [✓] 转账 `My Coin` hash: 7wJH7ELc7Wzw25jUzrdnMdeQkvw169kHrWSt5M5j2yNk
     相关命令：
     sui client call --package 0x5c3a6b4a55686eb982ce65be5cb4b0d7935765c8be1dc1902de031efd945866e --module my_coin --function mint_and_send --args 0x2e8acd5b90955411516907a58fe2f16317230449829bc71ac99d3c35215aa578 100000000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
-- [] `Faucet Coin` address1 mint hash: 8ByUxcx9r6SqiARUSSTUPThC2FEjFG6t5SVzxk5zE5yv
+- [✓] `Faucet Coin` address1 mint hash: 8ByUxcx9r6SqiARUSSTUPThC2FEjFG6t5SVzxk5zE5yv
     相关命令：
     sui client call --package 0x5d2aad9075f6d13961d0d08545eaf9e3194b466f9775bc45492e87395ba3059b --module faucet_coin --function mint_and_send --args 0xe6c8a1222e5143b21a4e762d5441d575a27471efde1c320628c139991748c6d4 100000000 0xb81710e52a8fdc6fb6c7d103032d0dfc076752b35a6deac950e015011fabf772
-- [] `Faucet Coin` address2 mint hash: 3nrvJwHZ8fV7XYZk1VxjjzLqprbAKCC5FD1U3RH8rfut
+- [✓] `Faucet Coin` address2 mint hash: 3nrvJwHZ8fV7XYZk1VxjjzLqprbAKCC5FD1U3RH8rfut
     相关命令：
     sui client call --package 0x5d2aad9075f6d13961d0d08545eaf9e3194b466f9775bc45492e87395ba3059b --module faucet_coin --function mint_and_send --args 0xe6c8a1222e5143b21a4e762d5441d575a27471efde1c320628c139991748c6d4 100000000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [✓] nft package id : 0x4c0422d8d35d3bb908d90b4bd3bcd1c784529508ee441e5e4e512b0a4e29fe97
+- [✓] nft object id : 0xdd9ed2f1631ce1a519ea478d29b12993722862a3f982e793f91bb7d258d7e7c0
+- [✓] 转账 nft  hash: 3oucSWFtrcW2Y1sZ8NdCnHRmG12qVTXhhMTWuiHNry9i
+    相关命令：
+    sui client call --package 0x4c0422d8d35d3bb908d90b4bd3bcd1c784529508ee441e5e4e512b0a4e29fe97 --module my_nft --function mint_and_send --args Helen2022a_NFT "https://avatars.githubusercontent.com/u/106859147?s=400&u=47d0ee6bd6cbd6ba2b90ca29e51281074b228d5a&v=4" 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
+- [✓] scan上的NFT截图:![Scan截图](./images/my_nft.png)
 
 ##   04 Move Game
 - [] game package id :
