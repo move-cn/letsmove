@@ -71,48 +71,40 @@ public entry fun withdraw_prifit(_:&AdminCap, bank: &mut Swap, ctx:&mut TxContex
     public_transfer(hk_coin,ctx.sender());
 }
 
-public entry fun swap_hk(bank: &mut Swap, usd:&mut sui::coin::Coin<HK>, ctx:&mut TxContext){
-    assert!(usd.value()>0,0x2);
+public entry fun swap_hk(bank: &mut Swap, in_hk:&mut sui::coin::Coin<HK>, ctx:&mut TxContext){
+    assert!(in_hk.value()>0,0x2);
     assert!(bank.hk.value()>0 && bank.j_coin.value()>0,0x3);
+    //手续费 1%
+    let fee_amt = in_hk.value()/100;
+    //真正用来交换的钱
+    let fee_exclude_amt = in_hk.value()-fee_amt;
+    //1hk = 1j_coin
 
-    let fee_amt = usd.value()/100;
-    let fee_exclude_amt = usd.value()-fee_amt;
+    let user_j_coin_balance = bank.j_coin.split(fee_exclude_amt);
 
-    let cofficient = bank.hk.value()*bank.j_coin.value();
-    let expected_remain_eig = cofficient/(fee_exclude_amt+bank.hk.value());
+    let use_j_coin = sui::coin::from_balance(user_j_coin_balance,ctx);
+    public_transfer(use_j_coin,ctx.sender());
 
-    let user_get_amt = bank.j_coin.value() - expected_remain_eig;
-
-    let user_eig_balance = bank.j_coin.split(user_get_amt);
-
-    let use_eig_coin = sui::coin::from_balance(user_eig_balance,ctx);
-    public_transfer(use_eig_coin,ctx.sender());
-
-    let fee_coin = usd.split(fee_amt,ctx);
-    let pool_coin = usd.split(fee_exclude_amt,ctx);
+    let fee_coin = in_hk.split(fee_amt,ctx);
+    let pool_coin = in_hk.split(fee_exclude_amt,ctx);
     bank.hk_prifit.join(sui::coin::into_balance(fee_coin));
     bank.hk.join(sui::coin::into_balance(pool_coin));
 }
 
-public entry fun swap_usd(bank: &mut Swap, eig:&mut sui::coin::Coin<JETHRO_COIN>, ctx:&mut TxContext){
-    assert!(eig.value()>0,0x2);
+public entry fun swap_j_coin(bank: &mut Swap, in_j_coin:&mut sui::coin::Coin<JETHRO_COIN>, ctx:&mut TxContext){
+    assert!(in_j_coin.value()>0,0x2);
     assert!(bank.hk.value()>0 && bank.j_coin.value()>0,0x3);
 
-    let fee_amt = eig.value()/100;
-    let fee_exclude_amt = eig.value()-fee_amt;
+    let fee_amt = in_j_coin.value()/100;
+    let fee_exclude_amt = in_j_coin.value()-fee_amt;
 
-    let cofficient = bank.hk.value()*bank.j_coin.value();
-    let expected_remain_usd = cofficient/(fee_exclude_amt+bank.j_coin.value());
+    let user_hk_balance = bank.hk.split(fee_exclude_amt);
 
-    let user_get_amt = bank.hk.value() - expected_remain_usd;
+    let user_hk_coin = sui::coin::from_balance(user_hk_balance,ctx);
+    public_transfer(user_hk_coin,ctx.sender());
 
-    let user_usd_balance = bank.hk.split(user_get_amt);
-
-    let user_usd_coin = sui::coin::from_balance(user_usd_balance,ctx);
-    public_transfer(user_usd_coin,ctx.sender());
-
-    let fee_coin = eig.split(fee_amt,ctx);
-    let pool_coin = eig.split(fee_exclude_amt,ctx);
+    let fee_coin = in_j_coin.split(fee_amt,ctx);
+    let pool_coin = in_j_coin.split(fee_exclude_amt,ctx);
     bank.j_coin_profit.join(sui::coin::into_balance(fee_coin));
     bank.j_coin.join(sui::coin::into_balance(pool_coin));
 }
