@@ -229,7 +229,7 @@ faucet coin TreasuryCap obj id ： 0x56d0bb3c37de365e23a2c56180601da49d8b23794b4
     0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 \
    --gas-budget 100000000
 ```
-
+--args 第一个是 FAUCETCOIN 所在对象的id
 ## 使用sui cli转账
 sui client transfer-sui --to 0x2e312e10390700d045ae462dcac090354bda4a81dc151c0d538a250beb0492f5 --amount 13266772 --sui-coin-object-id 0x1feb5ad79c303c52cca592272203b259119fc3fb02e037209ceaf9570474ce08  --gas-budget 100000000
 
