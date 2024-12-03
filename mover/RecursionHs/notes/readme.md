@@ -10,6 +10,7 @@
 - https://easy.sui-book.com/chapter_3.html
 - https://intro-zh.sui-book.com/unit-three/lessons/3_witness_design_pattern.html
 - https://github.com/RandyPen/sui-move-intro-course-zh
+- 创建nft https://examples.sui-book.com/samples/nft.html
 
 
 ```shell
