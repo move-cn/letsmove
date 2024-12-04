@@ -1,18 +1,18 @@
 ## 基本信息
-- Sui钱包地址: `0x1000000000000x`
+- Sui钱包地址: `0x218bbfabde3dfce9e70b7e745afe1dbc58641c799d136bf919aa3078e25bc750`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `自己的githubid`
+- github: `JasonRUAN`
 
 ## 个人简介
-- 工作经验: x年
-- 技术栈: `Rust` `C++`
+- 工作经验: 15年
+- 技术栈: `Go` `Python` `C++`
 > 重要提示 请认真写自己的简介
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `xxx` 
+- 多年web2开发经验，对Move特别感兴趣，想通过Move做点有趣的东西
+- 联系方式: tg: `rzexin`
 
 ## 任务
 
-##   01 hello move  
+##   01 hello move
 - [] Sui cli version:
 - [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
 - [] package id: 
@@ -43,7 +43,7 @@
 - [] call swap CoinB-> CoinA  hash :
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash: https://suivision.xyz/txblock/786hLMhfW9uvYLCSyyNNk4QBacHmWgsQ2poYtefCpLgx
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
