@@ -15,9 +15,9 @@
 ##   01 hello move  
 - [x] Sui cli version:sui 1.37.4-a139ef255ae7
 <<<<<<< HEAD
-- [x] Sui钱包截图: ![Sui钱包截图](./images/task1_wallet.png)
+- [x] Sui钱包截图: ![Sui钱包截图](./image/task1_wallet.png)
 - [x] package id: 0x4a8ff94757bdcc3e50a36f2c006c25f5cf53b90cad39393d5821caf34c4419d8
-- [x] package id 在 scan上的查看截图:![Scan截图](./images/task1contract.png)
+- [x] package id 在 scan上的查看截图:![Scan截图](./image/task1contract.png)
 
 ##   02 move coin
 - [x] My Coin package id : 0x55b64b01d4bd8b9538f79a68e8bc2e2a3537bb5cb408a4b469187cf89cd8ed17
@@ -30,7 +30,7 @@
 - [x] nft package id : 0xe7eac4aa1355ef5102bd7cc928d7d8e9bd6a4ebff57ea8ee7c2dd459c0098dea
 - [x] nft object id : 0xe7eac4aa1355ef5102bd7cc928d7d8e9bd6a4ebff57ea8ee7c2dd459c0098dea::task3::MyNFT
 - [x] 转账 nft  hash: 62Fw4n2cgEiEKowQyBJXWEGmx7czTwMoKdkoys8xrVej
-- [x] scan上的NFT截图:![Scan截图](./images/task3.png)
+- [x] scan上的NFT截图:![Scan截图](./image/task3.png)
 
 ##   04 Move Game
 - [x] game package id :0xee25a9c7e62c60df6d043d1c49749e0886959a18952787fe45a5fd944715b275
