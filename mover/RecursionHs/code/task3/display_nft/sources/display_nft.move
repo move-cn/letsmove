@@ -1,8 +1,10 @@
 module display_nft::display_nft;
 use std::string;
-use std::string::String;
+use std::string::{String, utf8};
 use sui::display;
+use sui::object;
 use sui::package;
+use sui::transfer;
 use sui::tx_context::sender;
 
 
@@ -31,20 +33,25 @@ fun init(otw: DISPLAY_NFT, ctx: &mut TxContext) {
         utf8(b"https://testnet.suivision.xyz/"),
         utf8(b"recursionhs"),
     ];
+    //获取发布者
     let publisher = package::claim(otw, ctx);
+    //发布nft
     let mut display = display::new_with_fields<GIT_NFT>(&publisher, keys, values, ctx);
     display::update_version(&mut display);
 
-    transfer::transfer(publisher, sender(ctx));
-    transfer::transfer(display, sender(ctx));
+    transfer::public_transfer(publisher, sender(ctx));
+    transfer::public_transfer(display, sender(ctx));
 
     let nft = GIT_NFT {
         id: object::new(ctx),
         name: string::utf8(b"RecursionHs input url NFT"),
         url: string::utf8(b"https://avatars.githubusercontent.com/u/36094328?v=4"),
     };
-    }
+    transfer::public_transfer(nft, sender(ctx))
+}
 
-
-
+public entry fun mint(name: String, url: String, ctx: &mut TxContext) {
+    let id = object::new(ctx);
+    let nft = GIT_NFT{id,name,url};
+    transfer::public_transfer(nft, sender(ctx));
 }
