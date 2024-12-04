@@ -11,20 +11,20 @@
 
 ## 为共学营宣传（在朋友圈或者群聊中转发海报/文章）
 
-- [] 宣传截图:![宣传截图](./images/你的图片地址)
+- [x] 宣传截图:![宣传截图](./images/pormote/promote.png)
 
 ## 每周课程学习
 
-- [x] 第一周:![学习记录截图](./images/task/learn_task1/img.png)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
-- [] 第三周:![学习记录截图](./images/你的图片地址)
+- [x] 第一周:![学习记录截图](images/task/learn_week1/img.png)
+- [x] 第二周:![学习记录截图](./images/task/learn_week2/img.png)
+- [x] 第三周:![学习记录截图](./images/task/learn_week3/img.png)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 参加直播答疑
 
-- [x] 第一周:![学习记录截图](./images/live/week1.png)
-- [] 第二周:![学习记录截图](./images/你的图片地址)
-- [] 第三周:![学习记录截图](./images/你的图片地址)
+- [x] 第一周:![学习记录截图](images/office_hour/week1.png)
+- [x] 第二周:![学习记录截图](./images/office_hour/week2.png)
+- [x] 第三周:![学习记录截图](./images/office_hour/week3.png)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 群里分享学习笔记
