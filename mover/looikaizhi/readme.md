@@ -33,15 +33,15 @@
 - [x] scan上的NFT截图:![Scan截图](./images/NFTScreeenshot.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : `0x6b47edc9b36054885048cf077992f16b1c78b2fdf84a13c02c3b16aa8798c122`
+- [x] deposit Coin hash: `6ssvq7RbfPGNuHR5XBoFaeUmWD3o9U2jEedqaP36PSEb`
+- [x] withdraw `Coin` hash: `Evn8YgVsDoSD1qdhfnrndvYkpFgtRsvh6ry7szCbR6Jv`
+- [x] play game hash: `EA84tV6h63M6JyCSCRDWPYDdf1TK7h7j3H1nv11xD75h`
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : `0x7dc5327fca61071f686cfe891049b92921f886ec698d6c86ccdba6fe9c350693`
+- [x] call swap CoinA-> CoinB  hash : `BDy3aAhK54STp5zyfBFM9PFXsSgLjLGT2o1k6VKXtdUz`
+- [x] call swap CoinB-> CoinA  hash : `HgdnAhdH6Z24UmpAQ5PEScNCVpzvdKpvzEREhoB9yBjk`
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :

@@ -12,15 +12,15 @@
 
 - [✅] 第一周:![学习记录截图](./images/week1learn.png)
 - [✅] 第二周:![学习记录截图](./images/week2learn.jpg)
-- [] 第三周:![学习记录截图](./images/你的图片地址)
-- [] 第四周:![学习记录截图](./images/你的图片地址)
+- [✅] 第三周:![学习记录截图](./images/week3learn.png)
+- [✅] 第四周:![学习记录截图](./images/week4learn.jpg)
 
 ## 参加直播答疑
 
 - [✅] 第一周:![学习记录截图](./images/week1answer.jpeg)
 - [✅] 第二周:![学习记录截图](./images/week2answer.png)
-- [] 第三周:![学习记录截图](./images/你的图片地址)
-- [] 第四周:![学习记录截图](./images/你的图片地址)
+- [✅] 第三周:![学习记录截图](./images/week3answer.jpeg)
+- [✅] 第四周:![学习记录截图](./images/week4answer.png)
 
 ## 群里分享学习笔记
 
