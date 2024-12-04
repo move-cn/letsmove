@@ -206,7 +206,7 @@ Transaction Digest: 5Dvv55B4DN6HKQm2opxoJ9J7hzdeVZRpSU8E732kExPL
 
 验证合约：PackageID: 后跟的是package参数，ObjectType: 0x2::coin::TreasuryCap上的objectid是args后的参数，如果验证的时候是move410coin要找到move410coin::MOVE410COIN对应的objectid，我就是找错了，找成另外一个token的objectid，卡了一阵。
 ```bash
-❯ sui client call --package 0xe0d020485b78bb3a7b8f6352fcb4b4253f4843384dd5330d33ff9fad882a4e5f --module move410coin --function mint --gas-budget 100000000 --args 0xeac8a7c99a05646e0984984229a61a6424f5edbe83dad3fe4e2030236881dd23 1 0xc235981c9b3f4927bd2f5ec004c6bdf870783c40494e9e0e84e2b273884cc149
+❯ sui client call --package 0xe0d020485b78bb3a7b8f6352fcb4b4253f4843384dd5330d33ff9fad882a4e5f --module move410coin --function mint  --args 0xeac8a7c99a05646e0984984229a61a6424f5edbe83dad3fe4e2030236881dd23 1 0xc235981c9b3f4927bd2f5ec004c6bdf870783c40494e9e0e84e2b273884cc149
 [warn] Client/Server api version mismatch, client api version : 1.23.0, server api version : 1.22.0
 Transaction Digest: 2rLWBwL7vXsrf1zA5JpcaLWijFp3Taq1F3gneRghJNhh
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮

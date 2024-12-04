@@ -90,13 +90,13 @@ cd qiaopengjun5162/
 ## 发布上链
 
 ```sh
-    sui client publish --gas-budget 100000000
+    sui client publish 
 ```
 
 ### 实操
 
 ```sh
-sui client publish --gas-budget 100000000
+sui client publish 
 UPDATING GIT DEPENDENCY https://github.com/MystenLabs/sui.git
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib

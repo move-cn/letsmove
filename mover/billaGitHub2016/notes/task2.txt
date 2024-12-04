@@ -1,0 +1,42 @@
+编译合约
+sui move build
+
+发布合约 test网
+sui client publish --gas-budget=100000000
+
+task2::billa_github2016_coin 的 PackageID 在这里看：(Object Changes -> Created Objects -> Published Objects -> PackageID)
+0x58294dca6eebcfb0cf15b9dd4e901dbdf0f071f6dfd1a848a31c6642b904d570
+
+设置所有人(我的钱包地址)
+export OWNER=0x4c016d80dbd4c4715a877fe274fe33bdd33b1557e38f888db23be790564fcfd6
+
+设置接收人
+export RECEIPT_ADDRESS=0x28eb471d3f18c0faa15ded45c0442d99fa5226c2d7e63b14d731f6a6a7b10e74
+
+BILLA_GITHUB2016_COIN 的 ObjectID 在这里看：(Object Changes -> ObjectID 并且 ObjectType: 0x2::coin::TreasuryCap  以 billa_github2016_coin::BILLA_GITHUB2016_COIN> 结尾)
+0x3e964fb2dde9a21e5e2a3b93ee7701b3cf694953e1706dd55d230b51a0c7bd28
+
+转 2 个(包含精度) BILLA_GITHUB2016_COIN 到指定地址
+sui client call --function mint --module billa_github2016_coin --package PackageID --args 代币 数量 接收人地址 --gas-budget 20000000
+sui client call --function mint --module billa_github2016_coin --package 0x58294dca6eebcfb0cf15b9dd4e901dbdf0f071f6dfd1a848a31c6642b904d570 --args 0x3e964fb2dde9a21e5e2a3b93ee7701b3cf694953e1706dd55d230b51a0c7bd28 2000000000 0x28eb471d3f18c0faa15ded45c0442d99fa5226c2d7e63b14d731f6a6a7b10e74 --gas-budget 20000000
+
+反例：换个钱包，再尝试铸币BILLA_GITHUB2016_COIN，会发现失败，因为其他钱包没有铸币的能力
+sui client switch --address test-receipt
+sui client faucet
+sui client call --function mint --module billa_github2016_coin --package 0x58294dca6eebcfb0cf15b9dd4e901dbdf0f071f6dfd1a848a31c6642b904d570 --args 0x3e964fb2dde9a21e5e2a3b93ee7701b3cf694953e1706dd55d230b51a0c7bd28 2000000000 0x4c016d80dbd4c4715a877fe274fe33bdd33b1557e38f888db23be790564fcfd6 --gas-budget 20000000
+
+直接使用coin的函数进行铸币 --type-args表示泛型参数
+sui client call --package 0x2 --module coin --function mint_and_transfer --args 0x3e964fb2dde9a21e5e2a3b93ee7701b3cf694953e1706dd55d230b51a0c7bd28 2000000000 0x28eb471d3f18c0faa15ded45c0442d99fa5226c2d7e63b14d731f6a6a7b10e74 --type-args 0x58294dca6eebcfb0cf15b9dd4e901dbdf0f071f6dfd1a848a31c6642b904d570::billa_github2016_coin::BILLA_GITHUB2016_COIN --gas-budget 20000000
+
+BILLA_GITHUB2016_FAUCET_COIN 水龙头代币铸造，任何钱包都能铸造成功
+sui client switch --address test-receipt
+sui client call --function mint --module billa_github2016_faucet_coin --package 0x635055d3c136d15d7f39bb610f1bcebbd35b58cc76c8ecd4f715a0ef7ab7ffe1 --args 0x9a5a5e5d1ddcea82226594fe8c4e38f1dddeb6089ca48f95cd73eb7e9f4bb16f 2000000000 0x28eb471d3f18c0faa15ded45c0442d99fa5226c2d7e63b14d731f6a6a7b10e74 --gas-budget 20000000
+
+主网
+转 2 个(包含精度) BILLA_GITHUB2016_COIN 到指定地址
+sui client call --function mint --module billa_github2016_coin --package 0xb09a7d960e811b57f91e1222eba51a206b16b93ca20750c9a0950e85292be0b2 --args 0x9313fbc08de3d6a33e51169c77533650aa00fb5b153fdf7f4693c39f3287da1f 2000000000 0x04aec9c55ac040784e333cf547a75455cceae4331c8199a785d7b39d6d6dbd4e --gas-budget 20000000
+sui client call --function mint --module billa_github2016_coin --package 0xb09a7d960e811b57f91e1222eba51a206b16b93ca20750c9a0950e85292be0b2 --args 0x9313fbc08de3d6a33e51169c77533650aa00fb5b153fdf7f4693c39f3287da1f 2000000000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --gas-budget 20000000
+
+BILLA_GITHUB2016_FAUCET_COIN 水龙头代币铸造
+sui client call --function mint --module billa_github2016_faucet_coin --package 0xb09a7d960e811b57f91e1222eba51a206b16b93ca20750c9a0950e85292be0b2 --args 0xcdb4d669e9527a0dd7f35ad3e57ecb76f79d75d77d4406d0974d74fc11f80c1d 2000000000 0x04aec9c55ac040784e333cf547a75455cceae4331c8199a785d7b39d6d6dbd4e --gas-budget 10000000
+sui client call --function mint --module billa_github2016_faucet_coin --package 0xb09a7d960e811b57f91e1222eba51a206b16b93ca20750c9a0950e85292be0b2 --args 0xcdb4d669e9527a0dd7f35ad3e57ecb76f79d75d77d4406d0974d74fc11f80c1d 1000000000 0x04aec9c55ac040784e333cf547a75455cceae4331c8199a785d7b39d6d6dbd4e --gas-budget 10000000

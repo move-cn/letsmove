@@ -1,0 +1,11 @@
+[package]
+name = "TheonInAuCoin"
+version = "0.0.1"
+publish-at = "0x306910e9bd90b4df696a5b34018b7a8df83e08f932bb69f7a032f232394af1ba"
+edition = "2024.beta"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "devnet" }
+
+[addresses]
+TheonInAuCoin = "0x306910e9bd90b4df696a5b34018b7a8df83e08f932bb69f7a032f232394af1ba"

@@ -19,10 +19,10 @@ module hello_move::hello {
 }
 
 // sui move build --skip-fetch-latest-git-deps
-// sui client publish --gas-budget 100000000 --skip-fetch-latest-git-deps
+// sui client publish  --skip-fetch-latest-git-deps
 
 /*
-PS F:\sui\letsmove\mover\fantasyni\code\task1\hello_move> sui client publish --gas-budget 100000000 --skip-fetch-latest-git-deps
+PS F:\sui\letsmove\mover\fantasyni\code\task1\hello_move> sui client publish  --skip-fetch-latest-git-deps
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
 BUILDING hello_move

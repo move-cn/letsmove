@@ -1,0 +1,32 @@
+创建项目并进入目录
+sui move new task3 && cd task3
+
+编译合约
+sui move build
+
+发布合约
+sui client publish --gas-budget=100000000
+
+拿到 PackageID (Object Changes -> Published Objects -> PackageID)
+0x87c3dc6e142f72eb8ba84812ab623937f60ce44e4902e4ef7dd98358fbf88c4c
+设置环境变量
+export PackageID_nft=0x87c3dc6e142f72eb8ba84812ab623937f60ce44e4902e4ef7dd98358fbf88c4c
+
+创建 nft
+sui client call --function mint_to_sender --module my_nft --package $PackageID_nft --args "Beney" "github beney profile" "https://github.com/beney" --gas-budget 20000000
+
+拿到 nft 的 ObjectID (Object Changes -> Created Objects -> ObjectID)
+0xab0b2b13e8019d52dc3d90ded2f217c2fc898136791a72fa5caaae5f4120290f
+export nft_ObjectID=0xab0b2b13e8019d52dc3d90ded2f217c2fc898136791a72fa5caaae5f4120290f
+
+查看 nft 所有者，与当前钱包的地址是一致的就ok
+sui client object $nft_ObjectID | grep AddressOwner && sui client active-address
+
+把 nft 发送到指定钱包地址
+sui client call --function transfer --module my_nft --package $PackageID_nft --args $nft_ObjectID $RECEIPT_ADDRESS --gas-budget 20000000
+
+拿到交易 hash (Transaction Digest)
+5bUMs3LM8wuCqrBvWTFKWQ6YuAt85sorwyxZeUYHreXK
+
+查看 nft 拥有人，和接收人一样就ok
+sui client object $nft_ObjectID | grep AddressOwner && echo $RECEIPT_ADDRESS

@@ -38,3 +38,7 @@
 
 - [x] swap package id: 0xfac346bf4cbd8284cc76e76981abc9b30c0f2398cde2913e7b21ead99d1f6536
 - [x] call swap hash: 2DtKBWwcx5RzNBBZgNNAv4JUvpedb7N46pFDtfbwtnpV
+
+### 06 SDK PTB
+
+- [x] save hash: F1vdp5wESHS5Djjn2XBn1WGwNmZyd627mtsezVRaXxMx

@@ -1,0 +1,20 @@
+on:
+  pull_request_target:
+
+jobs:
+  pr:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: mshick/add-pr-comment@v2
+        if: always()
+        with:
+          message: |
+        
+            **必须加入社区发出PR才会被合并， 超过一周不发的默认放弃奖励*
+            - QQ群: 79489587
+            - TG群: [Move中文](https://t.me/move_cn)
+
+          message-failure: |
+            Uh oh!

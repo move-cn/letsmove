@@ -19,15 +19,15 @@
 
 ## 02 move coin
 
-- [] My Coin package id :
-- [] Faucet package id :
-- [] 转账 `My Coin` hash:
+- [x] My Coin package id : 0x51174609019d158c00ed7668b481556139d74cb72209dc2a7d6f3d71971797e2
+- [x] Faucet package id : 0x6b68613967c24675afc1480a4007d910603bdfb854f13e324d54327e0077c0dd
+- [x] 转账 `My Coin` hash: EnTs5o3UG2kNiJTLFq5rtycj5AF1ArjKXgXgGsRUyTcM
 
 ## 03 move NFT
 
-- [] nft package id :
-- [] nft object id :
-- [] 转账 nft hash:
+- [x] nft package id : 0xb4d470c310f00c48527e721b0e7731077bad6e20b1fffcc4a5650047af5252be
+- [x] nft object id : 0x3ef14d4d4f7be520747828ffdc7e75d2021d75e31dd018d3136d802b9050fa0b
+- [x] 转账 nft hash: 38H8NThwC97ejEV8c4vSYZHYUFtqb9mxHAwXEDH2CvsV
 
 ## 04 Move Game
 
@@ -36,8 +36,9 @@
 
 ## 05 Move Swap
 
-- [] swap package id :
-- [] call swap hash:
+- [x] swap package id : 0xc5cd10902e69479ccec2af1a1997fab6dc3a30aa190d426a2de5bfa4ba6a2176
+- [x] call swap CoinA-> CoinB hash : HTGt5V8cutqzAPTge7iC2ED8iuA7jVhv1XHDyUDyWpCo
+- [x] call swap CoinB-> CoinA hash : 5aRTyS7VKHSHeXpu2sG38HPNAGRudk5DB6Wb8zQV4J8q
 
 ## 06 SDK PTB
 

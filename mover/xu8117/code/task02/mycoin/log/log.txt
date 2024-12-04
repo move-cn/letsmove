@@ -1,0 +1,61 @@
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Object Changes                                                                                                                                  │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Created Objects:                                                                                                                                │
+│  ┌──                                                                                                                                            │
+│  │ ObjectID: 0x29184a0fdc4cc4ce39b12d1c1795027b1e304cd705ffd1e1ad6519d8fa6dc325                                                                 │
+│  │ Sender: 0x03f0463af4185ecd1f221af4e30fbd68ce81bd438a3583e85db7320301b712b6                                                                   │
+│  │ Owner: Immutable                                                                                                                             │
+│  │ ObjectType: 0x2::coin::CoinMetadata<0xca9c7bb11711716be7c7fd5ab6bfc1f07da94f5585a636b07c018cace18ec56f::xu8117coin::XU8117COIN>              │
+│  │ Version: 102374816                                                                                                                           │
+│  │ Digest: F9Ym6gDyczaqCqaStNges83oUP4h92GLHpG17nHerCDX                                                                                         │
+│  └──                                                                                                                                            │
+│  ┌──                                                                                                                                            │
+│  │ ObjectID: 0x3b0d0ad90c085b23a5093868e59107739dea08b26dc1c612432ca4cd38852261                                                                 │
+│  │ Sender: 0x03f0463af4185ecd1f221af4e30fbd68ce81bd438a3583e85db7320301b712b6                                                                   │
+│  │ Owner: Shared                                                                                                                                │
+│  │ ObjectType: 0x2::coin::TreasuryCap<0xca9c7bb11711716be7c7fd5ab6bfc1f07da94f5585a636b07c018cace18ec56f::xu8117faucetcoin::XU8117FAUCETCOIN>   │
+│  │ Version: 102374816                                                                                                                           │
+│  │ Digest: CBMd9thu5PyZ52m4mmcuGm6hH5h1psc93PjWLQvm9iaH                                                                                         │
+│  └──                                                                                                                                            │
+│  ┌──                                                                                                                                            │
+│  │ ObjectID: 0x82b208826621ff86fe69b99ccc10768af06b67db44d307e15fca052c474ac637                                                                 │
+│  │ Sender: 0x03f0463af4185ecd1f221af4e30fbd68ce81bd438a3583e85db7320301b712b6                                                                   │
+│  │ Owner: Account Address ( 0x03f0463af4185ecd1f221af4e30fbd68ce81bd438a3583e85db7320301b712b6 )                                                │
+│  │ ObjectType: 0x2::package::UpgradeCap                                                                                                         │
+│  │ Version: 102374816                                                                                                                           │
+│  │ Digest: m8wVgoXHeT3fN17RrXtSaUXEbK7XXY1FXpdor6Rfdgh                                                                                          │
+│  └──                                                                                                                                            │
+│  ┌──                                                                                                                                            │
+│  │ ObjectID: 0x92fc3444e6e9223d1025fb03fb3c7878c8a600cb2e27e9bd78e4110fd49d9718                                                                 │
+│  │ Sender: 0x03f0463af4185ecd1f221af4e30fbd68ce81bd438a3583e85db7320301b712b6                                                                   │
+│  │ Owner: Immutable                                                                                                                             │
+│  │ ObjectType: 0x2::coin::CoinMetadata<0xca9c7bb11711716be7c7fd5ab6bfc1f07da94f5585a636b07c018cace18ec56f::xu8117faucetcoin::XU8117FAUCETCOIN>  │
+│  │ Version: 102374816                                                                                                                           │
+│  │ Digest: 7vebviDb149LuaJ4mnzMawxAZ2oTVUmGBTb9xZFD3b1K                                                                                         │
+│  └──                                                                                                                                            │
+│  ┌──                                                                                                                                            │
+│  │ ObjectID: 0xd4c558e148e5a5b89b034a8ed53cf21b49dee15ba58bbd327758642a19989ec8                                                                 │
+│  │ Sender: 0x03f0463af4185ecd1f221af4e30fbd68ce81bd438a3583e85db7320301b712b6                                                                   │
+│  │ Owner: Account Address ( 0x03f0463af4185ecd1f221af4e30fbd68ce81bd438a3583e85db7320301b712b6 )                                                │
+│  │ ObjectType: 0x2::coin::TreasuryCap<0xca9c7bb11711716be7c7fd5ab6bfc1f07da94f5585a636b07c018cace18ec56f::xu8117coin::XU8117COIN>               │
+│  │ Version: 102374816                                                                                                                           │
+│  │ Digest: Vza2LgKXaCAh8v2FZzerr7kLdQXMYB5khFvdnPAYZDZ                                                                                          │
+│  └──                                                                                                                                            │
+│ Mutated Objects:                                                                                                                                │
+│  ┌──                                                                                                                                            │
+│  │ ObjectID: 0x7f0f7a66f94fd9f5eb107b2f2c262d90ee36f7e09b612de66f95ed587a5a12d1                                                                 │
+│  │ Sender: 0x03f0463af4185ecd1f221af4e30fbd68ce81bd438a3583e85db7320301b712b6                                                                   │
+│  │ Owner: Account Address ( 0x03f0463af4185ecd1f221af4e30fbd68ce81bd438a3583e85db7320301b712b6 )                                                │
+│  │ ObjectType: 0x2::coin::Coin<0x2::sui::SUI>                                                                                                   │
+│  │ Version: 102374816                                                                                                                           │
+│  │ Digest: 6ZdbhqyjhmUzvfgwu5wV5Xb3kCCHt8dXvSbmFeHHbRrY                                                                                         │
+│  └──                                                                                                                                            │
+│ Published Objects:                                                                                                                              │
+│  ┌──                                                                                                                                            │
+│  │ PackageID: 0xca9c7bb11711716be7c7fd5ab6bfc1f07da94f5585a636b07c018cace18ec56f                                                                │
+│  │ Version: 1                                                                                                                                   │
+│  │ Digest: ALhDa4ypqDuUMT1M9bbG6dSqRkejoSeYxmv6946ddf1j                                                                                         │
+│  │ Modules: xu8117coin, xu8117faucetcoin                                                                                                        │
+│  └──                                                                                                                                            │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯

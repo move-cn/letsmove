@@ -31,3 +31,15 @@
 ##   05 Move Swap
 - [] swap package id :
 - [] call swap hash:
+
+##   06 Dapp-kit SDK PTB
+- [x] dapp 截图 : ![截图](./code/task6/code/image.png)
+- [x] save hash :4Wxvaioc2LiqsMUNyuw15MyTyXxi9oRXwNAnid9mTRrM
+
+##   07 Move CTF Check In
+- [x] CLI call 截图 : ![截图](./code/task7/1717903519799.jpg)
+- [x] flag hash : EEf6hm8Fh6ozFfu4ecFZoEG4UJTk2Go4zgVA7kWaGv8q
+
+##   08 Move CTF Lets Move
+- [x] CLI call 截图 : ![截图](./code/task8/1717946259730.jpg)
+- [x] flag hash : 96CGrC5q5J2cTjFL61aRdZDtQu3rzSFdgnpbDuUdYKst

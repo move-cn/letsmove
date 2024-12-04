@@ -138,7 +138,7 @@ command:
 export  PACKAGE_ID=0x197cb1d2243270835be026913e949ffaac6c12f9985ea5299a94ec538d014e0f
 ```
 ```bash
-sui client call --function mint_to --module puppy --package $PACKAGE_ID --args "test_nft" "" "" 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 --gas-budget 100000000
+sui client call --function mint_to --module puppy --package $PACKAGE_ID --args "test_nft" "" "" 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 
 ```
 
 Output:

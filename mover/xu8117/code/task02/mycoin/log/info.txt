@@ -1,0 +1,21 @@
+PackageID: 0xca9c7bb11711716be7c7fd5ab6bfc1f07da94f5585a636b07c018cace18ec56f                                                    │
+XU8117COIN TreasuryCap ObjectID: 0xd4c558e148e5a5b89b034a8ed53cf21b49dee15ba58bbd327758642a19989ec8
+XU8117FAUCETCOIN TreasuryCap ObjectID: 0x3b0d0ad90c085b23a5093868e59107739dea08b26dc1c612432ca4cd38852261
+
+
+sui client call --gas-budget 20000000 --package  0x2 --module coin  --function mint_and_transfer --type-args '0xca9c7bb11711716be7c7fd5ab6bfc1f07da94f5585a636b07c018cace18ec56f::xu8117coin::XU8117COIN' --args 0xd4c558e148e5a5b89b034a8ed53cf21b49dee15ba58bbd327758642a19989ec8 100000000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
+
+EJR3oieEXEjqskMB9rFgv6BQ9DnWKeHTxCyBZvNEKT3L
+0xe13e68eb2a8407850cea028d1980e8086dd2fede18951acbe8e0ed2cc32c2cb3
+
+
+sui client call --gas-budget 20000000 --package  0x2 --module coin  --function mint_and_transfer --type-args '0xca9c7bb11711716be7c7fd5ab6bfc1f07da94f5585a636b07c018cace18ec56f::xu8117faucetcoin::XU8117FAUCETCOIN' --args 0x3b0d0ad90c085b23a5093868e59107739dea08b26dc1c612432ca4cd38852261 100000000 0x03f0463af4185ecd1f221af4e30fbd68ce81bd438a3583e85db7320301b712b6
+
+BUgjb6oeMJqpE8ZrBbAx7c1k8514XhKZAh9pDBbJfibk
+0x00e834581abb910b18d591c7b0f51b1803ea739a97dc2faee49a9052b7e6be56
+
+GzodZvJUmSqo34JA8uSZTksRocKYfjpef3x319eh4m7j
+0x1bd4889df875b69071549bb7fc8b2de28f12094703ebe8c598eeea12bf259244
+
+CvzbKTTyTzm1DBTW8NvnPM3UYo7YGd5qxE4muffNJNaq
+0x6556a0af642f7e0baffd4fd5dc88d64cc061bdca2630aa1287a48688e0e024b2

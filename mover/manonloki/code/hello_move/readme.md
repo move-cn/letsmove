@@ -51,7 +51,7 @@ sui move build
 
 ## 发布上链
 ```
-sui client publish --gas-budget 100000000
+sui client publish 
 ```
 
 ## 结果

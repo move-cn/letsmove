@@ -151,7 +151,7 @@ Transaction Digest: CY8cdzdakfjJnx4V1aHnzgbAj8rALZbAEUWMmq6745Ya
 
 调用合约函数：
 ```bash
-❯ sui client call --package 0xe5ef33a2f877b7bb5a19c448649f5547284f2bcc33126f952f7ed6e7fb36b996 --module hello_word --function mint --gas-budget 1000000000
+❯ sui client call --package 0xe5ef33a2f877b7bb5a19c448649f5547284f2bcc33126f952f7ed6e7fb36b996 --module hello_word --function mint 0
 [warn] Client/Server api version mismatch, client api version : 1.23.0, server api version : 1.22.0
 Transaction Digest: HAXoyWTucVwFtmysiXRoDfU8ErLsvrqMn7FKA24KUiqa
 ╭─────────────────────────────────────────────────────────────────────────────────────────────╮

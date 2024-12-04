@@ -231,7 +231,7 @@ Transaction Digest: 2mMRhWh3bqhZUg6fhA18et5zpg9o2Nni3ZdmrG18fNAW
 sui client call --package $AMMPKG \
                 --module liquidity \
                 --function generate_pool \
-                --gas-budget 100000000 \
+                 \
                 --type-args  $CNYA $CNYW
 [warn] Client/Server api version mismatch, client api version : 1.20.0, server api version : 1.20.1
 Transaction Digest: EhFzTpLyMUub3dS8evm13B9hrnytQ2oK8cSiVALQQDmk
@@ -347,7 +347,7 @@ Transaction Digest: EhFzTpLyMUub3dS8evm13B9hrnytQ2oK8cSiVALQQDmk
 sui client call --package $AMMPKG \
                 --module liquidity \
                 --function create_pocket \
-                --gas-budget 100000000 
+                 
 [warn] Client/Server api version mismatch, client api version : 1.20.0, server api version : 1.20.1
 Transaction Digest: 7zYcSAW333rdEkKuwBaTh9YxMaN5Q2965bBXuNYhgnP4
 ╭─────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -459,7 +459,7 @@ Transaction Digest: 7zYcSAW333rdEkKuwBaTh9YxMaN5Q2965bBXuNYhgnP4
 sui client call --package $AMMPKG \                                    
                 --module liquidity \
                 --function deposit_totally\
-                --gas-budget 100000000 \
+                 \
                 --type-args  $CNYA $CNYW\
                 --args $POOLID\
                 $FC\
@@ -671,7 +671,7 @@ Transaction Digest: DdWf6vRiaxKkqUeLsh2JbAebfVdF9KZhi5ciEmg5w2qw
 sui client call --package $AMMPKG \
                 --module liquidity \
                 --function swap_x_to_y \
-                --gas-budget 100000000 \
+                 \
                 --type-args $CNYA $CNYW \
                 --args $POOLID \
                        '["0xff77c09009fa2cf9a4db2b3bc8769f8c460a771193aee5630dc80d0f474fd31d"]' \

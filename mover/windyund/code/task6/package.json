@@ -1,0 +1,19 @@
+{
+  "license": "ISC",
+  "main": "index_bak.js",
+  "module": "es2022",
+  "devDependencies": {
+    "@mysten/sui.js": "^0.52.0",
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "navi-sdk": "^1.1.21"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "tsc --clean",
+    "start": "node index.js",
+    "watch": "tsc --watch"
+  }
+}

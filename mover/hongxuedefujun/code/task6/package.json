@@ -1,0 +1,17 @@
+{
+    "name": "sdk.js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "sdk.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "navi-sdk": "^1.1.15"
+    },
+    "type": "module"
+  }
+  

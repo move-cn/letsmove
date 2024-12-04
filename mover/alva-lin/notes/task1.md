@@ -179,7 +179,7 @@ BUILDING 03_hello_move
 发布前，需要注意当前激活的网络和地址。在 package 对应的路径下，执行以下命令，将包发布到对应的网络
 
 ```bash
-sui client publish --gas-budget 100000000
+sui client publish 
 ```
 
 这里的 `gas-budget` 指运行模块初始化程序是的 gas 费用预算。

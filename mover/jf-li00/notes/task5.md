@@ -293,7 +293,7 @@ Transaction Digest: 7RDztN2uPLozY3GZB8M1L1cjPw3DrsAKCus1HmtZLhM9
 │  │ Amount: 100000                                                                                  │
 │  └──                                                                                               │
 ╰────────────────────────────────────────────────────────────────────────────────────────────────────╯
-    ~/Works/w/m/s/letsmove/m/j/code    main ⇡10 ?1  sui client call --function mint_for --module my_coin --package $PACKAGE_ID --args 0x3e78062579421ab4d5aac552bcaa644f204aea01fa8ccd5c3caef131147ceb15 100000 0x10b290db74fa60decffc2f94d173013f668e316c00807328517c007c5d76bb28 --gas-budget 100000000
+    ~/Works/w/m/s/letsmove/m/j/code    main ⇡10 ?1  sui client call --function mint_for --module my_coin --package $PACKAGE_ID --args 0x3e78062579421ab4d5aac552bcaa644f204aea01fa8ccd5c3caef131147ceb15 100000 0x10b290db74fa60decffc2f94d173013f668e316c00807328517c007c5d76bb28 
 Transaction Digest: 37hBELJHYBgnt2jHDqX8wqnYigp55vDFdsXSJwgncqiP
 ╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │ Transaction Data                                                                                             │

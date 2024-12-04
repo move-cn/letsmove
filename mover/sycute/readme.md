@@ -38,3 +38,7 @@
 
 - [x] swap package id : 0x0d333262d5979bfa0bcdd10ed13a76f5ad5d732bf68f4ef819954ee026deada5
 - [x] call swap hash: coZfatvk97FimLkGmCZe1aybPjiZ62Lgbb9d9L2wuJg
+
+## 06 SDK_PTB_NAVI
+
+- [x] depositSuiToNavi hash : [Af4JEeN9jWNCpJcaUwEAKDEnPqfPECt4nC7JG4wMmw15](https://suivision.xyz/txblock/Af4JEeN9jWNCpJcaUwEAKDEnPqfPECt4nC7JG4wMmw15)

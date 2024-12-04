@@ -1,0 +1,11 @@
+services:
+  woo:
+    environment:
+      FLAG: justCTF{Ott3r_uses_expl0it_its_sup3r_eff3ctiv3}
+      PORT: 31337
+    build: 
+      context: ./
+      dockerfile: ./Dockerfile
+    ports:
+      - "31337:31337"
+    restart: always

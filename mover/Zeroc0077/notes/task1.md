@@ -172,7 +172,7 @@ Transaction Digest: B3fgcACvZfKrXgi7HRL67PE91JZofRkCxbdwUiApkBdV
 
 调用合约函数：
 ```bash
-❯ sui client call --package 0x672625114d409ac01273c1aff18d23c6f62a712df6a30dc01425b37cdb0aec5a --module HelloWorld --function mint --args "zeroc" --gas-budget 100000000
+❯ sui client call --package 0x672625114d409ac01273c1aff18d23c6f62a712df6a30dc01425b37cdb0aec5a --module HelloWorld --function mint --args "zeroc" 
 Transaction Digest: J4FooyR7bD2diM6AEfg7DkiVWX2ZpvnyuSBCWGruKdLx
 ╭─────────────────────────────────────────────────────────────────────────────────────────────╮
 │ Transaction Data                                                                            │

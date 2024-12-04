@@ -249,7 +249,7 @@ sui move new hello_move
 # build test
 sui move build
 # publish contract
-➜  hello_move git:(main) ✗ sui client publish --gas-budget 100000000
+➜  hello_move git:(main) ✗ sui client publish 
 UPDATING GIT DEPENDENCY https://gitee.com/mystenLabs/sui.git
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib

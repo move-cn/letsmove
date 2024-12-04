@@ -72,10 +72,10 @@ sui move build
 ```
 4. 发布
 ```
-sui client publish --gas-budget 100000000
+sui client publish 
 
 # 成功后信息如下：
-fund@Fund-Ubuntu:~/Learn/Code/Github/move_coin_sui$ sui client publish --gas-budget 100000000
+fund@Fund-Ubuntu:~/Learn/Code/Github/move_coin_sui$ sui client publish 
 UPDATING GIT DEPENDENCY https://github.com/MystenLabs/sui.git
 INCLUDING DEPENDENCY Sui
 INCLUDING DEPENDENCY MoveStdlib
@@ -279,7 +279,7 @@ export TO_ADDRESS=0xfb475459e707aedac09d2fa15cff75b87a5dd7aa13e3684a87e739062974
 6. 发布者交互
 发布者调用`apt`模块，向指定地址转移1个coin
 ```
-sui client call --package $PACKAGE_ID --module apt --function mint --args $APT_TREASURYCAP 1 $TO_ADDRESS --gas-budget 100000000
+sui client call --package $PACKAGE_ID --module apt --function mint --args $APT_TREASURYCAP 1 $TO_ADDRESS 
 
 # 成功后信息如下：
 Transaction Digest: 5Tp7Wjz8M8vcPdsaF4aNLFGqr1SrBBWdJfeBiWjizwAV

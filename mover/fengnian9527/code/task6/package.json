@@ -1,0 +1,18 @@
+{
+  "license": "ISC",
+  "main": "index.js",
+  "module": "es2022",
+  "dependencies": {
+    "@mysten/sui.js": "^0.52.0",
+    "navi-sdk": "^1.1.21",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js",
+    "watch": "tsc --watch"
+  }
+}

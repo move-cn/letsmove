@@ -176,7 +176,7 @@ Transaction Digest: CuVjU7oFsowKeo4RTauPhEmKM5Pw4Dm6M92pAvkhaRjj
 
 调用合约函数：
 ```bash
-> sui client call --function mint --module hello_move --package 0x2655c5bfa3b402abe77a168c203bae330fac121213d3f30145f0923f0f39b6d2 --gas-budget 100000000
+> sui client call --function mint --module hello_move --package 0x2655c5bfa3b402abe77a168c203bae330fac121213d3f30145f0923f0f39b6d2 
 Transaction Digest: MmVQEDqcM7ym7Xc6FLo3BcuYWKRAvSRsg8nnUbA4hCQ
 ╭─────────────────────────────────────────────────────────────────────────────────────────────╮
 │ Transaction Data                                                                            │

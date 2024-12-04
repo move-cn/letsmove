@@ -142,7 +142,7 @@ command
 export  PACKAGE_ID=0xd06435923fcaa2093b897427d13eb8ccf11d108af48123cd421ce8096ce9c85b
 ```
 ```bash
-sui client call --function play --module mygame --package $PACKAGE_ID --args 2 --gas-budget 100000000
+sui client call --function play --module mygame --package $PACKAGE_ID --args 2 
 ```
 
 output:

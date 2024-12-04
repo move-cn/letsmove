@@ -1,0 +1,40 @@
+[package]
+name = "move_game"
+edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+published-at = "0x235716a859b02f2bb7064f29944f5aca3cbd65ed836ce93a5e4277899121c038"
+# license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
+# authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+kyrincode_faucet_coin = { local = "../2_move_coin/kyrincode_faucet_coin" }
+
+# For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
+# Revision can be a branch, a tag, and a commit hash.
+# MyRemotePackage = { git = "https://some.remote/host.git", subdir = "remote/path", rev = "main" }
+
+# For local dependencies use `local = path`. Path is relative to the package root
+# Local = { local = "../path/to" }
+
+# To resolve a version conflict and force a specific version for dependency
+# override use `override = true`
+# Override = { local = "../conflicting/version", override = true }
+
+[addresses]
+move_game = "0x235716a859b02f2bb7064f29944f5aca3cbd65ed836ce93a5e4277899121c038" # "0x7682d5e7c08c7ab1109679a20f117e501704081b9b0a8d835647e2310d7c24e7"
+kyrincode_faucet_coin = "0xde2d0d163530740d7587d71d4e9503338c2a7596c221688311a912d33f40bc97" # "0x082611c2c7c648ff229a5e76f1a7370ea6b6cb4039eb22686576eb45626fe54d"
+
+# Named addresses will be accessible in Move as `@name`. They're also exported:
+# for example, `std = "0x1"` is exported by the Standard Library.
+# alice = "0xA11CE"
+
+[dev-dependencies]
+# The dev-dependencies section allows overriding dependencies for `--test` and
+# `--dev` modes. You can introduce test-only dependencies here.
+# Local = { local = "../path/to/dev-build" }
+
+[dev-addresses]
+# The dev-addresses section allows overwriting named addresses for the `--test`
+# and `--dev` modes.
+# alice = "0xB0B"
+
