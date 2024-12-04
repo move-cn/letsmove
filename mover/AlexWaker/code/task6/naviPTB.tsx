@@ -5,7 +5,6 @@ import { Pool, PoolConfig } from "navi-sdk/dist/types"; // 导入 Navi SDK 中�
 import { pool, Sui, wUSDC } from "navi-sdk/dist/address"; // 导入 Navi SDK 中的池地址和代币信息
 import { borrowCoin, depositCoin } from "navi-sdk/dist/libs/PTB"; // 导入 Navi SDK 中的借币和存币函数
 import { useState } from "react";
-// import React from "react";
 
 // 计算借款金额
 const calculateBorrowAmount = (month: number, day: number, hour: number): number => {
