@@ -23,7 +23,7 @@ module js_luck_number_game::js_luck_number_game {
         vault: Balance<JS_FAUCET_COIN>,
         // 每轮游戏的获胜者将获得本轮游戏充值的所有奖金
         // 如果超过10分钟中奖者没有领取奖励，则任何人均可以领取
-        winner_lucky_number: Option<u64>,
+        winner_lucky_number: u64,
         // 记录玩家购买ticket编号与地址的映射
         owner_2_number: VecMap<address, u64>,
         // 参与人数
@@ -35,7 +35,7 @@ module js_luck_number_game::js_luck_number_game {
             id: object::new(ctx),
             last_timestamp: 0,
             vault: balance::zero(),
-            winner_lucky_number: option::none(),
+            winner_lucky_number: 0,
             owner_2_number: vec_map::empty(),
             participants: 0,
         };
@@ -68,12 +68,12 @@ module js_luck_number_game::js_luck_number_game {
         assert!(current_timestamp - game.last_timestamp > END_TIME, EGameNotEnd);
 
         // 已产生幸运数字
-        assert!(!game.winner_lucky_number.is_none(), EAlreadyHasLuckNumber);
+        assert!(game.winner_lucky_number == 0, EAlreadyHasLuckNumber);
 
         // 随机产生幸运数字
         let mut generator = random::new_generator(rand, ctx);
 
-        game.winner_lucky_number = option::some(random::generate_u64_in_range(&mut generator, 1, game.participants));
+        game.winner_lucky_number = random::generate_u64_in_range(&mut generator, 1, game.participants);
 
         // 产生幸运数字后，重新计时，10分钟后可以任何人都领取奖励
         game.last_timestamp = clock::timestamp_ms(clock);
@@ -86,7 +86,7 @@ module js_luck_number_game::js_luck_number_game {
 
         // 若未超时，只能中奖者领取
         if (current_timestamp - game.last_timestamp < EXPIRE_TIME) {
-            assert!(game.winner_lucky_number.borrow() == game.owner_2_number.get(&ctx.sender()), ENotWinner);
+            assert!(game.winner_lucky_number == game.owner_2_number.get(&ctx.sender()), ENotWinner);
         };
 
         // 若已超时，任何人都能领取
@@ -101,7 +101,7 @@ module js_luck_number_game::js_luck_number_game {
 
     fun reset_game(game: &mut LuckNumberGame) {
         game.last_timestamp = 0;
-        game.winner_lucky_number = option::none();
+        game.winner_lucky_number = 0;
         game.owner_2_number = vec_map::empty();
         game.participants = 0;
     }
