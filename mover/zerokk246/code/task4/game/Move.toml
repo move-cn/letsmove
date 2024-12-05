@@ -1,11 +1,12 @@
 [package]
-name = "faucet_coin"
+name = "game"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+faucet_coin = { local = "../../task2/faucet_coin" }
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
@@ -19,6 +20,7 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
+game = "0x0"
 faucet_coin = "0xa03f42f57279ce7534ba0e07c4311c073751b6f40d25c2596c3a7ce41ddbc9da"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
