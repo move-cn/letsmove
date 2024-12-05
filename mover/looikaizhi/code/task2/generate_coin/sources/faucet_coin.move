@@ -1,4 +1,5 @@
 module generate_coin::faucet_coin{
+
     use sui::coin::{Self, TreasuryCap};
     use sui::tx_context::TxContext;
 
@@ -35,5 +36,6 @@ module generate_coin::faucet_coin{
         let treasury_cap = &mut treasury.treasury_cap;
         let coin = coin::mint(treasury_cap, 10, ctx); // mint代币
         transfer::public_transfer(coin, sender); // 转移至指定地址
+
     }
 }

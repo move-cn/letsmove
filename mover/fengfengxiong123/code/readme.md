@@ -1,3 +1,41 @@
+# sui中一些操作和方法
+use sui::balance::Balance
+
+// Balance 结构体可以存储代币，避免管理过多对象
+struct Game {
+    id:UID,
+    amt : Balance<SUI>
+}
+// 设置余额为零
+balance::zero<SUI>()
+
+// 将对象共享出去
+share_object(game);
+
+// 定义外部调用方法,使用Random的函数不能用public修饰
+entry fun play(game:&mut Game,rand:&Random,in:bool,amt:Coin<SUI>,ctx){}
+
+// 将Coin转为Balance
+let in_amt_balance:Balance<> = coin::into_balance(amt);
+
+// 使用balance相加
+balance::join(game.amt,in_amt_balance);
+
+// 从coin对象中取值
+let val = amt.value() 
+
+// 将game中余额拿出来一部分
+let out_balance = game.amt.split(val)
+
+// balance没有key能力，不能直接放入账户中
+let out_coin = coin::from_balance(out_balance,ctx)
+
+// 函数中使用&Random，外面直接传0x8
+// 创建随机数生成器
+// 生成随机数
+let  mut gen = random::new_generator(rand,ctx);
+let value = random::generate_bool(&mut gen);
+
 # 命令
 ```shell
 
@@ -13,11 +51,21 @@ https://github.com/move-cn/letsmove
 # 配置代理拉取代码
 git clone -c http.proxy="127.0.0.1:2334" https://github.com/fengfengxiong123/letsmove.git
 
+# 配置git代理
+git config --global https.proxy https://127.0.0.1:2334
+git config --global http.proxy http://127.0.0.1:2334
+
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
 # 查看版本
 sui -V
 
 # 零测试网sui币
 sui client faucet
+
+# 添加环境
+sui client new-env --alias devnet --rpc https://fullnode.devnet.sui.io:443
 
 # 正在使用的地址
 sui client active-address
@@ -181,6 +229,9 @@ faucet coin TreasuryCap obj id ： 0x56d0bb3c37de365e23a2c56180601da49d8b23794b4
     0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2 \
    --gas-budget 100000000
 ```
-
+--args 第一个是 FAUCETCOIN 所在对象的id
 ## 使用sui cli转账
 sui client transfer-sui --to 0x2e312e10390700d045ae462dcac090354bda4a81dc151c0d538a250beb0492f5 --amount 13266772 --sui-coin-object-id 0x1feb5ad79c303c52cca592272203b259119fc3fb02e037209ceaf9570474ce08  --gas-budget 100000000
+
+## task3 
+摘要： Hjn95SsHsm59si6zVhcLamy7wL7KS8Vx6YYbbXuQecXZ
