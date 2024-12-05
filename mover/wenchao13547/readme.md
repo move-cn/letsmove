@@ -35,10 +35,11 @@
 - [√] scan上的NFT截图:![Scan截图](./images/你的图片地址)
 - ![img_3.png](img_3.png)
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [√] game package id :0x1a3ba37d2daf49c7b05caf6a2ca77329951d19026df2d26bf9c5b9301d92ae60
+- [√] deposit Coin hash:6af18uEXzmgzYQjdZLb64j9maWWM4K3kzGsFpdWdnnjv
+- [√] withdraw `Coin` hash:8wYZz3ENU6VTcaVuY2RKoKFrxNJfknXG5C1QD9nRAVbM
+- [√] play game hash:GKeA9wF4wzKQfysyMFJG1kV1gp4edeZABeUckvNkoWq6
+
 
 ##   05 Move Swap
 - [] swap package id :
