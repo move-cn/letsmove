@@ -6,10 +6,12 @@ use sui::balance;
 use sui::random;
 use sui::coin::{Coin, from_balance, into_balance};
 use faucet_coin::faucetcoin::FAUCETCOIN;
+use std::string::String;
 
 public struct Game has key {
     id: UID,
     balance: Balance<FAUCETCOIN>,
+    name: String,
     reward_rate: u64,
 }
 
@@ -21,6 +23,7 @@ fun init(ctx: &mut TxContext) {
     let game = Game {
         id: object::new(ctx),
         balance: balance::zero(),
+        name: b"zerokk246's Game".to_string(),
         reward_rate: 1,
     };
 
