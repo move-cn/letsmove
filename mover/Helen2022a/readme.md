@@ -40,10 +40,27 @@
 - [✓] scan上的NFT截图:![Scan截图](./images/my_nft.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [✓] game package id : 0xae7be301ca3d9d1f8dd9ec99a4f3a34071a93aa8c9333ecab796e7edbba8ce60
+game deploy hash: 7aRXUitQYz2atHPMFwZLm69gw966apyseq53xDDeSkrK
+game object id: 0xc2d342cd75e354f6e87addc0380b4b2ba623139be01827fe778e7286edf1db6f
+充值：
+sui client call --package 0x5d2aad9075f6d13961d0d08545eaf9e3194b466f9775bc45492e87395ba3059b --module faucet_coin --function mint_and_send --args 0xe6c8a1222e5143b21a4e762d5441d575a27471efde1c320628c139991748c6d4 20000000000 0x221ce69b6e0be6bb3d38f5fb4ce8eb5ee78a3ff8ae58b2be0f2263812c244ad8
+
+- [✓] deposit Coin hash: 9vGq6Vk8TZcSezUunfH54h5cWaS72wCqnF4fX4TWNh9t
+相关命令：
+sui client call --package 0xae7be301ca3d9d1f8dd9ec99a4f3a34071a93aa8c9333ecab796e7edbba8ce60 --module instant_win_game --function deposit --args 0xc2d342cd75e354f6e87addc0380b4b2ba623139be01827fe778e7286edf1db6f  0x1666440f5f9a16b08a4bddb213e56471c0e0b423567069656359f95e0f2408f1 --gas-budget 100000000
+
+- [✓] withdraw `Coin` hash: 44AjqDN2oXxzrkrWY65HxYM6eJymACpwaJcEiNPeasW7
+相关命令：
+sui client call --package 0xae7be301ca3d9d1f8dd9ec99a4f3a34071a93aa8c9333ecab796e7edbba8ce60 --module instant_win_game --function withdraw --args 0xc2d342cd75e354f6e87addc0380b4b2ba623139be01827fe778e7286edf1db6f 0x14d4fb75c96a7e9bccb98968c2b6fa00d93c5f065bbbc4e4916138ba69ac2ffb 200000000  --gas-budget 100000000
+
+- [✓] play game hash: 3vkmegZUbhL96R2wciVnpBbUg1LpGPX9sR2XZFZk77Tm
+相关命令：
+    sui client call --package 0xae7be301ca3d9d1f8dd9ec99a4f3a34071a93aa8c9333ecab796e7edbba8ce60 --module instant_win_game --function play --args 0xc2d342cd75e354f6e87addc0380b4b2ba623139be01827fe778e7286edf1db6f 0x4c4059076475251621dcf1ae74984dd9a63bc608fe12c73104c34fb270339edb 0x8  --gas-budget 10000000
+
+充值 1 faucet coin
+sui client call --package 0x5d2aad9075f6d13961d0d08545eaf9e3194b466f9775bc45492e87395ba3059b --module faucet_coin --function mint_and_send --args 0xe6c8a1222e5143b21a4e762d5441d575a27471efde1c320628c139991748c6d4 100000000 0x221ce69b6e0be6bb3d38f5fb4ce8eb5ee78a3ff8ae58b2be0f2263812c244ad8
+
 
 ##   05 Move Swap
 - [] swap package id :
