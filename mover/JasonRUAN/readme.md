@@ -90,8 +90,13 @@
 
 ## 07 Move CTF Check In
 
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : 
+
+![](assets/2024-12-05-23-08-57-image.png)
+
+- [x] flag hash : 2YBu7GHMq9T5NuVan9hHwJZ24TjSepGBHKngDo2XvyrU
+
+交互笔记：[note7.md](./code/task7/note7.md)
 
 ## 08 Move CTF Lets Move
 
