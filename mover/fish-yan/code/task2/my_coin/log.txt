@@ -1,0 +1,55 @@
+
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Object Changes                                                                                                                  │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Created Objects:                                                                                                                │
+│  ┌──                                                                                                                            │
+│  │ ObjectID: 0x34a33d5664689654b4d1b81143c23915d67dc8868beebf573de0366fdee26507                                                 │
+│  │ Sender: 0xc20186205fdb38b890dd6167a784341fd22dd0bf6cc3bfa11dfc75a5338bafcd                                                   │
+│  │ Owner: Account Address ( 0xc20186205fdb38b890dd6167a784341fd22dd0bf6cc3bfa11dfc75a5338bafcd )                                │
+│  │ ObjectType: 0x2::package::UpgradeCap                                                                                         │
+│  │ Version: 3150788                                                                                                             │
+│  │ Digest: H3svupLEz4GmgFZwEBC6iT2wNwm2PJSfrBrTXaMPVptw                                                                         │
+│  └──                                                                                                                            │
+│  ┌──                                                                                                                            │
+│  │ ObjectID: 0x9d63302aa6ab22fdf123dbaf240117a23471a877e95ed3662a3cd291078635c5                                                 │
+│  │ Sender: 0xc20186205fdb38b890dd6167a784341fd22dd0bf6cc3bfa11dfc75a5338bafcd                                                   │
+│  │ Owner: Account Address ( 0xc20186205fdb38b890dd6167a784341fd22dd0bf6cc3bfa11dfc75a5338bafcd )                                │
+│  │ ObjectType: 0x2::coin::TreasuryCap<0x6fa57ad50885f857f7f6e8380a435f40b0aaace628200a03e54714aa243eec76::fishcoin::FISHCOIN>   │
+│  │ Version: 3150788                                                                                                             │
+│  │ Digest: jVKUskaUrAfnF8LmrHhhuaFmaqF7j5gpDpAyWnkReto                                                                          │
+│  └──                                                                                                                            │
+│  ┌──                                                                                                                            │
+│  │ ObjectID: 0xc8a5fb80858fbba19f4a39e0fc6df5a87c79584d87c1a0c1f0cbdca7596b70e3                                                 │
+│  │ Sender: 0xc20186205fdb38b890dd6167a784341fd22dd0bf6cc3bfa11dfc75a5338bafcd                                                   │
+│  │ Owner: Immutable                                                                                                             │
+│  │ ObjectType: 0x2::coin::CoinMetadata<0x6fa57ad50885f857f7f6e8380a435f40b0aaace628200a03e54714aa243eec76::fishcoin::FISHCOIN>  │
+│  │ Version: 3150788                                                                                                             │
+│  │ Digest: 3BegQfkNZGm1BmoT2VpboPpNJ8VKBR1mVEpEosHkvPvB                                                                         │
+│  └──                                                                                                                            │
+│ Mutated Objects:                                                                                                                │
+│  ┌──                                                                                                                            │
+│  │ ObjectID: 0x84882b33a9158b097d4cd7d8df832a09d680124ed7a27dcbe20abbc52c2c033c                                                 │
+│  │ Sender: 0xc20186205fdb38b890dd6167a784341fd22dd0bf6cc3bfa11dfc75a5338bafcd                                                   │
+│  │ Owner: Account Address ( 0xc20186205fdb38b890dd6167a784341fd22dd0bf6cc3bfa11dfc75a5338bafcd )                                │
+│  │ ObjectType: 0x2::coin::Coin<0x2::sui::SUI>                                                                                   │
+│  │ Version: 3150788                                                                                                             │
+│  │ Digest: GaPiG5Qgra9EAtRvCZA5HjYEDSqczhkaC91epFy8uRoL                                                                         │
+│  └──                                                                                                                            │
+│ Published Objects:                                                                                                              │
+│  ┌──                                                                                                                            │
+│  │ PackageID: 0x6fa57ad50885f857f7f6e8380a435f40b0aaace628200a03e54714aa243eec76                                                │
+│  │ Version: 1                                                                                                                   │
+│  │ Digest: J7yKVjTehCkP3WE7LHK2U8xULZq64yQRN7jQi2wiDaCN                                                                         │
+│  │ Modules: fishcoin                                                                                                            │
+│  └──                                                                                                                            │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Balance Changes                                                                                   │
+├───────────────────────────────────────────────────────────────────────────────────────────────────┤
+│  ┌──                                                                                              │
+│  │ Owner: Account Address ( 0xc20186205fdb38b890dd6167a784341fd22dd0bf6cc3bfa11dfc75a5338bafcd )  │
+│  │ CoinType: 0x2::sui::SUI                                                                        │
+│  │ Amount: -12600680                                                                              │
+│  └──                                                                                              │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────╯
