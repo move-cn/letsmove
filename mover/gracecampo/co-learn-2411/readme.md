@@ -37,6 +37,8 @@
 - [√] 第十一篇笔记[move入门之泛型](https://learnblockchain.cn/article/10036)
 - [√] 第十二篇笔记[move入门之集合(一)](https://learnblockchain.cn/article/10090)
 - [√] 第十三篇笔记[move入门之集合(二)](https://learnblockchain.cn/article/10091)
+- [√] 第十四篇笔记[如何使用dapp-kit构建应用](https://learnblockchain.cn/article/10163)
+
 ## 对外输出学习笔记
 
 - [√] 第一篇笔记[Git入门到精通](https://blog.csdn.net/jinpeng741143592/article/details/143261589?spm=1001.2014.3001.5502)
@@ -55,9 +57,11 @@
 - [√] 第十四篇笔记[move入门之泛型](https://learnblockchain.cn/article/10036)
 - [√] 第十五篇笔记[move入门之集合(一)](https://learnblockchain.cn/article/10090)
 - [√] 第十六篇笔记[move入门之集合(二)](https://learnblockchain.cn/article/10091)
+- [√] 第十七篇笔记[如何使用dapp-kit构建应用](https://learnblockchain.cn/article/10163)
+
 ## 在HOH社区公众号发布自己的技术文章
 
-- [] 第一篇笔记【公众号文章链接】
+- [] 第一篇笔记【https://mp.weixin.qq.com/s/sBanVURGcIEXKSO5ddx2fg】
 - [] 第二篇笔记【公众号文章链接】
 - [] 第三篇笔记【公众号文章链接】
 - [] 第四篇笔记【公众号文章链接】
