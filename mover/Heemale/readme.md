@@ -46,4 +46,4 @@
 - [x] call hash: BbJbuXZViPNqvnVmvz7UvfKtmx1qHddU24UfdxY7m2Ld
 
 ##   08 Move CTF Lets Move
-- [] call hash: 
+- [x] call hash: e6Yoxz8o8FgLYtLJJ1XV86T4R1uU9eYPFAHi7gTNJmU
