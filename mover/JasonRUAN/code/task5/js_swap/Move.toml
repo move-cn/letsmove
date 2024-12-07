@@ -22,6 +22,8 @@ js_faucet_coin = { local = "../../task2/js_faucet_coin" }
 
 [addresses]
 js_swap = "0x0"
+js_coin = "0x943fab9df355573935cf3e619583ec835c16350858fd746abed83de37dc1bde8"
+js_faucet_coin = "0xb8db87209eafdc3799c38dd92b616f2be1ca4fd4809c0909f897d6dfcc44f0df"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.

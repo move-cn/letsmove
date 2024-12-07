@@ -1,7 +1,7 @@
 module js_swap::js_pool {
     use sui::coin::Coin;
     use js_coin::js_coin::JS_COIN;
-    use js_coin::js_faucet_coin::JS_FAUCET_COIN;
+    use js_faucet_coin::js_faucet_coin::JS_FAUCET_COIN;
 
     public struct JS has drop {}
 
