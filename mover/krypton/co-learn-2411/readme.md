@@ -13,14 +13,14 @@
 - [X] 第一周:![学习记录截图](./images/01learn.png)
 - [x] 第二周:![学习记录截图](./images/02learn.png)
 - [x] 第三周:![学习记录截图](./images/03learn.png) 
-- [] 第四周:![学习记录截图](./images/你的图片地址)
+- [x] 第四周:![学习记录截图](./images/04learn.png)
 
 ## 参加直播答疑
 
 - [X] 第一周:![学习记录截图](./images/01zhibo.png)
 - [x] 第二周:![学习记录截图](./images/02zhibo.png)
-- [x] 第三周:![学习记录截图](./images/03learn.png)
-- [] 第四周:![学习记录截图](./images/你的图片地址)
+- [x] 第三周:![学习记录截图](./images/03zhibo.png)
+- [x] 第四周:![学习记录截图](./images/04zhibo.png)
 
 ## 群里分享学习笔记
 

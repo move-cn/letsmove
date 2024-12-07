@@ -19,9 +19,9 @@
 - [✔] package id 在 scan上的查看截图:![Scan截图](./co-learn-2411//images/packageid.png)
 
 ##   02 move coin
-- [✔] My Coin package id : 0xea234fbb881adab94da3af129d8f7682da4f6ae5bf2cf5e013984bbeeebfcd2d
-- [✔] Faucet package id : 0xea234fbb881adab94da3af129d8f7682da4f6ae5bf2cf5e013984bbeeebfcd2d
-- [✔] 转账 `My Coin` hash: 3EGvPzgTstugTkrD9wbm9FcW6pcYnegChhSG5uvW3i8Z
+- [✔] My Coin package id : 0xdbdacdcea63c748df6e247db1fcdc759af2255e2463e6c60815b161d23d866e9
+- [✔] Faucet package id : 0xdbdacdcea63c748df6e247db1fcdc759af2255e2463e6c60815b161d23d866e9
+- [✔] 转账 `My Coin` hash: 7fZD9u3zVAvXLeXqXugKwRPGYYAqiaPALqMmQRiQffL7
 - [✔] `Faucet Coin` address1 mint hash: GvsScjav22iC98CkWzg2mCWm1kSR7saLTXVfxCybnoN8
 - [✔] `Faucet Coin` address2 mint hash: iJQPVQXM8N4ymZ3khEqVYApX6fBLACGMNENsmXEaYsE
 
@@ -32,18 +32,18 @@
 - [✔] scan上的NFT截图:![Scan截图](./co-learn-2411//images/jethrozz_nft.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [✔] game package id : 0x68138d5d4accc1de3b9140775fe19ea95e06a6832525168e90194f6583958cf1
+- [✔] deposit Coin hash: 3C5XoBLRq9zrnFrq6YaMhR1RteLN1GKFFCgVJ3vobKMH
+- [✔] withdraw `Coin` hash: FYQTZSdhEwduTZupPuMA1zUGBAaa61DGr6yJSvMagZY8
+- [✔] play game hash: 4k2VesRJCUkicaFg9b2dkMihF6TzQbVrYnfFuay1mUZE
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [✔] swap package id : 0x05bc4dcb87aa2a6279ee03177b43506920f453e6ec279b7d630937229ecfd0f9
+- [✔] call swap CoinA-> CoinB  hash : 7kKTL8MFkaUM4xFZe5hbdFvzM4veWa7QSDP7a5AYa8i9
+- [✔] call swap CoinB-> CoinA  hash : g95FnkyEtpeJQ8u7xJvBBZT7KPofRZkhGGszTevsWkV
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [✔] save hash : GKk1dJeaDuJoQ2v3NyuXc4KWjdLbcUcJJGryQhJAUbk3
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
