@@ -7,8 +7,8 @@
   --package 0x2 \
   --module coin \
   --function mint_and_transfer \
-  --type-args '0x4c5e927d8dd0fe7bc37cfbca401376d6ccc300f6b79cf40f19a1cf329c521dd2::whn_coin::WHN_COIN' \
-  --args 0x19e69a05953b0e065ebcd6a9705db902c21ac97f2bc14eb364ea79a889978d0c 10000 0x60364db3c6fa7128433ad62ce4e32649443a999ab6b54bdcbaf14194ec1a6203
+  --type-args '0x5bedaf1084a9f6a7c98a205ca56550c75bb13376cc34c07fc3c5bddc6b17d813::whn_coin::WHN_COIN' \
+  --args 0xbbe765228d36c58cbdfa1cd3ab90ac11ba280866fd5dbe3e1cad15f5571f5316 10000 0x09be6b8995b7f56d8491a67f54519c56059d3fc24124470366b7ee5b51c27a91
 
 
 ## mainnet

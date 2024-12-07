@@ -2,6 +2,7 @@
 # --type-args 是我们自己合约的package id
 # --args 第一个参数是treasurycpa的object id
 
+# testnet package id: 0x4c5e927d8dd0fe7bc37cfbca401376d6ccc300f6b79cf40f19a1cf329c521dd2
 ## mainnet facuet address 1
 sui client call \
   --package 0x2 \
