@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0xec33deee8fb65b461918daf2e5cea19fddbabb650dd9b9ada7f816db8dc43604`
+- Sui钱包地址: `0xf23636a72bf155e155d27d25f1dbefbb68e441a22c480222f015f7bd2d3bb770`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `yanugto`
 
