@@ -34,7 +34,7 @@
 
 ![](assets/2024-12-05-01-01-29-image.png)
 
-交互笔记：[note1.md](./code/task1/note1.md)
+学习笔记：[note1.md](./code/task1/note1.md)
 
 ## 02 move coin
 
@@ -48,7 +48,7 @@
 
 - [x] `Faucet Coin` address2 mint hash: 8uS4nZ5Q51h1nhXiznsKcRfCKrbHk1U5A482m4x8M8zf
 
-交互笔记：[note2.md](./code/task2/note2.md)
+学习笔记：[note2.md](./code/task2/note2.md)
 
 ## 03 move NFT
 
@@ -62,7 +62,7 @@
 
 ![](assets/2024-12-05-01-04-10-image.png)
 
-交互笔记：[note3.md](./code/task3/note3.md)
+学习笔记：[note3.md](./code/task3/note3.md)
 
 ## 04 Move Game
 
@@ -74,19 +74,23 @@
 
 - [x] play game hash: EU2zMtVjh29USEcBA2JJA4B6eh4MWpu88JnHVy7BW5uW
 
-交互笔记：[note4.md](./code/task4/note4.md)
+学习笔记：[note4.md](./code/task4/note4.md)
 
 ## 05 Move Swap
 
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0xc3074c311b5fbc5563f9f3a9ca71e23a20c2b7a6855ad56e3e7fb34b82648386
+
+- [x] call swap CoinA-> CoinB  hash : GfUNvA3rUPYfYKLRCSUUnz5quuBLe6c2amLeQdHbUTTG
+
+- [x] call swap CoinB-> CoinA  hash : 5gXN71a2GRP1oRH6hvRUJcsWr63HUojenzcSv5WP7gA8
+
+学习笔记：[note5.md](./code/task5/note5.md)
 
 ## 06 Dapp-kit SDK PTB
 
 - [x] save hash: https://suivision.xyz/txblock/786hLMhfW9uvYLCSyyNNk4QBacHmWgsQ2poYtefCpLgx
 
-交互笔记：[note6.md](./code/task6/note6.md)
+学习笔记：[note6.md](./code/task6/note6.md)
 
 ## 07 Move CTF Check In
 
@@ -96,9 +100,12 @@
 
 - [x] flag hash : 2YBu7GHMq9T5NuVan9hHwJZ24TjSepGBHKngDo2XvyrU
 
-交互笔记：[note7.md](./code/task7/note7.md)
+学习笔记：[note7.md](./code/task7/note7.md)
 
 ## 08 Move CTF Lets Move
 
-- [] proof : 
-- [] flag hash :
+- [x] proof : [112,109,89,0,0,0,0,0]
+
+- [x] flag hash : CQxDC7Sdar47SqphyKwTGzYZdZiJ4VUG1B8KGAmum65v
+
+学习笔记：[note8.md](./code/task8/note8.md)
