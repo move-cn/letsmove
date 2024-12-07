@@ -18,6 +18,8 @@
 - [x] My Coin package id: 0x708db97a44f5dc7d11c73fe7a1d823d8a4744f5a2f883f2fbffa362c70678db2
 - [x] Faucet package id: 0x708db97a44f5dc7d11c73fe7a1d823d8a4744f5a2f883f2fbffa362c70678db2
 - [x] 转账 `My Coin` hash: 9pNyKfJAsF5raCRw4GeAZrgFu27FtS3jgFv12CMseUgx
+- [x] My Coin type: 0x708db97a44f5dc7d11c73fe7a1d823d8a4744f5a2f883f2fbffa362c70678db2::my_coin::MY_COIN
+- [x] Faucet Coin type: 0x708db97a44f5dc7d11c73fe7a1d823d8a4744f5a2f883f2fbffa362c70678db2::faucet_coin::FAUCET_COIN
 
 ##   03 move NFT
 - [x] nft package id: 0x900bc94e7f303da2c4c6e5671c35c43c2507ee38a6c84a879ac1389e1e5fa6d2
@@ -31,8 +33,17 @@
 - [x] call game hash: 4kUHg4EfkHA6281R7eswGrqtERDJzL5wG1dBqcpLqY2J
 
 ##   05 Move Swap
-- [] swap package id:
-- [] call swap hash:
+- [x] swap package id: 0xf5431d876ab48e9a3ee991a0cac1b63460c52976d8ee674f463610ef8d7b9e71
+- [x] treasury object: 0x04cf8ff49ac3b69aba1166a03e42f13a5d00629329bba220285f57c98e5494d1
+- [x] coin a type: 0x708db97a44f5dc7d11c73fe7a1d823d8a4744f5a2f883f2fbffa362c70678db2::faucet_coin::FAUCET_COIN
+- [x] coin b type: 0x708db97a44f5dc7d11c73fe7a1d823d8a4744f5a2f883f2fbffa362c70678db2::my_coin::MY_COIN
+- [x] call swap hash: 14A4pvpzQJxrPxxzAD3nDDZYc8MYpZnHkFKSkuKuh3Tp
 
 ##   06 SDK PTB
-- [] save hash:
+- [x] save hash: BsYyJhbBV5UfPcEL8oXRBH3rq5G5uNMZRsChivXoKkcF
+
+##   07 Move CTF Check in
+- [x] call hash: BbJbuXZViPNqvnVmvz7UvfKtmx1qHddU24UfdxY7m2Ld
+
+##   08 Move CTF Lets Move
+- [x] call hash: e6Yoxz8o8FgLYtLJJ1XV86T4R1uU9eYPFAHi7gTNJmU
