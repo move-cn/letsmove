@@ -32,7 +32,7 @@ module js_swap::js_swap {
     /// The pool with exchange.
     ///
     /// - `fee_percent` should be in the range: [0-10000), meaning
-    /// that 10000 is 100% and 1 is 0.1%
+    /// that 10000 is 100% and 10 is 0.1%
     public struct Pool<phantom P, phantom TokenA, phantom TokenB> has key {
         id: UID,
         coinA: Balance<TokenA>,
@@ -280,7 +280,6 @@ module js_swap::js_swap {
     // d) 最终结果 = numerator / denominator
     //    = 1,994,000,000 / 10,997,000
     //    ≈ 181.32...
-    //    ≈ 181 (向下取整)
     public fun get_input_price(
         input_amount: u64, input_reserve: u64, output_reserve: u64, fee_percent: u64
     ): u64 {
