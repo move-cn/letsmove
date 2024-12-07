@@ -18,7 +18,7 @@
 ### 安装：
 要开始使用 dApp Kit，您需要安装必要的包：
 
-- 可以使用两种方式安装： 
+- 可以使用两种方式安装：
 
 **使用npm安装**
 ```bash
@@ -32,19 +32,25 @@ yarn add @mysten/dapp-kit @mysten/sui @tanstack/react-query
 
 
 ### 如何初始化一个前端模板
-![img.png](img.png)
-![img_1.png](img_1.png)
+![img.png](https://img.learnblockchain.cn/attachments/2024/12/tMJaq8Q96752f1c0cbe65.png)
+![image.png](https://img.learnblockchain.cn/attachments/2024/12/CS7uSPp06752f1d484ac4.png)
 #### 安装依赖
 进入到初始化项目中：
 ```shell
 yarn install
 ```
 
+
+
 #### 启动项目
 启动项目命令
-![img_2.png](img_2.png)
+
+![img_2.png](https://img.learnblockchain.cn/attachments/2024/12/0gcuiR4A6752f1edda6a0.png)
+
+
 启动后页面
-![img_3.png](img_3.png
+
+![img_3.png](https://img.learnblockchain.cn/attachments/2024/12/MtC0sayg6752f1fd32cdf.png)
 
 #### 网络设置文件
 ```typescript
@@ -67,7 +73,7 @@ const { networkConfig, useNetworkVariable, useNetworkVariables } =
 export { useNetworkVariable, useNetworkVariables, networkConfig };
 
 ```
-  使用 `@mysten/dapp-kit` 和 `@mysten/sui/client` 来配置网络连接。
+使用 `@mysten/dapp-kit` 和 `@mysten/sui/client` 来配置网络连接。
 
 - **getFullnodeUrl**：从 `@mysten/sui/client` 导入的函数，用于获取指定网络（如 `devnet`、`testnet`、`mainnet`）的完整节点 URL。
 
@@ -111,8 +117,8 @@ React 组件 `WalletStatus`，用于显示钱包的连接状态以及当前连�
 - **useCurrentAccount**：从 `@mysten/dapp-kit` 导入的钩子，用于获取当前连接的钱包账户信息。
 
 - **条件渲染**：
-    - 如果 `account` 存在，显示“Wallet connected”和钱包地址。
-    - 如果 `account` 不存在，显示“Wallet not connected”。
+  - 如果 `account` 存在，显示“Wallet connected”和钱包地址。
+  - 如果 `account` 不存在，显示“Wallet not connected”。
 
 - **OwnedObjects**：调用 `OwnedObjects` 组件以显示当前连接钱包所拥有的对象。
 
@@ -164,20 +170,20 @@ export function OwnedObjects() {
 }
 
 ```
- React 组件 `OwnedObjects`，用于显示当前连接钱包所拥有的对象。
+React 组件 `OwnedObjects`，用于显示当前连接钱包所拥有的对象。
 
 - **useCurrentAccount**：从 `@mysten/dapp-kit` 导入的钩子，用于获取当前连接的钱包账户信息。
 
 - **useSuiClientQuery**：用于查询 Sui 区块链上的数据。在这里，它被用来获取当前账户拥有的对象。查询只有在 `account` 存在时才会启用。
 
 - **条件渲染**：
-    - 如果没有连接账户，组件将不返回任何内容。
-    - 如果查询出错，显示错误信息。
-    - 如果查询正在进行或数据尚未加载，显示“Loading...”。
-    - 如果数据加载完成，显示拥有的对象列表。如果没有对象，显示一条消息。
+  - 如果没有连接账户，组件将不返回任何内容。
+  - 如果查询出错，显示错误信息。
+  - 如果查询正在进行或数据尚未加载，显示“Loading...”。
+  - 如果数据加载完成，显示拥有的对象列表。如果没有对象，显示一条消息。
 
 - **UI 布局**：使用 `Flex` 和 `Text` 组件来组织和显示数据。
-app组件：
+  app组件：
 ```typescript jsx
 import { ConnectButton } from "@mysten/dapp-kit";
 import { Box, Container, Flex, Heading } from "@radix-ui/themes";
@@ -284,7 +290,7 @@ WalletStatus：预计用于显示已连接钱包的状态或详细信息的组�
 此章是作为使用dapp-kit的构建应用的入门教程，介绍了根据模板创建一个项目，启动并运行项目。
 也通过定义几个组件简单的实践，并介绍下如何使用dapp-kit框架中的几个组件。
 
- [dApp Kit 文档](https://sdk.mystenlabs.com/dapp-kit)。
+[dApp Kit 文档](https://sdk.mystenlabs.com/dapp-kit)。
 
 💧  [HOH水分子公众号](https://mp.weixin.qq.com/s/d0brr-ao6cZ5t8Z5OO1Mog)
 
