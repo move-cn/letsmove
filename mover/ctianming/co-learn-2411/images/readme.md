@@ -42,3 +42,9 @@ b站关注
 
 ![](image.png)
 第七篇笔记分享
+
+![alt text](image.png)
+第三周学课程学习
+
+![alt text](Screenshot_2024-12-02-20-05-18-395_com.tencent.we.jpg)
+12.3会议
