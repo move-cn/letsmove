@@ -1,0 +1,70 @@
+#定义变量
+
+export ALICE=0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38
+
+export PKG_A=0x6ffb4e41fbadd03fe26155fec7d8cb292283feddd8cecc258d1027f3ce2348b2
+export CAP_A=0xacd64cf3d4ea9737aa1c395228ff5b2c76ce89b3fac6d22e90ec1e3650a516d8
+export COIN_A_ID=0x7bc92c7a987b9a65303235a33e06522b2aef718ea2542c9d44f38766bf78a20b
+
+export PKG_B=0xcd3b3210b14cdc2a8a21351f571a1eec1438cf210e84c1fc7dd3c1912effc02c
+export CAP_B=0x077d5c8339735ff136b37c11a608648f43cbda84ff23d05677738cc509c1a734
+export COIN_B_ID=0x9f98d36ae3d1f849d1f19b855e92609aac6e05827feb61201255facfb03052db
+
+## publish
+┌──                                                                                               │
+│  │ ObjectID: 0x9737504afefd67190307c8b701df0546ab72c083d3a93d32eefcf41e42fa01a3                    │
+│  │ Sender: 0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38                      │
+│  │ Owner: Account Address ( 0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38 )   │
+│  │ ObjectType: 0xb48d22f33239ec70bb3d55020ba7c3151bd391a1d1a2b729671f1abcfc97f843::swap::AdminCap  │
+│  │ Version: 366                                                                                    │
+│  │ Digest: z69Fo1WC1FzT18wxwwtevj67yd7UTvsu81BJ41B1BDP     
+
+export ALICE=0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38
+
+export PKG_A=0x6ffb4e41fbadd03fe26155fec7d8cb292283feddd8cecc258d1027f3ce2348b2
+export CAP_A=0xacd64cf3d4ea9737aa1c395228ff5b2c76ce89b3fac6d22e90ec1e3650a516d8
+export COIN_A_ID=0x7bc92c7a987b9a65303235a33e06522b2aef718ea2542c9d44f38766bf78a20b
+
+export PKG_B=0xcd3b3210b14cdc2a8a21351f571a1eec1438cf210e84c1fc7dd3c1912effc02c
+export CAP_B=0x077d5c8339735ff136b37c11a608648f43cbda84ff23d05677738cc509c1a734
+export COIN_B_ID=0x9f98d36ae3d1f849d1f19b855e92609aac6e05827feb61201255facfb03052db
+export PKG_SWAP=0xb48d22f33239ec70bb3d55020ba7c3151bd391a1d1a2b729671f1abcfc97f843
+
+# create pool
+sui client ptb --move-call $PKG_SWAP::swap::create_pool \
+"<$PKG_A::yuan_da_tou::YUAN_DA_TOU , $PKG_B::jp::JP>" \
+ "@$COIN_A_ID @$COIN_B_ID  800 "
+
+│  ┌──                                                                                                                                                                                                                                                                           │
+│  │ ObjectID: 0x979972fc7c3d6ce21245369ffde568e8024c50062abc6ee581c819d476fc2fc7                                                                                                                                                                                                │
+│  │ Sender: 0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38                                                                                                                                                                                                  │
+│  │ Owner: Shared( 367 )                                                                                                                                                                                                                                                        │
+│  │ ObjectType: 0xb48d22f33239ec70bb3d55020ba7c3151bd391a1d1a2b729671f1abcfc97f843::swap::LiquidPool<0x6ffb4e41fbadd03fe26155fec7d8cb292283feddd8cecc258d1027f3ce2348b2::yuan_da_tou::YUAN_DA_TOU, 0xcd3b3210b14cdc2a8a21351f571a1eec1438cf210e84c1fc7dd3c1912effc02c::jp::JP>  │
+│  │ Version: 367                                                                                                                                                                                                                                                                │
+│  │ Digest: 85BDkYhxqaRhe4nfHNXEEyMkjxidAJoJTei6PqNpKmuN                                                                                                                                                                                                                        │
+│  └──    
+
+## 转换 A => B
+export POOL_ID=0x979972fc7c3d6ce21245369ffde568e8024c50062abc6ee581c819d476fc2fc7
+export COIN_A_ID2=0x47dcf0ce0b1145a035ab016697b21ff179249a5250e157de3bd4c31ed36a3e40
+
+```bash
+
+sui client ptb --split-coins @$COIN_A_ID2 [500] \
+ --assign new_coin \
+ --move-call  $PKG_SWAP::swap::swap_a2b  "<$PKG_A::yuan_da_tou::YUAN_DA_TOU , $PKG_B::jp::JP>" "@$POOL_ID  new_coin" \
+ --assign jp_var \
+ --transfer-objects [jp_var]  @$ALICE
+
+``
+
+Transaction Digest: HWLu7S3qGXuBwMjRomQ1zQEFe9Jgn8Xg5YFz7RNQzLGy
+
+export COIN_B_ID2=0xdb3182ec1c40a02ef86f9d2c69dd1833155f5d2bc6f57689f2c87428b0769bab
+
+## 转换 B => A
+sui client ptb --split-coins @$COIN_B_ID2 [80] \
+ --assign new_coin \
+ --move-call  $PKG_SWAP::swap::swap_b2a  "<$PKG_A::yuan_da_tou::YUAN_DA_TOU , $PKG_B::jp::JP>" "@$POOL_ID  new_coin" \
+ --assign coin_out \
+ --transfer-objects [coin_out]  @$ALICE
