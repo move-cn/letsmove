@@ -12,14 +12,14 @@
 
 - [x] 第一周:![学习记录截图](./images/lesson_1.png)
 - [x] 第二周:![学习记录截图](./images/lesson_2.png)
-- [] 第三周:![学习记录截图](./images/你的图片地址)
+- [x] 第三周:![学习记录截图](./images/lesson_3.png)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 参加直播答疑
 
 - [x] 第一周:![学习记录截图](./images/meeting_1.jpg)
 - [x] 第二周:![学习记录截图](./images/meeting_2.png)
-- [] 第三周:![学习记录截图](./images/你的图片地址)
+- [x] 第三周:![学习记录截图](./images/meeting_3.jpg)
 - [] 第四周:![学习记录截图](./images/你的图片地址)
 
 ## 群里分享学习笔记
@@ -30,6 +30,7 @@
 - [x] 第四篇笔记: ![第四篇笔记分享](./images/note_share_4.png)
 - [x] 第五篇笔记: ![第五篇笔记分享](./images/note_share_5.png)
 - [x] 第六篇笔记: ![第六篇笔记分享](./images/note_share_6.png)
+- [x] 第七篇笔记: ![第七篇笔记分享](./images/note_share_7.png)
 
 ## 对外输出学习笔记
 
@@ -38,7 +39,8 @@
 - [x] 第三篇笔记【https://learnblockchain.cn/article/9912】
 - [x] 第四篇笔记【https://learnblockchain.cn/article/9938】
 - [x] 第五篇笔记【https://learnblockchain.cn/article/9969】
-- [x] 第五篇笔记【https://learnblockchain.cn/article/10021】
+- [x] 第六篇笔记【https://learnblockchain.cn/article/10021】
+- [x] 第七篇笔记【https://learnblockchain.cn/article/10171】
 
 ## 在HOH社区公众号发布自己的技术文章
 
