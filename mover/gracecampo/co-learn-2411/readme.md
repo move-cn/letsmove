@@ -40,6 +40,7 @@
 - [√] 第十四篇笔记[move入门之集合(三)](https://learnblockchain.cn/article/10167)
 - [√] 第十五篇笔记[如何使用dapp-kit构建应用](https://learnblockchain.cn/article/10163)
 - [√] 第十六篇笔记[SUI中的PTB编程入门](https://learnblockchain.cn/article/10166)
+- [√] 第十七篇笔记[move实战-如何实现一个分布式计数器](https://learnblockchain.cn/article/10184)
 ## 对外输出学习笔记
 
 - [√] 第一篇笔记[Git入门到精通](https://blog.csdn.net/jinpeng741143592/article/details/143261589?spm=1001.2014.3001.5502)
@@ -61,6 +62,7 @@
 - [√] 第十七篇笔记[move入门之集合(三)](https://learnblockchain.cn/article/10167)
 - [√] 第十八篇笔记[如何使用dapp-kit构建应用](https://learnblockchain.cn/article/10163)
 - [√] 第十九篇笔记[SUI中的PTB编程入门](https://learnblockchain.cn/article/10166)
+- [√] 第二十篇笔记[move实战-如何实现一个分布式计数器](https://learnblockchain.cn/article/10184)
 ## 在HOH社区公众号发布自己的技术文章
 
 - [] 第一篇笔记【https://mp.weixin.qq.com/s/sBanVURGcIEXKSO5ddx2fg】
