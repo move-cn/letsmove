@@ -29,7 +29,7 @@
 - [] nft package id : 0x88eeddd2a7f1cd119741d22c8491a016aa0b89f5abcf356707d37ca96518475b
 - [] nft object id : 0xe7ddada450f00a7ba5c4df241718a44696b4951ed6951a4050b996e79440f247
 - [] 转账 nft  hash: GzQ4Tc4jbgpJbLT4LQ2jYSwg3PxtGAxPWCwkreFPAAcp
-- [] scan上的NFT截图:![Scan截图](./images/sui_nft.png)
+- [] scan上的NFT截图:![Scan截图](./images/sui_nfts.png)
 
 ##   04 Move Game
 - [] game package id :
