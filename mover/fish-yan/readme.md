@@ -15,15 +15,15 @@
 ##   01 hello move  
 - [] Sui cli version: sui 1.38.3-homebrew
 - [] Sui钱包截图: ![Sui钱包截图](./images/sui_wallet.jpg)
-- [] package id: `0x501d77c755686021071f66f91b325aeb2cfd0a850b10d3042eb97ef2df298066`
+- [] package id: `0x3fb3fb0e02f78528803fdd392e77f0bc9312ef7c97203db29fe1f6d002b2d8ca`
 - [] package id 在 scan上的查看截图:![Scan截图](./images/sui_package_id.jpg)
 
 ##   02 move coin
-- [] My Coin package id : `0x6fa57ad50885f857f7f6e8380a435f40b0aaace628200a03e54714aa243eec76`
-- [] Faucet package id : `0xff85f8ddcf845480e267cbca8f3735a5738bdd6c9deccf48608960d6bd800a7d`
-- [] 转账 `My Coin` hash: `CkHs1QTHGtPPGJ4fBpfHuhXcPJzGc5KH8DYn5rJHPeaP`
-- [] `Faucet Coin` address1 mint hash: `EkkC8CgJ6HsS9bwfYztAKid7PgJtTYJGCMJBbRZR8auU`
-- [] `Faucet Coin` address2 mint hash: `AiTGjYTdBuefjrjqTi9PREnqHi3nRN7s9ceiaVSJa3mc`
+- [] My Coin package id : `0x8b356127915437d3a1f2b80e3209775e79aeb08d4a0c5bcfba36187913912726`
+- [] Faucet package id : `0x46a5b42763675e5032e2e89bcb8ed0944d1e7b2e39138e784813178ec1a18e51`
+- [] 转账 `My Coin` hash: `6eZihPMkGHR6i8gSJ9zPWzkt9VZdkBVxkFrG8yX7N7R6`
+- [] `Faucet Coin` address1 mint hash: `4YCwXNb2ShaqN56GzRzcprzjM2Pv3xuKbFp22EyTfSM7`
+- [] `Faucet Coin` address2 mint hash: `4tJT4mtby1YMvrACrbJ7NSjZKqqHKsUjUunLNnpocnWM`
 
 ##   03 move NFT
 - [] nft package id : `0x476675acd2bdf6688c357a317455de30cadf74fcbeb04d57428b60afab697ac3`
@@ -32,15 +32,15 @@
 - [] scan上的NFT截图:![Scan截图](./images/sui_nft.jpg)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [] game package id : `0xd184632ebf05fa28b23e46ae5d6306c70a7badbe4a01a45896608e197ac8fe52`
+- [] deposit Coin hash: `5figMDazXxpjEBAX7yit3M88JKBth7yqakv8Ak5wwrEz`
+- [] withdraw `Coin` hash: `GzGU66rRJMXhSw4oS5bfDLfixbtGhHYhpgWCqSMyZSVD`
+- [] play game hash: `DavFCciN4XLHrSW5SqWtgKMkccNFNjqwbL29qSWZqpyi`
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [] swap package id : `0x7426072f30841b586761b57a6578b2cd2019975f67176319545d55db0b09036e`
+- [] call swap CoinA-> CoinB  hash : `8dM6cxz8atADhFBxkm78bqUmay8SxxMXyPTNG5KBJiBd`
+- [] call swap CoinB-> CoinA  hash : `AWhuB4mH7ymkXRSRt7BDdKkcBSxZMKCU7xbGjxFktn2m`
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :

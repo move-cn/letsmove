@@ -1,4 +1,3 @@
-mint
 
 sui client call --gas-budget 100000000 \
 --package "0x476675acd2bdf6688c357a317455de30cadf74fcbeb04d57428b60afab697ac3" \
