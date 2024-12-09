@@ -9,11 +9,13 @@ module flip_coin::flip_coin {
     use sui::transfer::{share_object,public_transfer,transfer};
     use sui::random;
     use sui::random::Random;
+    use sui::tx_context::sender;
+    use my_coin::faucet_coin::{FAUCET_COIN};
 
     public struct Game has key {
         id:UID,
         // Balance struct is required to store funds in smart contracts
-        balance: Balance<SUI>,
+        balance: Balance<FAUCET_COIN>,
     }
 
     public struct AdminCap has key {
@@ -24,7 +26,7 @@ module flip_coin::flip_coin {
     fun init(ctx: &mut TxContext) {
         let game = Game{
             id: object::new(ctx),
-            balance: balance::zero<SUI>(),
+            balance: balance::zero<FAUCET_COIN>(),
         };
         let admin_cap = AdminCap{
             id: object::new(ctx),
@@ -33,7 +35,7 @@ module flip_coin::flip_coin {
         transfer(admin_cap,ctx.sender());
     }
 
-    entry fun play(game: &mut Game, rand: &Random, in: bool, in_coin: Coin<SUI>, ctx: &mut TxContext) {
+    entry fun play(game: &mut Game, rand: &Random, in: bool, in_coin: Coin<FAUCET_COIN>, ctx: &mut TxContext) {
         // Check if the game has enough balance to play
         assert!(game.balance.value() >= in_coin.value(), 0x0001);
 
@@ -55,13 +57,13 @@ module flip_coin::flip_coin {
         }
     }
 
-    public fun admin_withdraw(admin_cap: &mut AdminCap, amount: u64, game: &mut Game, ctx: &mut TxContext) {
+    public fun admin_withdraw(_: &mut AdminCap, amount: u64, game: &mut Game, ctx: &mut TxContext) {
         let withdraw_balance = balance::split(&mut game.balance, amount);
         let withdraw_coin = coin::from_balance(withdraw_balance, ctx);
-        public_transfer(withdraw_coin, ctx.sender());
+        public_transfer(withdraw_coin, sender(ctx));
     }
 
-    public fun admin_deposit(game: &mut Game, in_coin: Coin<SUI>, _: &mut TxContext) {
+    public fun admin_deposit(game: &mut Game, in_coin: Coin<FAUCET_COIN>, _: &mut TxContext) {
         game.balance.join(coin::into_balance(in_coin));
     }
 
