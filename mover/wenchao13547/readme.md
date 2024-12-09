@@ -46,7 +46,7 @@
 - [√] call swap CoinB-> CoinA  hash :2AEuu43uCHa7QX4vrYXscnuJNhUZtHJynJFUZ8bmwshF
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [√] save hash :81F4R3gDZgvTFUVYoWQDGZwqjGQZbXLreweYyUQ1AdRR
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
