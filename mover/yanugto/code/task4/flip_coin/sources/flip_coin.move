@@ -33,42 +33,36 @@ module flip_coin::flip_coin {
         transfer(admin_cap,ctx.sender());
     }
 
-    /*
-    entry fun play(game: &mut Game,in: bool, in_coin: Coin<SUI>, _: &mut TxContext) {
-        // win
-        //let in_balance = coin::into_balance(in_coin);
+    entry fun play(game: &mut Game, rand: &Random, in: bool, in_coin: Coin<SUI>, ctx: &mut TxContext) {
+        // Check if the game has enough balance to play
+        assert!(game.balance.value() >= in_coin.value(), 0x0001);
 
-        let out_balance = game.balance.split(in_coin.value());
-        let out_coin = coin::from_balance(out_balance,_);
-        public_transfer(out_coin,_.sender());
-        public_transfer(in_coin,_.sender());
+        // Random number generator
+        let mut gen = random::new_generator(rand, ctx);
+        let random_result = random::generate_bool(&mut gen);
 
-        // not win
-        //let in_balance = coin::into_balance(in_amount);
-        //game.balance.join(in_balance);
+        // If the random number is true, the player wins
+        if (random_result == in) {
+            // Transfer the winnings to the player
+            let winnings = game.balance.split(in_coin.value());
+            public_transfer(coin::from_balance(winnings, ctx), ctx.sender());
 
-    }
-    */
-    entry fun play(game: &mut Game,rand: &Random,in: bool, in_coin: Coin<SUI>, ctx: &mut TxContext) {
-        let in_balance = coin::into_balance(in_coin);
-        game.balance.join(in_balance);
-        let gen = random::new_generator(rand,ctx);
-        if random::gen_u64(&mut gen) % 2 == 0 {
-            public_transfer(in_coin,_.sender());
+            // Return the coin to the player
+            public_transfer(in_coin, ctx.sender());
         } else {
-            public_transfer(game.balance.split(in_coin.value()),_.sender());
+            // Deposit the coin into the game when the player loses
+            game.balance.join(coin::into_balance(in_coin));
         }
-
     }
 
-    public fun admin_withdraw(game: &mut Game, admin_cap: &mut AdminCap, _: &mut TxContext) {
-        transfer(game,_.sender());
-        transfer(admin_cap,_.sender());
+    public fun admin_withdraw(admin_cap: &mut AdminCap, amount: u64, game: &mut Game, ctx: &mut TxContext) {
+        let withdraw_balance = balance::split(&mut game.balance, amount);
+        let withdraw_coin = coin::from_balance(withdraw_balance, ctx);
+        public_transfer(withdraw_coin, ctx.sender());
     }
 
     public fun admin_deposit(game: &mut Game, in_coin: Coin<SUI>, _: &mut TxContext) {
         game.balance.join(coin::into_balance(in_coin));
-        public_transfer(in_coin,_.sender());
     }
 
 }
