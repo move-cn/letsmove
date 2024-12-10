@@ -19,31 +19,31 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/package_on_sui_vision.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id : 0x595755e12a700673fd174e05eac9a6e22cfb5d202de027d5830c256bd20d5b3a . my_coin
+- [x] Faucet package id : 0x595755e12a700673fd174e05eac9a6e22cfb5d202de027d5830c256bd20d5b3a . faucet_coin
+- [x] 转账 `My Coin` hash: H71uhgXFfiqvEu98FXCcJqnxYqXyrpjKuDA34Nsjjw9c , 5aa9znpV7uskaGRmGKjJkTptrC5RyNn9yu1upUyEQA3C
+- [x] `Faucet Coin` address1 mint hash:83vTqouEL7dHRnAttkWfJ46Uu3s52FnwHZo21h38d2E3
+- [x] `Faucet Coin` address2 mint hash:DZaoXqAphaeckBKFRTX4DTxVwoBDkEu8QBbvkeVqs8Ms
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id :0x70604f682f784cf89a23119f7ddb831ac9c31a87223a55ea0fbe2933fa8e0f6e
+- [x] nft object id : 0xbedae70445cdc744645054a2d342220b4647636a5a6cbc00ee57ed9279d17687
+- [x] 转账 nft  hash:8mxiSM4Qon69BZLo3TaKbCJRmXjKfXZF5mHU2G7YEZf8
+- [x] scan上的NFT截图:![Scan截图](./images/nft_suiscan.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id :0x76c5be08481759db8a418253eb5fba7c08b2615a94427dc801b375e667442c87
+- [x] deposit Coin hash:HLqCXABdnyyB2W7EYK8PoAKjj8MFT64vpXBTdfBvNeGg
+- [x] withdraw `Coin` hash:3rKw6dneqLvt2WqjTjvARmwZmFFFdrJPTivMLimWpntn
+- [x] play game hash:B8kV437qWqbxq2RDpRaTwfaJnGVWdQmpBiPKrSsK9k4q
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id :0x298b0a658fd4bffd431f73e54fb5737054d41ea6132e41ca084ffc8d472c13bf
+- [x] call swap CoinA-> CoinB  hash : F6jcm1HfvXNChV9skwRnnqhB33boHdArD9BA1fHSmv1m
+- [x] call swap CoinB-> CoinA  hash : GtPKN8yMwuJxtjyQ2Ag9c1a79K8ERPe4ka97FG7KDcRF
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash :9ZqZjC2LaW5ch4K1n48oKG3Udzpe1BWc7KoJxtUeopYj
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
