@@ -2,10 +2,11 @@
 
 [move]
 version = 3
-manifest_digest = "8CF6290DDB30293F6DE60807D49DBDF6A4FC5133F02747A12BAD1406E3A07F97"
-deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
+manifest_digest = "388E0BBB22BA73585ADDC9CB107020E95F3CB5F29DE51FEA0031270CFB08B8F5"
+deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
 dependencies = [
   { id = "Sui", name = "Sui" },
+  { id = "suiceber_faucet_coin", name = "suiceber_faucet_coin" },
 ]
 
 [[move.package]]
@@ -20,6 +21,14 @@ dependencies = [
   { id = "MoveStdlib", name = "MoveStdlib" },
 ]
 
+[[move.package]]
+id = "suiceber_faucet_coin"
+source = { local = "C:\\Users\\62605\\Desktop\\sui\\letsmove\\mover\\suiceber\\code\\task2\\suiceber_faucet_coin" }
+
+dependencies = [
+  { id = "Sui", name = "Sui" },
+]
+
 [move.toolchain-version]
 compiler-version = "1.37.1"
 edition = "2024.beta"
@@ -29,6 +38,6 @@ flavor = "sui"
 
 [env.mainnet]
 chain-id = "35834a8a"
-original-published-id = "0x9dba80f1aa2bb039b7da5aecdde81e4569757470c7080f0c04e32ef2a1023b56"
-latest-published-id = "0x9dba80f1aa2bb039b7da5aecdde81e4569757470c7080f0c04e32ef2a1023b56"
+original-published-id = "0xb9cc5056954ee7a6607a053115248ba5d339925715aad533a5b9a9468b687bc5"
+latest-published-id = "0xb9cc5056954ee7a6607a053115248ba5d339925715aad533a5b9a9468b687bc5"
 published-version = "1"
