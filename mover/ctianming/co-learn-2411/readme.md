@@ -31,6 +31,9 @@
 - [x] 第五篇笔记: ![第五篇笔记分享](./images/note_share_5.png)
 - [x] 第六篇笔记: ![第六篇笔记分享](./images/note_share_6.png)
 - [x] 第七篇笔记: ![第七篇笔记分享](./images/note_share_7.png)
+- [x] 第八篇笔记: ![第七篇笔记分享](./images/note_share_8_9_10.png)
+- [x] 第九篇笔记: ![第七篇笔记分享](./images/note_share_7_9_10.png)
+- [x] 第十篇笔记: ![第七篇笔记分享](./images/note_share_7_9_10.png)
 
 ## 对外输出学习笔记
 
@@ -41,6 +44,9 @@
 - [x] 第五篇笔记【https://learnblockchain.cn/article/9969】
 - [x] 第六篇笔记【https://learnblockchain.cn/article/10021】
 - [x] 第七篇笔记【https://learnblockchain.cn/article/10171】
+- [x] 第八篇笔记【https://learnblockchain.cn/article/10199】
+- [x] 第九篇笔记【https://learnblockchain.cn/article/10201】
+- [x] 第十篇笔记【https://learnblockchain.cn/article/10202】
 
 ## 在HOH社区公众号发布自己的技术文章
 
