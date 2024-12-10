@@ -45,6 +45,7 @@
 
 ##   06 Dapp-kit SDK PTB
 - [✅] save hash : `HaN5ivgXWD34FxxAjE4yPg58XaCDYwLaC28erCAJ1WSH`
+- [✅] scan上的转账截图: ![scan screenshot](./images/navi.png)
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
