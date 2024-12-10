@@ -9,10 +9,10 @@ Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move�
 - QQ群: 79489587
 
 ## bootcamp视频
-| 期数                 | 视频                                                |                         源码                         |
-|:-------------------|---------------------------------------------------|:--------------------------------------------------:|
-| 2024年11-12月 TinTin | [B站](https://www.bilibili.com/video/BV1BMD8Y2EfE) | [课程源码](https://github.com/hoh-zone/move-bootcamp)  |
-| 2024年4-6月 TinTin   | [B站](https://www.bilibili.com/video/BV1Rm42177Kx) | [课程源码](https://github.com/move-cn/tintin-bootcamp) |
+| 期数               | 视频                                                |                         源码                         |
+|:-----------------|---------------------------------------------------|:--------------------------------------------------:|
+| 2024年11-12月 HOH  | [B站](https://www.bilibili.com/video/BV1BMD8Y2EfE) | [课程源码](https://github.com/hoh-zone/move-bootcamp)  |
+| 2024年4-6月 TinTin | [B站](https://www.bilibili.com/video/BV1Rm42177Kx) | [课程源码](https://github.com/move-cn/tintin-bootcamp) |
 
 
 ### 书籍
