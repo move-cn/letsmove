@@ -6,5 +6,5 @@ edition = "2024.beta"
 Sui = { git = "https://gitee.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
 
 [addresses]
-faucetcoin = "0x4e4ca0ff3a45ec5a9f81abe87a2c87ca13c95b73a2007eeab1f1d92a5b704e5f"
+faucetcoin = "0x0"
 

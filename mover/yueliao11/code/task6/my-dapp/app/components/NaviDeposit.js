@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import {
   ConnectButton,
   useAccountBalance,
@@ -8,102 +9,152 @@ import {
   formatSUI,
 } from "@suiet/wallet-kit";
 import { TransactionBlock } from '@mysten/sui.js/transactions';
-import { useState } from 'react';
 import { depositCoin, borrowCoin } from 'navi-sdk/dist/libs/PTB';
-import { pool } from 'navi-sdk/dist/address';
-import { Sui, USDC } from 'navi-sdk/dist/address';
+import { Pool, PoolConfig } from "navi-sdk/dist/types";
+import { pool, Sui, wUSDC } from 'navi-sdk/dist/address';
 
 export default function NaviDeposit() {
   const wallet = useWallet();
   const { balance } = useAccountBalance();
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
   const [txHash, setTxHash] = useState('');
 
+  const calculateBorrowAmount = () => {
+    const date = new Date();
+    const month = (date.getMonth() + 1).toString().padStart(2, '0');
+    const day = date.getDate().toString().padStart(2, '0');
+    const hour = date.getHours().toString().padStart(2, '0');
+    
+    const amountString = `0.${month}${day}${hour}`;
+    const amount = parseFloat(amountString) * (10 ** wUSDC.decimal);
+    
+    console.log("Borrow amount calculation:", {
+      date: date.toLocaleString(),
+      month,
+      day,
+      hour,
+      amountString,
+      rawAmount: parseFloat(amountString),
+      finalAmount: amount,
+      decimal: wUSDC.decimal
+    });
+    
+    return { amountString, amount };
+  };
+
+  const checkConfigurations = () => {
+    console.log("Checking configurations...");
+    console.log("wUSDC:", wUSDC);
+    console.log("wUSDC Symbol:", wUSDC?.symbol);
+    console.log("Pool:", pool);
+    
+    if (!wUSDC?.symbol) {
+      throw new Error("wUSDC configuration is missing or invalid");
+    }
+
+    const wusdcPool = pool[wUSDC.symbol];
+    if (!wusdcPool) {
+      throw new Error("No pool configuration found for wUSDC");
+    }
+
+    return wusdcPool;
+  };
+
   const handleTransaction = async () => {
-    if (!wallet.account) return;
-    const account = wallet.account;
-    const sender = account.address;
-    setLoading(true);
-    setError('');
-    setTxHash('');
+    if (!wallet.account) {
+      alert("Please connect wallet first");
+      return;
+    }
 
     try {
-      let txb = new TransactionBlock();
-      txb.setSender(sender);
-      txb.setGasBudget(500000000);
+      const { amountString, amount: borrow_amount } = calculateBorrowAmount();
+      
+      // 显示确认框
+      const confirmMessage = `Please confirm the following transaction:\n\n` +
+        `1. Deposit 1 SUI to Navi Protocol\n` +
+        `2. Borrow ${amountString} wUSDC (based on current time)\n` +
+        `3. Deposit the borrowed wUSDC back\n\n` +
+        `Do you want to proceed?`;
 
-      let getCoinInfo = balance;
-      if (!getCoinInfo) {
-        throw new Error("余额不足");
+      if (!confirm(confirmMessage)) {
+        console.log("Transaction cancelled by user");
+        return;
       }
 
-      let deposit_amount = 1e9;
-      let sui_symbol = Sui.symbol;
-      const pool_sui = pool[sui_symbol];
+      setTxHash('');
+      
+      const txb = new TransactionBlock();
+      txb.setSender(wallet.account.address);
+
+      // 检查余额
+      if (!balance || balance < 1_000_000_000) {
+        throw new Error("Insufficient balance - need at least 1 SUI");
+      }
+
+      // 检查 SUI 配置
+      if (!Sui?.symbol) {
+        throw new Error("SUI configuration is undefined");
+      }
+      const pool_sui = pool[Sui.symbol];
+      if (!pool_sui) {
+        throw new Error("SUI pool configuration is undefined");
+      }
+
+      // 检查 wUSDC 配置
+      const pool_wusdc = checkConfigurations();
+
+      console.log("Transaction details:", {
+        depositAmount: "1 SUI",
+        borrowAmount: amountString,
+        walletAddress: wallet.account.address
+      });
+
+      // 1. 存入 1 SUI
+      const deposit_amount = 1_000_000_000; // 1 SUI
       const [to_deposit] = txb.splitCoins(txb.gas, [deposit_amount]);
       await depositCoin(txb, pool_sui, to_deposit, deposit_amount);
 
-      let borrow_amount = 0.091020 * 1e6;
-      let usdc_symbol = USDC.symbol;
-      const pool_usdc = pool[usdc_symbol];
-      const [borrow_coin] = await borrowCoin(txb, pool_usdc, borrow_amount);
+      // 2. 借入 wUSDC
+      const [borrow_coin] = await borrowCoin(txb, pool_wusdc, borrow_amount);
+      
+      // 3. 存入借到的 wUSDC
+      await depositCoin(txb, pool_wusdc, borrow_coin, borrow_amount);
 
-      await depositCoin(txb, pool_usdc, borrow_coin, borrow_amount);
-
+      // 执行交易
       const resData = await wallet.signAndExecuteTransactionBlock({
         transactionBlock: txb,
       });
-      console.log("交易成功:", JSON.stringify(resData));
+
+      console.log("Transaction result:", {
+        digest: resData.digest,
+        status: resData.effects?.status,
+        gasUsed: resData.effects?.gasUsed
+      });
+
       setTxHash(resData.digest);
-    } catch (e) {
-      console.error("操作失败:", e);
-      setError(e.message);
-    } finally {
-      setLoading(false);
+      alert("Transaction completed successfully!");
+
+    } catch (error) {
+      console.error("Transaction failed:", error);
+      setTxHash('');
+      alert("Transaction failed: " + error.message);
     }
   };
 
   return (
     <div className="flex flex-col items-center gap-4">
-      {!wallet.connected ? (
-        <p>请先连接钱包!</p>
-      ) : (
-        <div className="flex flex-col items-center gap-2">
-          <div className="text-sm">
-            <p>当前钱包: {wallet.adapter?.name}</p>
-            <p>
-              钱包状态:{" "}
-              {wallet.connecting
-                ? "连接中"
-                : wallet.connected
-                ? "已连接"
-                : "未连接"}
-            </p>
-            <p>当前网络: {wallet.chain?.name}</p>
-            <p>
-              钱包余额:{" "}
-              {formatSUI(balance ?? 0, {
-                withAbbr: false,
-              })}{" "}
-              SUI
-            </p>
-          </div>
-          
-          <button
-            onClick={handleTransaction}
-            disabled={!wallet.connected || loading}
-            className="rounded-full bg-foreground text-background px-4 py-2 disabled:opacity-50"
-          >
-            {loading ? '处理中...' : '执行 Navi 操作'}
-          </button>
-        </div>
+      {wallet.connected && (
+        <button
+          onClick={handleTransaction}
+          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+        >
+          Execute Transaction
+        </button>
       )}
-
-      {error && <p className="text-red-500 text-sm">{error}</p>}
+      
       {txHash && (
         <p className="text-sm">
-          交易哈希: <a 
+          Transaction Hash:{" "}
+          <a
             href={`https://suiexplorer.com/txblock/${txHash}`}
             target="_blank"
             rel="noopener noreferrer"
