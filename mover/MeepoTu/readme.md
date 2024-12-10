@@ -13,10 +13,10 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version: `sui 1.37.1-homebrew`
-- [] Sui钱包截图: ![Sui钱包截图](./images/wallet.jpg)
-- [] package id: 0x29507f3e1a9b893c3b021ef2b6594ff4d4ac70df5613fe0ebe47f27299dea4db
-- [] package id 在 scan上的查看截图:![Scan截图](./images/task1_package)
+- [✔] Sui cli version: `sui 1.37.1-homebrew`
+- [✔] Sui钱包截图: ![Sui钱包截图](./images/wallet.jpg)
+- [✔] package id: 0x29507f3e1a9b893c3b021ef2b6594ff4d4ac70df5613fe0ebe47f27299dea4db
+- [✔] package id 在 scan上的查看截图:![Scan截图](./images/task1_package)
 
 ##   02 move coin
 - [] My Coin package id : 
@@ -43,7 +43,7 @@
 - [] call swap CoinB-> CoinA  hash :
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash : 8xFdRn9yh5UYEEYsH5zkugAGueDrBmK9kTYzRX5Ar7vT
+- [✔] save hash : 8xFdRn9yh5UYEEYsH5zkugAGueDrBmK9kTYzRX5Ar7vT
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
