@@ -2,34 +2,34 @@
 
 [move]
 version = 3
-manifest_digest = "6DF6AD21254139229F69396B1C66F38B90657C1A1862749A5BDE30BF025F7751"
+manifest_digest = "35AD67132DA61E7D53B1BE5B604CA41A14531DB3B9710042032CBDD88A38A05E"
 deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
 dependencies = [
-  { id = "Sui", name = "Sui" },
-  { id = "my_coin", name = "my_coin" },
+  { name = "Sui" },
+  { name = "my_coin" },
 ]
 
 [[move.package]]
-id = "MoveStdlib"
+name = "MoveStdlib"
 source = { git = "https://github.com/MystenLabs/sui.git", rev = "framework/testnet", subdir = "crates\\sui-framework\\packages\\move-stdlib" }
 
 [[move.package]]
-id = "Sui"
+name = "Sui"
 source = { git = "https://github.com/MystenLabs/sui.git", rev = "framework/testnet", subdir = "crates/sui-framework/packages/sui-framework" }
 
 dependencies = [
-  { id = "MoveStdlib", name = "MoveStdlib" },
+  { name = "MoveStdlib" },
 ]
 
 [[move.package]]
-id = "my_coin"
+name = "my_coin"
 source = { local = "..\\..\\task2\\my_coin" }
 
 dependencies = [
-  { id = "Sui", name = "Sui" },
+  { name = "Sui" },
 ]
 
 [move.toolchain-version]
-compiler-version = "1.38.2"
+compiler-version = "1.34.1"
 edition = "2024.beta"
 flavor = "sui"
