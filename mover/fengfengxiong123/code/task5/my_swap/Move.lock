@@ -2,10 +2,11 @@
 
 [move]
 version = 3
-manifest_digest = "38FA6D76635532E25C82A10BAEB3E861865131F2810F7F4FB5975D754CCBAA48"
-deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
+manifest_digest = "6DF6AD21254139229F69396B1C66F38B90657C1A1862749A5BDE30BF025F7751"
+deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
 dependencies = [
   { id = "Sui", name = "Sui" },
+  { id = "my_coin", name = "my_coin" },
 ]
 
 [[move.package]]
@@ -18,6 +19,14 @@ source = { git = "https://github.com/MystenLabs/sui.git", rev = "framework/testn
 
 dependencies = [
   { id = "MoveStdlib", name = "MoveStdlib" },
+]
+
+[[move.package]]
+id = "my_coin"
+source = { local = "..\\..\\task2\\my_coin" }
+
+dependencies = [
+  { id = "Sui", name = "Sui" },
 ]
 
 [move.toolchain-version]
