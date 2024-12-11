@@ -16,7 +16,7 @@ export function WalletStatus() {
         </Flex>
       ) : (
         <Text>Wallet not connected</Text>
-      )}
+      )}  
       <OwnedObjects />
     </Container>
   );
