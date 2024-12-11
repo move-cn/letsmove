@@ -51,3 +51,15 @@ b站关注
 
 ![alt text](image.png)
 第八、九、十篇笔记分享
+
+![alt text](image.png)
+第十一、十二、十三篇笔记分享
+
+![alt text](image.png)
+第四周课程学习
+
+![alt text](image.png)
+12.9会议
+
+![alt text](image.png)
+推特关注截图
