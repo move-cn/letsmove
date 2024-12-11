@@ -1,5 +1,5 @@
 资料
-- https://github.com/hoh-zone/move-bootcamp/tree/main/01_hello
+- 视频代码 https://github.com/hoh-zone/move-bootcamp/tree/main/01_hello
 - ppt https://docs.google.com/presentation/d/1o5cg8B6kepxzfrAQTJmZCBJdyZ7RWwCwlVCO_PyBBVo/edit#slide=id.g312b69177c7_0_21
 - 要求 https://github.com/move-cn/letsmove/blob/main/task/02.move_coin.md
 - typescript-sdk https://sdk.mystenlabs.com/typescript
@@ -10,6 +10,7 @@
 - https://easy.sui-book.com/chapter_3.html
 - https://intro-zh.sui-book.com/unit-three/lessons/3_witness_design_pattern.html
 - https://github.com/RandyPen/sui-move-intro-course-zh
+- 创建nft https://examples.sui-book.com/samples/nft.html
 
 
 ```shell
@@ -33,6 +34,7 @@ sui client active-env
 sui client new-env --alias mainnet --rpc https://rpc.mainnet.sui.io:443
 ##切换网络环境
 sui client switch --env mainnet
+sui client switch --env testnet
 
 ##获取测试SUI
 sui client faucet 
@@ -72,5 +74,12 @@ sui client call --function mint --module alone  --package 0xf4027e1f9bb1364ba2b0
 sui client call --function mint --module alone  --package 0xf4027e1f9bb1364ba2b06ccc295905b7262b877cca86966946e36d6066581cce --args 0x4747e4f20a6ff3dcf9ac4c7d0cb4104b2bdfef8529366ca39ca3bfc9ed43331d 10000 0x3f82342aaa77f7147b26f3ee269a302ac4568aca98df643f535835823f2b0b84
 
 
+
+```
+
+### 对象操作
+```shell
+##nft转移
+sui client transfer --object-id 0x2c58a784423a64ae68e0814d166a543d7d37a032f5dae0a7452253cbc030c7dd --to 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
 
 ```
