@@ -1,9 +1,13 @@
 {
   "dependencies": {
     "@mysten/create-dapp": "^0.3.40",
-    "@mysten/dapp-kit": "^0.14.39",
-    "@mysten/sui": "^1.16.0",
-    "@tanstack/react-query": "^5.62.0",
+    "@mysten/dapp-kit": "^0.14.42",
+    "@mysten/sui": "^1.16.2",
+    "@radix-ui/themes": "^3.1.6",
+    "@tanstack/react-query": "^5.62.7",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react-swc": "^3.7.2",
     "dotenv": "^16.4.5",
     "navi-sdk": "^1.4.3"
   }

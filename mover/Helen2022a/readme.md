@@ -68,7 +68,7 @@ sui client call --package 0x5d2aad9075f6d13961d0d08545eaf9e3194b466f9775bc45492e
 - [✓] call swap CoinB-> CoinA  hash : 63E8Tr1ffEqDAq1PGdhTz7JGK2iCBJdoQaAHaFN5zxvc
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [✓] save hash : 51B2vNBdssRsuDVDTqGaX68Xu6C2rVX1rurZeBGu2vz5
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
