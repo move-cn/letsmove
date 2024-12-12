@@ -1,0 +1,14 @@
+d:/workdir/code/move/letsmove/mover/unlizhao/code/task1
+
+让我们重新发布 task1.move 合约。首先构建项目：
+
+Ran terminal command
+d:/workdir/code/move/letsmove/mover/unlizhao/code/task1
+> sui move build
+
+
+构建成功，现在发布合约：
+
+Ran terminal command
+d:/workdir/code/move/letsmove/mover/unlizhao/code/task1
+> sui client publish --gas-budget 100000000
