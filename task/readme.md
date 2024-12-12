@@ -32,12 +32,12 @@
 
 | 任务                                         | 名称                | 人民币等值Token | 说明                     |
 |:-------------------------------------------|-------------------|:----------:|:-----------------------|
-| [task 1](01.hello_move.md)            | hello move        |    ￥20     | 完成第一个合约部署上链            |
-| [task 2](02.move_coin.md)             | move coin         |    ￥20     | 完成Coin协议学习，并发布两个Coin上链 |
-| [task 3](03.move_nft.md)              | move nft          |    ￥20     | 完成NFT的学习，并发布NFT上链      |
-| [task 4](04.move_game.md)             | move game         |    ￥20     | 完成链上游戏学习，并上链交互         |
-| [task 5](05.move_swap.md)             | move swap         |    ￥20     | 完成Swap学习，并上链交互         |
-| [task 6](06.SDK_PTB_NAVI.md)          | sdk ptb           | ￥20（NAVX）  | 完成SDK学习，并用SDK完成链上交互    |
-| [task 7](07.move_ctf_check_in.md)     | move ctf check in |    ￥20     | 完成move ctf check in    |
-| [task 8](08.move_ctf_lets_move.md)    | move ctf pow      |    ￥20     | 完成move ctf pow   |
-| [defi](https://dacade.org/communities/sui) | defi              |   35SUI    | 完成Defi学习挑战             |
+| [task 1](01.hello_move.md)                 | hello move        |    ￥10     | 完成第一个合约部署上链            |
+| [task 2](02.move_coin.md)                  | move coin         |    ￥10     | 完成Coin协议学习，并发布两个Coin上链 |
+| [task 3](03.move_nft.md)                   | move nft          |    ￥10     | 完成NFT的学习，并发布NFT上链      |
+| [task 4](04.move_game.md)                  | move game         |    ￥10     | 完成链上游戏学习，并上链交互         |
+| [task 5](05.move_swap.md)                  | move swap         |    ￥10     | 完成Swap学习，并上链交互         |
+| [task 6](06.SDK_PTB_NAVI.md)               | sdk ptb           | ￥10（NAVX）  | 完成SDK学习，并用SDK完成链上交互    |
+| [task 7](07.move_ctf_check_in.md)          | move ctf check in |    ￥10     | 完成move ctf check in    |
+| [task 8](08.move_ctf_lets_move.md)         | move ctf pow      |    ￥10     | 完成move ctf pow         |
+| [defi](https://dacade.org/communities/sui) | defi              |   14SUI    | 完成Defi学习挑战             |
