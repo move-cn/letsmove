@@ -1,8 +1,3 @@
-/*
-/// Module: my_swap
-module my_swap::my_swap;
-*/
-
 module my_swap::my_swap;
 use my_coin::dao::DAO;
 use my_coin::faucetcoin::FAUCETCOIN;
@@ -10,7 +5,6 @@ use sui::balance;
 use sui::balance::Balance;
 use sui::coin;
 use sui::coin::{into_balance, from_balance};
-use sui::token::from_coin;
 use sui::coin::Coin;
 
 public struct MyBank has key, store {
