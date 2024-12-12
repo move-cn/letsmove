@@ -3,6 +3,7 @@
 module yizuo_coin::yizuo_coin;
 */
 
+
 module yizuo_coin::yizuo ;
 use sui::coin::create_currency;
 use std::option::{none};
