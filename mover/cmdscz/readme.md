@@ -32,18 +32,18 @@
 - [✓] scan上的NFT截图:![Scan截图](./images/scan2.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [✓] game package id : 0x16ca93304d3726abce62d6994b79ce356a8f47596213ef9312ee4bd220a8c450
+- [✓] deposit Coin hash:9LDkjMq9gNzBjaNWBh31Zm5afKHMoNaMkGRwYNz6i65E
+- [✓] withdraw `Coin` hash:EihfgSpCLwwoX4PqJg7pKY49qWwZbS13nxFZAzRFjwoY
+- [✓] play game hash:      3hxvyCJi9gBSVmk5HQ8vJkxFp2fnPRfSr1HAxF23KAY5
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [] swap package id :0xf2a359730a1e771310e159aba5fccad6a2b9aabf3767167db2b02f32f45f08c9
+- [] call swap CoinA-> CoinB  hash :98QcXvCGUPhonTMZk6cq5GmHkWJTcoN2gE6acTca8C3u
+- [] call swap CoinB-> CoinA  hash :DEcs4dVJP9cUv96MxY8PgyKTNGvUzLonafgiwvf4XY1U
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [] save hash :          EytVLVYz3Uw323gWkBp681EriTV7ndGgZg9QdRwcAVZG
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
