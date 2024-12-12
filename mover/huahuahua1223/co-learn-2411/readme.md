@@ -22,6 +22,7 @@
 - [x] 第三周:![学习记录截图](./images/第三周直播.jpg)
 - [x] 第四周:![学习记录截图](./images/第四周直播.jpg)
 - [x] 第五周:![学习记录截图](./images/第五周直播.jpg)
+- [x] 第六周:![学习记录截图](./images/第六周直播.jpg)
 
 ## 群里分享学习笔记
 
@@ -35,6 +36,20 @@
 - [x] 第八篇笔记
 - [x] 第九篇笔记
 - [x] 第十篇笔记
+- [x] 第十一篇笔记
+- [x] 第十二篇笔记
+- [x] 第十三篇笔记
+- [x] 第十四篇笔记
+- [x] 第十五篇笔记
+- [x] 第十六篇笔记
+- [x] 第十七篇笔记
+- [x] 第十八篇笔记
+- [x] 第十九篇笔记
+- [x] 第二十篇笔记
+- [x] 第二十一篇笔记
+- [x] 第二十二篇笔记
+- [x] 第二十三篇笔记
+- [x] 第二十四篇笔记
 
 ## 对外输出学习笔记
 
@@ -42,7 +57,20 @@
 - [x] 第二篇笔记【[学习笔记链接](https://hua1223.blog.csdn.net/article/details/143866005)】
 - [x] 第三篇笔记【[学习笔记链接](https://hua1223.blog.csdn.net/article/details/143895408)】
 - [x] 第四篇笔记【[学习笔记链接](https://hua1223.blog.csdn.net/article/details/144032486)】
-<!-- - [x] 第五篇笔记【[学习笔记链接](https://hua1223.blog.csdn.net/article/details/144032486)】 -->
+- [x] 第五篇笔记【[学习笔记链接](https://hua1223.blog.csdn.net/article/details/144379769)】
+- [x] 第六篇笔记【[学习笔记链接](https://learnblockchain.cn/article/10205)】
+- [x] 第七篇笔记【[学习笔记链接](https://hua1223.blog.csdn.net/article/details/144387614)】
+- [x] 第八篇笔记 【[学习笔记链接](https://learnblockchain.cn/article/10212)】
+- [x] 第九篇笔记 【[学习笔记链接](https://hua1223.blog.csdn.net/article/details/144382727)】
+- [x] 第十篇笔记 【[学习笔记链接](https://hua1223.blog.csdn.net/article/details/143079404)】
+- [x] 第十一篇笔记 【[学习笔记链接](https://hua1223.blog.csdn.net/article/details/144411822)】
+- [x] 第十二篇笔记 【[学习笔记链接](https://learnblockchain.cn/article/10234)】
+- [x] 第十三篇笔记 【[学习笔记链接](https://learnblockchain.cn/article/10238)】
+- [x] 第十四篇笔记 【[学习笔记链接](https://learnblockchain.cn/article/10239)】
+- [x] 第十五篇笔记 【[学习笔记链接](https://learnblockchain.cn/article/10241)】
+- [x] 第十六篇笔记 【[学习笔记链接](https://learnblockchain.cn/article/10247)】
+- [x] 第十七篇笔记 【[学习笔记链接](https://learnblockchain.cn/article/10249)】
+- [x] 第十八篇笔记 【[学习笔记链接](https://learnblockchain.cn/article/10252)】
 
 ## 在HOH社区公众号发布自己的技术文章
 
