@@ -39,6 +39,12 @@
 - [x] 第十一篇笔记: ![第十一篇笔记分享](./images/note_share_11_12_13.png)
 - [x] 第十二篇笔记: ![第十二篇笔记分享](./images/note_share_11_12_13.png)
 - [x] 第十三篇笔记: ![第十三篇笔记分享](./images/note_share_11_12_13.png)
+- [x] 第十四篇笔记: ![第十三篇笔记分享](./images/image.png.png)
+- [x] 第十五篇笔记: ![第十三篇笔记分享](./images/image.png.png)
+- [x] 第十六篇笔记: ![第十三篇笔记分享](./images/image.png.png)
+- [x] 第十七篇笔记: ![第十三篇笔记分享](./images/image.png.png)
+- [x] 第十八篇笔记: ![第十三篇笔记分享](./images/image.png.png)
+- [x] 第十九篇笔记: ![第十三篇笔记分享](./images/image.png.png)
 
 ## 对外输出学习笔记
 
@@ -55,6 +61,13 @@
 - [x] 第十一篇笔记【https://learnblockchain.cn/article/10215】
 - [x] 第十二篇笔记【https://learnblockchain.cn/article/10216】
 - [x] 第十三篇笔记【https://learnblockchain.cn/article/10220】
+- [x] 第十四篇笔记【https://learnblockchain.cn/article/10242】
+- [x] 第十五篇笔记【https://learnblockchain.cn/article/10245】
+- [x] 第十六篇笔记【https://learnblockchain.cn/article/10248】
+- [x] 第十七篇笔记【https://learnblockchain.cn/article/10250】
+- [x] 第十八篇笔记【https://learnblockchain.cn/article/10251】
+- [x] 第十九篇笔记【https://learnblockchain.cn/article/10253】
+
 
 ## 在HOH社区公众号发布自己的技术文章
 

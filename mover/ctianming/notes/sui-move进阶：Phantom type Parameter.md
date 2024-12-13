@@ -97,7 +97,7 @@ Phantom Type Parameter可以：
 完全未出现在结构体定义中。
 仅出现在其他Phantom Type Parameter的类型参数中。
 ```move
-复制代码
+ 
 public struct S1<phantom T1, T2> { f: u64 }
 //               ^^^^^^^ 合法，T1 未在结构体中使用
 
@@ -110,7 +110,7 @@ public struct S2<phantom T1, T2> { f: S1<T1, T2> }
 Phantom Type Parameter如果直接作为字段类型或非Phantom Type Parameter的参数，会导致编译错误。
 
 ```move
-复制代码
+ 
 public struct S1<phantom T> { f: T }
 //               ^^^^^^^ 错误！T 未出现在phantom位置
 
@@ -124,7 +124,7 @@ public struct S3<phantom T> { f: S2<T> }
 在实例化结构体时，Phantom Type Parameter不会参与能力推导。例如：
 
 ```move
-复制代码
+ 
 public struct S<T1, phantom T2> has copy {
     f: T1
 }
