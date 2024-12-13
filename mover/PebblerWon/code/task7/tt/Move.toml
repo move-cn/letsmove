@@ -6,6 +6,7 @@ edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+# lets_move = { git = "https://github.com/move-cn/letsmove-ctf.git", subdir = "src/02_lets_move/lets_move"}
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.

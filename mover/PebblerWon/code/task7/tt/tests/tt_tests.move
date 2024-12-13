@@ -5,5 +5,5 @@ use tt::tt;
 
 #[test]
 fun test_tt() {
-    tt::whn();
+    tt::task8();
 }
