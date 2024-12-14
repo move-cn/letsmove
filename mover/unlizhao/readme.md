@@ -31,13 +31,15 @@ coin name: unlizhao_coin, unlizhao_faucet_coin
 - [x] nft object id :  0x34cf1ae9a7b4556b611732ed20a08c56106d359480a03a44e39953bf4f44c9c0
 - [x] 转账 nft  hash: B19VJWivSaDeDntKzx2G7pwzMQMSVdPCgEevQcpM7g28
 - [x] scan上的NFT截图:![Scan截图](./img/scan3.png)
-<!-- 
-##   04 Move Game
-- [x] game package id : 0xedf9aad195e01bbb8e421df49f69b15a5328141b7514e4c11d40d83437fa74c2
-- [x] deposit Coin hash: GBo5xh21HNiZVet4wcCWDD1wbk5T9M2T8yMtVpPFwGL2
-- [x] withdraw `Coin` hash: 4GbCUiaJj7z15iMgiizXNQjLRooSKFNNrixYWzJ2xpC6
-- [x] play game hash: 5R4WmD4CY2YCg8Scpbzqebb5EqJTaEi9pgWAcKPtEyiV
 
+##   04 Move Game
+- [x] game package id : 0xcd4f9ed7000a679fe2d00ac59a37c4b3f7fd592417e341e14957bfc493e00f8f
+- [x] mint Coin hash: 8TBRF58JqXNGF1cB9cyc42t3f6nmbA3JmyBuWhg4wJ7A
+- [x] deposit Coin hash: 4qWTRtJW3Ur8KAz9p16HY1wN7GSLfaqb6Szn6WPagzFG
+- [x] withdraw `Coin` hash: CaMnypTa6TEwnGCBWN2hhmAPMdEjLB6qDQ36LGXtVQtU
+- [x] play game hash: CF5zrz9VwBA8njy2TiqnJ4mutSooSnJM2VaRWAK7Rbjn
+
+<!-- 
 ##   05 Move Swap
 - [x] swap package id : 0x125e446c3486cb5ee0e61078e12cff4f6ac5923a7daff3b1a2a0102e09693600
 - [x] call swap CoinA-> CoinB  hash : H4VnSqsPuapZTj31fNXGbU9RmFjj5wNUNSuErFqUXgbd

@@ -1,261 +1,204 @@
-module task5::erikaibble_swap {
+/// 代币交换模块：实现两种代币之间的兑换功能
+module m2887_swap::m2887_swap {
+
+    use m2887_faucet_coin::m2887_faucet_coin::M2887_FAUCET_COIN;
+    use m2887_coin::m2887_coin::M2887_COIN;
+    use sui::balance::{Self, Balance};
     use sui::coin::{Self, Coin};
-    use sui::balance::{Self, Supply, Balance};
-    use sui::math;
 
-    const EZeroAmount: u64 = 0;
+    /// 错误代码：输入金额不足
+    const EInputNotEnough: u64 = 0;
+    /// 错误代码：流动性池余额不足
+    const EPoolNotEnough: u64 = 1;
 
-    const EReservesEmpty: u64 = 2;
+    /// 管理员权限凭证，用于管理流动性池
+    public struct AdminCap has key { id: UID }
 
-    const EPoolFull: u64 = 4;
-
-    const FEE_SCALING: u128 = 10000;
-
-    const FEE_PERCENT: u128 = 30;
-
-    const MAX_POOL_VALUE: u64 = {
-        18446744073709551615 / 10000
-    };
-
-    public struct LSP<phantom TA, phantom TB> has drop {}
-
-    public struct Pool<phantom TA, phantom TB> has key {
+    /// 流动性池结构，存储两种代币的余额
+    public struct Pool has key {
         id: UID,
-        token_a: Balance<TA>,
-        token_b: Balance<TB>,
-        lsp_supply: Supply<LSP<TA, TB>>,
-        /// Fee Percent is denominated in basis points.
-        fee_percent: u64
+        /// 水龙头代币余额
+        faucet_coin: Balance<M2887_FAUCET_COIN>,
+        /// 自定义代币余额
+        my_coin: Balance<M2887_COIN>,
     }
 
-    fun init(_: &mut TxContext) {
-    }
-
-    entry fun create_pool<TA, TB> (
-        token_a: Coin<TA>,
-        token_b: Coin<TB>,
-        ctx: &mut TxContext
-    ) {
-        transfer::public_transfer(
-            create_pool_inner(token_a, token_b, ctx),
-            tx_context::sender(ctx)
-        );
-    }
-
-    fun create_pool_inner<TA, TB> (
-        token_a: Coin<TA>,
-        token_b: Coin<TB>,
-        ctx: &mut TxContext
-    ): Coin<LSP<TA, TB>> {
-        let fee_percent = (FEE_PERCENT as u64);
-
-        let token_a_amt = coin::value(&token_a);
-        let token_b_amt = coin::value(&token_b);
-
-        assert!(token_a_amt > 0 && token_b_amt > 0, EZeroAmount);
-        assert!(token_a_amt < MAX_POOL_VALUE && token_b_amt < MAX_POOL_VALUE, EPoolFull);
-
-        let share = math::sqrt(token_a_amt) * math::sqrt(token_b_amt);
-        let mut lsp_supply = balance::create_supply(LSP<TA, TB> {});
-        let lsp = balance::increase_supply(&mut lsp_supply, share);
-
-        transfer::share_object(Pool {
+    /// 初始化函数：创建流动性池和管理员权限
+    /// @param ctx - 交易上下文
+    fun init(ctx: &mut TxContext) {
+        // 创建空的流动性池
+        let pool = Pool {
             id: object::new(ctx),
-            token_a: coin::into_balance(token_a),
-            token_b: coin::into_balance(token_b),
-            lsp_supply,
-            fee_percent,
-        });
-
-        coin::from_balance(lsp, ctx)
+            faucet_coin: balance::zero<M2887_FAUCET_COIN>(),
+            my_coin: balance::zero<M2887_COIN>(),
+        };
+        // 共享流动性池对象，使其可被所有人访问
+        transfer::share_object(pool);
+        // 将管理员权限转移给合约部署者
+        transfer::transfer(AdminCap { id: object::new(ctx) }, tx_context::sender(ctx));
     }
 
-    entry fun add_liquidity<TA, TB> (
-        pool: &mut Pool<TA, TB>,
-        token_a: Coin<TA>,
-        token_b: Coin<TB>,
-        ctx: &mut TxContext
+    /// 存入自定义代币到流动性池
+    /// @param pool - 流动性池引用
+    /// @param input - 输入的代币
+    /// @param amount - 存入金额
+    /// @param ctx - 交易上下文
+    public entry fun deposit_my_coin(
+        pool: &mut Pool,
+        input: Coin<M2887_COIN>,
+        amount: u64,
+        ctx: &mut TxContext,
     ) {
-        transfer::public_transfer(
-            add_liquidity_inner(pool, token_a, token_b, ctx),
-            tx_context::sender(ctx)
-        )
+        let caller = tx_context::sender(ctx);
+        let input_value = coin::value(&input);
+        assert!(input_value >= amount, EInputNotEnough);
+        let mut input_balance = coin::into_balance(input);
+        // 如果输入金额大于存入金额，返还多余部分
+        if (input_value > amount) {
+            balance::join(
+                &mut pool.my_coin,
+                balance::split(&mut input_balance, amount),
+            );
+            let change = coin::from_balance(input_balance, ctx);
+            transfer::public_transfer(change, caller);
+        } else {
+            balance::join(&mut pool.my_coin, input_balance);
+        };
     }
 
-    fun add_liquidity_inner<TA, TB> (
-        pool: &mut Pool<TA, TB>,
-        token_a: Coin<TA>,
-        token_b: Coin<TB>,
-        ctx: &mut TxContext
-    ): Coin<LSP<TA, TB>> {
-        assert!(coin::value(&token_a) > 0 && coin::value(&token_b) > 0, EZeroAmount);
-
-        let (token_a_amt, token_b_amt, lsp_supply) = get_amounts(pool);
-        assert!(token_a_amt > 0 && token_b_amt > 0, EReservesEmpty);
-
-        let token_a_balance = coin::into_balance(token_a);
-        let token_b_balance = coin::into_balance(token_b);
-
-        let token_a_added = balance::value(&token_a_balance);
-        let token_b_added = balance::value(&token_b_balance);
-
-        let share_minted = math::min(
-            (token_a_added * lsp_supply) / token_a_amt,
-            (token_b_added * lsp_supply) / token_b_amt
-        );
-
-        let token_a_amt = balance::join(&mut pool.token_a, token_a_balance);
-        let token_b_amt = balance::join(&mut pool.token_b, token_b_balance);
-
-        assert!(token_a_amt < MAX_POOL_VALUE && token_b_amt < MAX_POOL_VALUE, EPoolFull);
-
-        let balance = balance::increase_supply(&mut pool.lsp_supply, share_minted);
-
-        coin::from_balance(balance, ctx)
-    }
-
-    entry fun remove_liquidity<TA, TB> (
-        pool: &mut Pool<TA, TB>,
-        lsp: Coin<LSP<TA, TB>>,
-        ctx: &mut TxContext
+    /// 存入水龙头代币到流动性池
+    /// @param pool - 流动性池引用
+    /// @param input - 输入的代币
+    /// @param amount - 存入金额
+    /// @param ctx - 交易上下文
+    public entry fun deposit__faucet_coin(
+        pool: &mut Pool,
+        input: Coin<M2887_FAUCET_COIN>,
+        amount: u64,
+        ctx: &mut TxContext,
     ) {
-        let (token_a, token_b) = remove_liquidity_inner(pool, lsp, ctx);
-        let sender = tx_context::sender(ctx);
-
-        transfer::public_transfer(token_a, sender);
-        transfer::public_transfer(token_b, sender);
+        let caller = tx_context::sender(ctx);
+        let input_value = coin::value(&input);
+        assert!(input_value >= amount, EInputNotEnough);
+        let mut input_balance = coin::into_balance(input);
+        // 如果输入金额大于存入金额，返还多余部分
+        if (input_value > amount) {
+            balance::join(
+                &mut pool.faucet_coin,
+                balance::split(&mut input_balance, amount),
+            );
+            let change = coin::from_balance(input_balance, ctx);
+            transfer::public_transfer(change, caller);
+        } else {
+            balance::join(&mut pool.faucet_coin, input_balance);
+        };
     }
 
-    fun remove_liquidity_inner<TA, TB> (
-        pool: &mut Pool<TA, TB>,
-        lsp: Coin<LSP<TA, TB>>,
-        ctx: &mut TxContext
-    ): (Coin<TA>, Coin<TB>) {
-        let lsp_amount = coin::value(&lsp);
-        assert!(lsp_amount > 0, EZeroAmount);
-
-        let (token_a_amt, token_b_amt, total_supply) = get_amounts(pool);
-
-        let token_a = (token_a_amt * lsp_amount) / total_supply;
-        let token_b = (token_b_amt * lsp_amount) / total_supply;
-
-        balance::decrease_supply(&mut pool.lsp_supply, coin::into_balance(lsp));
-
-        (
-            coin::take(&mut pool.token_a, token_a, ctx),
-            coin::take(&mut pool.token_b, token_b, ctx),
-        )
-    }
-
-    entry fun swap_a_to_b<TA, TB> (
-        pool: &mut Pool<TA, TB>,
-        token_a: Coin<TA>,
-        ctx: &mut TxContext
+    /// 管理员提取自定义代币
+    /// @param _ - 管理员权限凭证
+    /// @param pool - 流动性池引用
+    /// @param amount - 提取金额
+    /// @param ctx - 交易上下文
+    public entry fun withdraw_zzf222_coin(
+        _: &AdminCap,
+        pool: &mut Pool,
+        amount: u64,
+        ctx: &mut TxContext,
     ) {
-        transfer::public_transfer(
-            swap_a_to_b_inner(pool, token_a, ctx),
-            tx_context::sender(ctx)
-        )
+        let my_coin_balance = balance::split(&mut pool.my_coin, amount);
+        let my_coin = coin::from_balance(my_coin_balance, ctx);
+        transfer::public_transfer(my_coin, tx_context::sender(ctx));
     }
 
-    fun swap_a_to_b_inner<TA, TB> (
-        pool: &mut Pool<TA, TB>,
-        token_a: Coin<TA>,
-        ctx: &mut TxContext
-    ): Coin<TB> {
-        let token_a_amt = coin::value(&token_a);
-        assert!(token_a_amt > 0, EZeroAmount);
-
-        let (token_a_amt, token_b_amt, _) = get_amounts(pool);
-        assert!(token_a_amt > 0 && token_b_amt > 0, EReservesEmpty);
-
-        let token_b_amt = sell_token_a(pool, token_a_amt);
-
-        balance::join(&mut pool.token_a, coin::into_balance(token_a));
-
-        coin::take(&mut pool.token_b, token_b_amt, ctx)
-    }
-
-    entry fun swap_b_to_a<TA, TB> (
-        pool: &mut Pool<TA, TB>,
-        token_b: Coin<TB>,
-        ctx: &mut TxContext
+    /// 管理员提取水龙头代币
+    /// @param _ - 管理员权限凭证
+    /// @param pool - 流动性池引用
+    /// @param amount - 提取金额
+    /// @param ctx - 交易上下文
+    public entry fun withdraw_zzf222_faucet_coin(
+        _: &AdminCap,
+        pool: &mut Pool,
+        amount: u64,
+        ctx: &mut TxContext,
     ) {
-        transfer::public_transfer(
-            swap_b_to_a_inner(pool, token_b, ctx),
-            tx_context::sender(ctx)
-        )
+        let faucet_coin_balance = balance::split(&mut pool.faucet_coin, amount);
+        let faucet_coin = coin::from_balance(faucet_coin_balance, ctx);
+        transfer::public_transfer(faucet_coin, tx_context::sender(ctx));
     }
 
-    fun swap_b_to_a_inner<TA, TB> (
-        pool: &mut Pool<TA, TB>,
-        token_b: Coin<TB>,
-        ctx: &mut TxContext
-    ): Coin<TA> {
-        let token_b_amt = coin::value(&token_b);
-        assert!(token_b_amt > 0, EZeroAmount);
-
-        let (token_a_amt, token_b_amt, _) = get_amounts(pool);
-        assert!(token_a_amt > 0 && token_b_amt > 0, EReservesEmpty);
-
-        let token_a_amt = sell_token_b(pool, token_b_amt);
-
-        balance::join(&mut pool.token_b, coin::into_balance(token_b));
-
-        coin::take(&mut pool.token_a, token_a_amt, ctx)
+    /// 将水龙头代币兑换为自定义代币
+    /// @param pool - 流动性池引用
+    /// @param input - 输入的水龙头代币
+    /// @param amount - 兑换金额
+    /// @param ctx - 交易上下文
+    /// 兑换比例：2000:1000 (水龙头代币:自定义代币)
+    public entry fun swap_faucet_coin_to_my_coin(
+        pool: &mut Pool,
+        input: Coin<M2887_FAUCET_COIN>,
+        amount: u64,
+        ctx: &mut TxContext,
+    ) {
+        let caller = tx_context::sender(ctx);
+        let input_value = coin::value(&input);
+        // 计算兑换后得到的自定义代币数量
+        let output_value = amount * 1000 / 2000; // 兑换比例 2000:1000
+        assert!(input_value >= amount, EInputNotEnough);
+        let mut input_balance = coin::into_balance(input);
+        assert!(balance::value(&pool.my_coin) >= output_value, EPoolNotEnough);
+        
+        // 处理多余的输入金额
+        if (input_value > amount) {
+            balance::join(
+                &mut pool.faucet_coin,
+                balance::split(&mut input_balance, amount),
+            );
+            let change = coin::from_balance(input_balance, ctx);
+            transfer::public_transfer(change, caller);
+        } else {
+            balance::join(&mut pool.faucet_coin, input_balance);
+        };
+        
+        // 转出兑换得到的自定义代币
+        let output_balance = balance::split(&mut pool.my_coin, output_value);
+        let output = coin::from_balance(output_balance, ctx);
+        transfer::public_transfer(output, caller);
     }
 
-    public fun sell_token_a<TA, TB>(pool: &Pool<TA, TB>, to_sell: u64): u64 {
-        let (token_a_amt, token_b_amt, _) = get_amounts(pool);
-        calc_output_amount(
-            to_sell,
-            token_a_amt,
-            token_b_amt,
-            pool.fee_percent
-        )
-    }
-
-    public fun sell_token_b<TA, TB>(pool: &Pool<TA, TB>, to_sell: u64): u64 {
-        let (token_a_amt, token_b_amt, _) = get_amounts(pool);
-        calc_output_amount(
-            to_sell,
-            token_b_amt,
-            token_a_amt,
-            pool.fee_percent
-        )
-    }
-
-    public fun get_amounts<TA, TB>(pool: &Pool<TA, TB>): (u64, u64, u64) {
-        (
-            balance::value(&pool.token_a),
-            balance::value(&pool.token_b),
-            balance::supply_value(&pool.lsp_supply),
-        )
-    }
-
-    public fun calc_output_amount(
-        input_amount: u64,
-        input_reserve: u64,
-        output_reserve: u64,
-        fee_percent: u64
-    ): u64 {
-        let (
-            input_amount,
-            input_reserve,
-            output_reserve,
-            fee_percent
-        ) = (
-            (input_amount as u128),
-            (input_reserve as u128),
-            (output_reserve as u128),
-            (fee_percent as u128),
-        );
-
-        let input_with_fee = input_amount * FEE_SCALING / (FEE_SCALING - fee_percent);
-
-        let total = input_reserve * output_reserve;
-        let output_amount = output_reserve - total / (input_reserve + input_with_fee);
-
-        (output_amount as u64)
+    /// 将自定义代币兑换为水龙头代币
+    /// @param pool - 流动性池引用
+    /// @param input - 输入的自定义代币
+    /// @param amount - 兑换金额
+    /// @param ctx - 交易上下文
+    /// 兑换比例：1000:2000 (自定义代币:水龙头代币)
+    public entry fun swap_my_coin_to_faucet_coin(
+        pool: &mut Pool,
+        input: Coin<M2887_COIN>,
+        amount: u64,
+        ctx: &mut TxContext,
+    ) {
+        let caller = tx_context::sender(ctx);
+        let input_value = coin::value(&input);
+        // 计算兑换后得到的水龙头代币数量
+        let output_value = amount * 2000 / 1000; // 兑换比例 1000:2000
+        assert!(input_value >= amount, EInputNotEnough);
+        let mut input_balance = coin::into_balance(input);
+        assert!(balance::value(&pool.faucet_coin) >= output_value, EPoolNotEnough);
+        
+        // 处理多余的输入金额
+        if (input_value > amount) {
+            balance::join(
+                &mut pool.my_coin,
+                balance::split(&mut input_balance, amount),
+            );
+            let change = coin::from_balance(input_balance, ctx);
+            transfer::public_transfer(change, caller);
+        } else {
+            balance::join(&mut pool.my_coin, input_balance);
+        };
+        
+        // 转出兑换得到的水龙头代币
+        let output_balance = balance::split(&mut pool.faucet_coin, output_value);
+        let output = coin::from_balance(output_balance, ctx);
+        transfer::public_transfer(output, caller);
     }
 }
