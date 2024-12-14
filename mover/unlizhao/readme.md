@@ -40,6 +40,7 @@ coin name: unlizhao_coin, unlizhao_faucet_coin
 - [x] play game hash: CF5zrz9VwBA8njy2TiqnJ4mutSooSnJM2VaRWAK7Rbjn
 
 <!-- 
+1
 ##   05 Move Swap
 - [x] swap package id : 0x125e446c3486cb5ee0e61078e12cff4f6ac5923a7daff3b1a2a0102e09693600
 - [x] call swap CoinA-> CoinB  hash : H4VnSqsPuapZTj31fNXGbU9RmFjj5wNUNSuErFqUXgbd
