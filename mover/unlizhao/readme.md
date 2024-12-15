@@ -39,13 +39,12 @@ coin name: unlizhao_coin, unlizhao_faucet_coin
 - [x] withdraw `Coin` hash: CaMnypTa6TEwnGCBWN2hhmAPMdEjLB6qDQ36LGXtVQtU
 - [x] play game hash: CF5zrz9VwBA8njy2TiqnJ4mutSooSnJM2VaRWAK7Rbjn
 
-<!-- 
-1
 ##   05 Move Swap
-- [x] swap package id : 0x125e446c3486cb5ee0e61078e12cff4f6ac5923a7daff3b1a2a0102e09693600
-- [x] call swap CoinA-> CoinB  hash : H4VnSqsPuapZTj31fNXGbU9RmFjj5wNUNSuErFqUXgbd
-- [x] call swap CoinB-> CoinA  hash : 6nwFqfepFENe3omnL7dmig11qABxVEwsAxHLftiaKUjw
+- [x] swap package id : 0xf8f4d3ae8d84b843c979d172369470610a1af363a0c05ec5e3ee8ac612c3ec8a 
+- [x] call swap CoinA-> CoinB  hash : DdLa8CvRB6FVpQGUoqD8Apg6CPBHGZhhkphT85cEumB2
+- [x] call swap CoinB-> CoinA  hash : 6qy8cFFk9sZ7z9h2isQUuDpYT5pAH7mDoMEVXFRZq2e6
 
+<!-- 
 ##   06 Dapp-kit SDK PTB
 - [x] save hash : 6MVpKVjB1EK22UkiMHLcnTSiFrpFRmvXU2txz6bad9bd
 
