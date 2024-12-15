@@ -44,14 +44,18 @@ coin name: unlizhao_coin, unlizhao_faucet_coin
 - [x] call swap CoinA-> CoinB  hash : DdLa8CvRB6FVpQGUoqD8Apg6CPBHGZhhkphT85cEumB2
 - [x] call swap CoinB-> CoinA  hash : 6qy8cFFk9sZ7z9h2isQUuDpYT5pAH7mDoMEVXFRZq2e6
 
-<!-- 
+
 ##   06 Dapp-kit SDK PTB
-- [x] save hash : 6MVpKVjB1EK22UkiMHLcnTSiFrpFRmvXU2txz6bad9bd
+- [x] save hash : HDvbbQmS5pMV9YD3vNqn964E7hcBbcqALtqGbzFuZ84k
 
 ##   07 Move CTF Check In
-- [x] CLI call 截图 : ![截图](./img/scan4.png)
-- [x] flag hash : GVD8feG3RjJZ6anYrvkhN8zjprmokTPQh9buZwYFmKnN
+- [x] CLI call 截图 : ![截图](./img/scan7-1.png)
+- [x] CLI call 截图 : ![截图](./img/scan7-2.png)
+- [x] CLI call 截图 : ![截图](./img/scan7-3.png)
+- [x] flag hash : 3eqt8wEgJ2dzZUuVbg5p6CHL5CxZWYrPseVAunUJiDt3
 
 ##   08 Move CTF Lets Move
-- [x] proof : ae49485f6941f67f180a
-- [x] flag hash : Ae2i7T34sXmnERhQW9dDdUgN5Vjf8RDHncNRUDQFvRc9  -->
+- [x] CLI call 截图 : ![截图](./img/scan8-1.png)
+- [x] CLI call 截图 : ![截图](./img/scan8-2.png)
+- [x] proof : 91aaca0000000000
+- [x] flag hash : BjB3yVA7fxatSrFZe6kVBzYzZ6cgbYKyqbcFpkDKqptg
