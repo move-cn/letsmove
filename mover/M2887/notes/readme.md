@@ -1,0 +1,18 @@
+##### task4 bash
+```bash
+sui client call --package 0x7e1792a1a41a30206da3198784b9285dfa1e66bf227d834eb5d2ac9495554a64 --module flip_coin --function play --args 0x62118895a58dbb94b3e27acb3b5d64e11bf95ba5a2f6edcc8df718a2cc3e60de true 0x05e1ef276631b526d3fd3429e8e900aa3bf758656557452167bf683e5175492b 0x8 --gas-budget 1000000
+
+sui client call --package 0x7e1792a1a41a30206da3198784b9285dfa1e66bf227d834eb5d2ac9495554a64 --module flip_coin --function remove_sui --args 0x5a800a73fc12ab69963c4c2f8175ac99e89576c95c64b969ef8de56c1bc5674d 0x62118895a58dbb94b3e27acb3b5d64e11bf95ba5a2f6edcc8df718a2cc3e60de 100 --gas-budget 10000000
+```
+
+##### task5 bash
+```bash
+coin mint
+packageID:0x5a3a556c1b4cb0d9e20595fc0819bef617de4a6b16c258e58f49e7d1c27d4cf9
+TreasuryCap:0x2b50049a4b87eab90cd48c5d04d261fa179c5ea1026bb7fb2b74506b6b05d5d2
+
+fauect_coin mint
+packageID:0x8526f8f3d7e23ca6e2c68c67855357745f03a9097d93a3dd3274a44290fc3faa
+TreasuryCap:0xff5d5b9c397db5e2c9fd8655140473ddc87f67970b7f460bf2c05a80c1a4c4e5
+
+```
