@@ -17,7 +17,7 @@
 - [x] 第一周:![学习记录截图](./images/task1_learning.png)
 - [x] 第二周:![学习记录截图](./images/week2_learning.png)
 - [x] 第三周:![学习记录截图](./images/week3_learning.png)
-- [] 第四周:![学习记录截图](./images/你的图片地址)
+- [x] 第四周:![学习记录截图](./images/week4_learning.png)
 
 ## 参加直播答疑
 
@@ -47,6 +47,11 @@
 - [x] （十三）深入浅出Move语言的动态字段 (Dynamic Fields)：从基础到实践【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/13_move_dynamic_field.md)】
 - [x] （十四）深入理解 Move 的 Table 和 Bag：动态数据存储【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/14_move_table_bag.md)】
 - [x] （十五）探索Move语言的奇妙世界：深入理解Wrapped Objects【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/15_move_wrapped_objects.md)】
+- [x] （十六）Move语言学习笔记：使用脚手架创建Sui dApp项目与Navi SDK集成【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/16_move_navi.md)】
+- [x] （十七）学习笔记：Sui 网络中的赞助交易以及gas station使用场景介绍【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/17_move_free_gas.md)】
+- [x] （十八）Move语言学习笔记：GraphQL for Sui RPC (Beta)【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/18_move_graphql.md)】
+- [x] （十九）WILD Coin 模块设计与实现解析【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/19_move_wild_coin.md)】
+- [x] （二十）学习笔记：解析 `animal_crossing::wild_NFT` 模块【[学习笔记链接](https://github.com/move-cn/letsmove/tree/main/mover/lizhecome/notes/20_move_wild_nft.md)】
 
 
 ## 对外输出学习笔记
@@ -70,6 +75,11 @@
 - [x] （十三）深入浅出Move语言的动态字段 (Dynamic Fields)：从基础到实践【[学习笔记链接](https://learnblockchain.cn/article/10056)】
 - [x] （十四）深入理解 Move 的 Table 和 Bag：动态数据存储【[学习笔记链接](https://learnblockchain.cn/article/10055)】
 - [x] （十五）探索Move语言的奇妙世界：深入理解Wrapped Objects【[学习笔记链接](https://learnblockchain.cn/article/10058)】
+- [x] （十六）Move语言学习笔记：使用脚手架创建Sui dApp项目与Navi SDK集成【[学习笔记链接](https://learnblockchain.cn/article/10235)】
+- [x] （十七）学习笔记：Sui 网络中的赞助交易以及gas station使用场景介绍【[学习笔记链接](https://learnblockchain.cn/article/10236)】
+- [x] （十八）Move语言学习笔记：GraphQL for Sui RPC (Beta)【[学习笔记链接](https://learnblockchain.cn/article/10237)】
+- [x] （十九）WILD Coin 模块设计与实现解析【[学习笔记链接](https://learnblockchain.cn/article/10243)】
+- [x] （二十）学习笔记：解析 `animal_crossing::wild_NFT` 模块【[学习笔记链接](https://learnblockchain.cn/article/10244)】
 
 ## 在HOH社区公众号发布自己的技术文章
 
@@ -84,6 +94,6 @@
 
 ## 提交项目
 
-- [] 项目提交![项目截图](./images/你的图片地址)
+- [x] 项目提交![项目截图](./images/project.png)
 
 

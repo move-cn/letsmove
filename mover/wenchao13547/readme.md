@@ -21,31 +21,32 @@
 - ![img_1.png](image%2Fimg_1.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [√] My Coin package id : 0x9f0d2d39022e2f6eeac61430464a061654250b1de62f3524103431bdda846c82
+- [√] Faucet package id : 0xdcf3749d51e66858ee2443fcc0b92b33482986580aa2db686e5a0d1e5a07ffac
+- [√] 转账 `My Coin` hash:5FjtnMhLq3HhyANWWD7o99EmgA2dbdewanwSs6RBayS8
+- [√] `Faucet Coin` address1 mint hash:56yd4eK7o19HrDYp3FLosQAyCNs7jm8sSr79UABB71fi
+
+- [√] `Faucet Coin` address2 mint hash:3ZJpTd1NVLKQaE67rzRHKW8pngsCUcZQfqL9GTwiASSb
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
-
+- [√] nft package id :0x0fb1d4df2635adb9bc60f100e38f096a35724cf6cdd73b698604ac0d3271cf18
+- [√] nft object id : 0x814dfa05381a3258f5b39320046d2c89534fa1414ccc9903de8abfeab8a49de4
+- [√] 转账 nft  hash:C7MRHLB7VCeesttTh7P8zPzktzHyhw1mLdug9BdeMLv5
+- [√] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- ![img_3.png](img_3.png)
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [√] game package id :0x1a3ba37d2daf49c7b05caf6a2ca77329951d19026df2d26bf9c5b9301d92ae60
+- [√] deposit Coin hash:6af18uEXzmgzYQjdZLb64j9maWWM4K3kzGsFpdWdnnjv
+- [√] withdraw `Coin` hash:8wYZz3ENU6VTcaVuY2RKoKFrxNJfknXG5C1QD9nRAVbM
+- [√] play game hash:GKeA9wF4wzKQfysyMFJG1kV1gp4edeZABeUckvNkoWq6
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [√] swap package id :0x051485a42d89904bae697b2d99ef82873cb391f2e233e052959b7ced1962ecff
+- [√] call swap CoinA-> CoinB  hash :6iruEkxAVVCFB63kWp6MmUNQ965A1FMQpdGpCQ1fN1dr
+- [√] call swap CoinB-> CoinA  hash :2AEuu43uCHa7QX4vrYXscnuJNhUZtHJynJFUZ8bmwshF
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [√] save hash :81F4R3gDZgvTFUVYoWQDGZwqjGQZbXLreweYyUQ1AdRR
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)

@@ -45,18 +45,18 @@
 
 ## 05 Move Swap
 
-- [] swap package id :  0x46fb85b6741a545440b0eed059f2152bb6b47dfd10f36509b2780ecc7b5ca346
-- [] call swap CoinA-> CoinB hash :  9nPXcW9VqTvD4LsHG9WMZ8HfmkAMPq7UPcVzsWzdHTSB
-- [] call swap CoinB-> CoinA hash :  A5i884VwgzsatS15hC8rZDBbH8jHHrYMC7uYVvi7JYWY
+- [√] swap package id :  0x46fb85b6741a545440b0eed059f2152bb6b47dfd10f36509b2780ecc7b5ca346
+- [√] call swap CoinA-> CoinB hash :  9nPXcW9VqTvD4LsHG9WMZ8HfmkAMPq7UPcVzsWzdHTSB
+- [√] call swap CoinB-> CoinA hash :  A5i884VwgzsatS15hC8rZDBbH8jHHrYMC7uYVvi7JYWY
 
 ## 06 Dapp-kit SDK PTB
 
-- [] save hash :
+- [√] save hash : 8ZUdehTybkXLm5GW3dXKnuPJRBTqHtHScsGXCwENTD9T
 
 ## 07 Move CTF Check In
 
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [√] CLI call 截图 : ![截图](scan/CLI-call.png)
+- [√] flag hash :  GusFVityk257Li1vDbbGYzz33xq3JXwzZrdPYUgSrDug
 
 ## 08 Move CTF Lets Move
 

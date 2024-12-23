@@ -7,7 +7,7 @@
 - 工作经验: 9年
 - 技术栈: `Go` `Python`
 > 重要提示 请认真写自己的简介
-- 多年老运维，对系统架构和运维有丰富经验，最近在接触sui链跟tg相关的项目，学习下move相关知识
+- SRE，对Move特别感兴趣，想通过Move入门区块链
 - 联系方式: tg: `https://t.me/Carl_xc` 
 
 ## 任务
@@ -19,17 +19,17 @@
 - [X] package id 在 scan上的查看截图:![Scan截图](./images/02.jpg)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [X] My Coin package id : 0x2076506802cfdf80533f90e9b973fe5d2d258c3c86ce57249f91a017b5d9877c
+- [X] Faucet package id : 0x2076506802cfdf80533f90e9b973fe5d2d258c3c86ce57249f91a017b5d9877c
+- [X] 转账 `My Coin` hash: GzcdSrkjVcs6WLafCYdtjQ8W3fNadFttp3zcGBxedMQM
+- [X] `Faucet Coin` address1 mint hash: 0x05df3dd3f3c4836af29c1df7467dff16dadf29b4843373a1726e0b1575afb8a0
+- [X] `Faucet Coin` address2 mint hash: 0xae8da2da7d08b7591709a6e6ff95e1a64067526087749aa4ecf8bb5cb4b8e273
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [X] nft package id : 0xef9e556799a43706f830525df3383b1b14a2538cb84b5fa0ee867e494db462ce
+- [X] nft object id : 0xef96a32c4468c1bcdf79399f0baa475475eb4874d08811d579a1abe075acb225
+- [X] 转账 nft  hash: GmWJzpwrtBpfrrmBSu4sKKstQ44ToTC3V3KpKJahuPgu
+- [X] scan上的NFT截图:![Scan截图](./images/task-3.jpg)
 
 ##   04 Move Game
 - [] game package id :

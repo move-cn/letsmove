@@ -1,0 +1,55 @@
+#  代币A 袁大头
+## 模块发布，铸币权
+│  ┌──
+                │
+│  │ ObjectID: 0xc6c730b35f3971c13f1a8c829c8632ba0775f28cf55b93744dc12cc32f5f1f7e
+                │
+│  │ Sender: 0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38
+                │
+│  │ Owner: Account Address ( 0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38 )
+                │
+│  │ ObjectType: 0x2::coin::TreasuryCap<0xb6b7cc1b7b4e7183ba42341c22f10c56b86d70e14a02d4f321769c687b2dabd2::yuan_da_tou::YUAN_DA_TOU>   │
+│  │ Version: 415586838
+                │
+│  │ Digest: 8PfmZYdhpuvwMxFs5CVCnvY56uYCrLJNe48hK63Q31Gx
+                │
+│  └──
+
+## 铸币给Alice
+
+│ Created Objects:                                                                                                                     │
+│  ┌──                                                                                                                                 │
+│  │ ObjectID: 0xd51aa08144aac919d3a3574b056b65a8cd775ac594e519bd99a8a5ce31a9f441                                                      │
+│  │ Sender: 0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38                                                        │
+│  │ Owner: Account Address ( 0x7cbe5e6596e23266dd5763dd89b4ab1195516908ecde8febfe96685c7cbe6432 )                                     │
+│  │ ObjectType: 0x2::coin::Coin<0xb6b7cc1b7b4e7183ba42341c22f10c56b86d70e14a02d4f321769c687b2dabd2::yuan_da_tou::YUAN_DA_TOU>         │
+│  │ Version: 415586839                                                                                                                │
+│  │ Digest: XaCXU9giQvgySyQG2Yv3fi7C2jYp9kCUWgEtqwGGnLm                                                                               │
+│  └──   
+
+
+
+
+## jp铸币
+│  ┌──                                                                                                               │
+│  │ ObjectID: 0x7dd540dadf993cdc48300f0d6916d48fa49f433891699b2952c4472324de1143                                    │
+│  │ Sender: 0x7cbe5e6596e23266dd5763dd89b4ab1195516908ecde8febfe96685c7cbe6432                                      │
+│  │ Owner: Account Address ( 0x540105a7d2f5f54a812c630f2996f1790ed0e60d1f9a870ce397f03e4cec9b38 )                   │
+│  │ ObjectType: 0x2::coin::Coin<0x5004eab7e42fd66ad3b7475632ae3070e9a4015f8f8976009e7e8637592e9d76::jp::JP>         │
+│  │ Version: 416420240                                                                                              │
+│  │ Digest: DwxQv869J1xUBxKYw6odTpfnasNa4Fvfif82gSBC2s6m       
+
+
+
+
+
+export Package_A=0xb6b7cc1b7b4e7183ba42341c22f10c56b86d70e14a02d4f321769c687b2dabd2
+export Coin_Type_A=0xb6b7cc1b7b4e7183ba42341c22f10c56b86d70e14a02d4f321769c687b2dabd2::yuan_da_tou::YUAN_DA_TOU
+export TreasuryCap_A=0xc6c730b35f3971c13f1a8c829c8632ba0775f28cf55b93744dc12cc32f5f1f7e
+
+export Package_B=0x5004eab7e42fd66ad3b7475632ae3070e9a4015f8f8976009e7e8637592e9d76
+export Coin_Type_B=0x5004eab7e42fd66ad3b7475632ae3070e9a4015f8f8976009e7e8637592e9d76::jp::JP
+export TreasuryCap_B=0xdd789eee513521bcf04ad857aaa549e97017261bb7054fbf865a208a31c17d4b
+
+export COIN_A_ID=0xd51aa08144aac919d3a3574b056b65a8cd775ac594e519bd99a8a5ce31a9f441
+export COIN_B_ID=0x7dd540dadf993cdc48300f0d6916d48fa49f433891699b2952c4472324de1143

@@ -153,7 +153,7 @@ public fun create_currency<T: drop>(
 ```
 
 我们来逐一解释一下该函数的参数：
-- witness 是一个类型 `T` 的一次性证明者，确保货币只被创建一次。通过 sui::types::is_one_time_witness 进行检查。具体参考：https://move.sui-book.com/programmability/witness-pattern.html
+- witness 是一个类型 `T` 的一次性见证者，确保货币只被创建一次。通过 sui::types::is_one_time_witness 进行检查。具体参考：https://move.sui-book.com/programmability/witness-pattern.html
 - decimals 指定货币支持的小数位数，定义其精度。
 - symbol 是一个字节向量，表示货币的符号，例如 "USD" 或 "BTC"。
 - name 指定货币的名称。
