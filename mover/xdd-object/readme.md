@@ -18,3 +18,44 @@
 ## 01 hello move
 
 - [x] package id: 0x98b379e2c8041537e8435a2242f6604b76592656ba53ceb07891141afc92bbf3
+
+##   02 move coin
+- [] My Coin package id :
+- [] Faucet package id :
+- [] 转账 `My Coin` hash:
+- [] `Faucet Coin` address1 mint hash:
+- [] `Faucet Coin` address2 mint hash:
+
+##   03 move NFT
+- [] nft package id :
+- [] nft object id :
+- [] 转账 nft  hash:
+- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+
+##   04 Move Game
+- [] game package id :
+- [] deposit Coin hash:
+- [] withdraw `Coin` hash:
+- [] play game hash:
+
+##   05 Move Swap
+- [] swap package id :
+- [] call swap CoinA-> CoinB  hash :
+- [] call swap CoinB-> CoinA  hash :
+
+##   06 Dapp-kit SDK PTB
+- [] save hash :
+
+
+##   07 Move CTF Check In
+
+- [x] CLI call 截图 : ![截图](./img/task7.png)
+- [x] flag hash : 9tjFWpDcaUxuSBo3PeDgEUpEnksZgnHSh64jZuMYTmYU
+
+
+##   08 Move CTF Lets Move
+
+- [] proof :  
+- [] flag hash : 
+
+
