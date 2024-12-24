@@ -1,0 +1,47 @@
+# Move.toml 是 Move 项目的配置文件，类似于 Rust 的 Cargo.toml
+
+[package]
+# 包名，用于标识这个 Move 项目
+name = "task1"
+# Move 编译器版本，使用 2024.beta 版本
+# 如果要使用旧版 Move，可以设置 edition = "legacy"
+edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+# 项目许可证，例如 "MIT", "GPL", "Apache 2.0"
+# authors = ["..."]      # 项目作者列表
+
+# 依赖项配置
+[dependencies]
+# 导入 Sui 框架依赖
+# git: 指定 Sui 框架的 GitHub 仓库地址
+# subdir: 指定框架代码在仓库中的子目录
+# rev: 指定使用的版本分支（这里使用 testnet 测试网络版本）
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+# 远程依赖示例：使用 git 仓库作为依赖源
+# MyRemotePackage = { git = "https://some.remote/host.git", subdir = "remote/path", rev = "main" }
+
+# 本地依赖示例：使用本地路径作为依赖源
+# Local = { local = "../path/to" }
+
+# 解决依赖冲突示例：强制使用特定版本
+# Override = { local = "../conflicting/version", override = true }
+
+# 命名地址配置
+[addresses]
+# 设置模块的发布地址
+# 0x0 是占位符，部署时会被实际地址替换
+task1 = "0x0"
+
+# 命名地址可以在 Move 代码中通过 @name 访问
+# 例如：标准库导出了 std = "0x1"
+# alice = "0xA11CE"
+
+# 测试环境依赖配置
+[dev-dependencies]
+# 仅在 --test 和 --dev 模式下使用的依赖
+# Local = { local = "../path/to/dev-build" }
+
+# 测试环境地址配置
+[dev-addresses]
+# 仅在 --test 和 --dev 模式下使用的命名地址
+# alice = "0xB0B"

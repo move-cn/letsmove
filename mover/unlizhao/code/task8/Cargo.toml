@@ -1,0 +1,10 @@
+[package]
+name = "task8"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sha3 = "0.10"
+bcs = "0.1.4"
+serde = { version = "1.0", features = ["derive"] }
+hex = "0.4"
