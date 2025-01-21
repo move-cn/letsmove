@@ -49,5 +49,5 @@
 - [x] CLI call 截图 : ![截图](./images/movecall_check_in.png)
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof :  [85, 226, 119, 118, 21, 89, 218, 180]
+- [x] flag hash : 5YRGry2tx4XAb9s4rTDWj9AWEpUk9FDUfs2dYpTaX5bT
