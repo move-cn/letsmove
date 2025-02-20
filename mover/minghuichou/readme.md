@@ -16,7 +16,7 @@
 - [x] Sui cli version:1.43.1-2f52a7283e5f
 - [x] Sui钱包截图: ![Sui钱包截图](./images/task1/wallet.png)
 - [x] package id: 0x75ade509fb79cf09363072b29c7ae74d062e97100afcb19f9173dae18a10f6b6
-- [] package id 在 scan上的查看截图:![Scan截图](./images/task1/package.png)
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/task1/package.png)
 
 ##   02 move coin
 - [] My Coin package id : 
