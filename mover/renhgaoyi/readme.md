@@ -1,7 +1,7 @@
 ## 基本信息
-- Sui钱包地址: `0x1000000000000x`
+- Sui钱包地址: `0x7ba47d8343cf5e358f81511a56bb694ca9f35dafeb0513fb5c1ca030a8340938`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `自己的githubid`
+- github: `renhgaoyi`
 
 ## 个人简介
 - 工作经验: x年
@@ -13,17 +13,18 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:
-- [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
-- [] package id: 
-- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+- [√] Sui cli version:sui 1.42.1-homebrew
+
+- [√] Sui钱包截图: ![Sui钱包截图](./images/wallet.png)
+- [√] package id: 0xcb83bc09fd1ea7e5d0c0d2d767d660a79e0e911659d5ddfc46686bce0dc6773b
+- [√] package id 在 scan上的查看截图:![Scan截图](./images/package.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [] My Coin package id :
+- [] Faucet package id :
+- [] 转账 `My Coin` 
+- [] `Faucet Coin` 
+- [] `Faucet Coin` 
 
 ##   03 move NFT
 - [] nft package id :
