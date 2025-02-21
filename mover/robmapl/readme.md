@@ -12,10 +12,10 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:sui 1.42.2-55ba9e9399eb
-- [] Sui钱包截图: ![Sui钱包截图](./images/robmapl.png)
-- [] package id: 0x033d8556b49b84ed89a6edf51c6b15716998625ab01a899474b93c571e5572c4
-- [] package id 在 scan上的查看截图:![Scan截图](./images/robmapl_task1_code.png)
+- [√] Sui cli version:sui 1.42.2-55ba9e9399eb
+- [√] Sui钱包截图: ![Sui钱包截图](./images/robmapl.png)
+- [√] package id: 0x033d8556b49b84ed89a6edf51c6b15716998625ab01a899474b93c571e5572c4
+- [√] package id 在 scan上的查看截图:![Scan截图](./images/robmapl_task1_code.png)
 
 ##   02 move coin
 - [] My Coin package id : 
