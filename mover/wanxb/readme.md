@@ -1,29 +1,29 @@
 ## 基本信息
-- Sui钱包地址: `0x48f21c934406ce940fe743347c58b7f6392b08a03e2c22ebd3ec5d3fdfba65cc`
+- Sui钱包地址: `0x174ae3831dc4f39e0caa49f7a59a0a12e636465b9f017a8566d44f6b1273e8e0`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `xiaxianlin`
+- github: `wanxb`
 
 ## 个人简介
-- 工作经验: 13年
-- 技术栈: `React` `NextJs` `Rust` `Python` `TypeScript`
+- 工作经验: 8年
+- 技术栈: `Java` `.NET`
 > 重要提示 请认真写自己的简介
 - 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `xiaxianlin` 
+- 联系方式: tg: `https://t.me/caomobtc` 
 
 ## 任务
 
 ##   01 hello move  
-- [x] Sui cli version: `sui 1.42.2-homebrew`
+- [x] Sui cli version: sui 1.42.2-55ba9e9399eb
 - [x] Sui钱包截图: ![Sui钱包截图](./images/wallet.png)
-- [x] package id: 0x012d2cacb3bc63f99cc28631c74c0cb15a4ff998556a9fe9fde69002e78bb307
-- [x] package id 在 scan上的查看截图:![Scan截图](./images/task1_scan.png)
+- [x] package id: 0x9f050045c3841ec26a00caec4ef5f24b723704813634765bad038a382f4f232a
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/task1.png)
 
 ##   02 move coin
-- [x] My Coin package id : 0xf9896d706d2461eb997a42f53ef8ddcd1b77e622516ae95166e9cad1e102723e
-- [x] Faucet package id : 0xf9896d706d2461eb997a42f53ef8ddcd1b77e622516ae95166e9cad1e102723e
-- [x] 转账 `My Coin` hash: GH1DmrZdLdZLx4BMwUou1BLpYyyU1X3yGZHyja9M4dS7
-- [x] `Faucet Coin` address1 mint hash: AfwzcFR9urcXU4os2PN5aGKrGHWobAHHuN9xzSssbUoC
-- [x] `Faucet Coin` address2 mint hash: 4RPPV5MFEmkzzh7g2LJJdPz55AmpRn8iKxmnYmcd3N5g
+- [] My Coin package id : 
+- [] Faucet package id : 
+- [] 转账 `My Coin` hash:
+- [] `Faucet Coin` address1 mint hash:
+- [] `Faucet Coin` address2 mint hash:
 
 ##   03 move NFT
 - [] nft package id :
