@@ -1,0 +1,4 @@
+sui client call --package 0x8a79421b75e0a2510ea22b1580620b7f3acc48ac6e79ba21094da50fb748616c --module flip_coin --function add_coin --args 0x56cb32d4f6dde956da763d2988e3aa5f11a8d32fde6fb450d5342f601b53fbe0 0x816c0ef0cd3f1f9e2d773c61292138b8e3f0a5d38aeb77a1480ef35d99f75a2c
+
+
+sui client call --package 0x8a79421b75e0a2510ea22b1580620b7f3acc48ac6e79ba21094da50fb748616c --module flip_coin --function play --args 0x56cb32d4f6dde956da763d2988e3aa5f11a8d32fde6fb450d5342f601b53fbe0 0x8 true 0x9fcf2d549c36c531fc03d28bc17520b48ae34f7e0aa67ffade3f2931e0f5d598
