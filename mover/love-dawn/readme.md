@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x751b6de3bc6dbc324241199aee802a53a2cc73d02751f0b1622b15fec17ed51c`
+- Sui钱包地址: `0xa88c19ec3c8cb98c6b41d6d8be7a9405b9e04f6473576033eec8b2381f979c42`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `daybreak-code`
 
