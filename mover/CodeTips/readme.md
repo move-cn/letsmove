@@ -4,7 +4,7 @@
 - github: `CodeTips`
 
 ## 个人简介
-- 工作经验: 15年
+- 工作经验: 10年
 - 技术栈: `Objective-C` `Swift` `Python` `Golang` `C++` 等
 > 重要提示 请认真写自己的简介
 - 移动安全，对Move特别感兴趣，想通过Move入门区块链
