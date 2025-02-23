@@ -7,16 +7,16 @@
 - 工作经验: 6年
 - 技术栈: `PHP` `Java`
 > 重要提示 请认真写自己的简介
-- 某大厂在职工程师，多年web2开发运维经验，对区块链技术感兴趣，对Move特别感兴趣，想通过Move入门区块链
+- 大厂在职工程师,多年web2开发运维经验，对区块链技术感兴趣，对Move特别感兴趣，想通过Move入门区块链
 - 联系方式: tg: `@linghuadeya` 
 
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:sui 1.43.1-homebrew
-- [] Sui钱包截图: ![img.png](img.png)
-- [] package id: 0xa3a534e29a7384ae3768291184efa0e36aa028361d5e3cbbd123ac4e29d54e39
-- [] package id 在 scan上的查看截图:![img_1.png](img_1.png)
+- [√] Sui cli version:sui 1.43.1-homebrew
+- [√] Sui钱包截图: ![img.png](img.png)
+- [√] package id: 0xa3a534e29a7384ae3768291184efa0e36aa028361d5e3cbbd123ac4e29d54e39
+- [√] package id 在 scan上的查看截图:![img_1.png](img_1.png)
 
 ##   02 move coin
 - [] My Coin package id : 
