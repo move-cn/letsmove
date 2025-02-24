@@ -13,8 +13,8 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version: sui 1.43.1-homebrew
-- [] Sui钱包截图: ![Sui钱包截图](![alt text](image.png))
-- [] package id: 0x1d457b47dcf43504e3135761a4e1687fe13341a251ff03fe4f0dac4ec3e0a99b
-- [] package id 在 scan上的查看截图:![Scan截图](![alt text](image-1.png))
+- [x] Sui cli version: sui 1.43.1-homebrew
+- [x] Sui钱包截图: ![Sui钱包截图](![alt text](image.png))
+- [x] package id: 0x1d457b47dcf43504e3135761a4e1687fe13341a251ff03fe4f0dac4ec3e0a99b
+- [x] package id 在 scan上的查看截图:![Scan截图](![alt text](image-1.png))
 
