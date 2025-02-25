@@ -24,19 +24,19 @@
 
 - [] My Coin package id :
   0xa0ea9faac705ed73e02be8499394b4fa9e4a1ae843ccc7fc35f1ebbd275a2b63
-  ![alt text](images/task21.png)
+  ![alt text](./images/task21.png)
 - [] Faucet package id :
   0xa3673245fe57b05699f1440e2c3968ca62cf1e177bfb54df3595b9d4d6004398
-  ![alt text](images/task22.png)
+  ![alt text](./images/task22.png)
 - [] 转账 `My Coin` hash:
   CH2LguYEF8TdhqwGNDoLSpZM2P3QND1hjLawDn3TonVJ
-  ![alt text](images/task23.png)
+  ![alt text](./images/task23.png)
 - [] `Faucet Coin` address1 mint hash:
   9HdJ4QKfhS9TDDYCDeJvqXtH1rUVxTaxpXZWNHweFnwL
-  ![alt text](images/task24.png)
+  ![alt text](./images/task24.png)
 - [] `Faucet Coin` address2 mint hash:
   Ayf9oufBYUCxiT4QEwHmJkUM7RLXaQ6cTVxVuZpNEE5Y
-  ![alt text](image.png)
+  ![alt text](./images/task25.png)
 
 ## 03 move NFT
 
