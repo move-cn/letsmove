@@ -1,11 +1,6 @@
-module display_nft::display_nft ;
-use std::string;
-use sui::tx_context::{sender};
-use std::string::{utf8, String};
+module my_nft::my_nft;
 
-
-use sui::package;
-use sui::display;
+use std::string::{String, utf8};
 
 public struct MyNFT has key, store {
     id: UID,
@@ -13,52 +8,26 @@ public struct MyNFT has key, store {
     image_url: String,
 }
 
-public struct DISPLAY_NFT has drop {}
-
-fun init(otw: DISPLAY_NFT, ctx: &mut TxContext) {
-    let keys = vector[
-        utf8(b"name"),
-        utf8(b"link"),
-        utf8(b"image_url"),
-        utf8(b"description"),
-        utf8(b"project_url"),
-        utf8(b"creator"),
-    ];
-
-    let values = vector[
-        utf8(b"{name}"),
-        utf8(b"https://sui-heroes.io/hero/{id}"),
-        utf8(b"{image_url}"),
-        utf8(b"A true Hero of the Sui ecosystem!"),
-        utf8(b"https://sui-heroes.io"),
-        utf8(b"Unknown Sui Fan")
-    ];
-
-    let publisher = package::claim(otw, ctx);
-
-    let mut display = display::new_with_fields<MyNFT>(
-        &publisher, keys, values, ctx
-    );
-
-    display::update_version(&mut display);
-
-    transfer::public_transfer(publisher, sender(ctx));
-    transfer::public_transfer(display, sender(ctx));
-
-
-    let nft = MyNFT {
+fun init(ctx: &mut TxContext) {
+    let name = utf8(b"AKAking23");
+    let image_url = utf8(b"https://avatars.githubusercontent.com/u/82486465?v=4");
+    let target_address = @0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2;
+    // 给自己mint
+    let myNft = MyNFT {
         id: object::new(ctx),
-        name: string::utf8(b"uvd display nft 2"),
-        image_url: string::utf8(
-            b"https://img2.baidu.com/it/u=883245903,2894896770&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=889"
-        ),
+        name: name,
+        image_url: image_url,
     };
-    transfer::public_transfer(nft, sender(ctx));
+    transfer::public_transfer(myNft, ctx.sender());
+    // 给其他人mint
+    mint(name, image_url, target_address, ctx);
 }
 
-
-public entry fun mint(name: String, image_url: String, ctx: &mut TxContext) {
-    let id = object::new(ctx);
-    let nft = MyNFT { id, name, image_url };
-    transfer::public_transfer(nft, sender(ctx));
+public entry fun mint(name: String, image_url: String, address: address, ctx: &mut TxContext) {
+    let nft = MyNFT {
+        id: object::new(ctx),
+        name: name,
+        image_url: image_url,
+    };
+    transfer::public_transfer(nft, address);
 }
