@@ -4,6 +4,10 @@ sui client call --package 0x2 \
 --type-args 0x76ed920226db822677e4f23b47776f9ab4e1f5731ce5f7a44786ddf137cdfcd5::rmb::RMB \
 --args 0x1dc12ea9cef2afe350ecfa5068adf0d2e1384545551579b5a34982058d284dee 10000000000 0x05f384e5792c5834c3b57dbd2f110134eaf64f11f1a40636ddfe84283f94daa5
 
+sui client new-address ed25519 charles
+
+sui client switch --address charles
+
 sui client call --package 0x2 \
 --module coin \
 --function mint_and_transfer \
