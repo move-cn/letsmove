@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x0f1faac751120fd59dd0c88c5699b1fb980dca8c60e2224d9ae8fbea804d6d73`
+- Sui钱包地址: `0x0b13c7d95c541e8574d307395f4149ae90d045d839d498491f9daf64a28ecf75`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `HKing147`
 
@@ -26,10 +26,10 @@
 - [] `Faucet Coin` address2 mint hash:
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id : 0xdc9ab71a1ebeaf7548e3e8919bbb01ef2a42124b6902fbcc9c520b7d7321ef85
+- [x] nft object id : 0xe61bb6ef52c522aae20594cf67eba47f6fe24798a21c4b2d0896ed7e58d3c311
+- [x] 转账 nft  hash: 7yLmQHXX8vc1cK1KzAQABXprD3aasNu4HBS72o8wwmV2
+- [x] scan上的NFT截图:![Scan截图](./images/nft.png)
 
 ##   04 Move Game
 - [] game package id :
