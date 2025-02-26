@@ -33,3 +33,7 @@
 ##   07 Move CTF Check In
 - [x] CLI call 截图: ![CLI](./notes/task7/CLI.png)
 - [x] flag hash: 4JsYgqQUgzDuCtmaZarofvU4LHuKkFeXJKDoT7ACBXwy
+
+## 08 Move CTF Lets Move
+- [x] proof: [60,226,79]
+- [x] flag hash: 3mdFyJhEN9QLhketsNqpga1Q7rsHBYpT7P3cwk149XR3
