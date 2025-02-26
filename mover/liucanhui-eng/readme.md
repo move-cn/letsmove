@@ -23,7 +23,7 @@
 - [x] Faucet package id : 0x76ed920226db822677e4f23b47776f9ab4e1f5731ce5f7a44786ddf137cdfcd5
 - [x] 转账 `My Coin` hash: FGZ3XdAeVsdfATzUpiKmFt6UC3a6XZi1Ex2N29Ht8CDn
 - [x] `Faucet Coin` address1 mint hash: ycaswdiVbhK3gezmJcr7iS9ioFyzuaw18rGVyequxkE
-- [x] `Faucet Coin` address2 mint hash: Fdsski24soz4TT1SnRNpFBtghNZyd3t3e7s12NzrENam
+- [x] `Faucet Coin` address2 mint hash: BprvzUcLW3z2NmQQifztTkWDxqndxBgiQ3bKU7eAjSgT
 
 ##   03 move NFT
 - [x] nft package id : 0xe0adb5b805aa84f407250ee1307963f10a9dd45b0a3fd57420debfb4e2914aaf
