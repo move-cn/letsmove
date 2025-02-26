@@ -26,9 +26,9 @@
 - [x] `Faucet Coin` address2 mint hash: `2ak7vJD9Ljt19KREPH466HxEnBHWa5D2ChFnNTa3oZsR`
 
 ##   03 move NFT
-- [x] nft package id : `0xdaa7de6902be62a66c7a01adf1a9446eb14b99bb52346fd1e85c2722ac5939f3`
-- [x] nft object id : `0x1ee9400ab20d4ea4a0b82f3d4482724b15649e7d8348ff78e371ec30e1e17ba8`
-- [x] 转账 nft  hash: `CHTorKpFcbcn5SJTqjbEp9FdQuu1QqsmVJhF3uk6BNtf`
+- [x] nft package id : `0x5506bc8a139cc2bfbb6209cd6da80ce8e4ceb2b7497ca002e79a9f3ccbee1dc1`
+- [x] nft object id : `0x90fdab41ad10beb60d3a69d581487ab68a6ce4663d7c2e52794b9b285cff0f87`
+- [x] 转账 nft  hash: `9KgGZ5DfPuqgcHJjmt5X9xnKwtHawvq8b6tdsUwQigDx`
 - [x] scan上的NFT截图:![Scan截图](./images/nft.png)
 
 ##   04 Move Game

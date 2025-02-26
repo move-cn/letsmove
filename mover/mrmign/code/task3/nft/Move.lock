@@ -21,7 +21,7 @@ dependencies = [
 ]
 
 [move.toolchain-version]
-compiler-version = "1.42.1"
+compiler-version = "1.43.1"
 edition = "2024.beta"
 flavor = "sui"
 
@@ -31,4 +31,10 @@ flavor = "sui"
 chain-id = "4c78adac"
 original-published-id = "0xdaa7de6902be62a66c7a01adf1a9446eb14b99bb52346fd1e85c2722ac5939f3"
 latest-published-id = "0xdaa7de6902be62a66c7a01adf1a9446eb14b99bb52346fd1e85c2722ac5939f3"
+published-version = "1"
+
+[env.mainnet]
+chain-id = "35834a8a"
+original-published-id = "0x5506bc8a139cc2bfbb6209cd6da80ce8e4ceb2b7497ca002e79a9f3ccbee1dc1"
+latest-published-id = "0x5506bc8a139cc2bfbb6209cd6da80ce8e4ceb2b7497ca002e79a9f3ccbee1dc1"
 published-version = "1"
