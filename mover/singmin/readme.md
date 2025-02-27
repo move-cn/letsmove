@@ -1,4 +1,4 @@
-## 基本信息
+ ## 基本信息
 - Sui钱包地址: `0x90ebcdad368bdb78b30a90bd8e24d9a69befa72bf85a17adb7e84fe6d7092ef9`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `singmin`
