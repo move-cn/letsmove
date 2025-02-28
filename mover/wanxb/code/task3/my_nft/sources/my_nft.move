@@ -1,34 +1,61 @@
 /// Module: my_nft
 module my_nft::my_nft;
-use std::string;
 use std::string::String;
-use sui::transfer::transfer;
+use sui::package;
+use sui::display;
 use sui::tx_context::sender;
 
-public struct MyNFT has key{
+public struct MyNFT has key, store {
     id: UID,
     name: String,
     image_url: String,
-}
- 
-fun init(ctx: &mut TxContext){
-
-    let my_nft = MyNFT{
-        id: object::new(ctx),
-        name: string::utf8(b"wanxb NFT"),
-        image_url: string::utf8(b"https://avatars.githubusercontent.com/u/20410636"),
-    };
-
-    transfer(my_nft,sender(ctx));
+    description: String,
 }
 
-public entry fun mint(url: String,ctx:&mut TxContext){
+public struct MY_NFT has drop{}
 
-    let my_nft = MyNFT{
+fun init(otw: MY_NFT, ctx: &mut TxContext){
+    let keys = vector[
+        b"name".to_string(),
+        b"image_url".to_string(),
+        b"description".to_string(),
+        b"project_url".to_string(),
+        b"creator".to_string(),
+    ];
+
+    let values = vector[
+        b"{name}".to_string(),
+        b"{image_url}".to_string(),
+        b"{description}".to_string(),
+        b"https://github.com/wanxb".to_string(),
+        b"wanxb".to_string(),
+    ];
+
+    let publisher = package::claim(otw, ctx);
+
+    let mut display = display::new_with_fields<MyNFT>(
+        &publisher, keys, values, ctx
+    );
+
+    display.update_version();
+
+    transfer::public_transfer(publisher, ctx.sender());
+    transfer::public_transfer(display, ctx.sender());
+}
+
+public entry fun mint(name: String, image_url: String, description: String, ctx: &mut TxContext){
+   let nft = MyNFT{
         id: object::new(ctx),
-        name: string::utf8(b"wanxb NFT"),
-        image_url: url,
+        name,
+        image_url,
+        description
     };
 
-    transfer(my_nft,sender(ctx));
+    transfer::public_transfer(nft, ctx.sender());
+}
+
+public entry fun transfer(
+    nft: MyNFT, recipient: address, _: &mut TxContext
+) {
+    transfer::public_transfer(nft, recipient)
 }
