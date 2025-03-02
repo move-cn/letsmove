@@ -1,8 +1,8 @@
 module hello_move::hello {
     use std::ascii::{String, string};
-    use sui::object::{Self,UID};
+    // use sui::object::{UID};
     use sui::transfer::transfer;
-    use sui::tx_context::{TxContext, sender};
+    use sui::tx_context::{sender};
 
     public struct Hello has key{
         id:UID,
