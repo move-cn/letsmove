@@ -13,9 +13,9 @@
 ## 任务
 
 ##   01 hello move  
-- [✓] Sui cli version: sui 1.38.3-homebrew
+- [✓] Sui cli version: sui 1.43.1-homebrew
 - [✓] Sui钱包截图: ![Sui钱包截图](./images/qb.jpg)
-- [✓] package id: 0x303a06616ce8472c1af56b224fb916d7b1ff2bf078663d572cad1e3a94d3e3a5
+- [✓] package id: 0xb1f66a17bec1c70c453b0ad18bfc1fe9ef5b5bf5e17b720f0a6eae8e38df8cbf
 - [✓] package id 在 scan上的查看截图:![Scan截图](./images/l.jpg)
 
 ##   02 move coin
@@ -30,7 +30,7 @@
 - [] nft package id :
 - [] nft object id : 
 - [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/nft.jpg)
+- [] scan上的NFT截图:
 
 ##   04 Move Game
 - []  game package id :
