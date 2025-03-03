@@ -23,25 +23,25 @@
 
 ## 01 hello move  
 
-- [✔️] Sui cli version: sui 1.42.2-homebrew
-- [✔️] Sui钱包截图: ![Sui钱包截图](./images/sui_wallet.jpg)
-- [✔️] package id: 0xbd04d0e86fc079008fe47b0652b1dd904fb26844bdcd81e4d900d546fff18dc3
-- [✔️] package id 在 scan上的查看截图:![Scan截图](./images/YiShengYouNi_contract.jpg)
+- [x] Sui cli version: sui 1.42.2-homebrew
+- [x] Sui钱包截图: ![Sui钱包截图](./images/sui_wallet.jpg)
+- [x] package id: 0xbd04d0e86fc079008fe47b0652b1dd904fb26844bdcd81e4d900d546fff18dc3
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/YiShengYouNi_contract.jpg)
 
 ## 02 move coin
 
-- [] My Coin package id :
-- [] Faucet package id :
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id : 0xaee23c549056b6865c8f00d1da90e70e44e14835650374eb25b6b812680075fa
+- [x] Faucet package id : 0x1932fe99395ddc191b03144fc9d373936d26c15d07195a6796943113cf3147d5
+- [x] 转账 `My Coin` hash: ANQDAkcRubBNHYYfj7iCBj31qX37jET6LukHwu1r43N7
+- [x] `Faucet Coin` address1 mint hash: C8UGjUBbszxaujLd9MBfBrj6ZgDyfKdcdguNvhRY2Htp
+- [x] `Faucet Coin` address2 mint hash: D86eDWdxLF4BaeHpoZJsXMcFuYdAyjqMW69ATDC315Nx
 
 ## 03 move NFT
 
-- [✔️] nft package id : 0x078f380879c1f335880ee39457f078e987eccc41ab59d61f26ef50433e50b30d
-- [✔️] nft object id : 0x00b8c36fda9d2cdd0ca0cbe615f72e0326c9fa746b12015d261bb1e257517e1b
-- [✔️] 转账 nft  hash: FLXix3JhPHtPXHJBRcL6t5x8CqTHf8mqdSuhZRpvh8tC
-- [✔️] scan上的NFT截图:![Scan截图](./images/YiShengYouNi_NFT.png)
+- [x] nft package id : 0x078f380879c1f335880ee39457f078e987eccc41ab59d61f26ef50433e50b30d
+- [x] nft object id : 0x00b8c36fda9d2cdd0ca0cbe615f72e0326c9fa746b12015d261bb1e257517e1b
+- [x] 转账 nft  hash: FLXix3JhPHtPXHJBRcL6t5x8CqTHf8mqdSuhZRpvh8tC
+- [x] scan上的NFT截图:![Scan截图](./images/YiShengYouNi_NFT.png)
 
 ## 04 Move Game
 
