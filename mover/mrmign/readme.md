@@ -48,8 +48,8 @@
 ##   07 Move CTF Check In
 - [x] flag str: ![截图](./images/flagstr.png)
 - [x] CLI call 截图 : ![截图](./images/task7_call.png)
-- [x] flag hash : `0x7c8d8f04d9c99f18231ef3c1e89e2db9e0646fb31334f9ab8204e3a687eec71d`
+- [x] flag hash : `6iiS4wvwMFrP2THBKbYHoi9wEjDkS8jHwVaPYf1EVPVy`
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof : [119, 24, 89, 4]
+- [x] flag hash : `9dMWXRk6J1SNDyeVa8gsDVHFiVG1uW5rBRQ95j4znnVE`
