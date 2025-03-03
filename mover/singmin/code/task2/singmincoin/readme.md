@@ -37,7 +37,7 @@ address =0x30a08b3623bc390a9b77e6d832ee606e6870a210de89263fe9b5c0eeb8770b39
 
 sui client call --function mint --module singmincoin --package 0x6d0c64d6f81d069b337501c793d4eb6d2a2cb8ad4e00d77a379640519134e7f5 --args 0x77effe3db60bd976b7a01512fdca61d98dbfa9301a29c183fb0828518ddc7ca2 10000 0x77bd6d097331cdcf924e950f605025e8296ad6f383b41d88f9e1c881aef55d2f
 
-sui client call --function mint --module <> --packge <packge_ID> --args <TREASURYCAP_ID> 数量 <address>
+sui client call --function <function_name> --module <> --packge <packge_ID> --args <TREASURYCAP_ID> 数量 <address>
 
 
 <!-- 主网部分 -->

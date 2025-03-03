@@ -1,7 +1,10 @@
-
 module singmin_faucet_coin::singmin_faucet_coin {
     use sui::coin::{Self, Coin, TreasuryCap};
     use sui::balance;
+    use sui::transfer;
+    use sui::tx_context::{Self, TxContext};
+    use sui::object::{Self, UID};
+    use std::option;
  
     public struct SINGMIN_FAUCET_COIN has drop {}
  
@@ -33,10 +36,10 @@ module singmin_faucet_coin::singmin_faucet_coin {
         }, ctx.sender());
     }
  
-    public entry fun mint(supply: &mut MySupply, value: u64, ctx: &mut TxContext) {
+    public entry fun mint(supply: &mut MySupply, value: u64, recipient: address, ctx: &mut TxContext) {
         let balance = balance::increase_supply(&mut supply.supply, value);
         let coin = coin::from_balance(balance, ctx);
-        transfer::public_transfer(coin, ctx.sender());
+        transfer::public_transfer(coin, recipient);
     }
  
     public fun burn(treasury_cap: &mut TreasuryCap<SINGMIN_FAUCET_COIN>, coin: Coin<SINGMIN_FAUCET_COIN>) {
