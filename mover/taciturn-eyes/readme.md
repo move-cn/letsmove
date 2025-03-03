@@ -2,7 +2,7 @@
 
 - Sui 钱包地址: 0xb39fddbbfbc12a5a4e79c83fc9f56ee6b9ae996b24b77e0355b0e77e56907b0d
 
-> 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
+  > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 
 - github: [taciturn-eyes (Zk Jane)](https://github.com/taciturn-eyes)
 
@@ -30,24 +30,22 @@
 
 ## 02 move coin
 
-- [] My Coin package id :
-- [] Faucet package id :
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id :0x117153df0042b9182ad0d4ebb558893d37907b2498f415ba9cb2d04a2b5524cc
+- [x] Faucet package id : 0x2ad09537ce03278571eda137c2fd779bb4715d9d5b4a4defeebbcd4deffc38ff
+- [x] 转账 `My Coin` hash: APoozx3ZLY7SCVtgmjZVmtQnDZ36ynRc5EnGfKv3REdK
+- [x] `Faucet Coin` address1 mint hash:27GJ9eP8xhnmHQu5LR3beD8Z9M4fqXtgKNiSQGUMYu8E
+- [x] `Faucet Coin` address2 mint hash:AzCVrHFf2pMoqzYy8PqSuVZRdN3mcmAPApzsk7Sj9erZ
 
 ## 03 move NFT
 
-- [] nft package id
-- [] nft object id
-- [] 转账 nft
-- [] scan 上的 NFT 截图:![Scan截图](./images/NFT.png)
-<!--
-- [x] nft package id :0x27d718cfd4d67bed8f6509b7703834d54dc7e7b35ca586453826dfc93ac5e086
-- [x] nft object id :0x38e7e4e259373f81af93585a37c063c0bdbc09e530f50a2c8ac2196ce52507d0
-- [x] 转账 nft hash:DLcseSHQd1RnytQfKCrBuiD13fZXRFi9EroXwJVNHR8K
+- [x] nft package id :0x968763e8653d29345327273a0a2602029499c141ae5b8487ad766ed715cae179
+- [x] nft object id :0x84f5470143ed89154d9a958ace5a547fa5b57340ca6cf22f483c8c0962c2610a
+- [x] 转账 nft hash:5HZgWXETZqsBpvqUSiSCUP7a3g57SzWkBFaaL88xWPDm
 - [x] scan 上的 NFT 截图:![Scan截图](./images/NFT.png)
-      -->
+<!--
+  给地址0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
+  mint NFT 哈希：HX5Gzn77Sh3uL63RSLco4AvfPMhqDgvjDSRUR8CLxjLK
+ -->
 
 ## 04 Move Game
 
