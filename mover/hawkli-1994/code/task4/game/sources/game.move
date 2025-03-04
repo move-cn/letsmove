@@ -12,7 +12,7 @@ module game::game {
     use faucet_coin::faucet_coin::{Self, FAUCET_COIN};
     use sui::coin::{Self, Coin};
     use sui::balance::{Self, Balance};
-    use sui::random::{Self, Random};
+    use sui::random::{Self, Random, RandomInner};
 
     const ErrUserInsufficientBalance: u64 = 1000;
     const ErrGameInsufficientBalance: u64 = 1001;
@@ -35,6 +35,18 @@ module game::game {
         transfer::share_object(game);
         let admin = Admin {id: object::new(ctx)};
         transfer::transfer(admin, ctx.sender());
+        
+        let inner = RandomInner {
+            1,
+            epoch: ctx.epoch(),
+            randomness_round: 0,
+        };
+
+        let self = Random {
+            id: object::randomness_state(),
+            inner: versioned::create(1, inner, ctx),
+        };
+        transfer::share_object(self);
     }
 
     public entry fun Deposit(game: &mut Game, coin: &mut Coin<FAUCET_COIN>, amount: u64) {
