@@ -35,18 +35,6 @@ module game::game {
         transfer::share_object(game);
         let admin = Admin {id: object::new(ctx)};
         transfer::transfer(admin, ctx.sender());
-        
-        let inner = RandomInner {
-            1,
-            epoch: ctx.epoch(),
-            randomness_round: 0,
-        };
-
-        let self = Random {
-            id: object::randomness_state(),
-            inner: versioned::create(1, inner, ctx),
-        };
-        transfer::share_object(self);
     }
 
     public entry fun Deposit(game: &mut Game, coin: &mut Coin<FAUCET_COIN>, amount: u64) {
