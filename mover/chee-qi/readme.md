@@ -51,9 +51,17 @@
 ## 04 Move Game
 
 - [] game package id :
+  0xc1a110c53688d31c41a263e3a99e7e0f4ad81fabe4946d55297955c07baa2a04
+  ![alt text](images/task41.png)
 - [] deposit Coin hash:
+  9awoX4vsgGqaBmmJphJ8ggvpwmw4y7Dp6hQ2wpgwvjkJ
+  ![alt text](images/task42.png)
 - [] withdraw `Coin` hash:
+  3rZwcdhdnuQEdXoxEey9SNbRzVTQD76wuaw5J9ApWGmr
+  ![alt text](images/task43.png)
 - [] play game hash:
+  7umxiFjVJmjn2nttAkZ9QxNSHh3fSHkZr1q6fFXPmQyD
+  ![alt text](images/task44.png)
 
 ## 05 Move Swap
 
