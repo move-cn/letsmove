@@ -27,3 +27,9 @@ sui client call --package 0xe52f0062c662622923977d1da1e3e9d13a0f0024179ac8fae3cb
 EPqox4xbyQCrM8LUG4XULLA7ho7LGjfpNq49ujkZYdki
 
 0x4418b0d3f84534af280ad2f4ab813d5129eb6995552018f6b43961c2597499d9
+
+<!-- 新的发布 -->
+HbFsudh74eW6dnZM1jV2QnVTTa48wD1PNTtkHvPz4dkS
+
+<!-- mainnet -->
+发布地址 Cw8BYbo9xmBrUKJ6C89tRkbrYpQZAP1Lu8MnJPW1vYAp
