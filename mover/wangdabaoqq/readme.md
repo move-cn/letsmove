@@ -1,7 +1,7 @@
 <!--
  * @Author: baobaobao
  * @Date: 2025-03-05 13:59:18
- * @LastEditTime: 2025-03-05 14:49:57
+ * @LastEditTime: 2025-03-05 14:54:22
  * @LastEditors: baobaobao
 -->
 ## 基本信息
@@ -19,10 +19,10 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version: sui 1.44.2-homebrew
-- [] Sui钱包截图: ![Sui钱包截图](./images/WechatIMG230.jpg)
-- [] package id: 0x5433fc550d1fd6cfc5d12891545e9a2dbd41616474a3e2a54d18f71f6fe60deb
-- [] package id 在 scan上的查看截图:![Scan截图](./images/SCR-20250305-ndvg.png)
+- [x] Sui cli version: sui 1.44.2-homebrew
+- [x] Sui钱包截图: ![Sui钱包截图](./images/WechatIMG230.jpg)
+- [x] package id: 0x5433fc550d1fd6cfc5d12891545e9a2dbd41616474a3e2a54d18f71f6fe60deb
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/SCR-20250305-ndvg.png)
 
 ##   02 move coin
 - [] My Coin package id : 
