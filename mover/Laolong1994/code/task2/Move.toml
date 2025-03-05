@@ -1,0 +1,24 @@
+[package]
+name = "task2"
+edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+publish-at = "0x63926a3402c6085c1cea8af0e6ff15f67ae04e4e2d3d54b0c700dfa2d55ab43c"
+# license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
+# authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+task2 = "0x63926a3402c6085c1cea8af0e6ff15f67ae04e4e2d3d54b0c700dfa2d55ab43c"
+
+
+[dev-dependencies]
+# The dev-dependencies section allows overriding dependencies for `--test` and
+# `--dev` modes. You can introduce test-only dependencies here.
+
+
+[dev-addresses]
+# The dev-addresses section allows overwriting named addresses for the `--test`
+# and `--dev` modes.
+# alice = "0xB0B"
+
