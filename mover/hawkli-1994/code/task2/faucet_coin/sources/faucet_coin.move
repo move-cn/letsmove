@@ -11,9 +11,7 @@ module faucet_coin::faucet_coin {
 
 
     /// The type identifier of FAUCET_COIN (one-time witness type)
-    public struct 
-    
-    FAUCET_COIN has drop {}
+    public struct FAUCET_COIN has drop {}
 
     /// The main Coin struct
     public struct FaucetCoin has drop {}
