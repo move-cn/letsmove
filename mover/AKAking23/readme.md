@@ -23,11 +23,11 @@
 
 ## 02 move coin
 
-- [] My Coin package id :
-- [] Faucet package id :
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [✅] My Coin package id :0x36b08d9d4653a30bb01177d04d32c39ba1eadf1d5b88ab201a2ecadb1ff36463
+- [✅] Faucet package id :0x411103fd7f11ddf98e5aa2ead6ca0292cd7b029b0223965cfebcd4b1132bfc07
+- [✅] 转账 `My Coin` hash:C69gFdtMoBb211FZSCQUwPtdkYXyXT79z4jf49mB5WUo
+- [✅] `Faucet Coin` address1 mint hash:FK1HgeRgdWcPUeUfc2QWxhhn4MbYYUgUXxddd7FjokxN
+- [✅] `Faucet Coin` address2 mint hash:C6xeDyVqpr9JkFRosipp93AFW2B3hwJpzgw22vW22m3B
 
 ## 03 move NFT
 
