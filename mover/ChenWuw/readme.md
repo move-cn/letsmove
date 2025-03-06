@@ -13,7 +13,7 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:
+- [] Sui cli version:sui 1.40.3-fea2f2707d4a
 - [] Sui钱包截图: ![Sui钱包截图](./code/images/1740585624118.jpg)
 - [] package id: 0xdecda625218c9be7101a2a1bd273a37631c41c393b18ee6b4570ef39e993dd0b
 - [] package id 在 scan上的查看截图:![Scan截图](./code/images/scan.jpg)
