@@ -3,9 +3,16 @@ import {
   useSignAndExecuteTransaction,
 } from "@mysten/dapp-kit";
 import { Transaction } from "@mysten/sui/transactions";
-import { Button } from "@radix-ui/themes";
+import { Button, Flex } from "@radix-ui/themes";
 import dayjs from "dayjs";
-import { depositCoin, pool, borrowCoin, repayDebt, nUSDC } from "navi-sdk";
+import {
+  depositCoin,
+  pool,
+  borrowCoin,
+  repayDebt,
+  nUSDC,
+  withdrawCoin,
+} from "navi-sdk";
 import { useState } from "react";
 
 const getAmount = () => {
@@ -23,7 +30,8 @@ export function Task() {
         setDigest(res.digest);
       },
       onError: (error) => {
-        console.log("交易失败", error.message);
+        console.log(">>>>>>交易失败<<<<<<");
+        console.error(error.message);
       },
     });
 
@@ -46,16 +54,37 @@ export function Task() {
     console.log("t:", t);
     signAndExecuteTransaction({ transaction: tx });
   };
+
+  const withdrawTransaction = async () => {
+    if (!account) return;
+    const tx = new Transaction();
+
+    const [returnedCoin] = await withdrawCoin(tx, pool.Sui, 9e8);
+    console.log("returnedCoin:", returnedCoin);
+
+    tx.transferObjects([returnedCoin], account.address);
+    signAndExecuteTransaction({ transaction: tx });
+  };
   return (
     <>
-      <Button
-        disabled={!account}
-        size="4"
-        onClick={completeTransaction}
-        loading={isPending}
-      >
-        {account ? "完成交易" : "请先连接钱包"}
-      </Button>
+      <Flex gap="3">
+        <Button
+          disabled={!account}
+          size="4"
+          onClick={completeTransaction}
+          loading={isPending}
+        >
+          {account ? "完成交易" : "请先连接钱包"}
+        </Button>
+        <Button
+          disabled={!account}
+          size="4"
+          onClick={withdrawTransaction}
+          loading={isPending}
+        >
+          取钱
+        </Button>
+      </Flex>
       <p>{digest}</p>
     </>
   );
