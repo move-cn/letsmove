@@ -46,7 +46,7 @@ transaction digest: GLnG3NrmScxNUy15FS9NUq6q2ZRDrULLvYh9mJbz69w
 - [x] call swap CoinB-> CoinA  hash : aYe7UH9h5QBEqmJkaSN11dzZpFkwjPdhxDv8mZQrwAK
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : 6BhhP3ZER7bbJPW51VabXFmqHsyummXvRr2DuGHjnia4
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
