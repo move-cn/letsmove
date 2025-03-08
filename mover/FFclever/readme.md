@@ -8,15 +8,15 @@
 - 技术栈: `Python`
 > 重要提示 请认真写自己的简介
 - 刚开始学习开发，对Move特别感兴趣，想通过Move入门区块链，进入这门行业。
-- 联系方式: tg: `zHFw` 
+- 联系方式: tg: `2844494489@qq.com` 
 
 ## 任务 
 
 ##   01 hello move  
-- [] Sui cli version: sui 1.39.4-2b9ad60878db
-- [] Sui钱包截图: ![Sui钱包截图](./images/sui_wallet.png)
-- [] package id:  0xeb844ba57126fe7a33e34f5c4e5ad71f3f47065fa5191f0c922b73ddb94ba2b3
-- [] package id 在 scan上的查看截图:![Scan截图](./images/package_id.png)
+- [x] Sui cli version: sui 1.39.4-2b9ad60878db
+- [x] Sui钱包截图: ![Sui钱包截图](./images/sui_wallet.png)
+- [x] package id:  0xeb844ba57126fe7a33e34f5c4e5ad71f3f47065fa5191f0c922b73ddb94ba2b3
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/package_id.png)
  
 ##   02 move coin
 - [] My Coin package id : 
