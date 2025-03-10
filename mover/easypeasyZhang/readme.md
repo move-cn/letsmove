@@ -1,7 +1,7 @@
 ## 基本信息
 - Sui钱包地址: `0x1040e95fbb3f032f9d72a071532bbd25b1cb797440c434011d7383bbacec620f`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `111-dep`
+- github: `easypeasyZhang`
 
 ## 个人简介
 - 工作经验: 1年
@@ -26,9 +26,9 @@
 - [] `Faucet Coin` address2 mint hash:
 
 ##   03 move NFT
-- [] nft package id : 0xc39ccc0c4d9f7a8134e9759dcc3e692cbd83d827342a050d414fb27ff7d628a3
-- [] nft object id : 0x1697becba8085ce6bea902a6b0653813f6be40963b52646c239d80803e7f27d6
-- [] 转账 nft  hash: GUCJU8V4WZFwrSeL4f6hZqbnpC79PMvneBpnD3TbCxkK
+- [] nft package id : 
+- [] nft object id : 
+- [] 转账 nft  hash: 
 - [] scan上的NFT截图:![Scan截图]()
 
 ##   04 Move Game
