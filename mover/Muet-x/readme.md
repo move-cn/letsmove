@@ -19,11 +19,11 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/img_1.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id : 0x80ff473826080491b48701ddd5a780a5182efc4bf1b4c3db4b91a3f33daaf14a
+- [x] Faucet package id :  0x0f57fc1e5f91f2e362495b5fd79cf4444523307eb69ff7f555eec4b46cd45a7f
+- [x] 转账 `My Coin` hash:BpspRTHKwqafisUE2a75V6v4k48Cxv5M3CaVQcaiaoEa
+- [x] `Faucet Coin` address1 mint hash:dvXL5XDsgR67hUFDVhBYK35cagsrNtnEDz1XE28sADP
+- [x] `Faucet Coin` address2 mint hash:9q1HnkXQapsVhxETj8RTLGJJv96W4JymJEaouZmsK5sV
 
 ##   03 move NFT
 - [] nft package id :
