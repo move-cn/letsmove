@@ -1,0 +1,11 @@
+[package]
+name = "Myproject"
+edition = "2024.beta"
+license = "MIT"
+authors = ["A1LinLin1 (ch1001@bupt.edu.cn)"]
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+counter = "0x0"
