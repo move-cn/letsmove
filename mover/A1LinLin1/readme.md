@@ -20,10 +20,11 @@
 
 ## 01 hello move
 
-- [] Sui cli version: 1.44.0-57bb5f612ac5-dirty
-- [] Sui钱包截图: ![Sui钱包截图](./images/sui_wallet.png)
-- [] package id: 0xbbc7b1184a9445d755140180a40337f671e8f6033ec784820f8a29f7ea5ceaca
-- [] package id 在 scan上的查看截图:![Scan截图](./images/scan.png)
+- [X] Sui cli version: 1.44.0-57bb5f612ac5-dirty
+- [X] Sui钱包截图: ![Sui钱包截图](./images/sui_wallet.png)
+- [X] package id: 0xbbc7b1184a9445d755140180a40337f671e8f6033ec784820f8a29f7ea5ceaca
+
+- [X] package id 在 scan上的查看截图:![Scan截图](./images/scan.png)
 
 ## 02 move coin
 
