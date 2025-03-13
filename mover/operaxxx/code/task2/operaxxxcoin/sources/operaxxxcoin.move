@@ -1,7 +1,6 @@
 module operaxxxcoin::operaxxxcoin;
 
 use sui::coin;
-use sui::coin::TreasuryCap;
 
 public struct OPERAXXXCOIN has drop {}
 
