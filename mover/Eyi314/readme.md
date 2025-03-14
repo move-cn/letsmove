@@ -14,16 +14,16 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:sui 1.44.3-615516edb0ed
-- [] Sui钱包截图: ![Sui钱包截图](./images/sui.png)
-- [] package id: 0xcba394d24ca9408836adf548c777ab89415bc787ed8ca6792cf41f022ca98356
-- [] package id 在 scan上的查看截图:![Scan截图](./images/scan.png)
+- [x] Sui cli version:sui 1.44.3-615516edb0ed
+- [x] Sui钱包截图: ![Sui钱包截图](./images/sui.png)
+- [x] package id: 0xcba394d24ca9408836adf548c777ab89415bc787ed8ca6792cf41f022ca98356
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/scan.png)
 
 ##   02 move coin
 - [] My Coin package id : 
 - [] Faucet package id : 
 - [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
+- [] `Faucet Coin` address1 mint has
 - [] `Faucet Coin` address2 mint hash:
 
 ##   03 move NFT
