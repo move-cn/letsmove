@@ -1,4 +1,4 @@
-## 基本信息
+``## 基本信息
 
 - Sui钱包地址: `0x9155d867536bd59d4a4ca7692ebc5e38a6e9bea8e2ab6d828b598656ad1e564b`
 
@@ -27,11 +27,11 @@
 
 ## 02 move coin
 
-- [] My Coin package id :
-- [] Faucet package id :
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [X]  My Coin package id : 0x827512624ed69e79d9286a2147e8b4348ec9a82d358e3f794c71ebe8f15cd609
+- [X]  Faucet package id : 0x98694f8486d4bcb29b3eb58ea8d97e8ff4b072e25fba4976cd46e609f3c802a4
+- [X]  转账 `My Coin` hash: 7nWRMLTGnjYwaT8KfkbVcdPoq9j9wYSWYhrbFmrLcYuQ
+- [X]  `Faucet Coin` address1 mint hash: 5VFaXtA6DYvTQHKT71kkmQXFPGTuxBNU2b4GwVWKwHKL
+- [X]  `Faucet Coin` address2 mint hash: 9ESc1rsV1FLUese9oLMH4EcDVhXsMHscHTDULpcXu2Pf
 
 ## 03 move NFT
 
