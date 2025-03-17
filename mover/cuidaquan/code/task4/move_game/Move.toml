@@ -1,11 +1,12 @@
 [package]
-name = "faucet_coin"
+name = "move_game"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet", override = true }
+faucet_coin = { local = "../../task2/faucet_coin" }
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
@@ -19,12 +20,7 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-# publish
-# faucet_coin = "0x0"
-# mainnet
-faucet_coin = "0xdb5bb6b2b6c27a214a1a4ab565d5233350f227ccb1ac306cc44da9603d467745"
-# testnet
-# faucet_coin = "0x2f1c1763b28fe3f35d865dac0032d0e9dfa79c97ffe8416c6bd0d3220086509f"
+move_game = "0x0"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
