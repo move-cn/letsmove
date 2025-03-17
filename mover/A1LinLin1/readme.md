@@ -22,22 +22,22 @@
 
 - [X] Sui cli version: 1.44.0-57bb5f612ac5-dirty
 - [X] Sui钱包截图: ![Sui钱包截图](./images/sui_wallet.png)
-- [X] package id: 0xbbc7b1184a9445d755140180a40337f671e8f6033ec784820f8a29f7ea5ceaca
+- [X] package id: `0xbbc7b1184a9445d755140180a40337f671e8f6033ec784820f8a29f7ea5ceaca`
 
 - [X] package id 在 scan上的查看截图:![Scan截图](./images/scan.png)
 
 ## 02 move coin
 
-- [] My Coin package id :
-- [] Faucet package id :
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [X] My Coin package id : `0xf03d70b8c37326289213f3b64f2ee82e6046dffca3ed26ed057c7ce8fd556565`
+- [X] Faucet package id : `0x9f4147dedf3fb03a3314db8262bdccf6be43794ab8f1496571b91bc42228ee1f`
+- [X] 转账 `My Coin` hash: `91D6ioXJDCP8Gu24xvuwUcmJnnTFJcj1Axk9wkYGj7xP`
+- [X] `Faucet Coin` address1 mint hash: `DmNLgt6wNrZtDS3XHzKGyKQ7gm5abTSoTuodib25jdTp`
+- [X] `Faucet Coin` address2 mint hash: `BM3nSaVC8Ea7CjACNYJtBdrP515kgLWWYaWniMKkT8vs`
 
 ## 03 move NFT
 
 - [] nft package id :
-- [] nft object id :
+- [] nft object id :`
 - [] 转账 nft  hash:
 - [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
 
