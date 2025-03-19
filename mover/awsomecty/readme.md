@@ -13,10 +13,10 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version: sui 1.43.1-2f52a7283e5f
-- [] Sui钱包截图: ![Sui钱包截图](./images/qianbao.png)
-- [] package id: 0x787c106ca5523e57ddf3618c3f8c8ac3373252f4228ae24c31c7dd75147aac50
-- [] package id 在 scan上的查看截图:![Scan截图](./images/znhy.png)
+- [x] Sui cli version: sui 1.43.1-2f52a7283e5f
+- [x] Sui钱包截图: ![Sui钱包截图](./images/qianbao.png)
+- [x] package id: 0x787c106ca5523e57ddf3618c3f8c8ac3373252f4228ae24c31c7dd75147aac50
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/znhy.png)
 
 ##   02 move coin
 - [] My Coin package id : 
@@ -26,10 +26,10 @@
 - [] `Faucet Coin` address2 mint hash:
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id :0x19d84a1052129a56a6ad13485c6bd34e7593e85404f3d6b582f8b8adf1db48c7
+- [x] nft object id :0xaab37897c488accb8204f97a173ae5b6e85a4aa86d93cbae86c14b4553781ddc
+- [x] 转账 nft  hash: Acmcn1A7j9268L5rbG4qouLKu34kETVbxPipox35GEmU
+- [x] scan上的NFT截图:![Scan截图](./images/NFT.png)
 
 ##   04 Move Game
 - [] game package id :
