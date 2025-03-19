@@ -1,11 +1,13 @@
 [package]
 name = "coin_greyhao"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+# published-at = "0xd172ea4643dfe46a4130a75dfcd50cf042fe794cc5e14fa746b48bd702e1edfb" # testnet
+published-at = "0x803a4f31065d27a1a3c79a41e2040c5b524538e508ff77a25ba9312103e5fdcb" # mainnet
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
 [dependencies]
-Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
