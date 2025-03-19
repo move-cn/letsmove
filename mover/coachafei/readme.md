@@ -8,15 +8,19 @@
 - 技术栈: `Python` `Linux`
 > 多年IT从业者，一直听说区块链，但是却一直没有真正接触，想通过move开始接触区块链。 
 - 
-- 联系方式: tg: `xx` 
+- 联系方式: tg: `fredhands` 
 
 ## 任务
 
 ##   01 hello move  
-- [x] Sui cli version: sui 1.37.1-homebrew
-- [x] Sui钱包截图: ![Sui钱包截图](./images/wallet.jpg)
-- [x] package id: 0x4026c1d5f11d20f739869534d30e07c05822a6c9f3bc9af9a2f65f82792134e7
-- [x] package id 在 scan上的查看截图:![Scan截图](./images/package_id.jpg)
+- [x] Sui cli version: sui 1.45.0-homebrew
+- [x] Sui钱包截图: 
+
+    ![Sui钱包截图](./images/wallet.jpg)
+- [x] package id: 0xcbb694013c7c846a30899d7882b770b193d461f14266239bce04f1d4172cce3d
+- [x] package id 在 scan上的查看截图:
+
+    ![Scan截图](./images/package_id.jpg)
 
 ##   02 move coin
 - [] My Coin package id : 
