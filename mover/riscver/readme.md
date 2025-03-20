@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0x282c7af2ee58c64e6643e4b22b667ed440b969da92f7544184e145df231bf17f`
+- Sui钱包地址: `0xeb74538c5ce432aeb119644e195c301b34c7b1ed437a5affcddc54694a5d903f`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `riscver`
 
@@ -22,11 +22,11 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/hello_riscver_contracts.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id : `0x9d8153756cb1275082d4ea126343f6069ecbf751f6ce9d40366b457912a7835a`
+- [x] Faucet package id : `0xc1146e7217961335727d2895e9603096ff9450f02674a6f1510f7cbbdde1a4a0`
+- [x] 转账 `My Coin` hash: `BJEQHqZ84GctFM3rRMMVA8hNu8SekyUfd2NDrbDn4XRt`
+- [x] `Faucet Coin` address1 mint hash: `2ZnmBd1dEeQCbBNFR6nBPT31YxHcJqDkw8SHMCdmukMR`
+- [x] `Faucet Coin` address2 mint hash: `Frmknivof1ZpAZwP4ooPvVhUpsvVKyfqXJqQQ1MQNBei`
 
 ##   03 move NFT
 - [x] nft package id : `0x6c455fed203546f324f03737ba40a64c50754682a2f35930157e440cd4d87072`

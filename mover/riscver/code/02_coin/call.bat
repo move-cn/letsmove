@@ -1,0 +1,5 @@
+sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0x9d8153756cb1275082d4ea126343f6069ecbf751f6ce9d40366b457912a7835a::riscver::RISCVER --args 0x5c5e447a2578a71f649f2f3d844b55fbdfe193cb3d46a65f03b10bd9a8f1bc87 1000000000000 0x282c7af2ee58c64e6643e4b22b667ed440b969da92f7544184e145df231bf17f
+
+sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0xc1146e7217961335727d2895e9603096ff9450f02674a6f1510f7cbbdde1a4a0::riscverfaucet::RISCVERFAUCET --args 0x3d0c3cc7212654bbf4ed7e32fe30b19cefb93dfd0fcc6db344a1b502cbb00a60 1000000000000 0x282c7af2ee58c64e6643e4b22b667ed440b969da92f7544184e145df231bf17f
+
+sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0xc1146e7217961335727d2895e9603096ff9450f02674a6f1510f7cbbdde1a4a0::riscverfaucet::RISCVERFAUCET --args 0x3d0c3cc7212654bbf4ed7e32fe30b19cefb93dfd0fcc6db344a1b502cbb00a60 1000000000000 0xeb74538c5ce432aeb119644e195c301b34c7b1ed437a5affcddc54694a5d903f
