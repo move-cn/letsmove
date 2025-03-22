@@ -1,1 +1,0 @@
-sui client call --package 0x914099b4d1b4f5513acc8aaa4fdc1f67578522b81d818f61bae527d590c6d87d --module check_in --function get_flag --args "0x4846146e7fc52e0d4883ad1a3fa84ec5c99cd812bb64e93a32769fa42a649125" "Heemale" 0xc8dcd54baa7724177593a9f70598a09ae6a4286f996542e058f248209db08147 0x8

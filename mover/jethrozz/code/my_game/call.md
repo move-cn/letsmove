@@ -1,9 +1,0 @@
-#存钱
-
-sui client call --package 0x68138d5d4accc1de3b9140775fe19ea95e06a6832525168e90194f6583958cf1 --module my_game --function add_coin  --args 0x547fed5250dc0e883d0cd43bf3d0e6e5aa7726b259e50f2eb20c25e21ecce6d9 0x1b62e02fac49643691ad0730b3d24159b1d8e0e17ea825bbf20d2eebc95a37b4
-
-#取钱
-sui client call --package 0x68138d5d4accc1de3b9140775fe19ea95e06a6832525168e90194f6583958cf1 --module my_game --function remove_coin  --args 0xd95acf245600d73417dc0fa6cf84bd971db8b632af6b91f4314a9496e56fab27 0x547fed5250dc0e883d0cd43bf3d0e6e5aa7726b259e50f2eb20c25e21ecce6d9 5000000000
-
-#play
-sui client call --package 0x68138d5d4accc1de3b9140775fe19ea95e06a6832525168e90194f6583958cf1 --module my_game --function play  --args 1 0x8 0x5adeb6252a1f4205648e37f96217b974684418cfc279b3e48e0d1ef70fb3c6e8 0x547fed5250dc0e883d0cd43bf3d0e6e5aa7726b259e50f2eb20c25e21ecce6d9

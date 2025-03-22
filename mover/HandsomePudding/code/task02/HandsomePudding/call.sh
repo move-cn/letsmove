@@ -1,6 +1,0 @@
-sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0x9ca86ce825f7edb7ecb299bc020402df76133eb516ef63963fc3094f21b73331::handsomepudding::HANDSOMEPUDDING --args   0xd55521d1c5aa736338f83cc27e25141d79fca0bf4430767db79c2956b4c59297 100000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
-
-
-sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0xa11ac0b1fe1c294f5677d60111e9baa883aff4988683ec13555adc1d7be2b76e::handsomepuddingfaucet::HANDSOMEPUDDINGFAUCET --args   0x018d8871314eafd5d63d635ca7811279c7f372409acdc789eb96c61b75e46248 100000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
-
-sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0xa11ac0b1fe1c294f5677d60111e9baa883aff4988683ec13555adc1d7be2b76e::handsomepuddingfaucet::HANDSOMEPUDDINGFAUCET --args   0x018d8871314eafd5d63d635ca7811279c7f372409acdc789eb96c61b75e46248 100000 0x70217ebfeb440b37a7acb7567801007981014e292e274f874ccb90fec170e6ae

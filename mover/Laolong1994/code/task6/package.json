@@ -1,6 +1,0 @@
-{
-  "type": "module",
-  "dependencies": {
-    "@mysten/sui": "^1.16.1"
-  }
-}

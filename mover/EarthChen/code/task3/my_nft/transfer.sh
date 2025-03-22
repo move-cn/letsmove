@@ -1,7 +1,0 @@
-# mainnet package id: 0xfab65405e3627be75f978b2f08b56ee5eed2628b58f013a6c1ecd83e346b3955
-
-sui client call  \
---package 0xfab65405e3627be75f978b2f08b56ee5eed2628b58f013a6c1ecd83e346b3955 \
---module my_nft \
---function transfer \
---args 0x4c99c193f448ca5d85b9ee1420ba837c5bcc5326b0ace9e592a468546167cc02 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2

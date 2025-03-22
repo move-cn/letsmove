@@ -1,2 +1,0 @@
-### faucet
-公共钱包id：0x132509e7462eb49a95edaf0491e82ea8744c9914a94c8cb23d23ddb43da285c1

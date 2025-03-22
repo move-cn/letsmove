@@ -1,9 +1,0 @@
-[package]
-name = "hello"
-edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
-
-[dependencies]
-Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
-
-[addresses]
-hello = "0x0"

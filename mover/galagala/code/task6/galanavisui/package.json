@@ -1,6 +1,0 @@
-{
-    "type": "module",
-    "dependencies": {
-        "navi-sdk": "^1.1.20"
-    }
-}

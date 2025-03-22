@@ -1,8 +1,0 @@
-- [Task1学习笔记](../code/task1/note1.md)
-- [Task2学习笔记](../code/task2/note2.md)
-- [Task3学习笔记](../code/task3/note3.md)
-- [Task4学习笔记](../code/task4/note4.md)
-- [Task5学习笔记](../code/task5/note5.md)
-- [Task6学习笔记](../code/task6/note6.md)
-- [Task7学习笔记](../code/task7/note7.md)
-- [Task8学习笔记](../code/task8/note8.md)
