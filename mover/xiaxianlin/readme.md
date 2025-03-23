@@ -53,6 +53,6 @@ transaction digest: GLnG3NrmScxNUy15FS9NUq6q2ZRDrULLvYh9mJbz69w
 - [x] flag hash : iwSFjxk8gUXHidKaW8ce2sLCNQwzyUiWtZT2PkoiJMK
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof : 01e9d101
+- [x] flag hash : Dk8tAMN1U9koaHzSLm5pP2PdKt2u7ShP54BGbaNiLHdW
 
