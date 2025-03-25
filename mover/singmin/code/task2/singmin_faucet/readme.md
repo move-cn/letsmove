@@ -20,6 +20,8 @@ sui client call --package 0x75ff4ae0dbefcfa3ab642f1b77435dd87e0e132e59c25fed9603
 # 地址
 0x0991a1ee752e98cfd1667d94ade46a2a8d88a16ea782ed04eebe9e82dfafe54a
 
+singmin_faucet = { git = "https://github.com/Singmin/letsmove/tree/main/mover/singmin/code/task2/singmin_faucet.git", rev = "main" } 
+
 
 Skipping dependency verification
 Transaction Digest: 3hPTEKuNPkyJ9JBnB2wzhMUKWHMF2PBTZvw7xVMirrEF
