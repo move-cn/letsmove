@@ -11,25 +11,44 @@
 ## 任务
 
 ##   01 hello move  
-- [x] package id: 0x0bff9f20c1921a474ca06622806764551161859740bca773d0f29fcddef7495f (https://testnet.suivision.xyz/account/0x0bff9f20c1921a474ca06622806764551161859740bca773d0f29fcddef7495f)
+- [] Sui cli version: sui-client 1.43.1-homebrew
+- [] Sui钱包截图:
+
+   <img src="./images/sui wallet.png" alt="Sui钱包截图" style="zoom:25%;" />
+- [] package id: 0x0bff9f20c1921a474ca06622806764551161859740bca773d0f29fcddef7495f(https://testnet.suivision.xyz/account/0x0bff9f20c1921a474ca06622806764551161859740bca773d0f29fcddef7495f)
+- [] package id 在 scan上的查看截图:<img src="./images/suivision.png" alt="Scan截图" style="zoom:25%;" />
 
 ##   02 move coin
 - [] My Coin package id : 
 - [] Faucet package id : 
 - [] 转账 `My Coin` hash:
+- [] `Faucet Coin` address1 mint hash:
+- [] `Faucet Coin` address2 mint hash:
 
 ##   03 move NFT
 - [] nft package id :
 - [] nft object id : 
 - [] 转账 nft  hash:
+- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
 
 ##   04 Move Game
 - [] game package id :
-- [] call game hash:
+- [] deposit Coin hash:
+- [] withdraw `Coin` hash:
+- [] play game hash:
 
 ##   05 Move Swap
 - [] swap package id :
-- [] call swap hash:
+- [] call swap CoinA-> CoinB  hash :
+- [] call swap CoinB-> CoinA  hash :
 
-##   06 SDK PTB NAVI
+##   06 Dapp-kit SDK PTB
 - [] save hash :
+
+##   07 Move CTF Check In
+- [] CLI call 截图 : ![截图](./images/你的图片地址)
+- [] flag hash :
+
+##   08 Move CTF Lets Move
+- [] proof : 
+- [] flag hash :
