@@ -20,7 +20,7 @@ singmin_faucet = { local = "../../task2/singmin_faucet" }
 
 [addresses]
 simplegame = "0x0"
-
+# singmin_faucet = "0x86d75073468e16543716d8bce3c23c7f7679198823278326bc060d8ee4acf37a"
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
 # alice = "0xA11CE"
