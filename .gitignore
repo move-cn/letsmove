@@ -27,3 +27,4 @@ sui.log.*
 .history
 *.Identifier
 
+.qodo

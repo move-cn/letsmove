@@ -9,3 +9,5 @@ address 0x166c2b534ec4767be1242bc13be2c50e3df4c99ba50fba22c391e0d18073dfc8
 执行这个命令后，新铸造的代币会被转移到调用者的地址。如果你想直接转移到其他地址，你需要在得到代币后再进行一次转账操作。
 
 sui client call --package 0x472a5e3fa10161af5ee4c383bb1f740fce05a08dce3c0ec755d5c57276d27377 --module testfaucet --function mint --args 0x71e3f13e8cdb7feb0095aa150f1b3d6bde45842c369f4dc4fb9f60ee1d5bb23a 100000000 0x166c2b534ec4767be1242bc13be2c50e3df4c99ba50fba22c391e0d18073dfc8
+
+sui keytool import "suiprivkey1qq7flsvyxjj7f939lv83t0dgm60h572yn38g6m7ycpcevf2veyklxeuth7m" --scheme ed25519
