@@ -49,8 +49,8 @@ transaction digest: GLnG3NrmScxNUy15FS9NUq6q2ZRDrULLvYh9mJbz69w
 - [x] save hash : 6BhhP3ZER7bbJPW51VabXFmqHsyummXvRr2DuGHjnia4
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : ![截图](./images/task7.png)
+- [x] flag hash : iwSFjxk8gUXHidKaW8ce2sLCNQwzyUiWtZT2PkoiJMK
 
 ##   08 Move CTF Lets Move
 - [] proof : 
