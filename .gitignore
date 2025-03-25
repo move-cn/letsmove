@@ -26,5 +26,3 @@ yarn-error.log*
 sui.log.*
 .history
 *.Identifier
-
-.qodo

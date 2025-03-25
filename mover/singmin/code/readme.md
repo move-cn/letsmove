@@ -14,3 +14,6 @@ sui client switch --env mainnet
 
 # 切换到测试网
 sui client switch --env testnet
+
+# 导入密钥
+ sui keytool import suiprivkey1qq7flsvyxjj7f9 ed25519
