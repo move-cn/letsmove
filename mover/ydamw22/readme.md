@@ -46,8 +46,8 @@
 - [x] save hash : AFj2vjnUss1YGSFGDtQee2ZBKoZGrmmNgxb1TaqNZTUQ
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/Snipaste_2025-03-26_15-48-38.png)
-- [] flag hash :  HMM93Ns7tJMX8tNjWToCFNJvj42FDZdPv5bsQEQkBQuK
+- [x] CLI call 截图 : ![截图](./images/Snipaste_2025-03-26_15-48-38.png)
+- [x] flag hash :  HMM93Ns7tJMX8tNjWToCFNJvj42FDZdPv5bsQEQkBQuK
 
 ##   08 Move CTF Lets Move
 - [] proof : 
