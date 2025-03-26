@@ -33,10 +33,10 @@
 - [√] scan上的NFT截图:![Scan截图](./images/maybeokNFT.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id :0x9dee854a82801fbb77a0c079cf3aeb2b8a21a9301c8c22012258d12319537f86
+- [x] deposit Coin hash:49zf3VdAFqnwZYENJr633PQVep7J8R5g5JnWgUJxCGqG
+- [x] withdraw `Coin` hash:5vqSchAkvaBRHWELMGvtiGWkcBGSpVruTz6HPEqW7kZv
+- [x] play game hash:2rEyc46JjC4giW1GZTKZ3JJv5ZZ2iUYFzywCUXB5w67F
 
 ##   05 Move Swap
 - [] swap package id :
