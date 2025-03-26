@@ -1,0 +1,14 @@
+[package]
+name = "task4"
+edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+
+[dependencies]
+Sui = { git = "https://gitee.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet", override = true }
+task2 = { local = "../task2" }
+
+[addresses]
+task4 = "0x0"
+
+[dev-dependencies]
+
+[dev-addresses]

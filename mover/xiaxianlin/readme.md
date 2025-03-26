@@ -35,24 +35,24 @@ mint 一个 nft 发送到地址: 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e1
 transaction digest: GLnG3NrmScxNUy15FS9NUq6q2ZRDrULLvYh9mJbz69w
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : 0xd1a4cf8923a99dda6ba6fffc9b3e4dc5384d8dbd0357fefc7692095ac55fee35
+- [x] deposit Coin hash: 21GnyWQuPAFib3yM7pxrx9kpnfn1owVtY9QzuAzUgGfw
+- [x] withdraw `Coin` hash: 2b4WAjuRdszz9PcG5ut2S1R68mkfBgWQY7iyjPkHTW2y
+- [x] play game hash: 9HKAAY9c2ucQj6mAkxyrG9Jn7g9rAQshTgwGK8mYwodz
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0x5241250d8a98503254c6d5faaccd787013c656728048c450828f0df0b3357d7a
+- [x] call swap CoinA-> CoinB  hash : 7FHVTQF14dgpm2comUSNGe7dGKWfzSMHAGXkgfHTZxna
+- [x] call swap CoinB-> CoinA  hash : aYe7UH9h5QBEqmJkaSN11dzZpFkwjPdhxDv8mZQrwAK
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : 6BhhP3ZER7bbJPW51VabXFmqHsyummXvRr2DuGHjnia4
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : ![截图](./images/task7.png)
+- [x] flag hash : iwSFjxk8gUXHidKaW8ce2sLCNQwzyUiWtZT2PkoiJMK
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof : 01e9d101
+- [x] flag hash : Dk8tAMN1U9koaHzSLm5pP2PdKt2u7ShP54BGbaNiLHdW
 

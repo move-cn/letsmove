@@ -38,9 +38,9 @@
 - [√] play game hash: PC1tp4Ah97CcL2nXUoXUoYDzct42VFqgmtJqkXvvgSt
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [√] swap package id :0x4f7c0c83ae18bfc16303f33f97a9f3b9388009f3e5ec5f6fa44971b937205d2b
+- [√] call swap CoinA-> CoinB  hash : 8aACohhRZgkBxiqwBq65h7D5bae8gpKsXBxUZQn1tqKm
+- [√] call swap CoinB-> CoinA  hash : 4N2st46zMAegFzCe6mus9CAWYnxKhgm6yX6pcbbnNGAS
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :
