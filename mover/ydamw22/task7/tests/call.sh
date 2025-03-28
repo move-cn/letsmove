@@ -1,0 +1,6 @@
+sui client call \
+  --package 0x914099b4d1b4f5513acc8aaa4fdc1f67578522b81d818f61bae527d590c6d87d \
+  --module check_in \
+  --function get_flag \
+  --args 0xe0908a066964b758b7888881a4656db56c4651e69a89519c3c09fb4ea4765409 'ydamw22' 0xc8dcd54baa7724177593a9f70598a09ae6a4286f996542e058f248209db08147 0x8 \
+  --gas-budget 10000000
