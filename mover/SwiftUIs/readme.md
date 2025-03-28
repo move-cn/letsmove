@@ -15,3 +15,12 @@
 - [√] Sui cli version:sui 1.45.3-643cae13d713
 - [√] Sui钱包截图: ![Sui钱包截图](./images/2091743134416_.pic.jpg)
 - [√] package id: 0xbfdee35fa0fa578101259b515c8998bc32b620e69f9ec51201da7434322f19e5
+
+##   02 move coin
+- [] My Coin package id : 
+- [] Faucet package id : 
+- [] 转账 `My Coin` hash:
+- [] `Faucet Coin` address1 mint hash:
+- [] `Faucet Coin` address2 mint hash:
+
+- 
