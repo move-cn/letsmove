@@ -33,3 +33,12 @@ HbFsudh74eW6dnZM1jV2QnVTTa48wD1PNTtkHvPz4dkS
 
 <!-- mainnet -->
 发布地址 Cw8BYbo9xmBrUKJ6C89tRkbrYpQZAP1Lu8MnJPW1vYAp
+
+
+sui client call --package 0xdd742a15211e7e3cf17ff6ab8e65983190e16477c823c3c5a80f68d705491f54 --module singmin_faucet_coin --function mint --args 0x166c2b534ec4767be1242bc13be2c50e3df4c99ba50fba22c391e0d18073dfc8 100000000 --gas-budget 10000000
+
+sui client call --package 0xe52f0062c662622923977d1da1e3e9d13a0f0024179ac8fae3cb251474ee688e --module singmin_faucet_coin --function mint --args 0xdd742a15211e7e3cf17ff6ab8e65983190e16477c823c3c5a80f68d705491f54 100000000 0x166c2b534ec4767be1242bc13be2c50e3df4c99ba50fba22c391e0d18073dfc8 --gas-budget 10000000
+
+sui client call --package 0xe52f0062c662622923977d1da1e3e9d13a0f0024179ac8fae3cb251474ee688e --module singmin_faucet_coin --function mint --args 0xdd742a15211e7e3cf17ff6ab8e65983190e16477c823c3c5a80f68d705491f54 0x166c2b534ec4767be1242bc13be2c50e3df4c99ba50fba22c391e0d18073dfc8 --gas-budget 10000000
+
+sui client call --package 0x6a77b56330b3917e3648617aa84cf05a898b6633f51473206b58ccfb01e00034 --module singmin_faucet_coin --function mint --args 0x00a546256d04e514408d88ffdb85c72b317cbe5fc716c115d77e494ad805a9c2 100000000 0x90ebcdad368bdb78b30a90bd8e24d9a69befa72bf85a17adb7e84fe6d7092ef9
