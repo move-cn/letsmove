@@ -1,7 +1,7 @@
 <!--
  * @Author: baobaobao
  * @Date: 2025-03-05 13:59:18
- * @LastEditTime: 2025-03-05 14:54:22
+ * @LastEditTime: 2025-03-30 02:09:27
  * @LastEditors: baobaobao
 -->
 ## 基本信息
@@ -25,11 +25,11 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/SCR-20250305-ndvg.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [] My Coin package id : 0x9588135f3acd9d23671f98b5df583ea5d1e6efa2a5404a598c9444eea68920ea
+- [] Faucet package id : 0x8178fd8c3b8059323706ac9404b1a5d80245413d20fa3bc48ad6aac7e7011f95
+- [] 转账 `My Coin` hash: LwR3J7vnbP1cCv1snyS4UYZQcrWAh1Gs5vJFWRgroqr
+- [] `Faucet Coin` address1 mint hash: DEB2ZGWkfiDHMEtjRtf2n4xUrZxSws4MRpSGzn1j2Ueo
+- [] `Faucet Coin` address2 mint hash: 81Tj6DDK7PU1n4YQMzrUmSqAw8B6LbjGFTjXWR2hEjR2
 
 ##   03 move NFT
 - [] nft package id :
