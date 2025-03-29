@@ -15,9 +15,9 @@
 
 ##   01 hello move  
 - [] Sui cli version: sui-client 1.45.2-homebrew
-- [] Sui钱包截图: ![mover/yue1823/image/wallet.png](./images/你的图片地址)
+- [] Sui钱包截图: ![mover/yue1823/image/wallet.png](./images/wallet.png)
 - [] package id: 0xb8caea37c9646e8288fd8f43bb887906ace82ae2afe80125b95f0587dee79b96
-- [] package id 在 scan上的查看截图:![mover/yue1823/image/hello world.png](./images)
+- [] package id 在 scan上的查看截图:![mover/yue1823/image/hello_world.png](./images/hello_world.png)
 
 ##   02 move coin
 - [] My Coin package id : 
