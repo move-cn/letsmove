@@ -47,5 +47,9 @@
 
 ## 07 Move CTF Check In
 
-- [] CLI call 截图 : ![](./images/03.png)
-- [] flag hash :![](./images/04.png)
+- [x] CLI call 截图 : ![](./images/03.png)
+- [x] flag hash :![](./images/04.png)
+
+## 08 Move CTF Lets Move
+- [x] proof :  [120, 195, 187, 147, 199, 182, 78, 87]
+- [x] flag hash :  5izDxh3ksAozi2r2HTYigXTcA3R62JpoXZdtsiAmfyBi
