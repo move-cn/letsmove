@@ -2,8 +2,17 @@
 
 [move]
 version = 3
-manifest_digest = "350C19DD07D958AC1758043D4EA40F32577C6EAC45E4DF5578913962FB837365"
-deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
+manifest_digest = "56F964C8777AAFE6C5B3416B839A4DFACB93E6926D391A9515B92B1D7A775ACD"
+deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
+dependencies = [
+  { id = "KamisAyaka_coin", name = "KamisAyaka_coin" },
+  { id = "Sui", name = "Sui" },
+]
+
+[[move.package]]
+id = "KamisAyaka_coin"
+source = { local = "..\\..\\task2\\KamisAyaka_coin" }
+
 dependencies = [
   { id = "Sui", name = "Sui" },
 ]
@@ -22,5 +31,5 @@ dependencies = [
 
 [move.toolchain-version]
 compiler-version = "1.45.0"
-edition = "2024.beta"
+edition = "2024"
 flavor = "sui"
