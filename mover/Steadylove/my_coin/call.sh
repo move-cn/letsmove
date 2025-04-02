@@ -1,0 +1,4 @@
+sui client call --package 0x2 \
+--module coin --function mint_and_transfer \
+--type-args 0x881c115b811d7867f4d88b003abe574d682314b385f7b809b2a8d95924050bb1::usd::USD \
+--args 0x9f04f9d70a8daf1cf0c6c9ff951104c1f43be9a3a38a3994a58aba0491e7302c 100000000000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
