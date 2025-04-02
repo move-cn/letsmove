@@ -1,11 +1,13 @@
 [package]
 name = "game"
-edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
-# license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
-# authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
+version = "1.0.0"
+edition = "2024" # edition = "legacy" to use legacy (pre-2024) Move
+license = "MIT"           # e.g., "MIT", "GPL", "Apache 2.0"
+authors = ["firefly"]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
 [dependencies]
 KamisAyaka_coin = { local = "../../task2/KamisAyaka_coin" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "9c04e1840eb5" }
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
 # Revision can be a branch, a tag, and a commit hash.
 # MyRemotePackage = { git = "https://some.remote/host.git", subdir = "remote/path", rev = "main" }
@@ -19,6 +21,7 @@ KamisAyaka_coin = { local = "../../task2/KamisAyaka_coin" }
 
 [addresses]
 game = "0x0"
+KamisAyaka_coin = "0x0"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
