@@ -1,0 +1,1 @@
+sui client call --package 0xd0bb0d2dfe587ac1438b430e158ad2ba7bc4fac112bded92be4dfa9d515ff6fb --module game  --function play --args 0xf827781e5deeb7f1047ed006fbfff615ba10bce2284c9836c5d30318015dd039 0x8 true 0x4e5ede4f2ec95a899be39307ddcb78a143ec3fae4545d5828a6400b86a36b207 1000000
