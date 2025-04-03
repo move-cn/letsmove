@@ -4,3 +4,6 @@
 [submodule "mover/pwh-pwh/code/get_flag_move"]
 	path = mover/pwh-pwh/code/get_flag_move
 	url = git@github.com:pwh-pwh/get_flag_move.git
+[submodule "mover/pwh-pwh/code/task8/move_task8"]
+	path = mover/pwh-pwh/code/task8/move_task8
+	url = git@github.com:pwh-pwh/move_task8.git
