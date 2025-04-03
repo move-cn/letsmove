@@ -1,0 +1,3 @@
+[submodule "mover/pwh-pwh/code/task6/sui_dapp_demo"]
+	path = mover/pwh-pwh/code/task6/sui_dapp_demo
+	url = git@github.com:pwh-pwh/sui_dapp_demo.git
