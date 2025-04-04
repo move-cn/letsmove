@@ -8,10 +8,11 @@ module xcoin::xcoin;
 
 module xcoin::xusd;
 use std::option::some;
-use sui::coin::create_currency;
+use sui::coin::{create_currency, TreasuryCap};
 use sui::transfer::{public_transfer, public_freeze_object};
 use sui::url;
 use sui::url::Url;
+use sui::coin;
 
 public struct XUSD has drop{}
 
@@ -21,6 +22,9 @@ fun init(xusd: XUSD, ctx: &mut TxContext){
     let (treasury, coin_metadata) = create_currency(xusd, 8, b"XUSD", b"XUSD", b"this is xusd coin.", coinPic, ctx);
 
     public_freeze_object(coin_metadata);
-
     public_transfer(treasury, ctx.sender());
+}
+
+public fun mint(treasury_cap: &mut TreasuryCap<XUSD>, amount: u64, recipient: address, ctx: &mut TxContext,) {
+    coin::mint_and_transfer(treasury_cap, amount, recipient, ctx);
 }
