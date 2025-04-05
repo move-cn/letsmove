@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@mysten/dapp-kit": "^0.15.2",
+    "@mysten/sui": "^1.26.1",
+    "@tanstack/react-query": "^5.71.10"
+  }
+}
