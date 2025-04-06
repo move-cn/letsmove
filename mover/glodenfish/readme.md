@@ -1,5 +1,5 @@
 ## 基本信息
-- Sui钱包地址: `0xe02cd8a96791fa49ead7ad551966503dc5960efc370c01f539213a7e4aa33ba6`
+- Sui钱包地址: `0x4ee016e18b4f41a6e3ec1f1955ff5abf61ae2930d00934de62e03bd9ff90dafa`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `glodenfish`
 
