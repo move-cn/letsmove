@@ -1,22 +1,22 @@
 ## 基本信息
 - Sui钱包地址: `0x1000000000000x`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `自己的githubid`
+- github: `sunyun12`
 
 ## 个人简介
-- 工作经验: x年
-- 技术栈: `Rust` `C++`
+- 工作经验: 0年
+- 技术栈:
 > 重要提示 请认真写自己的简介
-- 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `xxx` 
+- 对Move特别感兴趣，想通过Move入门区块链
+- 联系方式: sunyun78db@gmail.com
 
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:
-- [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
-- [] package id: 
-- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+- [x] Sui cli version: sui 1.45.2-homebrew
+- [x] Sui钱包截图: ![Sui钱包截图](./images/截屏1.png)
+- [x] package id: 0xc1d4ff161ea84e62edd8bc63cea791cb61b8940c8a06f1162783acf3320a254a
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/截屏2.png)
 
 ##   02 move coin
 - [] My Coin package id : 
