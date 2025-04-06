@@ -7,7 +7,7 @@ module let_move::let_move;
 // https://docs.sui.io/concepts/sui-move-concepts/conventions
 
 
-module lets_move::lets_move {
+module let_move::let_move {
     use std::ascii::{String, string};
     use std::hash;
     use sui::event;
