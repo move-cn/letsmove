@@ -12,13 +12,6 @@ const SUI_COIN_TYPE = "0x2::sui::SUI";
 export async function buildNaviTaskTransaction(client: SuiClient, address?: string) {
 
     // _loginfo();
-    
-    // const {data, nextCursor, hasNextPage} = await client.getCoins({
-    //     owner: address,
-    // });
-    // console.log(data);
-    // const coinObjectIds = getCoinObjectIds(data, SUI_COIN_TYPE);
-    // console.log('coinObjectIds', JSON.stringify(coinObjectIds, null, 2));
 
     const depositAmount = Math.floor(1 * 10 ** Sui.decimal);
     console.log("depositAmount:", depositAmount);
@@ -36,10 +29,10 @@ export async function buildNaviTaskTransaction(client: SuiClient, address?: stri
     const toBorrowCoin = nUSDC;
 
     const toDepositPoolConfig: PoolConfig = pool[toDepositCoin.symbol as keyof Pool];
-    // console.log("toDepositPoolConfig:", toDepositPoolConfig);
+    console.log("toDepositPoolConfig:", toDepositPoolConfig);
 
     const toBorrowPoolConfig: PoolConfig = pool[toBorrowCoin.symbol as keyof Pool];
-    // console.log("toBorrowPoolConfig:", toBorrowPoolConfig);
+    console.log("toBorrowPoolConfig:", toBorrowPoolConfig);
 
     // 存入1 SUI
     console.log(`depositCoin: ${depositAmount} SUI`);
@@ -55,18 +48,37 @@ export async function buildNaviTaskTransaction(client: SuiClient, address?: stri
     const day = String(currentDate.getDate()).padStart(2, '0');
     const hour = String(currentDate.getHours()).padStart(2, '0');
     const borrowAmountStr = `0.${month}${day}${hour}`;
-    const borrowAmount = Math.floor(Number(borrowAmountStr) * 10 ** nUSDC.decimal);
-    console.log("borrowAmount:", borrowAmountStr, borrowAmount);
+    const debt = Math.floor(Number(borrowAmountStr) * 10 ** nUSDC.decimal);
+    let borrowAmount = Math.floor(debt / (1 + 0.003)); //fee 0.3%
+    console.log(`borrowAmount: ${borrowAmountStr} USDC, debt: ${debt} USDC, borrowAmount: ${borrowAmount} USDC`);
 
-    console.log(`borrowCoin: ${borrowAmount} USDC`);
-    const [returnedCoin] = await borrowCoin(tx, toBorrowPoolConfig, borrowAmount)
+    //去掉误差
+    let tmp = Math.floor(borrowAmount + borrowAmount * 0.003);
+    if(tmp !== debt){
+        if(tmp > debt){
+            borrowAmount = borrowAmount - 1;
+        }else{
+            borrowAmount = borrowAmount + 1;
+        }
+
+        tmp = Math.floor(borrowAmount + borrowAmount * 0.003);
+    }
+    console.log('borrowAmount + borrowAmount * 0.003 === debt',  tmp, tmp === debt);
+
+
+    console.log(`borrowCoin: ${borrowAmount} USDC,   debt: ${debt} USDC`);
+    const [borrowedCoin] = await borrowCoin(tx, toBorrowPoolConfig, borrowAmount)
     // console.log("returnedCoin:", returnedCoin);
 
-    // repay等额的USDC
-    console.log(`repayDebt: ${borrowAmount} USDC`);
-    await repayDebt(tx, toBorrowPoolConfig, returnedCoin, borrowAmount)
+    // repay等额的USDC //使用钱包里已有的，余额比debt多的USDC coin
+    console.log(`repayDebt: ${debt} USDC`);
+    //获取usdc coin
+    const usdcCoin = await getCoin(tx, client, address!, nUSDC.address, debt);
+    // console.log("usdcCoin:", usdcCoin);
+    await repayDebt(tx, toBorrowPoolConfig, usdcCoin, debt)
 
-    // tx.transferObjects([returnedCoin], address!);
+    //借出的转到自己钱包
+    tx.transferObjects([borrowedCoin], address!);
 
     //build 的时候会执行 dry run, 能很快找到transaction 构建的错误
     tx.setSender(address!);
@@ -120,4 +132,39 @@ function _loginfo(){
 function getCoinObjectIds(coins: CoinStruct[], coinType: string){
     const coinList = coins.filter((coin) => coin.coinType === coinType);
     return coinList.map((coin) => coin.coinObjectId);
+}
+
+async function getCoin(tx: Transaction, client: SuiClient, address: string, coinType: string, amount: number){
+    const {data, nextCursor, hasNextPage} = await client.getCoins({
+        owner: address,
+        coinType: coinType,
+    });
+
+    //如果一个都没有找到，报错
+    if(data.length === 0){
+        throw new Error("No coin found");
+    }
+
+    //算一下合并起来的钱够不够，如果合并起来的coin 的amount 小于amount，报错 //判断第（或某）一个够不够就不做了
+    const totalAmount = data.reduce((acc, coin) => acc + Number(coin.balance), 0);
+    if(totalAmount < amount){
+        throw new Error("Total amount is less than the amount to repay");
+    }
+    // console.log("Coins:", JSON.stringify(data, null, 2));
+    console.log("totalAmount:", totalAmount);
+
+
+    const coinObjectIds = data.map((coin) => coin.coinObjectId);
+    
+
+    //如果有多于1个object
+    if(coinObjectIds.length > 1){
+        await tx.mergeCoins(coinObjectIds[0], coinObjectIds.slice(1));
+    }
+
+
+    
+    const [coin] = await tx.splitCoins(coinObjectIds[0], [amount]);
+
+    return coin;
 }

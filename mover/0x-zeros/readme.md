@@ -44,6 +44,7 @@
 
 ##   06 Dapp-kit SDK PTB
 - [x] save hash : GKWdoYX3ov5cBnBFmQWZENRXAp7MwUrYKyqA8bqSUTPK
+- [x] save hash (考虑了borrow fee): 5o2idoMymmpUj2gQHG9exi4TBQ36EXcxqu8EyKSv527D
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
