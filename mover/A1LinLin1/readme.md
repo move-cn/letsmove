@@ -65,5 +65,5 @@
 
 ## 08 Move CTF Lets Move
 
-- [] proof :
-- [] flag hash :
+- [X] proof : `[101, 246, 53, 242, 120, 249, 89, 249]`
+- [X] flag hash : `HEgCX8exVBzepEU1kby1hwQk2GVYjHQY36QLNWvqvNmD`
