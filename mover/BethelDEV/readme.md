@@ -43,7 +43,7 @@
 - [x] call swap CoinB-> CoinA  hash : [34heyyuxuWiij9VK28dyiPdzNmirfxFcjbmLsSprV2c6](https://suiscan.xyz/mainnet/tx/34heyyuxuWiij9VK28dyiPdzNmirfxFcjbmLsSprV2c6)
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : [6Rk93GqbZ6eMfRsuW9CmvSPYPeg6eNeJ15Xr24Bgufwh](https://suivision.xyz/txblock/6Rk93GqbZ6eMfRsuW9CmvSPYPeg6eNeJ15Xr24Bgufwh)
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
