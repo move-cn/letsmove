@@ -1,0 +1,7 @@
+0x2::coin::TreasuryCap<0x9c9ce17ee4943cc4a5b00011238a4c5c3be77908865a0c7066cbf7c879b24fea::xusd::XUSD>
+0x2::coin::TreasuryCap<0x5e550c2400fa9c1d6ed2839674857ef010f01b3563f47837c6d3052257d31b44::xrmb_facuet::XRMB_FACUET>
+
+mint代币客户端调用命令：
+sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0x5e550c2400fa9c1d6ed2839674857ef010f01b3563f47837c6d3052257d31b44::xusd::XUSD --args 0x8c0ee6772cbb0a66971c0cecc9c3478b6490588619f1d1f7e4ecc74145e3daeb 1900000000000 0xae317a1ddbea4a153a7bacb9a70f48683713de2ffc683745b74ad2b5d87d17b2
+sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0x5e550c2400fa9c1d6ed2839674857ef010f01b3563f47837c6d3052257d31b44::xrmb_facuet::XRMB_FACUET --args 0xc6527f537d03c1e22f57b3355a8f7a8bfab0f149780f4d5e6cc499855df8a018 1910000000000 0xae317a1ddbea4a153a7bacb9a70f48683713de2ffc683745b74ad2b5d87d17b2
+
