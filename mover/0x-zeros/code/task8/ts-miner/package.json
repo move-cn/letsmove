@@ -1,0 +1,26 @@
+{
+  "name": "ts-miner",
+  "version": "1.0.0",
+  "description": "TypeScript miner for Sui Move CTF8",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "sui",
+    "move",
+    "ctf",
+    "mining"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mysten/sui": "^1.26.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
