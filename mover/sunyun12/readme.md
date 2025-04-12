@@ -13,10 +13,10 @@ hup## 基本信息
 ## 任务
 
 ##   01 hello move  
-- [x] Sui cli version: sui 1.45.2-homebrew
-- [x] Sui钱包截图: ![Sui钱包截图](./images/截屏1.png)
-- [x] package id: 0xc1d4ff161ea84e62edd8bc63cea791cb61b8940c8a06f1162783acf3320a254a
-- [x] package id 在 scan上的查看截图:![Scan截图](./images/截屏2.png)
+- [√] Sui cli version: sui 1.45.2-homebrew
+- [√] Sui钱包截图: ![Sui钱包截图](./images/截屏1.png)
+- [√] package id: 0xc1d4ff161ea84e62edd8bc63cea791cb61b8940c8a06f1162783acf3320a254a
+- [√] package id 在 scan上的查看截图:![Scan截图](./images/截屏2.png)
 
 ##   02 move coin
 - [] My Coin package id : 
