@@ -19,31 +19,31 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/task1.png)
 
 ##   02 move coin
-- [] My Coin package id : 0x0e36a6eb9351cbbb5e0f8c378e389e23df44d385653822c052e18d5138dd1a2d
-- [] Faucet package id : 0x0e36a6eb9351cbbb5e0f8c378e389e23df44d385653822c052e18d5138dd1a2d
-- [] 转账 `My Coin` hash: BDPq3YRtwGbkEz6MzKM56f1mr2R8wQhZgoZAcxUe4Hax
-- [] `Faucet Coin` address1 mint hash: 28KRYDwtRydq2iswZRgRjd4x8N8k45G3gyekhFbeUy6i
-- [] `Faucet Coin` address2 mint hash: 6qK7jpuutNHjEsQyXVW4JNZhGFotrBCsuTBeE7uyn8gw
+- [x] My Coin package id : 0x9eb28cdb7cab4a8ae396c2eb50c631a4aef3ee81f742e0742a50d7abafaedd6e
+- [x] Faucet package id : 0x9eb28cdb7cab4a8ae396c2eb50c631a4aef3ee81f742e0742a50d7abafaedd6e
+- [x] 转账 `My Coin` hash: 3YLUsqgpUidLmWMvbAnJMXN7aCr5VeF6jQ4WGsGwz48P
+- [x] `Faucet Coin` address1 mint hash: 3JApvRUyMevHDgp5o5EViZvUjJH83iSmxYS2xQaB3e6F
+- [x] `Faucet Coin` address2 mint hash: AiZNt9QRXpCJ12Z2JqmuJC2kHnoB65oTdpiuLRvXD2KG
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id : 0x685fa3d296a62e13690bb08811c3de36b1ca537a11e4d32b631e83db78b88c7f
+- [x] nft object id : 0xd95a0f63281bd2dddfb8a8f446be3bbf6da622595d18bc536258c3f1d943174b
+- [x] 转账 nft  hash:  0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
+- [x] scan上的NFT截图:![Scan截图](./images/myNft.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : 0x9eb28cdb7cab4a8ae396c2eb50c631a4aef3ee81f742e0742a50d7abafaedd6e
+- [x] deposit Coin hash: 6Jsy2P3kgGUtgAGW8zeXc85uaUvX4ZqAAC16VriikkQ
+- [x] withdraw `Coin` hash: 6wRFvzB3QoCpArkQo5u5U4HwkfkQwHCz8mvEd58hcYRQ
+- [x] play game hash: HMBdvJe8KaHPBY1sxxn5f6uwtxTCjPT7kSKhSdr958K8
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0x526eaafb77d0a671cad1ed87e1284980ec0b1c26386168fb4e6b9ee936f581a7
+- [x] call swap CoinA-> CoinB  hash : Ex9MpRiHDcgzn8bF2QUkGaQ1D8bcriRucRAM4Xj2uENb
+- [x] call swap CoinB-> CoinA  hash : JCncUaaFyxNm8KaVjR2Pq7DhKP1E1KKjijCRu7rv268w
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : GVWbAZDKKBX7ghETPEcgth9Td2rnET5HzFPbWyJVaV5
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
