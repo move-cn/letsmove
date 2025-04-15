@@ -31,3 +31,10 @@
     <div style="text-align: center;">
         <img src="./images/hellomove-package.png">
     </div>
+
+##   02 move coin
+- [x] `My Coin` package id : `0xbe331e96904328f7df09ed3fcd4c1f9bd5278476bd3c11525bc618334846afa2`
+- [x] `Faucet Coin` package id : `0xddfdb54eb80c8ff6d023e3fb75f4c2a2add96e77673b863758af5b6f43b7ba7c`
+- [x] 转账 `My Coin` hash: `ED8UguF2TuWdYB7XzEV4KZJxo75Un7a7FhaMoNzegBmv`
+- [x] `Faucet Coin` address1 mint hash: `EinpSKwUMuK6gN1h11Ba5hv4qKnXm8moUjegzGQbjNDg`
+- [x] `Faucet Coin` address2 mint hash: `EsNMmgdy39NqF4J5i99JgczeaSLPU4VB7bCdTpy8kUpk`
