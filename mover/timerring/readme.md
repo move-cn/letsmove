@@ -12,17 +12,19 @@
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version: `sui 1.47.0`
-- [] Sui钱包截图: ![](https://cdn.jsdelivr.net/gh/timerring/scratchpad2023/2024/2025-04-16-16-30-26.png)
-- [] package id: `0x1f48b34e98a84fb4015cd7510a39ec4f22cc65f6548a735759db1c4a59e471f9`
-- [] package id 在 scan上的查看截图:![](https://cdn.jsdelivr.net/gh/timerring/scratchpad2023/2024/2025-04-16-16-41-12.png)
+- [x] Sui cli version: `sui 1.47.0`
+- [x] Sui钱包截图: ![](https://cdn.jsdelivr.net/gh/timerring/scratchpad2023/2024/2025-04-16-16-30-26.png)
+- [x] package id: `0x1f48b34e98a84fb4015cd7510a39ec4f22cc65f6548a735759db1c4a59e471f9`
+- [x] package id 在 scan上的查看截图:![](https://cdn.jsdelivr.net/gh/timerring/scratchpad2023/2024/2025-04-16-16-41-12.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id : `0xa01e1513bc26c4bc087876be4e6d707fcdddbfaa197b3b8fe9304dabeefbdd61`
+- [x] Faucet package id : `0xa01e1513bc26c4bc087876be4e6d707fcdddbfaa197b3b8fe9304dabeefbdd61`
+- [x] 转账 `My Coin` hash: `DGeDrVzMchb21rRJFYpwi3GQYd3eLFNq8iokgZAmiunZ`
+- [x] `Faucet Coin` address1 mint hash: `A5DXP1V9SrjvHXbKt3udNHNLJhGmGWKJmnF4mThcdL3k`
+- [x] `Faucet Coin` address2 mint hash: `DNpfwQtiZUNX8hxtXUJ4vfjtMcKRg1PbbMpeSr8Pz7YQ`
+
+In order to save the gas, here I use the `0xea` to mint and transfer the `Faucet_coin` to the addresses directly instead of transfering the `SUI` to the addresses first, then use the address themselves to mint the `Faucet_coin`.
 
 ##   03 move NFT
 - [] nft package id :
