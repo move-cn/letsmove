@@ -39,9 +39,9 @@ In order to save the gas, here I use the `0xea` to mint and transfer the `Faucet
 - [] play game hash: `8V5ejqoW9836T5yAB4JxK365YkXymPSmfab6Em2h6iVy`
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [] swap package id : `0xe7f99e754a8f8fddaec3e70e0f9127b4740da2cef3a705377869756767355986`
+- [] call swap CoinA-> CoinB  hash : `4fngH8jjwF4NhofXvJ3aj9NTUtWYsQkyfKx9oQiXbZ3Z`
+- [] call swap CoinB-> CoinA  hash : `BeRpwLqne6sSkXWcXh6uWsGZt1Wt375gzj8jJtwR9Ngw`
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :
