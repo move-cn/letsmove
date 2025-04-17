@@ -19,12 +19,11 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/cxl_1.png)
 
 ##   02 move coin
-- [x] My Coin package id : 0xf2126fd0ac14be53e77a616314eabc4361610cb95635a93d1bab53b943472a
-- [x] Faucet package id : 0xf2126fd0ac14be53e77a616314eabc4361610cb95635a93d1bab53b943472a
-- [x] 转账 `My Coin` hash:42vMtqeft9NgjiXWEosjuCBqjQMQzxdqHdMgzk2vm3wT
-- [x] `Faucet Coin` address1 mint hash:4BeK8bfBWFrZsf1dq7KLMfx3vRCybTjnVSFQbKz2z6sQ
-- [x] `Faucet Coin` address2 mint hash:YjdzpCYCtmsrM3XhWbbWoCFVYbZieZQ7GXUaSinWJAm
-
+- [x] My Coin package id : 0xf1920bff2120b320a412bae111d16cb525973d60a808f9b2ec676a74fab311bd
+- [x] Faucet package id : 0xf1920bff2120b320a412bae111d16cb525973d60a808f9b2ec676a74fab311bd
+- [x] 转账 `My Coin` hash:C3eZq9M3LyKVqx34QruFQMNS1jfjNvNg2NSay25fLTBd
+- [x] `Faucet Coin` address1 mint hash:C3awFMkXQdatKaqdZJzViPhMW3TTeyH9U7VuB7Zyc7fh
+- [x] `Faucet Coin` address2 mint hash:8eDJixs6Tbupz8AHTyATQvMAdeZVHpTg8B8ejKoa6dfA
 ##   03 move NFT
 - [] nft package id :
 - [] nft object id : 

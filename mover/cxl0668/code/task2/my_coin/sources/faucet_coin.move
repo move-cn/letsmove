@@ -7,7 +7,7 @@ module my_coin::cxl0668_faucet_coin{
     public struct CXL0668_FAUCET_COIN has drop {}
 
     fun init(cxl0668_faucet_coin: CXL0668_FAUCET_COIN, ctx: &mut TxContext) {
-        let url = url::new_unsafe_from_bytes(b"https://avatars.githubusercontent.com/u/138219491");
+        let url = url::new_unsafe_from_bytes(b"https://avatars.githubusercontent.com/u/30109256?s=400&v=4");
         let yes = some<Url>(url);
         
         // 创建代币并设置元信息
