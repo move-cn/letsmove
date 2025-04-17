@@ -27,10 +27,10 @@
 In order to save the gas, here I use the `0xea` to mint and transfer the `Faucet_coin` to the addresses directly instead of transfering the `SUI` to the addresses first, then use the address themselves to mint the `Faucet_coin`.
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id :`0x4c0318da604599c8b8c3ecfce0cc184f2b67f0f4665b5d4dc0d93f2751d6e2bc`
+- [x] nft object id : `0x143c3e0638dd55f17ea464baf5abf6ed1077ef1c7a8b9ce34b53cfbda4c18652`
+- [x] 转账 nft  hash: `6KbsnVDwwzNLKwQZmRen455zGRgSrNw7XjpUUfDkvF4s`
+- [x] scan上的NFT截图: ![](https://cdn.jsdelivr.net/gh/timerring/scratchpad2023/2024/2025-04-17-13-21-18.png)
 
 ##   04 Move Game
 - [] game package id :
