@@ -44,7 +44,7 @@ In order to save the gas, here I use the `0xea` to mint and transfer the `Faucet
 - [] call swap CoinB-> CoinA  hash : `BeRpwLqne6sSkXWcXh6uWsGZt1Wt375gzj8jJtwR9Ngw`
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [] save hash : `BCe4LMz8DjrHnQLHA2Wxy9C3xeKn7zKHRo29sQvaMZU9`
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)
