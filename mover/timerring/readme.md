@@ -33,22 +33,22 @@ In order to save the gas, here I use the `0xea` to mint and transfer the `Faucet
 - [x] scan上的NFT截图: ![](https://cdn.jsdelivr.net/gh/timerring/scratchpad2023/2024/2025-04-17-13-21-18.png)
 
 ##   04 Move Game
-- [] game package id : `0x181d9abd5be5a6468bfcad5963d7ca811f8412a439bb2c630a8e2b8f917b8f25`
-- [] deposit Coin hash: `3Ym4cwSspTbjY96RpEHeHKrUMRKbSYkKFXJMe4369dKB`
-- [] withdraw `Coin` hash: `BJqRzvSkQ88CJdtM8X7984oSX7p5WUoYursNK63HFbS1`
-- [] play game hash: `8V5ejqoW9836T5yAB4JxK365YkXymPSmfab6Em2h6iVy`
+- [x] game package id : `0x181d9abd5be5a6468bfcad5963d7ca811f8412a439bb2c630a8e2b8f917b8f25`
+- [x] deposit Coin hash: `3Ym4cwSspTbjY96RpEHeHKrUMRKbSYkKFXJMe4369dKB`
+- [x] withdraw `Coin` hash: `BJqRzvSkQ88CJdtM8X7984oSX7p5WUoYursNK63HFbS1`
+- [x] play game hash: `8V5ejqoW9836T5yAB4JxK365YkXymPSmfab6Em2h6iVy`
 
 ##   05 Move Swap
-- [] swap package id : `0xe7f99e754a8f8fddaec3e70e0f9127b4740da2cef3a705377869756767355986`
-- [] call swap CoinA-> CoinB  hash : `4fngH8jjwF4NhofXvJ3aj9NTUtWYsQkyfKx9oQiXbZ3Z`
-- [] call swap CoinB-> CoinA  hash : `BeRpwLqne6sSkXWcXh6uWsGZt1Wt375gzj8jJtwR9Ngw`
+- [x] swap package id : `0xe7f99e754a8f8fddaec3e70e0f9127b4740da2cef3a705377869756767355986`
+- [x] call swap CoinA-> CoinB  hash : `4fngH8jjwF4NhofXvJ3aj9NTUtWYsQkyfKx9oQiXbZ3Z`
+- [x] call swap CoinB-> CoinA  hash : `BeRpwLqne6sSkXWcXh6uWsGZt1Wt375gzj8jJtwR9Ngw`
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash : `BCe4LMz8DjrHnQLHA2Wxy9C3xeKn7zKHRo29sQvaMZU9`
+- [x] save hash : `BCe4LMz8DjrHnQLHA2Wxy9C3xeKn7zKHRo29sQvaMZU9`
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : ![](https://cdn.jsdelivr.net/gh/timerring/scratchpad2023/2024/2025-04-17-19-45-48.png)
+- [x] flag hash : `DtFEqKXTCwzrpyeDaa1TcyEcWANJCCvaTV16hnDc3dru`
 
 ##   08 Move CTF Lets Move
 - [] proof : 
