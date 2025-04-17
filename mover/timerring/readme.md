@@ -47,10 +47,11 @@ In order to save the gas, here I use the `0xea` to mint and transfer the `Faucet
 - [x] save hash : `BCe4LMz8DjrHnQLHA2Wxy9C3xeKn7zKHRo29sQvaMZU9`
 
 ##   07 Move CTF Check In
+> I forget to test on the testnet, so I publish the code on the mainnet, and test myself.
 - [x] CLI call 截图 : ![](https://cdn.jsdelivr.net/gh/timerring/scratchpad2023/2024/2025-04-17-19-45-48.png)
 - [x] flag hash : `DtFEqKXTCwzrpyeDaa1TcyEcWANJCCvaTV16hnDc3dru`
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof : `0x902158b27573f9fc`
+- [x] flag hash : `51EWBFyvh1dvc1WJQt5xyEBcpkbvnD2rehFZF4ZKVhBB`
 
