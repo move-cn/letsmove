@@ -1,5 +1,5 @@
 ## letsmove
-Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move语言
+Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move语言cxl
 
 ## 带奖励的学习任务
 [学习任务](./task)
