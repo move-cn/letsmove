@@ -33,10 +33,10 @@ In order to save the gas, here I use the `0xea` to mint and transfer the `Faucet
 - [x] scan上的NFT截图: ![](https://cdn.jsdelivr.net/gh/timerring/scratchpad2023/2024/2025-04-17-13-21-18.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [] game package id : `0x181d9abd5be5a6468bfcad5963d7ca811f8412a439bb2c630a8e2b8f917b8f25`
+- [] deposit Coin hash: `3Ym4cwSspTbjY96RpEHeHKrUMRKbSYkKFXJMe4369dKB`
+- [] withdraw `Coin` hash: `BJqRzvSkQ88CJdtM8X7984oSX7p5WUoYursNK63HFbS1`
+- [] play game hash: `8V5ejqoW9836T5yAB4JxK365YkXymPSmfab6Em2h6iVy`
 
 ##   05 Move Swap
 - [] swap package id :
