@@ -11,7 +11,7 @@ public struct Hello has key {
 fun init(ctx: &mut TxContext) {
     let hello_move = Hello {
         id: object::new(ctx),
-        say: string(b"move your github id"),
+        say: string(b"Alex434er"),
     };
     transfer(hello_move, ctx.sender());
 }
