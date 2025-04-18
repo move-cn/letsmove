@@ -43,8 +43,8 @@ entry fun play(game: &mut Game,
               tokens: Coin<OPERAXXXFAUCET>,
               ctx: &mut TxContext ) {
     // verify tokens
-    assert!(tokens.value() * 10 > tokens.value(), E_TOKENS_TOO_BIG);
-    assert!(tokens.value() * 10 <= 0u64, E_TOKENS_MUST_GREATER_THAN_ZERO);
+    assert!(tokens.value() <= game.amount.value() / 10, E_TOKENS_TOO_BIG);
+    assert!(game.amount.value() > 0, E_TOKENS_MUST_GREATER_THAN_ZERO);
 
     let mut randomGenerator = random::new_generator(random, ctx);
     let curr_result = random::generate_bool(&mut randomGenerator);
@@ -62,11 +62,14 @@ entry fun play(game: &mut Game,
 }
 
 public entry fun addTokens(game: &mut Game, tokens: Coin<OPERAXXXFAUCET>, _: &mut TxContext) {
+    assert!(tokens.value() > 0, E_TOKENS_MUST_GREATER_THAN_ZERO);
     let in_balance = coin::into_balance(tokens);
     game.amount.join(in_balance);
 }
 
 public entry fun withdraw(_:&AdminCap, game: &mut Game, amount: u64, ctx: &mut TxContext) {
+    assert!(amount <= game.amount.value(), E_TOKENS_TOO_BIG);
+    assert!(amount > 0, E_TOKENS_MUST_GREATER_THAN_ZERO);
     let out_balance = game.amount.split(amount);
     let out_coin = coin::from_balance(out_balance, ctx);
     public_transfer(out_coin, ctx.sender());

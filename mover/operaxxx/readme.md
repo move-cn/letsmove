@@ -2,7 +2,7 @@
 
 - Sui钱包地址: `0x9155d867536bd59d4a4ca7692ebc5e38a6e9bea8e2ab6d828b598656ad1e564b`
 
-> 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
+> 首次参与需要完成第一个任务注册好钱包地址才被合并·，并且后续学习奖励会打入这个地址
 
 - github: `operaxxx`
 
@@ -42,10 +42,10 @@
 
 ## 04 Move Game
 
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [X] game package id : 0x0a210de6094352ace503c219362ad61c9b867d13e5985223ea8fee6d31d5be4d
+- [X] deposit Coin hash: 2PbNNU52fjQZkqpDr8EqQNvTeRSdYi4saDA4VSdJsXnV
+- [X] withdraw `Coin` hash: GJCRSMnjkmsziivawdC18ENLjnDfAzGEHFs7kh1vXjTk
+- [X] play game hash: 5kGbTX98v8ikXZdizB2QE7CJsnNu74g1FHYvoxG2smWs
 
 ## 05 Move Swap
 
