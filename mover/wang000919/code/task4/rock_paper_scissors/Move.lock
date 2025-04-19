@@ -2,14 +2,15 @@
 
 [move]
 version = 3
-manifest_digest = "6A9EA0C7B2B1375E2F2C241BAE6B953FCD018775846DEDBA226EFBFB2FB6E003"
-deps_digest = "397E6A9F7A624706DBDFEE056CE88391A15876868FD18A88504DA74EB458D697"
+manifest_digest = "8DE2B9DC042FBE5AE538A3F4277DC4EB523FDC7DF5872AFEE65FEBD061FC10D7"
+deps_digest = "52B406A7A21811BEF51751CF88DA0E76DAEFFEAC888D4F4060B1A72BBE7D8D35"
 dependencies = [
   { id = "Bridge", name = "Bridge" },
   { id = "DeepBook", name = "DeepBook" },
   { id = "MoveStdlib", name = "MoveStdlib" },
   { id = "Sui", name = "Sui" },
   { id = "SuiSystem", name = "SuiSystem" },
+  { id = "my_coin", name = "my_coin" },
 ]
 
 [[move.package]]
@@ -52,6 +53,18 @@ dependencies = [
   { id = "Sui", name = "Sui" },
 ]
 
+[[move.package]]
+id = "my_coin"
+source = { local = "..\\..\\task2" }
+
+dependencies = [
+  { id = "Bridge", name = "Bridge" },
+  { id = "DeepBook", name = "DeepBook" },
+  { id = "MoveStdlib", name = "MoveStdlib" },
+  { id = "Sui", name = "Sui" },
+  { id = "SuiSystem", name = "SuiSystem" },
+]
+
 [move.toolchain-version]
 compiler-version = "1.46.0"
 edition = "2024.beta"
@@ -59,14 +72,14 @@ flavor = "sui"
 
 [env]
 
-[env.mainnet]
-chain-id = "35834a8a"
-original-published-id = "0x0858f798dabbbb00cfdf1dc82792dd766616a7a5970ffd9cfacfe3474e1d1f00"
-latest-published-id = "0x0858f798dabbbb00cfdf1dc82792dd766616a7a5970ffd9cfacfe3474e1d1f00"
-published-version = "1"
-
 [env.devnet]
 chain-id = "f4a15ff1"
-original-published-id = "0xb569e974f4d8cfe4da225941b1c3a5b21285b779d11bf29410686f3c791c8ded"
-latest-published-id = "0xb569e974f4d8cfe4da225941b1c3a5b21285b779d11bf29410686f3c791c8ded"
+original-published-id = "0x30071e1ab1cd9cb9426da289246b2d7c5f896360332cb6f5b2fa1e1fe1970a53"
+latest-published-id = "0x30071e1ab1cd9cb9426da289246b2d7c5f896360332cb6f5b2fa1e1fe1970a53"
+published-version = "1"
+
+[env.mainnet]
+chain-id = "35834a8a"
+original-published-id = "0x09993faf59b2e39499352f412681a7d14bc209f41b11b65aa7e277d318326072"
+latest-published-id = "0x09993faf59b2e39499352f412681a7d14bc209f41b11b65aa7e277d318326072"
 published-version = "1"
