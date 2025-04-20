@@ -1,22 +1,24 @@
 ## 基本信息
-- Sui钱包地址: `0x1000000000000x`
+- Sui钱包地址: `0xff8ca4293fc963512d54d444c6aa7b384e4728ea455e8651922baba1ff82b223`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
-- github: `自己的githubid`
+- github: `ganeshys`
 
 ## 个人简介
-- 工作经验: x年
-- 技术栈: `Rust` `C++`
+- 工作经验: 3年
+- 技术栈: `java` `C++`
 > 重要提示 请认真写自己的简介
 - 多年web2开发经验，对Move特别感兴趣，想通过Move入门区块链
-- 联系方式: tg: `xxx` 
+- 多年前端开发，熟悉vue
+- 熟悉java，go，python
+- 联系方式: tg: `gits` 
 
 ## 任务
 
 ##   01 hello move  
-- [] Sui cli version:
-- [] Sui钱包截图: ![Sui钱包截图](./images/你的图片地址)
-- [] package id: 
-- [] package id 在 scan上的查看截图:![Scan截图](./images/你的图片地址)
+- [] Sui cli version:sui 1.47.0-f3e72b60708b
+- [] Sui钱包截图: ![Sui钱包截图](task1/images/sui.png)
+- [] package id: 3znWKHopYBh5xUUBpCA67hi1HGDkg8jLWaF1cpemStsi
+- [] package id 在 scan上的查看截图:![Scan截图](task1/images/img.png) ![Scan截图](task1/images/img_1.png)
 
 ##   02 move coin
 - [] My Coin package id : 
@@ -26,10 +28,10 @@
 - [] `Faucet Coin` address2 mint hash:
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [] nft package id :0xffa19927333908ab37bea2e015c01b375a53b891e04fc8dd66de56584d647ddc
+- [] nft object id : 0x88aa09837eb2812d6b9fcbdac01309af13174a8f08a8734a3be62413048d877b
+- [] 转账 nft  hash:9FhECFbBieFTkhVrqJ7PJbUPLgSFUSU9tLopyGwrC1dU
+- [] scan上的NFT截图:![Scan截图](task3/images/NFT截图.png)
 
 ##   04 Move Game
 - [] game package id :
