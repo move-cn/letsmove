@@ -5,10 +5,8 @@ Let's Move 一项学Move获得SUI的激励计划，鼓励更多的人学习Move�
 [学习任务](./task)
 
 ## 社区 & 问答
-- [move中文 TG](https://t.me/move_cn)
-- QQ群: 79489587
+- [mov
 
-## bootcamp视频
 | 期数               | 视频                                                |                         源码                         |
 |:-----------------|---------------------------------------------------|:--------------------------------------------------:|
 | 2024年11-12月 HOH  | [B站](https://www.bilibili.com/video/BV1BMD8Y2EfE) | [课程源码](https://github.com/hoh-zone/move-bootcamp)  |
