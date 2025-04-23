@@ -1,0 +1,52 @@
+publish_at = 0xacc44eb513363d484b574262c16e046f5d0a24afae83a6ef9a388ca86f21dbfd
+AdminCap = 0x9607e1ef87d8886938f0046de9443291c0ec9af8d50098f4fd0104afbb128c41
+
+OPERAXXXCOIN: 0xc72b224027d944d198dc2458d8110d1027f17dc4da96140fa96f12a1a4cb9367::operaxxxcoin::OPERAXXXCOIN
+OPERAXXXFAUCET: 0x7114b81fe505ec099883cc9834066de677b3fa278ac4fda06ab125020de9dbd2::operaxxxfaucet::OPERAXXXFAUCET
+
+# create pool
+sui client call --package 0xacc44eb513363d484b574262c16e046f5d0a24afae83a6ef9a388ca86f21dbfd \
+    --module operaxxx \
+    --function create_pool \
+    --type-args 0xc72b224027d944d198dc2458d8110d1027f17dc4da96140fa96f12a1a4cb9367::operaxxxcoin::OPERAXXXCOIN \
+    0x7114b81fe505ec099883cc9834066de677b3fa278ac4fda06ab125020de9dbd2::operaxxxfaucet::OPERAXXXFAUCET \
+    --args 0x9607e1ef87d8886938f0046de9443291c0ec9af8d50098f4fd0104afbb128c41
+
+Pool: 0x532d2d38db7ecd433073d17db77a9ecfc14e8f72e63d89d65aa6eef933f546cb
+
+
+# add coin A
+sui client call --package 0xacc44eb513363d484b574262c16e046f5d0a24afae83a6ef9a388ca86f21dbfd \
+    --module operaxxx \
+    --function add_coin_A \
+    --type-args 0xc72b224027d944d198dc2458d8110d1027f17dc4da96140fa96f12a1a4cb9367::operaxxxcoin::OPERAXXXCOIN \
+    0x7114b81fe505ec099883cc9834066de677b3fa278ac4fda06ab125020de9dbd2::operaxxxfaucet::OPERAXXXFAUCET \
+    --args 0x532d2d38db7ecd433073d17db77a9ecfc14e8f72e63d89d65aa6eef933f546cb \
+    0x64ca7abfcd024b9e9d1a3267d86a894e326e634bbac1fc147da555069ab4518d
+
+# add coin B
+sui client call --package 0xacc44eb513363d484b574262c16e046f5d0a24afae83a6ef9a388ca86f21dbfd \
+    --module operaxxx \
+    --function add_coin_B \
+    --type-args 0xc72b224027d944d198dc2458d8110d1027f17dc4da96140fa96f12a1a4cb9367::operaxxxcoin::OPERAXXXCOIN \
+    0x7114b81fe505ec099883cc9834066de677b3fa278ac4fda06ab125020de9dbd2::operaxxxfaucet::OPERAXXXFAUCET \
+    --args 0x532d2d38db7ecd433073d17db77a9ecfc14e8f72e63d89d65aa6eef933f546cb \
+    0xbae9e49d6d4a1e52524b3ada4beabae8c7873ecd126f0c7f3fe17b8b09ccfe6b
+
+# swap A to B digest: CrhjGvpJwvdZ8BgMhChqUrhqeqePYwkGg28CQ5qvAKES
+sui client call --package 0xacc44eb513363d484b574262c16e046f5d0a24afae83a6ef9a388ca86f21dbfd \
+    --module operaxxx \
+    --function swap_to_B \
+    --type-args 0xc72b224027d944d198dc2458d8110d1027f17dc4da96140fa96f12a1a4cb9367::operaxxxcoin::OPERAXXXCOIN \
+    0x7114b81fe505ec099883cc9834066de677b3fa278ac4fda06ab125020de9dbd2::operaxxxfaucet::OPERAXXXFAUCET \
+    --args 0x532d2d38db7ecd433073d17db77a9ecfc14e8f72e63d89d65aa6eef933f546cb \
+    0x491408200699cd49620288673b8ebf0970b327730f9637c041d73a96337b2e29
+
+# swap B to A digest: FBnyncfaETHm1ggf86ofvKpxDenTZcvmYA5DeiCTb3DP
+sui client call --package 0xacc44eb513363d484b574262c16e046f5d0a24afae83a6ef9a388ca86f21dbfd \
+    --module operaxxx \
+    --function swap_to_A \
+    --type-args 0xc72b224027d944d198dc2458d8110d1027f17dc4da96140fa96f12a1a4cb9367::operaxxxcoin::OPERAXXXCOIN \
+    0x7114b81fe505ec099883cc9834066de677b3fa278ac4fda06ab125020de9dbd2::operaxxxfaucet::OPERAXXXFAUCET \
+    --args 0x532d2d38db7ecd433073d17db77a9ecfc14e8f72e63d89d65aa6eef933f546cb \
+    0x32636cdf1d15a530c2476736359212d50ae5425473995f8f14e49fe2beba0a61

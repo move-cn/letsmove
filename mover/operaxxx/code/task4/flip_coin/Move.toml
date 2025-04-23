@@ -22,11 +22,6 @@ operaxxxfaucet = { local = "../../task2/operaxxxfaucet" }
 
 [addresses]
 flip_coin = "0x0"
-# testnet
-# operaxxxfaucet = "0x7114b81fe505ec099883cc9834066de677b3fa278ac4fda06ab125020de9dbd2"
-# mainent
-# operaxxxfaucet = "0x98694f8486d4bcb29b3eb58ea8d97e8ff4b072e25fba4976cd46e609f3c802a4"
-
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
