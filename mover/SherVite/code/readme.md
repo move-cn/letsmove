@@ -1,3 +1,7 @@
+编写task4game
+/*关联发布的coin包，在toml文件中，与本地coin 文件夹toml中 添加coin package ID;并 local 地址添加本地地址，根据game 文件夹与coin文件夹相对跳转路径，确定/../../task2_coin */
+
+
 Task2 Coin sources :https://github.com/MystenLabs/sui/blob/main/crates/sui-framework/packages/sui-framework/sources/coin.move
 
 
