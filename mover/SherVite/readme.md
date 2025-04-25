@@ -19,11 +19,13 @@
 - [x] package id 在 scan上的查看截图:![Scan截图](./images/Package_2025-03-07_141456.png)
 
 ##   02 move coin
-- [] My Coin package id : 
-- [] Faucet package id : 
-- [] 转账 `My Coin` hash:
-- [] `Faucet Coin` address1 mint hash:
-- [] `Faucet Coin` address2 mint hash:
+- [x] My Coin package id : 0x3813627c96983c3881ff1974228a2a76cf69626770aa356e992eddf9aed4d15d  //publish in Mainnet
+- [x] My Coin package id : 0x6aa34e8a862ad6f17b604da93390f9ffe18f4576f020997507613ef2c46d0801    //publish in testnet
+- [x] Faucet package id : 0x6aa34e8a862ad6f17b604da93390f9ffe18f4576f020997507613ef2c46d0801      //publish in testnet, beacause of NO SUI TO Publish in MAINNET  >_< !!!
+- [x] 转账 `My Coin` hash:5rfjznCQY3EE9My6NNc4B3qKUwLar8swmZkqSMNh79re  //in Mainnet
+- [x] 转账 `My Coin` hash:6jeofMcVX1FwFNVysuvbZf2f4NArKwy4JQUh6nhvdrke  //in testnet
+- [x] `Faucet Coin` address1 mint hash:9Tatro4azdELRM5je9cJWhLCzXuGL6cywZWCaN1Bya2   //publish in testnet
+- [x] `Faucet Coin` address2 mint hash:8RYcdU8MmZEpEZfVnRgMqpp1xM73CBKHJBf48Ucv7CMm   //publish in testnet
 
 ##   03 move NFT
 - [x] nft package id :0xb07b67f35bb6b3ea2e07519ea2ed02e6f934903b8f4a1c1233e62d9a0d7bc403
@@ -33,10 +35,10 @@
 - [x] 转给指定地址的NFT截图:![Scan截图](./images/Task3_sent_to_other.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : 0x7f270447642d061b4787170f87bfb17e09c1ce6f278e4cf4d098de7e266cff7a
+- [x] deposit Coin hash: C1ZAFNs5Xe3AUnGYtiU3iJgCQetzgj16sagnL9SgiCCz
+- [x] withdraw `Coin` hash:BcE2GtCBn52k4wMGpHUB1doR8WZUsF3VDU7hFdFvAdvW
+- [x] play game hash:B6syvHZA92rSdBZmD3H3sntWLpuqbxSMRgTH27Hzv4kG
 
 ##   05 Move Swap
 - [] swap package id :
@@ -47,10 +49,11 @@
 - [x] save hash :0xd7d90639406652bbb06ed89613636712f8260370b02185b8e346910d0abf7c5c
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [x] CLI call 截图 : ![截图](./images/Task7_CTF_CHECK_IN.png)
+- [x] flag hash :76ZNj8z3cBmUS7S6scB7xeVc73sKr9QPpyCzSArqbrXN
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof : 0xdfefdc0000000000  
+- [x] flag hash :7kdncpAReGHzt8runNLjmbQaHozviFw2V6MCu8V2hZxo
+- [x] 截图 : ![截图](./images/Task8_CTF_LetsMove.png)
 
