@@ -27,24 +27,24 @@
 In order to save the gas, here I use the `0xea` to mint and transfer the `Faucet_coin` to the addresses directly instead of transfering the `SUI` to the addresses first, then use the address themselves to mint the `Faucet_coin`.
 
 ##   03 move NFT
-- [] nft package id :
-- [] nft object id : 
-- [] 转账 nft  hash:
-- [] scan上的NFT截图:![Scan截图](./images/你的图片地址)
+- [x] nft package id :`0x4c0318da604599c8b8c3ecfce0cc184f2b67f0f4665b5d4dc0d93f2751d6e2bc`
+- [x] nft object id : `0x143c3e0638dd55f17ea464baf5abf6ed1077ef1c7a8b9ce34b53cfbda4c18652`
+- [x] 转账 nft  hash: `6KbsnVDwwzNLKwQZmRen455zGRgSrNw7XjpUUfDkvF4s`
+- [x] scan上的NFT截图: ![](https://cdn.jsdelivr.net/gh/timerring/scratchpad2023/2024/2025-04-17-13-21-18.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [] game package id : `0x181d9abd5be5a6468bfcad5963d7ca811f8412a439bb2c630a8e2b8f917b8f25`
+- [] deposit Coin hash: `3Ym4cwSspTbjY96RpEHeHKrUMRKbSYkKFXJMe4369dKB`
+- [] withdraw `Coin` hash: `BJqRzvSkQ88CJdtM8X7984oSX7p5WUoYursNK63HFbS1`
+- [] play game hash: `8V5ejqoW9836T5yAB4JxK365YkXymPSmfab6Em2h6iVy`
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [] swap package id : `0xe7f99e754a8f8fddaec3e70e0f9127b4740da2cef3a705377869756767355986`
+- [] call swap CoinA-> CoinB  hash : `4fngH8jjwF4NhofXvJ3aj9NTUtWYsQkyfKx9oQiXbZ3Z`
+- [] call swap CoinB-> CoinA  hash : `BeRpwLqne6sSkXWcXh6uWsGZt1Wt375gzj8jJtwR9Ngw`
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [] save hash : `BCe4LMz8DjrHnQLHA2Wxy9C3xeKn7zKHRo29sQvaMZU9`
 
 ##   07 Move CTF Check In
 - [] CLI call 截图 : ![截图](./images/你的图片地址)

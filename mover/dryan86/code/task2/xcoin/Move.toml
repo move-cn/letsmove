@@ -1,6 +1,7 @@
 [package]
 name = "xcoin"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
+published-at = "0xe7194fd262ad3f6b8df3adf4817eeda0f2a230092934afcc1c41013e83212d4d"
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
@@ -18,7 +19,7 @@ Sui = {git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-frame
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-xcoin = "0x0"
+xcoin = "0xe7194fd262ad3f6b8df3adf4817eeda0f2a230092934afcc1c41013e83212d4d"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
