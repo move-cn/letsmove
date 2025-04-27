@@ -1,0 +1,4 @@
+sui client call  --package 0xd113118ef846c2d85dda904ad01ea0fe33194681fd54ba759020f41dbd121f14 \
+--module btc_cyh_test \
+--function mint \
+--args 0x9712448a5befb1afc2147d4aef9d4b4314c8dccef107f86c49c3550a26cd9e91 10000000 0xa7ec687d3e7465a56e91df2f6043ebfd33875d9815f36b6334c4f2b5d8389906 \
