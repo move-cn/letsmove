@@ -18,15 +18,14 @@ fun init(ctx: &mut TxContext){
         image_url:string::utf8(b"https://github.com/cyhzuishuai/images/blob/main/%E5%A4%B4%E5%83%8F.jpg?raw=true")
     };
     transfer(my_nft,sender(ctx))
-
 }
 
-public entry fun mint(url:String,ctx: &mut TxContext){
+public entry fun mint(recipient: address, ctx: &mut TxContext){
     let my_nft = MyNft{
         id:object::new(ctx),
         name:string::utf8(b"cyhzuishuai"),
-        image_url: url
+        image_url:string::utf8(b"https://github.com/cyhzuishuai/images/blob/main/%E5%A4%B4%E5%83%8F.jpg?raw=true")
     };
-    transfer(my_nft,sender(ctx));
+    transfer(my_nft,recipient);
 }
 
