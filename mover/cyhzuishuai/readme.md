@@ -1,11 +1,11 @@
 ## 基本信息
-- Sui钱包地址: `0x0029fafc837ce48ffea13e4de27b0b7c9c472e7c20d2327316fcf64aa5b3edba`
+- Sui钱包地址: `0x8cdacb19088787b58ecd65ed3d88aa46008bcd9ca4b0ae8461d8e5ceab0856d7`
 > 首次参与需要完成第一个任务注册好钱包地址才被合并，并且后续学习奖励会打入这个地址
 - github: `cyhzuishuai`
 
 ## 个人简介
 - 工作经验: 2年
-- 技术栈: `python` `solidity` 
+- 技术栈: `python` `solidity` `go`
 > 重要提示 请认真写自己的简介
 - 对Move特别感兴趣，想通过Move入门区块链
 - 联系方式: tg: `ciphercyh` 
@@ -14,7 +14,7 @@
 
 ##   01 hello move  
 - [] Sui cli version:sui 1.40.1-5ff708baf2b6
-- [] Sui钱包截图: ![Sui钱包截图](./images/task-wallet.png)
+- [] Sui钱包截图: ![Sui钱包截图](./images/task1-wallet.png)
 - [] package id: 0xb6ac164721d1ea8fb4f506bc41273f3329a6f9eaa2afbe1f67edebfc421720d8
 - [] package id 在 scan上的查看截图:![Scan截图](./images/task1-code.png)
 
