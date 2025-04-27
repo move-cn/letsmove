@@ -40,4 +40,3 @@
 | [task 6](06.SDK_PTB_NAVI.md)               | sdk ptb           | ￥10（NAVX）  | 完成SDK学习，并用SDK完成链上交互    |
 | [task 7](07.move_ctf_check_in.md)          | move ctf check in |    ￥10     | 完成move ctf check in    |
 | [task 8](08.move_ctf_lets_move.md)         | move ctf pow      |    ￥10     | 完成move ctf pow         |
-| [defi](https://dacade.org/communities/sui) | defi              |   14SUI    | 完成Defi学习挑战             |

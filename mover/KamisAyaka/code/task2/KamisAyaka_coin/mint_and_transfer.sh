@@ -1,0 +1,1 @@
+sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0xba695b7c5f47db5d85606ee1a5f6ad4b54638094f2e72181d5f370f64505fe5e::kamisayaka_coin::KAMISAYAKA_COIN --args 0x220d0a91c626b17e24dfd40b9af6bcf6b8ed01d2fed62f9f378a93bc39490b93 1000000000000000000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2

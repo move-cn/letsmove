@@ -1,0 +1,3 @@
+sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0x32b0056ad8e02f2d1ee631a15d02c4961734fae63cbf5af34a8306029c0773bb::ganeshys_coin::GANESHYS_COIN --args 0x3a1dfa43e035e78e8f6f028021e5017cbd23d2610e851deea2c562cacf1cb09a 10000000000 0xba211481258bab4ec354814dd20ed06ae26f0570c511a806f462ef2c5b336b19
+
+
