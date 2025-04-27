@@ -1,10 +1,20 @@
-/*
-/// Module: hello_move
-module hello_move::hello_move;
-*/
+/// Module: hello
+module hello_move::hello {
+    use std::ascii::{String, string};
+    use sui::object::{Self,UID};
+    use sui::transfer::transfer;
+    use sui::tx_context::{TxContext, sender};
 
-// For Move coding conventions, see
-// https://docs.sui.io/concepts/sui-move-concepts/conventions
+    public struct Hello has key{
+        id:UID,
+        say: String
+    }
 
-
-module hello_move::HelloModule { }
+    fun init(ctx: &mut TxContext) {
+        let hello_move = Hello {
+            id:object::new(ctx),
+            say: string(b"hello,shuimenghuaping!"),
+        };
+        transfer(hello_move, sender(ctx));
+    }
+}
