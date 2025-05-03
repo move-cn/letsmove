@@ -189,8 +189,12 @@ Transaction Digest: 94Lgtog3P1HEWszxjSfDQvZE1dSr1DJK2YDd6J1nqDUf
 发送代币到地址 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
 sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0xe7194fd262ad3f6b8df3adf4817eeda0f2a230092934afcc1c41013e83212d4d::xusd::XUSD --args 0x9fbf09560386f2800eef712bdb23bf4643a4d80fee08d79cb2a6483009aa61ee 1900000000000 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
 
+sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0xe7194fd262ad3f6b8df3adf4817eeda0f2a230092934afcc1c41013e83212d4d::xusd::XUSD --args 0x9fbf09560386f2800eef712bdb23bf4643a4d80fee08d79cb2a6483009aa61ee 900000000000 0x317248bebd4230341a60cc1bfb855605f0828d2a05e6a2c9aaf172122f51defa
+
+
 发送XRMB_FACUET到两个地址mint
 
 sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0xe7194fd262ad3f6b8df3adf4817eeda0f2a230092934afcc1c41013e83212d4d::xrmb_facuet::XRMB_FACUET --args 0x4e2c46b1db1bc3fb2ae62f719738e733d08da7f7c1bbfd6b83541081c60f138d 1910000000000 0x317248bebd4230341a60cc1bfb855605f0828d2a05e6a2c9aaf172122f51defa
 
 sui client call --package 0x2 --module coin --function mint_and_transfer --type-args 0xe7194fd262ad3f6b8df3adf4817eeda0f2a230092934afcc1c41013e83212d4d::xrmb_facuet::XRMB_FACUET --args 0x4e2c46b1db1bc3fb2ae62f719738e733d08da7f7c1bbfd6b83541081c60f138d 1910000000000 0xae317a1ddbea4a153a7bacb9a70f48683713de2ffc683745b74ad2b5d87d17b2
+
