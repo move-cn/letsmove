@@ -38,16 +38,16 @@
 - [x] play game hash:[GsXAv1gBoMF1CdLZ6jjhYoWLr8H5iPp38bnXbuyDdT6A](https://suiscan.xyz/mainnet/tx/GsXAv1gBoMF1CdLZ6jjhYoWLr8H5iPp38bnXbuyDdT6A)
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id : 0x2c34afe08f26db7913440e9bf4dda1b79ba825b15ad9e37259cf042c587007e8
+- [x] call swap CoinA-> CoinB  hash : [BXKbx24HadxLCRArXzShRB2nmgHdrjj8q9XyU6EQhNGe](https://suiscan.xyz/mainnet/tx/BXKbx24HadxLCRArXzShRB2nmgHdrjj8q9XyU6EQhNGe)
+- [x] call swap CoinB-> CoinA  hash : [34heyyuxuWiij9VK28dyiPdzNmirfxFcjbmLsSprV2c6](https://suiscan.xyz/mainnet/tx/34heyyuxuWiij9VK28dyiPdzNmirfxFcjbmLsSprV2c6)
 
 ##   06 Dapp-kit SDK PTB
-- [] save hash :
+- [x] save hash : [6Rk93GqbZ6eMfRsuW9CmvSPYPeg6eNeJ15Xr24Bgufwh](https://suivision.xyz/txblock/6Rk93GqbZ6eMfRsuW9CmvSPYPeg6eNeJ15Xr24Bgufwh)
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash :
+- [] CLI call 截图 : ![截图](./images/ctf_check_in.png)
+- [] flag hash : [733KxGFZgUNufp2PRyv8sfSTzXH78cpDr5aQeHe4nXVT](https://suiscan.xyz/testnet/tx/733KxGFZgUNufp2PRyv8sfSTzXH78cpDr5aQeHe4nXVT)
 
 ##   08 Move CTF Lets Move
 - [] proof : 
