@@ -16,7 +16,7 @@
 - [x] Sui cli version:`sui 1.48.1-homebrew`
 - [x] Sui钱包截图: ![Sui钱包截图](./images/task1-wallet.png)
 - [x] package id: `0xf203b7a3b2831432f13e3c6364291e2a8ce3bfa3aef842a61a5f374d55a04e8a`
-- [x] package id 在 scan上的查看截图:![Scan截图](./images/task1-package-id.png)
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/task1-scan.png)
 
 ##   02 move coin
 - [] My Coin package id : 
