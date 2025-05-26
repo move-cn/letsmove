@@ -32,10 +32,10 @@
 - [x] scan上的NFT截图:![Scan截图](./images/task3-blazeleon-nft.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id : `0x428e1bec314956ceef69274069d90632fd660eb1750f81621387df03be467326`
+- [x] deposit Coin hash: `65TKJDGk89upzQvHv59MCvuXNhViUd3fvUq8CgPRjd2s`
+- [x] withdraw `Coin` hash: `HB87VtgsSd6takFLnZrgtTzApXrPuo1uNZxS2bmiEEkz`
+- [x] play game hash: `F5nK4rvZzKf9JmUy2wqoqqvHyvQ1e7upNxyU84UU7CHF`
 
 ##   05 Move Swap
 - [] swap package id :
