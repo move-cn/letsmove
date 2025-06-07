@@ -50,6 +50,6 @@
 - [x] flag hash : `3hMibH4fAgw7MGT3g3rVSeTrfoA9xuTRPko6LtLYGdAG`
 
 ##   08 Move CTF Lets Move
-- [] proof : 
-- [] flag hash :
+- [x] proof : `0xd4e2fcbd3d3d73f05d11b0c6110d15b68f34007654d70bf4afc69ceeda4dd084`
+- [x] flag hash : `H6mRfTkimnqoEuzQ77saL5Dx299W8xkjeqNyLhRWJ4wa`
 
