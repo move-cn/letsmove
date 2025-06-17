@@ -24,7 +24,7 @@ task2_coin = { local = "../../task2_coin" }
 
 
 [addresses]
-task2_coin = "0x6aa34e8a862ad6f17b604da93390f9ffe18f4576f020997507613ef2c46d0801" 
+task2_coin = "0x554024c1b70d9cd4b6b03a9ff2a9a6eab8b887dace637ec423001b2383509192" 
 game_beta = "0x0"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:

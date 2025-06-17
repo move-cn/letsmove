@@ -13,7 +13,7 @@ sui client call  --package 0x6aa34e8a862ad6f17b604da93390f9ffe18f4576f0209975076
 sui client call  --package 0x2  --module coin  --function mint_and_transfer --type-args 0xdad9f7e9c2342c75ecdd324e9631da5bd551a709632ba8fa8eed12b11df44dc2::oiia::OIIA   --args 0xad73864f7c3780b83b879ad122736728033586edee0bbc53ff5ccfe00a337b9e 1000000000 0x748ab0101702695a5624680710b9a470f89c6df5cbc4889a6159bb7d5c54f57f
 
 //game play
-sui client call --package 0x7f270447642d061b4787170f87bfb17e09c1ce6f278e4cf4d098de7e266cff7a --module game_beta --function Play --args 0x2013ff6a8023ae5e3ff4e5f1d5e5e81f6ee1bfbcb01d7688571e8af30cf4474d 0x8 false 0xfa3d98b0ee543ef4e85fd179ee390d039e8aae25b5d4f2c15db7fc838d4e9db3 100 --gas-budget 1000000
+sui client call --package 0x9813f3e392cf5d4a54ede10c0ef5437dfd5f0d31fcda40fcf4d4c1d9e3a3a1b0 --module game_beta --function Play --args 0xea7e6cb25605973ccef1a23e6c267736385d44a33f02c040bb3c795d999da307 0x8 false 0x995b26bd6c29298c0cc2f46fe9b9fd3ec78209e3469cb309384e854ab69e87d7 100 --gas-budget 1000000
 
 
 
@@ -40,3 +40,18 @@ sui client call \
   --args "0x0b4c6574734d6f766543544603000000000000008500000000000000" "SherVite" 0xaf5e84181836c1f2203d67679683c97451159d8e22f201ab86af1d78d6cf40e6 0x8
 
 sui client call --package 0xf96e4b20eb2bcaf736a8f249690df86eaf1f7fe3f160d7d2f1cb9a447a89e1cc --module lets_move --function get_flag --args "0xdfefdc0000000000" "SherVite" 0xe8e4aad9b765da2f90ee81c49e4550ea3e5045c53389fd89b8ec4e23abeddd77 0x8
+
+
+task07
+sui client call --package 0x9f16384006b3dc0ff2927d7eae90186469cb6475d67862822c5f6cedd38c93f6 --module ctf_checkin --function calculate_flag --args b"SherVite" b"LETSSUIMOVECTF"
+
+task08 SDK get
+
+sui client execute --package <辅助模块ID> --module helper --function create_random --gas-budget 10000000
+
+sui client call \
+  --package <PACKAGE_ID> \
+  --module lets_move \
+  --function get_flag \
+  --args '["0x<proof_hex>"]' '"your-github-id"' '0x4e4e44507bf9bc2275949385bb6d23a3a6d50ebf7f36fa1f6724d49508089e09' \
+  --gas-budget <GAS_BUDGET>

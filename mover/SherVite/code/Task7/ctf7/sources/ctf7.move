@@ -26,7 +26,7 @@ module ctf7::ctf_checkin;
     entry fun calculate_flag(
         github_id: vector<u8>,
         flag_str: vector<u8>,
-        ctx: &mut TxContext
+        _ctx: &mut TxContext
     ): vector<u8> {
 
         let mut bcs_flag = bcs::to_bytes(&flag_str);
