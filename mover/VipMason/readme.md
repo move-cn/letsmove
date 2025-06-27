@@ -21,7 +21,7 @@
 ##   02 move coin
 - [] My Coin package id : 0x83e8577d9ccfd315453f0c618a56f51080825679e47b676a9fa812aa2630b6f6
 - [] Faucet package id : 0x83e8577d9ccfd315453f0c618a56f51080825679e47b676a9fa812aa2630b6f6
-- [] 转账 `My Coin` hash: J4JYzVwS6ZRhRdtJAuvGRXNV62aG6rGEHkqRTS21fwQx
+- [] 转账 `My Coin` hash: 4ZugZ9BABQ4LcddVVV7fEJmrXw5NJnGPuNzarV9pAut4
 - [] `Faucet Coin` address1 mint hash: 4aALKP3PXy69nHZW2nXvA82RvTX17QaTUAU61dHrJRWV
 - [] `Faucet Coin` address2 mint hash: HJCuxeAkiLAYmtitBDwE4GdsuPvqooYV6KSz8mEKKoJy
 
