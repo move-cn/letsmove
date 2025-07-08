@@ -1,6 +1,6 @@
 ## 基本信息
 - Sui钱包地址: `0x56dfa07d4ea782e8fa67f25adfc94a2cf639166d0f6fcd008ef71a0b7f53be36`
-- github: `55905855`
+- github: `ynjzw`
 
 ## 个人简介
 - 工作经验: 7年
