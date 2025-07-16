@@ -6,7 +6,7 @@
 - 工作经验: 9年
 - 技术栈: `C#`、`Solidity`、`TypeScript`、 
 - 對 Sui Move 特別感興趣，想成為 Move 語法開發者。
-- 联系方式: tg: `JackCiou` 
+- 联系方式: tg: `@JackCiou` 
 
 ## 任务
 

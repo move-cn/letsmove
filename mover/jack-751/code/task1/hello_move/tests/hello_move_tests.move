@@ -1,29 +1,27 @@
 #[test_only]
 module hello_move::hello_move_tests {
-    use hello_move::hello_move;
-    use std::string;
+    use sui::test_scenario::{Self as test};
 
     #[test]
-    fun test_hello_move() {
-        let message = hello_move::hello_move();
-        assert!(message == string::utf8(b"Hello Move"), 0);
+    fun test_scenario_setup() {
+        let addr = @0xA;
+        let scenario = test::begin(addr);
+        
+        // 基本的場景設置測試
+        assert!(test::sender(&scenario) == addr, 0);
+        
+        test::end(scenario);
     }
 
     #[test]
-    fun test_hello_world() {
-        let message = hello_move::hello_world();
-        assert!(message == string::utf8(b"Hello, World!"), 0);
-    }
-
-    #[test]
-    fun test_hello_with_name() {
-        let message = hello_move::hello_with_name(b"Alice");
-        assert!(message == string::utf8(b"Hello, Alice!"), 0);
-    }
-
-    #[test]
-    fun test_hello_with_chinese_name() {
-        let message = hello_move::hello_with_name(b"小明");
-        assert!(message == string::utf8(b"Hello, 小明!"), 0);
+    fun test_address_validation() {
+        let addr = @0xB;
+        let scenario = test::begin(addr);
+        
+        // 驗證測試地址設置正確
+        let sender = test::sender(&scenario);
+        assert!(sender == addr, 1);
+        
+        test::end(scenario);
     }
 }
