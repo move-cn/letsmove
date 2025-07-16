@@ -4,7 +4,7 @@
 # 請根據實際部署情況修改以下變數
 
 # 包地址 - 請在部署後填入實際的包地址
-export PACKAGE_ID="0x016b58bb7d487fe0078a327d8acb6645c0067c98a875667dd99bf734d9c6ba48"
+export PACKAGE_ID="0xf7ced52c25f30bfaac8c13bc10e52aaf3a969e8d1410d8a3925490eba3eb378f"
 
 # 網路設定 (mainnet, testnet, devnet, localnet)
 export NETWORK="mainnet"
@@ -21,10 +21,10 @@ echo "Package ID: $PACKAGE_ID"
 echo "Network: $NETWORK"
 echo "Gas Budget: $GAS_BUDGET"
 
-if [ "$PACKAGE_ID" = "0x016b58bb7d487fe0078a327d8acb6645c0067c98a875667dd99bf734d9c6ba48" ]; then
+if [ "$PACKAGE_ID" = "0xf7ced52c25f30bfaac8c13bc10e52aaf3a969e8d1410d8a3925490eba3eb378f" ]; then
     echo ""
     echo "⚠️  警告: 請先設定正確的 PACKAGE_ID"
-    echo "   請編輯 scripts/env.sh 文件，將 0x016b58bb7d487fe0078a327d8acb6645c0067c98a875667dd99bf734d9c6ba48 替換為實際的包地址"
+    echo "   請編輯 scripts/env.sh 文件，將 0xf7ced52c25f30bfaac8c13bc10e52aaf3a969e8d1410d8a3925490eba3eb378f 替換為實際的包地址"
 fi
 
 echo "=========================="
