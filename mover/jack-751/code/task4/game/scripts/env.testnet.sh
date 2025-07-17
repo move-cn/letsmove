@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/baexport RANDOM_ID="0x8"     # Sui 隨機數物件 ID（testnet 上是 0x8）h
 # testnet
 
 # 翻轉遊戲環境變數設定檔

@@ -8,7 +8,7 @@ echo "=== 測試環境變數載入 ==="
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # 載入環境變數
-source "$SCRIPT_DIR/env.testnet.sh"
+source "$SCRIPT_DIR/env.mainnet.sh"
 
 echo ""
 echo "=== 環境變數檢查 ==="

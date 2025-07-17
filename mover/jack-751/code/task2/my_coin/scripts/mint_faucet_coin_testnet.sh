@@ -6,7 +6,7 @@ export PACKAGE_ID="0xfb82d1fac97c46ca3f478548eae488264042473b9082f88b6096f9492b0
 # 設定其他必要參數
 TREASURY_CAP_ID="0x0bdd7a568aaf28fdac0be2014ca8306cace4f75b7cf2db198a19e4df170239df"  # 請替換為實際的 TreasuryCap object ID
 AMOUNT="100000000"  # 鑄造數量 (以 6 位小數計算，所以這是 1 個代幣)
-=="0xb961b905ab4a1d6ea41e21b29bacff75efc09759bf68decb4733a772f32820b3"  # 請替換為接收地址
+RECIPIENT_ADDRESS="0xb961b905ab4a1d6ea41e21b29bacff75efc09759bf68decb4733a772f32820b3"  # 請替換為接收地址
 
 
 # First, switch to the correct wallet address
