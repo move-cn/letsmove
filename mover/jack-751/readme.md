@@ -46,8 +46,8 @@
 - [√] save hash : [4tarfTChr2eBxD1nrebgLsnDqpgc6QzFqEEhhhvLwq3j](https://suivision.xyz/txblock/4tarfTChr2eBxD1nrebgLsnDqpgc6QzFqEEhhhvLwq3j)
 
 ##   07 Move CTF Check In
-- [] CLI call 截图 : ![截图](./images/你的图片地址)
-- [] flag hash : []()
+- [√] CLI call 截图 : ![截图](./images/task7.png)
+- [√] flag hash : [6b3gAM1vkuibzX8BKFbxxH3JMCkKyemuNSnWZk5QMrKC](https://testnet.suivision.xyz/txblock/6b3gAM1vkuibzX8BKFbxxH3JMCkKyemuNSnWZk5QMrKC?tab=Events)
 
 ##   08 Move CTF Lets Move
 - [] proof : []()
