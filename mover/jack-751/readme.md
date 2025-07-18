@@ -50,5 +50,5 @@
 - [√] flag hash : [6b3gAM1vkuibzX8BKFbxxH3JMCkKyemuNSnWZk5QMrKC](https://testnet.suivision.xyz/txblock/6b3gAM1vkuibzX8BKFbxxH3JMCkKyemuNSnWZk5QMrKC?tab=Events)
 
 ##   08 Move CTF Lets Move
-- [] proof : []()
-- [] flag hash : []()
+- [√] proof : 0x6c4ece
+- [√] flag hash : [G5nAyCeCpWE7NFHQXJ39cJQUQrymCUDFJvfX2V2uzXqy](https://testnet.suivision.xyz/txblock/G5nAyCeCpWE7NFHQXJ39cJQUQrymCUDFJvfX2V2uzXqy?tab=Events)
