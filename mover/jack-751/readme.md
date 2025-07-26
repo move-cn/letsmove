@@ -1,0 +1,54 @@
+## 基本信息
+- Sui钱包地址: `0xb961b905ab4a1d6ea41e21b29bacff75efc09759bf68decb4733a772f32820b3`
+- github: `jack-751`
+
+## 个人简介
+- 工作经验: 9年
+- 技术栈: `C#`、`Solidity`、`TypeScript`、 
+- 對 Sui Move 特別感興趣，想成為 Move 語法開發者。
+- 联系方式: tg: `@JackCiou` 
+
+## 任务
+
+##   01 hello move  
+- [√] Sui cli version: 1.51.1
+- [√] Sui钱包截图: ![Sui钱包截图](./images/suiwallet.png)
+- [√] package id: 0x9877f800752ed1fd9b97eeab66b7097a08a11e0b3b81b6f5597b06d6760edd6d
+- [√] package id 在 scan上的查看截图:![Scan截图](./images/task1.png)
+
+##   02 move coin
+- [√] My Coin package id : [0xd324003f9bd2409e139a24ac0ec2329a6a27e1da847e1dda3927bc78343e940f](https://suivision.xyz/package/0xd324003f9bd2409e139a24ac0ec2329a6a27e1da847e1dda3927bc78343e940f)
+- [√] Faucet package id : [0xd324003f9bd2409e139a24ac0ec2329a6a27e1da847e1dda3927bc78343e940f](https://suivision.xyz/package/0xd324003f9bd2409e139a24ac0ec2329a6a27e1da847e1dda3927bc78343e940f)
+- [√] 转账 `My Coin` hash: [H3U8e9zK3f2naRQbpZzxmw7QY7hgrDJcJ5MW3TeL84FM](https://suivision.xyz/txblock/H3U8e9zK3f2naRQbpZzxmw7QY7hgrDJcJ5MW3TeL84FM)
+- [√] `Faucet Coin` address1 mint hash: [F6bnyQ3DFjNffJrfUrgfjSRfnv3wQxyVHj8tffUoiHf3](https://suivision.xyz/txblock/F6bnyQ3DFjNffJrfUrgfjSRfnv3wQxyVHj8tffUoiHf3)
+- [√] `Faucet Coin` address2 mint hash: [2iCx9AS9FDnT6kz65XVYNiTBQbPm3E8tHJr9sQ9CJiY9](https://suivision.xyz/txblock/2iCx9AS9FDnT6kz65XVYNiTBQbPm3E8tHJr9sQ9CJiY9)
+- 三筆交易scan上的查看截图![Scan截图](./images/task2.png)
+
+
+##   03 move NFT
+- [√] nft package id : [0xf7ced52c25f30bfaac8c13bc10e52aaf3a969e8d1410d8a3925490eba3eb378f](https://suivision.xyz/package/0xf7ced52c25f30bfaac8c13bc10e52aaf3a969e8d1410d8a3925490eba3eb378f)
+- [√] nft object id : [0xc5f4630d4a608a776055467b1f96f3ef8ad23f8c7dfbe9d9465af9d307d51e48](https://suivision.xyz/object/0xc5f4630d4a608a776055467b1f96f3ef8ad23f8c7dfbe9d9465af9d307d51e48)
+- [√] 转账 nft  hash: [6jwTfDqkFsQ7s73hzu8ghYNjU41Avb71fne2rVa34amy](https://suivision.xyz/txblock/6jwTfDqkFsQ7s73hzu8ghYNjU41Avb71fne2rVa34amy)
+- [√] scan上的NFT截图:![Scan截图](./images/task3.png)
+
+##   04 Move Game
+- [√] game package id : [0x27305acaa54be52c868c3792c6845a3d15953e3023e25242bee4e3ddf78d1ce3](https://suivision.xyz/package/0x27305acaa54be52c868c3792c6845a3d15953e3023e25242bee4e3ddf78d1ce3)
+- [√] deposit Coin hash: [8bPpMRFkd3Htf6qVEhquiJCm72zUUxUGMUMDNy1yAtVt](https://suivision.xyz/txblock/8bPpMRFkd3Htf6qVEhquiJCm72zUUxUGMUMDNy1yAtVt)
+- [√] withdraw `Coin` hash: [CTQBkWoi8uyagNGvKt71Lqzdqf1KLtWuJ6kVJkGtHKHx](https://suivision.xyz/txblock/CTQBkWoi8uyagNGvKt71Lqzdqf1KLtWuJ6kVJkGtHKHx)
+- [√] play game hash: [3vHM8wv1XDmdrn4tMNqRfzBRGkuk9DbfZF4XMRwViUGE](https://suivision.xyz/txblock/3vHM8wv1XDmdrn4tMNqRfzBRGkuk9DbfZF4XMRwViUGE)
+
+##   05 Move Swap
+- [√] swap package id : [0xbbf6c6cd8f406df6223a9c995b970b258b2ada161bf331c0d9dfd88491adf364](https://suivision.xyz/package/0xbbf6c6cd8f406df6223a9c995b970b258b2ada161bf331c0d9dfd88491adf364)
+- [√] call swap CoinA-> CoinB  hash : [B49mGTE5BhwCZ2z9Xjtq8oZSXe5tQV9X3s6MSjJKsir9](https://suivision.xyz/txblock/B49mGTE5BhwCZ2z9Xjtq8oZSXe5tQV9X3s6MSjJKsir9)
+- [√] call swap CoinB-> CoinA  hash : [8eVwvhpxZiGHDS84xLLuegxhDa8nvAtNReR3FQv2p8hf](https://suivision.xyz/txblock/8eVwvhpxZiGHDS84xLLuegxhDa8nvAtNReR3FQv2p8hf)
+
+##   06 Dapp-kit SDK PTB
+- [√] save hash : [4tarfTChr2eBxD1nrebgLsnDqpgc6QzFqEEhhhvLwq3j](https://suivision.xyz/txblock/4tarfTChr2eBxD1nrebgLsnDqpgc6QzFqEEhhhvLwq3j)
+
+##   07 Move CTF Check In
+- [√] CLI call 截图 : ![截图](./images/task7.png)
+- [√] flag hash : [6b3gAM1vkuibzX8BKFbxxH3JMCkKyemuNSnWZk5QMrKC](https://testnet.suivision.xyz/txblock/6b3gAM1vkuibzX8BKFbxxH3JMCkKyemuNSnWZk5QMrKC?tab=Events)
+
+##   08 Move CTF Lets Move
+- [√] proof : 0x6c4ece
+- [√] flag hash : [G5nAyCeCpWE7NFHQXJ39cJQUQrymCUDFJvfX2V2uzXqy](https://testnet.suivision.xyz/txblock/G5nAyCeCpWE7NFHQXJ39cJQUQrymCUDFJvfX2V2uzXqy?tab=Events)
