@@ -11,6 +11,4 @@
 ## 任务
 
 ##   01 hello move  
-- [x] package id: 0xe4a813d3b53672e7d2e0d60fca5a27a5a389da9ad3af8c092b0e3b8281801579
 
-Transaction Digest: 7YdXCxzS2GzFMwbraPWWLiTUsedYrP4h1nZpSbFppkEt
