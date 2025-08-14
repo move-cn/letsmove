@@ -1,0 +1,63 @@
+创建项目并进入目录
+sui move new task5 && cd task5
+
+编译合约
+sui move build
+
+发布合约
+sui client publish --gas-budget=100000000
+
+获取并设置以下环境变量
+(Object Changes -> Created Objects -> Published Objects -> PackageID)
+export swap_PackageID=0x234d94b8edc89816b626a4229d98860fcbc9005fac365faadab6e0845e6d0b04
+
+(Object Changes -> Created Objects 并且 ObjectType 类型为 0x2::coin::TreasuryCap 开头，coin_a::COIN_A 结尾)
+export coina_TreasuryCap=0x964714f69daa7036d3c048815b0fed9c3936176d4df87d9d4fdae451c57f03a9
+export coina_ObjectType=0x234d94b8edc89816b626a4229d98860fcbc9005fac365faadab6e0845e6d0b04::coin_a::COIN_A
+
+(Object Changes -> Created Objects 并且 ObjectType 类型为 0x2::coin::TreasuryCap 开头，coin_a::COIN_B 结尾)
+export coinb_TreasuryCap=0xe8ff4451340e64d9e9b8fab8f4fd642f7fecb658eed0975e3c3607d25458ee88
+export coinb_ObjectType=0x234d94b8edc89816b626a4229d98860fcbc9005fac365faadab6e0845e6d0b04::coin_b::COIN_B
+
+(Object Changes -> Created Objects 并且 ObjectType 类型以 swap::Pocket 结尾)
+export pocket_ObjectID=0x5025392beb3166bc478a40d56726713530d45d9749961549349b6cb3291328bf
+
+
+铸造100个coin_a
+sui client call --package $swap_PackageID --module coin_a --function mint --args $coina_TreasuryCap 100 $OWNER --gas-budget 5000000
+
+保存coinA (Object Changes -> Created Objects -> ObjectID 并且 ObjectType 类型为 0x2::coin::Coin 以 COIN_A 结尾)
+export coina_ObjectID=0x43ffdd3ebeab50502da9cdcde7d964a0586776f5ec8167d9e0f0ebcd19fd0374
+
+
+铸造200个coin_b
+sui client call --package $swap_PackageID --module coin_b --function mint --args $coinb_TreasuryCap 200 $OWNER --gas-budget 5000000
+
+保存coinB (Object Changes -> Created Objects -> ObjectID 并且 ObjectType 类型为 0x2::coin::Coin 以 COIN_B 结尾)
+export coinb_ObjectID=0x3b3141d49d946a0d3d632b3a72832d74d60b57519f5c256ca553f7ab9f52dd6e
+
+
+创建pool
+sui client call --package $swap_PackageID --module swap --function create_pool --type-args $coina_ObjectType $coinb_ObjectType --gas-budget 10000000
+
+保存pool objectID (Created Objects -> ObjectID 并且 ObjectType 包含有 swap::Pool、coin_a、coin_b)
+export pool_ObjectID=0x0c1ae21c6a9b50b50c6571aaba3826bf605567764d9a3ba452de200e13d8d1f9
+
+
+添加到流动池
+sui client call --package $swap_PackageID --module swap --function add_liquidity --args $pool_ObjectID $coina_ObjectID $coinb_ObjectID $pocket_ObjectID --type-args $coina_ObjectType $coinb_ObjectType --gas-budget 10000000
+
+保存lp (Created Objects -> ObjectID 并且 ObjectType 包含 swap::LP、coin_a、coin_b)
+export lp_ObjectID=0xe05d1786c5fec5a24cec692f2a8e113496e89042312bc8a30833c6aa789545bf
+
+
+铸造 88 个 coin_a 用于交换
+sui client call --package $swap_PackageID --module coin_a --function mint --args $coina_TreasuryCap 88 $OWNER --gas-budget 10000000
+
+保存coina 88 object (Object Changes -> Created Objects -> ObjectID 并且 ObjectType 类型为 0x2::coin::Coin 以 COIN_A 结尾)
+export coina_ObjectID_88=0xd4326d94c579f1d32546b2dde417543e864a53ded55d6d588b509baf790e1e07
+
+coinA 兑换 coinB
+sui client call --package $swap_PackageID --module swap --function a_swap_b --args $pool_ObjectID $coina_ObjectID_88 --type-args $coina_ObjectType $coinb_ObjectType --gas-budget 10000000
+因为是全部兑换，兑换之后 coina_ObjectID_88 被删除了
+sui client object $coina_ObjectID_88

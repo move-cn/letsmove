@@ -1,0 +1,16 @@
+{
+  "name": "task_06",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "xu8117<xu8117@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.11",
+    "navi-sdk": "^1.1.21"
+  }
+}

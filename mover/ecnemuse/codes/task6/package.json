@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@msafe/sui-app-store": "^0.0.118",
+    "bip39": "^3.1.0",
+    "chakra-sdk": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "kriya-dex-sdk": "^1.1.69",
+    "kriya-vault-sdk": "^1.0.57",
+    "navi-sdk": "^1.1.21",
+    "tsx": "^4.10.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "type": "module"
+}

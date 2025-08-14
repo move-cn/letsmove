@@ -1,0 +1,44 @@
+
+-- 创建池子 <BLAZELEON_COIN,BLAZELEON_FAUCET>
+sui client call \
+--package 0xc5db2d26d6070aed753616e160a92dcbc1b9fa49c5badc8b08883f13b2954622 \
+--module blazeleon_swap \
+--function create_pool \
+--type-args "0xd4a2723c2a78a8f291e4809e76cef08c2a77edc0cd7a7ba4ebc37a74b7773136::blazeleon_coin::BLAZELEON_COIN" \
+"0x571a748747d0b3583a4ca885806a7d373f08f19deecebf568b3e68b2bb07c457::blazeleon_faucet::BLAZELEON_FAUCET"
+
+swap_admin: 0x473edde2901bd3d524ae6ae132b295cdd5fd96bded2d3afc775c521cfc84557b
+
+-- 存 1000 BLAZELEON_COIN
+sui client call \
+--package 0xc5db2d26d6070aed753616e160a92dcbc1b9fa49c5badc8b08883f13b2954622 \
+--module blazeleon_swap \
+--function deposit_x \
+--type-args "0xd4a2723c2a78a8f291e4809e76cef08c2a77edc0cd7a7ba4ebc37a74b7773136::blazeleon_coin::BLAZELEON_COIN" "0x571a748747d0b3583a4ca885806a7d373f08f19deecebf568b3e68b2bb07c457::blazeleon_faucet::BLAZELEON_FAUCET" \
+--args "0xd3e5f2b5ec3b3a31abe391de8d1cbbb9f620cda8ad7d19a3d37223aedbd80ded" "0x2860f1fe91d3886632149f88dc7d92c72f662baffda42f91e1400dfa4df6055d" "1000000000000"
+
+
+-- 存 7200 BLAZELEON_FAUCET
+sui client call \
+--package 0xc5db2d26d6070aed753616e160a92dcbc1b9fa49c5badc8b08883f13b2954622 \
+--module blazeleon_swap \
+--function deposit_y \
+--type-args "0xd4a2723c2a78a8f291e4809e76cef08c2a77edc0cd7a7ba4ebc37a74b7773136::blazeleon_coin::BLAZELEON_COIN" "0x571a748747d0b3583a4ca885806a7d373f08f19deecebf568b3e68b2bb07c457::blazeleon_faucet::BLAZELEON_FAUCET" \
+--args "0xd3e5f2b5ec3b3a31abe391de8d1cbbb9f620cda8ad7d19a3d37223aedbd80ded" "0xb44688d93e29e9092fe3e1f4b91ccc4ece30a206fd0ef28fd950dbea3d5746fd" "7200000000000"
+
+-- swap x->y 100->720
+sui client call \
+--package 0xc5db2d26d6070aed753616e160a92dcbc1b9fa49c5badc8b08883f13b2954622 \
+--module blazeleon_swap \
+--function swap_x_to_y \
+--type-args "0xd4a2723c2a78a8f291e4809e76cef08c2a77edc0cd7a7ba4ebc37a74b7773136::blazeleon_coin::BLAZELEON_COIN" "0x571a748747d0b3583a4ca885806a7d373f08f19deecebf568b3e68b2bb07c457::blazeleon_faucet::BLAZELEON_FAUCET" \
+--args "0xd3e5f2b5ec3b3a31abe391de8d1cbbb9f620cda8ad7d19a3d37223aedbd80ded" "0x2860f1fe91d3886632149f88dc7d92c72f662baffda42f91e1400dfa4df6055d" "100000000000"
+
+
+-- swap y->x 720->100
+sui client call \
+--package 0xc5db2d26d6070aed753616e160a92dcbc1b9fa49c5badc8b08883f13b2954622 \
+--module blazeleon_swap \
+--function swap_y_to_x \
+--type-args "0xd4a2723c2a78a8f291e4809e76cef08c2a77edc0cd7a7ba4ebc37a74b7773136::blazeleon_coin::BLAZELEON_COIN" "0x571a748747d0b3583a4ca885806a7d373f08f19deecebf568b3e68b2bb07c457::blazeleon_faucet::BLAZELEON_FAUCET" \
+--args "0xd3e5f2b5ec3b3a31abe391de8d1cbbb9f620cda8ad7d19a3d37223aedbd80ded" "0xb44688d93e29e9092fe3e1f4b91ccc4ece30a206fd0ef28fd950dbea3d5746fd" "720000000000"

@@ -1,0 +1,12 @@
+[package]
+name = "task1"
+
+[dependencies]
+Sui = { local = "D:/sui-framwork/sui-framework" }
+
+[addresses]
+task1 = "0x0"
+
+[dev-dependencies]
+
+[dev-addresses]

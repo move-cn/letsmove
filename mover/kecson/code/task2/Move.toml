@@ -1,0 +1,51 @@
+[package]
+name = "task2"
+edition = "legacy" # edition = "legacy" to use legacy (pre-2024) Move
+# Mainnet
+published-at = "0xe1fb6293d4461f3a443b8a484c70bde344ce239def4f6412abeae531e3f4a38e"
+mainnet-TreasuryCap = "0x02f95db2ca9966e1af26148e17daa3dd0e4c65407563f08ff1c2f6a439265966"
+
+# Testnet
+#published-at = "0x65352da921687470b48be2f403c6678b77fdb67e3acfbbf79348212d2e3a6e18"
+#testnet-TreasuryCap = "0xd2e9a691bc1901b6d3c50f8c3cb6a724be8c48a4842465c731b9112c59040cb7"
+# Devnet
+#published-at = "0xedbaea0f6874d9fc124217b484f1f3521d36c42d3536450c3e5fdee97a492fea"
+
+# license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
+# authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+# For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
+# Revision can be a branch, a tag, and a commit hash.
+# MyRemotePackage = { git = "https://some.remote/host.git", subdir = "remote/path", rev = "main" }
+
+# For local dependencies use `local = path`. Path is relative to the package root
+# Local = { local = "../path/to" }
+
+# To resolve a version conflict and force a specific version for dependency
+# override use `override = true`
+# Override = { local = "../conflicting/version", override = true }
+
+[addresses]
+# mainnet
+task2 = "0xe1fb6293d4461f3a443b8a484c70bde344ce239def4f6412abeae531e3f4a38e"
+# Testnet
+#task2 = "0x65352da921687470b48be2f403c6678b77fdb67e3acfbbf79348212d2e3a6e18"
+
+
+# Named addresses will be accessible in Move as `@name`. They're also exported:
+# for example, `std = "0x1"` is exported by the Standard Library.
+# alice = "0xA11CE"
+
+[dev-dependencies]
+# The dev-dependencies section allows overriding dependencies for `--test` and
+# `--dev` modes. You can introduce test-only dependencies here.
+# Local = { local = "../path/to/dev-build" }
+
+[dev-addresses]
+# The dev-addresses section allows overwriting named addresses for the `--test`
+# and `--dev` modes.
+# alice = "0xB0B"
+

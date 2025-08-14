@@ -1,0 +1,17 @@
+{
+  "name": "w626w",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "navi-sdk": "^1.1.20"
+  }
+}

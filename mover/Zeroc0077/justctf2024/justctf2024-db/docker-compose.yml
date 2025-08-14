@@ -1,0 +1,11 @@
+services:
+  db:
+    environment:
+      FLAG: justCTF{I_us3d_to_b3_an_ott3r_until_i_t00k_th4t_arr0w}
+      PORT: 31337
+    build: 
+      context: ./
+      dockerfile: ./Dockerfile
+    ports:
+      - "31337:31337"
+    restart: always

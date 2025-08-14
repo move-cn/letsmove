@@ -1,0 +1,85 @@
+## 测试环境
+
+创建池子
+> sui client call --package 0xd156467d1afae9084bebef7e136b6cb09b73e1da4b6f9f529911870834a5ede4 --module my_swap
+> --function create_pool --args 0x5b7c79351296d47cef052c3669b7b9dc6e1e7a044c4efcc064fda4c2a693e25e
+> 0x7aac789d25891292ee21e92a7a25208ca4bd3efa1e0808628f632ae4edb4613a --type-args
+> 0x710339bdb405ac1ab47d432c2798fb844fe8223a9bae4ced6827ad0cb0f8cdd8::july_nana_faucet_token::JULY_NANA_FAUCET_TOKEN
+> 0x710339bdb405ac1ab47d432c2798fb844fe8223a9bae4ced6827ad0cb0f8cdd8::july_nana_token::JULY_NANA_TOKEN --gas-budget
+> 5000000
+
+增加流动性
+> sui client call --package 0xd156467d1afae9084bebef7e136b6cb09b73e1da4b6f9f529911870834a5ede4 --module my_swap
+> --function add_liquidity --args 0xfc1a2a93ae7562c02689b1c3272dc751d7583af8642da721a3316df356991c69
+> 0xd00427f4f2c95b308cef0caed7cfd9e8702a437a240bae25fbe87d11385498d9
+> 0x06ebf083749a28d671d64790bc6df125a9f6a278c27d144788f2520c29ed58d3 --type-args
+> 0x710339bdb405ac1ab47d432c2798fb844fe8223a9bae4ced6827ad0cb0f8cdd8::july_nana_faucet_token::JULY_NANA_FAUCET_TOKEN
+> 0x710339bdb405ac1ab47d432c2798fb844fe8223a9bae4ced6827ad0cb0f8cdd8::july_nana_token::JULY_NANA_TOKEN --gas-budget
+> 5000000
+
+移除流动性
+> sui client call --package 0xd156467d1afae9084bebef7e136b6cb09b73e1da4b6f9f529911870834a5ede4 --module my_swap
+> --function remove_liquidity --args 0xfc1a2a93ae7562c02689b1c3272dc751d7583af8642da721a3316df356991c69
+> 0x1358e4d75f05ba5e016dd7825467ed63cb483ed9587b8be69d61713b1e093bbb --type-args
+> 0x710339bdb405ac1ab47d432c2798fb844fe8223a9bae4ced6827ad0cb0f8cdd8::july_nana_faucet_token::JULY_NANA_FAUCET_TOKEN
+> 0x710339bdb405ac1ab47d432c2798fb844fe8223a9bae4ced6827ad0cb0f8cdd8::july_nana_token::JULY_NANA_TOKEN --gas-budget
+> 5000000
+
+用A换B
+> sui client call --package 0xd156467d1afae9084bebef7e136b6cb09b73e1da4b6f9f529911870834a5ede4 --module my_swap
+> --function swap_a_for_b --args 0xfc1a2a93ae7562c02689b1c3272dc751d7583af8642da721a3316df356991c69
+> 0x78737e3f39df7e83eda44bb947202be354f07b9fabef749ce9f0487e80969256 100000000 --type-args
+> 0x710339bdb405ac1ab47d432c2798fb844fe8223a9bae4ced6827ad0cb0f8cdd8::july_nana_faucet_token::JULY_NANA_FAUCET_TOKEN
+> 0x710339bdb405ac1ab47d432c2798fb844fe8223a9bae4ced6827ad0cb0f8cdd8::july_nana_token::JULY_NANA_TOKEN --gas-budget
+> 5000000
+
+用B换A
+> sui client call --package 0xd156467d1afae9084bebef7e136b6cb09b73e1da4b6f9f529911870834a5ede4 --module my_swap
+> --function swap_b_for_a --args 0xfc1a2a93ae7562c02689b1c3272dc751d7583af8642da721a3316df356991c69
+> 0xd2eb9f93d07f70754d78164dfb13cd7ad6242006060726b29729e76c41ad957a 100000000 --type-args
+> 0x710339bdb405ac1ab47d432c2798fb844fe8223a9bae4ced6827ad0cb0f8cdd8::july_nana_faucet_token::JULY_NANA_FAUCET_TOKEN
+> 0x710339bdb405ac1ab47d432c2798fb844fe8223a9bae4ced6827ad0cb0f8cdd8::july_nana_token::JULY_NANA_TOKEN --gas-budget
+> 5000000
+
+## 正式环境
+
+创建池子
+> sui client call --package 0xd6405b9957ea58f1966f27165c107231a4cd04edf5bb2d407aad3e58b292648f --module my_swap
+> --function create_pool --args 0x7d68906644d7c5a0fd1c2d51e4ad8a5a6f6ab9c471231426cb35155503cff57b
+> 0x2601e0a062f5eebc504ee6a8b52e83577913322e5ba5f290cf859050b6218a2b --type-args
+> 0xe03c047a1c85887ed3a3c4b775d0d74c752dfce736705e5abacbbc3ddf27bf8b::july_nana_faucet_token::JULY_NANA_FAUCET_TOKEN
+> 0xe03c047a1c85887ed3a3c4b775d0d74c752dfce736705e5abacbbc3ddf27bf8b::july_nana_token::JULY_NANA_TOKEN --gas-budget
+> 5000000
+
+增加流动性
+> sui client call --package 0xd6405b9957ea58f1966f27165c107231a4cd04edf5bb2d407aad3e58b292648f --module my_swap
+> --function add_liquidity --args 0xf335cd02b7a75106df9917f1c1e57b133b80d5b38b405ed3bc1ab45e90996f03
+> 0x148631d51cc80b963a4a5427667808ce3a0a3154ff80848ea17834ad488f4522
+> 0x1964dd9a74c438515120cb9f6ae09c26d1fe6354b42449f100aa822548c74c27 --type-args
+> 0xe03c047a1c85887ed3a3c4b775d0d74c752dfce736705e5abacbbc3ddf27bf8b::july_nana_faucet_token::JULY_NANA_FAUCET_TOKEN
+> 0xe03c047a1c85887ed3a3c4b775d0d74c752dfce736705e5abacbbc3ddf27bf8b::july_nana_token::JULY_NANA_TOKEN --gas-budget
+> 5000000
+
+移除流动性
+> sui client call --package 0xd6405b9957ea58f1966f27165c107231a4cd04edf5bb2d407aad3e58b292648f --module my_swap
+> --function remove_liquidity --args 0xfc1a2a93ae7562c02689b1c3272dc751d7583af8642da721a3316df356991c69
+> 0x1358e4d75f05ba5e016dd7825467ed63cb483ed9587b8be69d61713b1e093bbb --type-args
+> 0xe03c047a1c85887ed3a3c4b775d0d74c752dfce736705e5abacbbc3ddf27bf8b::july_nana_faucet_token::JULY_NANA_FAUCET_TOKEN
+> 0xe03c047a1c85887ed3a3c4b775d0d74c752dfce736705e5abacbbc3ddf27bf8b::july_nana_token::JULY_NANA_TOKEN --gas-budget
+> 5000000
+
+用A换B
+> sui client call --package 0xd6405b9957ea58f1966f27165c107231a4cd04edf5bb2d407aad3e58b292648f --module my_swap
+> --function swap_a_for_b --args 0xf335cd02b7a75106df9917f1c1e57b133b80d5b38b405ed3bc1ab45e90996f03
+> 0xf7f80e2cc760efc795a0a74523de1343bd550e50632b204d8b1916734229894a 100000000 --type-args
+> 0xe03c047a1c85887ed3a3c4b775d0d74c752dfce736705e5abacbbc3ddf27bf8b::july_nana_faucet_token::JULY_NANA_FAUCET_TOKEN
+> 0xe03c047a1c85887ed3a3c4b775d0d74c752dfce736705e5abacbbc3ddf27bf8b::july_nana_token::JULY_NANA_TOKEN --gas-budget
+> 5000000
+
+用B换A
+> sui client call --package 0xd6405b9957ea58f1966f27165c107231a4cd04edf5bb2d407aad3e58b292648f --module my_swap
+> --function swap_b_for_a --args 0xf335cd02b7a75106df9917f1c1e57b133b80d5b38b405ed3bc1ab45e90996f03
+> 0x3c460404dce6afb4192ca4a49ffba491f448ee24c88c3d30b71dec49dc75d05b 100000000 --type-args
+> 0xe03c047a1c85887ed3a3c4b775d0d74c752dfce736705e5abacbbc3ddf27bf8b::july_nana_faucet_token::JULY_NANA_FAUCET_TOKEN
+> 0xe03c047a1c85887ed3a3c4b775d0d74c752dfce736705e5abacbbc3ddf27bf8b::july_nana_token::JULY_NANA_TOKEN --gas-budget
+> 5000000

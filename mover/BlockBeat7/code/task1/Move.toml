@@ -1,0 +1,10 @@
+[package]
+name = "Crypto"
+version = "0.0.1"
+edition = "2024.beta"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.27.2" }
+
+[addresses]
+crypto = "0x0"

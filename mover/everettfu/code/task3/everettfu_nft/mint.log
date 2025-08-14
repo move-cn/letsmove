@@ -1,0 +1,128 @@
+╭───────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Transaction Data                                                                              │
+├───────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Sender: 0x553c6fe083866c81b0499632ed4e68c0d4d4dd2df0a278a1630f480128e51609                    │
+│ Gas Owner: 0x553c6fe083866c81b0499632ed4e68c0d4d4dd2df0a278a1630f480128e51609                 │
+│ Gas Budget: 100000000 MIST                                                                    │
+│ Gas Price: 750 MIST                                                                           │
+│ Gas Payment:                                                                                  │
+│  ┌──                                                                                          │
+│  │ ID: 0x1d6912d60b4eb64c44d9939ccab657f989f8a78e935adba2e1550845575b8497                     │
+│  │ Version: 211023829                                                                         │
+│  │ Digest: 9nn2j6vmjnjwoe4NfUXLF7Ng5JAC88xxW8rP879ds1DG                                       │
+│  └──                                                                                          │
+│                                                                                               │
+│ Transaction Kind: Programmable                                                                │
+│ ╭───────────────────────────────────────────────────────────────────────────────────────────╮ │
+│ │ Input Objects                                                                             │ │
+│ ├───────────────────────────────────────────────────────────────────────────────────────────┤ │
+│ │ 0   Pure Arg: Type: vector<u8>, Value: "everettfu_nft"                                    │ │
+│ │ 1   Pure Arg: Type: vector<u8>, Value: "first nft of everettfu"                           │ │
+│ │ 2   Pure Arg: Type: vector<u8>, Value: "https://avatars.githubusercontent.com/u/10185735" │ │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────╯ │
+│ ╭──────────────────────────────────────────────────────────────────────────────────╮          │
+│ │ Commands                                                                         │          │
+│ ├──────────────────────────────────────────────────────────────────────────────────┤          │
+│ │ 0  MoveCall:                                                                     │          │
+│ │  ┌                                                                               │          │
+│ │  │ Function:  mint_to_sender                                                     │          │
+│ │  │ Module:    everettfu_nft                                                      │          │
+│ │  │ Package:   0xe42cfc3fce991f4428174116ea1c048821492da54fd65eb8509ba64865b97e78 │          │
+│ │  │ Arguments:                                                                    │          │
+│ │  │   Input  0                                                                    │          │
+│ │  │   Input  1                                                                    │          │
+│ │  │   Input  2                                                                    │          │
+│ │  └                                                                               │          │
+│ ╰──────────────────────────────────────────────────────────────────────────────────╯          │
+│                                                                                               │
+│ Signatures:                                                                                   │
+│    W1Fm2IarnCMWPgbjDs2EGdq6hd3KWm0NdPkQtXKqzDuZc5RmLJS0T2BeuDEi7WD9SWZOaOZPMwLjrN8KXv3JDw==   │
+│                                                                                               │
+╰───────────────────────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Transaction Effects                                                                               │
+├───────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Digest: DiYFRB6RaH6uRuGcjqdnwftd5p1b5x8qZr4QPLXdHLn                                               │
+│ Status: Success                                                                                   │
+│ Executed Epoch: 416                                                                               │
+│                                                                                                   │
+│ Created Objects:                                                                                  │
+│  ┌──                                                                                              │
+│  │ ID: 0xc77381db52de0016a8039fbb944eba4d3d071675d21b5f19c8d2107cc472742f                         │
+│  │ Owner: Account Address ( 0x553c6fe083866c81b0499632ed4e68c0d4d4dd2df0a278a1630f480128e51609 )  │
+│  │ Version: 211023830                                                                             │
+│  │ Digest: ABksucToq7kmULVWfQYJZC1qjpp4VrXTxH1NCebTLSap                                           │
+│  └──                                                                                              │
+│ Mutated Objects:                                                                                  │
+│  ┌──                                                                                              │
+│  │ ID: 0x1d6912d60b4eb64c44d9939ccab657f989f8a78e935adba2e1550845575b8497                         │
+│  │ Owner: Account Address ( 0x553c6fe083866c81b0499632ed4e68c0d4d4dd2df0a278a1630f480128e51609 )  │
+│  │ Version: 211023830                                                                             │
+│  │ Digest: KKdjM1MdmcVt3XcHwrz1XSa8j98ZaLRWNV8Vb3itamP                                            │
+│  └──                                                                                              │
+│ Gas Object:                                                                                       │
+│  ┌──                                                                                              │
+│  │ ID: 0x1d6912d60b4eb64c44d9939ccab657f989f8a78e935adba2e1550845575b8497                         │
+│  │ Owner: Account Address ( 0x553c6fe083866c81b0499632ed4e68c0d4d4dd2df0a278a1630f480128e51609 )  │
+│  │ Version: 211023830                                                                             │
+│  │ Digest: KKdjM1MdmcVt3XcHwrz1XSa8j98ZaLRWNV8Vb3itamP                                            │
+│  └──                                                                                              │
+│ Gas Cost Summary:                                                                                 │
+│    Storage Cost: 3024800 MIST                                                                     │
+│    Computation Cost: 750000 MIST                                                                  │
+│    Storage Rebate: 978120 MIST                                                                    │
+│    Non-refundable Storage Fee: 9880 MIST                                                          │
+│                                                                                                   │
+│ Transaction Dependencies:                                                                         │
+│    CEQ1oagRs1E9W1pzGT2ckfdxpYnTrBacVV6hCwYvALmw                                                   │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Transaction Block Events                                                                                   │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│  ┌──                                                                                                       │
+│  │ EventID: DiYFRB6RaH6uRuGcjqdnwftd5p1b5x8qZr4QPLXdHLn:0                                                  │
+│  │ PackageID: 0xe42cfc3fce991f4428174116ea1c048821492da54fd65eb8509ba64865b97e78                           │
+│  │ Transaction Module: everettfu_nft                                                                       │
+│  │ Sender: 0x553c6fe083866c81b0499632ed4e68c0d4d4dd2df0a278a1630f480128e51609                              │
+│  │ EventType: 0xe42cfc3fce991f4428174116ea1c048821492da54fd65eb8509ba64865b97e78::everettfu_nft::NFTMinted │
+│  │ ParsedJSON:                                                                                             │
+│  │   ┌───────────┬────────────────────────────────────────────────────────────────────┐                    │
+│  │   │ creator   │ 0x553c6fe083866c81b0499632ed4e68c0d4d4dd2df0a278a1630f480128e51609 │                    │
+│  │   ├───────────┼────────────────────────────────────────────────────────────────────┤                    │
+│  │   │ name      │ everettfu_nft                                                      │                    │
+│  │   ├───────────┼────────────────────────────────────────────────────────────────────┤                    │
+│  │   │ object_id │ 0xc77381db52de0016a8039fbb944eba4d3d071675d21b5f19c8d2107cc472742f │                    │
+│  │   └───────────┴────────────────────────────────────────────────────────────────────┘                    │
+│  └──                                                                                                       │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Object Changes                                                                                                  │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Created Objects:                                                                                                │
+│  ┌──                                                                                                            │
+│  │ ObjectID: 0xc77381db52de0016a8039fbb944eba4d3d071675d21b5f19c8d2107cc472742f                                 │
+│  │ Sender: 0x553c6fe083866c81b0499632ed4e68c0d4d4dd2df0a278a1630f480128e51609                                   │
+│  │ Owner: Account Address ( 0x553c6fe083866c81b0499632ed4e68c0d4d4dd2df0a278a1630f480128e51609 )                │
+│  │ ObjectType: 0xe42cfc3fce991f4428174116ea1c048821492da54fd65eb8509ba64865b97e78::everettfu_nft::EverettfuNFT  │
+│  │ Version: 211023830                                                                                           │
+│  │ Digest: ABksucToq7kmULVWfQYJZC1qjpp4VrXTxH1NCebTLSap                                                         │
+│  └──                                                                                                            │
+│ Mutated Objects:                                                                                                │
+│  ┌──                                                                                                            │
+│  │ ObjectID: 0x1d6912d60b4eb64c44d9939ccab657f989f8a78e935adba2e1550845575b8497                                 │
+│  │ Sender: 0x553c6fe083866c81b0499632ed4e68c0d4d4dd2df0a278a1630f480128e51609                                   │
+│  │ Owner: Account Address ( 0x553c6fe083866c81b0499632ed4e68c0d4d4dd2df0a278a1630f480128e51609 )                │
+│  │ ObjectType: 0x2::coin::Coin<0x2::sui::SUI>                                                                   │
+│  │ Version: 211023830                                                                                           │
+│  │ Digest: KKdjM1MdmcVt3XcHwrz1XSa8j98ZaLRWNV8Vb3itamP                                                          │
+│  └──                                                                                                            │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Balance Changes                                                                                   │
+├───────────────────────────────────────────────────────────────────────────────────────────────────┤
+│  ┌──                                                                                              │
+│  │ Owner: Account Address ( 0x553c6fe083866c81b0499632ed4e68c0d4d4dd2df0a278a1630f480128e51609 )  │
+│  │ CoinType: 0x2::sui::SUI                                                                        │
+│  │ Amount: -2796680                                                                               │
+│  └──                                                                                              │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────╯

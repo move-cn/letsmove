@@ -1,0 +1,1 @@
+sui client call --package 0xd0bb0d2dfe587ac1438b430e158ad2ba7bc4fac112bded92be4dfa9d515ff6fb --module game  --function withdraw --args 0xd026d5cb4f68673cfddd4f79a4ea40a62b3199e247862de3d153cf1e03b2d53e 0xf827781e5deeb7f1047ed006fbfff615ba10bce2284c9836c5d30318015dd039 1000000

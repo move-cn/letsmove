@@ -1,0 +1,12 @@
+sui client publish --gas-budget 20000000 --skip-fetch-latest-git-deps --skip-dependency-verification
+
+packageId: 0x15520f0e1d7b1890c97dbb77e57164da404850669cad6ff2e543039250a94edf
+
+sui client call --gas-budget 80000000 --package 0x15520f0e1d7b1890c97dbb77e57164da404850669cad6ff2e543039250a94edf --module mynft --function mint_nft --args xu8117nft "xu8117 nft, power by xu8117" "https://avatars.githubusercontent.com/u/39123862?s=400&u=f34876b9dfa09ade5bc9f9bc46fedebb4e3eaadd&v=4"
+
+nft id: 0x17a9984880a3b9819a4c409314d30b20712992295743c421744df2b5308fdd2e
+
+receive address: 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
+
+sui client call --gas-budget 7500000 --package $PACKAGE_ID --module simple_nft --function transfer_nft --args $NFT_ID $ADDRESS
+sui client call --gas-budget 8000000 --package 0x15520f0e1d7b1890c97dbb77e57164da404850669cad6ff2e543039250a94edf --module mynft --function transfer_nft --args 0x17a9984880a3b9819a4c409314d30b20712992295743c421744df2b5308fdd2e 0x7b8e0864967427679b4e129f79dc332a885c6087ec9e187b53451a9006ee15f2
