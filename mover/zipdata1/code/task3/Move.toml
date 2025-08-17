@@ -1,0 +1,6 @@
+[package]
+name = "zipdata_task3"
+edition = "2024"
+
+[addresses]
+zipdata_task3 = "0x0"
