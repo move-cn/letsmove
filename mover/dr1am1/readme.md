@@ -13,34 +13,34 @@
 ## 任务
 
 ##   01 hello move  
-- [√] Sui cli version:sui 1.37.1-7839b9501066
-- [√] Sui钱包截图: ![Sui钱包截图](./images/QIANBAO.png)
-- [√] package id: 0xb3c6309f28c9102b319f09845b2ee367e97174ddeb057ef4d713222179f9da7f
-- [√] package id 在 scan上的查看截图:![Scan截图](./images/img.png)
+- [x] Sui cli version:sui 1.37.1-7839b9501066
+- [x] Sui钱包截图: ![Sui钱包截图](./images/QIANBAO.png)
+- [x] package id: 0xb3c6309f28c9102b319f09845b2ee367e97174ddeb057ef4d713222179f9da7f
+- [x] package id 在 scan上的查看截图:![Scan截图](./images/img.png)
 
 ##   02 move coin
-- [√] My Coin package id : 0x607b2ed5c2eaf2324b724faddcd279534975103a2abbbac54702a276d2fb79b6
-- [√] Faucet package id : 0x915127f8dba042a510127489998ba6ea8dda651029df8b5f15db3141670887c5
-- [√] 转账 `My Coin` hash:GcWET4aNwri7bbXReVmDgHS8rPEjUo4q52Nb3XUQnYVU
-- [√] `Faucet Coin` address1 mint hash:4ChxZGyRhBghU8Yyjw6ywpbST4Uh6hXKNNiaMwEiNHnK
-- [√] `Faucet Coin` address2 mint hash:7e7e2NAyEKc7W3U7iWy2eQ5ZfVjYpfFUam4uvNsxWfe5
+- [x] My Coin package id : 0x607b2ed5c2eaf2324b724faddcd279534975103a2abbbac54702a276d2fb79b6
+- [x] Faucet package id : 0xf08f1248c39feda7e0cd2ee6b3a29218a5ae66af4da11fa7ddf341f770e033a7
+- [x] 转账 `My Coin` hash:GcWET4aNwri7bbXReVmDgHS8rPEjUo4q52Nb3XUQnYVU
+- [x] `Faucet Coin` address1 mint hash:4ChxZGyRhBghU8Yyjw6ywpbST4Uh6hXKNNiaMwEiNHnK
+- [x] `Faucet Coin` address2 mint hash:7e7e2NAyEKc7W3U7iWy2eQ5ZfVjYpfFUam4uvNsxWfe5
 
 ##   03 move NFT
-- [√] nft package id :0xf8fcd0bd4a3ebb6cb8fb23ad0e2085f81afdf9d1637060639bd883f98537b0ed
-- [√] nft object id : 0x0b6ae6946c5c78bbb233ded46385f834880d97fe408c32197012d0b95a594d72
-- [√] 转账 nft  hash:CskTCeBhVTBpuqK1EjvhZnZNhHn4ES3eLUNehQkhJTEy
-- [√] scan上的NFT截图:![Scan截图](./images/img_1.png)
+- [x] nft package id :0xf8fcd0bd4a3ebb6cb8fb23ad0e2085f81afdf9d1637060639bd883f98537b0ed
+- [x] nft object id : 0x0b6ae6946c5c78bbb233ded46385f834880d97fe408c32197012d0b95a594d72
+- [x] 转账 nft  hash:CskTCeBhVTBpuqK1EjvhZnZNhHn4ES3eLUNehQkhJTEy
+- [x] scan上的NFT截图:![Scan截图](./images/img_1.png)
 
 ##   04 Move Game
-- [] game package id :
-- [] deposit Coin hash:
-- [] withdraw `Coin` hash:
-- [] play game hash:
+- [x] game package id :0x62d09ebbdbdc28da1a756fb4b513067436e6448db09a1f0f5522da2af19a1dd5
+- [x] deposit Coin hash:4zMWS5At7DyZsvdSndy7fNzPmhXfAQEfBKSbtsdXVYYu
+- [x] withdraw `Coin` hash:53zsTT1o6VNdfgzG6v2ypBjSqgiG91f1Jz2QLQZYVR7t
+- [x] play game hash:13uQyXWDov88JrAdvDfMFLQJ3Yk8SqXRrQY2aMjfrGhk
 
 ##   05 Move Swap
-- [] swap package id :
-- [] call swap CoinA-> CoinB  hash :
-- [] call swap CoinB-> CoinA  hash :
+- [x] swap package id :0xe9e48d7743aaf44d44828ee1a50c70bb1ab48f1b4379d733ca9868fcfafc928f
+- [x] call swap CoinA-> CoinB  hash :3y5manZ3QdNy5xWqwVib5Tb259sQFNPa1KvAYGdRVGk5
+- [x] call swap CoinB-> CoinA  hash :7zaSKtBmfnQZ1yufoFHSnPu4xdZB8ZVz14it2CxySrkT
 
 ##   06 Dapp-kit SDK PTB
 - [] save hash :
