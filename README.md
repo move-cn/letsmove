@@ -20,6 +20,8 @@ Let's Move 鼓励更多的人学习Move语言
 | Let's Move Sui      | [中文](https://movesui.sui-book.com/)             |        [let's move](https://letsmovesui.com/)        |                                                     |
 | Sui Book            | [中文](https://sui-book.com)                      |                                                      |  |
 | Sui Move by Example | [中文](https://examples.sui-book.com/)            |   [Sui Move by Example](https://examples.sui.io/)    |                                                       |
+| Sui Social Networking App Course         | [中文](https://github.com/RandyPen/sui-social-networking-app-course-zh/)                |       [英文](https://github.com/RandyPen/sui-social-networking-app-course-en/)        | 
+| Proxy Trading Pattern        |            |       [英文](https://github.com/RandyPen/ProxyTradingPattern/)        | 
 | 轻松入门Move            | [轻松入门Move](https://easy.sui-book.com/)          |                                                      |                                                     |
 | Move Master         | [中文](https://master.sui-book.com/)                |       [move master](https://metaschool.so/sui)        |                                                     |
 | move castle         | [中文](https://movecastle.sui-book.com/)                |       [move castle](https://learn.movecastle.info/courses/move-on-sui)        |                                                     |
